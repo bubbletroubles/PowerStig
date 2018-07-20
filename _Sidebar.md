@@ -1,29 +1,11 @@
-# My menu
+# PowerStig Modules
 
 * [Home][home]
-* [Technical documentation][techdocs]
-  * [Common][common]
-  * [Convert][convert]
-  * [STIG][STIG]
-    * [OrganizationalSettings][techdocs_OrganizationalSettings]
-    * [SkippedRule][techdocs_SkippedRule]
-    * [SkippedRuleType][techdocs_SkippedRuleType]
-    * [StigData][techdocs_StigData]
-    * [StigException][techdocs_StigException]
-    * [StigProperty][techdocs_StigProperty]
-    * [TechnologyRole][techdocs_TechnologyRole]
-    * [TechnologyVersion][techdocs_TechnologyVersion]
+* [Common Module][techdocs_common]
+* [Convert Module][techdocs_convert]
+* [STIG Module][techdocs_Stig]
 
 [home]: https://github.com/Microsoft/PowerStig/wiki/home
-[techdocs]:                        https://github.com/Microsoft/PowerStig/wiki/TechDocs
-[common]:                          https://github.com/Microsoft/PowerStig/wiki/TechDocs.Common
-[convert]:                         https://github.com/Microsoft/PowerStig/wiki/TechDocs.Convert
-[STIG]:                            https://github.com/Microsoft/PowerStig/wiki/TechDocs.Stig
-[techdocs_OrganizationalSettings]: https://github.com/Microsoft/PowerStig/wiki/TechDocs.Stig.OrganizationalSettings
-[techdocs_SkippedRule]:            https://github.com/Microsoft/PowerStig/wiki/TechDocs.Stig.SkippedRule
-[techdocs_SkippedRuleType]:        https://github.com/Microsoft/PowerStig/wiki/TechDocs.Stig.SkippedRuleType
-[techdocs_StigData]:               https://github.com/Microsoft/PowerStig/wiki/TechDocs.Stig.StigData
-[techdocs_StigException]:          https://github.com/Microsoft/PowerStig/wiki/TechDocs.Stig.StigException
-[techdocs_StigProperty]:           https://github.com/Microsoft/PowerStig/wiki/TechDocs.Stig.StigProperty
-[techdocs_TechnologyRole]:         https://github.com/Microsoft/PowerStig/wiki/TechDocs.Stig.TechnologyRole
-[techdocs_TechnologyVersion]:      https://github.com/Microsoft/PowerStig/wiki/TechDocs.Stig.TechnologyVersion
+[techdocs_common]:  https://github.com/Microsoft/PowerStig/wiki/_Sidebar.Common
+[techdocs_convert]: https://github.com/Microsoft/PowerStig/wiki/_Sidebar.Convert
+[techdocs_Stig]:    https://github.com/Microsoft/PowerStig/wiki/_Sidebar.Stig

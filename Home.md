@@ -3,7 +3,7 @@
 PowerStig is a class-based project that contains two modules (Convert and STIG) to support the core concepts of:
 
 1. Provide STIG data in a format that is accessible to automation.
-1. Provide for the inevitable exception to policy
+1. Provide for the inevitable exception to policy.
 1. Provide for deconflicting settings when multiple STIG's are applied to a server.
 
 ## Common Components
