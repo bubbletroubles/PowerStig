@@ -1,18 +1,7 @@
 #
 
-## Common
-
-## Convert
-
-## Stig
-
 |||
 |-|-|
-| [OrganizationalSettings](.\STIG\OrganizationalSettings.md)| This class describes an OrganizationalSetting.|
-| [SkippedRule](.\STIG\SkippedRule.md)| This class describes a SkippedRule.|
-| [SkippedRuleType](.\STIG\SkippedRuleType.md)|This class describes a SkippedRuleType. |
-| [StigData](.\STIG\StigData.md)| This class describes a StigData. |
-| [StigException](.\STIG\StigException.md)|  This class describes a StigException. |
-| [StigProperty](.\STIG\StigProperty.md)| This class describes a StigProperty. |
-| [TechnologyRole](.\STIG\TechnologyRole.md)| This class describes a TechnologyRole. |
-| [TechnologyVersion](.\STIG\TechnologyVersion.md)| This class describes a TechnologyVersion. |
+| [Common](https://github.com/Microsoft/PowerStig/wiki/TechDocs.Common.md)| This class describes an OrganizationalSetting.|
+| [Convert](https://github.com/Microsoft/PowerStig/wiki/TechDocs.Convert.md)| This class describes a SkippedRule.|
+| [Stig](https://github.com/Microsoft/PowerStig/wiki/TechDocs.Stig.md)| This class describes a SkippedRuleType. |
