@@ -1,4 +1,4 @@
-# TechnologyVersion
+# TechnologyVersion Class
 
 The TechnologyVersion class describes a TechnologyVersion, the definition of the specific version of the application or portion of an application that the Stig applies to. The TechnologyVersion is one of a few Technology focused classes that work together to form a complete description of the Stig required by the user or application creating the StigData instance.
 

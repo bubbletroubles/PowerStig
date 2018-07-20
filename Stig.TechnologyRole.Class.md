@@ -1,4 +1,4 @@
-# TechnologyRole
+# TechnologyRole Class
 
 The TechnologyRole class describes a TechnologyRole, the definition of the specific application or portion of an application that the Stig applies to. The TechnologyRole is one of a few Technology focused classes that work together to form a complete description of the Stig required by the user or application creating the StigData instance.
 

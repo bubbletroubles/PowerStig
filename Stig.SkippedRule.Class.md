@@ -1,4 +1,4 @@
-# SkippedRule
+# SkippedRule Class
 
 The SkippedRule class describes a SkippedRule, the rule id of a specific Stig rule that should be excluded from the Stigs that need to be processed. The SkippedRule class instance will move the specific Stig rule into a SkippedRule section of the StigData output Xml so that it is documented as having been skipped.
 

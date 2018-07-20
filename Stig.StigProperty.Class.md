@@ -1,4 +1,4 @@
-# StigProperty
+# StigProperty Class
 
 The StigProperty class describes a StigProperty, the abstracted key/value pair definition of any property within a Stig rule. A collection of StigProperty instances combine to for a complete description of a Stig rule. StigException instances are made up of a collection of StigProperty in order to override the existing values of those properties.
 

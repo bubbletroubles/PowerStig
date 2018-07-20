@@ -1,4 +1,4 @@
-# StigException
+# StigException Class
 
 The StigException class describes a StigException, the collection of StigProperty to override on a specific Stig rule.
 
