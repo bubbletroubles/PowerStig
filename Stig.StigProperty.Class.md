@@ -4,21 +4,21 @@ The StigProperty class describes a StigProperty, the abstracted key/value pair d
 
 ## Constructors
 
-|||
+| Name | Description |
 |-|-|
 | StigProperty() | DO NOT USE - For testing only |
 | StigProperty(Name, Value) | A constructor for StigProperty. Returns a ready to use instance of StigProperty. |
 
 ## Properties
 
-|||
+| Name | Description |
 |-|-|
 | [Name](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.7.1) | The name of an individual property on a Stig Rule. |
 | [Value](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.7.1) | The value of an individual property on a Stig Rule. |
 
 ## Methods
 
-|||
+| Name | Description |
 |-|-|
 | None | |
 

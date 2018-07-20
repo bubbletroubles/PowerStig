@@ -4,20 +4,20 @@ The SkippedRuleType class describes a SkippedRuleType, the collection of Stig ru
 
 ## Constructors
 
-|||
+| Name | Description |
 |-|-|
 | SkippedRuleType() | DO NOT USE - For testing only |
 | SkippedRuleType(RuleType) | A constructor for SkippedRuleType. Returns a ready to use instance of SkippedRuleType. |
 
 ## Properties
 
-|||
+| Name | Description |
 |-|-|
 | [StigRuleType](.\..\common\RuleType.md) | The name of the type of Stig rule. |
 
 ## Methods
 
-|||
+| Name | Description |
 |-|-|
 | ConvertFrom *[s]* | Converts a provided string array of Stig rule types into a SkippedRuleType array. |
 

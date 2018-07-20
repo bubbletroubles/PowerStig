@@ -4,14 +4,14 @@ The StigData class describes a StigData, the collection of all Stig rules for a 
 
 ## Constructors
 
-|||
+| Name | Description |
 |-|-|
 | StigData() | DO NOT USE - For testing only |
 | StigData($StigVersion, $OrganizationalSettings, $Technology, $TechnologyRole, $TechnologyVersion, $StigExceptions, $SkippedRuleTypes, $SkippedRules) | A constructor for StigData. Returns a ready to use instance of StigData. |
 
 ## Properties
 
-|||
+| Name | Description |
 |-|-|
 | [StigVersion](https://docs.microsoft.com/en-us/dotnet/api/?view=netframework-4.7.1&term=system.version) | The document/published version of the Stig to select |
 | [OrganizationalSettings](OrganizationalSettings.md) | An array of settings/values specific to an organization to apply to specific rules. |
@@ -26,7 +26,7 @@ The StigData class describes a StigData, the collection of all Stig rules for a 
 
 ## Methods
 
-|||
+| Name | Description |
 |-|-|
 | SetStigPath()                 | Determines and sets the StigPath. |
 | ProcessStigData()             | Processes properties into Stig Xml. |

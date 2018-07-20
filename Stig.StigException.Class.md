@@ -4,21 +4,21 @@ The StigException class describes a StigException, the collection of StigPropert
 
 ## Constructors
 
-|||
+| Name | Description |
 |-|-|
 | StigException() | DO NOT USE - For testing only |
 | StigException(StigRuleId, Properties) | A constructor for StigException. Returns a ready to use instance of StigException. |
 
 ## Properties
 
-|||
+| Name | Description |
 |-|-|
 | [StigRuleId](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.7.1) | The Id of an individual Stig Rule. |
 | [Properties[]](.StigProperty.md) | An array of properties and their values to override on a Stig rule. |
 
 ## Methods
 
-|||
+| Name | Description |
 |-|-|
 | AddProperty(StigProperty) | Adds a StigPropery instance to the StigException Properties property. |
 | AddProperty(Name, Value) |Adds a StigPropery instance to the StigException Properties property based on the provided key/value pair. |

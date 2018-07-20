@@ -4,14 +4,14 @@ The TechnologyVersion class describes a TechnologyVersion, the definition of the
 
 ## Constructors
 
-|||
+| Name | Description |
 |-|-|
 | TechnologyVersion() | DO NOT USE - For testing only |
 | TechnologyVersion(Name, Technology) | A constructor for TechnologyVersion. Returns a ready to use instance of TechnologyVersion. |
 
 ## Properties
 
-|||
+| Name | Description |
 |-|-|
 | [Name](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.7.1) | The name of a version of technology of the Stig to select. |
 | [Technology](Technology.md) | The Technology instance for the selected version. |
@@ -19,7 +19,7 @@ The TechnologyVersion class describes a TechnologyVersion, the definition of the
 
 ## Methods
 
-|||
+| Name | Description |
 |-|-|
 | Validate() | This method validates that the provided name for the TechnologyVersion is available for a given Technology in PowerStig. |
 | Available(TechnologyVersion) *[s]* | This method returns TechnologyVersions for a given Technology name currently available in PowerStig. |

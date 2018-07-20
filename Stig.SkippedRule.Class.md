@@ -4,20 +4,20 @@ The SkippedRule class describes a SkippedRule, the rule id of a specific Stig ru
 
 ## Constructors
 
-|||
+| Name | Description |
 |-|-|
 | SkippedRule() | DO NOT USE - For testing only |
 | SkippedRule(StigRuleId) | A constructor for SkippedRule. Returns a ready to use instance of SkippedRule. |
 
 ## Properties
 
-|||
+| Name | Description |
 |-|-|
 | [StigRuleId](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.7.1) | The Id of an individual Stig Rule to skip. |
 
 ## Methods
 
-|||
+| Name | Description |
 |-|-|
 | None | |
 

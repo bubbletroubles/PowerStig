@@ -4,14 +4,14 @@ The TechnologyRole class describes a TechnologyRole, the definition of the speci
 
 ## Constructors
 
-|||
+| Name | Description |
 |-|-|
 | TechnologyRole() | DO NOT USE - For testing only |
 | TechnologyRole(Name, TechnologyVersion) | A constructor for TechnologyRole. Returns a ready to use instance of TechnologyRole. |
 
 ## Properties
 
-|||
+| Name | Description |
 |-|-|
 | [Name](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.7.1) | The name of a role of technology of the Stig to select. |
 | [TechnologyVersion](TechnologyVersion.md) | The TechnologyVersion instance for the selected role. |
@@ -19,7 +19,7 @@ The TechnologyRole class describes a TechnologyRole, the definition of the speci
 
 ## Methods
 
-|||
+| Name | Description |
 |-|-|
 | Validate() | This method validates that the provided name for the TechnologyRole is available for a given TechnologyVersion in PowerStig. |
 | Available(TechnologyVersion) *[s]* | This method returns TechnologyRoles for a given TechnologyVersion name currently available in PowerStig. |
