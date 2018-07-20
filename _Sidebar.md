@@ -1,11 +1,11 @@
 # PowerStig Modules
 
 * [Home][home]
-* [Common Module][techdocs_common]
-* [Convert Module][techdocs_convert]
-* [STIG Module][techdocs_Stig]
+* [Common Module][common]
+* [Convert Module][convert]
+* [STIG Module][Stig]
 
 [home]: https://github.com/Microsoft/PowerStig/wiki/home
-[techdocs_common]:  https://github.com/Microsoft/PowerStig/wiki/_Sidebar.Common
-[techdocs_convert]: https://github.com/Microsoft/PowerStig/wiki/_Sidebar.Convert
-[techdocs_Stig]:    https://github.com/Microsoft/PowerStig/wiki/_Sidebar.Stig
+[common]:  https://github.com/Microsoft/PowerStig/wiki/Common
+[convert]: https://github.com/Microsoft/PowerStig/wiki/Convert
+[Stig]:    https://github.com/Microsoft/PowerStig/wiki/Stig
