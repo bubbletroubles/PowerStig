@@ -30,9 +30,9 @@ The OrganizationalSetting class describes OrganizationalSetting, a value for a S
 $organizationalSetting = [OrganizationalSetting]::new('V-1090', '4')
 ```
 
-[Constructor]: Stig.OrganizationalSettings.Class.Syntax#Constructor
-[Property.StigRuleId]: Stig.OrganizationalSettings.Class.Syntax#Property.StigRuleId
-[Property.Value]: Stig.OrganizationalSettings.Class.Syntax#Property.Value
-[Method.PropertyMap]: Stig.OrganizationalSettings.Class.Syntax#Prop.Method.PropertyMap
-[Method.ConvertFrom.Xml]: Stig.OrganizationalSettings.Class.Syntax#Method.ConvertFrom.Xml
-[Method.ConvertFrom.Hashtable]: Stig.OrganizationalSettings.Class.Syntax#Method.ConvertFrom.Hashtable
+[Constructor]: Stig.OrganizationalSettings.Class.Syntax#constructor
+[Property.StigRuleId]: Stig.OrganizationalSettings.Class.Syntax#propertystigruleid
+[Property.Value]: Stig.OrganizationalSettings.Class.Syntax#propertyvalue
+[Method.PropertyMap]: Stig.OrganizationalSettings.Class.Syntax#methodpropertymap
+[Method.ConvertFrom.Xml]: Stig.OrganizationalSettings.Class.Syntax#methodconvertfromxml
+[Method.ConvertFrom.Hashtable]: Stig.OrganizationalSettings.Class.Syntax#methodconvertfromhashtable
