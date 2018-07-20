@@ -14,7 +14,7 @@
     * [TechnologyRole][techdocs_TechnologyRole]
     * [TechnologyVersion][techdocs_TechnologyVersion]
 
-[home]: https://github.com/Microsoft/PowerStig/wiki/_home
+[home]: https://github.com/Microsoft/PowerStig/wiki/home
 [techdocs]:                        https://github.com/Microsoft/PowerStig/wiki/TechDocs
 [common]:                          https://github.com/Microsoft/PowerStig/wiki/TechDocs.Common
 [convert]:                         https://github.com/Microsoft/PowerStig/wiki/TechDocs.Convert
