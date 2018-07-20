@@ -20,9 +20,9 @@ The OrganizationalSetting class describes OrganizationalSetting, a value for a S
 
 | Name | Description |
 |-|-|
-| PropertyMap() | The mapping of Stig rule types to the property needing to be modified within the Stig rule. |
-| ConvertFrom(xml) | Converts a provided Xml document into an OrganizationalSetting array. |
-| ConvertFrom(hashtable) | Converts a provided Hashtable into an OrganizationalSetting array. |
+| [PropertyMap()][Method.PropertyMap] | The mapping of Stig rule types to the property needing to be modified within the Stig rule. |
+| [ConvertFrom(xml)][Method.ConvertFrom.Xml] | Converts a provided Xml document into an OrganizationalSetting array. |
+| [ConvertFrom(hashtable)][Method.ConvertFrom.Hashtable] | Converts a provided Hashtable into an OrganizationalSetting array. |
 
 ## Example
 
@@ -33,3 +33,6 @@ $organizationalSetting = [OrganizationalSetting]::new('V-1090', '4')
 [Constructor]: Stig.OrganizationalSettings.Class.Syntax#Constructor
 [Property.StigRuleId]: Stig.OrganizationalSettings.Class.Syntax#Property.StigRuleId
 [Property.Value]: Stig.OrganizationalSettings.Class.Syntax#Property.Value
+[Method.PropertyMap]: Stig.OrganizationalSettings.Class.Syntax#Prop.Method.PropertyMap
+[Method.ConvertFrom.Xml]: Stig.OrganizationalSettings.Class.Syntax#Method.ConvertFrom.Xml
+[Method.ConvertFrom.Hashtable]: Stig.OrganizationalSettings.Class.Syntax#Method.ConvertFrom.Hashtable
