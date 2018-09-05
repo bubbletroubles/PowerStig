@@ -20,7 +20,7 @@ All you have to do to start using PowerStig, it to run the following command fro
 ```
 
 Powershell will take it from there and automatically install all of the dependent modules for you automatically.
-You don't need to run as an admin to install the PowerShell modules, so the -Scope CurrentUser is used to install into your profile module path. Once PowerShell has installed everything, you are ready to go. You can grab one of the [examples][examples] and run it to compile your first STIG'd MOF.
+You don't need to run as an admin to install the PowerShell modules, so the -Scope CurrentUser is used to install into your profile module path. Once PowerShell has installed everything, you are ready to go. You can grab one of the examples from the composite resource links above and run it to compile your first STIG'd MOF.
 From there you have a few options, depending on if you have any DSC infrastructure already in place.
 
 1. [No existing DSC infrastructure][DscGettingStarted]
