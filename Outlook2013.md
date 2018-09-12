@@ -42,7 +42,7 @@ Configuration Example
         Outlook2013 Outlook2013Settings
         {
             Outlook2013 = 'Outlook2013'
-            Stigversion    = '1.13'
+            Stigversion    = '1.12'
         }
     }
 }
