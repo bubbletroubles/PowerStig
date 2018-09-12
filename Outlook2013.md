@@ -1,0 +1,1 @@
+A composite DSC resource to manage the Outlook 2013 STIG settings
