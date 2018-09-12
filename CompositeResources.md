@@ -3,8 +3,8 @@
 PowerStig provides PowerShell Desired State Configuration Composite resources to audit and or apply STIG settings.
 Below is a list of STIG that currently covered by a composite resource.
 
-* [Outlook2013][outlook2013]
 * [Browser][browser]
+* [Outlook2013][outlook2013]
 * [SqlServer][sqlserver]
 * [WindowsDnsServer][windowsdnsserver]
 * [WindowsFirewall][windowsfirewall]
