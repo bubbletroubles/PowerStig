@@ -10,7 +10,7 @@ None
 
 | Parameter | Attribute | DataType | Description | Allowed Values |
 | --------- | --------- | -------- | ----------- | -------------- |
-| OfficeVersion | True | String | The version of the Office STIG to apply and monitor | Excel2013, Outlook2013, PowerPoint2013, Word2013 |
+| OfficeApp | True | String | The version of the Office STIG to apply and monitor | Excel2013, Outlook2013, PowerPoint2013, Word2013 |
 | StigVersion | False | Version | The version of the Office STIG to apply and/or monitor | 1.6,1.7,1.12 |
 | Exception | False | PSObject | A hash table of StigId=Value key pairs that are injected into the STIG data and applied to the target node. The title of STIG setting is tagged with the text "Exception" to identify the exceptions to policy across the data center when you centralize DSC log collection. |  |
 | OrgSettings | False | PSObject | The path to the XML file that contains the local organizations preferred settings for STIG items that have allowable ranges. |  |
