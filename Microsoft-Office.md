@@ -23,7 +23,7 @@ None
 
 ```PowerShell
 <#
-    In this example, the Outlook 2013 STIG V1R12 is processed by the composite resource.
+    In this example, the Outlook 2013 STIG V1R12 is processed by the Office composite resource.
 #>
 
 Configuration Office2013
