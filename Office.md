@@ -26,7 +26,7 @@ None
     In this example, the Outlook 2013 STIG V1R12 is processed by the composite resource.
 #>
 
-Configuration Example
+Configuration Office2013
 {
     param
     (
@@ -35,17 +35,16 @@ Configuration Example
         $NodeName = 'localhost'
     )
 
-    Import-DscResource -ModuleName PowerStig
+    Import-DscResource -ModuleName PowerStig -ModuleVersion 2.1.0.0
 
     Node $NodeName
     {
-        Outlook2013 Outlook2013Settings
+        Office Outlook2013Settings
         {
-            Outlook2013 = 'Outlook2013'
+            OfficeApp = 'Outlook2013'
             Stigversion    = '1.12'
         }
     }
 }
-
 Example
 ```
