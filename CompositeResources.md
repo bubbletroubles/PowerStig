@@ -4,7 +4,7 @@ PowerStig provides PowerShell Desired State Configuration Composite resources to
 Below is a list of STIG that currently covered by a composite resource.
 
 * [Browser][browser]
-* [Outlook2013][outlook2013]
+* [Office][Office]
 * [SqlServer][sqlserver]
 * [WindowsDnsServer][windowsdnsserver]
 * [WindowsFirewall][windowsfirewall]
@@ -84,7 +84,7 @@ If you have existing configurations that you would like to apply the STIG to, th
 [DscAzureAutomation]:     https://github.com/Microsoft/PowerStig/wiki/DscAzureAutomation
 [DscAzureVirtualMachine]: https://github.com/Microsoft/PowerStig/wiki/DscAzureVirtualMachine
 [browser]:                https://github.com/Microsoft/PowerStig/wiki/Browser
-[outlook2013]:            https://github.com/Microsoft/PowerStig/wiki/Outlook2013
+[office]:                 https://github.com/Microsoft/PowerStig/wiki/Office
 [sqlserver]:              https://github.com/Microsoft/PowerStig/wiki/SqlServer
 [windowsdnsserver]:       https://github.com/Microsoft/PowerStig/wiki/WindowsDnsServer
 [windowsfirewall]:        https://github.com/Microsoft/PowerStig/wiki/WindowsFirewall
@@ -94,7 +94,7 @@ If you have existing configurations that you would like to apply the STIG to, th
 
 
 [browser]:                https://github.com/Microsoft/PowerStig/wiki/Browser
-[outlook2013]:            https://github.com/Microsoft/PowerStig/wiki/Outlook2013
+[office]:                 https://github.com/Microsoft/PowerStig/wiki/Office
 [sqlserver]:              https://github.com/Microsoft/PowerStig/wiki/SqlServer
 [windowsdnsserver]:       https://github.com/Microsoft/PowerStig/wiki/WindowsDnsServer
 [windowsfirewall]:        https://github.com/Microsoft/PowerStig/wiki/WindowsFirewall
