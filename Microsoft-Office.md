@@ -1,4 +1,4 @@
-# Office
+# Microsoft Office
 
 A composite DSC resource to manage the Microsoft Office STIG settings
 
