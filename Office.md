@@ -1,6 +1,6 @@
-# Office2013
+# Office
 
-A composite DSC resource to manage the Microsoft Office 2013 STIG settings
+A composite DSC resource to manage the Microsoft Office STIG settings
 
 ## Requirements
 
