@@ -7,13 +7,13 @@ The OrganizationalSetting class describes OrganizationalSetting, a value for a S
 | Name | Description |
 |-|-|
 | OrganizationalSetting() | DO NOT USE - For testing only |
-| [OrganizationalSetting(StigRuleId, Value)][Constructor] | A constructor for OrganizationalSetting. Returns a ready to use instance of OrganizationalSetting. |
+| [OrganizationalSetting(RuleId, Value)][Constructor] | A constructor for OrganizationalSetting. Returns a ready to use instance of OrganizationalSetting. |
 
 ## Properties
 
 | Name | Description |
 |-|-|
-|[StigRuleId][Property.StigRuleId] | The Id of an individual Stig Rule. |
+|[RuleId][Property.RuleId] | The Id of an individual Stig Rule. |
 |[Value][Property.Value] | The specific organizational value to set for the associated Stig rule. |
 
 ## Methods
@@ -30,9 +30,9 @@ The OrganizationalSetting class describes OrganizationalSetting, a value for a S
 $organizationalSetting = [OrganizationalSetting]::new('V-1090', '4')
 ```
 
-[Constructor]: Stig.OrganizationalSettings.Class.Syntax#constructor
-[Property.StigRuleId]: Stig.OrganizationalSettings.Class.Syntax#propertystigruleid
-[Property.Value]: Stig.OrganizationalSettings.Class.Syntax#propertyvalue
-[Method.PropertyMap]: Stig.OrganizationalSettings.Class.Syntax#methodpropertymap
-[Method.ConvertFrom.Xml]: Stig.OrganizationalSettings.Class.Syntax#methodconvertfromxml
-[Method.ConvertFrom.Hashtable]: Stig.OrganizationalSettings.Class.Syntax#methodconvertfromhashtable
+[Constructor]: OrganizationalSettings.Class.Syntax#constructor
+[Property.RuleId]: OrganizationalSettings.Class.Syntax#propertyRuleId
+[Property.Value]: OrganizationalSettings.Class.Syntax#propertyvalue
+[Method.PropertyMap]: OrganizationalSettings.Class.Syntax#methodpropertymap
+[Method.ConvertFrom.Xml]: OrganizationalSettings.Class.Syntax#methodconvertfromxml
+[Method.ConvertFrom.Hashtable]: OrganizationalSettings.Class.Syntax#methodconvertfromhashtable

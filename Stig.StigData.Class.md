@@ -36,7 +36,7 @@ The StigData class describes a StigData, the collection of all Stig rules for a 
 | MergeSkippedRules()           | Merges SkippedRules property into StigXml. |
 | GetRootPath() *[s]*           | Returns the root path to the StigData directory. |
 | GetHighestStigVersion(Technology, TechnologyRole, TechnologyVersion) *[s]* | Returns the highest available Stig version. |
-| GetAvailableStigs() *[s]*     | Returns all available Stigs. |
+| ListAvailable() *[s]*     | Returns all available Stigs. |
 
 ## Examples
 
@@ -60,7 +60,7 @@ $technology        = [Technology]::Windows
 $technologyVersion = [TechnologyVersion]::New( $OsVersion, $technology )
 $technologyRole    = [TechnologyRole]::New( $OsRole, $technologyVersion )
 
-$stigData = [StigData]::new($StigVersion, $OrganizationalSettings, $Technology, $TechnologyRole, $TechnologyVersion, $StigExceptions, $SkippedRuleTypes, $SkippedRules)
+$stigData = [STIG]::new($StigVersion, $OrganizationalSettings, $Technology, $TechnologyRole, $TechnologyVersion, $StigExceptions, $SkippedRuleTypes, $SkippedRules)
 ```
 
 ### Example 2

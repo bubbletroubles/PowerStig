@@ -2,20 +2,20 @@
 
 ## Constructor
 
-Initializes a new instance of the OrganizationalSetting class to the value indicated by the StigRuleId and Value
+Initializes a new instance of the OrganizationalSetting class to the value indicated by the RuleId and Value
 
 ```PowerShell
-public OrganizationalSetting([string] $StigRuleId, [string] $Value)
+public OrganizationalSetting([string] $RuleId, [string] $Value)
 ```
 
 ### Parameters
 
 | Name | Type | Description |
 | - | - | - |
-| StigRuleId | system.string | The Id of an individual Stig Rule. |
+| RuleId | system.string | The Id of an individual Stig Rule. |
 | Value | system.string | The specific organizational value to set for the associated Stig rule. |
 
-## Property.StigRuleId
+## Property.RuleId
 
 ```PowerShell
 public string {get; set;}
