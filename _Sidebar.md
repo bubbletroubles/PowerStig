@@ -1,6 +1,11 @@
 # PowerStig
 
 * [Home][home]
+* [Getting Started][gettingstarted]
+  * [No existing DSC infrastructure][DscGettingStarted]
+  * [Existing DSC infrastructure][DscOnPremises]
+  * [Azure Automation Account][DscAzureAutomation]
+  * [Azure Virtual Machine][DscAzureVirtualMachine]
 * [Composite Resources][compositeresources]
   * [Browser][browser]
   * [Office][Office]
@@ -9,16 +14,12 @@
   * [WindowsFirewall][windowsfirewall]
   * [WindowsServer][windowsserver]
 * [Document Module][document]
-* Getting Started
-  * [No existing DSC infrastructure][DscGettingStarted]
-  * [Existing DSC infrastructure][DscOnPremises]
-  * [Azure Automation Account][DscAzureAutomation]
-  * [Azure Virtual Machine][DscAzureVirtualMachine]
 
 [home]:                   https://github.com/Microsoft/PowerStig/wiki/home
 [convert]:                https://github.com/Microsoft/PowerStig/wiki/Convert
 [stig]:                   https://github.com/Microsoft/PowerStig/wiki/Stig
 [compositeresources]:     https://github.com/Microsoft/PowerStig/wiki/CompositeResources
+[gettingstarted]:         https://github.com/Microsoft/PowerStig/wiki/GettingStarted
 [browser]:                https://github.com/Microsoft/PowerStig/wiki/Browser
 [office]:                 https://github.com/Microsoft/PowerStig/wiki/Office
 [sqlserver]:              https://github.com/Microsoft/PowerStig/wiki/SqlServer
