@@ -4,6 +4,7 @@ PowerStig provides PowerShell Desired State Configuration Composite resources to
 Below is a list of STIG that currently covered by a composite resource.
 
 * [Browser][browser]
+* [Office][Office]
 * [SqlServer][sqlserver]
 * [WindowsDnsServer][windowsdnsserver]
 * [WindowsFirewall][windowsfirewall]
@@ -20,7 +21,7 @@ All you have to do to start using PowerStig, it to run the following command fro
 ```
 
 Powershell will take it from there and automatically install all of the dependent modules for you automatically.
-You don't need to run as an admin to install the PowerShell modules, so the -Scope CurrentUser is used to install into your profile module path. Once PowerShell has installed everything, you are ready to go. You can grab one of the [examples][examples] and run it to compile your first STIG'd MOF.
+You don't need to run as an admin to install the PowerShell modules, so the -Scope CurrentUser is used to install into your profile module path. Once PowerShell has installed everything, you are ready to go. You can grab one of the examples from the composite resource links above and run it to compile your first STIG'd MOF.
 From there you have a few options, depending on if you have any DSC infrastructure already in place.
 
 1. [No existing DSC infrastructure][DscGettingStarted]
@@ -83,6 +84,7 @@ If you have existing configurations that you would like to apply the STIG to, th
 [DscAzureAutomation]:     https://github.com/Microsoft/PowerStig/wiki/DscAzureAutomation
 [DscAzureVirtualMachine]: https://github.com/Microsoft/PowerStig/wiki/DscAzureVirtualMachine
 [browser]:                https://github.com/Microsoft/PowerStig/wiki/Browser
+[office]:                 https://github.com/Microsoft/PowerStig/wiki/Office
 [sqlserver]:              https://github.com/Microsoft/PowerStig/wiki/SqlServer
 [windowsdnsserver]:       https://github.com/Microsoft/PowerStig/wiki/WindowsDnsServer
 [windowsfirewall]:        https://github.com/Microsoft/PowerStig/wiki/WindowsFirewall
@@ -92,6 +94,7 @@ If you have existing configurations that you would like to apply the STIG to, th
 
 
 [browser]:                https://github.com/Microsoft/PowerStig/wiki/Browser
+[office]:                 https://github.com/Microsoft/PowerStig/wiki/Office
 [sqlserver]:              https://github.com/Microsoft/PowerStig/wiki/SqlServer
 [windowsdnsserver]:       https://github.com/Microsoft/PowerStig/wiki/WindowsDnsServer
 [windowsfirewall]:        https://github.com/Microsoft/PowerStig/wiki/WindowsFirewall
