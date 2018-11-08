@@ -1,6 +1,4 @@
 
----
-
 All you have to do to start using PowerStig, it to run the following command from PowerShell 5.0 or higher.
 
 ```powershell
