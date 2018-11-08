@@ -1,11 +1,8 @@
 # PowerStig
 
 * [Home][home]
-* Modules
-  * [Convert Module][convert]
-  * [STIG Module][stig]
-  * [Composite Resources][compositeresources]
-  * [Document Module][document]
+* [Composite Resources][compositeresources]
+* [Document Module][document]
 * Getting Started
   * [No existing DSC infrastructure][DscGettingStarted]
   * [Existing DSC infrastructure][DscOnPremises]
