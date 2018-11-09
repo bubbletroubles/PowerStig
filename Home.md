@@ -87,9 +87,9 @@ No amount of import-module will ever update the class in memory.
 The reason we mention this is because if are testing and making changes to a class, then you need to reload your PS session and reimport the module/class.
 Other than that, the project structure is set up so that you shouldn't bump into any other PS class issues.
 
-[DscOverview]:                              [https://docs.microsoft.com/en-us/powershell/dsc/overview]
+[DscOverview]:                              https://docs.microsoft.com/en-us/powershell/dsc/overview
 [GettingStarted]:                           https://github.com/Microsoft/PowerStig/wiki/GettingStarted
-[CompositeResources]:                       [https://github.com/Microsoft/PowerStig/wiki/CompositeResources]
-[CompositeResourcesOrganizationalSettings]: [https://github.com/Microsoft/PowerStig/wiki/CompositeResources#organizational-settings]
-[CompositeResourcesException]:              [https://github.com/Microsoft/PowerStig/wiki/CompositeResources#exception]
-[CompositeResourcesSkipRule]:               [https://github.com/Microsoft/PowerStig/wiki/CompositeResources#skip-rule--type]
+[CompositeResources]:                       https://github.com/Microsoft/PowerStig/wiki/CompositeResources
+[CompositeResourcesOrganizationalSettings]: https://github.com/Microsoft/PowerStig/wiki/CompositeResources#organizational-settings
+[CompositeResourcesException]:              https://github.com/Microsoft/PowerStig/wiki/CompositeResources#exception
+[CompositeResourcesSkipRule]:               https://github.com/Microsoft/PowerStig/wiki/CompositeResources#skip-rule--type
