@@ -1,19 +1,23 @@
 
-To get started using PowerStig, install it from the PowerShell gallery using PowerShellGet (in PowerShell 5.0), run the following command:
+PowerSTIG uses PowerShell Desired State Configuration (DSC) to audit and enforce individual STIG rules.
+If you are not already famailair with DSC, please review the official documenation [here][DscOverview].
+Once you are comfortable with DSC concepts, it's time to down the PowerSTIG module from the [PowerShell Gallery][PsGallery].
+Using PowerShellGet in PowerShell 5.0 +, run the following command:
 
 ```powershell
-Install-Module PowerStig -Scope CurrentUser
+Install-Module PowerSTIG -Scope CurrentUser
 ```
 
-To confirm installation, run the below command and ensure you see the PowerStig modules available:
+To confirm installation, run the below command and ensure you see the PowerSTIG modules available:
 
 ```PowerShell
-Get-Module -Name PowerStig* -ListAvailable
+Get-Module -Name PowerSTIG* -ListAvailable
 ```
 
 Powershell will take it from there and automatically install all of the dependent modules for you.
-You don't need to run as an admin to install the PowerShell modules, so the -Scope CurrentUser is used to install into your profile module path.
-Once PowerShell has installed everything, you are ready to go.
+Since PowerSTIG provides composite DSC resources, we have to ensure that all of the actual DSC resources that do the work are installed.
+**NOTE:** You don't need to run as an admin to install the PowerShell modules, so the '-Scope CurrentUser' is used to install into your profile module path.
+Once PowerShell has installed everything, you are ready to begin.
 You can grab one of the examples from the composite resource links to the right and run it to compile your first STIG'd MOF.
 From there you have a few options, depending on if you have any DSC infrastructure already in place.
 
@@ -22,14 +26,14 @@ From there you have a few options, depending on if you have any DSC infrastructu
 1. [Azure Automation Account][DscAzureAutomation]
 1. [Azure Virtual Machine][DscAzureVirtualMachine]
 
-## PowerStig Updates
+## PowerSTIG Updates
 
-As we release updates to PowerStig with new STIG's, you shouldn't need to update PowerStig you will need to update the PowerStig module.
+As we release updates to PowerSTIG with new STIG's, you shouldn't need to update PowerSTIG you will need to update the PowerSTIG module.
 PowerShell will take care of that for you as well.
 
-## Integrating PowerStig
+## Integrating PowerSTIG
 
-Integrating PowerStig into your environment is not too difficult once you establish a workflow.
+Integrating PowerSTIG into your environment is not too difficult once you establish a workflow.
 This section is intended to help you with your initial integration.
 If you run into any issues that are not outlined here, please request an update to the Wiki.
 
@@ -65,10 +69,12 @@ The Test-DscConfiguration outputs its results to the $audit variable that we can
 
 If you have existing configurations that you would like to apply the STIG to, then you will need to take a few additional steps to ensure that you don't step on any of your existing work. This will vary based on how you have your LCM configured.
 
-[home]:                   https://github.com/Microsoft/PowerStig/wiki/Home
-[DscGettingStarted]:      https://github.com/Microsoft/PowerStig/wiki/DscGettingStarted
-[DscOnPremises]:          https://github.com/Microsoft/PowerStig/wiki/DscOnPremises
-[DscAzureAutomation]:     https://github.com/Microsoft/PowerStig/wiki/DscAzureAutomation
-[DscAzureVirtualMachine]: https://github.com/Microsoft/PowerStig/wiki/DscAzureVirtualMachine
-[examples]:               https://github.com/Microsoft/PowerStig/tree/dev/Examples
-[powerstig]:              https://github.com/Microsoft/PowerStig
+[home]:                     https://github.com/Microsoft/PowerStig/wiki/Home
+[PsGallery]:                https://www.powershellgallery.com/packages/PowerSTIG
+[DscOverview]:              https://docs.microsoft.com/en-us/powershell/dsc/overview
+[DscGettingStarted]:        https://github.com/Microsoft/PowerStig/wiki/DscGettingStarted
+[DscOnPremises]:            https://github.com/Microsoft/PowerStig/wiki/DscOnPremises
+[DscAzureAutomation]:       https://docs.microsoft.com/en-us/azure/automation/automation-dsc-overview
+[DscAzureVirtualMachine]:   https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/dsc-overview
+[examples]:                 https://github.com/Microsoft/PowerStig/tree/dev/Examples
+[powerstig]:                https://github.com/Microsoft/PowerStig

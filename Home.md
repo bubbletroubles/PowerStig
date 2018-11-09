@@ -1,6 +1,13 @@
 # Welcome to PowerSTIG
 
 PowerSTIG is a project to aide customers that want or need to comply with DISA STIG's.
+
+If you are interested in contributing to PowerSTIG, please go [here][Contributing].
+
+If you are interested in how to use PowerSTIG please go [here][GettingStarted].
+
+If you are interested in why you might want to use PowerSTIG, keep reading.
+
 Primarily PowerSTIG uses [PowerShell Desired State Configuration (DSC)][DscOverview] to audit and enforce individual STIG rules.
 Beyond configuration item enforcement and auditing, we maintain the rule metadata i.e. Rule ID, Severity, etc.
 The compliance reporting in DSC combined the STIG rule metadata enables a server to self-report compliance.
@@ -25,8 +32,6 @@ Each DSC composite resource requests the STIG rules through a standard process t
 These scenarios allow each customer to start with a full STIG audit of each server to identify any deviations from the baseline.
 Each non-compliant setting on each server, can then be reviewed to ensure it is authorized and properly documented per STIG and local policy.
 If a deviation is authorized, it can be added to that node's configuration so that it is fully documented and tagged for future discovery/reporting/inspections.
-
-For information on how to get started with PowerSTIG in your environment, please see [here][GettingStarted].
 
 ## STIG Readiness
 
@@ -87,6 +92,7 @@ No amount of import-module will ever update the class in memory.
 The reason we mention this is because if are testing and making changes to a class, then you need to reload your PS session and reimport the module/class.
 Other than that, the project structure is set up so that you shouldn't bump into any other PS class issues.
 
+[Contributing]:                             https://github.com/Microsoft/PowerStig/blob/dev/README.CONTRIBUTING.md
 [DscOverview]:                              https://docs.microsoft.com/en-us/powershell/dsc/overview
 [GettingStarted]:                           https://github.com/Microsoft/PowerStig/wiki/GettingStarted
 [CompositeResources]:                       https://github.com/Microsoft/PowerStig/wiki/CompositeResources

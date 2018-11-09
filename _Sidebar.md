@@ -4,8 +4,6 @@
 * [Getting Started][gettingstarted]
   * [No existing DSC infrastructure][DscGettingStarted]
   * [Existing DSC infrastructure][DscOnPremises]
-  * [Azure Automation Account][DscAzureAutomation]
-  * [Azure Virtual Machine][DscAzureVirtualMachine]
 * [Composite Resources][compositeresources]
   * [Browser][browser]
   * [Office][Office]
