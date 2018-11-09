@@ -1,7 +1,7 @@
 # Welcome to PowerSTIG
 
 PowerSTIG is a project to aide customers that want or need to comply with DISA STIG's.
-Primarily PowerSTIG uses [PowerShell Desired State Configuration (DSC)](DscOverview) to audit and enforce individual STIG rules.
+Primarily PowerSTIG uses [PowerShell Desired State Configuration (DSC)][DscOverview] to audit and enforce individual STIG rules.
 Beyond configuration item enforcement and auditing, we maintain the rule metadata i.e. Rule ID, Severity, etc.
 The compliance reporting in DSC combined the STIG rule metadata enables a server to self-report compliance.
 Additionally, we can use the DSC compliance results to automatically create pre-filled STIG viewer checklists.
@@ -26,7 +26,7 @@ These scenarios allow each customer to start with a full STIG audit of each serv
 Each non-compliant setting on each server, can then be reviewed to ensure it is authorized and properly documented per STIG and local policy.
 If a deviation is authorized, it can be added to that node's configuration so that it is fully documented and tagged for future discovery/reporting/inspections.
 
-For information on how to get started with PowerSTIG in your environment, please see the [Getting Started Guide](DscOverview).
+For information on how to get started with PowerSTIG in your environment, please see [here][GettingStarted].
 
 ## STIG Readiness
 
@@ -38,7 +38,7 @@ It is for these very reasons that we keep the STIG rules separate from the DSC c
 PowerSTIG wraps up all the STIG's rules as a single entry, so you can focus on the rest of your configuration.
 The DSC platform will detect conflicting settings, so if you use PowerSTIG and try to change a STIG setting somewhere else, the configuration will error out.
 This prevents you from accidently overwriting a STIG setting and not documenting it properly.
-You can read more about this in the [Composite Resource](CompositeResources) page.
+You can read more about this in the [Composite Resource][CompositeResources] page.
 All of this leads to needing a way to:
 
 1. Define local or organizational settings
@@ -55,7 +55,7 @@ By centrally storing a list of (IA approved) organizational settings, each serve
 Organizational settings are provided to a configuration as an input parameter.
 If a value is provided to a configuration that is outside of the valid range, PowerSTIG will detect it and throw an error.
 If you still need to configure a rule that is outside of a valid range, you can configure an exception to the rule.
-For more information and examples of how to use organizational settings, please see [here](CompositeResourcesOrganizationalSettings).
+For more information and examples of how to use organizational settings, please see [here][CompositeResourcesOrganizationalSettings].
 
 ### Exception
 
@@ -67,7 +67,7 @@ Like the organizational setting, an exception to policy is added to the configur
 The exception process is restricted to overwriting the writeable properties of the individual DSC Resource according to its schema.
 There are some STIGs that provide conflicting guidance on the value a rule should be set to.
 Instead of implementing an exception to one STIG, we introduced the concept of skipping a rule.
-For more information and examples of how to use exceptions, please see [here](CompositeResourcesException).
+For more information and examples of how to use exceptions, please see [here][CompositeResourcesException].
 
 ### Skip Rule / Type
 
@@ -77,7 +77,7 @@ When onboarding PowerSTIG this can be a valuable parameter.
 
 To further assist the onboarding process, we added the option to skip an entire class of rules, such as Registry, Account Policy, etc.
 
-For more information and examples of how to use skipped rules, please see [here](CompositeResourcesSkipRule).
+For more information and examples of how to use skipped rules, please see [here][CompositeResourcesSkipRule].
 
 ## Known issues
 
