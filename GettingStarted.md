@@ -1,8 +1,14 @@
 
-All you have to do to start using PowerStig, it to run the following command from PowerShell 5.0 or higher.
+To get started using PowerStig, install it from the PowerShell gallery using PowerShellGet (in PowerShell 5.0), run the following command:
 
 ```powershell
-    Install-Module PowerStig -Scope CurrentUser
+Install-Module PowerStig -Scope CurrentUser
+```
+
+To confirm installation, run the below command and ensure you see the PowerStig modules available:
+
+```PowerShell
+Get-Module -Name PowerStig* -ListAvailable
 ```
 
 Powershell will take it from there and automatically install all of the dependent modules for you.
