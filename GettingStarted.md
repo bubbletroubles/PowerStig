@@ -93,35 +93,179 @@ You can do this one of three ways.
 1. Configure the target node LCM to use a [ResourceRepositoryShare][ResourceRepository] block. For more info see [Setting up a DSC SMB pull server][pullserversmb].
 1. Configure the target node LCM to use a [ResourceRepositoryWeb][ResourceRepository] block. For more info see [DSC pull service in Windows Server][pullserverhttp].
 
-In this guide we are just going to copy the resources over in a semi-automatic fashion.
-One thing to note here is that the PowerSTIG module is not needed on the target node.
-PowerSTIG just does all the controlling and data manipulation based on the parameters you provide.
-The MOF that it outputs only references the DSC resources that are defined as required modules.
-We can simplify the copy process by using PowerShell remoting.
-
-Since PS 5 is required for the module to run, we will assume here that you have PowerShell 5 deployed everywhere.
-If that is not the case, stop here and up upgrade your PowerShell.
-Just kidding, but seriously, start your change process now to get it deployed everywhere possible.
-Now that you have PS 5.1 deployed everywhere, we can copy all the resources that were installed to your profile onto your remote servers.
-
-**###CONTINUE HERE**
+For now, just manually copy the DSC resources from the computer you installed PowerSTIG on to 'C:\Program Files\WindowsPowerShell\Modules' of the target node.
+You can use the following command to get the list of resources you need to copy.
 
 ```powershell
 (Get-Module PowerStig -ListAvailable).RequiredModules
 ```
 
+One thing to note here is that the PowerSTIG module is not needed on the target node.
+PowerSTIG just does all the controlling and data manipulation based on the parameters you provide.
+The MOF that it created only references the DSC resources that are defined as required modules.
+Now that you have all the resources copied over, it's time to audit the server.
+
 ### Audit Servers
 
-To do the initial audit on your server(s), you can follow the [PowerSTIG Getting Started Guide][DscGettingStarted].
-The Test-DscConfiguration outputs its results to the $audit variable that we can look at closer here.
+Before you can audit a server, you need to run a configuration with PowerSTIG defined to generate a MOF.
+The following configuration assumes that you have created a central organizational settings file.
+Update the OrgSettings path to point to your local file.
+Additionally, if you are running the configuration from a domain joined machine, you can skip the Domain and Forest Name parameters.
+If you are not on a domain joined machine or are targeting another domain, remove the comments and add you desired names.
+
+```powershell
+configuration Example
+{
+    param
+    (
+        [parameter()]
+        [string]
+        $NodeName = 'localhost'
+    )
+
+    Import-DscResource -ModuleName PowerStig
+
+    Node $NodeName
+    {
+        WindowsServer BaseLine
+        {
+            OsVersion   = '2012R2'
+            OsRole      = 'MS'
+            StigVersion = '2.12'
+            OrgSettings = "\\Share\OrgSettings\Windows-2012R2-MS-2.12.xml"
+            # DomainName  = 'your.domain'
+            # ForestName  = 'your.domin'
+        }
+    }
+}
+
+Example -OutputPath C:\dev
+```
+
+After running this configuration you should have a file C:\dev\localhost.mof.
+The Test-DscConfiguration cmdlet is the easiest way to audit your first server using the newly created mof.
+Test-DscConfiguration calls into the Local Configuration Manager, which runs as the system, so admin rights are required.
+Open a PowerShell command prompt as admin and Run the following command to get the list of STIG settings and their compliance status.
+
+```powershell
+$audit = Test-DscConfiguration -ReferenceConfiguration C:\Dev\localhost.mof
+```
 
 ### Review Exceptions
 
+Congrats, you have just audited a server for STIG compliance with DSC and PowerSTIG.
+Now it's time to dig into the results that are stored in the audit variable.
+Looking at the contents of the DSC results in the audit variable returns some interesting information.
+First is the far-right column which indicates the overall state.
+If any of the items in the MOF are not compliant, then the InDesiredState flag is set to false.
+Even more interesting is that DSC gives you a separate list of the settings that are not complaint.
+
+```powershell
+C:\WINDOWS\system32> $audit
+
+PSComputerName  ResourcesInDesiredState        ResourcesNotInDesiredState     InDesiredState
+--------------  -----------------------        --------------------------     --------------
+localhost       {[AuditPolicySubcategory][V... {[AuditPolicySubcategory][V... False
+```
+
+Depending on where and how you obtained your OS image, the ResourcesNotInDesiredState list could be quite large.
+If you look at $audit.ResourcesNotInDesiredState you will have a list of settings that are not compliant.
+Here is an example of a non-compliant setting.
+
+```powershell
+C:\WINDOWS\system32> $audit.ResourcesNotInDesiredState
+
+ConfigurationName    : Example
+DependsOn            :
+ModuleName           : AuditPolicyDsc
+ModuleVersion        : 1.2.0.0
+PsDscRunAsCredential :
+ResourceId           : [AuditPolicySubcategory][V-26529][medium][Audit - Credential Validation - Success]::[WindowsServer]BaseLine
+SourceInfo           : C:\Program Files\WindowsPowerShell\Modules\PowerSTIG\2.2.0.0\DSCResources\Resources\wind
+                       ows.AuditPolicySubcategory.ps1::8::5::AuditPolicySubcategory
+DurationInSeconds    : 0.16
+Error                :
+FinalState           :
+InDesiredState       : False
+InitialState         :
+InstanceName         : [V-26529[medium][Audit - Credential Validation - Success]::[WindowsServer]BaseLine
+RebootRequested      : False
+ResourceName         : AuditPolicySubcategory
+StartDate            : 11/12/2018 1:08:36 PM
+StateChanged         : False
+PSComputerName       : localhost
+```
+
+At this point you have a list of all the rules and the compliance status of each one.
+You should work through your list to determine why each setting is not compliant.
+It's at this point that many people realize the amount of work that is ahead of them when they multiple this time the number of servers they own.
+You might be tempted to give up and stick your head back in the sand.
+That's understandable, but the reality is that there is a reward for the work.
+Future you will thank you for identifying technical debt.
+If you are not familiar with the term technical debt, just know that every time you make undocumented changes, you are accumulating it (exponentially).
+Putting all your SITG knowledge for each server into a DSC configuration with PowerSTIG allows you to pay that debt back down.
+What that really means in practice is that when you need to make a change to a server in the future, you won't have to guess if it is STIG compliant as new versions of the STIG are released.
+Secondly and more beneficial is that the overhead of a lab goes to near zero since you can quickly build a copy of your production server using your DSC configuration.
+You can test changes to your service or a new version of the STIG and then move the updated configuration into production once you confirm it won't cause any issues.
+
 ### IA Review
+
+As you work through your list of non-compliant settings you are all but guaranteed to come across a STIG rule that cannot be enforced on a server.
+There is a reason that all of the STIG's come with a disclaimer to thoroughly test before pushing the big red button to deploy all of the settings.
+This is also the precise point in time when many admins get their future self into trouble.
+You add a manual change, script, or OU based GPO to override a higher-level setting.
+You may or may not have documented, or at the very least to get to the documentation after you finish up this task.
+Then then phone rings, your boss sends you a message, or your just hungry and will do it after lunch......
+The server is now functional, but you have introduced an untracked risk with no mitigations in place if necessary.
+
+By working with your local IA rep, you can identify and automatically document your exceptions to a STIG rule in your DSC script.
+In the following example we have updated the previous configuration to override rule V-1075 with a value of 1.
+The STIG says it is supposed to be 0, but that causes our application running on the server to fail.
+
+```powershell
+configuration Example
+{
+    param
+    (
+        [parameter()]
+        [string]
+        $NodeName = 'localhost'
+    )
+
+    Import-DscResource -ModuleName PowerStig
+
+    Node $NodeName
+    {
+        WindowsServer BaseLine
+        {
+            OsVersion   = '2012R2'
+            OsRole      = 'MS'
+            StigVersion = '2.12'
+            OrgSettings = "\\Share\OrgSettings\Windows-2012R2-MS-2.12.xml"
+            Exception   = @{'V-1075' = @{ValueData=1}}
+        }
+    }
+}
+
+Example -OutputPath C:\dev
+```
+
+This configuration does two things that are interesting.
+
+1. The data is updated in the MOF the next time we run it, so DSC will report that 1 is compliant and 0 is not compliant.
+1. The title for this rule is updated with '[Exception]', so when we look at the DSC results, we can filter out any exceptions to policy.
+    1. When we scale this out to your entire datacenter, it's powerful to be able generate this list almost instantly.
+
+This empowers IA to better support you and the rest of the organization by verifying the identified exceptions are properly documented in the RMF.
 
 ### Cyber Review
 
+If you have a separate cyber division, then this exception process also gives them visibility into the overall security posture of the enterprise.
+Mitigating threats and risks is only possible if you are aware, they exist.
+By providing DSC result data to the cyber team, you allow them to proactively determine if additional mitigations need to be put into place due to a STIG rule exception.
+
 ### Document Exceptions
+
 
 ## Existing Configurations
 
@@ -141,4 +285,3 @@ If you have existing configurations that you would like to apply the STIG to, th
 [ResourceRepository]:       https://docs.microsoft.com/en-us/powershell/dsc/metaconfig#resource-server-blocks
 [pullserversmb]:            https://docs.microsoft.com/en-us/powershell/dsc/pullserversmb
 [pullserverhttp]:           https://docs.microsoft.com/en-us/powershell/dsc/pullserver
-
