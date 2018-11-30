@@ -115,8 +115,8 @@ As we added more STIGs and compiled a MOF from multiple composites, we discovere
 This is a problem for DSC since you cannot have conflicting settings as the compiler will throw an exception.
 
 We added the SkipRule as a way to convert a rule from it's original type to a non-conflicting type.
-This allows us to keep track of the setting, but allow you to decide which STIG rule will be applied.
-Using the same sample from above, no skip rules are provided, so the following configuration:
+This allows us to keep track of the setting, but allows you to decide which STIG rule will be applied.
+Using the same sample from above, no skip rules are provided to the following configuration:
 
 ```powershell
     WindowsServer BaseLine
@@ -158,7 +158,7 @@ To avoid the error, we enter the rule to skip and rerun the configuration.
 ```
 
 Now V-1075 has been passed to the Script resource instead of the Registry resource.
-In the future we will build a resource to handle this better and also because the script resource will not be allowed with device guard is enabled.
+In the future we will build a resource to handle this better and also because the script resource will not be allowed with device guard when enabled.
 
 ```exe
 ResourceID = "[Script][V-1075][low][[Skip]Display Shutdown Button]::[WindowsServer]BaseLine";
