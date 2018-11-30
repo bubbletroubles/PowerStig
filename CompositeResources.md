@@ -110,7 +110,7 @@ ResourceID = "[xRegistry][V-1075][low][[Exception]Display Shutdown Button]::[Win
 ## Skip Rule / Type
 
 Just like with an exception, you can enter a rule to completly skip checking it.
-At first thought, the may not seem like a good idea.
+At first thought, that may not seem like a good idea.
 As we added more STIG'd and compiled a MOF from multiple composites, we discovered some STIG's had conflicting settings.
 This is a problem for DSC since you can not have conflicting setting as the compiler will through an exception.
 
