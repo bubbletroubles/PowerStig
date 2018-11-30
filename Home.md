@@ -89,7 +89,7 @@ For more information and examples of how to use skipped rules, please see [here]
 PowerShell Classes are generally good to work with, once you understand their nuances.
 The big known issue is that once you load a PowerShell class into memory, it is pretty much written in stone.
 No amount of import-module will ever update the class in memory.
-The reason we mention this is because if are testing and making changes to a class, then you need to reload your PS session and reimport the module/class.
+The reason we mention this is because if you are testing and making changes to a class, then you need to reload your PS session and reimport the module/class.
 Other than that, the project structure is set up so that you shouldn't bump into any other PS class issues.
 
 [Contributing]:                             https://github.com/Microsoft/PowerStig/blob/dev/README.CONTRIBUTING.md
