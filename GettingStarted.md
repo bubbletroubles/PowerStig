@@ -34,7 +34,7 @@ Composite       WindowsServer             PowerSTIG                      2.2.0.0
 ```
 
 Since PowerSTIG provides a wide range of composite DSC resources, we must ensure that all the DSC resources that do the actual work are installed.
-This makes the download a little bigger, but alos simpler becasue you will always have everythign you need, in theory.
+This makes the download a little bigger, but also simpler because you will always have everything you need, in theory.
 Once PowerShell has installed everything, you are ready to begin.
 You can grab one of the examples from the composite resource links to the right and run it to compile your first STIG'd MOF.
 Once you have a compiled MOF, you can start an initial audit on a server or workstation.
@@ -86,9 +86,9 @@ Here is how you can setup your organizational settings file.
 1. Open the PowerSTIG module in Windows explorer and navigate to the folder StigData\Processed.
     1. Inside of that directory are all for the rule objects that have been extracted from the xccdf files.
     1. The default organizational settings for Server 2012 R2 MemberServer 2.12 STIG will be stored in Windows-2012R2-MS-2.12.org.default.xml.
-    1. We will add a function to make this easier in the future, but for now it's a manual file copy.
 1. Copy that file to a central location and remove the .default from the name or replace it with something meaningful to you.
     1. It's important to use a unique name because an updated STIG may have new org settings, so you will want to keep the version numbers.
+    1. We will add a function to make this easier in the future, but for now it's a manual file copy.
 1. Open the organizational settings file and notice that there is an XML element for each rule Id that has an allowable range.
     1. Also notice that there is a comment above each rule to guide your decision.
     1. That test string is executed against your org setting when you compile the MOF.
