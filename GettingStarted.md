@@ -233,13 +233,13 @@ You should work through your list to determine why each setting is not compliant
 Please open an issue describing the discrepancy so that we can address it and get a fix published as soon as possible.
 Occasionally we encounter an issue with the individual resource not correctly testing or setting a property.
 You can open an issue with us and we can work with the resource owner if you don't want to.
-Either way let us knwo if you bump into any situations where DSC says a setting is not complaint, when it is.
-It's at this point that many people realize the amount of work that is ahead of them when they multiple this time the number of servers they own.
-You might be tempted to give up and stick your head back in the sand and that's understandable
+Either way let us know if you bump into any situations where DSC says a setting is not complaint, when it is.
+It's at this point that many people realize the amount of work that is ahead of them when they multiply this times the number of servers they own.
+You might be tempted to give up and stick your head back in the sand and that's understandable.
 The reality is that there is a big reward for the upfront work.
-Future you will be grateful for finally identifying technical debt in your enterprise.
+The "future you" will be grateful for finally identifying technical debt in your enterprise.
 If you are not familiar with the term technical debt, just know that every time you make undocumented changes, you are accumulating it (exponentially).
-Putting all your SITG knowledge for each server into a DSC configuration with PowerSTIG allows you to pay that debt down and focus on optimizing your services.
+Putting all your STIG knowledge for each server into a DSC configuration with PowerSTIG allows you to pay that debt down and focus on optimizing your services.
 What that really means in practice is that when you need to make a change to a server in the future, you won't have to guess if it is STIG compliant as new versions of the STIG are released.
 Secondly and more beneficial is that the overhead of a lab goes to near zero since you can quickly build a copy of your production server using your DSC configuration and then tear it down when your testing is complete.
 You can test changes to your service or a new version of the STIG and then move the updated configuration into production once you confirm it doesn't cause any issues.
