@@ -5,7 +5,7 @@
 Documentation is a big part of STIG compliance.
 We are working to integrate functionality that will create checklists for you automatically.
 Currently, we do not carry the stig details forward in the PowerStig data, so you need to provide the raw STIG file so that the extra details can be added to the checklist file.
-We will update the module to remove this requiremtne in the future.
+We will update the module to remove this requirement in the future.
 
 ## Generating a checklist from a MOF
 
