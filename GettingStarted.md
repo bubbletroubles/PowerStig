@@ -34,7 +34,7 @@ Composite       WindowsServer             PowerSTIG                      2.2.0.0
 ```
 
 Since PowerSTIG provides a wide range of composite DSC resources, we must ensure that all the DSC resources that do the actual work are installed.
-This makes the download a little bigger, but alos simpler becasue you will always have everythign you need, in theory.
+This makes the download a little bigger, but also simpler because you will always have everything you need, in theory.
 Once PowerShell has installed everything, you are ready to begin.
 You can grab one of the examples from the composite resource links to the right and run it to compile your first STIG'd MOF.
 Once you have a compiled MOF, you can start an initial audit on a server or workstation.
@@ -51,7 +51,7 @@ Integrating PowerSTIG into your environment is not too difficult once you establ
 If you are already using DSC, you can skip over this or compare it to how you are currently operating and let us know if we can add anything to make it easier for everyone.
 DSC is a DevOps tool and by extension, so is PowerSTIG.
 This page is intended to help you with initial PowerSTIG integration.
-There is a lot of great information available about integrating DSC into your environemnt, so we won't rehash much if any of that.
+There is a lot of great information available about integrating DSC into your environment, so we won't rehash much if any of that.
 If you run into any issues that are not outlined or unclear, please request an update to the wiki.
 If this is your first foray into PowerShell DSC, things are a little easier and harder at the same time.
 If you don't have any existing DSC infrastructure in place take a look at what you need to do in our [DSC Getting Started Guide][DscGettingStarted].
@@ -61,7 +61,7 @@ This will greatly simply your life going forward as you add more complex DSC con
 
 ## A basic workflow
 
-For the purpose of this guide, we will be applying the Widows Server 2012 R2 MemberServer 2.12 STIG.
+For the purpose of this guide, we will be applying the Widows Server 2012 R2 Member Server 2.12 STIG.
 Over time this version of the STIG and Windows will age out of the project, but all resources work the same way.
 You just change the names and version numbers.
 You can start with these steps to get a feel for how you want to integrate PowerSTIG into your workstream.
@@ -85,7 +85,7 @@ Here is how you can setup your organizational settings file.
 
 1. Open the PowerSTIG module in Windows explorer and navigate to the folder StigData\Processed.
     1. Inside of that directory are all for the rule objects that have been extracted from the xccdf files.
-    1. The default organizational settings for Server 2012 R2 MemberServer 2.12 STIG will be stored in Windows-2012R2-MS-2.12.org.default.xml.
+    1. The default organizational settings for Server 2012 R2 Member Server 2.12 STIG will be stored in Windows-2012R2-MS-2.12.org.default.xml.
     1. We will add a function to make this easier in the future, but for now it's a manual file copy.
 1. Copy that file to a central location and remove the .default from the name or replace it with something meaningful to you.
     1. It's important to use a unique name because an updated STIG may have new org settings, so you will want to keep the version numbers.
@@ -114,14 +114,18 @@ This eliminates duplicate efforts and gives the IA and Cyber teams awareness and
 ### Deploy DSC Resources
 
 All the DSC Resources that the PowerSTIG composite resources depend on need to be deployed to the node(s).
-You can do this one of three ways.
+You can do this a few different ways.
 
+1. [DSC Environment Analyzer (DSCEA)][DSCEA]
+    1. Recommended and easiest to get started with as it will automatically copy the resources to the target for you.
 1. Manually copy the DSC resource files to 'C:\Program Files\WindowsPowerShell\Modules'.
-    1. The simplest but does not scale well without custom automation.
+    1. Does not scale well without custom automation.
 1. Configure the target node LCM to use a [ResourceRepositoryShare][ResourceRepository] block. For more info see [Setting up a DSC SMB pull server][pullserversmb].
 1. Configure the target node LCM to use a [ResourceRepositoryWeb][ResourceRepository] block. For more info see [DSC pull service in Windows Server][pullserverhttp].
 
-For now, just manually copy the DSC resources from the computer you installed PowerSTIG on to 'C:\Program Files\WindowsPowerShell\Modules' of the target node.
+If you are going to use DSCEA, skip to the "Audit Servers" section below.
+
+If you go the second manual route, copy the DSC resources from the computer you installed PowerSTIG on to 'C:\Program Files\WindowsPowerShell\Modules' of the target node.
 You can use the following command to get the list of resources you need to copy.
 
 ```powershell
@@ -137,7 +141,8 @@ Now that you have all the resources copied over, it's time to audit the server.
 
 ### Audit Servers
 
-Before you can audit a server, you need to run a configuration with PowerSTIG defined to generate a MOF.
+In this section we will be using [DSC Environment Analyzer (DSCEA)][DSCEA] to audit the server.
+Before you can audit a server, you need to run a configuration with PowerSTIG defined to compile a MOF.
 The following configuration assumes that you have created a central organizational settings file.
 Update the OrgSettings path to point to your local file.
 Additionally, if you are running the configuration from a domain joined machine, you can skip the Domain and Forest Name parameters.
@@ -174,12 +179,29 @@ Example -OutputPath C:\dev
 ```
 
 After running this configuration, you should have a file C:\dev\localhost.mof.
-The Test-DscConfiguration cmdlet is the easiest way to get started auditing your first server using the newly created mof.
-Test-DscConfiguration calls into the Local Configuration Manager (LCM), which runs as the system, so admin rights are required.
-Open a PowerShell command prompt as admin and Run the following command to get the list of STIG settings and their compliance status.
+
+DSCEA leverages the Test-DscConfiguration cmdlet and it is the easiest way to get started auditing your first server using the newly created mof.
+If you have not already installed the DSCEA module run the following comamnd
 
 ```powershell
-$audit = Test-DscConfiguration -ReferenceConfiguration C:\Dev\localhost.mof
+Install-Module DSCEA -Scope CurrentUser
+```
+
+As mentioned in the previous section, DSCEA manages the resource copy for you so that Test-DscConfiguration runs without any additional setup.
+Test-DscConfiguration calls into the Local Configuration Manager (LCM), which runs as the system, so admin rights are required on the target node(s).
+Open a PowerShell command prompt as the use with admin rights on the remote computer and run the following command (replace the server name).
+
+```powershell
+Start-DSCEAscan -MofFile C:\Dev\localhost.mof -ComputerName Server01 -OutputPath C:\Dev\DSCEA
+```
+
+One thing to note here is that DSCEA doesn't retun the Test-DscConfiguation object to the pipeline.
+Instead it exports the object to standard CLIXML to the OutputPath parameter so that it can be further processed after the PS session is closed.
+If you want to look at the raw Test-DscConfiguration object you can import it back into your session.
+**NOTE:** the file names are datetime stamped, so yours will be whenever you ran the scan you want to load.
+
+```powershell
+$audit = Import-Clixml -Path 'C:\Dev\DSCEA\Output\results.20181127-1149-48.xml'
 ```
 
 ### Review Exceptions
@@ -192,7 +214,7 @@ If any of the items in the MOF are not compliant, then the InDesiredState flag i
 Even more interesting is that DSC gives you a separate list of the settings that are not complaint.
 
 ```powershell
-C:\WINDOWS\system32> $audit
+C:\WINDOWS\system32> $audit.Compliance
 
 PSComputerName  ResourcesInDesiredState        ResourcesNotInDesiredState     InDesiredState
 --------------  -----------------------        --------------------------     --------------
@@ -228,12 +250,16 @@ PSComputerName       : localhost
 ```
 
 At this point you have a list of all the rules and the compliance status of each one.
+It's not that pretty to look at, so let's go back to DSCEA and see if can clean this up a bit.
+
+
+
 You should work through your list to determine why each setting is not compliant.
 **NOTE** If you find any settings that conflict with another reporting mechanism. i.e. SCAP, etc.
 Please open an issue describing the discrepancy so that we can address it and get a fix published as soon as possible.
 Occasionally we encounter an issue with the individual resource not correctly testing or setting a property.
 You can open an issue with us and we can work with the resource owner if you don't want to.
-Either way let us knwo if you bump into any situations where DSC says a setting is not complaint, when it is.
+Either way let us know if you bump into any situations where DSC says a setting is not complaint, when it is.
 It's at this point that many people realize the amount of work that is ahead of them when they multiple this time the number of servers they own.
 You might be tempted to give up and stick your head back in the sand and that's understandable
 The reality is that there is a big reward for the upfront work.
@@ -249,7 +275,7 @@ Automating your service testing will supercharge your release cadence.
 ### IA Review
 
 As you work through your list of non-compliant settings you are all but guaranteed to come across a STIG rule that cannot be enforced on a server.
-There is a reason that all the STIG's come with a flashing disclaimer to thoroughly test before pushing the big red button to deploy all of the settings.
+There is a reason that all the STIG's come with a flashing disclaimer to thoroughly test before pushing the big red button to deploy all the settings.
 This is also the precise point in time when many admins get their future self into trouble (Technical Debt).
 You add a manual change, script, or OU based GPO to override a higher-level setting.
 You may or may not have documented, or at the very least, you'll do it "later".
@@ -301,7 +327,7 @@ This empowers IA to better support you and the rest of the organization by verif
 If you have a separate cyber division, then this exception process also gives them visibility into the overall security posture of the enterprise.
 Mitigating threats and risks is only possible if you are aware, they exist.
 By providing DSC result data to the cyber team, you allow them to proactively determine if additional mitigations need to be put into place due to a STIG rule exception.
-Continuing on the data driven operations theme, if the cyber team defines a mitigation for a specific exception, they can now look at all of the nodes in the datacenter and ensure their DSC configurations have the same mitigation in place.
+Continuing the data driven operations theme, if the cyber team defines a mitigation for a specific exception, they can now look at all the nodes in the datacenter and ensure their DSC configurations have the same mitigation in place.
 
 ### Document Exceptions
 
@@ -371,3 +397,4 @@ If you have existing configurations that you would like to apply the STIG to, th
 [ResourceRepository]:       https://docs.microsoft.com/en-us/powershell/dsc/metaconfig#resource-server-blocks
 [pullserversmb]:            https://docs.microsoft.com/en-us/powershell/dsc/pullserversmb
 [pullserverhttp]:           https://docs.microsoft.com/en-us/powershell/dsc/pullserver
+[DSCEA]:                    https://github.com/Microsoft/DSCEA
