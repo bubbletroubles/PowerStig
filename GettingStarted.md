@@ -89,6 +89,7 @@ Here is how you can setup your organizational settings file.
     1. We will add a function to make this easier in the future, but for now it's a manual file copy.
 1. Copy that file to a central location and remove the .default from the name or replace it with something meaningful to you.
     1. It's important to use a unique name because an updated STIG may have new org settings, so you will want to keep the version numbers.
+    1. We will add a function to make this easier in the future, but for now it's a manual file copy.
 1. Open the organizational settings file and notice that there is an XML element for each rule Id that has an allowable range.
     1. Also notice that there is a comment above each rule to guide your decision.
     1. That test string is executed against your org setting when you compile the MOF.
@@ -252,8 +253,6 @@ PSComputerName       : localhost
 At this point you have a list of all the rules and the compliance status of each one.
 It's not that pretty to look at, so let's go back to DSCEA and see if can clean this up a bit.
 
-
-
 You should work through your list to determine why each setting is not compliant.
 **NOTE** If you find any settings that conflict with another reporting mechanism. i.e. SCAP, etc.
 Please open an issue describing the discrepancy so that we can address it and get a fix published as soon as possible.
@@ -263,9 +262,9 @@ Either way let us know if you bump into any situations where DSC says a setting 
 It's at this point that many people realize the amount of work that is ahead of them when they multiple this time the number of servers they own.
 You might be tempted to give up and stick your head back in the sand and that's understandable
 The reality is that there is a big reward for the upfront work.
-Future you will be grateful for finally identifying technical debt in your enterprise.
+The "future you" will be grateful for finally identifying technical debt in your enterprise.
 If you are not familiar with the term technical debt, just know that every time you make undocumented changes, you are accumulating it (exponentially).
-Putting all your SITG knowledge for each server into a DSC configuration with PowerSTIG allows you to pay that debt down and focus on optimizing your services.
+Putting all your STIG knowledge for each server into a DSC configuration with PowerSTIG allows you to pay that debt down and focus on optimizing your services.
 What that really means in practice is that when you need to make a change to a server in the future, you won't have to guess if it is STIG compliant as new versions of the STIG are released.
 Secondly and more beneficial is that the overhead of a lab goes to near zero since you can quickly build a copy of your production server using your DSC configuration and then tear it down when your testing is complete.
 You can test changes to your service or a new version of the STIG and then move the updated configuration into production once you confirm it doesn't cause any issues.

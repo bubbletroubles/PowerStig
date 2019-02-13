@@ -110,13 +110,13 @@ ResourceID = "[xRegistry][V-1075][low][[Exception]Display Shutdown Button]::[Win
 ## Skip Rule / Type
 
 Just like with an exception, you can enter a rule to completly skip checking it.
-At firt thought, the may not seem like a good idea.
-As we added more STIG'd and compiled a MOF from multiple composites, we discovered some STIG's had conflicting settings.
-This is a problem for DSC since you can not have conflicting setting as the compiler will through an exception.
+At first thought, that may not seem like a good idea.
+As we added more STIGs and compiled a MOF from multiple composites, we discovered some STIGs had conflicting settings.
+This is a problem for DSC since you cannot have conflicting settings as the compiler will throw an exception.
 
-We added the SkipRule as a way to convert a rule form it's origioal type to a non-conflicting type.
-This allows up to keep track of the setting, but allow you to decide which STIG rule will be applied.
-Using the same sample from above, no skip rules are provided, so the following configuration:
+We added the SkipRule as a way to convert a rule from it's original type to a non-conflicting type.
+This allows us to keep track of the setting, but allows you to decide which STIG rule will be applied.
+Using the same sample from above, no skip rules are provided to the following configuration:
 
 ```powershell
     WindowsServer BaseLine
@@ -158,7 +158,7 @@ To avoid the error, we enter the rule to skip and rerun the configuration.
 ```
 
 Now V-1075 has been passed to the Script resource instead of the Registry resource.
-In the future we will build a resource to handle this better and also because the script resource will not be allowed with device guard is enabled.
+In the future we will build a resource to handle this better and also because the script resource will not be allowed with device guard when enabled.
 
 ```exe
 ResourceID = "[Script][V-1075][low][[Skip]Display Shutdown Button]::[WindowsServer]BaseLine";
