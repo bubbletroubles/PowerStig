@@ -12,6 +12,7 @@
   * [WindowsFirewall][windowsfirewall]
   * [WindowsServer][windowsserver]
 * [Document Module][document]
+* [STIG Caveats][stigcaveats]
 
 [home]:                   https://github.com/Microsoft/PowerStig/wiki/home
 [convert]:                https://github.com/Microsoft/PowerStig/wiki/Convert
@@ -25,6 +26,7 @@
 [windowsfirewall]:        https://github.com/Microsoft/PowerStig/wiki/WindowsFirewall
 [windowsserver]:          https://github.com/Microsoft/PowerStig/wiki/WindowsServer
 [document]:               https://github.com/Microsoft/PowerStig/wiki/Document
+[stigcaveats]:            https://github.com/Microsoft/PowerStig/wiki/StigCaveats
 [DscGettingStarted]:      https://github.com/Microsoft/PowerStig/wiki/DscGettingStarted
 [DscOnPremises]:          https://github.com/Microsoft/PowerStig/wiki/DscOnPremises
 [DscAzureAutomation]:     https://github.com/Microsoft/PowerStig/wiki/DscAzureAutomation
