@@ -4,7 +4,7 @@ A list of caveats (gotchas) for STIG rules that may break and or have unique req
 
 ## SqlServer 2012
 
-Rule V-41294 will not reach a desired state unless a credential is provided via PsDscRunAsCredential
+Rule V-41294 will not reach a desired state unless a credential is provided via PsDscRunAsCredential.
 Documentation on how to secure the mof is found [here](https://docs.microsoft.com/en-us/powershell/dsc/pull-server/securemof).
 
 ```PowerShell
