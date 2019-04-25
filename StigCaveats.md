@@ -27,11 +27,11 @@ $cred = Get-Credential
 
 $ConfigData= @{
     AllNodes = @(
-            @{
-                NodeName = "targetNode"
-                CertificateFile = "C:\publicKeys\targetNode.cer"
-                Thumbprint = "AC23EA3A9E291A75757A556D0B71CBBF8C4F6FD8"
-            };
-        );
-    }
+        @{
+            NodeName = "targetNode"
+            CertificateFile = "C:\publicKeys\targetNode.cer"
+            Thumbprint = "AC23EA3A9E291A75757A556D0B71CBBF8C4F6FD8"
+        };
+    );
+}
 Example -PsDscRunAsCredential $cred -ConfigurationData $ConfigData
