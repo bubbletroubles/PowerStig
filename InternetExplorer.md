@@ -1,6 +1,6 @@
-﻿# Browser
+﻿# InternetExplorer
 
-A composite DSC resource to manage the Browser STIG settings
+A composite DSC resource to manage the Internet Explorer STIG settings
 
 ## Requirements
 
