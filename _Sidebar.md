@@ -5,7 +5,7 @@
   * [No existing DSC infrastructure][DscGettingStarted]
   * [Existing DSC infrastructure][DscOnPremises]
 * [Composite Resources][compositeresources]
-  * [Browser][browser]
+  * [InternetExplorer][InternetExplorer]
   * [Office][Office]
   * [SqlServer][sqlserver]
   * [WindowsDnsServer][windowsdnsserver]
