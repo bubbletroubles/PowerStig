@@ -5,7 +5,7 @@
   * [No existing DSC infrastructure][DscGettingStarted]
   * [Existing DSC infrastructure][DscOnPremises]
 * [Composite Resources][compositeresources]
-  * [Browser][Browser]
+  * [InternetExplorer][InternetExplorer]
   * [Office][Office]
   * [SqlServer][sqlserver]
   * [WindowsDnsServer][windowsdnsserver]
@@ -20,7 +20,7 @@
 [stig]:                   https://github.com/Microsoft/PowerStig/wiki/Stig
 [compositeresources]:     https://github.com/Microsoft/PowerStig/wiki/CompositeResources
 [gettingstarted]:         https://github.com/Microsoft/PowerStig/wiki/GettingStarted
-[browser]:                https://github.com/Microsoft/PowerStig/wiki/Browser
+[InternetExplorer]:       https://github.com/Microsoft/PowerStig/wiki/InternetExplorer
 [office]:                 https://github.com/Microsoft/PowerStig/wiki/Office
 [sqlserver]:              https://github.com/Microsoft/PowerStig/wiki/SqlServer
 [windowsdnsserver]:       https://github.com/Microsoft/PowerStig/wiki/WindowsDnsServer
