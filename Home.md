@@ -1,6 +1,6 @@
 # Welcome to PowerSTIG
 
-PowerSTIG is a project to aide customers that want or need to comply with DISA STIG's.
+PowerSTIG is a project to aid customers that want or need to comply with DISA STIG's.
 
 If you are interested in contributing to PowerSTIG, please go [here][Contributing].
 
