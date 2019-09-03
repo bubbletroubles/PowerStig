@@ -1,4 +1,4 @@
-# How the HardCodedRule works
+# How the HardCodedRule works (v4.0 and above)
 
 1. When the xccdf is imported, the log file framework replaces the entire Check Content property with a specially crafted HardCodedRule string.
 2. When the ConvertTo-PowerStigXml function is called, it imports the xccdf and the log file, performs the Check Content replacement and then begins parsing.
