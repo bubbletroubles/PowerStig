@@ -12,6 +12,8 @@
   * [WindowsFirewall][windowsfirewall]
   * [WindowsServer][windowsserver]
 * [Document Module][document]
+* [HardCodedRule][hardcoded]
+  * [HardCodedRule Examples][hardcodedexamples]
 * [STIG Caveats][stigcaveats]
   * [SqlServer][sqlservercaveats]
 
@@ -27,6 +29,8 @@
 [windowsfirewall]:        https://github.com/Microsoft/PowerStig/wiki/WindowsFirewall
 [windowsserver]:          https://github.com/Microsoft/PowerStig/wiki/WindowsServer
 [document]:               https://github.com/Microsoft/PowerStig/wiki/Document
+[hardcoded]:              https://github.com/Microsoft/PowerStig/wiki/HardCodedRule
+[hardcodedexamples]:      https://github.com/Microsoft/PowerStig/wiki/HardCodedRule#Examples
 [stigcaveats]:            https://github.com/Microsoft/PowerStig/wiki/StigCaveats
 [sqlservercaveats]:       https://github.com/Microsoft/PowerStig/wiki/StigCaveats#sqlserver-2012
 [DscGettingStarted]:      https://github.com/Microsoft/PowerStig/wiki/DscGettingStarted
