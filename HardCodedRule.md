@@ -62,7 +62,7 @@ PS C:\> Get-HardCodedRuleLogFileEntry -RuleId V-1000 -RuleType IisLoggingRule
 V-1000::*::HardCodedRule(IisLoggingRule)@{DscResource = 'XWebsite'; LogCustomFieldEntry = $null; LogFlags = $null; LogFormat = $null; LogPeriod = $null; LogTargetW3C = $null}
 ```
 
-Some rule types have null value properties by default. When this is the case, do not allow those properties in the HardCodedRule log file string, those should be removed. The example below can be used to create an IisLoggingRule, notice the LogPeriod and LogTargetW3C properties are removed.
+Some rule types have null value properties by default. When this is the case, do not allow those properties in the HardCodedRule log file string, those should be removed. The example below can be used to create an IisLoggingRule, notice the LogPeriod and LogTargetW3C properties have been removed.
 
 ```PowerShell
 V-1000::*::HardCodedRule(IISLoggingRule)@{DscResource = 'XWebsite'; LogCustomFieldEntry = @(@{SourceType = 'ServerVariable'; SourceName = 'HTTP_USER_AGENT'},@{SourceType = 'RequestHeader'; SourceName = 'Authorization'}); LogFlags = 'UserAgent,UserName,Referer'; LogFormat = 'W3C'}
