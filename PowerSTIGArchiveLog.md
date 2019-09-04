@@ -1,4 +1,30 @@
-# How the HardCodedRule works (v4.0 and above)
+# PowerSTIG Archive log file
+
+## Overview
+
+Throughout PowerSTIGs existence, the Convert code base has changed due to STIG Check-Content inconsistencies. The goal is to avoid constant modification to the PowerSTIG parser engine for simple small changes to the wording in the xccdf file. To accommodate this goal, the archive log was developed. The Archive log file allows granular modification to the check-content text for a given rule id in an xccdf, without modifying the xccdf itself. The **How the PowerSTIG Archive log file works** section below details step-by-step how the solution works. Furthermore, for rules that weren't previously available for automation, for various reasons, the HardCodedRule framework was implemented. The HardCodedRule framework is detailed in the **How the HardCodedRule works (v4.0 and above)** section below.
+
+## How the PowerSTIG Archive log file works
+
+1. The Archive log serves as a find and replace mechanism for the PowerSTIG parser.
+1. The code looks for a .log file with the same full path as the xccdf.
+1. Each line is in the following format **RuleId::Text To Find::Text To Replace It With**
+    1. Multiple entries per rule are supported.
+    1. The asterisk '*' can be used to replace everything in the check-content.
+1. The Archive log content is converted into a hashtable.
+1. Before a rule is processed, the check-content string is updated using a replace OldText > NewText.
+1. The rule is parsed and returned.
+1. The RawString is then updated to undo the log file change NewText > OldText.
+
+## PowerSTIG Archive Log Examples
+
+When placed in the correct Archive log file, the example below will essentially remove the comma ',' after the word 'length' from the check-content for rule id V-6836.
+
+```PowerShell
+V-6836::"Minimum password length,"::"Minimum password length"
+```
+
+## How the HardCodedRule works (v4.0 and above)
 
 1. When the xccdf is imported, the log file framework replaces the entire Check Content property with a specially crafted HardCodedRule string.
 2. When the ConvertTo-PowerStigXml function is called, it imports the xccdf and the log file, performs the Check Content replacement and then begins parsing.
@@ -17,7 +43,7 @@
     * **...\<splitRule>HardCodedRule(WindowsFeatureRule)@{DscResource = 'WindowsFeature'; Name = $null; Ensure = 'Absent'}**
 * Note: If a user needs to supply a value, the hashtable DscResource parameter should be set to $null, like the Split Rule example above.
 
-## Examples
+## HardCodedRule Examples
 
 The example below creates a blank WindowsFeatureRule HardCodedRule entry.
 
