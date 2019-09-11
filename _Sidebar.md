@@ -14,7 +14,7 @@
 * [Document Module][document]
 * [PowerSTIG Archive Log][powerstigarchivelog]
   * [HardCodedRule Examples][hardcodedexamples]
-* [PowerSTIG with Azure Automation][powerstigazureautomation]  
+* [PowerSTIG with Azure Automation][powerstigwithazureautomation] 
 * [STIG Caveats][stigcaveats]
   * [SqlServer][sqlservercaveats]
 
