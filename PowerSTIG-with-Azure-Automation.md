@@ -30,25 +30,30 @@ PowerSTIG (3.3.0) has several modules dependenies that will need to be imported 
 
 The following PowerShell will script will import the PowerSTIG dependencies into an existing Azure Automation environment. For more informationon how to install PowerSTIG please reference: https://github.com/microsoft/PowerStig 
 
+**Note:** PowerSTIG requires a number of dependent DSC modules, and the version of theses modules will most likely change over time.  To ensure you have the correct required modules run this code
+
 ```powershell
 [CmdletBinding()] 
 param 
 (  
-    [parameter(mandatory=$true)]
-    [string]$resourceGroupName,
-    [parameter(mandatory=$true)]
-    [string]$automationAccountName
+    [Parameter(mandatory=$true)]
+    [string]
+    $ResourceGroupName,
+
+    [Parameter(mandatory=$true)]
+    [string]
+    $AutomationAccountName
 ) 
 #region Login to Azure
 try
 {
-    write-output "Logging in to Azure..." 
-    $env = read-host "Please select an Azure Environment   1: Azure Government  or  2: Azure Commercial"
-    if ($env -eq 1)
+    Write-output "Logging in to Azure..." 
+    $azEnvironment = read-host "Please select an Azure Environment   1: Azure Government  or  2: Azure Commercial"
+    if ($azEnvironment -eq 1)
     {    
         Add-AzAccount -EnvironmentName "AzureUSGovernment" | Out-Null
     }
-    elseif ($env -eq 2)
+    elseif ($azEnvironment -eq 2)
     {
         Add-AzAccount | Out-Null
     }
@@ -117,12 +122,17 @@ else
 [CmdletBinding()] 
 param 
 (  
-    [parameter(mandatory=$true)]
-    [string]$resourceGroupName,
-    [parameter(mandatory=$true)]
-    [string]$automationAccountName,
-    [parameter(mandatory=$true)]
-    [string]$sourcePath
+    [Parameter(mandatory=$true)]
+    [string]
+    $ResourceGroupName,
+
+    [Parameter(mandatory=$true)]
+    [string]
+    $AutomationAccountName,
+
+    [Parameter(mandatory=$true)]
+    [string]
+    $SourcePath
 ) 
 try 
 {
