@@ -14,6 +14,7 @@
 * [Document Module][document]
 * [PowerSTIG Archive Log][powerstigarchivelog]
   * [HardCodedRule Examples][hardcodedexamples]
+* [PowerSTIG with Azure Automation][powerstigazureautomation]  
 * [STIG Caveats][stigcaveats]
   * [SqlServer][sqlservercaveats]
 
@@ -31,6 +32,7 @@
 [document]:               https://github.com/Microsoft/PowerStig/wiki/Document
 [powerstigarchivelog]:    https://github.com/Microsoft/PowerStig/wiki/PowerSTIGArchiveLog
 [hardcodedexamples]:      https://github.com/Microsoft/PowerStig/wiki/PowerSTIGArchiveLog#HardCodedRule-Examples
+[powerstigwithazureautomation]:    https://github.com/microsoft/PowerStig/wiki/PowerSTIGWithAzureAutomation
 [stigcaveats]:            https://github.com/Microsoft/PowerStig/wiki/StigCaveats
 [sqlservercaveats]:       https://github.com/Microsoft/PowerStig/wiki/StigCaveats#sqlserver-2012
 [DscGettingStarted]:      https://github.com/Microsoft/PowerStig/wiki/DscGettingStarted
