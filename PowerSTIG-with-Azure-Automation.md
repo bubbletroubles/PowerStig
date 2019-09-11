@@ -28,7 +28,7 @@ PowerSTIG (3.3.0) has several modules dependenies that will need to be imported 
 
 ## Example PowerShell that may be used to import PowerSTIG dependencies
 
-The following PowerShell will script will import the PowerSTIG dependencies into an existing Azure Automation environment. 
+The following PowerShell will script will import the PowerSTIG dependencies into an existing Azure Automation environment. For more informationon how to install PowerSTIG please reference: https://github.com/microsoft/PowerStig 
 
 ```powershell
 [CmdletBinding()] 
