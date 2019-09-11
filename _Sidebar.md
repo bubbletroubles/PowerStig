@@ -32,7 +32,7 @@
 [document]:               https://github.com/Microsoft/PowerStig/wiki/Document
 [powerstigarchivelog]:    https://github.com/Microsoft/PowerStig/wiki/PowerSTIGArchiveLog
 [hardcodedexamples]:      https://github.com/Microsoft/PowerStig/wiki/PowerSTIGArchiveLog#HardCodedRule-Examples
-[powerstigwithazureautomation]:    https://github.com/microsoft/PowerStig/wiki/PowerSTIGWithAzureAutomation
+[powerstigwithazureautomation]:    https://github.com/microsoft/PowerStig/wiki/PowerSTIG-With-Azure-Automation
 [stigcaveats]:            https://github.com/Microsoft/PowerStig/wiki/StigCaveats
 [sqlservercaveats]:       https://github.com/Microsoft/PowerStig/wiki/StigCaveats#sqlserver-2012
 [DscGettingStarted]:      https://github.com/Microsoft/PowerStig/wiki/DscGettingStarted
