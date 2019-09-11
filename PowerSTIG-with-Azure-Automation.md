@@ -61,32 +61,55 @@ catch {
     Write-Error -Message $_.Exception
     throw $_.Exception
 }
-#endregion 
+
+# Find PowerSTIG module 
+try 
+{    
+    $powerStig = (Get-module -Name PowerSTIG -ListAvailable)
+
+    if(!$powerStig)
+    {
+        Import-Module -Name PowerSTIG
+        $powerStig = (Get-module -Name PowerSTIG -ListAvailable)
+    }
+}
+catch 
+{
+    Write-Error -Message $_.Exception
+    throw $_.Exception
+}
+
+# Find the required modules for PowerSTIG
+$requiredModules = (Import-PowerShellDataFile -Path (Get-Module PowerSTIG -list).path).RequiredModules 
+
+# Create empty hashtable 
+$dependencies = @()
+
+# Add the modules to an hashtable 
+foreach($module in $requiredModules)
+{
+    $dependencies +=  @{ModuleName = $module.ModuleName; RequiredVersion = $module.ModuleVersion; }
+}
 
 #region Import PowerSTIG dependencies and PowerSTIG version 3.3.0
-$Dependencies = @(
-   @{ModuleName = "AuditPolicyDsc"; RequiredVersion = "1.2.0)"; }, 
-   @{ModuleName = "AuditSystemDsc"; RequiredVersion = "1.0.0"; },
-   @{ModuleName = "AccessControlDsc"; RequiredVersion = "1.4.0"; },
-   @{ModuleName = "ComputerManagementDsc"; RequiredVersion = "6.2.0"; },
-   @{ModuleName = "FileContentDsc"; RequiredVersion = "1.1.0.108"; },
-   @{ModuleName = "PolicyFileEditor"; RequiredVersion = "3.0.1"; },
-   @{ModuleName = "PSDscResources"; RequiredVersion = "2.10.0.0"; },
-   @{ModuleName = "SecurityPolicyDsc"; RequiredVersion = "2.4.0.0"; },
-   @{ModuleName = "SqlServerDsc"; RequiredVersion = "12.1.0.0"; },
-   @{ModuleName = "WindowsDefenderDsc"; RequiredVersion = "1.0.0.0"; },
-   @{ModuleName = "xWebAdministration"; RequiredVersion = "2.5.0.0"; }
-   @{ModuleName = "xDnsServer"; RequiredVersion = "1.11.0.0"; },
-   @{ModuleName = "PowerSTIG"; RequiredVersion = "3.3.0"}
-)
-
-foreach($dep in $Dependencies)
+foreach($dependency in $dependencies)
 {
-    $galleryRepoUri = "https://www.powershellgallery.com/api/v2/package/" + $dep.ModuleName + "/" + $dep.RequiredVersion
+    $galleryRepoUri = "https://www.powershellgallery.com/api/v2/package/" + $dependency.ModuleName + "/" + $dependency.RequiredVersion
     $galleryRepoUri
-    New-AzAutomationModule -ResourceGroupName $resourceGroupName -AutomationAccountName $automationAccountName -Name $dep.ModuleName -ContentLink $galleryRepoUri
+    New-AzAutomationModule -ResourceGroupName $resourceGroupName -AutomationAccountName $automationAccountName -Name $dependency.ModuleName -ContentLink $galleryRepoUri
 }
-#endregion 
+# Import PowerSTIG into Azure Automation
+if($powerStig)
+{
+    $galleryRepoUri = "https://www.powershellgallery.com/api/v2/package/" + $powerStig.Name + "/" + $powerStig.Version
+    $galleryRepoUri
+    New-AzAutomationModule -ResourceGroupName $resourceGroupName -AutomationAccountName $automationAccountName -Name $powerStig.Name -ContentLink $galleryRepoUri
+}
+else 
+{
+    write-host "Please Install PowerSTIG by running: Install-Module -Name PowerStig -Scope CurrentUser"
+}
+#endregion  
 ``` 
 
 ## Importing PowerSTIG Desired State Configuration (DSC) into Azure Automation
