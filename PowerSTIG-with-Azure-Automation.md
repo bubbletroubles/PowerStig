@@ -1,4 +1,4 @@
-## PowerSTIG and Azure Automation
+## PowerSTIG with Azure Automation
 PowerSTIG paired with Azure Automation enables better insight into the DSC status of nodes, reporting and visualization of data when logs are fowarded to Log Analytics. 
 
 ## Importing Required Modules into Azure Automation Environment 
