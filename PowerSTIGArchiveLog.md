@@ -38,9 +38,9 @@ V-6836::"Minimum password length,"::"Minimum password length"
 * In order to generate a HardCodedRule log file entry, the **Get-HardCodedRuleLogFileEntry** function can be leveraged.
 * Example Entries:
   * Single Rule:
-    * **V-1000::*::HardCodedRule(WindowsFeatureRule)@{DscResource = 'WindowsFeature'; Name = 'Web-Ftp-Server'; Ensure = 'Absent'}**
-  * Split Rule would include the structure from the Single Rule with the **\<splitRule>** delimiter appended to the end of the string:
-    * **...\<splitRule>HardCodedRule(WindowsFeatureRule)@{DscResource = 'WindowsFeature'; Name = $null; Ensure = 'Absent'}**
+    * ```V-1000::*::HardCodedRule(WindowsFeatureRule)@{DscResource = 'WindowsFeature'; Name = 'Web-Ftp-Server'; Ensure = 'Absent'}```
+  * Split Rule would include the structure from the Single Rule with the ```<splitRule>``` delimiter appended to the end of the string:
+    * ```...\<splitRule>HardCodedRule(WindowsFeatureRule)@{DscResource = 'WindowsFeature'; Name = $null; Ensure = 'Absent'}```
 * Note: If a user needs to supply a value, the hashtable DscResource parameter should be set to $null, like the Split Rule example above.
 
 ## HardCodedRule Examples
