@@ -10,12 +10,12 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_DotNet_Framework_4-0_STIG_V1R8_Manual-xccdf.xml  
 **Created:** 8/14/2019  
 **Description:** Applicable to systems and applications utilizing the Microsoft .Net version 4.0 framework.  
-**StigRuleCoverage:** **5** of **16** rules are automated; **31%**  
+**StigRuleCoverage:** **2** of **16** rules are automated; **12%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-30935 | RegistryRule | Registry |
-| V-81495 | RegistryRule | Registry |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-30935 | RegistryRule | Registry |  |
+| V-81495 | RegistryRule | Registry |  |
 
 ## MS Dot Net Framework, Version 1.9
 
@@ -25,12 +25,12 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_DotNet_Framework_4-0_STIG_V1R9_Manual-xccdf.xml  
 **Created:** 11/18/2019  
 **Description:** Applicable to systems and applications utilizing the Microsoft .Net version 4.0 framework.  
-**StigRuleCoverage:** **5** of **16** rules are automated; **31%**  
+**StigRuleCoverage:** **2** of **16** rules are automated; **12%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-30935 | RegistryRule | Registry |
-| V-81495 | RegistryRule | Registry |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-30935 | RegistryRule | Registry |  |
+| V-81495 | RegistryRule | Registry |  |
 
 ## Mozilla FireFox STIG, Version 4.26
 
@@ -40,28 +40,28 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_Mozilla_FireFox_STIG_V4R26_Manual-xccdf.xml  
 **Created:** 8/8/2019  
 **Description:** The Mozilla FireFox Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil  
-**StigRuleCoverage:** **20** of **23** rules are automated; **87%**  
+**StigRuleCoverage:** **18** of **23** rules are automated; **78%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-15768 | FileContentRule | ReplaceText |
-| V-15771 | FileContentRule | ReplaceText |
-| V-15772 | FileContentRule | ReplaceText |
-| V-15774 | FileContentRule | ReplaceText |
-| V-15775 | FileContentRule | ReplaceText |
-| V-15776 | FileContentRule | ReplaceText |
-| V-15778 | FileContentRule | ReplaceText |
-| V-15779 | FileContentRule | ReplaceText |
-| V-15983.a | FileContentRule | ReplaceText |
-| V-15983.b | FileContentRule | ReplaceText |
-| V-15985 | FileContentRule | ReplaceText |
-| V-15986 | FileContentRule | ReplaceText |
-| V-19742 | FileContentRule | ReplaceText |
-| V-19744 | FileContentRule | ReplaceText |
-| V-64891 | FileContentRule | ReplaceText |
-| V-79053.a | FileContentRule | ReplaceText |
-| V-79053.b | FileContentRule | ReplaceText |
-| V-79053.c | FileContentRule | ReplaceText |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-15768 | FileContentRule | ReplaceText |  |
+| V-15771 | FileContentRule | ReplaceText |  |
+| V-15772 | FileContentRule | ReplaceText |  |
+| V-15774 | FileContentRule | ReplaceText |  |
+| V-15775 | FileContentRule | ReplaceText |  |
+| V-15776 | FileContentRule | ReplaceText |  |
+| V-15778 | FileContentRule | ReplaceText |  |
+| V-15779 | FileContentRule | ReplaceText |  |
+| V-15983.a | FileContentRule | ReplaceText |  |
+| V-15983.b | FileContentRule | ReplaceText |  |
+| V-15985 | FileContentRule | ReplaceText |  |
+| V-15986 | FileContentRule | ReplaceText |  |
+| V-19742 | FileContentRule | ReplaceText |  |
+| V-19744 | FileContentRule | ReplaceText |  |
+| V-64891 | FileContentRule | ReplaceText |  |
+| V-79053.a | FileContentRule | ReplaceText |  |
+| V-79053.b | FileContentRule | ReplaceText |  |
+| V-79053.c | FileContentRule | ReplaceText |  |
 
 ## Firefox, Version 4.27
 
@@ -71,29 +71,29 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_Mozilla_FireFox_STIG_V4R27_Manual-xccdf.xml  
 **Created:** 11/19/2019  
 **Description:** The Mozilla Firefox Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil  
-**StigRuleCoverage:** **21** of **24** rules are automated; **88%**  
+**StigRuleCoverage:** **19** of **24** rules are automated; **79%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-15768 | FileContentRule | ReplaceText |
-| V-15771 | FileContentRule | ReplaceText |
-| V-15772 | FileContentRule | ReplaceText |
-| V-15774 | FileContentRule | ReplaceText |
-| V-15775 | FileContentRule | ReplaceText |
-| V-15776 | FileContentRule | ReplaceText |
-| V-15778 | FileContentRule | ReplaceText |
-| V-15779 | FileContentRule | ReplaceText |
-| V-15983.a | FileContentRule | ReplaceText |
-| V-15983.b | FileContentRule | ReplaceText |
-| V-15985 | FileContentRule | ReplaceText |
-| V-15986 | FileContentRule | ReplaceText |
-| V-19742 | FileContentRule | ReplaceText |
-| V-19744 | FileContentRule | ReplaceText |
-| V-64891 | FileContentRule | ReplaceText |
-| V-79053.a | FileContentRule | ReplaceText |
-| V-79053.b | FileContentRule | ReplaceText |
-| V-79053.c | FileContentRule | ReplaceText |
-| V-97529 | FileContentRule | ReplaceText |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-15768 | FileContentRule | ReplaceText |  |
+| V-15771 | FileContentRule | ReplaceText |  |
+| V-15772 | FileContentRule | ReplaceText |  |
+| V-15774 | FileContentRule | ReplaceText |  |
+| V-15775 | FileContentRule | ReplaceText |  |
+| V-15776 | FileContentRule | ReplaceText |  |
+| V-15778 | FileContentRule | ReplaceText |  |
+| V-15779 | FileContentRule | ReplaceText |  |
+| V-15983.a | FileContentRule | ReplaceText |  |
+| V-15983.b | FileContentRule | ReplaceText |  |
+| V-15985 | FileContentRule | ReplaceText |  |
+| V-15986 | FileContentRule | ReplaceText |  |
+| V-19742 | FileContentRule | ReplaceText |  |
+| V-19744 | FileContentRule | ReplaceText |  |
+| V-64891 | FileContentRule | ReplaceText |  |
+| V-79053.a | FileContentRule | ReplaceText |  |
+| V-79053.b | FileContentRule | ReplaceText |  |
+| V-79053.c | FileContentRule | ReplaceText |  |
+| V-97529 | FileContentRule | ReplaceText |  |
 
 ## IIS 8-5 Server STIG, Version 1.7
 
@@ -103,39 +103,39 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_IIS_8-5_Server_STIG_V1R7_Manual-xccdf.xml  
 **Created:** 9/19/2019  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **35** of **58** rules are automated; **60%**  
+**StigRuleCoverage:** **29** of **58** rules are automated; **50%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-76681 | IisLoggingRule | xIISLogging |
-| V-76683 | IisLoggingRule | xIISLogging |
-| V-76687 | IisLoggingRule | xIISLogging |
-| V-76689 | IisLoggingRule | xIISLogging |
-| V-76711.a | MimeTypeRule | xIisMimeTypeMapping |
-| V-76711.b | MimeTypeRule | xIisMimeTypeMapping |
-| V-76711.c | MimeTypeRule | xIisMimeTypeMapping |
-| V-76711.d | MimeTypeRule | xIisMimeTypeMapping |
-| V-76711.e | MimeTypeRule | xIisMimeTypeMapping |
-| V-76745 | PermissionRule | NTFSAccessEntry |
-| V-76759.a | RegistryRule | Registry |
-| V-76759.b | RegistryRule | Registry |
-| V-76759.c | RegistryRule | Registry |
-| V-76759.d | RegistryRule | Registry |
-| V-76759.e | RegistryRule | Registry |
-| V-76759.f | RegistryRule | Registry |
-| V-76759.g | RegistryRule | Registry |
-| V-76759.h | RegistryRule | Registry |
-| V-76725 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76727.a | WebConfigurationPropertyRule | None |
-| V-76727.b | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76731.a | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76731.b | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76733 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76737 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76757 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76769.a | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76769.b | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76713 | WindowsFeatureRule | WindowsFeature |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-76681 | IisLoggingRule | xIISLogging |  |
+| V-76683 | IisLoggingRule | xIISLogging |  |
+| V-76687 | IisLoggingRule | xIISLogging |  |
+| V-76689 | IisLoggingRule | xIISLogging |  |
+| V-76711.a | MimeTypeRule | xIisMimeTypeMapping |  |
+| V-76711.b | MimeTypeRule | xIisMimeTypeMapping |  |
+| V-76711.c | MimeTypeRule | xIisMimeTypeMapping |  |
+| V-76711.d | MimeTypeRule | xIisMimeTypeMapping |  |
+| V-76711.e | MimeTypeRule | xIisMimeTypeMapping |  |
+| V-76745 | PermissionRule | NTFSAccessEntry |  |
+| V-76759.a | RegistryRule | Registry |  |
+| V-76759.b | RegistryRule | Registry |  |
+| V-76759.c | RegistryRule | Registry |  |
+| V-76759.d | RegistryRule | Registry |  |
+| V-76759.e | RegistryRule | Registry |  |
+| V-76759.f | RegistryRule | Registry |  |
+| V-76759.g | RegistryRule | Registry |  |
+| V-76759.h | RegistryRule | Registry |  |
+| V-76725 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76727.a | WebConfigurationPropertyRule | None | V-76725 |
+| V-76727.b | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76731.a | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76731.b | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76733 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76737 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76757 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76769.a | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76769.b | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76713 | WindowsFeatureRule | WindowsFeature |  |
 
 ## IIS 8-5 Server STIG, Version 1.9
 
@@ -145,39 +145,39 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_IIS_8-5_Server_STIG_V1R9_Manual-xccdf.xml  
 **Created:** 11/18/2019  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **35** of **58** rules are automated; **60%**  
+**StigRuleCoverage:** **29** of **58** rules are automated; **50%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-76681 | IisLoggingRule | xIISLogging |
-| V-76683 | IisLoggingRule | xIISLogging |
-| V-76687 | IisLoggingRule | xIISLogging |
-| V-76689 | IisLoggingRule | xIISLogging |
-| V-76711.a | MimeTypeRule | xIisMimeTypeMapping |
-| V-76711.b | MimeTypeRule | xIisMimeTypeMapping |
-| V-76711.c | MimeTypeRule | xIisMimeTypeMapping |
-| V-76711.d | MimeTypeRule | xIisMimeTypeMapping |
-| V-76711.e | MimeTypeRule | xIisMimeTypeMapping |
-| V-76745 | PermissionRule | NTFSAccessEntry |
-| V-76759.a | RegistryRule | Registry |
-| V-76759.b | RegistryRule | Registry |
-| V-76759.c | RegistryRule | Registry |
-| V-76759.d | RegistryRule | Registry |
-| V-76759.e | RegistryRule | Registry |
-| V-76759.f | RegistryRule | Registry |
-| V-76759.g | RegistryRule | Registry |
-| V-76759.h | RegistryRule | Registry |
-| V-76725 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76727.a | WebConfigurationPropertyRule | None |
-| V-76727.b | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76731.a | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76731.b | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76733 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76737 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76757 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76769.a | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76769.b | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76713 | WindowsFeatureRule | WindowsFeature |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-76681 | IisLoggingRule | xIISLogging |  |
+| V-76683 | IisLoggingRule | xIISLogging |  |
+| V-76687 | IisLoggingRule | xIISLogging |  |
+| V-76689 | IisLoggingRule | xIISLogging |  |
+| V-76711.a | MimeTypeRule | xIisMimeTypeMapping |  |
+| V-76711.b | MimeTypeRule | xIisMimeTypeMapping |  |
+| V-76711.c | MimeTypeRule | xIisMimeTypeMapping |  |
+| V-76711.d | MimeTypeRule | xIisMimeTypeMapping |  |
+| V-76711.e | MimeTypeRule | xIisMimeTypeMapping |  |
+| V-76745 | PermissionRule | NTFSAccessEntry |  |
+| V-76759.a | RegistryRule | Registry |  |
+| V-76759.b | RegistryRule | Registry |  |
+| V-76759.c | RegistryRule | Registry |  |
+| V-76759.d | RegistryRule | Registry |  |
+| V-76759.e | RegistryRule | Registry |  |
+| V-76759.f | RegistryRule | Registry |  |
+| V-76759.g | RegistryRule | Registry |  |
+| V-76759.h | RegistryRule | Registry |  |
+| V-76725 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76727.a | WebConfigurationPropertyRule | None | V-76725 |
+| V-76727.b | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76731.a | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76731.b | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76733 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76737 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76757 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76769.a | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76769.b | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76713 | WindowsFeatureRule | WindowsFeature |  |
 
 ## IIS 8-5 Site STIG, Version 1.8
 
@@ -187,51 +187,51 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_IIS_8-5_Site_V1R8_Manual-xccdf.xml  
 **Created:** 12/5/2019  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **48** of **58** rules are automated; **83%**  
+**StigRuleCoverage:** **41** of **58** rules are automated; **71%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-76783 | IisLoggingRule | XWebsite |
-| V-76785 | IisLoggingRule | XWebsite |
-| V-76789 | IisLoggingRule | XWebsite |
-| V-76791 | IisLoggingRule | XWebsite |
-| V-76797.a | MimeTypeRule | xIisMimeTypeMapping |
-| V-76797.b | MimeTypeRule | xIisMimeTypeMapping |
-| V-76797.c | MimeTypeRule | xIisMimeTypeMapping |
-| V-76797.d | MimeTypeRule | xIisMimeTypeMapping |
-| V-76797.e | MimeTypeRule | xIisMimeTypeMapping |
-| V-76779 | SslSettingsRule | xSslSettings |
-| V-76781 | SslSettingsRule | None |
-| V-76809 | SslSettingsRule | xSslSettings |
-| V-76851 | SslSettingsRule | xSslSettings |
-| V-76861 | SslSettingsRule | None |
-| V-76839 | WebAppPoolRule | xWebAppPool |
-| V-76867 | WebAppPoolRule | xWebAppPool |
-| V-76869 | WebAppPoolRule | xWebAppPool |
-| V-76871 | WebAppPoolRule | xWebAppPool |
-| V-76873 | WebAppPoolRule | xWebAppPool |
-| V-76875 | WebAppPoolRule | xWebAppPool |
-| V-76877 | WebAppPoolRule | xWebAppPool |
-| V-76879 | WebAppPoolRule | xWebAppPool |
-| V-76881 | WebAppPoolRule | xWebAppPool |
-| V-76775 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76777 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76805 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76813 | WebConfigurationPropertyRule | None |
-| V-76817 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76819 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76821 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76823 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76825 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76827 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76829 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76835 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76837 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76841 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76855 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76859.a | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76859.b | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76803 | WindowsFeatureRule | WindowsFeature |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-76783 | IisLoggingRule | XWebsite |  |
+| V-76785 | IisLoggingRule | XWebsite |  |
+| V-76789 | IisLoggingRule | XWebsite |  |
+| V-76791 | IisLoggingRule | XWebsite |  |
+| V-76797.a | MimeTypeRule | xIisMimeTypeMapping |  |
+| V-76797.b | MimeTypeRule | xIisMimeTypeMapping |  |
+| V-76797.c | MimeTypeRule | xIisMimeTypeMapping |  |
+| V-76797.d | MimeTypeRule | xIisMimeTypeMapping |  |
+| V-76797.e | MimeTypeRule | xIisMimeTypeMapping |  |
+| V-76779 | SslSettingsRule | xSslSettings |  |
+| V-76781 | SslSettingsRule | None | V-76779 |
+| V-76809 | SslSettingsRule | xSslSettings |  |
+| V-76851 | SslSettingsRule | xSslSettings |  |
+| V-76861 | SslSettingsRule | None | V-76851 |
+| V-76839 | WebAppPoolRule | xWebAppPool |  |
+| V-76867 | WebAppPoolRule | xWebAppPool |  |
+| V-76869 | WebAppPoolRule | xWebAppPool |  |
+| V-76871 | WebAppPoolRule | xWebAppPool |  |
+| V-76873 | WebAppPoolRule | xWebAppPool |  |
+| V-76875 | WebAppPoolRule | xWebAppPool |  |
+| V-76877 | WebAppPoolRule | xWebAppPool |  |
+| V-76879 | WebAppPoolRule | xWebAppPool |  |
+| V-76881 | WebAppPoolRule | xWebAppPool |  |
+| V-76775 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76777 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76805 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76813 | WebConfigurationPropertyRule | None | V-76775 |
+| V-76817 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76819 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76821 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76823 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76825 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76827 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76829 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76835 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76837 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76841 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76855 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76859.a | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76859.b | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76803 | WindowsFeatureRule | WindowsFeature |  |
 
 ## IIS 8-5 Site STIG, Version 1.9
 
@@ -241,51 +241,51 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_IIS_8-5_Site_V1R9_Manual-xccdf.xml  
 **Created:** 11/21/2019  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **48** of **58** rules are automated; **83%**  
+**StigRuleCoverage:** **41** of **58** rules are automated; **71%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-76783 | IisLoggingRule | XWebsite |
-| V-76785 | IisLoggingRule | XWebsite |
-| V-76789 | IisLoggingRule | XWebsite |
-| V-76791 | IisLoggingRule | XWebsite |
-| V-76797.a | MimeTypeRule | xIisMimeTypeMapping |
-| V-76797.b | MimeTypeRule | xIisMimeTypeMapping |
-| V-76797.c | MimeTypeRule | xIisMimeTypeMapping |
-| V-76797.d | MimeTypeRule | xIisMimeTypeMapping |
-| V-76797.e | MimeTypeRule | xIisMimeTypeMapping |
-| V-76779 | SslSettingsRule | xSslSettings |
-| V-76781 | SslSettingsRule | None |
-| V-76809 | SslSettingsRule | xSslSettings |
-| V-76851 | SslSettingsRule | xSslSettings |
-| V-76861 | SslSettingsRule | None |
-| V-76839 | WebAppPoolRule | xWebAppPool |
-| V-76867 | WebAppPoolRule | xWebAppPool |
-| V-76869 | WebAppPoolRule | xWebAppPool |
-| V-76871 | WebAppPoolRule | xWebAppPool |
-| V-76873 | WebAppPoolRule | xWebAppPool |
-| V-76875 | WebAppPoolRule | xWebAppPool |
-| V-76877 | WebAppPoolRule | xWebAppPool |
-| V-76879 | WebAppPoolRule | xWebAppPool |
-| V-76881 | WebAppPoolRule | xWebAppPool |
-| V-76775 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76777 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76805 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76813 | WebConfigurationPropertyRule | None |
-| V-76817 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76819 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76821 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76823 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76825 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76827 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76829 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76835 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76837 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76841 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76855 | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76859.a | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76859.b | WebConfigurationPropertyRule | xWebConfigKeyValue |
-| V-76803 | WindowsFeatureRule | WindowsFeature |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-76783 | IisLoggingRule | XWebsite |  |
+| V-76785 | IisLoggingRule | XWebsite |  |
+| V-76789 | IisLoggingRule | XWebsite |  |
+| V-76791 | IisLoggingRule | XWebsite |  |
+| V-76797.a | MimeTypeRule | xIisMimeTypeMapping |  |
+| V-76797.b | MimeTypeRule | xIisMimeTypeMapping |  |
+| V-76797.c | MimeTypeRule | xIisMimeTypeMapping |  |
+| V-76797.d | MimeTypeRule | xIisMimeTypeMapping |  |
+| V-76797.e | MimeTypeRule | xIisMimeTypeMapping |  |
+| V-76779 | SslSettingsRule | xSslSettings |  |
+| V-76781 | SslSettingsRule | None | V-76779 |
+| V-76809 | SslSettingsRule | xSslSettings |  |
+| V-76851 | SslSettingsRule | xSslSettings |  |
+| V-76861 | SslSettingsRule | None | V-76851 |
+| V-76839 | WebAppPoolRule | xWebAppPool |  |
+| V-76867 | WebAppPoolRule | xWebAppPool |  |
+| V-76869 | WebAppPoolRule | xWebAppPool |  |
+| V-76871 | WebAppPoolRule | xWebAppPool |  |
+| V-76873 | WebAppPoolRule | xWebAppPool |  |
+| V-76875 | WebAppPoolRule | xWebAppPool |  |
+| V-76877 | WebAppPoolRule | xWebAppPool |  |
+| V-76879 | WebAppPoolRule | xWebAppPool |  |
+| V-76881 | WebAppPoolRule | xWebAppPool |  |
+| V-76775 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76777 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76805 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76813 | WebConfigurationPropertyRule | None | V-76775 |
+| V-76817 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76819 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76821 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76823 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76825 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76827 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76829 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76835 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76837 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76841 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76855 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76859.a | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76859.b | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-76803 | WindowsFeatureRule | WindowsFeature |  |
 
 ## IE 11 STIG, Version 1.17
 
@@ -295,148 +295,148 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_IE11_STIG_V1R17_Manual-xccdf.xml  
 **Created:** 12/5/2019  
 **Description:** The Microsoft Internet Explorer 11 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil  
-**StigRuleCoverage:** **139** of **138** rules are automated; **101%**  
+**StigRuleCoverage:** **138** of **138** rules are automated; **100%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-46473 | RegistryRule | RegistryPolicyFile |
-| V-46475 | RegistryRule | RegistryPolicyFile |
-| V-46477 | RegistryRule | RegistryPolicyFile |
-| V-46481 | RegistryRule | RegistryPolicyFile |
-| V-46483 | RegistryRule | RegistryPolicyFile |
-| V-46501 | RegistryRule | RegistryPolicyFile |
-| V-46507 | RegistryRule | RegistryPolicyFile |
-| V-46509 | RegistryRule | RegistryPolicyFile |
-| V-46511 | RegistryRule | RegistryPolicyFile |
-| V-46513 | RegistryRule | RegistryPolicyFile |
-| V-46515 | RegistryRule | RegistryPolicyFile |
-| V-46517 | RegistryRule | RegistryPolicyFile |
-| V-46521 | RegistryRule | RegistryPolicyFile |
-| V-46523 | RegistryRule | RegistryPolicyFile |
-| V-46525 | RegistryRule | RegistryPolicyFile |
-| V-46543 | RegistryRule | RegistryPolicyFile |
-| V-46545 | RegistryRule | RegistryPolicyFile |
-| V-46547 | RegistryRule | RegistryPolicyFile |
-| V-46549 | RegistryRule | RegistryPolicyFile |
-| V-46553 | RegistryRule | RegistryPolicyFile |
-| V-46555 | RegistryRule | RegistryPolicyFile |
-| V-46573 | RegistryRule | RegistryPolicyFile |
-| V-46575 | RegistryRule | RegistryPolicyFile |
-| V-46577 | RegistryRule | RegistryPolicyFile |
-| V-46579 | RegistryRule | RegistryPolicyFile |
-| V-46581 | RegistryRule | RegistryPolicyFile |
-| V-46583 | RegistryRule | RegistryPolicyFile |
-| V-46587 | RegistryRule | RegistryPolicyFile |
-| V-46589 | RegistryRule | RegistryPolicyFile |
-| V-46591 | RegistryRule | RegistryPolicyFile |
-| V-46593 | RegistryRule | RegistryPolicyFile |
-| V-46597 | RegistryRule | RegistryPolicyFile |
-| V-46599 | RegistryRule | RegistryPolicyFile |
-| V-46601 | RegistryRule | RegistryPolicyFile |
-| V-46603 | RegistryRule | RegistryPolicyFile |
-| V-46605 | RegistryRule | RegistryPolicyFile |
-| V-46607 | RegistryRule | RegistryPolicyFile |
-| V-46609.a | RegistryRule | RegistryPolicyFile |
-| V-46609.b | RegistryRule | RegistryPolicyFile |
-| V-46615 | RegistryRule | RegistryPolicyFile |
-| V-46617 | RegistryRule | RegistryPolicyFile |
-| V-46619 | RegistryRule | RegistryPolicyFile |
-| V-46621 | RegistryRule | RegistryPolicyFile |
-| V-46625 | RegistryRule | RegistryPolicyFile |
-| V-46629 | RegistryRule | RegistryPolicyFile |
-| V-46633 | RegistryRule | RegistryPolicyFile |
-| V-46635 | RegistryRule | RegistryPolicyFile |
-| V-46637 | RegistryRule | RegistryPolicyFile |
-| V-46639 | RegistryRule | RegistryPolicyFile |
-| V-46641 | RegistryRule | RegistryPolicyFile |
-| V-46643 | RegistryRule | RegistryPolicyFile |
-| V-46645 | RegistryRule | RegistryPolicyFile |
-| V-46647 | RegistryRule | RegistryPolicyFile |
-| V-46649 | RegistryRule | RegistryPolicyFile |
-| V-46653 | RegistryRule | RegistryPolicyFile |
-| V-46663 | RegistryRule | RegistryPolicyFile |
-| V-46665 | RegistryRule | RegistryPolicyFile |
-| V-46669 | RegistryRule | RegistryPolicyFile |
-| V-46681 | RegistryRule | RegistryPolicyFile |
-| V-46685 | RegistryRule | RegistryPolicyFile |
-| V-46689 | RegistryRule | RegistryPolicyFile |
-| V-46691 | RegistryRule | RegistryPolicyFile |
-| V-46693 | RegistryRule | RegistryPolicyFile |
-| V-46695 | RegistryRule | RegistryPolicyFile |
-| V-46701 | RegistryRule | RegistryPolicyFile |
-| V-46705 | RegistryRule | RegistryPolicyFile |
-| V-46709 | RegistryRule | RegistryPolicyFile |
-| V-46711 | RegistryRule | RegistryPolicyFile |
-| V-46713 | RegistryRule | RegistryPolicyFile |
-| V-46715 | RegistryRule | RegistryPolicyFile |
-| V-46717 | RegistryRule | RegistryPolicyFile |
-| V-46719 | RegistryRule | RegistryPolicyFile |
-| V-46721 | RegistryRule | RegistryPolicyFile |
-| V-46723 | RegistryRule | RegistryPolicyFile |
-| V-46725 | RegistryRule | RegistryPolicyFile |
-| V-46727 | RegistryRule | RegistryPolicyFile |
-| V-46729 | RegistryRule | RegistryPolicyFile |
-| V-46731 | RegistryRule | RegistryPolicyFile |
-| V-46733 | RegistryRule | RegistryPolicyFile |
-| V-46779 | RegistryRule | RegistryPolicyFile |
-| V-46781 | RegistryRule | RegistryPolicyFile |
-| V-46787 | RegistryRule | RegistryPolicyFile |
-| V-46789 | RegistryRule | RegistryPolicyFile |
-| V-46791 | RegistryRule | RegistryPolicyFile |
-| V-46797 | RegistryRule | RegistryPolicyFile |
-| V-46799 | RegistryRule | RegistryPolicyFile |
-| V-46801 | RegistryRule | RegistryPolicyFile |
-| V-46807 | RegistryRule | RegistryPolicyFile |
-| V-46811 | RegistryRule | RegistryPolicyFile |
-| V-46815.a | RegistryRule | RegistryPolicyFile |
-| V-46815.b | RegistryRule | RegistryPolicyFile |
-| V-46819 | RegistryRule | RegistryPolicyFile |
-| V-46829 | RegistryRule | RegistryPolicyFile |
-| V-46841 | RegistryRule | RegistryPolicyFile |
-| V-46847 | RegistryRule | RegistryPolicyFile |
-| V-46849 | RegistryRule | RegistryPolicyFile |
-| V-46853 | RegistryRule | RegistryPolicyFile |
-| V-46857 | RegistryRule | RegistryPolicyFile |
-| V-46859 | RegistryRule | RegistryPolicyFile |
-| V-46861 | RegistryRule | RegistryPolicyFile |
-| V-46865 | RegistryRule | RegistryPolicyFile |
-| V-46869 | RegistryRule | RegistryPolicyFile |
-| V-46879 | RegistryRule | RegistryPolicyFile |
-| V-46883 | RegistryRule | RegistryPolicyFile |
-| V-46885 | RegistryRule | RegistryPolicyFile |
-| V-46889 | RegistryRule | RegistryPolicyFile |
-| V-46893 | RegistryRule | RegistryPolicyFile |
-| V-46895 | RegistryRule | RegistryPolicyFile |
-| V-46897 | RegistryRule | RegistryPolicyFile |
-| V-46903 | RegistryRule | RegistryPolicyFile |
-| V-46907 | RegistryRule | RegistryPolicyFile |
-| V-46921 | RegistryRule | RegistryPolicyFile |
-| V-46927 | RegistryRule | RegistryPolicyFile |
-| V-46939 | RegistryRule | RegistryPolicyFile |
-| V-46975 | RegistryRule | RegistryPolicyFile |
-| V-46981 | RegistryRule | RegistryPolicyFile |
-| V-46987 | RegistryRule | RegistryPolicyFile |
-| V-46995 | RegistryRule | RegistryPolicyFile |
-| V-46997 | RegistryRule | RegistryPolicyFile |
-| V-46999 | RegistryRule | RegistryPolicyFile |
-| V-47003 | RegistryRule | RegistryPolicyFile |
-| V-47005 | RegistryRule | RegistryPolicyFile |
-| V-47009 | RegistryRule | RegistryPolicyFile |
-| V-64711 | RegistryRule | RegistryPolicyFile |
-| V-64713 | RegistryRule | RegistryPolicyFile |
-| V-64715 | RegistryRule | RegistryPolicyFile |
-| V-64717 | RegistryRule | RegistryPolicyFile |
-| V-64719 | RegistryRule | RegistryPolicyFile |
-| V-64721 | RegistryRule | RegistryPolicyFile |
-| V-64723 | RegistryRule | RegistryPolicyFile |
-| V-64725 | RegistryRule | RegistryPolicyFile |
-| V-64729 | RegistryRule | RegistryPolicyFile |
-| V-72757 | RegistryRule | RegistryPolicyFile |
-| V-72759 | RegistryRule | RegistryPolicyFile |
-| V-72761 | RegistryRule | RegistryPolicyFile |
-| V-72763 | RegistryRule | RegistryPolicyFile |
-| V-75169 | RegistryRule | RegistryPolicyFile |
-| V-75171 | RegistryRule | RegistryPolicyFile |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-46473 | RegistryRule | RegistryPolicyFile |  |
+| V-46475 | RegistryRule | RegistryPolicyFile |  |
+| V-46477 | RegistryRule | RegistryPolicyFile |  |
+| V-46481 | RegistryRule | RegistryPolicyFile |  |
+| V-46483 | RegistryRule | RegistryPolicyFile |  |
+| V-46501 | RegistryRule | RegistryPolicyFile |  |
+| V-46507 | RegistryRule | RegistryPolicyFile |  |
+| V-46509 | RegistryRule | RegistryPolicyFile |  |
+| V-46511 | RegistryRule | RegistryPolicyFile |  |
+| V-46513 | RegistryRule | RegistryPolicyFile |  |
+| V-46515 | RegistryRule | RegistryPolicyFile |  |
+| V-46517 | RegistryRule | RegistryPolicyFile |  |
+| V-46521 | RegistryRule | RegistryPolicyFile |  |
+| V-46523 | RegistryRule | RegistryPolicyFile |  |
+| V-46525 | RegistryRule | RegistryPolicyFile |  |
+| V-46543 | RegistryRule | RegistryPolicyFile |  |
+| V-46545 | RegistryRule | RegistryPolicyFile |  |
+| V-46547 | RegistryRule | RegistryPolicyFile |  |
+| V-46549 | RegistryRule | RegistryPolicyFile |  |
+| V-46553 | RegistryRule | RegistryPolicyFile |  |
+| V-46555 | RegistryRule | RegistryPolicyFile |  |
+| V-46573 | RegistryRule | RegistryPolicyFile |  |
+| V-46575 | RegistryRule | RegistryPolicyFile |  |
+| V-46577 | RegistryRule | RegistryPolicyFile |  |
+| V-46579 | RegistryRule | RegistryPolicyFile |  |
+| V-46581 | RegistryRule | RegistryPolicyFile |  |
+| V-46583 | RegistryRule | RegistryPolicyFile |  |
+| V-46587 | RegistryRule | RegistryPolicyFile |  |
+| V-46589 | RegistryRule | RegistryPolicyFile |  |
+| V-46591 | RegistryRule | RegistryPolicyFile |  |
+| V-46593 | RegistryRule | RegistryPolicyFile |  |
+| V-46597 | RegistryRule | RegistryPolicyFile |  |
+| V-46599 | RegistryRule | RegistryPolicyFile |  |
+| V-46601 | RegistryRule | RegistryPolicyFile |  |
+| V-46603 | RegistryRule | RegistryPolicyFile |  |
+| V-46605 | RegistryRule | RegistryPolicyFile |  |
+| V-46607 | RegistryRule | RegistryPolicyFile |  |
+| V-46609.a | RegistryRule | RegistryPolicyFile |  |
+| V-46609.b | RegistryRule | RegistryPolicyFile |  |
+| V-46615 | RegistryRule | RegistryPolicyFile |  |
+| V-46617 | RegistryRule | RegistryPolicyFile |  |
+| V-46619 | RegistryRule | RegistryPolicyFile |  |
+| V-46621 | RegistryRule | RegistryPolicyFile |  |
+| V-46625 | RegistryRule | RegistryPolicyFile |  |
+| V-46629 | RegistryRule | RegistryPolicyFile |  |
+| V-46633 | RegistryRule | RegistryPolicyFile |  |
+| V-46635 | RegistryRule | RegistryPolicyFile |  |
+| V-46637 | RegistryRule | RegistryPolicyFile |  |
+| V-46639 | RegistryRule | RegistryPolicyFile |  |
+| V-46641 | RegistryRule | RegistryPolicyFile |  |
+| V-46643 | RegistryRule | RegistryPolicyFile |  |
+| V-46645 | RegistryRule | RegistryPolicyFile |  |
+| V-46647 | RegistryRule | RegistryPolicyFile |  |
+| V-46649 | RegistryRule | RegistryPolicyFile |  |
+| V-46653 | RegistryRule | RegistryPolicyFile |  |
+| V-46663 | RegistryRule | RegistryPolicyFile |  |
+| V-46665 | RegistryRule | RegistryPolicyFile |  |
+| V-46669 | RegistryRule | RegistryPolicyFile |  |
+| V-46681 | RegistryRule | RegistryPolicyFile |  |
+| V-46685 | RegistryRule | RegistryPolicyFile |  |
+| V-46689 | RegistryRule | RegistryPolicyFile |  |
+| V-46691 | RegistryRule | RegistryPolicyFile |  |
+| V-46693 | RegistryRule | RegistryPolicyFile |  |
+| V-46695 | RegistryRule | RegistryPolicyFile |  |
+| V-46701 | RegistryRule | RegistryPolicyFile |  |
+| V-46705 | RegistryRule | RegistryPolicyFile |  |
+| V-46709 | RegistryRule | RegistryPolicyFile |  |
+| V-46711 | RegistryRule | RegistryPolicyFile |  |
+| V-46713 | RegistryRule | RegistryPolicyFile |  |
+| V-46715 | RegistryRule | RegistryPolicyFile |  |
+| V-46717 | RegistryRule | RegistryPolicyFile |  |
+| V-46719 | RegistryRule | RegistryPolicyFile |  |
+| V-46721 | RegistryRule | RegistryPolicyFile |  |
+| V-46723 | RegistryRule | RegistryPolicyFile |  |
+| V-46725 | RegistryRule | RegistryPolicyFile |  |
+| V-46727 | RegistryRule | RegistryPolicyFile |  |
+| V-46729 | RegistryRule | RegistryPolicyFile |  |
+| V-46731 | RegistryRule | RegistryPolicyFile |  |
+| V-46733 | RegistryRule | RegistryPolicyFile |  |
+| V-46779 | RegistryRule | RegistryPolicyFile |  |
+| V-46781 | RegistryRule | RegistryPolicyFile |  |
+| V-46787 | RegistryRule | RegistryPolicyFile |  |
+| V-46789 | RegistryRule | RegistryPolicyFile |  |
+| V-46791 | RegistryRule | RegistryPolicyFile |  |
+| V-46797 | RegistryRule | RegistryPolicyFile |  |
+| V-46799 | RegistryRule | RegistryPolicyFile |  |
+| V-46801 | RegistryRule | RegistryPolicyFile |  |
+| V-46807 | RegistryRule | RegistryPolicyFile |  |
+| V-46811 | RegistryRule | RegistryPolicyFile |  |
+| V-46815.a | RegistryRule | RegistryPolicyFile |  |
+| V-46815.b | RegistryRule | RegistryPolicyFile |  |
+| V-46819 | RegistryRule | RegistryPolicyFile |  |
+| V-46829 | RegistryRule | RegistryPolicyFile |  |
+| V-46841 | RegistryRule | RegistryPolicyFile |  |
+| V-46847 | RegistryRule | RegistryPolicyFile |  |
+| V-46849 | RegistryRule | RegistryPolicyFile |  |
+| V-46853 | RegistryRule | RegistryPolicyFile |  |
+| V-46857 | RegistryRule | RegistryPolicyFile |  |
+| V-46859 | RegistryRule | RegistryPolicyFile |  |
+| V-46861 | RegistryRule | RegistryPolicyFile |  |
+| V-46865 | RegistryRule | RegistryPolicyFile |  |
+| V-46869 | RegistryRule | RegistryPolicyFile |  |
+| V-46879 | RegistryRule | RegistryPolicyFile |  |
+| V-46883 | RegistryRule | RegistryPolicyFile |  |
+| V-46885 | RegistryRule | RegistryPolicyFile |  |
+| V-46889 | RegistryRule | RegistryPolicyFile |  |
+| V-46893 | RegistryRule | RegistryPolicyFile |  |
+| V-46895 | RegistryRule | RegistryPolicyFile |  |
+| V-46897 | RegistryRule | RegistryPolicyFile |  |
+| V-46903 | RegistryRule | RegistryPolicyFile |  |
+| V-46907 | RegistryRule | RegistryPolicyFile |  |
+| V-46921 | RegistryRule | RegistryPolicyFile |  |
+| V-46927 | RegistryRule | RegistryPolicyFile |  |
+| V-46939 | RegistryRule | RegistryPolicyFile |  |
+| V-46975 | RegistryRule | RegistryPolicyFile |  |
+| V-46981 | RegistryRule | RegistryPolicyFile |  |
+| V-46987 | RegistryRule | RegistryPolicyFile |  |
+| V-46995 | RegistryRule | RegistryPolicyFile |  |
+| V-46997 | RegistryRule | RegistryPolicyFile |  |
+| V-46999 | RegistryRule | RegistryPolicyFile |  |
+| V-47003 | RegistryRule | RegistryPolicyFile |  |
+| V-47005 | RegistryRule | RegistryPolicyFile |  |
+| V-47009 | RegistryRule | RegistryPolicyFile |  |
+| V-64711 | RegistryRule | RegistryPolicyFile |  |
+| V-64713 | RegistryRule | RegistryPolicyFile |  |
+| V-64715 | RegistryRule | RegistryPolicyFile |  |
+| V-64717 | RegistryRule | RegistryPolicyFile |  |
+| V-64719 | RegistryRule | RegistryPolicyFile |  |
+| V-64721 | RegistryRule | RegistryPolicyFile |  |
+| V-64723 | RegistryRule | RegistryPolicyFile |  |
+| V-64725 | RegistryRule | RegistryPolicyFile |  |
+| V-64729 | RegistryRule | RegistryPolicyFile |  |
+| V-72757 | RegistryRule | RegistryPolicyFile |  |
+| V-72759 | RegistryRule | RegistryPolicyFile |  |
+| V-72761 | RegistryRule | RegistryPolicyFile |  |
+| V-72763 | RegistryRule | RegistryPolicyFile |  |
+| V-75169 | RegistryRule | RegistryPolicyFile |  |
+| V-75171 | RegistryRule | RegistryPolicyFile |  |
 
 ## IE 11 STIG, Version 1.18
 
@@ -446,149 +446,149 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_IE11_STIG_V1R18_Manual-xccdf.xml  
 **Created:** 12/5/2019  
 **Description:** The Microsoft Internet Explorer 11 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil  
-**StigRuleCoverage:** **140** of **139** rules are automated; **101%**  
+**StigRuleCoverage:** **139** of **139** rules are automated; **100%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-46473 | RegistryRule | RegistryPolicyFile |
-| V-46475 | RegistryRule | RegistryPolicyFile |
-| V-46477 | RegistryRule | RegistryPolicyFile |
-| V-46481 | RegistryRule | RegistryPolicyFile |
-| V-46483 | RegistryRule | RegistryPolicyFile |
-| V-46501 | RegistryRule | RegistryPolicyFile |
-| V-46507 | RegistryRule | RegistryPolicyFile |
-| V-46509 | RegistryRule | RegistryPolicyFile |
-| V-46511 | RegistryRule | RegistryPolicyFile |
-| V-46513 | RegistryRule | RegistryPolicyFile |
-| V-46515 | RegistryRule | RegistryPolicyFile |
-| V-46517 | RegistryRule | RegistryPolicyFile |
-| V-46521 | RegistryRule | RegistryPolicyFile |
-| V-46523 | RegistryRule | RegistryPolicyFile |
-| V-46525 | RegistryRule | RegistryPolicyFile |
-| V-46543 | RegistryRule | RegistryPolicyFile |
-| V-46545 | RegistryRule | RegistryPolicyFile |
-| V-46547 | RegistryRule | RegistryPolicyFile |
-| V-46549 | RegistryRule | RegistryPolicyFile |
-| V-46553 | RegistryRule | RegistryPolicyFile |
-| V-46555 | RegistryRule | RegistryPolicyFile |
-| V-46573 | RegistryRule | RegistryPolicyFile |
-| V-46575 | RegistryRule | RegistryPolicyFile |
-| V-46577 | RegistryRule | RegistryPolicyFile |
-| V-46579 | RegistryRule | RegistryPolicyFile |
-| V-46581 | RegistryRule | RegistryPolicyFile |
-| V-46583 | RegistryRule | RegistryPolicyFile |
-| V-46587 | RegistryRule | RegistryPolicyFile |
-| V-46589 | RegistryRule | RegistryPolicyFile |
-| V-46591 | RegistryRule | RegistryPolicyFile |
-| V-46593 | RegistryRule | RegistryPolicyFile |
-| V-46597 | RegistryRule | RegistryPolicyFile |
-| V-46599 | RegistryRule | RegistryPolicyFile |
-| V-46601 | RegistryRule | RegistryPolicyFile |
-| V-46603 | RegistryRule | RegistryPolicyFile |
-| V-46605 | RegistryRule | RegistryPolicyFile |
-| V-46607 | RegistryRule | RegistryPolicyFile |
-| V-46609.a | RegistryRule | RegistryPolicyFile |
-| V-46609.b | RegistryRule | RegistryPolicyFile |
-| V-46615 | RegistryRule | RegistryPolicyFile |
-| V-46617 | RegistryRule | RegistryPolicyFile |
-| V-46619 | RegistryRule | RegistryPolicyFile |
-| V-46621 | RegistryRule | RegistryPolicyFile |
-| V-46625 | RegistryRule | RegistryPolicyFile |
-| V-46629 | RegistryRule | RegistryPolicyFile |
-| V-46633 | RegistryRule | RegistryPolicyFile |
-| V-46635 | RegistryRule | RegistryPolicyFile |
-| V-46637 | RegistryRule | RegistryPolicyFile |
-| V-46639 | RegistryRule | RegistryPolicyFile |
-| V-46641 | RegistryRule | RegistryPolicyFile |
-| V-46643 | RegistryRule | RegistryPolicyFile |
-| V-46645 | RegistryRule | RegistryPolicyFile |
-| V-46647 | RegistryRule | RegistryPolicyFile |
-| V-46649 | RegistryRule | RegistryPolicyFile |
-| V-46653 | RegistryRule | RegistryPolicyFile |
-| V-46663 | RegistryRule | RegistryPolicyFile |
-| V-46665 | RegistryRule | RegistryPolicyFile |
-| V-46669 | RegistryRule | RegistryPolicyFile |
-| V-46681 | RegistryRule | RegistryPolicyFile |
-| V-46685 | RegistryRule | RegistryPolicyFile |
-| V-46689 | RegistryRule | RegistryPolicyFile |
-| V-46691 | RegistryRule | RegistryPolicyFile |
-| V-46693 | RegistryRule | RegistryPolicyFile |
-| V-46695 | RegistryRule | RegistryPolicyFile |
-| V-46701 | RegistryRule | RegistryPolicyFile |
-| V-46705 | RegistryRule | RegistryPolicyFile |
-| V-46709 | RegistryRule | RegistryPolicyFile |
-| V-46711 | RegistryRule | RegistryPolicyFile |
-| V-46713 | RegistryRule | RegistryPolicyFile |
-| V-46715 | RegistryRule | RegistryPolicyFile |
-| V-46717 | RegistryRule | RegistryPolicyFile |
-| V-46719 | RegistryRule | RegistryPolicyFile |
-| V-46721 | RegistryRule | RegistryPolicyFile |
-| V-46723 | RegistryRule | RegistryPolicyFile |
-| V-46725 | RegistryRule | RegistryPolicyFile |
-| V-46727 | RegistryRule | RegistryPolicyFile |
-| V-46729 | RegistryRule | RegistryPolicyFile |
-| V-46731 | RegistryRule | RegistryPolicyFile |
-| V-46733 | RegistryRule | RegistryPolicyFile |
-| V-46779 | RegistryRule | RegistryPolicyFile |
-| V-46781 | RegistryRule | RegistryPolicyFile |
-| V-46787 | RegistryRule | RegistryPolicyFile |
-| V-46789 | RegistryRule | RegistryPolicyFile |
-| V-46791 | RegistryRule | RegistryPolicyFile |
-| V-46797 | RegistryRule | RegistryPolicyFile |
-| V-46799 | RegistryRule | RegistryPolicyFile |
-| V-46801 | RegistryRule | RegistryPolicyFile |
-| V-46807 | RegistryRule | RegistryPolicyFile |
-| V-46811 | RegistryRule | RegistryPolicyFile |
-| V-46815.a | RegistryRule | RegistryPolicyFile |
-| V-46815.b | RegistryRule | RegistryPolicyFile |
-| V-46819 | RegistryRule | RegistryPolicyFile |
-| V-46829 | RegistryRule | RegistryPolicyFile |
-| V-46841 | RegistryRule | RegistryPolicyFile |
-| V-46847 | RegistryRule | RegistryPolicyFile |
-| V-46849 | RegistryRule | RegistryPolicyFile |
-| V-46853 | RegistryRule | RegistryPolicyFile |
-| V-46857 | RegistryRule | RegistryPolicyFile |
-| V-46859 | RegistryRule | RegistryPolicyFile |
-| V-46861 | RegistryRule | RegistryPolicyFile |
-| V-46865 | RegistryRule | RegistryPolicyFile |
-| V-46869 | RegistryRule | RegistryPolicyFile |
-| V-46879 | RegistryRule | RegistryPolicyFile |
-| V-46883 | RegistryRule | RegistryPolicyFile |
-| V-46885 | RegistryRule | RegistryPolicyFile |
-| V-46889 | RegistryRule | RegistryPolicyFile |
-| V-46893 | RegistryRule | RegistryPolicyFile |
-| V-46895 | RegistryRule | RegistryPolicyFile |
-| V-46897 | RegistryRule | RegistryPolicyFile |
-| V-46903 | RegistryRule | RegistryPolicyFile |
-| V-46907 | RegistryRule | RegistryPolicyFile |
-| V-46921 | RegistryRule | RegistryPolicyFile |
-| V-46927 | RegistryRule | RegistryPolicyFile |
-| V-46939 | RegistryRule | RegistryPolicyFile |
-| V-46975 | RegistryRule | RegistryPolicyFile |
-| V-46981 | RegistryRule | RegistryPolicyFile |
-| V-46987 | RegistryRule | RegistryPolicyFile |
-| V-46995 | RegistryRule | RegistryPolicyFile |
-| V-46997 | RegistryRule | RegistryPolicyFile |
-| V-46999 | RegistryRule | RegistryPolicyFile |
-| V-47003 | RegistryRule | RegistryPolicyFile |
-| V-47005 | RegistryRule | RegistryPolicyFile |
-| V-47009 | RegistryRule | RegistryPolicyFile |
-| V-64711 | RegistryRule | RegistryPolicyFile |
-| V-64713 | RegistryRule | RegistryPolicyFile |
-| V-64715 | RegistryRule | RegistryPolicyFile |
-| V-64717 | RegistryRule | RegistryPolicyFile |
-| V-64719 | RegistryRule | RegistryPolicyFile |
-| V-64721 | RegistryRule | RegistryPolicyFile |
-| V-64723 | RegistryRule | RegistryPolicyFile |
-| V-64725 | RegistryRule | RegistryPolicyFile |
-| V-64729 | RegistryRule | RegistryPolicyFile |
-| V-72757 | RegistryRule | RegistryPolicyFile |
-| V-72759 | RegistryRule | RegistryPolicyFile |
-| V-72761 | RegistryRule | RegistryPolicyFile |
-| V-72763 | RegistryRule | RegistryPolicyFile |
-| V-75169 | RegistryRule | RegistryPolicyFile |
-| V-75171 | RegistryRule | RegistryPolicyFile |
-| V-97527 | RegistryRule | RegistryPolicyFile |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-46473 | RegistryRule | RegistryPolicyFile |  |
+| V-46475 | RegistryRule | RegistryPolicyFile |  |
+| V-46477 | RegistryRule | RegistryPolicyFile |  |
+| V-46481 | RegistryRule | RegistryPolicyFile |  |
+| V-46483 | RegistryRule | RegistryPolicyFile |  |
+| V-46501 | RegistryRule | RegistryPolicyFile |  |
+| V-46507 | RegistryRule | RegistryPolicyFile |  |
+| V-46509 | RegistryRule | RegistryPolicyFile |  |
+| V-46511 | RegistryRule | RegistryPolicyFile |  |
+| V-46513 | RegistryRule | RegistryPolicyFile |  |
+| V-46515 | RegistryRule | RegistryPolicyFile |  |
+| V-46517 | RegistryRule | RegistryPolicyFile |  |
+| V-46521 | RegistryRule | RegistryPolicyFile |  |
+| V-46523 | RegistryRule | RegistryPolicyFile |  |
+| V-46525 | RegistryRule | RegistryPolicyFile |  |
+| V-46543 | RegistryRule | RegistryPolicyFile |  |
+| V-46545 | RegistryRule | RegistryPolicyFile |  |
+| V-46547 | RegistryRule | RegistryPolicyFile |  |
+| V-46549 | RegistryRule | RegistryPolicyFile |  |
+| V-46553 | RegistryRule | RegistryPolicyFile |  |
+| V-46555 | RegistryRule | RegistryPolicyFile |  |
+| V-46573 | RegistryRule | RegistryPolicyFile |  |
+| V-46575 | RegistryRule | RegistryPolicyFile |  |
+| V-46577 | RegistryRule | RegistryPolicyFile |  |
+| V-46579 | RegistryRule | RegistryPolicyFile |  |
+| V-46581 | RegistryRule | RegistryPolicyFile |  |
+| V-46583 | RegistryRule | RegistryPolicyFile |  |
+| V-46587 | RegistryRule | RegistryPolicyFile |  |
+| V-46589 | RegistryRule | RegistryPolicyFile |  |
+| V-46591 | RegistryRule | RegistryPolicyFile |  |
+| V-46593 | RegistryRule | RegistryPolicyFile |  |
+| V-46597 | RegistryRule | RegistryPolicyFile |  |
+| V-46599 | RegistryRule | RegistryPolicyFile |  |
+| V-46601 | RegistryRule | RegistryPolicyFile |  |
+| V-46603 | RegistryRule | RegistryPolicyFile |  |
+| V-46605 | RegistryRule | RegistryPolicyFile |  |
+| V-46607 | RegistryRule | RegistryPolicyFile |  |
+| V-46609.a | RegistryRule | RegistryPolicyFile |  |
+| V-46609.b | RegistryRule | RegistryPolicyFile |  |
+| V-46615 | RegistryRule | RegistryPolicyFile |  |
+| V-46617 | RegistryRule | RegistryPolicyFile |  |
+| V-46619 | RegistryRule | RegistryPolicyFile |  |
+| V-46621 | RegistryRule | RegistryPolicyFile |  |
+| V-46625 | RegistryRule | RegistryPolicyFile |  |
+| V-46629 | RegistryRule | RegistryPolicyFile |  |
+| V-46633 | RegistryRule | RegistryPolicyFile |  |
+| V-46635 | RegistryRule | RegistryPolicyFile |  |
+| V-46637 | RegistryRule | RegistryPolicyFile |  |
+| V-46639 | RegistryRule | RegistryPolicyFile |  |
+| V-46641 | RegistryRule | RegistryPolicyFile |  |
+| V-46643 | RegistryRule | RegistryPolicyFile |  |
+| V-46645 | RegistryRule | RegistryPolicyFile |  |
+| V-46647 | RegistryRule | RegistryPolicyFile |  |
+| V-46649 | RegistryRule | RegistryPolicyFile |  |
+| V-46653 | RegistryRule | RegistryPolicyFile |  |
+| V-46663 | RegistryRule | RegistryPolicyFile |  |
+| V-46665 | RegistryRule | RegistryPolicyFile |  |
+| V-46669 | RegistryRule | RegistryPolicyFile |  |
+| V-46681 | RegistryRule | RegistryPolicyFile |  |
+| V-46685 | RegistryRule | RegistryPolicyFile |  |
+| V-46689 | RegistryRule | RegistryPolicyFile |  |
+| V-46691 | RegistryRule | RegistryPolicyFile |  |
+| V-46693 | RegistryRule | RegistryPolicyFile |  |
+| V-46695 | RegistryRule | RegistryPolicyFile |  |
+| V-46701 | RegistryRule | RegistryPolicyFile |  |
+| V-46705 | RegistryRule | RegistryPolicyFile |  |
+| V-46709 | RegistryRule | RegistryPolicyFile |  |
+| V-46711 | RegistryRule | RegistryPolicyFile |  |
+| V-46713 | RegistryRule | RegistryPolicyFile |  |
+| V-46715 | RegistryRule | RegistryPolicyFile |  |
+| V-46717 | RegistryRule | RegistryPolicyFile |  |
+| V-46719 | RegistryRule | RegistryPolicyFile |  |
+| V-46721 | RegistryRule | RegistryPolicyFile |  |
+| V-46723 | RegistryRule | RegistryPolicyFile |  |
+| V-46725 | RegistryRule | RegistryPolicyFile |  |
+| V-46727 | RegistryRule | RegistryPolicyFile |  |
+| V-46729 | RegistryRule | RegistryPolicyFile |  |
+| V-46731 | RegistryRule | RegistryPolicyFile |  |
+| V-46733 | RegistryRule | RegistryPolicyFile |  |
+| V-46779 | RegistryRule | RegistryPolicyFile |  |
+| V-46781 | RegistryRule | RegistryPolicyFile |  |
+| V-46787 | RegistryRule | RegistryPolicyFile |  |
+| V-46789 | RegistryRule | RegistryPolicyFile |  |
+| V-46791 | RegistryRule | RegistryPolicyFile |  |
+| V-46797 | RegistryRule | RegistryPolicyFile |  |
+| V-46799 | RegistryRule | RegistryPolicyFile |  |
+| V-46801 | RegistryRule | RegistryPolicyFile |  |
+| V-46807 | RegistryRule | RegistryPolicyFile |  |
+| V-46811 | RegistryRule | RegistryPolicyFile |  |
+| V-46815.a | RegistryRule | RegistryPolicyFile |  |
+| V-46815.b | RegistryRule | RegistryPolicyFile |  |
+| V-46819 | RegistryRule | RegistryPolicyFile |  |
+| V-46829 | RegistryRule | RegistryPolicyFile |  |
+| V-46841 | RegistryRule | RegistryPolicyFile |  |
+| V-46847 | RegistryRule | RegistryPolicyFile |  |
+| V-46849 | RegistryRule | RegistryPolicyFile |  |
+| V-46853 | RegistryRule | RegistryPolicyFile |  |
+| V-46857 | RegistryRule | RegistryPolicyFile |  |
+| V-46859 | RegistryRule | RegistryPolicyFile |  |
+| V-46861 | RegistryRule | RegistryPolicyFile |  |
+| V-46865 | RegistryRule | RegistryPolicyFile |  |
+| V-46869 | RegistryRule | RegistryPolicyFile |  |
+| V-46879 | RegistryRule | RegistryPolicyFile |  |
+| V-46883 | RegistryRule | RegistryPolicyFile |  |
+| V-46885 | RegistryRule | RegistryPolicyFile |  |
+| V-46889 | RegistryRule | RegistryPolicyFile |  |
+| V-46893 | RegistryRule | RegistryPolicyFile |  |
+| V-46895 | RegistryRule | RegistryPolicyFile |  |
+| V-46897 | RegistryRule | RegistryPolicyFile |  |
+| V-46903 | RegistryRule | RegistryPolicyFile |  |
+| V-46907 | RegistryRule | RegistryPolicyFile |  |
+| V-46921 | RegistryRule | RegistryPolicyFile |  |
+| V-46927 | RegistryRule | RegistryPolicyFile |  |
+| V-46939 | RegistryRule | RegistryPolicyFile |  |
+| V-46975 | RegistryRule | RegistryPolicyFile |  |
+| V-46981 | RegistryRule | RegistryPolicyFile |  |
+| V-46987 | RegistryRule | RegistryPolicyFile |  |
+| V-46995 | RegistryRule | RegistryPolicyFile |  |
+| V-46997 | RegistryRule | RegistryPolicyFile |  |
+| V-46999 | RegistryRule | RegistryPolicyFile |  |
+| V-47003 | RegistryRule | RegistryPolicyFile |  |
+| V-47005 | RegistryRule | RegistryPolicyFile |  |
+| V-47009 | RegistryRule | RegistryPolicyFile |  |
+| V-64711 | RegistryRule | RegistryPolicyFile |  |
+| V-64713 | RegistryRule | RegistryPolicyFile |  |
+| V-64715 | RegistryRule | RegistryPolicyFile |  |
+| V-64717 | RegistryRule | RegistryPolicyFile |  |
+| V-64719 | RegistryRule | RegistryPolicyFile |  |
+| V-64721 | RegistryRule | RegistryPolicyFile |  |
+| V-64723 | RegistryRule | RegistryPolicyFile |  |
+| V-64725 | RegistryRule | RegistryPolicyFile |  |
+| V-64729 | RegistryRule | RegistryPolicyFile |  |
+| V-72757 | RegistryRule | RegistryPolicyFile |  |
+| V-72759 | RegistryRule | RegistryPolicyFile |  |
+| V-72761 | RegistryRule | RegistryPolicyFile |  |
+| V-72763 | RegistryRule | RegistryPolicyFile |  |
+| V-75169 | RegistryRule | RegistryPolicyFile |  |
+| V-75171 | RegistryRule | RegistryPolicyFile |  |
+| V-97527 | RegistryRule | RegistryPolicyFile |  |
 
 ## Microsoft Excel 2013, Version 1.7
 
@@ -598,58 +598,58 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_Excel_2013_STIG_V1R7_Manual-xccdf.xml  
 **Created:** 9/6/2019  
 **Description:** The Microsoft Excel 2013 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **49** of **48** rules are automated; **102%**  
+**StigRuleCoverage:** **48** of **48** rules are automated; **100%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-17173 | RegistryRule | RegistryPolicyFile |
-| V-17174 | RegistryRule | RegistryPolicyFile |
-| V-17175 | RegistryRule | RegistryPolicyFile |
-| V-17183 | RegistryRule | RegistryPolicyFile |
-| V-17184 | RegistryRule | RegistryPolicyFile |
-| V-17187 | RegistryRule | RegistryPolicyFile |
-| V-17322 | RegistryRule | RegistryPolicyFile |
-| V-17471 | RegistryRule | RegistryPolicyFile |
-| V-17473 | RegistryRule | RegistryPolicyFile |
-| V-17520 | RegistryRule | RegistryPolicyFile |
-| V-17521 | RegistryRule | RegistryPolicyFile |
-| V-17522 | RegistryRule | RegistryPolicyFile |
-| V-17545 | RegistryRule | RegistryPolicyFile |
-| V-17621 | RegistryRule | RegistryPolicyFile |
-| V-17650 | RegistryRule | RegistryPolicyFile |
-| V-17652 | RegistryRule | RegistryPolicyFile |
-| V-17732 | RegistryRule | RegistryPolicyFile |
-| V-17744 | RegistryRule | RegistryPolicyFile |
-| V-17751 | RegistryRule | RegistryPolicyFile |
-| V-17804 | RegistryRule | RegistryPolicyFile |
-| V-26584 | RegistryRule | RegistryPolicyFile |
-| V-26585 | RegistryRule | RegistryPolicyFile |
-| V-26586 | RegistryRule | RegistryPolicyFile |
-| V-26587 | RegistryRule | RegistryPolicyFile |
-| V-26588 | RegistryRule | RegistryPolicyFile |
-| V-26589 | RegistryRule | RegistryPolicyFile |
-| V-26592 | RegistryRule | RegistryPolicyFile |
-| V-26595 | RegistryRule | RegistryPolicyFile |
-| V-26596 | RegistryRule | RegistryPolicyFile |
-| V-26597 | RegistryRule | RegistryPolicyFile |
-| V-26598 | RegistryRule | RegistryPolicyFile |
-| V-26599 | RegistryRule | RegistryPolicyFile |
-| V-26601 | RegistryRule | RegistryPolicyFile |
-| V-26607 | RegistryRule | RegistryPolicyFile |
-| V-26608 | RegistryRule | RegistryPolicyFile |
-| V-26609 | RegistryRule | RegistryPolicyFile |
-| V-26610 | RegistryRule | RegistryPolicyFile |
-| V-26611 | RegistryRule | RegistryPolicyFile |
-| V-26612 | RegistryRule | RegistryPolicyFile |
-| V-26613 | RegistryRule | RegistryPolicyFile |
-| V-26614 | RegistryRule | RegistryPolicyFile |
-| V-26615 | RegistryRule | RegistryPolicyFile |
-| V-26616.a | RegistryRule | RegistryPolicyFile |
-| V-26616.b | RegistryRule | RegistryPolicyFile |
-| V-26617 | RegistryRule | RegistryPolicyFile |
-| V-41344 | RegistryRule | RegistryPolicyFile |
-| V-41346 | RegistryRule | RegistryPolicyFile |
-| V-72831 | RegistryRule | RegistryPolicyFile |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-17173 | RegistryRule | RegistryPolicyFile |  |
+| V-17174 | RegistryRule | RegistryPolicyFile |  |
+| V-17175 | RegistryRule | RegistryPolicyFile |  |
+| V-17183 | RegistryRule | RegistryPolicyFile |  |
+| V-17184 | RegistryRule | RegistryPolicyFile |  |
+| V-17187 | RegistryRule | RegistryPolicyFile |  |
+| V-17322 | RegistryRule | RegistryPolicyFile |  |
+| V-17471 | RegistryRule | RegistryPolicyFile |  |
+| V-17473 | RegistryRule | RegistryPolicyFile |  |
+| V-17520 | RegistryRule | RegistryPolicyFile |  |
+| V-17521 | RegistryRule | RegistryPolicyFile |  |
+| V-17522 | RegistryRule | RegistryPolicyFile |  |
+| V-17545 | RegistryRule | RegistryPolicyFile |  |
+| V-17621 | RegistryRule | RegistryPolicyFile |  |
+| V-17650 | RegistryRule | RegistryPolicyFile |  |
+| V-17652 | RegistryRule | RegistryPolicyFile |  |
+| V-17732 | RegistryRule | RegistryPolicyFile |  |
+| V-17744 | RegistryRule | RegistryPolicyFile |  |
+| V-17751 | RegistryRule | RegistryPolicyFile |  |
+| V-17804 | RegistryRule | RegistryPolicyFile |  |
+| V-26584 | RegistryRule | RegistryPolicyFile |  |
+| V-26585 | RegistryRule | RegistryPolicyFile |  |
+| V-26586 | RegistryRule | RegistryPolicyFile |  |
+| V-26587 | RegistryRule | RegistryPolicyFile |  |
+| V-26588 | RegistryRule | RegistryPolicyFile |  |
+| V-26589 | RegistryRule | RegistryPolicyFile |  |
+| V-26592 | RegistryRule | RegistryPolicyFile |  |
+| V-26595 | RegistryRule | RegistryPolicyFile |  |
+| V-26596 | RegistryRule | RegistryPolicyFile |  |
+| V-26597 | RegistryRule | RegistryPolicyFile |  |
+| V-26598 | RegistryRule | RegistryPolicyFile |  |
+| V-26599 | RegistryRule | RegistryPolicyFile |  |
+| V-26601 | RegistryRule | RegistryPolicyFile |  |
+| V-26607 | RegistryRule | RegistryPolicyFile |  |
+| V-26608 | RegistryRule | RegistryPolicyFile |  |
+| V-26609 | RegistryRule | RegistryPolicyFile |  |
+| V-26610 | RegistryRule | RegistryPolicyFile |  |
+| V-26611 | RegistryRule | RegistryPolicyFile |  |
+| V-26612 | RegistryRule | RegistryPolicyFile |  |
+| V-26613 | RegistryRule | RegistryPolicyFile |  |
+| V-26614 | RegistryRule | RegistryPolicyFile |  |
+| V-26615 | RegistryRule | RegistryPolicyFile |  |
+| V-26616.a | RegistryRule | RegistryPolicyFile |  |
+| V-26616.b | RegistryRule | RegistryPolicyFile |  |
+| V-26617 | RegistryRule | RegistryPolicyFile |  |
+| V-41344 | RegistryRule | RegistryPolicyFile |  |
+| V-41346 | RegistryRule | RegistryPolicyFile |  |
+| V-72831 | RegistryRule | RegistryPolicyFile |  |
 
 ## Microsoft Excel 2016, Version 1.2
 
@@ -659,52 +659,52 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_Excel_2016_STIG_V1R2_Manual-xccdf.xml  
 **Created:** 9/6/2019  
 **Description:** The Microsoft Excel 2016 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **43** of **42** rules are automated; **102%**  
+**StigRuleCoverage:** **42** of **42** rules are automated; **100%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-70955 | RegistryRule | RegistryPolicyFile |
-| V-70957 | RegistryRule | RegistryPolicyFile |
-| V-70959 | RegistryRule | RegistryPolicyFile |
-| V-70961 | RegistryRule | RegistryPolicyFile |
-| V-70963 | RegistryRule | RegistryPolicyFile |
-| V-70965 | RegistryRule | RegistryPolicyFile |
-| V-70967 | RegistryRule | RegistryPolicyFile |
-| V-70969 | RegistryRule | RegistryPolicyFile |
-| V-70971 | RegistryRule | RegistryPolicyFile |
-| V-70973 | RegistryRule | RegistryPolicyFile |
-| V-70975 | RegistryRule | RegistryPolicyFile |
-| V-70977 | RegistryRule | RegistryPolicyFile |
-| V-70979 | RegistryRule | RegistryPolicyFile |
-| V-70981 | RegistryRule | RegistryPolicyFile |
-| V-70983 | RegistryRule | RegistryPolicyFile |
-| V-70985 | RegistryRule | RegistryPolicyFile |
-| V-70987 | RegistryRule | RegistryPolicyFile |
-| V-70989 | RegistryRule | RegistryPolicyFile |
-| V-70991 | RegistryRule | RegistryPolicyFile |
-| V-70993 | RegistryRule | RegistryPolicyFile |
-| V-70995 | RegistryRule | RegistryPolicyFile |
-| V-70997 | RegistryRule | RegistryPolicyFile |
-| V-70999 | RegistryRule | RegistryPolicyFile |
-| V-71001 | RegistryRule | RegistryPolicyFile |
-| V-71003 | RegistryRule | RegistryPolicyFile |
-| V-71005 | RegistryRule | RegistryPolicyFile |
-| V-71007 | RegistryRule | RegistryPolicyFile |
-| V-71011 | RegistryRule | RegistryPolicyFile |
-| V-71015 | RegistryRule | RegistryPolicyFile |
-| V-71017 | RegistryRule | RegistryPolicyFile |
-| V-71019 | RegistryRule | RegistryPolicyFile |
-| V-71023 | RegistryRule | RegistryPolicyFile |
-| V-71025 | RegistryRule | RegistryPolicyFile |
-| V-71027 | RegistryRule | RegistryPolicyFile |
-| V-71029.a | RegistryRule | RegistryPolicyFile |
-| V-71029.b | RegistryRule | RegistryPolicyFile |
-| V-71031 | RegistryRule | RegistryPolicyFile |
-| V-71033 | RegistryRule | RegistryPolicyFile |
-| V-71035 | RegistryRule | RegistryPolicyFile |
-| V-71037 | RegistryRule | RegistryPolicyFile |
-| V-71039 | RegistryRule | RegistryPolicyFile |
-| V-71639 | RegistryRule | RegistryPolicyFile |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-70955 | RegistryRule | RegistryPolicyFile |  |
+| V-70957 | RegistryRule | RegistryPolicyFile |  |
+| V-70959 | RegistryRule | RegistryPolicyFile |  |
+| V-70961 | RegistryRule | RegistryPolicyFile |  |
+| V-70963 | RegistryRule | RegistryPolicyFile |  |
+| V-70965 | RegistryRule | RegistryPolicyFile |  |
+| V-70967 | RegistryRule | RegistryPolicyFile |  |
+| V-70969 | RegistryRule | RegistryPolicyFile |  |
+| V-70971 | RegistryRule | RegistryPolicyFile |  |
+| V-70973 | RegistryRule | RegistryPolicyFile |  |
+| V-70975 | RegistryRule | RegistryPolicyFile |  |
+| V-70977 | RegistryRule | RegistryPolicyFile |  |
+| V-70979 | RegistryRule | RegistryPolicyFile |  |
+| V-70981 | RegistryRule | RegistryPolicyFile |  |
+| V-70983 | RegistryRule | RegistryPolicyFile |  |
+| V-70985 | RegistryRule | RegistryPolicyFile |  |
+| V-70987 | RegistryRule | RegistryPolicyFile |  |
+| V-70989 | RegistryRule | RegistryPolicyFile |  |
+| V-70991 | RegistryRule | RegistryPolicyFile |  |
+| V-70993 | RegistryRule | RegistryPolicyFile |  |
+| V-70995 | RegistryRule | RegistryPolicyFile |  |
+| V-70997 | RegistryRule | RegistryPolicyFile |  |
+| V-70999 | RegistryRule | RegistryPolicyFile |  |
+| V-71001 | RegistryRule | RegistryPolicyFile |  |
+| V-71003 | RegistryRule | RegistryPolicyFile |  |
+| V-71005 | RegistryRule | RegistryPolicyFile |  |
+| V-71007 | RegistryRule | RegistryPolicyFile |  |
+| V-71011 | RegistryRule | RegistryPolicyFile |  |
+| V-71015 | RegistryRule | RegistryPolicyFile |  |
+| V-71017 | RegistryRule | RegistryPolicyFile |  |
+| V-71019 | RegistryRule | RegistryPolicyFile |  |
+| V-71023 | RegistryRule | RegistryPolicyFile |  |
+| V-71025 | RegistryRule | RegistryPolicyFile |  |
+| V-71027 | RegistryRule | RegistryPolicyFile |  |
+| V-71029.a | RegistryRule | RegistryPolicyFile |  |
+| V-71029.b | RegistryRule | RegistryPolicyFile |  |
+| V-71031 | RegistryRule | RegistryPolicyFile |  |
+| V-71033 | RegistryRule | RegistryPolicyFile |  |
+| V-71035 | RegistryRule | RegistryPolicyFile |  |
+| V-71037 | RegistryRule | RegistryPolicyFile |  |
+| V-71039 | RegistryRule | RegistryPolicyFile |  |
+| V-71639 | RegistryRule | RegistryPolicyFile |  |
 
 ## Microsoft Outlook 2013, Version 1.12
 
@@ -714,92 +714,92 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MicrosoftOutlook2013_STIG_V1R12_Manual-xccdf.xml  
 **Created:** 9/6/2019  
 **Description:** The Microsoft Outlook 2013 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **83** of **82** rules are automated; **101%**  
+**StigRuleCoverage:** **82** of **82** rules are automated; **100%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-17173 | RegistryRule | RegistryPolicyFile |
-| V-17174 | RegistryRule | RegistryPolicyFile |
-| V-17175 | RegistryRule | RegistryPolicyFile |
-| V-17183 | RegistryRule | RegistryPolicyFile |
-| V-17184 | RegistryRule | RegistryPolicyFile |
-| V-17470 | RegistryRule | RegistryPolicyFile |
-| V-17546 | RegistryRule | RegistryPolicyFile |
-| V-17558 | RegistryRule | RegistryPolicyFile |
-| V-17559 | RegistryRule | RegistryPolicyFile |
-| V-17562 | RegistryRule | RegistryPolicyFile |
-| V-17564 | RegistryRule | RegistryPolicyFile |
-| V-17566 | RegistryRule | RegistryPolicyFile |
-| V-17568 | RegistryRule | RegistryPolicyFile |
-| V-17569 | RegistryRule | RegistryPolicyFile |
-| V-17570 | RegistryRule | RegistryPolicyFile |
-| V-17571 | RegistryRule | RegistryPolicyFile |
-| V-17572 | RegistryRule | RegistryPolicyFile |
-| V-17573 | RegistryRule | RegistryPolicyFile |
-| V-17574 | RegistryRule | RegistryPolicyFile |
-| V-17575 | RegistryRule | RegistryPolicyFile |
-| V-17587 | RegistryRule | RegistryPolicyFile |
-| V-17601 | RegistryRule | RegistryPolicyFile |
-| V-17602 | RegistryRule | RegistryPolicyFile |
-| V-17610 | RegistryRule | RegistryPolicyFile |
-| V-17613 | RegistryRule | RegistryPolicyFile |
-| V-17615 | RegistryRule | RegistryPolicyFile |
-| V-17624 | RegistryRule | RegistryPolicyFile |
-| V-17630 | RegistryRule | RegistryPolicyFile |
-| V-17634 | RegistryRule | RegistryPolicyFile |
-| V-17671 | RegistryRule | RegistryPolicyFile |
-| V-17672 | RegistryRule | RegistryPolicyFile |
-| V-17673 | RegistryRule | RegistryPolicyFile |
-| V-17674 | RegistryRule | RegistryPolicyFile |
-| V-17675 | RegistryRule | RegistryPolicyFile |
-| V-17676 | RegistryRule | RegistryPolicyFile |
-| V-17678 | RegistryRule | RegistryPolicyFile |
-| V-17733 | RegistryRule | RegistryPolicyFile |
-| V-17734 | RegistryRule | RegistryPolicyFile |
-| V-17738 | RegistryRule | RegistryPolicyFile |
-| V-17739 | RegistryRule | RegistryPolicyFile |
-| V-17753 | RegistryRule | RegistryPolicyFile |
-| V-17755 | RegistryRule | RegistryPolicyFile |
-| V-17756 | RegistryRule | RegistryPolicyFile |
-| V-17760 | RegistryRule | RegistryPolicyFile |
-| V-17761.a | RegistryRule | RegistryPolicyFile |
-| V-17761.b | RegistryRule | RegistryPolicyFile |
-| V-17762 | RegistryRule | RegistryPolicyFile |
-| V-17763 | RegistryRule | RegistryPolicyFile |
-| V-17766 | RegistryRule | RegistryPolicyFile |
-| V-17770 | RegistryRule | RegistryPolicyFile |
-| V-17771 | RegistryRule | RegistryPolicyFile |
-| V-17774 | RegistryRule | RegistryPolicyFile |
-| V-17775 | RegistryRule | RegistryPolicyFile |
-| V-17776 | RegistryRule | RegistryPolicyFile |
-| V-17777 | RegistryRule | RegistryPolicyFile |
-| V-17778 | RegistryRule | RegistryPolicyFile |
-| V-17787 | RegistryRule | RegistryPolicyFile |
-| V-17790 | RegistryRule | RegistryPolicyFile |
-| V-17795 | RegistryRule | RegistryPolicyFile |
-| V-17798 | RegistryRule | RegistryPolicyFile |
-| V-17800 | RegistryRule | RegistryPolicyFile |
-| V-17802 | RegistryRule | RegistryPolicyFile |
-| V-17803 | RegistryRule | RegistryPolicyFile |
-| V-17806 | RegistryRule | RegistryPolicyFile |
-| V-17807 | RegistryRule | RegistryPolicyFile |
-| V-17808 | RegistryRule | RegistryPolicyFile |
-| V-17812 | RegistryRule | RegistryPolicyFile |
-| V-17944 | RegistryRule | RegistryPolicyFile |
-| V-26584 | RegistryRule | RegistryPolicyFile |
-| V-26585 | RegistryRule | RegistryPolicyFile |
-| V-26586 | RegistryRule | RegistryPolicyFile |
-| V-26587 | RegistryRule | RegistryPolicyFile |
-| V-26588 | RegistryRule | RegistryPolicyFile |
-| V-26632 | RegistryRule | RegistryPolicyFile |
-| V-26633 | RegistryRule | RegistryPolicyFile |
-| V-26634 | RegistryRule | RegistryPolicyFile |
-| V-26635 | RegistryRule | RegistryPolicyFile |
-| V-26636 | RegistryRule | RegistryPolicyFile |
-| V-26637 | RegistryRule | RegistryPolicyFile |
-| V-26702 | RegistryRule | RegistryPolicyFile |
-| V-41492 | RegistryRule | RegistryPolicyFile |
-| V-41493 | RegistryRule | RegistryPolicyFile |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-17173 | RegistryRule | RegistryPolicyFile |  |
+| V-17174 | RegistryRule | RegistryPolicyFile |  |
+| V-17175 | RegistryRule | RegistryPolicyFile |  |
+| V-17183 | RegistryRule | RegistryPolicyFile |  |
+| V-17184 | RegistryRule | RegistryPolicyFile |  |
+| V-17470 | RegistryRule | RegistryPolicyFile |  |
+| V-17546 | RegistryRule | RegistryPolicyFile |  |
+| V-17558 | RegistryRule | RegistryPolicyFile |  |
+| V-17559 | RegistryRule | RegistryPolicyFile |  |
+| V-17562 | RegistryRule | RegistryPolicyFile |  |
+| V-17564 | RegistryRule | RegistryPolicyFile |  |
+| V-17566 | RegistryRule | RegistryPolicyFile |  |
+| V-17568 | RegistryRule | RegistryPolicyFile |  |
+| V-17569 | RegistryRule | RegistryPolicyFile |  |
+| V-17570 | RegistryRule | RegistryPolicyFile |  |
+| V-17571 | RegistryRule | RegistryPolicyFile |  |
+| V-17572 | RegistryRule | RegistryPolicyFile |  |
+| V-17573 | RegistryRule | RegistryPolicyFile |  |
+| V-17574 | RegistryRule | RegistryPolicyFile |  |
+| V-17575 | RegistryRule | RegistryPolicyFile |  |
+| V-17587 | RegistryRule | RegistryPolicyFile |  |
+| V-17601 | RegistryRule | RegistryPolicyFile |  |
+| V-17602 | RegistryRule | RegistryPolicyFile |  |
+| V-17610 | RegistryRule | RegistryPolicyFile |  |
+| V-17613 | RegistryRule | RegistryPolicyFile |  |
+| V-17615 | RegistryRule | RegistryPolicyFile |  |
+| V-17624 | RegistryRule | RegistryPolicyFile |  |
+| V-17630 | RegistryRule | RegistryPolicyFile |  |
+| V-17634 | RegistryRule | RegistryPolicyFile |  |
+| V-17671 | RegistryRule | RegistryPolicyFile |  |
+| V-17672 | RegistryRule | RegistryPolicyFile |  |
+| V-17673 | RegistryRule | RegistryPolicyFile |  |
+| V-17674 | RegistryRule | RegistryPolicyFile |  |
+| V-17675 | RegistryRule | RegistryPolicyFile |  |
+| V-17676 | RegistryRule | RegistryPolicyFile |  |
+| V-17678 | RegistryRule | RegistryPolicyFile |  |
+| V-17733 | RegistryRule | RegistryPolicyFile |  |
+| V-17734 | RegistryRule | RegistryPolicyFile |  |
+| V-17738 | RegistryRule | RegistryPolicyFile |  |
+| V-17739 | RegistryRule | RegistryPolicyFile |  |
+| V-17753 | RegistryRule | RegistryPolicyFile |  |
+| V-17755 | RegistryRule | RegistryPolicyFile |  |
+| V-17756 | RegistryRule | RegistryPolicyFile |  |
+| V-17760 | RegistryRule | RegistryPolicyFile |  |
+| V-17761.a | RegistryRule | RegistryPolicyFile |  |
+| V-17761.b | RegistryRule | RegistryPolicyFile |  |
+| V-17762 | RegistryRule | RegistryPolicyFile |  |
+| V-17763 | RegistryRule | RegistryPolicyFile |  |
+| V-17766 | RegistryRule | RegistryPolicyFile |  |
+| V-17770 | RegistryRule | RegistryPolicyFile |  |
+| V-17771 | RegistryRule | RegistryPolicyFile |  |
+| V-17774 | RegistryRule | RegistryPolicyFile |  |
+| V-17775 | RegistryRule | RegistryPolicyFile |  |
+| V-17776 | RegistryRule | RegistryPolicyFile |  |
+| V-17777 | RegistryRule | RegistryPolicyFile |  |
+| V-17778 | RegistryRule | RegistryPolicyFile |  |
+| V-17787 | RegistryRule | RegistryPolicyFile |  |
+| V-17790 | RegistryRule | RegistryPolicyFile |  |
+| V-17795 | RegistryRule | RegistryPolicyFile |  |
+| V-17798 | RegistryRule | RegistryPolicyFile |  |
+| V-17800 | RegistryRule | RegistryPolicyFile |  |
+| V-17802 | RegistryRule | RegistryPolicyFile |  |
+| V-17803 | RegistryRule | RegistryPolicyFile |  |
+| V-17806 | RegistryRule | RegistryPolicyFile |  |
+| V-17807 | RegistryRule | RegistryPolicyFile |  |
+| V-17808 | RegistryRule | RegistryPolicyFile |  |
+| V-17812 | RegistryRule | RegistryPolicyFile |  |
+| V-17944 | RegistryRule | RegistryPolicyFile |  |
+| V-26584 | RegistryRule | RegistryPolicyFile |  |
+| V-26585 | RegistryRule | RegistryPolicyFile |  |
+| V-26586 | RegistryRule | RegistryPolicyFile |  |
+| V-26587 | RegistryRule | RegistryPolicyFile |  |
+| V-26588 | RegistryRule | RegistryPolicyFile |  |
+| V-26632 | RegistryRule | RegistryPolicyFile |  |
+| V-26633 | RegistryRule | RegistryPolicyFile |  |
+| V-26634 | RegistryRule | RegistryPolicyFile |  |
+| V-26635 | RegistryRule | RegistryPolicyFile |  |
+| V-26636 | RegistryRule | RegistryPolicyFile |  |
+| V-26637 | RegistryRule | RegistryPolicyFile |  |
+| V-26702 | RegistryRule | RegistryPolicyFile |  |
+| V-41492 | RegistryRule | RegistryPolicyFile |  |
+| V-41493 | RegistryRule | RegistryPolicyFile |  |
 
 ## Microsoft Outlook 2013, Version 1.13
 
@@ -809,92 +809,92 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MicrosoftOutlook2013_STIG_V1R13_Manual-xccdf.xml  
 **Created:** 9/6/2019  
 **Description:** The Microsoft Outlook 2013 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **83** of **82** rules are automated; **101%**  
+**StigRuleCoverage:** **82** of **82** rules are automated; **100%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-17173 | RegistryRule | RegistryPolicyFile |
-| V-17174 | RegistryRule | RegistryPolicyFile |
-| V-17175 | RegistryRule | RegistryPolicyFile |
-| V-17183 | RegistryRule | RegistryPolicyFile |
-| V-17184 | RegistryRule | RegistryPolicyFile |
-| V-17470 | RegistryRule | RegistryPolicyFile |
-| V-17546 | RegistryRule | RegistryPolicyFile |
-| V-17558 | RegistryRule | RegistryPolicyFile |
-| V-17559 | RegistryRule | RegistryPolicyFile |
-| V-17562 | RegistryRule | RegistryPolicyFile |
-| V-17564 | RegistryRule | RegistryPolicyFile |
-| V-17566 | RegistryRule | RegistryPolicyFile |
-| V-17568 | RegistryRule | RegistryPolicyFile |
-| V-17569 | RegistryRule | RegistryPolicyFile |
-| V-17570 | RegistryRule | RegistryPolicyFile |
-| V-17571 | RegistryRule | RegistryPolicyFile |
-| V-17572 | RegistryRule | RegistryPolicyFile |
-| V-17573 | RegistryRule | RegistryPolicyFile |
-| V-17574 | RegistryRule | RegistryPolicyFile |
-| V-17575 | RegistryRule | RegistryPolicyFile |
-| V-17587 | RegistryRule | RegistryPolicyFile |
-| V-17601 | RegistryRule | RegistryPolicyFile |
-| V-17602 | RegistryRule | RegistryPolicyFile |
-| V-17610 | RegistryRule | RegistryPolicyFile |
-| V-17613 | RegistryRule | RegistryPolicyFile |
-| V-17615 | RegistryRule | RegistryPolicyFile |
-| V-17624 | RegistryRule | RegistryPolicyFile |
-| V-17630 | RegistryRule | RegistryPolicyFile |
-| V-17634 | RegistryRule | RegistryPolicyFile |
-| V-17671 | RegistryRule | RegistryPolicyFile |
-| V-17672 | RegistryRule | RegistryPolicyFile |
-| V-17673 | RegistryRule | RegistryPolicyFile |
-| V-17674 | RegistryRule | RegistryPolicyFile |
-| V-17675 | RegistryRule | RegistryPolicyFile |
-| V-17676 | RegistryRule | RegistryPolicyFile |
-| V-17678 | RegistryRule | RegistryPolicyFile |
-| V-17733 | RegistryRule | RegistryPolicyFile |
-| V-17734 | RegistryRule | RegistryPolicyFile |
-| V-17738 | RegistryRule | RegistryPolicyFile |
-| V-17739 | RegistryRule | RegistryPolicyFile |
-| V-17753 | RegistryRule | RegistryPolicyFile |
-| V-17755 | RegistryRule | RegistryPolicyFile |
-| V-17756 | RegistryRule | RegistryPolicyFile |
-| V-17760 | RegistryRule | RegistryPolicyFile |
-| V-17761.a | RegistryRule | RegistryPolicyFile |
-| V-17761.b | RegistryRule | RegistryPolicyFile |
-| V-17762 | RegistryRule | RegistryPolicyFile |
-| V-17763 | RegistryRule | RegistryPolicyFile |
-| V-17766 | RegistryRule | RegistryPolicyFile |
-| V-17770 | RegistryRule | RegistryPolicyFile |
-| V-17771 | RegistryRule | RegistryPolicyFile |
-| V-17774 | RegistryRule | RegistryPolicyFile |
-| V-17775 | RegistryRule | RegistryPolicyFile |
-| V-17776 | RegistryRule | RegistryPolicyFile |
-| V-17777 | RegistryRule | RegistryPolicyFile |
-| V-17778 | RegistryRule | RegistryPolicyFile |
-| V-17787 | RegistryRule | RegistryPolicyFile |
-| V-17790 | RegistryRule | RegistryPolicyFile |
-| V-17795 | RegistryRule | RegistryPolicyFile |
-| V-17798 | RegistryRule | RegistryPolicyFile |
-| V-17800 | RegistryRule | RegistryPolicyFile |
-| V-17802 | RegistryRule | RegistryPolicyFile |
-| V-17803 | RegistryRule | RegistryPolicyFile |
-| V-17806 | RegistryRule | RegistryPolicyFile |
-| V-17807 | RegistryRule | RegistryPolicyFile |
-| V-17808 | RegistryRule | RegistryPolicyFile |
-| V-17812 | RegistryRule | RegistryPolicyFile |
-| V-17944 | RegistryRule | RegistryPolicyFile |
-| V-26584 | RegistryRule | RegistryPolicyFile |
-| V-26585 | RegistryRule | RegistryPolicyFile |
-| V-26586 | RegistryRule | RegistryPolicyFile |
-| V-26587 | RegistryRule | RegistryPolicyFile |
-| V-26588 | RegistryRule | RegistryPolicyFile |
-| V-26632 | RegistryRule | RegistryPolicyFile |
-| V-26633 | RegistryRule | RegistryPolicyFile |
-| V-26634 | RegistryRule | RegistryPolicyFile |
-| V-26635 | RegistryRule | RegistryPolicyFile |
-| V-26636 | RegistryRule | RegistryPolicyFile |
-| V-26637 | RegistryRule | RegistryPolicyFile |
-| V-26702 | RegistryRule | RegistryPolicyFile |
-| V-41492 | RegistryRule | RegistryPolicyFile |
-| V-41493 | RegistryRule | RegistryPolicyFile |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-17173 | RegistryRule | RegistryPolicyFile |  |
+| V-17174 | RegistryRule | RegistryPolicyFile |  |
+| V-17175 | RegistryRule | RegistryPolicyFile |  |
+| V-17183 | RegistryRule | RegistryPolicyFile |  |
+| V-17184 | RegistryRule | RegistryPolicyFile |  |
+| V-17470 | RegistryRule | RegistryPolicyFile |  |
+| V-17546 | RegistryRule | RegistryPolicyFile |  |
+| V-17558 | RegistryRule | RegistryPolicyFile |  |
+| V-17559 | RegistryRule | RegistryPolicyFile |  |
+| V-17562 | RegistryRule | RegistryPolicyFile |  |
+| V-17564 | RegistryRule | RegistryPolicyFile |  |
+| V-17566 | RegistryRule | RegistryPolicyFile |  |
+| V-17568 | RegistryRule | RegistryPolicyFile |  |
+| V-17569 | RegistryRule | RegistryPolicyFile |  |
+| V-17570 | RegistryRule | RegistryPolicyFile |  |
+| V-17571 | RegistryRule | RegistryPolicyFile |  |
+| V-17572 | RegistryRule | RegistryPolicyFile |  |
+| V-17573 | RegistryRule | RegistryPolicyFile |  |
+| V-17574 | RegistryRule | RegistryPolicyFile |  |
+| V-17575 | RegistryRule | RegistryPolicyFile |  |
+| V-17587 | RegistryRule | RegistryPolicyFile |  |
+| V-17601 | RegistryRule | RegistryPolicyFile |  |
+| V-17602 | RegistryRule | RegistryPolicyFile |  |
+| V-17610 | RegistryRule | RegistryPolicyFile |  |
+| V-17613 | RegistryRule | RegistryPolicyFile |  |
+| V-17615 | RegistryRule | RegistryPolicyFile |  |
+| V-17624 | RegistryRule | RegistryPolicyFile |  |
+| V-17630 | RegistryRule | RegistryPolicyFile |  |
+| V-17634 | RegistryRule | RegistryPolicyFile |  |
+| V-17671 | RegistryRule | RegistryPolicyFile |  |
+| V-17672 | RegistryRule | RegistryPolicyFile |  |
+| V-17673 | RegistryRule | RegistryPolicyFile |  |
+| V-17674 | RegistryRule | RegistryPolicyFile |  |
+| V-17675 | RegistryRule | RegistryPolicyFile |  |
+| V-17676 | RegistryRule | RegistryPolicyFile |  |
+| V-17678 | RegistryRule | RegistryPolicyFile |  |
+| V-17733 | RegistryRule | RegistryPolicyFile |  |
+| V-17734 | RegistryRule | RegistryPolicyFile |  |
+| V-17738 | RegistryRule | RegistryPolicyFile |  |
+| V-17739 | RegistryRule | RegistryPolicyFile |  |
+| V-17753 | RegistryRule | RegistryPolicyFile |  |
+| V-17755 | RegistryRule | RegistryPolicyFile |  |
+| V-17756 | RegistryRule | RegistryPolicyFile |  |
+| V-17760 | RegistryRule | RegistryPolicyFile |  |
+| V-17761.a | RegistryRule | RegistryPolicyFile |  |
+| V-17761.b | RegistryRule | RegistryPolicyFile |  |
+| V-17762 | RegistryRule | RegistryPolicyFile |  |
+| V-17763 | RegistryRule | RegistryPolicyFile |  |
+| V-17766 | RegistryRule | RegistryPolicyFile |  |
+| V-17770 | RegistryRule | RegistryPolicyFile |  |
+| V-17771 | RegistryRule | RegistryPolicyFile |  |
+| V-17774 | RegistryRule | RegistryPolicyFile |  |
+| V-17775 | RegistryRule | RegistryPolicyFile |  |
+| V-17776 | RegistryRule | RegistryPolicyFile |  |
+| V-17777 | RegistryRule | RegistryPolicyFile |  |
+| V-17778 | RegistryRule | RegistryPolicyFile |  |
+| V-17787 | RegistryRule | RegistryPolicyFile |  |
+| V-17790 | RegistryRule | RegistryPolicyFile |  |
+| V-17795 | RegistryRule | RegistryPolicyFile |  |
+| V-17798 | RegistryRule | RegistryPolicyFile |  |
+| V-17800 | RegistryRule | RegistryPolicyFile |  |
+| V-17802 | RegistryRule | RegistryPolicyFile |  |
+| V-17803 | RegistryRule | RegistryPolicyFile |  |
+| V-17806 | RegistryRule | RegistryPolicyFile |  |
+| V-17807 | RegistryRule | RegistryPolicyFile |  |
+| V-17808 | RegistryRule | RegistryPolicyFile |  |
+| V-17812 | RegistryRule | RegistryPolicyFile |  |
+| V-17944 | RegistryRule | RegistryPolicyFile |  |
+| V-26584 | RegistryRule | RegistryPolicyFile |  |
+| V-26585 | RegistryRule | RegistryPolicyFile |  |
+| V-26586 | RegistryRule | RegistryPolicyFile |  |
+| V-26587 | RegistryRule | RegistryPolicyFile |  |
+| V-26588 | RegistryRule | RegistryPolicyFile |  |
+| V-26632 | RegistryRule | RegistryPolicyFile |  |
+| V-26633 | RegistryRule | RegistryPolicyFile |  |
+| V-26634 | RegistryRule | RegistryPolicyFile |  |
+| V-26635 | RegistryRule | RegistryPolicyFile |  |
+| V-26636 | RegistryRule | RegistryPolicyFile |  |
+| V-26637 | RegistryRule | RegistryPolicyFile |  |
+| V-26702 | RegistryRule | RegistryPolicyFile |  |
+| V-41492 | RegistryRule | RegistryPolicyFile |  |
+| V-41493 | RegistryRule | RegistryPolicyFile |  |
 
 ## Microsoft Outlook 2016, Version 1.2
 
@@ -904,68 +904,68 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_Microsoft_Outlook_2016_STIG_V1R2_Manual-xccdf.xml  
 **Created:** 9/6/2019  
 **Description:** The Microsoft Outlook 2016 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **59** of **58** rules are automated; **102%**  
+**StigRuleCoverage:** **58** of **58** rules are automated; **100%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-71109 | RegistryRule | RegistryPolicyFile |
-| V-71111 | RegistryRule | RegistryPolicyFile |
-| V-71113 | RegistryRule | RegistryPolicyFile |
-| V-71115 | RegistryRule | RegistryPolicyFile |
-| V-71117 | RegistryRule | RegistryPolicyFile |
-| V-71119 | RegistryRule | RegistryPolicyFile |
-| V-71121 | RegistryRule | RegistryPolicyFile |
-| V-71123 | RegistryRule | RegistryPolicyFile |
-| V-71125 | RegistryRule | RegistryPolicyFile |
-| V-71127 | RegistryRule | RegistryPolicyFile |
-| V-71129 | RegistryRule | RegistryPolicyFile |
-| V-71131 | RegistryRule | RegistryPolicyFile |
-| V-71133 | RegistryRule | RegistryPolicyFile |
-| V-71135 | RegistryRule | RegistryPolicyFile |
-| V-71145 | RegistryRule | RegistryPolicyFile |
-| V-71147 | RegistryRule | RegistryPolicyFile |
-| V-71149 | RegistryRule | RegistryPolicyFile |
-| V-71151 | RegistryRule | RegistryPolicyFile |
-| V-71153 | RegistryRule | RegistryPolicyFile |
-| V-71155 | RegistryRule | RegistryPolicyFile |
-| V-71157 | RegistryRule | RegistryPolicyFile |
-| V-71159 | RegistryRule | RegistryPolicyFile |
-| V-71161 | RegistryRule | RegistryPolicyFile |
-| V-71163 | RegistryRule | RegistryPolicyFile |
-| V-71165 | RegistryRule | RegistryPolicyFile |
-| V-71167 | RegistryRule | RegistryPolicyFile |
-| V-71169 | RegistryRule | RegistryPolicyFile |
-| V-71171 | RegistryRule | RegistryPolicyFile |
-| V-71173 | RegistryRule | RegistryPolicyFile |
-| V-71175 | RegistryRule | RegistryPolicyFile |
-| V-71177 | RegistryRule | RegistryPolicyFile |
-| V-71179 | RegistryRule | RegistryPolicyFile |
-| V-71193 | RegistryRule | RegistryPolicyFile |
-| V-71195 | RegistryRule | RegistryPolicyFile |
-| V-71227 | RegistryRule | RegistryPolicyFile |
-| V-71229 | RegistryRule | RegistryPolicyFile |
-| V-71231 | RegistryRule | RegistryPolicyFile |
-| V-71233 | RegistryRule | RegistryPolicyFile |
-| V-71235 | RegistryRule | RegistryPolicyFile |
-| V-71237 | RegistryRule | RegistryPolicyFile |
-| V-71239 | RegistryRule | RegistryPolicyFile |
-| V-71241 | RegistryRule | RegistryPolicyFile |
-| V-71243 | RegistryRule | RegistryPolicyFile |
-| V-71245 | RegistryRule | RegistryPolicyFile |
-| V-71247 | RegistryRule | RegistryPolicyFile |
-| V-71249 | RegistryRule | RegistryPolicyFile |
-| V-71251 | RegistryRule | RegistryPolicyFile |
-| V-71253 | RegistryRule | RegistryPolicyFile |
-| V-71255 | RegistryRule | RegistryPolicyFile |
-| V-71259 | RegistryRule | RegistryPolicyFile |
-| V-71261 | RegistryRule | RegistryPolicyFile |
-| V-71263 | RegistryRule | RegistryPolicyFile |
-| V-71265 | RegistryRule | RegistryPolicyFile |
-| V-71267 | RegistryRule | RegistryPolicyFile |
-| V-71271 | RegistryRule | RegistryPolicyFile |
-| V-71273 | RegistryRule | RegistryPolicyFile |
-| V-71275 | RegistryRule | RegistryPolicyFile |
-| V-71277 | RegistryRule | RegistryPolicyFile |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-71109 | RegistryRule | RegistryPolicyFile |  |
+| V-71111 | RegistryRule | RegistryPolicyFile |  |
+| V-71113 | RegistryRule | RegistryPolicyFile |  |
+| V-71115 | RegistryRule | RegistryPolicyFile |  |
+| V-71117 | RegistryRule | RegistryPolicyFile |  |
+| V-71119 | RegistryRule | RegistryPolicyFile |  |
+| V-71121 | RegistryRule | RegistryPolicyFile |  |
+| V-71123 | RegistryRule | RegistryPolicyFile |  |
+| V-71125 | RegistryRule | RegistryPolicyFile |  |
+| V-71127 | RegistryRule | RegistryPolicyFile |  |
+| V-71129 | RegistryRule | RegistryPolicyFile |  |
+| V-71131 | RegistryRule | RegistryPolicyFile |  |
+| V-71133 | RegistryRule | RegistryPolicyFile |  |
+| V-71135 | RegistryRule | RegistryPolicyFile |  |
+| V-71145 | RegistryRule | RegistryPolicyFile |  |
+| V-71147 | RegistryRule | RegistryPolicyFile |  |
+| V-71149 | RegistryRule | RegistryPolicyFile |  |
+| V-71151 | RegistryRule | RegistryPolicyFile |  |
+| V-71153 | RegistryRule | RegistryPolicyFile |  |
+| V-71155 | RegistryRule | RegistryPolicyFile |  |
+| V-71157 | RegistryRule | RegistryPolicyFile |  |
+| V-71159 | RegistryRule | RegistryPolicyFile |  |
+| V-71161 | RegistryRule | RegistryPolicyFile |  |
+| V-71163 | RegistryRule | RegistryPolicyFile |  |
+| V-71165 | RegistryRule | RegistryPolicyFile |  |
+| V-71167 | RegistryRule | RegistryPolicyFile |  |
+| V-71169 | RegistryRule | RegistryPolicyFile |  |
+| V-71171 | RegistryRule | RegistryPolicyFile |  |
+| V-71173 | RegistryRule | RegistryPolicyFile |  |
+| V-71175 | RegistryRule | RegistryPolicyFile |  |
+| V-71177 | RegistryRule | RegistryPolicyFile |  |
+| V-71179 | RegistryRule | RegistryPolicyFile |  |
+| V-71193 | RegistryRule | RegistryPolicyFile |  |
+| V-71195 | RegistryRule | RegistryPolicyFile |  |
+| V-71227 | RegistryRule | RegistryPolicyFile |  |
+| V-71229 | RegistryRule | RegistryPolicyFile |  |
+| V-71231 | RegistryRule | RegistryPolicyFile |  |
+| V-71233 | RegistryRule | RegistryPolicyFile |  |
+| V-71235 | RegistryRule | RegistryPolicyFile |  |
+| V-71237 | RegistryRule | RegistryPolicyFile |  |
+| V-71239 | RegistryRule | RegistryPolicyFile |  |
+| V-71241 | RegistryRule | RegistryPolicyFile |  |
+| V-71243 | RegistryRule | RegistryPolicyFile |  |
+| V-71245 | RegistryRule | RegistryPolicyFile |  |
+| V-71247 | RegistryRule | RegistryPolicyFile |  |
+| V-71249 | RegistryRule | RegistryPolicyFile |  |
+| V-71251 | RegistryRule | RegistryPolicyFile |  |
+| V-71253 | RegistryRule | RegistryPolicyFile |  |
+| V-71255 | RegistryRule | RegistryPolicyFile |  |
+| V-71259 | RegistryRule | RegistryPolicyFile |  |
+| V-71261 | RegistryRule | RegistryPolicyFile |  |
+| V-71263 | RegistryRule | RegistryPolicyFile |  |
+| V-71265 | RegistryRule | RegistryPolicyFile |  |
+| V-71267 | RegistryRule | RegistryPolicyFile |  |
+| V-71271 | RegistryRule | RegistryPolicyFile |  |
+| V-71273 | RegistryRule | RegistryPolicyFile |  |
+| V-71275 | RegistryRule | RegistryPolicyFile |  |
+| V-71277 | RegistryRule | RegistryPolicyFile |  |
 
 ## Microsoft PowerPoint 2013, Version 1.6
 
@@ -975,51 +975,51 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_PowerPoint_2013_V1R6_Manual-xccdf.xml  
 **Created:** 9/6/2019  
 **Description:** The Microsoft PowerPoint 2013 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **42** of **41** rules are automated; **102%**  
+**StigRuleCoverage:** **41** of **41** rules are automated; **100%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-17173 | RegistryRule | RegistryPolicyFile |
-| V-17174 | RegistryRule | RegistryPolicyFile |
-| V-17175 | RegistryRule | RegistryPolicyFile |
-| V-17183 | RegistryRule | RegistryPolicyFile |
-| V-17184 | RegistryRule | RegistryPolicyFile |
-| V-17187 | RegistryRule | RegistryPolicyFile |
-| V-17322 | RegistryRule | RegistryPolicyFile |
-| V-17471 | RegistryRule | RegistryPolicyFile |
-| V-17473 | RegistryRule | RegistryPolicyFile |
-| V-17520 | RegistryRule | RegistryPolicyFile |
-| V-17521 | RegistryRule | RegistryPolicyFile |
-| V-17522 | RegistryRule | RegistryPolicyFile |
-| V-17545 | RegistryRule | RegistryPolicyFile |
-| V-17752 | RegistryRule | RegistryPolicyFile |
-| V-17788 | RegistryRule | RegistryPolicyFile |
-| V-17809 | RegistryRule | RegistryPolicyFile |
-| V-26584 | RegistryRule | RegistryPolicyFile |
-| V-26585 | RegistryRule | RegistryPolicyFile |
-| V-26586 | RegistryRule | RegistryPolicyFile |
-| V-26587 | RegistryRule | RegistryPolicyFile |
-| V-26588 | RegistryRule | RegistryPolicyFile |
-| V-26589 | RegistryRule | RegistryPolicyFile |
-| V-26592 | RegistryRule | RegistryPolicyFile |
-| V-26612 | RegistryRule | RegistryPolicyFile |
-| V-26614 | RegistryRule | RegistryPolicyFile |
-| V-26615 | RegistryRule | RegistryPolicyFile |
-| V-26616.a | RegistryRule | RegistryPolicyFile |
-| V-26616.b | RegistryRule | RegistryPolicyFile |
-| V-26617 | RegistryRule | RegistryPolicyFile |
-| V-26639 | RegistryRule | RegistryPolicyFile |
-| V-42327 | RegistryRule | RegistryPolicyFile |
-| V-42328 | RegistryRule | RegistryPolicyFile |
-| V-42329 | RegistryRule | RegistryPolicyFile |
-| V-42330 | RegistryRule | RegistryPolicyFile |
-| V-42331 | RegistryRule | RegistryPolicyFile |
-| V-42332 | RegistryRule | RegistryPolicyFile |
-| V-42333 | RegistryRule | RegistryPolicyFile |
-| V-42334 | RegistryRule | RegistryPolicyFile |
-| V-42335 | RegistryRule | RegistryPolicyFile |
-| V-42336 | RegistryRule | RegistryPolicyFile |
-| V-72839 | RegistryRule | RegistryPolicyFile |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-17173 | RegistryRule | RegistryPolicyFile |  |
+| V-17174 | RegistryRule | RegistryPolicyFile |  |
+| V-17175 | RegistryRule | RegistryPolicyFile |  |
+| V-17183 | RegistryRule | RegistryPolicyFile |  |
+| V-17184 | RegistryRule | RegistryPolicyFile |  |
+| V-17187 | RegistryRule | RegistryPolicyFile |  |
+| V-17322 | RegistryRule | RegistryPolicyFile |  |
+| V-17471 | RegistryRule | RegistryPolicyFile |  |
+| V-17473 | RegistryRule | RegistryPolicyFile |  |
+| V-17520 | RegistryRule | RegistryPolicyFile |  |
+| V-17521 | RegistryRule | RegistryPolicyFile |  |
+| V-17522 | RegistryRule | RegistryPolicyFile |  |
+| V-17545 | RegistryRule | RegistryPolicyFile |  |
+| V-17752 | RegistryRule | RegistryPolicyFile |  |
+| V-17788 | RegistryRule | RegistryPolicyFile |  |
+| V-17809 | RegistryRule | RegistryPolicyFile |  |
+| V-26584 | RegistryRule | RegistryPolicyFile |  |
+| V-26585 | RegistryRule | RegistryPolicyFile |  |
+| V-26586 | RegistryRule | RegistryPolicyFile |  |
+| V-26587 | RegistryRule | RegistryPolicyFile |  |
+| V-26588 | RegistryRule | RegistryPolicyFile |  |
+| V-26589 | RegistryRule | RegistryPolicyFile |  |
+| V-26592 | RegistryRule | RegistryPolicyFile |  |
+| V-26612 | RegistryRule | RegistryPolicyFile |  |
+| V-26614 | RegistryRule | RegistryPolicyFile |  |
+| V-26615 | RegistryRule | RegistryPolicyFile |  |
+| V-26616.a | RegistryRule | RegistryPolicyFile |  |
+| V-26616.b | RegistryRule | RegistryPolicyFile |  |
+| V-26617 | RegistryRule | RegistryPolicyFile |  |
+| V-26639 | RegistryRule | RegistryPolicyFile |  |
+| V-42327 | RegistryRule | RegistryPolicyFile |  |
+| V-42328 | RegistryRule | RegistryPolicyFile |  |
+| V-42329 | RegistryRule | RegistryPolicyFile |  |
+| V-42330 | RegistryRule | RegistryPolicyFile |  |
+| V-42331 | RegistryRule | RegistryPolicyFile |  |
+| V-42332 | RegistryRule | RegistryPolicyFile |  |
+| V-42333 | RegistryRule | RegistryPolicyFile |  |
+| V-42334 | RegistryRule | RegistryPolicyFile |  |
+| V-42335 | RegistryRule | RegistryPolicyFile |  |
+| V-42336 | RegistryRule | RegistryPolicyFile |  |
+| V-72839 | RegistryRule | RegistryPolicyFile |  |
 
 ## Microsoft PowerPoint 2016, Version 1.1
 
@@ -1029,48 +1029,48 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_Microsoft_PowerPoint_2016_STIG_V1R1_Manual-xccdf.xml  
 **Created:** 9/6/2019  
 **Description:** The Microsoft PowerPoint 2016 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **39** of **38** rules are automated; **103%**  
+**StigRuleCoverage:** **38** of **38** rules are automated; **100%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-70641 | RegistryRule | RegistryPolicyFile |
-| V-70643 | RegistryRule | RegistryPolicyFile |
-| V-70645 | RegistryRule | RegistryPolicyFile |
-| V-70647 | RegistryRule | RegistryPolicyFile |
-| V-70649 | RegistryRule | RegistryPolicyFile |
-| V-70651 | RegistryRule | RegistryPolicyFile |
-| V-70653 | RegistryRule | RegistryPolicyFile |
-| V-70655 | RegistryRule | RegistryPolicyFile |
-| V-70657 | RegistryRule | RegistryPolicyFile |
-| V-70659 | RegistryRule | RegistryPolicyFile |
-| V-70661 | RegistryRule | RegistryPolicyFile |
-| V-70663 | RegistryRule | RegistryPolicyFile |
-| V-70665 | RegistryRule | RegistryPolicyFile |
-| V-70667 | RegistryRule | RegistryPolicyFile |
-| V-70669 | RegistryRule | RegistryPolicyFile |
-| V-70671 | RegistryRule | RegistryPolicyFile |
-| V-70673 | RegistryRule | RegistryPolicyFile |
-| V-70675 | RegistryRule | RegistryPolicyFile |
-| V-70677 | RegistryRule | RegistryPolicyFile |
-| V-70679 | RegistryRule | RegistryPolicyFile |
-| V-70681 | RegistryRule | RegistryPolicyFile |
-| V-70683 | RegistryRule | RegistryPolicyFile |
-| V-70685 | RegistryRule | RegistryPolicyFile |
-| V-70687 | RegistryRule | RegistryPolicyFile |
-| V-70689 | RegistryRule | RegistryPolicyFile |
-| V-70691 | RegistryRule | RegistryPolicyFile |
-| V-70693 | RegistryRule | RegistryPolicyFile |
-| V-70695 | RegistryRule | RegistryPolicyFile |
-| V-70697 | RegistryRule | RegistryPolicyFile |
-| V-70699 | RegistryRule | RegistryPolicyFile |
-| V-70701 | RegistryRule | RegistryPolicyFile |
-| V-71401 | RegistryRule | RegistryPolicyFile |
-| V-71403 | RegistryRule | RegistryPolicyFile |
-| V-71405 | RegistryRule | RegistryPolicyFile |
-| V-71407.a | RegistryRule | RegistryPolicyFile |
-| V-71407.b | RegistryRule | RegistryPolicyFile |
-| V-71641 | RegistryRule | RegistryPolicyFile |
-| V-71647 | RegistryRule | RegistryPolicyFile |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-70641 | RegistryRule | RegistryPolicyFile |  |
+| V-70643 | RegistryRule | RegistryPolicyFile |  |
+| V-70645 | RegistryRule | RegistryPolicyFile |  |
+| V-70647 | RegistryRule | RegistryPolicyFile |  |
+| V-70649 | RegistryRule | RegistryPolicyFile |  |
+| V-70651 | RegistryRule | RegistryPolicyFile |  |
+| V-70653 | RegistryRule | RegistryPolicyFile |  |
+| V-70655 | RegistryRule | RegistryPolicyFile |  |
+| V-70657 | RegistryRule | RegistryPolicyFile |  |
+| V-70659 | RegistryRule | RegistryPolicyFile |  |
+| V-70661 | RegistryRule | RegistryPolicyFile |  |
+| V-70663 | RegistryRule | RegistryPolicyFile |  |
+| V-70665 | RegistryRule | RegistryPolicyFile |  |
+| V-70667 | RegistryRule | RegistryPolicyFile |  |
+| V-70669 | RegistryRule | RegistryPolicyFile |  |
+| V-70671 | RegistryRule | RegistryPolicyFile |  |
+| V-70673 | RegistryRule | RegistryPolicyFile |  |
+| V-70675 | RegistryRule | RegistryPolicyFile |  |
+| V-70677 | RegistryRule | RegistryPolicyFile |  |
+| V-70679 | RegistryRule | RegistryPolicyFile |  |
+| V-70681 | RegistryRule | RegistryPolicyFile |  |
+| V-70683 | RegistryRule | RegistryPolicyFile |  |
+| V-70685 | RegistryRule | RegistryPolicyFile |  |
+| V-70687 | RegistryRule | RegistryPolicyFile |  |
+| V-70689 | RegistryRule | RegistryPolicyFile |  |
+| V-70691 | RegistryRule | RegistryPolicyFile |  |
+| V-70693 | RegistryRule | RegistryPolicyFile |  |
+| V-70695 | RegistryRule | RegistryPolicyFile |  |
+| V-70697 | RegistryRule | RegistryPolicyFile |  |
+| V-70699 | RegistryRule | RegistryPolicyFile |  |
+| V-70701 | RegistryRule | RegistryPolicyFile |  |
+| V-71401 | RegistryRule | RegistryPolicyFile |  |
+| V-71403 | RegistryRule | RegistryPolicyFile |  |
+| V-71405 | RegistryRule | RegistryPolicyFile |  |
+| V-71407.a | RegistryRule | RegistryPolicyFile |  |
+| V-71407.b | RegistryRule | RegistryPolicyFile |  |
+| V-71641 | RegistryRule | RegistryPolicyFile |  |
+| V-71647 | RegistryRule | RegistryPolicyFile |  |
 
 ## Microsoft Office System 2013, Version 1.9
 
@@ -1080,62 +1080,62 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_OfficeSystem_2013_STIG_V1R9_Manual-xccdf.xml  
 **Created:** 12/4/2019  
 **Description:** The Microsoft Office System 2013 STIG is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the NIST 800-53 and related documents. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **53** of **52** rules are automated; **102%**  
+**StigRuleCoverage:** **52** of **52** rules are automated; **100%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-17547.a | RegistryRule | RegistryPolicyFile |
-| V-17547.b | RegistryRule | RegistryPolicyFile |
-| V-17560 | RegistryRule | RegistryPolicyFile |
-| V-17581 | RegistryRule | RegistryPolicyFile |
-| V-17583 | RegistryRule | RegistryPolicyFile |
-| V-17590 | RegistryRule | RegistryPolicyFile |
-| V-17605 | RegistryRule | RegistryPolicyFile |
-| V-17612 | RegistryRule | RegistryPolicyFile |
-| V-17617 | RegistryRule | RegistryPolicyFile |
-| V-17619 | RegistryRule | RegistryPolicyFile |
-| V-17627 | RegistryRule | RegistryPolicyFile |
-| V-17659 | RegistryRule | RegistryPolicyFile |
-| V-17660 | RegistryRule | RegistryPolicyFile |
-| V-17661 | RegistryRule | RegistryPolicyFile |
-| V-17664 | RegistryRule | RegistryPolicyFile |
-| V-17665 | RegistryRule | RegistryPolicyFile |
-| V-17669 | RegistryRule | RegistryPolicyFile |
-| V-17670 | RegistryRule | RegistryPolicyFile |
-| V-17731 | RegistryRule | RegistryPolicyFile |
-| V-17740 | RegistryRule | RegistryPolicyFile |
-| V-17741 | RegistryRule | RegistryPolicyFile |
-| V-17749 | RegistryRule | RegistryPolicyFile |
-| V-17750.a | RegistryRule | RegistryPolicyFile |
-| V-17750.b | RegistryRule | RegistryPolicyFile |
-| V-17759 | RegistryRule | RegistryPolicyFile |
-| V-17765 | RegistryRule | RegistryPolicyFile |
-| V-17768 | RegistryRule | RegistryPolicyFile |
-| V-17769 | RegistryRule | RegistryPolicyFile |
-| V-17773 | RegistryRule | RegistryPolicyFile |
-| V-17805 | RegistryRule | RegistryPolicyFile |
-| V-26630 | RegistryRule | RegistryPolicyFile |
-| V-26704 | RegistryRule | RegistryPolicyFile |
-| V-40858.a | RegistryRule | RegistryPolicyFile |
-| V-40858.b | RegistryRule | RegistryPolicyFile |
-| V-40858.c | RegistryRule | RegistryPolicyFile |
-| V-40858.d | RegistryRule | RegistryPolicyFile |
-| V-40859 | RegistryRule | RegistryPolicyFile |
-| V-40860 | RegistryRule | RegistryPolicyFile |
-| V-40861 | RegistryRule | RegistryPolicyFile |
-| V-40862 | RegistryRule | RegistryPolicyFile |
-| V-40863 | RegistryRule | RegistryPolicyFile |
-| V-40864 | RegistryRule | RegistryPolicyFile |
-| V-40875 | RegistryRule | RegistryPolicyFile |
-| V-40879 | RegistryRule | RegistryPolicyFile |
-| V-40880 | RegistryRule | RegistryPolicyFile |
-| V-40881 | RegistryRule | RegistryPolicyFile |
-| V-40882 | RegistryRule | RegistryPolicyFile |
-| V-40883 | RegistryRule | RegistryPolicyFile |
-| V-40884 | RegistryRule | RegistryPolicyFile |
-| V-40885 | RegistryRule | RegistryPolicyFile |
-| V-40886 | RegistryRule | RegistryPolicyFile |
-| V-40887 | RegistryRule | RegistryPolicyFile |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-17547.a | RegistryRule | RegistryPolicyFile |  |
+| V-17547.b | RegistryRule | RegistryPolicyFile |  |
+| V-17560 | RegistryRule | RegistryPolicyFile |  |
+| V-17581 | RegistryRule | RegistryPolicyFile |  |
+| V-17583 | RegistryRule | RegistryPolicyFile |  |
+| V-17590 | RegistryRule | RegistryPolicyFile |  |
+| V-17605 | RegistryRule | RegistryPolicyFile |  |
+| V-17612 | RegistryRule | RegistryPolicyFile |  |
+| V-17617 | RegistryRule | RegistryPolicyFile |  |
+| V-17619 | RegistryRule | RegistryPolicyFile |  |
+| V-17627 | RegistryRule | RegistryPolicyFile |  |
+| V-17659 | RegistryRule | RegistryPolicyFile |  |
+| V-17660 | RegistryRule | RegistryPolicyFile |  |
+| V-17661 | RegistryRule | RegistryPolicyFile |  |
+| V-17664 | RegistryRule | RegistryPolicyFile |  |
+| V-17665 | RegistryRule | RegistryPolicyFile |  |
+| V-17669 | RegistryRule | RegistryPolicyFile |  |
+| V-17670 | RegistryRule | RegistryPolicyFile |  |
+| V-17731 | RegistryRule | RegistryPolicyFile |  |
+| V-17740 | RegistryRule | RegistryPolicyFile |  |
+| V-17741 | RegistryRule | RegistryPolicyFile |  |
+| V-17749 | RegistryRule | RegistryPolicyFile |  |
+| V-17750.a | RegistryRule | RegistryPolicyFile |  |
+| V-17750.b | RegistryRule | RegistryPolicyFile |  |
+| V-17759 | RegistryRule | RegistryPolicyFile |  |
+| V-17765 | RegistryRule | RegistryPolicyFile |  |
+| V-17768 | RegistryRule | RegistryPolicyFile |  |
+| V-17769 | RegistryRule | RegistryPolicyFile |  |
+| V-17773 | RegistryRule | RegistryPolicyFile |  |
+| V-17805 | RegistryRule | RegistryPolicyFile |  |
+| V-26630 | RegistryRule | RegistryPolicyFile |  |
+| V-26704 | RegistryRule | RegistryPolicyFile |  |
+| V-40858.a | RegistryRule | RegistryPolicyFile |  |
+| V-40858.b | RegistryRule | RegistryPolicyFile |  |
+| V-40858.c | RegistryRule | RegistryPolicyFile |  |
+| V-40858.d | RegistryRule | RegistryPolicyFile |  |
+| V-40859 | RegistryRule | RegistryPolicyFile |  |
+| V-40860 | RegistryRule | RegistryPolicyFile |  |
+| V-40861 | RegistryRule | RegistryPolicyFile |  |
+| V-40862 | RegistryRule | RegistryPolicyFile |  |
+| V-40863 | RegistryRule | RegistryPolicyFile |  |
+| V-40864 | RegistryRule | RegistryPolicyFile |  |
+| V-40875 | RegistryRule | RegistryPolicyFile |  |
+| V-40879 | RegistryRule | RegistryPolicyFile |  |
+| V-40880 | RegistryRule | RegistryPolicyFile |  |
+| V-40881 | RegistryRule | RegistryPolicyFile |  |
+| V-40882 | RegistryRule | RegistryPolicyFile |  |
+| V-40883 | RegistryRule | RegistryPolicyFile |  |
+| V-40884 | RegistryRule | RegistryPolicyFile |  |
+| V-40885 | RegistryRule | RegistryPolicyFile |  |
+| V-40886 | RegistryRule | RegistryPolicyFile |  |
+| V-40887 | RegistryRule | RegistryPolicyFile |  |
 
 ## Microsoft Office System 2016, Version 1.1
 
@@ -1145,32 +1145,32 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_Microsoft_Office_System_2016_STIG_V1R1_Manual-xccdf.xml  
 **Created:** 12/17/2019  
 **Description:** The Microsoft Office System 2016 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the NIST 800-53 and related documents. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **23** of **22** rules are automated; **105%**  
+**StigRuleCoverage:** **22** of **22** rules are automated; **100%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-70855 | RegistryRule | RegistryPolicyFile |
-| V-70859 | RegistryRule | RegistryPolicyFile |
-| V-70861 | RegistryRule | RegistryPolicyFile |
-| V-70863 | RegistryRule | RegistryPolicyFile |
-| V-70865 | RegistryRule | RegistryPolicyFile |
-| V-70867 | RegistryRule | RegistryPolicyFile |
-| V-70869.a | RegistryRule | RegistryPolicyFile |
-| V-70869.b | RegistryRule | RegistryPolicyFile |
-| V-70871.a | RegistryRule | RegistryPolicyFile |
-| V-70871.b | RegistryRule | RegistryPolicyFile |
-| V-70873 | RegistryRule | RegistryPolicyFile |
-| V-70875 | RegistryRule | RegistryPolicyFile |
-| V-70877 | RegistryRule | RegistryPolicyFile |
-| V-70881 | RegistryRule | RegistryPolicyFile |
-| V-70883 | RegistryRule | RegistryPolicyFile |
-| V-70885 | RegistryRule | RegistryPolicyFile |
-| V-70889 | RegistryRule | RegistryPolicyFile |
-| V-70891 | RegistryRule | RegistryPolicyFile |
-| V-70893 | RegistryRule | RegistryPolicyFile |
-| V-70895 | RegistryRule | RegistryPolicyFile |
-| V-70897 | RegistryRule | RegistryPolicyFile |
-| V-70899 | RegistryRule | RegistryPolicyFile |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-70855 | RegistryRule | RegistryPolicyFile |  |
+| V-70859 | RegistryRule | RegistryPolicyFile |  |
+| V-70861 | RegistryRule | RegistryPolicyFile |  |
+| V-70863 | RegistryRule | RegistryPolicyFile |  |
+| V-70865 | RegistryRule | RegistryPolicyFile |  |
+| V-70867 | RegistryRule | RegistryPolicyFile |  |
+| V-70869.a | RegistryRule | RegistryPolicyFile |  |
+| V-70869.b | RegistryRule | RegistryPolicyFile |  |
+| V-70871.a | RegistryRule | RegistryPolicyFile |  |
+| V-70871.b | RegistryRule | RegistryPolicyFile |  |
+| V-70873 | RegistryRule | RegistryPolicyFile |  |
+| V-70875 | RegistryRule | RegistryPolicyFile |  |
+| V-70877 | RegistryRule | RegistryPolicyFile |  |
+| V-70881 | RegistryRule | RegistryPolicyFile |  |
+| V-70883 | RegistryRule | RegistryPolicyFile |  |
+| V-70885 | RegistryRule | RegistryPolicyFile |  |
+| V-70889 | RegistryRule | RegistryPolicyFile |  |
+| V-70891 | RegistryRule | RegistryPolicyFile |  |
+| V-70893 | RegistryRule | RegistryPolicyFile |  |
+| V-70895 | RegistryRule | RegistryPolicyFile |  |
+| V-70897 | RegistryRule | RegistryPolicyFile |  |
+| V-70899 | RegistryRule | RegistryPolicyFile |  |
 
 ## Microsoft Word 2013, Version 1.6
 
@@ -1180,46 +1180,46 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_Word_2013_STIG_V1R6_Manual-xccdf.xml  
 **Created:** 9/6/2019  
 **Description:** The Microsoft Word 2013 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **37** of **36** rules are automated; **103%**  
+**StigRuleCoverage:** **36** of **36** rules are automated; **100%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-17173 | RegistryRule | RegistryPolicyFile |
-| V-17174 | RegistryRule | RegistryPolicyFile |
-| V-17175 | RegistryRule | RegistryPolicyFile |
-| V-17183 | RegistryRule | RegistryPolicyFile |
-| V-17184 | RegistryRule | RegistryPolicyFile |
-| V-17187 | RegistryRule | RegistryPolicyFile |
-| V-17471 | RegistryRule | RegistryPolicyFile |
-| V-17473 | RegistryRule | RegistryPolicyFile |
-| V-17520 | RegistryRule | RegistryPolicyFile |
-| V-17521 | RegistryRule | RegistryPolicyFile |
-| V-17522 | RegistryRule | RegistryPolicyFile |
-| V-17545 | RegistryRule | RegistryPolicyFile |
-| V-17811 | RegistryRule | RegistryPolicyFile |
-| V-17813 | RegistryRule | RegistryPolicyFile |
-| V-26584 | RegistryRule | RegistryPolicyFile |
-| V-26585 | RegistryRule | RegistryPolicyFile |
-| V-26586 | RegistryRule | RegistryPolicyFile |
-| V-26587 | RegistryRule | RegistryPolicyFile |
-| V-26588 | RegistryRule | RegistryPolicyFile |
-| V-26589 | RegistryRule | RegistryPolicyFile |
-| V-26592 | RegistryRule | RegistryPolicyFile |
-| V-26612 | RegistryRule | RegistryPolicyFile |
-| V-26614 | RegistryRule | RegistryPolicyFile |
-| V-26615 | RegistryRule | RegistryPolicyFile |
-| V-26616.a | RegistryRule | RegistryPolicyFile |
-| V-26616.b | RegistryRule | RegistryPolicyFile |
-| V-26617 | RegistryRule | RegistryPolicyFile |
-| V-26648 | RegistryRule | RegistryPolicyFile |
-| V-26653 | RegistryRule | RegistryPolicyFile |
-| V-26654 | RegistryRule | RegistryPolicyFile |
-| V-26656 | RegistryRule | RegistryPolicyFile |
-| V-26657 | RegistryRule | RegistryPolicyFile |
-| V-26658 | RegistryRule | RegistryPolicyFile |
-| V-26659 | RegistryRule | RegistryPolicyFile |
-| V-41147 | RegistryRule | RegistryPolicyFile |
-| V-72829 | RegistryRule | RegistryPolicyFile |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-17173 | RegistryRule | RegistryPolicyFile |  |
+| V-17174 | RegistryRule | RegistryPolicyFile |  |
+| V-17175 | RegistryRule | RegistryPolicyFile |  |
+| V-17183 | RegistryRule | RegistryPolicyFile |  |
+| V-17184 | RegistryRule | RegistryPolicyFile |  |
+| V-17187 | RegistryRule | RegistryPolicyFile |  |
+| V-17471 | RegistryRule | RegistryPolicyFile |  |
+| V-17473 | RegistryRule | RegistryPolicyFile |  |
+| V-17520 | RegistryRule | RegistryPolicyFile |  |
+| V-17521 | RegistryRule | RegistryPolicyFile |  |
+| V-17522 | RegistryRule | RegistryPolicyFile |  |
+| V-17545 | RegistryRule | RegistryPolicyFile |  |
+| V-17811 | RegistryRule | RegistryPolicyFile |  |
+| V-17813 | RegistryRule | RegistryPolicyFile |  |
+| V-26584 | RegistryRule | RegistryPolicyFile |  |
+| V-26585 | RegistryRule | RegistryPolicyFile |  |
+| V-26586 | RegistryRule | RegistryPolicyFile |  |
+| V-26587 | RegistryRule | RegistryPolicyFile |  |
+| V-26588 | RegistryRule | RegistryPolicyFile |  |
+| V-26589 | RegistryRule | RegistryPolicyFile |  |
+| V-26592 | RegistryRule | RegistryPolicyFile |  |
+| V-26612 | RegistryRule | RegistryPolicyFile |  |
+| V-26614 | RegistryRule | RegistryPolicyFile |  |
+| V-26615 | RegistryRule | RegistryPolicyFile |  |
+| V-26616.a | RegistryRule | RegistryPolicyFile |  |
+| V-26616.b | RegistryRule | RegistryPolicyFile |  |
+| V-26617 | RegistryRule | RegistryPolicyFile |  |
+| V-26648 | RegistryRule | RegistryPolicyFile |  |
+| V-26653 | RegistryRule | RegistryPolicyFile |  |
+| V-26654 | RegistryRule | RegistryPolicyFile |  |
+| V-26656 | RegistryRule | RegistryPolicyFile |  |
+| V-26657 | RegistryRule | RegistryPolicyFile |  |
+| V-26658 | RegistryRule | RegistryPolicyFile |  |
+| V-26659 | RegistryRule | RegistryPolicyFile |  |
+| V-41147 | RegistryRule | RegistryPolicyFile |  |
+| V-72829 | RegistryRule | RegistryPolicyFile |  |
 
 ## Microsoft Word 2016, Version 1.1
 
@@ -1229,45 +1229,45 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_Microsoft_Word_2016_STIG_V1R1_Manual-xccdf.xml  
 **Created:** 9/6/2019  
 **Description:** The Microsoft Word 2016 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **36** of **35** rules are automated; **103%**  
+**StigRuleCoverage:** **35** of **35** rules are automated; **100%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-71041 | RegistryRule | RegistryPolicyFile |
-| V-71043 | RegistryRule | RegistryPolicyFile |
-| V-71045 | RegistryRule | RegistryPolicyFile |
-| V-71047 | RegistryRule | RegistryPolicyFile |
-| V-71049 | RegistryRule | RegistryPolicyFile |
-| V-71051 | RegistryRule | RegistryPolicyFile |
-| V-71053 | RegistryRule | RegistryPolicyFile |
-| V-71055 | RegistryRule | RegistryPolicyFile |
-| V-71057 | RegistryRule | RegistryPolicyFile |
-| V-71059 | RegistryRule | RegistryPolicyFile |
-| V-71061 | RegistryRule | RegistryPolicyFile |
-| V-71063 | RegistryRule | RegistryPolicyFile |
-| V-71065 | RegistryRule | RegistryPolicyFile |
-| V-71067 | RegistryRule | RegistryPolicyFile |
-| V-71069 | RegistryRule | RegistryPolicyFile |
-| V-71071 | RegistryRule | RegistryPolicyFile |
-| V-71073 | RegistryRule | RegistryPolicyFile |
-| V-71075 | RegistryRule | RegistryPolicyFile |
-| V-71077 | RegistryRule | RegistryPolicyFile |
-| V-71079 | RegistryRule | RegistryPolicyFile |
-| V-71081 | RegistryRule | RegistryPolicyFile |
-| V-71083.a | RegistryRule | RegistryPolicyFile |
-| V-71083.b | RegistryRule | RegistryPolicyFile |
-| V-71085 | RegistryRule | RegistryPolicyFile |
-| V-71087 | RegistryRule | RegistryPolicyFile |
-| V-71089 | RegistryRule | RegistryPolicyFile |
-| V-71091 | RegistryRule | RegistryPolicyFile |
-| V-71093 | RegistryRule | RegistryPolicyFile |
-| V-71095 | RegistryRule | RegistryPolicyFile |
-| V-71097 | RegistryRule | RegistryPolicyFile |
-| V-71099 | RegistryRule | RegistryPolicyFile |
-| V-71101 | RegistryRule | RegistryPolicyFile |
-| V-71103 | RegistryRule | RegistryPolicyFile |
-| V-71107 | RegistryRule | RegistryPolicyFile |
-| V-71643 | RegistryRule | RegistryPolicyFile |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-71041 | RegistryRule | RegistryPolicyFile |  |
+| V-71043 | RegistryRule | RegistryPolicyFile |  |
+| V-71045 | RegistryRule | RegistryPolicyFile |  |
+| V-71047 | RegistryRule | RegistryPolicyFile |  |
+| V-71049 | RegistryRule | RegistryPolicyFile |  |
+| V-71051 | RegistryRule | RegistryPolicyFile |  |
+| V-71053 | RegistryRule | RegistryPolicyFile |  |
+| V-71055 | RegistryRule | RegistryPolicyFile |  |
+| V-71057 | RegistryRule | RegistryPolicyFile |  |
+| V-71059 | RegistryRule | RegistryPolicyFile |  |
+| V-71061 | RegistryRule | RegistryPolicyFile |  |
+| V-71063 | RegistryRule | RegistryPolicyFile |  |
+| V-71065 | RegistryRule | RegistryPolicyFile |  |
+| V-71067 | RegistryRule | RegistryPolicyFile |  |
+| V-71069 | RegistryRule | RegistryPolicyFile |  |
+| V-71071 | RegistryRule | RegistryPolicyFile |  |
+| V-71073 | RegistryRule | RegistryPolicyFile |  |
+| V-71075 | RegistryRule | RegistryPolicyFile |  |
+| V-71077 | RegistryRule | RegistryPolicyFile |  |
+| V-71079 | RegistryRule | RegistryPolicyFile |  |
+| V-71081 | RegistryRule | RegistryPolicyFile |  |
+| V-71083.a | RegistryRule | RegistryPolicyFile |  |
+| V-71083.b | RegistryRule | RegistryPolicyFile |  |
+| V-71085 | RegistryRule | RegistryPolicyFile |  |
+| V-71087 | RegistryRule | RegistryPolicyFile |  |
+| V-71089 | RegistryRule | RegistryPolicyFile |  |
+| V-71091 | RegistryRule | RegistryPolicyFile |  |
+| V-71093 | RegistryRule | RegistryPolicyFile |  |
+| V-71095 | RegistryRule | RegistryPolicyFile |  |
+| V-71097 | RegistryRule | RegistryPolicyFile |  |
+| V-71099 | RegistryRule | RegistryPolicyFile |  |
+| V-71101 | RegistryRule | RegistryPolicyFile |  |
+| V-71103 | RegistryRule | RegistryPolicyFile |  |
+| V-71107 | RegistryRule | RegistryPolicyFile |  |
+| V-71643 | RegistryRule | RegistryPolicyFile |  |
 
 ## JRE 8 and Windows STIG, Version 1.5
 
@@ -1277,30 +1277,30 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_Oracle_JRE_8_Windows_STIG_V1R5_Manual-xccdf.xml  
 **Created:** 11/21/2019  
 **Description:** The Java Runtime Environment (JRE) is a bundle developed and offered by Oracle Corporation which includes the Java Virtual Machine (JVM), class libraries, and other components necessary to run Java applications and applets.  Certain default settings within the JRE pose a security risk so it is necessary to deploy system wide properties to ensure a higher degree of security when utilizing the JRE.  
-**StigRuleCoverage:** **22** of **26** rules are automated; **85%**  
+**StigRuleCoverage:** **20** of **26** rules are automated; **77%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-66723.a | FileContentRule | KeyValuePairFile |
-| V-66723.b | FileContentRule | KeyValuePairFile |
-| V-66941.a | FileContentRule | KeyValuePairFile |
-| V-66941.b | FileContentRule | KeyValuePairFile |
-| V-66945.a | FileContentRule | KeyValuePairFile |
-| V-66945.b | FileContentRule | KeyValuePairFile |
-| V-66947.a | FileContentRule | KeyValuePairFile |
-| V-66947.b | FileContentRule | KeyValuePairFile |
-| V-66949.a | FileContentRule | KeyValuePairFile |
-| V-66949.b | FileContentRule | KeyValuePairFile |
-| V-66951.a | FileContentRule | KeyValuePairFile |
-| V-66951.b | FileContentRule | KeyValuePairFile |
-| V-66953.a | FileContentRule | KeyValuePairFile |
-| V-66953.b | FileContentRule | KeyValuePairFile |
-| V-66955.a | FileContentRule | KeyValuePairFile |
-| V-66955.b | FileContentRule | KeyValuePairFile |
-| V-66961.a | FileContentRule | KeyValuePairFile |
-| V-66961.b | FileContentRule | KeyValuePairFile |
-| V-66963.a | FileContentRule | KeyValuePairFile |
-| V-66963.b | FileContentRule | KeyValuePairFile |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-66723.a | FileContentRule | KeyValuePairFile |  |
+| V-66723.b | FileContentRule | KeyValuePairFile |  |
+| V-66941.a | FileContentRule | KeyValuePairFile |  |
+| V-66941.b | FileContentRule | KeyValuePairFile |  |
+| V-66945.a | FileContentRule | KeyValuePairFile |  |
+| V-66945.b | FileContentRule | KeyValuePairFile |  |
+| V-66947.a | FileContentRule | KeyValuePairFile |  |
+| V-66947.b | FileContentRule | KeyValuePairFile |  |
+| V-66949.a | FileContentRule | KeyValuePairFile |  |
+| V-66949.b | FileContentRule | KeyValuePairFile |  |
+| V-66951.a | FileContentRule | KeyValuePairFile |  |
+| V-66951.b | FileContentRule | KeyValuePairFile |  |
+| V-66953.a | FileContentRule | KeyValuePairFile |  |
+| V-66953.b | FileContentRule | KeyValuePairFile |  |
+| V-66955.a | FileContentRule | KeyValuePairFile |  |
+| V-66955.b | FileContentRule | KeyValuePairFile |  |
+| V-66961.a | FileContentRule | KeyValuePairFile |  |
+| V-66961.b | FileContentRule | KeyValuePairFile |  |
+| V-66963.a | FileContentRule | KeyValuePairFile |  |
+| V-66963.b | FileContentRule | KeyValuePairFile |  |
 
 ## MS SQL Server 2012 Database Instance STIG, Version 1.18
 
@@ -1310,12 +1310,12 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_SQL_Server_2012_Database_STIG_V1R18_Manual-xccdf.xml  
 **Created:** 7/29/2019  
 **Description:** The Microsoft SQL Server 2012 Database Instance Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **5** of **28** rules are automated; **18%**  
+**StigRuleCoverage:** **2** of **28** rules are automated; **7%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-41402 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41407 | SqlScriptQueryRule | SqlScriptQuery |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-41402 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41407 | SqlScriptQueryRule | SqlScriptQuery |  |
 
 ## MS SQL Server 2012 STIG, Version 1.19
 
@@ -1325,12 +1325,12 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_SQL_Server_2012_Database_STIG_V1R19_Manual-xccdf.xml  
 **Created:** 8/22/2019  
 **Description:** The Microsoft SQL Server 2012 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **5** of **28** rules are automated; **18%**  
+**StigRuleCoverage:** **2** of **28** rules are automated; **7%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-41402 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41407 | SqlScriptQueryRule | SqlScriptQuery |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-41402 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41407 | SqlScriptQueryRule | SqlScriptQuery |  |
 
 ## Microsoft SQL Server 2012 Database Instance Security Technical Implementation Guide, Version 1.17
 
@@ -1340,61 +1340,61 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_SQL_Server_2012_Instance_STIG_V1R17_Manual-xccdf.xml  
 **Created:** 11/21/2019  
 **Description:** The Microsoft SQL Server 2012 Database Instance Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **55** of **153** rules are automated; **36%**  
+**StigRuleCoverage:** **51** of **153** rules are automated; **33%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-40950 | PermissionRule | FileSystemAuditRuleEntry |
-| V-69169 | PermissionRule | FileSystemAuditRuleEntry |
-| V-40936 | SqlScriptQueryRule | SqlScriptQuery |
-| V-40942 | SqlScriptQueryRule | SqlScriptQuery |
-| V-40943 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41021 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41022 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41024 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41027 | SqlScriptQueryRule | None |
-| V-41028 | SqlScriptQueryRule | None |
-| V-41029 | SqlScriptQueryRule | None |
-| V-41030 | SqlScriptQueryRule | None |
-| V-41031 | SqlScriptQueryRule | None |
-| V-41032 | SqlScriptQueryRule | None |
-| V-41033 | SqlScriptQueryRule | None |
-| V-41035 | SqlScriptQueryRule | None |
-| V-41037 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41042 | SqlScriptQueryRule | None |
-| V-41207 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41208 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41209 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41246 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41248 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41250 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41251 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41252 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41262 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41263 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41264 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41265 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41266 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41267 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41268 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41271 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41273 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41274 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41275 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41276 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41277 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41278 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41279 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41284 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41287 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41289 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41294 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41295 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41296 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41305 | SqlScriptQueryRule | None |
-| V-41306 | SqlScriptQueryRule | None |
-| V-41307 | SqlScriptQueryRule | None |
-| V-55805 | SqlScriptQueryRule | SqlScriptQuery |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-40950 | PermissionRule | FileSystemAuditRuleEntry |  |
+| V-69169 | PermissionRule | FileSystemAuditRuleEntry |  |
+| V-40936 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-40942 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-40943 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41021 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41022 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41024 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41027 | SqlScriptQueryRule | None | V-41021 |
+| V-41028 | SqlScriptQueryRule | None | V-41021 |
+| V-41029 | SqlScriptQueryRule | None | V-41021 |
+| V-41030 | SqlScriptQueryRule | None | V-41021 |
+| V-41031 | SqlScriptQueryRule | None | V-41021 |
+| V-41032 | SqlScriptQueryRule | None | V-41021 |
+| V-41033 | SqlScriptQueryRule | None | V-41021 |
+| V-41035 | SqlScriptQueryRule | None | V-41021 |
+| V-41037 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41042 | SqlScriptQueryRule | None | V-41021 |
+| V-41207 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41208 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41209 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41246 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41248 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41250 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41251 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41252 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41262 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41263 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41264 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41265 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41266 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41267 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41268 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41271 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41273 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41274 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41275 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41276 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41277 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41278 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41279 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41284 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41287 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41289 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41294 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41295 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41296 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41305 | SqlScriptQueryRule | None | V-41021 |
+| V-41306 | SqlScriptQueryRule | None | V-41021 |
+| V-41307 | SqlScriptQueryRule | None | V-41021 |
+| V-55805 | SqlScriptQueryRule | SqlScriptQuery |  |
 
 ## MS SQL Server 2012 STIG, Version 1.19
 
@@ -1404,61 +1404,61 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_SQL_Server_2012_Instance_STIG_V1R19_Manual-xccdf.xml  
 **Created:** 12/5/2019  
 **Description:** The Microsoft SQL Server 2012 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **55** of **153** rules are automated; **36%**  
+**StigRuleCoverage:** **51** of **153** rules are automated; **33%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-40950 | PermissionRule | FileSystemAuditRuleEntry |
-| V-69169 | PermissionRule | FileSystemAuditRuleEntry |
-| V-40936 | SqlScriptQueryRule | SqlScriptQuery |
-| V-40942 | SqlScriptQueryRule | SqlScriptQuery |
-| V-40943 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41021 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41022 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41024 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41027 | SqlScriptQueryRule | None |
-| V-41028 | SqlScriptQueryRule | None |
-| V-41029 | SqlScriptQueryRule | None |
-| V-41030 | SqlScriptQueryRule | None |
-| V-41031 | SqlScriptQueryRule | None |
-| V-41032 | SqlScriptQueryRule | None |
-| V-41033 | SqlScriptQueryRule | None |
-| V-41035 | SqlScriptQueryRule | None |
-| V-41037 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41042 | SqlScriptQueryRule | None |
-| V-41207 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41208 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41209 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41246 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41248 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41250 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41251 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41252 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41262 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41263 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41264 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41265 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41266 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41267 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41268 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41271 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41273 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41274 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41275 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41276 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41277 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41278 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41279 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41284 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41287 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41289 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41294 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41295 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41296 | SqlScriptQueryRule | SqlScriptQuery |
-| V-41305 | SqlScriptQueryRule | None |
-| V-41306 | SqlScriptQueryRule | None |
-| V-41307 | SqlScriptQueryRule | None |
-| V-55805 | SqlScriptQueryRule | SqlScriptQuery |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-40950 | PermissionRule | FileSystemAuditRuleEntry |  |
+| V-69169 | PermissionRule | FileSystemAuditRuleEntry |  |
+| V-40936 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-40942 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-40943 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41021 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41022 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41024 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41027 | SqlScriptQueryRule | None | V-41021 |
+| V-41028 | SqlScriptQueryRule | None | V-41021 |
+| V-41029 | SqlScriptQueryRule | None | V-41021 |
+| V-41030 | SqlScriptQueryRule | None | V-41021 |
+| V-41031 | SqlScriptQueryRule | None | V-41021 |
+| V-41032 | SqlScriptQueryRule | None | V-41021 |
+| V-41033 | SqlScriptQueryRule | None | V-41021 |
+| V-41035 | SqlScriptQueryRule | None | V-41021 |
+| V-41037 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41042 | SqlScriptQueryRule | None | V-41021 |
+| V-41207 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41208 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41209 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41246 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41248 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41250 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41251 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41252 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41262 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41263 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41264 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41265 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41266 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41267 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41268 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41271 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41273 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41274 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41275 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41276 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41277 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41278 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41279 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41284 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41287 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41289 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41294 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41295 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41296 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-41305 | SqlScriptQueryRule | None | V-41021 |
+| V-41306 | SqlScriptQueryRule | None | V-41021 |
+| V-41307 | SqlScriptQueryRule | None | V-41021 |
+| V-55805 | SqlScriptQueryRule | SqlScriptQuery |  |
 
 ## MS SQL Server 2016 Instance STIG, Version 1.3
 
@@ -1468,31 +1468,31 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_SQL_Server_2016_Instance_STIG_V1R3_Manual-xccdf.xml  
 **Created:** 11/22/2019  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **24** of **119** rules are automated; **20%**  
+**StigRuleCoverage:** **21** of **119** rules are automated; **18%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-79197 | SecurityOptionRule | SecurityOption |
-| V-79141 | SqlScriptQueryRule | SqlScriptQuery |
-| V-79239 | SqlScriptQueryRule | SqlScriptQuery |
-| V-79259 | SqlScriptQueryRule | SqlScriptQuery |
-| V-79261 | SqlScriptQueryRule | None |
-| V-79263 | SqlScriptQueryRule | None |
-| V-79265 | SqlScriptQueryRule | None |
-| V-79267 | SqlScriptQueryRule | None |
-| V-79269 | SqlScriptQueryRule | None |
-| V-79275 | SqlScriptQueryRule | None |
-| V-79277 | SqlScriptQueryRule | None |
-| V-79279 | SqlScriptQueryRule | None |
-| V-79281 | SqlScriptQueryRule | None |
-| V-79287 | SqlScriptQueryRule | SqlScriptQuery |
-| V-79289 | SqlScriptQueryRule | None |
-| V-79291 | SqlScriptQueryRule | SqlScriptQuery |
-| V-79293 | SqlScriptQueryRule | None |
-| V-79295 | SqlScriptQueryRule | None |
-| V-79297 | SqlScriptQueryRule | None |
-| V-79317 | SqlScriptQueryRule | SqlScriptQuery |
-| V-79319 | SqlScriptQueryRule | None |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-79197 | SecurityOptionRule | SecurityOption |  |
+| V-79141 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-79239 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-79259 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-79261 | SqlScriptQueryRule | None | V-79259 |
+| V-79263 | SqlScriptQueryRule | None | V-79259 |
+| V-79265 | SqlScriptQueryRule | None | V-79259 |
+| V-79267 | SqlScriptQueryRule | None | V-79141 |
+| V-79269 | SqlScriptQueryRule | None | V-79141 |
+| V-79275 | SqlScriptQueryRule | None | V-79259 |
+| V-79277 | SqlScriptQueryRule | None | V-79259 |
+| V-79279 | SqlScriptQueryRule | None | V-79141 |
+| V-79281 | SqlScriptQueryRule | None | V-79141 |
+| V-79287 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-79289 | SqlScriptQueryRule | None | V-79141 |
+| V-79291 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-79293 | SqlScriptQueryRule | None | V-79291 |
+| V-79295 | SqlScriptQueryRule | None | V-79291 |
+| V-79297 | SqlScriptQueryRule | None | V-79141 |
+| V-79317 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-79319 | SqlScriptQueryRule | None | V-79317 |
 
 ## MS SQL Server 2016 Instance STIG, Version 1.7
 
@@ -1502,47 +1502,47 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_SQL_Server_2016_Instance_STIG_V1R7_Manual-xccdf.xml  
 **Created:** 12/5/2019  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **41** of **133** rules are automated; **31%**  
+**StigRuleCoverage:** **37** of **133** rules are automated; **28%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-97521.a | RegistryRule | Registry |
-| V-97521.b | RegistryRule | Registry |
-| V-97521.c | RegistryRule | Registry |
-| V-97521.d | RegistryRule | Registry |
-| V-97521.e | RegistryRule | Registry |
-| V-97521.f | RegistryRule | Registry |
-| V-97521.g | RegistryRule | Registry |
-| V-97521.h | RegistryRule | Registry |
-| V-97521.i | RegistryRule | Registry |
-| V-97521.j | RegistryRule | Registry |
-| V-97521.k | RegistryRule | Registry |
-| V-97521.l | RegistryRule | Registry |
-| V-97521.m | RegistryRule | Registry |
-| V-97521.n | RegistryRule | Registry |
-| V-97521.o | RegistryRule | Registry |
-| V-97521.p | RegistryRule | Registry |
-| V-79197 | SecurityOptionRule | SecurityOption |
-| V-79141 | SqlScriptQueryRule | SqlScriptQuery |
-| V-79239 | SqlScriptQueryRule | SqlScriptQuery |
-| V-79259 | SqlScriptQueryRule | SqlScriptQuery |
-| V-79261 | SqlScriptQueryRule | None |
-| V-79263 | SqlScriptQueryRule | None |
-| V-79265 | SqlScriptQueryRule | None |
-| V-79267 | SqlScriptQueryRule | None |
-| V-79269 | SqlScriptQueryRule | None |
-| V-79275 | SqlScriptQueryRule | None |
-| V-79277 | SqlScriptQueryRule | None |
-| V-79279 | SqlScriptQueryRule | None |
-| V-79281 | SqlScriptQueryRule | None |
-| V-79287 | SqlScriptQueryRule | SqlScriptQuery |
-| V-79289 | SqlScriptQueryRule | None |
-| V-79291 | SqlScriptQueryRule | SqlScriptQuery |
-| V-79293 | SqlScriptQueryRule | SqlScriptQuery |
-| V-79295 | SqlScriptQueryRule | None |
-| V-79297 | SqlScriptQueryRule | None |
-| V-79317 | SqlScriptQueryRule | SqlScriptQuery |
-| V-79319 | SqlScriptQueryRule | None |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-97521.a | RegistryRule | Registry |  |
+| V-97521.b | RegistryRule | Registry |  |
+| V-97521.c | RegistryRule | Registry |  |
+| V-97521.d | RegistryRule | Registry |  |
+| V-97521.e | RegistryRule | Registry |  |
+| V-97521.f | RegistryRule | Registry |  |
+| V-97521.g | RegistryRule | Registry |  |
+| V-97521.h | RegistryRule | Registry |  |
+| V-97521.i | RegistryRule | Registry |  |
+| V-97521.j | RegistryRule | Registry |  |
+| V-97521.k | RegistryRule | Registry |  |
+| V-97521.l | RegistryRule | Registry |  |
+| V-97521.m | RegistryRule | Registry |  |
+| V-97521.n | RegistryRule | Registry |  |
+| V-97521.o | RegistryRule | Registry |  |
+| V-97521.p | RegistryRule | Registry |  |
+| V-79197 | SecurityOptionRule | SecurityOption |  |
+| V-79141 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-79239 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-79259 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-79261 | SqlScriptQueryRule | None | V-79259 |
+| V-79263 | SqlScriptQueryRule | None | V-79259 |
+| V-79265 | SqlScriptQueryRule | None | V-79259 |
+| V-79267 | SqlScriptQueryRule | None | V-79141 |
+| V-79269 | SqlScriptQueryRule | None | V-79141 |
+| V-79275 | SqlScriptQueryRule | None | V-79259 |
+| V-79277 | SqlScriptQueryRule | None | V-79259 |
+| V-79279 | SqlScriptQueryRule | None | V-79141 |
+| V-79281 | SqlScriptQueryRule | None | V-79141 |
+| V-79287 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-79289 | SqlScriptQueryRule | None | V-79141 |
+| V-79291 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-79293 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-79295 | SqlScriptQueryRule | None | V-79293 |
+| V-79297 | SqlScriptQueryRule | None | V-79141 |
+| V-79317 | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-79319 | SqlScriptQueryRule | None | V-79317 |
 
 ## Windows 10 STIG, Version 1.18
 
@@ -1552,278 +1552,278 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_Windows_10_STIG_V1R18_Manual-xccdf.xml  
 **Created:** 11/8/2019  
 **Description:** The Windows 10 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **279** of **298** rules are automated; **94%**  
+**StigRuleCoverage:** **268** of **298** rules are automated; **90%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-63405 | AccountPolicyRule | AccountPolicy |
-| V-63409 | AccountPolicyRule | AccountPolicy |
-| V-63413 | AccountPolicyRule | AccountPolicy |
-| V-63415 | AccountPolicyRule | AccountPolicy |
-| V-63419 | AccountPolicyRule | AccountPolicy |
-| V-63421 | AccountPolicyRule | AccountPolicy |
-| V-63423 | AccountPolicyRule | AccountPolicy |
-| V-63427 | AccountPolicyRule | AccountPolicy |
-| V-63429 | AccountPolicyRule | AccountPolicy |
-| V-63431 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63435 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63441 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63445 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63447 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63449 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63451 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63453 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63455 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63457 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63459 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63463 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63467 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63469 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63471 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63473 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63475 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63479 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63481 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63483 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63487 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63491 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63495 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63499 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63503 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63507 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63513 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63515 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63517 | AuditPolicyRule | AuditPolicySubcategory |
-| V-71759 | AuditPolicyRule | AuditPolicySubcategory |
-| V-71761 | AuditPolicyRule | AuditPolicySubcategory |
-| V-74409 | AuditPolicyRule | AuditPolicySubcategory |
-| V-74411 | AuditPolicyRule | AuditPolicySubcategory |
-| V-74721 | AuditPolicyRule | AuditPolicySubcategory |
-| V-75027 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63349 | AuditSettingRule | AuditSetting |
-| V-63353 | AuditSettingRule | AuditSetting |
-| V-63373.a | PermissionRule | NTFSAccessEntry |
-| V-63373.b | PermissionRule | NTFSAccessEntry |
-| V-63373.c | PermissionRule | NTFSAccessEntry |
-| V-63533 | PermissionRule | NTFSAccessEntry |
-| V-63537 | PermissionRule | NTFSAccessEntry |
-| V-63541 | PermissionRule | NTFSAccessEntry |
-| V-63593.a | PermissionRule | RegistryAccessEntry |
-| V-63593.b | PermissionRule | RegistryAccessEntry |
-| V-63593.c | PermissionRule | RegistryAccessEntry |
-| V-77091 | ProcessMitigationRule | ProcessMitigation |
-| V-77095 | ProcessMitigationRule | ProcessMitigation |
-| V-77097 | ProcessMitigationRule | ProcessMitigation |
-| V-77101 | ProcessMitigationRule | ProcessMitigation |
-| V-77103 | ProcessMitigationRule | ProcessMitigation |
-| V-77189 | ProcessMitigationRule | ProcessMitigation |
-| V-77191 | ProcessMitigationRule | ProcessMitigation |
-| V-77195 | ProcessMitigationRule | ProcessMitigation |
-| V-77201 | ProcessMitigationRule | ProcessMitigation |
-| V-77205 | ProcessMitigationRule | ProcessMitigation |
-| V-77209 | ProcessMitigationRule | ProcessMitigation |
-| V-77213 | ProcessMitigationRule | ProcessMitigation |
-| V-77217 | ProcessMitigationRule | ProcessMitigation |
-| V-77221 | ProcessMitigationRule | ProcessMitigation |
-| V-77223.a | ProcessMitigationRule | ProcessMitigation |
-| V-77223.b | ProcessMitigationRule | ProcessMitigation |
-| V-77223.c | ProcessMitigationRule | ProcessMitigation |
-| V-77227 | ProcessMitigationRule | ProcessMitigation |
-| V-77231 | ProcessMitigationRule | ProcessMitigation |
-| V-77233 | ProcessMitigationRule | ProcessMitigation |
-| V-77235 | ProcessMitigationRule | ProcessMitigation |
-| V-77239 | ProcessMitigationRule | ProcessMitigation |
-| V-77243 | ProcessMitigationRule | ProcessMitigation |
-| V-77245 | ProcessMitigationRule | ProcessMitigation |
-| V-77247 | ProcessMitigationRule | ProcessMitigation |
-| V-77249 | ProcessMitigationRule | ProcessMitigation |
-| V-77255 | ProcessMitigationRule | ProcessMitigation |
-| V-77259 | ProcessMitigationRule | ProcessMitigation |
-| V-77263 | ProcessMitigationRule | ProcessMitigation |
-| V-77267 | ProcessMitigationRule | ProcessMitigation |
-| V-77269 | ProcessMitigationRule | ProcessMitigation |
-| V-63321 | RegistryRule | RegistryPolicyFile |
-| V-63325 | RegistryRule | RegistryPolicyFile |
-| V-63329 | RegistryRule | RegistryPolicyFile |
-| V-63333 | RegistryRule | RegistryPolicyFile |
-| V-63335 | RegistryRule | RegistryPolicyFile |
-| V-63339 | RegistryRule | RegistryPolicyFile |
-| V-63341 | RegistryRule | RegistryPolicyFile |
-| V-63347 | RegistryRule | RegistryPolicyFile |
-| V-63369 | RegistryRule | RegistryPolicyFile |
-| V-63375 | RegistryRule | RegistryPolicyFile |
-| V-63519 | RegistryRule | RegistryPolicyFile |
-| V-63523 | RegistryRule | RegistryPolicyFile |
-| V-63527 | RegistryRule | RegistryPolicyFile |
-| V-63545 | RegistryRule | RegistryPolicyFile |
-| V-63549 | RegistryRule | RegistryPolicyFile |
-| V-63555 | RegistryRule | RegistryPolicyFile |
-| V-63559 | RegistryRule | RegistryPolicyFile |
-| V-63563 | RegistryRule | RegistryPolicyFile |
-| V-63567 | RegistryRule | RegistryPolicyFile |
-| V-63569 | RegistryRule | RegistryPolicyFile |
-| V-63577.a | RegistryRule | RegistryPolicyFile |
-| V-63577.b | RegistryRule | RegistryPolicyFile |
-| V-63581 | RegistryRule | RegistryPolicyFile |
-| V-63585 | RegistryRule | RegistryPolicyFile |
-| V-63591 | RegistryRule | RegistryPolicyFile |
-| V-63595.a | RegistryRule | RegistryPolicyFile |
-| V-63595.b | RegistryRule | RegistryPolicyFile |
-| V-63597 | RegistryRule | RegistryPolicyFile |
-| V-63599 | RegistryRule | RegistryPolicyFile |
-| V-63607 | RegistryRule | RegistryPolicyFile |
-| V-63609 | RegistryRule | RegistryPolicyFile |
-| V-63615 | RegistryRule | RegistryPolicyFile |
-| V-63617 | RegistryRule | Registry |
-| V-63621 | RegistryRule | RegistryPolicyFile |
-| V-63623 | RegistryRule | RegistryPolicyFile |
-| V-63627 | RegistryRule | RegistryPolicyFile |
-| V-63629 | RegistryRule | RegistryPolicyFile |
-| V-63633 | RegistryRule | RegistryPolicyFile |
-| V-63635 | RegistryRule | Registry |
-| V-63639 | RegistryRule | Registry |
-| V-63643 | RegistryRule | Registry |
-| V-63645 | RegistryRule | RegistryPolicyFile |
-| V-63647 | RegistryRule | Registry |
-| V-63649 | RegistryRule | RegistryPolicyFile |
-| V-63651 | RegistryRule | RegistryPolicyFile |
-| V-63653 | RegistryRule | Registry |
-| V-63657 | RegistryRule | RegistryPolicyFile |
-| V-63659 | RegistryRule | RegistryPolicyFile |
-| V-63661 | RegistryRule | Registry |
-| V-63663 | RegistryRule | RegistryPolicyFile |
-| V-63665 | RegistryRule | Registry |
-| V-63667 | RegistryRule | RegistryPolicyFile |
-| V-63669 | RegistryRule | Registry |
-| V-63671 | RegistryRule | RegistryPolicyFile |
-| V-63673 | RegistryRule | RegistryPolicyFile |
-| V-63675 | RegistryRule | Registry |
-| V-63677 | RegistryRule | RegistryPolicyFile |
-| V-63679 | RegistryRule | RegistryPolicyFile |
-| V-63681 | RegistryRule | Registry |
-| V-63683 | RegistryRule | RegistryPolicyFile |
-| V-63687 | RegistryRule | Registry |
-| V-63689 | RegistryRule | RegistryPolicyFile |
-| V-63691 | RegistryRule | RegistryPolicyFile |
-| V-63695 | RegistryRule | RegistryPolicyFile |
-| V-63697 | RegistryRule | Registry |
-| V-63699 | RegistryRule | RegistryPolicyFile |
-| V-63701 | RegistryRule | RegistryPolicyFile |
-| V-63703 | RegistryRule | Registry |
-| V-63705 | RegistryRule | RegistryPolicyFile |
-| V-63707 | RegistryRule | Registry |
-| V-63709 | RegistryRule | RegistryPolicyFile |
-| V-63711 | RegistryRule | Registry |
-| V-63713 | RegistryRule | RegistryPolicyFile |
-| V-63717 | RegistryRule | RegistryPolicyFile |
-| V-63719 | RegistryRule | Registry |
-| V-63721 | RegistryRule | RegistryPolicyFile |
-| V-63723 | RegistryRule | Registry |
-| V-63729 | RegistryRule | RegistryPolicyFile |
-| V-63731 | RegistryRule | RegistryPolicyFile |
-| V-63733 | RegistryRule | RegistryPolicyFile |
-| V-63737 | RegistryRule | RegistryPolicyFile |
-| V-63741 | RegistryRule | RegistryPolicyFile |
-| V-63743 | RegistryRule | RegistryPolicyFile |
-| V-63745 | RegistryRule | Registry |
-| V-63747 | RegistryRule | RegistryPolicyFile |
-| V-63749 | RegistryRule | Registry |
-| V-63751 | RegistryRule | RegistryPolicyFile |
-| V-63755 | RegistryRule | Registry |
-| V-63759 | RegistryRule | Registry |
-| V-63763 | RegistryRule | Registry |
-| V-63765 | RegistryRule | Registry |
-| V-63767 | RegistryRule | Registry |
-| V-63795 | RegistryRule | Registry |
-| V-63797 | RegistryRule | Registry |
-| V-63801 | RegistryRule | Registry |
-| V-63803 | RegistryRule | Registry |
-| V-63805 | RegistryRule | Registry |
-| V-63807 | RegistryRule | Registry |
-| V-63811 | RegistryRule | Registry |
-| V-63815 | RegistryRule | Registry |
-| V-63817 | RegistryRule | Registry |
-| V-63819 | RegistryRule | Registry |
-| V-63821 | RegistryRule | Registry |
-| V-63825 | RegistryRule | Registry |
-| V-63827 | RegistryRule | Registry |
-| V-63829 | RegistryRule | Registry |
-| V-63831 | RegistryRule | Registry |
-| V-63839 | RegistryRule | RegistryPolicyFile |
-| V-63841 | RegistryRule | RegistryPolicyFile |
-| V-65681.a | RegistryRule | RegistryPolicyFile |
-| V-65681.b | RegistryRule | RegistryPolicyFile |
-| V-68817 | RegistryRule | RegistryPolicyFile |
-| V-68819 | RegistryRule | RegistryPolicyFile |
-| V-68849 | RegistryRule | RegistryPolicyFile |
-| V-71763 | RegistryRule | RegistryPolicyFile |
-| V-71765 | RegistryRule | RegistryPolicyFile |
-| V-71769 | RegistryRule | Registry |
-| V-71771 | RegistryRule | RegistryPolicyFile |
-| V-72329.a | RegistryRule | RegistryPolicyFile |
-| V-72329.b | RegistryRule | RegistryPolicyFile |
-| V-72329.c | RegistryRule | RegistryPolicyFile |
-| V-72329.d | RegistryRule | RegistryPolicyFile |
-| V-74413 | RegistryRule | RegistryPolicyFile |
-| V-74415 | RegistryRule | RegistryPolicyFile |
-| V-74417 | RegistryRule | RegistryPolicyFile |
-| V-74699 | RegistryRule | RegistryPolicyFile |
-| V-74723 | RegistryRule | RegistryPolicyFile |
-| V-74725 | RegistryRule | RegistryPolicyFile |
-| V-82137 | RegistryRule | RegistryPolicyFile |
-| V-82139 | RegistryRule | RegistryPolicyFile |
-| V-82145 | RegistryRule | RegistryPolicyFile |
-| V-88203 | RegistryRule | RegistryPolicyFile |
-| V-94719.a | RegistryRule | RegistryPolicyFile |
-| V-94719.b | RegistryRule | RegistryPolicyFile |
-| V-94859.a | RegistryRule | RegistryPolicyFile |
-| V-94859.b | RegistryRule | RegistryPolicyFile |
-| V-94861 | RegistryRule | Registry |
-| V-63601 | SecurityOptionRule | SecurityOption |
-| V-63611 | SecurityOptionRule | SecurityOption |
-| V-63619 | SecurityOptionRule | SecurityOption |
-| V-63625 | SecurityOptionRule | SecurityOption |
-| V-63739 | SecurityOptionRule | SecurityOption |
-| V-74719 | ServiceRule | Service |
-| V-63843 | UserRightRule | UserRightsAssignment |
-| V-63845 | UserRightRule | UserRightsAssignment |
-| V-63847 | UserRightRule | UserRightsAssignment |
-| V-63851 | UserRightRule | UserRightsAssignment |
-| V-63853 | UserRightRule | UserRightsAssignment |
-| V-63855 | UserRightRule | UserRightsAssignment |
-| V-63857 | UserRightRule | UserRightsAssignment |
-| V-63859 | UserRightRule | UserRightsAssignment |
-| V-63861 | UserRightRule | UserRightsAssignment |
-| V-63863 | UserRightRule | UserRightsAssignment |
-| V-63865 | UserRightRule | UserRightsAssignment |
-| V-63869 | UserRightRule | UserRightsAssignment |
-| V-63871 | UserRightRule | UserRightsAssignment |
-| V-63873 | UserRightRule | UserRightsAssignment |
-| V-63875 | UserRightRule | UserRightsAssignment |
-| V-63877 | UserRightRule | UserRightsAssignment |
-| V-63879 | UserRightRule | UserRightsAssignment |
-| V-63881 | UserRightRule | UserRightsAssignment |
-| V-63883 | UserRightRule | UserRightsAssignment |
-| V-63887 | UserRightRule | UserRightsAssignment |
-| V-63889 | UserRightRule | UserRightsAssignment |
-| V-63891 | UserRightRule | UserRightsAssignment |
-| V-63917 | UserRightRule | UserRightsAssignment |
-| V-63925 | UserRightRule | UserRightsAssignment |
-| V-63927 | UserRightRule | UserRightsAssignment |
-| V-63931 | UserRightRule | UserRightsAssignment |
-| V-63933 | UserRightRule | UserRightsAssignment |
-| V-63935 | UserRightRule | UserRightsAssignment |
-| V-63939 | UserRightRule | UserRightsAssignment |
-| V-63941 | UserRightRule | UserRightsAssignment |
-| V-63377.a | WindowsFeatureRule | WindowsOptionalFeature |
-| V-63377.b | WindowsFeatureRule | WindowsOptionalFeature |
-| V-63381 | WindowsFeatureRule | WindowsOptionalFeature |
-| V-63383 | WindowsFeatureRule | WindowsOptionalFeature |
-| V-63385 | WindowsFeatureRule | WindowsOptionalFeature |
-| V-63389 | WindowsFeatureRule | WindowsOptionalFeature |
-| V-70637.a | WindowsFeatureRule | WindowsOptionalFeature |
-| V-70637.b | WindowsFeatureRule | WindowsOptionalFeature |
-| V-70639 | WindowsFeatureRule | WindowsOptionalFeature |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-63405 | AccountPolicyRule | AccountPolicy |  |
+| V-63409 | AccountPolicyRule | AccountPolicy |  |
+| V-63413 | AccountPolicyRule | AccountPolicy |  |
+| V-63415 | AccountPolicyRule | AccountPolicy |  |
+| V-63419 | AccountPolicyRule | AccountPolicy |  |
+| V-63421 | AccountPolicyRule | AccountPolicy |  |
+| V-63423 | AccountPolicyRule | AccountPolicy |  |
+| V-63427 | AccountPolicyRule | AccountPolicy |  |
+| V-63429 | AccountPolicyRule | AccountPolicy |  |
+| V-63431 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63435 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63441 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63445 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63447 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63449 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63451 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63453 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63455 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63457 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63459 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63463 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63467 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63469 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63471 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63473 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63475 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63479 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63481 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63483 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63487 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63491 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63495 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63499 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63503 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63507 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63513 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63515 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63517 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-71759 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-71761 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-74409 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-74411 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-74721 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-75027 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63349 | AuditSettingRule | AuditSetting |  |
+| V-63353 | AuditSettingRule | AuditSetting |  |
+| V-63373.a | PermissionRule | NTFSAccessEntry |  |
+| V-63373.b | PermissionRule | NTFSAccessEntry |  |
+| V-63373.c | PermissionRule | NTFSAccessEntry |  |
+| V-63533 | PermissionRule | NTFSAccessEntry |  |
+| V-63537 | PermissionRule | NTFSAccessEntry |  |
+| V-63541 | PermissionRule | NTFSAccessEntry |  |
+| V-63593.a | PermissionRule | RegistryAccessEntry |  |
+| V-63593.b | PermissionRule | RegistryAccessEntry |  |
+| V-63593.c | PermissionRule | RegistryAccessEntry |  |
+| V-77091 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77095 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77097 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77101 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77103 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77189 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77191 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77195 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77201 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77205 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77209 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77213 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77217 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77221 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77223.a | ProcessMitigationRule | ProcessMitigation |  |
+| V-77223.b | ProcessMitigationRule | ProcessMitigation |  |
+| V-77223.c | ProcessMitigationRule | ProcessMitigation |  |
+| V-77227 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77231 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77233 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77235 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77239 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77243 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77245 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77247 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77249 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77255 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77259 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77263 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77267 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77269 | ProcessMitigationRule | ProcessMitigation |  |
+| V-63321 | RegistryRule | RegistryPolicyFile |  |
+| V-63325 | RegistryRule | RegistryPolicyFile |  |
+| V-63329 | RegistryRule | RegistryPolicyFile |  |
+| V-63333 | RegistryRule | RegistryPolicyFile |  |
+| V-63335 | RegistryRule | RegistryPolicyFile |  |
+| V-63339 | RegistryRule | RegistryPolicyFile |  |
+| V-63341 | RegistryRule | RegistryPolicyFile |  |
+| V-63347 | RegistryRule | RegistryPolicyFile |  |
+| V-63369 | RegistryRule | RegistryPolicyFile |  |
+| V-63375 | RegistryRule | RegistryPolicyFile |  |
+| V-63519 | RegistryRule | RegistryPolicyFile |  |
+| V-63523 | RegistryRule | RegistryPolicyFile |  |
+| V-63527 | RegistryRule | RegistryPolicyFile |  |
+| V-63545 | RegistryRule | RegistryPolicyFile |  |
+| V-63549 | RegistryRule | RegistryPolicyFile |  |
+| V-63555 | RegistryRule | RegistryPolicyFile |  |
+| V-63559 | RegistryRule | RegistryPolicyFile |  |
+| V-63563 | RegistryRule | RegistryPolicyFile |  |
+| V-63567 | RegistryRule | RegistryPolicyFile |  |
+| V-63569 | RegistryRule | RegistryPolicyFile |  |
+| V-63577.a | RegistryRule | RegistryPolicyFile |  |
+| V-63577.b | RegistryRule | RegistryPolicyFile |  |
+| V-63581 | RegistryRule | RegistryPolicyFile |  |
+| V-63585 | RegistryRule | RegistryPolicyFile |  |
+| V-63591 | RegistryRule | RegistryPolicyFile |  |
+| V-63595.a | RegistryRule | RegistryPolicyFile |  |
+| V-63595.b | RegistryRule | RegistryPolicyFile |  |
+| V-63597 | RegistryRule | RegistryPolicyFile |  |
+| V-63599 | RegistryRule | RegistryPolicyFile |  |
+| V-63607 | RegistryRule | RegistryPolicyFile |  |
+| V-63609 | RegistryRule | RegistryPolicyFile |  |
+| V-63615 | RegistryRule | RegistryPolicyFile |  |
+| V-63617 | RegistryRule | Registry |  |
+| V-63621 | RegistryRule | RegistryPolicyFile |  |
+| V-63623 | RegistryRule | RegistryPolicyFile |  |
+| V-63627 | RegistryRule | RegistryPolicyFile |  |
+| V-63629 | RegistryRule | RegistryPolicyFile |  |
+| V-63633 | RegistryRule | RegistryPolicyFile |  |
+| V-63635 | RegistryRule | Registry |  |
+| V-63639 | RegistryRule | Registry |  |
+| V-63643 | RegistryRule | Registry |  |
+| V-63645 | RegistryRule | RegistryPolicyFile |  |
+| V-63647 | RegistryRule | Registry |  |
+| V-63649 | RegistryRule | RegistryPolicyFile |  |
+| V-63651 | RegistryRule | RegistryPolicyFile |  |
+| V-63653 | RegistryRule | Registry |  |
+| V-63657 | RegistryRule | RegistryPolicyFile |  |
+| V-63659 | RegistryRule | RegistryPolicyFile |  |
+| V-63661 | RegistryRule | Registry |  |
+| V-63663 | RegistryRule | RegistryPolicyFile |  |
+| V-63665 | RegistryRule | Registry |  |
+| V-63667 | RegistryRule | RegistryPolicyFile |  |
+| V-63669 | RegistryRule | Registry |  |
+| V-63671 | RegistryRule | RegistryPolicyFile |  |
+| V-63673 | RegistryRule | RegistryPolicyFile |  |
+| V-63675 | RegistryRule | Registry |  |
+| V-63677 | RegistryRule | RegistryPolicyFile |  |
+| V-63679 | RegistryRule | RegistryPolicyFile |  |
+| V-63681 | RegistryRule | Registry |  |
+| V-63683 | RegistryRule | RegistryPolicyFile |  |
+| V-63687 | RegistryRule | Registry |  |
+| V-63689 | RegistryRule | RegistryPolicyFile |  |
+| V-63691 | RegistryRule | RegistryPolicyFile |  |
+| V-63695 | RegistryRule | RegistryPolicyFile |  |
+| V-63697 | RegistryRule | Registry |  |
+| V-63699 | RegistryRule | RegistryPolicyFile |  |
+| V-63701 | RegistryRule | RegistryPolicyFile |  |
+| V-63703 | RegistryRule | Registry |  |
+| V-63705 | RegistryRule | RegistryPolicyFile |  |
+| V-63707 | RegistryRule | Registry |  |
+| V-63709 | RegistryRule | RegistryPolicyFile |  |
+| V-63711 | RegistryRule | Registry |  |
+| V-63713 | RegistryRule | RegistryPolicyFile |  |
+| V-63717 | RegistryRule | RegistryPolicyFile |  |
+| V-63719 | RegistryRule | Registry |  |
+| V-63721 | RegistryRule | RegistryPolicyFile |  |
+| V-63723 | RegistryRule | Registry |  |
+| V-63729 | RegistryRule | RegistryPolicyFile |  |
+| V-63731 | RegistryRule | RegistryPolicyFile |  |
+| V-63733 | RegistryRule | RegistryPolicyFile |  |
+| V-63737 | RegistryRule | RegistryPolicyFile |  |
+| V-63741 | RegistryRule | RegistryPolicyFile |  |
+| V-63743 | RegistryRule | RegistryPolicyFile |  |
+| V-63745 | RegistryRule | Registry |  |
+| V-63747 | RegistryRule | RegistryPolicyFile |  |
+| V-63749 | RegistryRule | Registry |  |
+| V-63751 | RegistryRule | RegistryPolicyFile |  |
+| V-63755 | RegistryRule | Registry |  |
+| V-63759 | RegistryRule | Registry |  |
+| V-63763 | RegistryRule | Registry |  |
+| V-63765 | RegistryRule | Registry |  |
+| V-63767 | RegistryRule | Registry |  |
+| V-63795 | RegistryRule | Registry |  |
+| V-63797 | RegistryRule | Registry |  |
+| V-63801 | RegistryRule | Registry |  |
+| V-63803 | RegistryRule | Registry |  |
+| V-63805 | RegistryRule | Registry |  |
+| V-63807 | RegistryRule | Registry |  |
+| V-63811 | RegistryRule | Registry |  |
+| V-63815 | RegistryRule | Registry |  |
+| V-63817 | RegistryRule | Registry |  |
+| V-63819 | RegistryRule | Registry |  |
+| V-63821 | RegistryRule | Registry |  |
+| V-63825 | RegistryRule | Registry |  |
+| V-63827 | RegistryRule | Registry |  |
+| V-63829 | RegistryRule | Registry |  |
+| V-63831 | RegistryRule | Registry |  |
+| V-63839 | RegistryRule | RegistryPolicyFile |  |
+| V-63841 | RegistryRule | RegistryPolicyFile |  |
+| V-65681.a | RegistryRule | RegistryPolicyFile |  |
+| V-65681.b | RegistryRule | RegistryPolicyFile |  |
+| V-68817 | RegistryRule | RegistryPolicyFile |  |
+| V-68819 | RegistryRule | RegistryPolicyFile |  |
+| V-68849 | RegistryRule | RegistryPolicyFile |  |
+| V-71763 | RegistryRule | RegistryPolicyFile |  |
+| V-71765 | RegistryRule | RegistryPolicyFile |  |
+| V-71769 | RegistryRule | Registry |  |
+| V-71771 | RegistryRule | RegistryPolicyFile |  |
+| V-72329.a | RegistryRule | RegistryPolicyFile |  |
+| V-72329.b | RegistryRule | RegistryPolicyFile |  |
+| V-72329.c | RegistryRule | RegistryPolicyFile |  |
+| V-72329.d | RegistryRule | RegistryPolicyFile |  |
+| V-74413 | RegistryRule | RegistryPolicyFile |  |
+| V-74415 | RegistryRule | RegistryPolicyFile |  |
+| V-74417 | RegistryRule | RegistryPolicyFile |  |
+| V-74699 | RegistryRule | RegistryPolicyFile |  |
+| V-74723 | RegistryRule | RegistryPolicyFile |  |
+| V-74725 | RegistryRule | RegistryPolicyFile |  |
+| V-82137 | RegistryRule | RegistryPolicyFile |  |
+| V-82139 | RegistryRule | RegistryPolicyFile |  |
+| V-82145 | RegistryRule | RegistryPolicyFile |  |
+| V-88203 | RegistryRule | RegistryPolicyFile |  |
+| V-94719.a | RegistryRule | RegistryPolicyFile |  |
+| V-94719.b | RegistryRule | RegistryPolicyFile |  |
+| V-94859.a | RegistryRule | RegistryPolicyFile |  |
+| V-94859.b | RegistryRule | RegistryPolicyFile |  |
+| V-94861 | RegistryRule | Registry |  |
+| V-63601 | SecurityOptionRule | SecurityOption |  |
+| V-63611 | SecurityOptionRule | SecurityOption |  |
+| V-63619 | SecurityOptionRule | SecurityOption |  |
+| V-63625 | SecurityOptionRule | SecurityOption |  |
+| V-63739 | SecurityOptionRule | SecurityOption |  |
+| V-74719 | ServiceRule | Service |  |
+| V-63843 | UserRightRule | UserRightsAssignment |  |
+| V-63845 | UserRightRule | UserRightsAssignment |  |
+| V-63847 | UserRightRule | UserRightsAssignment |  |
+| V-63851 | UserRightRule | UserRightsAssignment |  |
+| V-63853 | UserRightRule | UserRightsAssignment |  |
+| V-63855 | UserRightRule | UserRightsAssignment |  |
+| V-63857 | UserRightRule | UserRightsAssignment |  |
+| V-63859 | UserRightRule | UserRightsAssignment |  |
+| V-63861 | UserRightRule | UserRightsAssignment |  |
+| V-63863 | UserRightRule | UserRightsAssignment |  |
+| V-63865 | UserRightRule | UserRightsAssignment |  |
+| V-63869 | UserRightRule | UserRightsAssignment |  |
+| V-63871 | UserRightRule | UserRightsAssignment |  |
+| V-63873 | UserRightRule | UserRightsAssignment |  |
+| V-63875 | UserRightRule | UserRightsAssignment |  |
+| V-63877 | UserRightRule | UserRightsAssignment |  |
+| V-63879 | UserRightRule | UserRightsAssignment |  |
+| V-63881 | UserRightRule | UserRightsAssignment |  |
+| V-63883 | UserRightRule | UserRightsAssignment |  |
+| V-63887 | UserRightRule | UserRightsAssignment |  |
+| V-63889 | UserRightRule | UserRightsAssignment |  |
+| V-63891 | UserRightRule | UserRightsAssignment |  |
+| V-63917 | UserRightRule | UserRightsAssignment |  |
+| V-63925 | UserRightRule | UserRightsAssignment |  |
+| V-63927 | UserRightRule | UserRightsAssignment |  |
+| V-63931 | UserRightRule | UserRightsAssignment |  |
+| V-63933 | UserRightRule | UserRightsAssignment |  |
+| V-63935 | UserRightRule | UserRightsAssignment |  |
+| V-63939 | UserRightRule | UserRightsAssignment |  |
+| V-63941 | UserRightRule | UserRightsAssignment |  |
+| V-63377.a | WindowsFeatureRule | WindowsOptionalFeature |  |
+| V-63377.b | WindowsFeatureRule | WindowsOptionalFeature |  |
+| V-63381 | WindowsFeatureRule | WindowsOptionalFeature |  |
+| V-63383 | WindowsFeatureRule | WindowsOptionalFeature |  |
+| V-63385 | WindowsFeatureRule | WindowsOptionalFeature |  |
+| V-63389 | WindowsFeatureRule | WindowsOptionalFeature |  |
+| V-70637.a | WindowsFeatureRule | WindowsOptionalFeature |  |
+| V-70637.b | WindowsFeatureRule | WindowsOptionalFeature |  |
+| V-70639 | WindowsFeatureRule | WindowsOptionalFeature |  |
 
 ## Windows 10 STIG, Version 1.19
 
@@ -1833,278 +1833,278 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_Windows_10_STIG_V1R19_Manual-xccdf.xml  
 **Created:** 11/18/2019  
 **Description:** The Windows 10 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **279** of **298** rules are automated; **94%**  
+**StigRuleCoverage:** **268** of **298** rules are automated; **90%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-63405 | AccountPolicyRule | AccountPolicy |
-| V-63409 | AccountPolicyRule | AccountPolicy |
-| V-63413 | AccountPolicyRule | AccountPolicy |
-| V-63415 | AccountPolicyRule | AccountPolicy |
-| V-63419 | AccountPolicyRule | AccountPolicy |
-| V-63421 | AccountPolicyRule | AccountPolicy |
-| V-63423 | AccountPolicyRule | AccountPolicy |
-| V-63427 | AccountPolicyRule | AccountPolicy |
-| V-63429 | AccountPolicyRule | AccountPolicy |
-| V-63431 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63435 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63441 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63445 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63447 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63449 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63451 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63453 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63455 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63457 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63459 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63463 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63467 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63469 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63471 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63473 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63475 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63479 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63481 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63483 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63487 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63491 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63495 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63499 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63503 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63507 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63513 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63515 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63517 | AuditPolicyRule | AuditPolicySubcategory |
-| V-71759 | AuditPolicyRule | AuditPolicySubcategory |
-| V-71761 | AuditPolicyRule | AuditPolicySubcategory |
-| V-74409 | AuditPolicyRule | AuditPolicySubcategory |
-| V-74411 | AuditPolicyRule | AuditPolicySubcategory |
-| V-74721 | AuditPolicyRule | AuditPolicySubcategory |
-| V-75027 | AuditPolicyRule | AuditPolicySubcategory |
-| V-63349 | AuditSettingRule | AuditSetting |
-| V-63353 | AuditSettingRule | AuditSetting |
-| V-63373.a | PermissionRule | NTFSAccessEntry |
-| V-63373.b | PermissionRule | NTFSAccessEntry |
-| V-63373.c | PermissionRule | NTFSAccessEntry |
-| V-63533 | PermissionRule | NTFSAccessEntry |
-| V-63537 | PermissionRule | NTFSAccessEntry |
-| V-63541 | PermissionRule | NTFSAccessEntry |
-| V-63593.a | PermissionRule | RegistryAccessEntry |
-| V-63593.b | PermissionRule | RegistryAccessEntry |
-| V-63593.c | PermissionRule | RegistryAccessEntry |
-| V-77091 | ProcessMitigationRule | ProcessMitigation |
-| V-77095 | ProcessMitigationRule | ProcessMitigation |
-| V-77097 | ProcessMitigationRule | ProcessMitigation |
-| V-77101 | ProcessMitigationRule | ProcessMitigation |
-| V-77103 | ProcessMitigationRule | ProcessMitigation |
-| V-77189 | ProcessMitigationRule | ProcessMitigation |
-| V-77191 | ProcessMitigationRule | ProcessMitigation |
-| V-77195 | ProcessMitigationRule | ProcessMitigation |
-| V-77201 | ProcessMitigationRule | ProcessMitigation |
-| V-77205 | ProcessMitigationRule | ProcessMitigation |
-| V-77209 | ProcessMitigationRule | ProcessMitigation |
-| V-77213 | ProcessMitigationRule | ProcessMitigation |
-| V-77217 | ProcessMitigationRule | ProcessMitigation |
-| V-77221 | ProcessMitigationRule | ProcessMitigation |
-| V-77223.a | ProcessMitigationRule | ProcessMitigation |
-| V-77223.b | ProcessMitigationRule | ProcessMitigation |
-| V-77223.c | ProcessMitigationRule | ProcessMitigation |
-| V-77227 | ProcessMitigationRule | ProcessMitigation |
-| V-77231 | ProcessMitigationRule | ProcessMitigation |
-| V-77233 | ProcessMitigationRule | ProcessMitigation |
-| V-77235 | ProcessMitigationRule | ProcessMitigation |
-| V-77239 | ProcessMitigationRule | ProcessMitigation |
-| V-77243 | ProcessMitigationRule | ProcessMitigation |
-| V-77245 | ProcessMitigationRule | ProcessMitigation |
-| V-77247 | ProcessMitigationRule | ProcessMitigation |
-| V-77249 | ProcessMitigationRule | ProcessMitigation |
-| V-77255 | ProcessMitigationRule | ProcessMitigation |
-| V-77259 | ProcessMitigationRule | ProcessMitigation |
-| V-77263 | ProcessMitigationRule | ProcessMitigation |
-| V-77267 | ProcessMitigationRule | ProcessMitigation |
-| V-77269 | ProcessMitigationRule | ProcessMitigation |
-| V-63321 | RegistryRule | RegistryPolicyFile |
-| V-63325 | RegistryRule | RegistryPolicyFile |
-| V-63329 | RegistryRule | RegistryPolicyFile |
-| V-63333 | RegistryRule | RegistryPolicyFile |
-| V-63335 | RegistryRule | RegistryPolicyFile |
-| V-63339 | RegistryRule | RegistryPolicyFile |
-| V-63341 | RegistryRule | RegistryPolicyFile |
-| V-63347 | RegistryRule | RegistryPolicyFile |
-| V-63369 | RegistryRule | RegistryPolicyFile |
-| V-63375 | RegistryRule | RegistryPolicyFile |
-| V-63519 | RegistryRule | RegistryPolicyFile |
-| V-63523 | RegistryRule | RegistryPolicyFile |
-| V-63527 | RegistryRule | RegistryPolicyFile |
-| V-63545 | RegistryRule | RegistryPolicyFile |
-| V-63549 | RegistryRule | RegistryPolicyFile |
-| V-63555 | RegistryRule | RegistryPolicyFile |
-| V-63559 | RegistryRule | RegistryPolicyFile |
-| V-63563 | RegistryRule | RegistryPolicyFile |
-| V-63567 | RegistryRule | RegistryPolicyFile |
-| V-63569 | RegistryRule | RegistryPolicyFile |
-| V-63577.a | RegistryRule | RegistryPolicyFile |
-| V-63577.b | RegistryRule | RegistryPolicyFile |
-| V-63581 | RegistryRule | RegistryPolicyFile |
-| V-63585 | RegistryRule | RegistryPolicyFile |
-| V-63591 | RegistryRule | RegistryPolicyFile |
-| V-63595.a | RegistryRule | RegistryPolicyFile |
-| V-63595.b | RegistryRule | RegistryPolicyFile |
-| V-63597 | RegistryRule | RegistryPolicyFile |
-| V-63599 | RegistryRule | RegistryPolicyFile |
-| V-63607 | RegistryRule | RegistryPolicyFile |
-| V-63609 | RegistryRule | RegistryPolicyFile |
-| V-63615 | RegistryRule | RegistryPolicyFile |
-| V-63617 | RegistryRule | Registry |
-| V-63621 | RegistryRule | RegistryPolicyFile |
-| V-63623 | RegistryRule | RegistryPolicyFile |
-| V-63627 | RegistryRule | RegistryPolicyFile |
-| V-63629 | RegistryRule | RegistryPolicyFile |
-| V-63633 | RegistryRule | RegistryPolicyFile |
-| V-63635 | RegistryRule | Registry |
-| V-63639 | RegistryRule | Registry |
-| V-63643 | RegistryRule | Registry |
-| V-63645 | RegistryRule | RegistryPolicyFile |
-| V-63647 | RegistryRule | Registry |
-| V-63649 | RegistryRule | RegistryPolicyFile |
-| V-63651 | RegistryRule | RegistryPolicyFile |
-| V-63653 | RegistryRule | Registry |
-| V-63657 | RegistryRule | RegistryPolicyFile |
-| V-63659 | RegistryRule | RegistryPolicyFile |
-| V-63661 | RegistryRule | Registry |
-| V-63663 | RegistryRule | RegistryPolicyFile |
-| V-63665 | RegistryRule | Registry |
-| V-63667 | RegistryRule | RegistryPolicyFile |
-| V-63669 | RegistryRule | Registry |
-| V-63671 | RegistryRule | RegistryPolicyFile |
-| V-63673 | RegistryRule | RegistryPolicyFile |
-| V-63675 | RegistryRule | Registry |
-| V-63677 | RegistryRule | RegistryPolicyFile |
-| V-63679 | RegistryRule | RegistryPolicyFile |
-| V-63681 | RegistryRule | Registry |
-| V-63683 | RegistryRule | RegistryPolicyFile |
-| V-63687 | RegistryRule | Registry |
-| V-63689 | RegistryRule | RegistryPolicyFile |
-| V-63691 | RegistryRule | RegistryPolicyFile |
-| V-63695 | RegistryRule | RegistryPolicyFile |
-| V-63697 | RegistryRule | Registry |
-| V-63699 | RegistryRule | RegistryPolicyFile |
-| V-63701 | RegistryRule | RegistryPolicyFile |
-| V-63703 | RegistryRule | Registry |
-| V-63705 | RegistryRule | RegistryPolicyFile |
-| V-63707 | RegistryRule | Registry |
-| V-63709 | RegistryRule | RegistryPolicyFile |
-| V-63711 | RegistryRule | Registry |
-| V-63713 | RegistryRule | RegistryPolicyFile |
-| V-63717 | RegistryRule | RegistryPolicyFile |
-| V-63719 | RegistryRule | Registry |
-| V-63721 | RegistryRule | RegistryPolicyFile |
-| V-63723 | RegistryRule | Registry |
-| V-63729 | RegistryRule | RegistryPolicyFile |
-| V-63731 | RegistryRule | RegistryPolicyFile |
-| V-63733 | RegistryRule | RegistryPolicyFile |
-| V-63737 | RegistryRule | RegistryPolicyFile |
-| V-63741 | RegistryRule | RegistryPolicyFile |
-| V-63743 | RegistryRule | RegistryPolicyFile |
-| V-63745 | RegistryRule | Registry |
-| V-63747 | RegistryRule | RegistryPolicyFile |
-| V-63749 | RegistryRule | Registry |
-| V-63751 | RegistryRule | RegistryPolicyFile |
-| V-63755 | RegistryRule | Registry |
-| V-63759 | RegistryRule | Registry |
-| V-63763 | RegistryRule | Registry |
-| V-63765 | RegistryRule | Registry |
-| V-63767 | RegistryRule | Registry |
-| V-63795 | RegistryRule | Registry |
-| V-63797 | RegistryRule | Registry |
-| V-63801 | RegistryRule | Registry |
-| V-63803 | RegistryRule | Registry |
-| V-63805 | RegistryRule | Registry |
-| V-63807 | RegistryRule | Registry |
-| V-63811 | RegistryRule | Registry |
-| V-63815 | RegistryRule | Registry |
-| V-63817 | RegistryRule | Registry |
-| V-63819 | RegistryRule | Registry |
-| V-63821 | RegistryRule | Registry |
-| V-63825 | RegistryRule | Registry |
-| V-63827 | RegistryRule | Registry |
-| V-63829 | RegistryRule | Registry |
-| V-63831 | RegistryRule | Registry |
-| V-63839 | RegistryRule | RegistryPolicyFile |
-| V-63841 | RegistryRule | RegistryPolicyFile |
-| V-65681.a | RegistryRule | RegistryPolicyFile |
-| V-65681.b | RegistryRule | RegistryPolicyFile |
-| V-68817 | RegistryRule | RegistryPolicyFile |
-| V-68819 | RegistryRule | RegistryPolicyFile |
-| V-68849 | RegistryRule | RegistryPolicyFile |
-| V-71763 | RegistryRule | RegistryPolicyFile |
-| V-71765 | RegistryRule | RegistryPolicyFile |
-| V-71769 | RegistryRule | Registry |
-| V-71771 | RegistryRule | RegistryPolicyFile |
-| V-72329.a | RegistryRule | RegistryPolicyFile |
-| V-72329.b | RegistryRule | RegistryPolicyFile |
-| V-72329.c | RegistryRule | RegistryPolicyFile |
-| V-72329.d | RegistryRule | RegistryPolicyFile |
-| V-74413 | RegistryRule | RegistryPolicyFile |
-| V-74415 | RegistryRule | RegistryPolicyFile |
-| V-74417 | RegistryRule | RegistryPolicyFile |
-| V-74699 | RegistryRule | RegistryPolicyFile |
-| V-74723 | RegistryRule | RegistryPolicyFile |
-| V-74725 | RegistryRule | RegistryPolicyFile |
-| V-82137 | RegistryRule | RegistryPolicyFile |
-| V-82139 | RegistryRule | RegistryPolicyFile |
-| V-82145 | RegistryRule | RegistryPolicyFile |
-| V-88203 | RegistryRule | RegistryPolicyFile |
-| V-94719.a | RegistryRule | RegistryPolicyFile |
-| V-94719.b | RegistryRule | RegistryPolicyFile |
-| V-94859.a | RegistryRule | RegistryPolicyFile |
-| V-94859.b | RegistryRule | RegistryPolicyFile |
-| V-94861 | RegistryRule | Registry |
-| V-63601 | SecurityOptionRule | SecurityOption |
-| V-63611 | SecurityOptionRule | SecurityOption |
-| V-63619 | SecurityOptionRule | SecurityOption |
-| V-63625 | SecurityOptionRule | SecurityOption |
-| V-63739 | SecurityOptionRule | SecurityOption |
-| V-74719 | ServiceRule | Service |
-| V-63843 | UserRightRule | UserRightsAssignment |
-| V-63845 | UserRightRule | UserRightsAssignment |
-| V-63847 | UserRightRule | UserRightsAssignment |
-| V-63851 | UserRightRule | UserRightsAssignment |
-| V-63853 | UserRightRule | UserRightsAssignment |
-| V-63855 | UserRightRule | UserRightsAssignment |
-| V-63857 | UserRightRule | UserRightsAssignment |
-| V-63859 | UserRightRule | UserRightsAssignment |
-| V-63861 | UserRightRule | UserRightsAssignment |
-| V-63863 | UserRightRule | UserRightsAssignment |
-| V-63865 | UserRightRule | UserRightsAssignment |
-| V-63869 | UserRightRule | UserRightsAssignment |
-| V-63871 | UserRightRule | UserRightsAssignment |
-| V-63873 | UserRightRule | UserRightsAssignment |
-| V-63875 | UserRightRule | UserRightsAssignment |
-| V-63877 | UserRightRule | UserRightsAssignment |
-| V-63879 | UserRightRule | UserRightsAssignment |
-| V-63881 | UserRightRule | UserRightsAssignment |
-| V-63883 | UserRightRule | UserRightsAssignment |
-| V-63887 | UserRightRule | UserRightsAssignment |
-| V-63889 | UserRightRule | UserRightsAssignment |
-| V-63891 | UserRightRule | UserRightsAssignment |
-| V-63917 | UserRightRule | UserRightsAssignment |
-| V-63925 | UserRightRule | UserRightsAssignment |
-| V-63927 | UserRightRule | UserRightsAssignment |
-| V-63931 | UserRightRule | UserRightsAssignment |
-| V-63933 | UserRightRule | UserRightsAssignment |
-| V-63935 | UserRightRule | UserRightsAssignment |
-| V-63939 | UserRightRule | UserRightsAssignment |
-| V-63941 | UserRightRule | UserRightsAssignment |
-| V-63377.a | WindowsFeatureRule | WindowsOptionalFeature |
-| V-63377.b | WindowsFeatureRule | WindowsOptionalFeature |
-| V-63381 | WindowsFeatureRule | WindowsOptionalFeature |
-| V-63383 | WindowsFeatureRule | WindowsOptionalFeature |
-| V-63385 | WindowsFeatureRule | WindowsOptionalFeature |
-| V-63389 | WindowsFeatureRule | WindowsOptionalFeature |
-| V-70637.a | WindowsFeatureRule | WindowsOptionalFeature |
-| V-70637.b | WindowsFeatureRule | WindowsOptionalFeature |
-| V-70639 | WindowsFeatureRule | WindowsOptionalFeature |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-63405 | AccountPolicyRule | AccountPolicy |  |
+| V-63409 | AccountPolicyRule | AccountPolicy |  |
+| V-63413 | AccountPolicyRule | AccountPolicy |  |
+| V-63415 | AccountPolicyRule | AccountPolicy |  |
+| V-63419 | AccountPolicyRule | AccountPolicy |  |
+| V-63421 | AccountPolicyRule | AccountPolicy |  |
+| V-63423 | AccountPolicyRule | AccountPolicy |  |
+| V-63427 | AccountPolicyRule | AccountPolicy |  |
+| V-63429 | AccountPolicyRule | AccountPolicy |  |
+| V-63431 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63435 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63441 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63445 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63447 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63449 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63451 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63453 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63455 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63457 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63459 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63463 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63467 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63469 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63471 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63473 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63475 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63479 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63481 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63483 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63487 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63491 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63495 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63499 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63503 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63507 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63513 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63515 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63517 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-71759 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-71761 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-74409 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-74411 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-74721 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-75027 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-63349 | AuditSettingRule | AuditSetting |  |
+| V-63353 | AuditSettingRule | AuditSetting |  |
+| V-63373.a | PermissionRule | NTFSAccessEntry |  |
+| V-63373.b | PermissionRule | NTFSAccessEntry |  |
+| V-63373.c | PermissionRule | NTFSAccessEntry |  |
+| V-63533 | PermissionRule | NTFSAccessEntry |  |
+| V-63537 | PermissionRule | NTFSAccessEntry |  |
+| V-63541 | PermissionRule | NTFSAccessEntry |  |
+| V-63593.a | PermissionRule | RegistryAccessEntry |  |
+| V-63593.b | PermissionRule | RegistryAccessEntry |  |
+| V-63593.c | PermissionRule | RegistryAccessEntry |  |
+| V-77091 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77095 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77097 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77101 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77103 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77189 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77191 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77195 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77201 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77205 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77209 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77213 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77217 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77221 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77223.a | ProcessMitigationRule | ProcessMitigation |  |
+| V-77223.b | ProcessMitigationRule | ProcessMitigation |  |
+| V-77223.c | ProcessMitigationRule | ProcessMitigation |  |
+| V-77227 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77231 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77233 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77235 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77239 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77243 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77245 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77247 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77249 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77255 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77259 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77263 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77267 | ProcessMitigationRule | ProcessMitigation |  |
+| V-77269 | ProcessMitigationRule | ProcessMitigation |  |
+| V-63321 | RegistryRule | RegistryPolicyFile |  |
+| V-63325 | RegistryRule | RegistryPolicyFile |  |
+| V-63329 | RegistryRule | RegistryPolicyFile |  |
+| V-63333 | RegistryRule | RegistryPolicyFile |  |
+| V-63335 | RegistryRule | RegistryPolicyFile |  |
+| V-63339 | RegistryRule | RegistryPolicyFile |  |
+| V-63341 | RegistryRule | RegistryPolicyFile |  |
+| V-63347 | RegistryRule | RegistryPolicyFile |  |
+| V-63369 | RegistryRule | RegistryPolicyFile |  |
+| V-63375 | RegistryRule | RegistryPolicyFile |  |
+| V-63519 | RegistryRule | RegistryPolicyFile |  |
+| V-63523 | RegistryRule | RegistryPolicyFile |  |
+| V-63527 | RegistryRule | RegistryPolicyFile |  |
+| V-63545 | RegistryRule | RegistryPolicyFile |  |
+| V-63549 | RegistryRule | RegistryPolicyFile |  |
+| V-63555 | RegistryRule | RegistryPolicyFile |  |
+| V-63559 | RegistryRule | RegistryPolicyFile |  |
+| V-63563 | RegistryRule | RegistryPolicyFile |  |
+| V-63567 | RegistryRule | RegistryPolicyFile |  |
+| V-63569 | RegistryRule | RegistryPolicyFile |  |
+| V-63577.a | RegistryRule | RegistryPolicyFile |  |
+| V-63577.b | RegistryRule | RegistryPolicyFile |  |
+| V-63581 | RegistryRule | RegistryPolicyFile |  |
+| V-63585 | RegistryRule | RegistryPolicyFile |  |
+| V-63591 | RegistryRule | RegistryPolicyFile |  |
+| V-63595.a | RegistryRule | RegistryPolicyFile |  |
+| V-63595.b | RegistryRule | RegistryPolicyFile |  |
+| V-63597 | RegistryRule | RegistryPolicyFile |  |
+| V-63599 | RegistryRule | RegistryPolicyFile |  |
+| V-63607 | RegistryRule | RegistryPolicyFile |  |
+| V-63609 | RegistryRule | RegistryPolicyFile |  |
+| V-63615 | RegistryRule | RegistryPolicyFile |  |
+| V-63617 | RegistryRule | Registry |  |
+| V-63621 | RegistryRule | RegistryPolicyFile |  |
+| V-63623 | RegistryRule | RegistryPolicyFile |  |
+| V-63627 | RegistryRule | RegistryPolicyFile |  |
+| V-63629 | RegistryRule | RegistryPolicyFile |  |
+| V-63633 | RegistryRule | RegistryPolicyFile |  |
+| V-63635 | RegistryRule | Registry |  |
+| V-63639 | RegistryRule | Registry |  |
+| V-63643 | RegistryRule | Registry |  |
+| V-63645 | RegistryRule | RegistryPolicyFile |  |
+| V-63647 | RegistryRule | Registry |  |
+| V-63649 | RegistryRule | RegistryPolicyFile |  |
+| V-63651 | RegistryRule | RegistryPolicyFile |  |
+| V-63653 | RegistryRule | Registry |  |
+| V-63657 | RegistryRule | RegistryPolicyFile |  |
+| V-63659 | RegistryRule | RegistryPolicyFile |  |
+| V-63661 | RegistryRule | Registry |  |
+| V-63663 | RegistryRule | RegistryPolicyFile |  |
+| V-63665 | RegistryRule | Registry |  |
+| V-63667 | RegistryRule | RegistryPolicyFile |  |
+| V-63669 | RegistryRule | Registry |  |
+| V-63671 | RegistryRule | RegistryPolicyFile |  |
+| V-63673 | RegistryRule | RegistryPolicyFile |  |
+| V-63675 | RegistryRule | Registry |  |
+| V-63677 | RegistryRule | RegistryPolicyFile |  |
+| V-63679 | RegistryRule | RegistryPolicyFile |  |
+| V-63681 | RegistryRule | Registry |  |
+| V-63683 | RegistryRule | RegistryPolicyFile |  |
+| V-63687 | RegistryRule | Registry |  |
+| V-63689 | RegistryRule | RegistryPolicyFile |  |
+| V-63691 | RegistryRule | RegistryPolicyFile |  |
+| V-63695 | RegistryRule | RegistryPolicyFile |  |
+| V-63697 | RegistryRule | Registry |  |
+| V-63699 | RegistryRule | RegistryPolicyFile |  |
+| V-63701 | RegistryRule | RegistryPolicyFile |  |
+| V-63703 | RegistryRule | Registry |  |
+| V-63705 | RegistryRule | RegistryPolicyFile |  |
+| V-63707 | RegistryRule | Registry |  |
+| V-63709 | RegistryRule | RegistryPolicyFile |  |
+| V-63711 | RegistryRule | Registry |  |
+| V-63713 | RegistryRule | RegistryPolicyFile |  |
+| V-63717 | RegistryRule | RegistryPolicyFile |  |
+| V-63719 | RegistryRule | Registry |  |
+| V-63721 | RegistryRule | RegistryPolicyFile |  |
+| V-63723 | RegistryRule | Registry |  |
+| V-63729 | RegistryRule | RegistryPolicyFile |  |
+| V-63731 | RegistryRule | RegistryPolicyFile |  |
+| V-63733 | RegistryRule | RegistryPolicyFile |  |
+| V-63737 | RegistryRule | RegistryPolicyFile |  |
+| V-63741 | RegistryRule | RegistryPolicyFile |  |
+| V-63743 | RegistryRule | RegistryPolicyFile |  |
+| V-63745 | RegistryRule | Registry |  |
+| V-63747 | RegistryRule | RegistryPolicyFile |  |
+| V-63749 | RegistryRule | Registry |  |
+| V-63751 | RegistryRule | RegistryPolicyFile |  |
+| V-63755 | RegistryRule | Registry |  |
+| V-63759 | RegistryRule | Registry |  |
+| V-63763 | RegistryRule | Registry |  |
+| V-63765 | RegistryRule | Registry |  |
+| V-63767 | RegistryRule | Registry |  |
+| V-63795 | RegistryRule | Registry |  |
+| V-63797 | RegistryRule | Registry |  |
+| V-63801 | RegistryRule | Registry |  |
+| V-63803 | RegistryRule | Registry |  |
+| V-63805 | RegistryRule | Registry |  |
+| V-63807 | RegistryRule | Registry |  |
+| V-63811 | RegistryRule | Registry |  |
+| V-63815 | RegistryRule | Registry |  |
+| V-63817 | RegistryRule | Registry |  |
+| V-63819 | RegistryRule | Registry |  |
+| V-63821 | RegistryRule | Registry |  |
+| V-63825 | RegistryRule | Registry |  |
+| V-63827 | RegistryRule | Registry |  |
+| V-63829 | RegistryRule | Registry |  |
+| V-63831 | RegistryRule | Registry |  |
+| V-63839 | RegistryRule | RegistryPolicyFile |  |
+| V-63841 | RegistryRule | RegistryPolicyFile |  |
+| V-65681.a | RegistryRule | RegistryPolicyFile |  |
+| V-65681.b | RegistryRule | RegistryPolicyFile |  |
+| V-68817 | RegistryRule | RegistryPolicyFile |  |
+| V-68819 | RegistryRule | RegistryPolicyFile |  |
+| V-68849 | RegistryRule | RegistryPolicyFile |  |
+| V-71763 | RegistryRule | RegistryPolicyFile |  |
+| V-71765 | RegistryRule | RegistryPolicyFile |  |
+| V-71769 | RegistryRule | Registry |  |
+| V-71771 | RegistryRule | RegistryPolicyFile |  |
+| V-72329.a | RegistryRule | RegistryPolicyFile |  |
+| V-72329.b | RegistryRule | RegistryPolicyFile |  |
+| V-72329.c | RegistryRule | RegistryPolicyFile |  |
+| V-72329.d | RegistryRule | RegistryPolicyFile |  |
+| V-74413 | RegistryRule | RegistryPolicyFile |  |
+| V-74415 | RegistryRule | RegistryPolicyFile |  |
+| V-74417 | RegistryRule | RegistryPolicyFile |  |
+| V-74699 | RegistryRule | RegistryPolicyFile |  |
+| V-74723 | RegistryRule | RegistryPolicyFile |  |
+| V-74725 | RegistryRule | RegistryPolicyFile |  |
+| V-82137 | RegistryRule | RegistryPolicyFile |  |
+| V-82139 | RegistryRule | RegistryPolicyFile |  |
+| V-82145 | RegistryRule | RegistryPolicyFile |  |
+| V-88203 | RegistryRule | RegistryPolicyFile |  |
+| V-94719.a | RegistryRule | RegistryPolicyFile |  |
+| V-94719.b | RegistryRule | RegistryPolicyFile |  |
+| V-94859.a | RegistryRule | RegistryPolicyFile |  |
+| V-94859.b | RegistryRule | RegistryPolicyFile |  |
+| V-94861 | RegistryRule | Registry |  |
+| V-63601 | SecurityOptionRule | SecurityOption |  |
+| V-63611 | SecurityOptionRule | SecurityOption |  |
+| V-63619 | SecurityOptionRule | SecurityOption |  |
+| V-63625 | SecurityOptionRule | SecurityOption |  |
+| V-63739 | SecurityOptionRule | SecurityOption |  |
+| V-74719 | ServiceRule | Service |  |
+| V-63843 | UserRightRule | UserRightsAssignment |  |
+| V-63845 | UserRightRule | UserRightsAssignment |  |
+| V-63847 | UserRightRule | UserRightsAssignment |  |
+| V-63851 | UserRightRule | UserRightsAssignment |  |
+| V-63853 | UserRightRule | UserRightsAssignment |  |
+| V-63855 | UserRightRule | UserRightsAssignment |  |
+| V-63857 | UserRightRule | UserRightsAssignment |  |
+| V-63859 | UserRightRule | UserRightsAssignment |  |
+| V-63861 | UserRightRule | UserRightsAssignment |  |
+| V-63863 | UserRightRule | UserRightsAssignment |  |
+| V-63865 | UserRightRule | UserRightsAssignment |  |
+| V-63869 | UserRightRule | UserRightsAssignment |  |
+| V-63871 | UserRightRule | UserRightsAssignment |  |
+| V-63873 | UserRightRule | UserRightsAssignment |  |
+| V-63875 | UserRightRule | UserRightsAssignment |  |
+| V-63877 | UserRightRule | UserRightsAssignment |  |
+| V-63879 | UserRightRule | UserRightsAssignment |  |
+| V-63881 | UserRightRule | UserRightsAssignment |  |
+| V-63883 | UserRightRule | UserRightsAssignment |  |
+| V-63887 | UserRightRule | UserRightsAssignment |  |
+| V-63889 | UserRightRule | UserRightsAssignment |  |
+| V-63891 | UserRightRule | UserRightsAssignment |  |
+| V-63917 | UserRightRule | UserRightsAssignment |  |
+| V-63925 | UserRightRule | UserRightsAssignment |  |
+| V-63927 | UserRightRule | UserRightsAssignment |  |
+| V-63931 | UserRightRule | UserRightsAssignment |  |
+| V-63933 | UserRightRule | UserRightsAssignment |  |
+| V-63935 | UserRightRule | UserRightsAssignment |  |
+| V-63939 | UserRightRule | UserRightsAssignment |  |
+| V-63941 | UserRightRule | UserRightsAssignment |  |
+| V-63377.a | WindowsFeatureRule | WindowsOptionalFeature |  |
+| V-63377.b | WindowsFeatureRule | WindowsOptionalFeature |  |
+| V-63381 | WindowsFeatureRule | WindowsOptionalFeature |  |
+| V-63383 | WindowsFeatureRule | WindowsOptionalFeature |  |
+| V-63385 | WindowsFeatureRule | WindowsOptionalFeature |  |
+| V-63389 | WindowsFeatureRule | WindowsOptionalFeature |  |
+| V-70637.a | WindowsFeatureRule | WindowsOptionalFeature |  |
+| V-70637.b | WindowsFeatureRule | WindowsOptionalFeature |  |
+| V-70639 | WindowsFeatureRule | WindowsOptionalFeature |  |
 
 ## Windows Defender Antivirus, Version 1.5
 
@@ -2114,51 +2114,51 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_Windows_Defender_Antivirus_STIG_V1R5_Manual-xccdf.xml  
 **Created:** 12/5/2019  
 **Description:** The Windows Defender Antivirus Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be send via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **42** of **41** rules are automated; **102%**  
+**StigRuleCoverage:** **41** of **41** rules are automated; **100%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-75147 | RegistryRule | RegistryPolicyFile |
-| V-75151 | RegistryRule | RegistryPolicyFile |
-| V-75153 | RegistryRule | RegistryPolicyFile |
-| V-75155 | RegistryRule | RegistryPolicyFile |
-| V-75157 | RegistryRule | RegistryPolicyFile |
-| V-75159 | RegistryRule | RegistryPolicyFile |
-| V-75161 | RegistryRule | RegistryPolicyFile |
-| V-75163 | RegistryRule | RegistryPolicyFile |
-| V-75167 | RegistryRule | RegistryPolicyFile |
-| V-75207 | RegistryRule | RegistryPolicyFile |
-| V-75209 | RegistryRule | RegistryPolicyFile |
-| V-75211 | RegistryRule | RegistryPolicyFile |
-| V-75213 | RegistryRule | RegistryPolicyFile |
-| V-75215 | RegistryRule | RegistryPolicyFile |
-| V-75217 | RegistryRule | RegistryPolicyFile |
-| V-75219 | RegistryRule | RegistryPolicyFile |
-| V-75221 | RegistryRule | RegistryPolicyFile |
-| V-75223 | RegistryRule | RegistryPolicyFile |
-| V-75225 | RegistryRule | RegistryPolicyFile |
-| V-75227 | RegistryRule | RegistryPolicyFile |
-| V-75229 | RegistryRule | RegistryPolicyFile |
-| V-75231 | RegistryRule | RegistryPolicyFile |
-| V-75233 | RegistryRule | RegistryPolicyFile |
-| V-75235 | RegistryRule | RegistryPolicyFile |
-| V-75237 | RegistryRule | RegistryPolicyFile |
-| V-75239 | RegistryRule | RegistryPolicyFile |
-| V-75241 | RegistryRule | RegistryPolicyFile |
-| V-75243 | RegistryRule | RegistryPolicyFile |
-| V-75245 | RegistryRule | RegistryPolicyFile |
-| V-75247 | RegistryRule | RegistryPolicyFile |
-| V-77965 | RegistryRule | RegistryPolicyFile |
-| V-77967 | RegistryRule | RegistryPolicyFile |
-| V-77969 | RegistryRule | RegistryPolicyFile |
-| V-77971 | RegistryRule | RegistryPolicyFile |
-| V-77973 | RegistryRule | RegistryPolicyFile |
-| V-77975 | RegistryRule | RegistryPolicyFile |
-| V-77977 | RegistryRule | RegistryPolicyFile |
-| V-77979 | RegistryRule | RegistryPolicyFile |
-| V-79965 | RegistryRule | RegistryPolicyFile |
-| V-79967 | RegistryRule | RegistryPolicyFile |
-| V-79971 | RegistryRule | RegistryPolicyFile |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-75147 | RegistryRule | RegistryPolicyFile |  |
+| V-75151 | RegistryRule | RegistryPolicyFile |  |
+| V-75153 | RegistryRule | RegistryPolicyFile |  |
+| V-75155 | RegistryRule | RegistryPolicyFile |  |
+| V-75157 | RegistryRule | RegistryPolicyFile |  |
+| V-75159 | RegistryRule | RegistryPolicyFile |  |
+| V-75161 | RegistryRule | RegistryPolicyFile |  |
+| V-75163 | RegistryRule | RegistryPolicyFile |  |
+| V-75167 | RegistryRule | RegistryPolicyFile |  |
+| V-75207 | RegistryRule | RegistryPolicyFile |  |
+| V-75209 | RegistryRule | RegistryPolicyFile |  |
+| V-75211 | RegistryRule | RegistryPolicyFile |  |
+| V-75213 | RegistryRule | RegistryPolicyFile |  |
+| V-75215 | RegistryRule | RegistryPolicyFile |  |
+| V-75217 | RegistryRule | RegistryPolicyFile |  |
+| V-75219 | RegistryRule | RegistryPolicyFile |  |
+| V-75221 | RegistryRule | RegistryPolicyFile |  |
+| V-75223 | RegistryRule | RegistryPolicyFile |  |
+| V-75225 | RegistryRule | RegistryPolicyFile |  |
+| V-75227 | RegistryRule | RegistryPolicyFile |  |
+| V-75229 | RegistryRule | RegistryPolicyFile |  |
+| V-75231 | RegistryRule | RegistryPolicyFile |  |
+| V-75233 | RegistryRule | RegistryPolicyFile |  |
+| V-75235 | RegistryRule | RegistryPolicyFile |  |
+| V-75237 | RegistryRule | RegistryPolicyFile |  |
+| V-75239 | RegistryRule | RegistryPolicyFile |  |
+| V-75241 | RegistryRule | RegistryPolicyFile |  |
+| V-75243 | RegistryRule | RegistryPolicyFile |  |
+| V-75245 | RegistryRule | RegistryPolicyFile |  |
+| V-75247 | RegistryRule | RegistryPolicyFile |  |
+| V-77965 | RegistryRule | RegistryPolicyFile |  |
+| V-77967 | RegistryRule | RegistryPolicyFile |  |
+| V-77969 | RegistryRule | RegistryPolicyFile |  |
+| V-77971 | RegistryRule | RegistryPolicyFile |  |
+| V-77973 | RegistryRule | RegistryPolicyFile |  |
+| V-77975 | RegistryRule | RegistryPolicyFile |  |
+| V-77977 | RegistryRule | RegistryPolicyFile |  |
+| V-77979 | RegistryRule | RegistryPolicyFile |  |
+| V-79965 | RegistryRule | RegistryPolicyFile |  |
+| V-79967 | RegistryRule | RegistryPolicyFile |  |
+| V-79971 | RegistryRule | RegistryPolicyFile |  |
 
 ## Windows Defender Antivirus, Version 1.6
 
@@ -2168,51 +2168,51 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_Windows_Defender_Antivirus_STIG_V1R6_Manual-xccdf.xml  
 **Created:** 12/5/2019  
 **Description:** The Windows Defender Antivirus Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be send via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **42** of **41** rules are automated; **102%**  
+**StigRuleCoverage:** **41** of **41** rules are automated; **100%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-75147 | RegistryRule | RegistryPolicyFile |
-| V-75151 | RegistryRule | RegistryPolicyFile |
-| V-75153 | RegistryRule | RegistryPolicyFile |
-| V-75155 | RegistryRule | RegistryPolicyFile |
-| V-75157 | RegistryRule | RegistryPolicyFile |
-| V-75159 | RegistryRule | RegistryPolicyFile |
-| V-75161 | RegistryRule | RegistryPolicyFile |
-| V-75163 | RegistryRule | RegistryPolicyFile |
-| V-75167 | RegistryRule | RegistryPolicyFile |
-| V-75207 | RegistryRule | RegistryPolicyFile |
-| V-75209 | RegistryRule | RegistryPolicyFile |
-| V-75211 | RegistryRule | RegistryPolicyFile |
-| V-75213 | RegistryRule | RegistryPolicyFile |
-| V-75215 | RegistryRule | RegistryPolicyFile |
-| V-75217 | RegistryRule | RegistryPolicyFile |
-| V-75219 | RegistryRule | RegistryPolicyFile |
-| V-75221 | RegistryRule | RegistryPolicyFile |
-| V-75223 | RegistryRule | RegistryPolicyFile |
-| V-75225 | RegistryRule | RegistryPolicyFile |
-| V-75227 | RegistryRule | RegistryPolicyFile |
-| V-75229 | RegistryRule | RegistryPolicyFile |
-| V-75231 | RegistryRule | RegistryPolicyFile |
-| V-75233 | RegistryRule | RegistryPolicyFile |
-| V-75235 | RegistryRule | RegistryPolicyFile |
-| V-75237 | RegistryRule | RegistryPolicyFile |
-| V-75239 | RegistryRule | RegistryPolicyFile |
-| V-75241 | RegistryRule | RegistryPolicyFile |
-| V-75243 | RegistryRule | RegistryPolicyFile |
-| V-75245 | RegistryRule | RegistryPolicyFile |
-| V-75247 | RegistryRule | RegistryPolicyFile |
-| V-77965 | RegistryRule | RegistryPolicyFile |
-| V-77967 | RegistryRule | RegistryPolicyFile |
-| V-77969 | RegistryRule | RegistryPolicyFile |
-| V-77971 | RegistryRule | RegistryPolicyFile |
-| V-77973 | RegistryRule | RegistryPolicyFile |
-| V-77975 | RegistryRule | RegistryPolicyFile |
-| V-77977 | RegistryRule | RegistryPolicyFile |
-| V-77979 | RegistryRule | RegistryPolicyFile |
-| V-79965 | RegistryRule | RegistryPolicyFile |
-| V-79967 | RegistryRule | RegistryPolicyFile |
-| V-79971 | RegistryRule | RegistryPolicyFile |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-75147 | RegistryRule | RegistryPolicyFile |  |
+| V-75151 | RegistryRule | RegistryPolicyFile |  |
+| V-75153 | RegistryRule | RegistryPolicyFile |  |
+| V-75155 | RegistryRule | RegistryPolicyFile |  |
+| V-75157 | RegistryRule | RegistryPolicyFile |  |
+| V-75159 | RegistryRule | RegistryPolicyFile |  |
+| V-75161 | RegistryRule | RegistryPolicyFile |  |
+| V-75163 | RegistryRule | RegistryPolicyFile |  |
+| V-75167 | RegistryRule | RegistryPolicyFile |  |
+| V-75207 | RegistryRule | RegistryPolicyFile |  |
+| V-75209 | RegistryRule | RegistryPolicyFile |  |
+| V-75211 | RegistryRule | RegistryPolicyFile |  |
+| V-75213 | RegistryRule | RegistryPolicyFile |  |
+| V-75215 | RegistryRule | RegistryPolicyFile |  |
+| V-75217 | RegistryRule | RegistryPolicyFile |  |
+| V-75219 | RegistryRule | RegistryPolicyFile |  |
+| V-75221 | RegistryRule | RegistryPolicyFile |  |
+| V-75223 | RegistryRule | RegistryPolicyFile |  |
+| V-75225 | RegistryRule | RegistryPolicyFile |  |
+| V-75227 | RegistryRule | RegistryPolicyFile |  |
+| V-75229 | RegistryRule | RegistryPolicyFile |  |
+| V-75231 | RegistryRule | RegistryPolicyFile |  |
+| V-75233 | RegistryRule | RegistryPolicyFile |  |
+| V-75235 | RegistryRule | RegistryPolicyFile |  |
+| V-75237 | RegistryRule | RegistryPolicyFile |  |
+| V-75239 | RegistryRule | RegistryPolicyFile |  |
+| V-75241 | RegistryRule | RegistryPolicyFile |  |
+| V-75243 | RegistryRule | RegistryPolicyFile |  |
+| V-75245 | RegistryRule | RegistryPolicyFile |  |
+| V-75247 | RegistryRule | RegistryPolicyFile |  |
+| V-77965 | RegistryRule | RegistryPolicyFile |  |
+| V-77967 | RegistryRule | RegistryPolicyFile |  |
+| V-77969 | RegistryRule | RegistryPolicyFile |  |
+| V-77971 | RegistryRule | RegistryPolicyFile |  |
+| V-77973 | RegistryRule | RegistryPolicyFile |  |
+| V-77975 | RegistryRule | RegistryPolicyFile |  |
+| V-77977 | RegistryRule | RegistryPolicyFile |  |
+| V-77979 | RegistryRule | RegistryPolicyFile |  |
+| V-79965 | RegistryRule | RegistryPolicyFile |  |
+| V-79967 | RegistryRule | RegistryPolicyFile |  |
+| V-79971 | RegistryRule | RegistryPolicyFile |  |
 
 ## Microsoft Windows 2012 Server Domain Name System STIG, Version 1.11
 
@@ -2222,31 +2222,31 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_Windows_2012_Server_DNS_STIG_V1R11_Manual-xccdf.xml  
 **Created:** 7/19/2019  
 **Description:** The Microsoft Windows 2012 Server Domain Name System Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **27** of **93** rules are automated; **29%**  
+**StigRuleCoverage:** **21** of **93** rules are automated; **23%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-58615 | DnsServerRootHintRule | Script |
-| V-58543 | DnsServerSettingRule | xDnsServerSetting |
-| V-58549 | DnsServerSettingRule | None |
-| V-58579 | DnsServerSettingRule | xDnsServerSetting |
-| V-58581 | DnsServerSettingRule | None |
-| V-58553.a | PermissionRule | NTFSAccessEntry |
-| V-58641 | PermissionRule | NTFSAccessEntry |
-| V-58643 | PermissionRule | None |
-| V-58645 | PermissionRule | None |
-| V-58553.b | UserRightRule | UserRightsAssignment |
-| V-58697.a | UserRightRule | UserRightsAssignment |
-| V-58697.b | UserRightRule | UserRightsAssignment |
-| V-58697.c | UserRightRule | UserRightsAssignment |
-| V-58555 | WinEventLogRule | xWinEventLog |
-| V-58561 | WinEventLogRule | None |
-| V-58563 | WinEventLogRule | None |
-| V-58565 | WinEventLogRule | None |
-| V-58567 | WinEventLogRule | None |
-| V-58569 | WinEventLogRule | None |
-| V-58571 | WinEventLogRule | None |
-| V-58719 | WinEventLogRule | None |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-58615 | DnsServerRootHintRule | Script |  |
+| V-58543 | DnsServerSettingRule | xDnsServerSetting |  |
+| V-58549 | DnsServerSettingRule | None | V-58543 |
+| V-58579 | DnsServerSettingRule | xDnsServerSetting |  |
+| V-58581 | DnsServerSettingRule | None | V-58579 |
+| V-58553.a | PermissionRule | NTFSAccessEntry |  |
+| V-58641 | PermissionRule | NTFSAccessEntry |  |
+| V-58643 | PermissionRule | None | V-58641 |
+| V-58645 | PermissionRule | None | V-58641 |
+| V-58553.b | UserRightRule | UserRightsAssignment |  |
+| V-58697.a | UserRightRule | UserRightsAssignment |  |
+| V-58697.b | UserRightRule | UserRightsAssignment |  |
+| V-58697.c | UserRightRule | UserRightsAssignment |  |
+| V-58555 | WinEventLogRule | xWinEventLog |  |
+| V-58561 | WinEventLogRule | None | V-58555 |
+| V-58563 | WinEventLogRule | None | V-58555 |
+| V-58565 | WinEventLogRule | None | V-58555 |
+| V-58567 | WinEventLogRule | None | V-58555 |
+| V-58569 | WinEventLogRule | None | V-58555 |
+| V-58571 | WinEventLogRule | None | V-58555 |
+| V-58719 | WinEventLogRule | None | V-58555 |
 
 ## Microsoft Windows 2012 Server Domain Name System STIG, Version 1.12
 
@@ -2256,32 +2256,32 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_Windows_2012_Server_DNS_STIG_V1R12_Manual-xccdf.xml  
 **Created:** 12/5/2019  
 **Description:** The Microsoft Windows 2012 Server Domain Name System Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **28** of **93** rules are automated; **30%**  
+**StigRuleCoverage:** **22** of **93** rules are automated; **24%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-58615 | DnsServerRootHintRule | Script |
-| V-58543 | DnsServerSettingRule | xDnsServerSetting |
-| V-58549 | DnsServerSettingRule | None |
-| V-58579 | DnsServerSettingRule | xDnsServerSetting |
-| V-58581 | DnsServerSettingRule | None |
-| V-58553.a | PermissionRule | NTFSAccessEntry |
-| V-58641 | PermissionRule | NTFSAccessEntry |
-| V-58643 | PermissionRule | None |
-| V-58645 | PermissionRule | None |
-| V-58627 | RegistryRule | Registry |
-| V-58553.b | UserRightRule | UserRightsAssignment |
-| V-58697.a | UserRightRule | UserRightsAssignment |
-| V-58697.b | UserRightRule | UserRightsAssignment |
-| V-58697.c | UserRightRule | UserRightsAssignment |
-| V-58555 | WinEventLogRule | xWinEventLog |
-| V-58561 | WinEventLogRule | None |
-| V-58563 | WinEventLogRule | None |
-| V-58565 | WinEventLogRule | None |
-| V-58567 | WinEventLogRule | None |
-| V-58569 | WinEventLogRule | None |
-| V-58571 | WinEventLogRule | None |
-| V-58719 | WinEventLogRule | None |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-58615 | DnsServerRootHintRule | Script |  |
+| V-58543 | DnsServerSettingRule | xDnsServerSetting |  |
+| V-58549 | DnsServerSettingRule | None | V-58543 |
+| V-58579 | DnsServerSettingRule | xDnsServerSetting |  |
+| V-58581 | DnsServerSettingRule | None | V-58579 |
+| V-58553.a | PermissionRule | NTFSAccessEntry |  |
+| V-58641 | PermissionRule | NTFSAccessEntry |  |
+| V-58643 | PermissionRule | None | V-58641 |
+| V-58645 | PermissionRule | None | V-58641 |
+| V-58627 | RegistryRule | Registry |  |
+| V-58553.b | UserRightRule | UserRightsAssignment |  |
+| V-58697.a | UserRightRule | UserRightsAssignment |  |
+| V-58697.b | UserRightRule | UserRightsAssignment |  |
+| V-58697.c | UserRightRule | UserRightsAssignment |  |
+| V-58555 | WinEventLogRule | xWinEventLog |  |
+| V-58561 | WinEventLogRule | None | V-58555 |
+| V-58563 | WinEventLogRule | None | V-58555 |
+| V-58565 | WinEventLogRule | None | V-58555 |
+| V-58567 | WinEventLogRule | None | V-58555 |
+| V-58569 | WinEventLogRule | None | V-58555 |
+| V-58571 | WinEventLogRule | None | V-58555 |
+| V-58719 | WinEventLogRule | None | V-58555 |
 
 ## Windows Firewall, Version 1.6
 
@@ -2291,48 +2291,48 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_Windows_Firewall_STIG_V1R6_Manual-xccdf.xml  
 **Created:** 7/19/2019  
 **Description:** The Windows Firewall with Advanced Security Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **39** of **39** rules are automated; **100%**  
+**StigRuleCoverage:** **38** of **39** rules are automated; **97%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-17415.a | RegistryRule | Registry |
-| V-17415.b | RegistryRule | Registry |
-| V-17416.a | RegistryRule | Registry |
-| V-17416.b | RegistryRule | Registry |
-| V-17417.a | RegistryRule | Registry |
-| V-17417.b | RegistryRule | Registry |
-| V-17418.a | RegistryRule | Registry |
-| V-17418.b | RegistryRule | Registry |
-| V-17419.a | RegistryRule | Registry |
-| V-17419.b | RegistryRule | Registry |
-| V-17425.a | RegistryRule | Registry |
-| V-17425.b | RegistryRule | Registry |
-| V-17426.a | RegistryRule | Registry |
-| V-17426.b | RegistryRule | Registry |
-| V-17427.a | RegistryRule | Registry |
-| V-17427.b | RegistryRule | Registry |
-| V-17428.a | RegistryRule | Registry |
-| V-17428.b | RegistryRule | Registry |
-| V-17429.a | RegistryRule | Registry |
-| V-17429.b | RegistryRule | Registry |
-| V-17435.a | RegistryRule | Registry |
-| V-17435.b | RegistryRule | Registry |
-| V-17436.a | RegistryRule | Registry |
-| V-17436.b | RegistryRule | Registry |
-| V-17437.a | RegistryRule | Registry |
-| V-17437.b | RegistryRule | Registry |
-| V-17438.a | RegistryRule | Registry |
-| V-17438.b | RegistryRule | Registry |
-| V-17439.a | RegistryRule | Registry |
-| V-17439.b | RegistryRule | Registry |
-| V-17442 | RegistryRule | Registry |
-| V-17443 | RegistryRule | Registry |
-| V-17445.a | RegistryRule | Registry |
-| V-17445.b | RegistryRule | Registry |
-| V-17446.a | RegistryRule | Registry |
-| V-17446.b | RegistryRule | Registry |
-| V-17447.a | RegistryRule | Registry |
-| V-17447.b | RegistryRule | Registry |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-17415.a | RegistryRule | Registry |  |
+| V-17415.b | RegistryRule | Registry |  |
+| V-17416.a | RegistryRule | Registry |  |
+| V-17416.b | RegistryRule | Registry |  |
+| V-17417.a | RegistryRule | Registry |  |
+| V-17417.b | RegistryRule | Registry |  |
+| V-17418.a | RegistryRule | Registry |  |
+| V-17418.b | RegistryRule | Registry |  |
+| V-17419.a | RegistryRule | Registry |  |
+| V-17419.b | RegistryRule | Registry |  |
+| V-17425.a | RegistryRule | Registry |  |
+| V-17425.b | RegistryRule | Registry |  |
+| V-17426.a | RegistryRule | Registry |  |
+| V-17426.b | RegistryRule | Registry |  |
+| V-17427.a | RegistryRule | Registry |  |
+| V-17427.b | RegistryRule | Registry |  |
+| V-17428.a | RegistryRule | Registry |  |
+| V-17428.b | RegistryRule | Registry |  |
+| V-17429.a | RegistryRule | Registry |  |
+| V-17429.b | RegistryRule | Registry |  |
+| V-17435.a | RegistryRule | Registry |  |
+| V-17435.b | RegistryRule | Registry |  |
+| V-17436.a | RegistryRule | Registry |  |
+| V-17436.b | RegistryRule | Registry |  |
+| V-17437.a | RegistryRule | Registry |  |
+| V-17437.b | RegistryRule | Registry |  |
+| V-17438.a | RegistryRule | Registry |  |
+| V-17438.b | RegistryRule | Registry |  |
+| V-17439.a | RegistryRule | Registry |  |
+| V-17439.b | RegistryRule | Registry |  |
+| V-17442 | RegistryRule | Registry |  |
+| V-17443 | RegistryRule | Registry |  |
+| V-17445.a | RegistryRule | Registry |  |
+| V-17445.b | RegistryRule | Registry |  |
+| V-17446.a | RegistryRule | Registry |  |
+| V-17446.b | RegistryRule | Registry |  |
+| V-17447.a | RegistryRule | Registry |  |
+| V-17447.b | RegistryRule | Registry |  |
 
 ## Windows Firewall, Version 1.7
 
@@ -2342,48 +2342,48 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_Windows_Firewall_STIG_V1R7_Manual-xccdf.xml  
 **Created:** 7/19/2019  
 **Description:** The Windows Firewall with Advanced Security Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **39** of **39** rules are automated; **100%**  
+**StigRuleCoverage:** **38** of **39** rules are automated; **97%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-17415.a | RegistryRule | Registry |
-| V-17415.b | RegistryRule | Registry |
-| V-17416.a | RegistryRule | Registry |
-| V-17416.b | RegistryRule | Registry |
-| V-17417.a | RegistryRule | Registry |
-| V-17417.b | RegistryRule | Registry |
-| V-17418.a | RegistryRule | Registry |
-| V-17418.b | RegistryRule | Registry |
-| V-17419.a | RegistryRule | Registry |
-| V-17419.b | RegistryRule | Registry |
-| V-17425.a | RegistryRule | Registry |
-| V-17425.b | RegistryRule | Registry |
-| V-17426.a | RegistryRule | Registry |
-| V-17426.b | RegistryRule | Registry |
-| V-17427.a | RegistryRule | Registry |
-| V-17427.b | RegistryRule | Registry |
-| V-17428.a | RegistryRule | Registry |
-| V-17428.b | RegistryRule | Registry |
-| V-17429.a | RegistryRule | Registry |
-| V-17429.b | RegistryRule | Registry |
-| V-17435.a | RegistryRule | Registry |
-| V-17435.b | RegistryRule | Registry |
-| V-17436.a | RegistryRule | Registry |
-| V-17436.b | RegistryRule | Registry |
-| V-17437.a | RegistryRule | Registry |
-| V-17437.b | RegistryRule | Registry |
-| V-17438.a | RegistryRule | Registry |
-| V-17438.b | RegistryRule | Registry |
-| V-17439.a | RegistryRule | Registry |
-| V-17439.b | RegistryRule | Registry |
-| V-17442 | RegistryRule | Registry |
-| V-17443 | RegistryRule | Registry |
-| V-17445.a | RegistryRule | Registry |
-| V-17445.b | RegistryRule | Registry |
-| V-17446.a | RegistryRule | Registry |
-| V-17446.b | RegistryRule | Registry |
-| V-17447.a | RegistryRule | Registry |
-| V-17447.b | RegistryRule | Registry |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-17415.a | RegistryRule | Registry |  |
+| V-17415.b | RegistryRule | Registry |  |
+| V-17416.a | RegistryRule | Registry |  |
+| V-17416.b | RegistryRule | Registry |  |
+| V-17417.a | RegistryRule | Registry |  |
+| V-17417.b | RegistryRule | Registry |  |
+| V-17418.a | RegistryRule | Registry |  |
+| V-17418.b | RegistryRule | Registry |  |
+| V-17419.a | RegistryRule | Registry |  |
+| V-17419.b | RegistryRule | Registry |  |
+| V-17425.a | RegistryRule | Registry |  |
+| V-17425.b | RegistryRule | Registry |  |
+| V-17426.a | RegistryRule | Registry |  |
+| V-17426.b | RegistryRule | Registry |  |
+| V-17427.a | RegistryRule | Registry |  |
+| V-17427.b | RegistryRule | Registry |  |
+| V-17428.a | RegistryRule | Registry |  |
+| V-17428.b | RegistryRule | Registry |  |
+| V-17429.a | RegistryRule | Registry |  |
+| V-17429.b | RegistryRule | Registry |  |
+| V-17435.a | RegistryRule | Registry |  |
+| V-17435.b | RegistryRule | Registry |  |
+| V-17436.a | RegistryRule | Registry |  |
+| V-17436.b | RegistryRule | Registry |  |
+| V-17437.a | RegistryRule | Registry |  |
+| V-17437.b | RegistryRule | Registry |  |
+| V-17438.a | RegistryRule | Registry |  |
+| V-17438.b | RegistryRule | Registry |  |
+| V-17439.a | RegistryRule | Registry |  |
+| V-17439.b | RegistryRule | Registry |  |
+| V-17442 | RegistryRule | Registry |  |
+| V-17443 | RegistryRule | Registry |  |
+| V-17445.a | RegistryRule | Registry |  |
+| V-17445.b | RegistryRule | Registry |  |
+| V-17446.a | RegistryRule | Registry |  |
+| V-17446.b | RegistryRule | Registry |  |
+| V-17447.a | RegistryRule | Registry |  |
+| V-17447.b | RegistryRule | Registry |  |
 
 ## Windows 2012 DC STIG, Version 2.17
 
@@ -2393,335 +2393,335 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_Windows_2012_and_2012_R2_DC_STIG_V2R17_Manual-xccdf.xml  
 **Created:** 12/17/2019  
 **Description:** The Windows Server 2012/2012 R2 Domain Controller Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **336** of **393** rules are automated; **85%**  
+**StigRuleCoverage:** **325** of **393** rules are automated; **83%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-1097 | AccountPolicyRule | AccountPolicy |
-| V-1098 | AccountPolicyRule | AccountPolicy |
-| V-1099 | AccountPolicyRule | AccountPolicy |
-| V-1104 | AccountPolicyRule | AccountPolicy |
-| V-1105 | AccountPolicyRule | AccountPolicy |
-| V-1107 | AccountPolicyRule | AccountPolicy |
-| V-1150 | AccountPolicyRule | AccountPolicy |
-| V-2372 | AccountPolicyRule | AccountPolicy |
-| V-2376 | AccountPolicyRule | AccountPolicy |
-| V-2377 | AccountPolicyRule | AccountPolicy |
-| V-2378 | AccountPolicyRule | AccountPolicy |
-| V-2379 | AccountPolicyRule | AccountPolicy |
-| V-2380 | AccountPolicyRule | AccountPolicy |
-| V-6836 | AccountPolicyRule | AccountPolicy |
-| V-26529 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26530 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26531 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26533 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26535 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26537 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26538 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26539 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26540 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26541 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26542 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26543 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26546 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26547 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26548 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26549 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26550 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26551 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26552 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26553 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26555 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26557 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26558 | AuditPolicyRule | AuditPolicySubcategory |
-| V-33663 | AuditPolicyRule | AuditPolicySubcategory |
-| V-33664 | AuditPolicyRule | AuditPolicySubcategory |
-| V-33665 | AuditPolicyRule | AuditPolicySubcategory |
-| V-33666 | AuditPolicyRule | AuditPolicySubcategory |
-| V-36667 | AuditPolicyRule | AuditPolicySubcategory |
-| V-36668 | AuditPolicyRule | AuditPolicySubcategory |
-| V-40200 | AuditPolicyRule | AuditPolicySubcategory |
-| V-40202 | AuditPolicyRule | AuditPolicySubcategory |
-| V-57633 | AuditPolicyRule | AuditPolicySubcategory |
-| V-78057 | AuditPolicyRule | AuditPolicySubcategory |
-| V-78059 | AuditPolicyRule | AuditPolicySubcategory |
-| V-78061 | AuditPolicyRule | AuditPolicySubcategory |
-| V-78063 | AuditPolicyRule | AuditPolicySubcategory |
-| V-1073 | AuditSettingRule | AuditSetting |
-| V-1081 | AuditSettingRule | AuditSetting |
-| V-80473 | AuditSettingRule | AuditSetting |
-| V-1152 | PermissionRule | RegistryAccessEntry |
-| V-26070 | PermissionRule | RegistryAccessEntry |
-| V-32282 | PermissionRule | RegistryAccessEntry |
-| V-36722 | PermissionRule | NTFSAccessEntry |
-| V-36723 | PermissionRule | NTFSAccessEntry |
-| V-36724 | PermissionRule | NTFSAccessEntry |
-| V-39331 | PermissionRule | NTFSAccessEntry |
-| V-40177.a | PermissionRule | NTFSAccessEntry |
-| V-40177.b | PermissionRule | NTFSAccessEntry |
-| V-40178 | PermissionRule | NTFSAccessEntry |
-| V-40179 | PermissionRule | NTFSAccessEntry |
-| V-57721 | PermissionRule | NTFSAccessEntry |
-| V-1075 | RegistryRule | Registry |
-| V-1089 | RegistryRule | Registry |
-| V-1090 | RegistryRule | Registry |
-| V-1093 | RegistryRule | Registry |
-| V-1136 | RegistryRule | Registry |
-| V-1141 | RegistryRule | Registry |
-| V-1145 | RegistryRule | Registry |
-| V-1151 | RegistryRule | Registry |
-| V-1153 | RegistryRule | Registry |
-| V-1154 | RegistryRule | Registry |
-| V-1157 | RegistryRule | Registry |
-| V-1162 | RegistryRule | Registry |
-| V-1163 | RegistryRule | Registry |
-| V-1164 | RegistryRule | Registry |
-| V-1165 | RegistryRule | Registry |
-| V-1166 | RegistryRule | Registry |
-| V-1171 | RegistryRule | Registry |
-| V-1172 | RegistryRule | Registry |
-| V-1173 | RegistryRule | Registry |
-| V-1174 | RegistryRule | Registry |
-| V-2374 | RegistryRule | RegistryPolicyFile |
-| V-3338 | RegistryRule | Registry |
-| V-3339 | RegistryRule | Registry |
-| V-3340 | RegistryRule | Registry |
-| V-3343 | RegistryRule | RegistryPolicyFile |
-| V-3344 | RegistryRule | Registry |
-| V-3373 | RegistryRule | Registry |
-| V-3374 | RegistryRule | Registry |
-| V-3377 | RegistryRule | Registry |
-| V-3378 | RegistryRule | Registry |
-| V-3379 | RegistryRule | Registry |
-| V-3381 | RegistryRule | Registry |
-| V-3382 | RegistryRule | Registry |
-| V-3383 | RegistryRule | Registry |
-| V-3385 | RegistryRule | Registry |
-| V-3449 | RegistryRule | RegistryPolicyFile |
-| V-3453 | RegistryRule | RegistryPolicyFile |
-| V-3454 | RegistryRule | RegistryPolicyFile |
-| V-3455 | RegistryRule | RegistryPolicyFile |
-| V-3456 | RegistryRule | RegistryPolicyFile |
-| V-3469 | RegistryRule | RegistryPolicyFile |
-| V-3470 | RegistryRule | RegistryPolicyFile |
-| V-3479 | RegistryRule | Registry |
-| V-3480 | RegistryRule | RegistryPolicyFile |
-| V-3481 | RegistryRule | RegistryPolicyFile |
-| V-3666 | RegistryRule | Registry |
-| V-4108 | RegistryRule | Registry |
-| V-4110 | RegistryRule | Registry |
-| V-4111 | RegistryRule | Registry |
-| V-4112 | RegistryRule | Registry |
-| V-4113 | RegistryRule | Registry |
-| V-4116 | RegistryRule | Registry |
-| V-4407 | RegistryRule | Registry |
-| V-4408 | RegistryRule | Registry |
-| V-4438 | RegistryRule | Registry |
-| V-4442 | RegistryRule | Registry |
-| V-4443 | RegistryRule | Registry |
-| V-4445 | RegistryRule | Registry |
-| V-4447 | RegistryRule | RegistryPolicyFile |
-| V-4448 | RegistryRule | RegistryPolicyFile |
-| V-6831 | RegistryRule | Registry |
-| V-6832 | RegistryRule | Registry |
-| V-6833 | RegistryRule | Registry |
-| V-6834 | RegistryRule | Registry |
-| V-8322.a | RegistryRule | Registry |
-| V-8322.b | RegistryRule | Registry |
-| V-8324 | RegistryRule | Registry |
-| V-11806 | RegistryRule | Registry |
-| V-14228 | RegistryRule | Registry |
-| V-14229 | RegistryRule | Registry |
-| V-14230 | RegistryRule | Registry |
-| V-14232 | RegistryRule | Registry |
-| V-14234 | RegistryRule | Registry |
-| V-14235 | RegistryRule | Registry |
-| V-14236 | RegistryRule | Registry |
-| V-14237 | RegistryRule | Registry |
-| V-14239 | RegistryRule | Registry |
-| V-14240 | RegistryRule | Registry |
-| V-14241 | RegistryRule | Registry |
-| V-14242 | RegistryRule | Registry |
-| V-14243 | RegistryRule | RegistryPolicyFile |
-| V-14247 | RegistryRule | RegistryPolicyFile |
-| V-14249 | RegistryRule | RegistryPolicyFile |
-| V-14259 | RegistryRule | RegistryPolicyFile |
-| V-14260 | RegistryRule | RegistryPolicyFile |
-| V-14261 | RegistryRule | RegistryPolicyFile |
-| V-14268 | RegistryRule | RegistryPolicyFile |
-| V-14269 | RegistryRule | RegistryPolicyFile |
-| V-14270 | RegistryRule | RegistryPolicyFile |
-| V-15666 | RegistryRule | RegistryPolicyFile |
-| V-15667 | RegistryRule | RegistryPolicyFile |
-| V-15672 | RegistryRule | RegistryPolicyFile |
-| V-15674 | RegistryRule | RegistryPolicyFile |
-| V-15682 | RegistryRule | RegistryPolicyFile |
-| V-15683 | RegistryRule | RegistryPolicyFile |
-| V-15684 | RegistryRule | RegistryPolicyFile |
-| V-15685 | RegistryRule | RegistryPolicyFile |
-| V-15686 | RegistryRule | RegistryPolicyFile |
-| V-15687 | RegistryRule | RegistryPolicyFile |
-| V-15696.a | RegistryRule | RegistryPolicyFile |
-| V-15696.b | RegistryRule | RegistryPolicyFile |
-| V-15696.c | RegistryRule | RegistryPolicyFile |
-| V-15696.d | RegistryRule | RegistryPolicyFile |
-| V-15697.a | RegistryRule | RegistryPolicyFile |
-| V-15697.b | RegistryRule | RegistryPolicyFile |
-| V-15697.c | RegistryRule | RegistryPolicyFile |
-| V-15697.d | RegistryRule | RegistryPolicyFile |
-| V-15698.a | RegistryRule | RegistryPolicyFile |
-| V-15698.b | RegistryRule | RegistryPolicyFile |
-| V-15698.c | RegistryRule | RegistryPolicyFile |
-| V-15698.d | RegistryRule | RegistryPolicyFile |
-| V-15698.e | RegistryRule | RegistryPolicyFile |
-| V-15699 | RegistryRule | RegistryPolicyFile |
-| V-15700 | RegistryRule | RegistryPolicyFile |
-| V-15701 | RegistryRule | RegistryPolicyFile |
-| V-15702 | RegistryRule | RegistryPolicyFile |
-| V-15703 | RegistryRule | RegistryPolicyFile |
-| V-15704 | RegistryRule | RegistryPolicyFile |
-| V-15705 | RegistryRule | RegistryPolicyFile |
-| V-15706 | RegistryRule | RegistryPolicyFile |
-| V-15707 | RegistryRule | RegistryPolicyFile |
-| V-15718 | RegistryRule | RegistryPolicyFile |
-| V-15722 | RegistryRule | RegistryPolicyFile |
-| V-15727 | RegistryRule | RegistryPolicyFile |
-| V-15991 | RegistryRule | Registry |
-| V-15997 | RegistryRule | RegistryPolicyFile |
-| V-15998 | RegistryRule | RegistryPolicyFile |
-| V-15999 | RegistryRule | RegistryPolicyFile |
-| V-16000 | RegistryRule | RegistryPolicyFile |
-| V-16008 | RegistryRule | Registry |
-| V-16020 | RegistryRule | RegistryPolicyFile |
-| V-16021 | RegistryRule | RegistryPolicyFile |
-| V-16048 | RegistryRule | RegistryPolicyFile |
-| V-21950 | RegistryRule | Registry |
-| V-21951 | RegistryRule | Registry |
-| V-21952 | RegistryRule | Registry |
-| V-21953 | RegistryRule | Registry |
-| V-21954 | RegistryRule | Registry |
-| V-21955 | RegistryRule | Registry |
-| V-21956 | RegistryRule | Registry |
-| V-21960 | RegistryRule | RegistryPolicyFile |
-| V-21961 | RegistryRule | RegistryPolicyFile |
-| V-21963 | RegistryRule | RegistryPolicyFile |
-| V-21964 | RegistryRule | RegistryPolicyFile |
-| V-21965 | RegistryRule | RegistryPolicyFile |
-| V-21967 | RegistryRule | RegistryPolicyFile |
-| V-21969 | RegistryRule | RegistryPolicyFile |
-| V-21970 | RegistryRule | RegistryPolicyFile |
-| V-21971 | RegistryRule | RegistryPolicyFile |
-| V-21973 | RegistryRule | RegistryPolicyFile |
-| V-21980 | RegistryRule | RegistryPolicyFile |
-| V-22692 | RegistryRule | RegistryPolicyFile |
-| V-26283 | RegistryRule | Registry |
-| V-26359 | RegistryRule | Registry |
-| V-26575 | RegistryRule | RegistryPolicyFile |
-| V-26576 | RegistryRule | RegistryPolicyFile |
-| V-26577 | RegistryRule | RegistryPolicyFile |
-| V-26578 | RegistryRule | RegistryPolicyFile |
-| V-26579 | RegistryRule | RegistryPolicyFile |
-| V-26580 | RegistryRule | RegistryPolicyFile |
-| V-26581 | RegistryRule | RegistryPolicyFile |
-| V-26582 | RegistryRule | RegistryPolicyFile |
-| V-28504 | RegistryRule | RegistryPolicyFile |
-| V-34974 | RegistryRule | RegistryPolicyFile |
-| V-36656 | RegistryRule | RegistryPolicyFile |
-| V-36657 | RegistryRule | RegistryPolicyFile |
-| V-36673 | RegistryRule | RegistryPolicyFile |
-| V-36677 | RegistryRule | RegistryPolicyFile |
-| V-36678 | RegistryRule | RegistryPolicyFile |
-| V-36679 | RegistryRule | RegistryPolicyFile |
-| V-36680 | RegistryRule | RegistryPolicyFile |
-| V-36681 | RegistryRule | RegistryPolicyFile |
-| V-36684 | RegistryRule | RegistryPolicyFile |
-| V-36687 | RegistryRule | RegistryPolicyFile |
-| V-36696 | RegistryRule | RegistryPolicyFile |
-| V-36697 | RegistryRule | RegistryPolicyFile |
-| V-36698 | RegistryRule | RegistryPolicyFile |
-| V-36700 | RegistryRule | RegistryPolicyFile |
-| V-36707 | RegistryRule | RegistryPolicyFile |
-| V-36708 | RegistryRule | RegistryPolicyFile |
-| V-36709 | RegistryRule | RegistryPolicyFile |
-| V-36710.a | RegistryRule | RegistryPolicyFile |
-| V-36710.b | RegistryRule | RegistryPolicyFile |
-| V-36711 | RegistryRule | RegistryPolicyFile |
-| V-36712 | RegistryRule | RegistryPolicyFile |
-| V-36713 | RegistryRule | RegistryPolicyFile |
-| V-36714 | RegistryRule | RegistryPolicyFile |
-| V-36718 | RegistryRule | RegistryPolicyFile |
-| V-36719 | RegistryRule | RegistryPolicyFile |
-| V-36720 | RegistryRule | RegistryPolicyFile |
-| V-36773 | RegistryRule | Registry |
-| V-36776 | RegistryRule | RegistryPolicyFile |
-| V-36777 | RegistryRule | RegistryPolicyFile |
-| V-40204 | RegistryRule | RegistryPolicyFile |
-| V-43238 | RegistryRule | RegistryPolicyFile |
-| V-43239 | RegistryRule | RegistryPolicyFile |
-| V-43240 | RegistryRule | RegistryPolicyFile |
-| V-43241 | RegistryRule | RegistryPolicyFile |
-| V-43245 | RegistryRule | RegistryPolicyFile |
-| V-57639 | RegistryRule | Registry |
-| V-72753 | RegistryRule | RegistryPolicyFile |
-| V-73519 | RegistryRule | RegistryPolicyFile |
-| V-80475 | RegistryRule | RegistryPolicyFile |
-| V-1113 | SecurityOptionRule | SecurityOption |
-| V-1114 | SecurityOptionRule | SecurityOption |
-| V-1115 | SecurityOptionRule | SecurityOption |
-| V-3337 | SecurityOptionRule | SecurityOption |
-| V-3380 | SecurityOptionRule | SecurityOption |
-| V-1074 | ServiceRule | Service |
-| V-8327.a | ServiceRule | Service |
-| V-8327.b | ServiceRule | Service |
-| V-8327.c | ServiceRule | Service |
-| V-8327.d | ServiceRule | Service |
-| V-8327.e | ServiceRule | Service |
-| V-8327.f | ServiceRule | Service |
-| V-8327.g | ServiceRule | Service |
-| V-8327.h | ServiceRule | Service |
-| V-8327.i | ServiceRule | Service |
-| V-15505 | ServiceRule | Service |
-| V-26600 | ServiceRule | Service |
-| V-26602 | ServiceRule | Service |
-| V-26604 | ServiceRule | Service |
-| V-26605 | ServiceRule | Service |
-| V-26606 | ServiceRule | Service |
-| V-36736 | ServiceRule | Service |
-| V-40206 | ServiceRule | Service |
-| V-42420 | ServiceRule | Service |
-| V-1102 | UserRightRule | UserRightsAssignment |
-| V-1155 | UserRightRule | UserRightsAssignment |
-| V-18010 | UserRightRule | UserRightsAssignment |
-| V-26469 | UserRightRule | UserRightsAssignment |
-| V-26470 | UserRightRule | UserRightsAssignment |
-| V-26472 | UserRightRule | UserRightsAssignment |
-| V-26473 | UserRightRule | UserRightsAssignment |
-| V-26474 | UserRightRule | UserRightsAssignment |
-| V-26478 | UserRightRule | UserRightsAssignment |
-| V-26479 | UserRightRule | UserRightsAssignment |
-| V-26480 | UserRightRule | UserRightsAssignment |
-| V-26481 | UserRightRule | UserRightsAssignment |
-| V-26482 | UserRightRule | UserRightsAssignment |
-| V-26483 | UserRightRule | UserRightsAssignment |
-| V-26484 | UserRightRule | UserRightsAssignment |
-| V-26485 | UserRightRule | UserRightsAssignment |
-| V-26486 | UserRightRule | UserRightsAssignment |
-| V-26487 | UserRightRule | UserRightsAssignment |
-| V-26488 | UserRightRule | UserRightsAssignment |
-| V-26489 | UserRightRule | UserRightsAssignment |
-| V-26490 | UserRightRule | UserRightsAssignment |
-| V-26492 | UserRightRule | UserRightsAssignment |
-| V-26493 | UserRightRule | UserRightsAssignment |
-| V-26494 | UserRightRule | UserRightsAssignment |
-| V-26496 | UserRightRule | UserRightsAssignment |
-| V-26498 | UserRightRule | UserRightsAssignment |
-| V-26499 | UserRightRule | UserRightsAssignment |
-| V-26500 | UserRightRule | UserRightsAssignment |
-| V-26504 | UserRightRule | UserRightsAssignment |
-| V-26506 | UserRightRule | UserRightsAssignment |
-| V-30016 | UserRightRule | UserRightsAssignment |
-| V-73805 | WindowsFeatureRule | WindowsFeature |
-| V-80477 | WindowsFeatureRule | WindowsFeature |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-1097 | AccountPolicyRule | AccountPolicy |  |
+| V-1098 | AccountPolicyRule | AccountPolicy |  |
+| V-1099 | AccountPolicyRule | AccountPolicy |  |
+| V-1104 | AccountPolicyRule | AccountPolicy |  |
+| V-1105 | AccountPolicyRule | AccountPolicy |  |
+| V-1107 | AccountPolicyRule | AccountPolicy |  |
+| V-1150 | AccountPolicyRule | AccountPolicy |  |
+| V-2372 | AccountPolicyRule | AccountPolicy |  |
+| V-2376 | AccountPolicyRule | AccountPolicy |  |
+| V-2377 | AccountPolicyRule | AccountPolicy |  |
+| V-2378 | AccountPolicyRule | AccountPolicy |  |
+| V-2379 | AccountPolicyRule | AccountPolicy |  |
+| V-2380 | AccountPolicyRule | AccountPolicy |  |
+| V-6836 | AccountPolicyRule | AccountPolicy |  |
+| V-26529 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26530 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26531 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26533 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26535 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26537 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26538 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26539 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26540 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26541 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26542 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26543 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26546 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26547 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26548 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26549 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26550 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26551 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26552 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26553 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26555 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26557 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26558 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-33663 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-33664 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-33665 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-33666 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-36667 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-36668 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-40200 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-40202 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-57633 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-78057 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-78059 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-78061 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-78063 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-1073 | AuditSettingRule | AuditSetting |  |
+| V-1081 | AuditSettingRule | AuditSetting |  |
+| V-80473 | AuditSettingRule | AuditSetting |  |
+| V-1152 | PermissionRule | RegistryAccessEntry |  |
+| V-26070 | PermissionRule | RegistryAccessEntry |  |
+| V-32282 | PermissionRule | RegistryAccessEntry |  |
+| V-36722 | PermissionRule | NTFSAccessEntry |  |
+| V-36723 | PermissionRule | NTFSAccessEntry |  |
+| V-36724 | PermissionRule | NTFSAccessEntry |  |
+| V-39331 | PermissionRule | NTFSAccessEntry |  |
+| V-40177.a | PermissionRule | NTFSAccessEntry |  |
+| V-40177.b | PermissionRule | NTFSAccessEntry |  |
+| V-40178 | PermissionRule | NTFSAccessEntry |  |
+| V-40179 | PermissionRule | NTFSAccessEntry |  |
+| V-57721 | PermissionRule | NTFSAccessEntry |  |
+| V-1075 | RegistryRule | Registry |  |
+| V-1089 | RegistryRule | Registry |  |
+| V-1090 | RegistryRule | Registry |  |
+| V-1093 | RegistryRule | Registry |  |
+| V-1136 | RegistryRule | Registry |  |
+| V-1141 | RegistryRule | Registry |  |
+| V-1145 | RegistryRule | Registry |  |
+| V-1151 | RegistryRule | Registry |  |
+| V-1153 | RegistryRule | Registry |  |
+| V-1154 | RegistryRule | Registry |  |
+| V-1157 | RegistryRule | Registry |  |
+| V-1162 | RegistryRule | Registry |  |
+| V-1163 | RegistryRule | Registry |  |
+| V-1164 | RegistryRule | Registry |  |
+| V-1165 | RegistryRule | Registry |  |
+| V-1166 | RegistryRule | Registry |  |
+| V-1171 | RegistryRule | Registry |  |
+| V-1172 | RegistryRule | Registry |  |
+| V-1173 | RegistryRule | Registry |  |
+| V-1174 | RegistryRule | Registry |  |
+| V-2374 | RegistryRule | RegistryPolicyFile |  |
+| V-3338 | RegistryRule | Registry |  |
+| V-3339 | RegistryRule | Registry |  |
+| V-3340 | RegistryRule | Registry |  |
+| V-3343 | RegistryRule | RegistryPolicyFile |  |
+| V-3344 | RegistryRule | Registry |  |
+| V-3373 | RegistryRule | Registry |  |
+| V-3374 | RegistryRule | Registry |  |
+| V-3377 | RegistryRule | Registry |  |
+| V-3378 | RegistryRule | Registry |  |
+| V-3379 | RegistryRule | Registry |  |
+| V-3381 | RegistryRule | Registry |  |
+| V-3382 | RegistryRule | Registry |  |
+| V-3383 | RegistryRule | Registry |  |
+| V-3385 | RegistryRule | Registry |  |
+| V-3449 | RegistryRule | RegistryPolicyFile |  |
+| V-3453 | RegistryRule | RegistryPolicyFile |  |
+| V-3454 | RegistryRule | RegistryPolicyFile |  |
+| V-3455 | RegistryRule | RegistryPolicyFile |  |
+| V-3456 | RegistryRule | RegistryPolicyFile |  |
+| V-3469 | RegistryRule | RegistryPolicyFile |  |
+| V-3470 | RegistryRule | RegistryPolicyFile |  |
+| V-3479 | RegistryRule | Registry |  |
+| V-3480 | RegistryRule | RegistryPolicyFile |  |
+| V-3481 | RegistryRule | RegistryPolicyFile |  |
+| V-3666 | RegistryRule | Registry |  |
+| V-4108 | RegistryRule | Registry |  |
+| V-4110 | RegistryRule | Registry |  |
+| V-4111 | RegistryRule | Registry |  |
+| V-4112 | RegistryRule | Registry |  |
+| V-4113 | RegistryRule | Registry |  |
+| V-4116 | RegistryRule | Registry |  |
+| V-4407 | RegistryRule | Registry |  |
+| V-4408 | RegistryRule | Registry |  |
+| V-4438 | RegistryRule | Registry |  |
+| V-4442 | RegistryRule | Registry |  |
+| V-4443 | RegistryRule | Registry |  |
+| V-4445 | RegistryRule | Registry |  |
+| V-4447 | RegistryRule | RegistryPolicyFile |  |
+| V-4448 | RegistryRule | RegistryPolicyFile |  |
+| V-6831 | RegistryRule | Registry |  |
+| V-6832 | RegistryRule | Registry |  |
+| V-6833 | RegistryRule | Registry |  |
+| V-6834 | RegistryRule | Registry |  |
+| V-8322.a | RegistryRule | Registry |  |
+| V-8322.b | RegistryRule | Registry |  |
+| V-8324 | RegistryRule | Registry |  |
+| V-11806 | RegistryRule | Registry |  |
+| V-14228 | RegistryRule | Registry |  |
+| V-14229 | RegistryRule | Registry |  |
+| V-14230 | RegistryRule | Registry |  |
+| V-14232 | RegistryRule | Registry |  |
+| V-14234 | RegistryRule | Registry |  |
+| V-14235 | RegistryRule | Registry |  |
+| V-14236 | RegistryRule | Registry |  |
+| V-14237 | RegistryRule | Registry |  |
+| V-14239 | RegistryRule | Registry |  |
+| V-14240 | RegistryRule | Registry |  |
+| V-14241 | RegistryRule | Registry |  |
+| V-14242 | RegistryRule | Registry |  |
+| V-14243 | RegistryRule | RegistryPolicyFile |  |
+| V-14247 | RegistryRule | RegistryPolicyFile |  |
+| V-14249 | RegistryRule | RegistryPolicyFile |  |
+| V-14259 | RegistryRule | RegistryPolicyFile |  |
+| V-14260 | RegistryRule | RegistryPolicyFile |  |
+| V-14261 | RegistryRule | RegistryPolicyFile |  |
+| V-14268 | RegistryRule | RegistryPolicyFile |  |
+| V-14269 | RegistryRule | RegistryPolicyFile |  |
+| V-14270 | RegistryRule | RegistryPolicyFile |  |
+| V-15666 | RegistryRule | RegistryPolicyFile |  |
+| V-15667 | RegistryRule | RegistryPolicyFile |  |
+| V-15672 | RegistryRule | RegistryPolicyFile |  |
+| V-15674 | RegistryRule | RegistryPolicyFile |  |
+| V-15682 | RegistryRule | RegistryPolicyFile |  |
+| V-15683 | RegistryRule | RegistryPolicyFile |  |
+| V-15684 | RegistryRule | RegistryPolicyFile |  |
+| V-15685 | RegistryRule | RegistryPolicyFile |  |
+| V-15686 | RegistryRule | RegistryPolicyFile |  |
+| V-15687 | RegistryRule | RegistryPolicyFile |  |
+| V-15696.a | RegistryRule | RegistryPolicyFile |  |
+| V-15696.b | RegistryRule | RegistryPolicyFile |  |
+| V-15696.c | RegistryRule | RegistryPolicyFile |  |
+| V-15696.d | RegistryRule | RegistryPolicyFile |  |
+| V-15697.a | RegistryRule | RegistryPolicyFile |  |
+| V-15697.b | RegistryRule | RegistryPolicyFile |  |
+| V-15697.c | RegistryRule | RegistryPolicyFile |  |
+| V-15697.d | RegistryRule | RegistryPolicyFile |  |
+| V-15698.a | RegistryRule | RegistryPolicyFile |  |
+| V-15698.b | RegistryRule | RegistryPolicyFile |  |
+| V-15698.c | RegistryRule | RegistryPolicyFile |  |
+| V-15698.d | RegistryRule | RegistryPolicyFile |  |
+| V-15698.e | RegistryRule | RegistryPolicyFile |  |
+| V-15699 | RegistryRule | RegistryPolicyFile |  |
+| V-15700 | RegistryRule | RegistryPolicyFile |  |
+| V-15701 | RegistryRule | RegistryPolicyFile |  |
+| V-15702 | RegistryRule | RegistryPolicyFile |  |
+| V-15703 | RegistryRule | RegistryPolicyFile |  |
+| V-15704 | RegistryRule | RegistryPolicyFile |  |
+| V-15705 | RegistryRule | RegistryPolicyFile |  |
+| V-15706 | RegistryRule | RegistryPolicyFile |  |
+| V-15707 | RegistryRule | RegistryPolicyFile |  |
+| V-15718 | RegistryRule | RegistryPolicyFile |  |
+| V-15722 | RegistryRule | RegistryPolicyFile |  |
+| V-15727 | RegistryRule | RegistryPolicyFile |  |
+| V-15991 | RegistryRule | Registry |  |
+| V-15997 | RegistryRule | RegistryPolicyFile |  |
+| V-15998 | RegistryRule | RegistryPolicyFile |  |
+| V-15999 | RegistryRule | RegistryPolicyFile |  |
+| V-16000 | RegistryRule | RegistryPolicyFile |  |
+| V-16008 | RegistryRule | Registry |  |
+| V-16020 | RegistryRule | RegistryPolicyFile |  |
+| V-16021 | RegistryRule | RegistryPolicyFile |  |
+| V-16048 | RegistryRule | RegistryPolicyFile |  |
+| V-21950 | RegistryRule | Registry |  |
+| V-21951 | RegistryRule | Registry |  |
+| V-21952 | RegistryRule | Registry |  |
+| V-21953 | RegistryRule | Registry |  |
+| V-21954 | RegistryRule | Registry |  |
+| V-21955 | RegistryRule | Registry |  |
+| V-21956 | RegistryRule | Registry |  |
+| V-21960 | RegistryRule | RegistryPolicyFile |  |
+| V-21961 | RegistryRule | RegistryPolicyFile |  |
+| V-21963 | RegistryRule | RegistryPolicyFile |  |
+| V-21964 | RegistryRule | RegistryPolicyFile |  |
+| V-21965 | RegistryRule | RegistryPolicyFile |  |
+| V-21967 | RegistryRule | RegistryPolicyFile |  |
+| V-21969 | RegistryRule | RegistryPolicyFile |  |
+| V-21970 | RegistryRule | RegistryPolicyFile |  |
+| V-21971 | RegistryRule | RegistryPolicyFile |  |
+| V-21973 | RegistryRule | RegistryPolicyFile |  |
+| V-21980 | RegistryRule | RegistryPolicyFile |  |
+| V-22692 | RegistryRule | RegistryPolicyFile |  |
+| V-26283 | RegistryRule | Registry |  |
+| V-26359 | RegistryRule | Registry |  |
+| V-26575 | RegistryRule | RegistryPolicyFile |  |
+| V-26576 | RegistryRule | RegistryPolicyFile |  |
+| V-26577 | RegistryRule | RegistryPolicyFile |  |
+| V-26578 | RegistryRule | RegistryPolicyFile |  |
+| V-26579 | RegistryRule | RegistryPolicyFile |  |
+| V-26580 | RegistryRule | RegistryPolicyFile |  |
+| V-26581 | RegistryRule | RegistryPolicyFile |  |
+| V-26582 | RegistryRule | RegistryPolicyFile |  |
+| V-28504 | RegistryRule | RegistryPolicyFile |  |
+| V-34974 | RegistryRule | RegistryPolicyFile |  |
+| V-36656 | RegistryRule | RegistryPolicyFile |  |
+| V-36657 | RegistryRule | RegistryPolicyFile |  |
+| V-36673 | RegistryRule | RegistryPolicyFile |  |
+| V-36677 | RegistryRule | RegistryPolicyFile |  |
+| V-36678 | RegistryRule | RegistryPolicyFile |  |
+| V-36679 | RegistryRule | RegistryPolicyFile |  |
+| V-36680 | RegistryRule | RegistryPolicyFile |  |
+| V-36681 | RegistryRule | RegistryPolicyFile |  |
+| V-36684 | RegistryRule | RegistryPolicyFile |  |
+| V-36687 | RegistryRule | RegistryPolicyFile |  |
+| V-36696 | RegistryRule | RegistryPolicyFile |  |
+| V-36697 | RegistryRule | RegistryPolicyFile |  |
+| V-36698 | RegistryRule | RegistryPolicyFile |  |
+| V-36700 | RegistryRule | RegistryPolicyFile |  |
+| V-36707 | RegistryRule | RegistryPolicyFile |  |
+| V-36708 | RegistryRule | RegistryPolicyFile |  |
+| V-36709 | RegistryRule | RegistryPolicyFile |  |
+| V-36710.a | RegistryRule | RegistryPolicyFile |  |
+| V-36710.b | RegistryRule | RegistryPolicyFile |  |
+| V-36711 | RegistryRule | RegistryPolicyFile |  |
+| V-36712 | RegistryRule | RegistryPolicyFile |  |
+| V-36713 | RegistryRule | RegistryPolicyFile |  |
+| V-36714 | RegistryRule | RegistryPolicyFile |  |
+| V-36718 | RegistryRule | RegistryPolicyFile |  |
+| V-36719 | RegistryRule | RegistryPolicyFile |  |
+| V-36720 | RegistryRule | RegistryPolicyFile |  |
+| V-36773 | RegistryRule | Registry |  |
+| V-36776 | RegistryRule | RegistryPolicyFile |  |
+| V-36777 | RegistryRule | RegistryPolicyFile |  |
+| V-40204 | RegistryRule | RegistryPolicyFile |  |
+| V-43238 | RegistryRule | RegistryPolicyFile |  |
+| V-43239 | RegistryRule | RegistryPolicyFile |  |
+| V-43240 | RegistryRule | RegistryPolicyFile |  |
+| V-43241 | RegistryRule | RegistryPolicyFile |  |
+| V-43245 | RegistryRule | RegistryPolicyFile |  |
+| V-57639 | RegistryRule | Registry |  |
+| V-72753 | RegistryRule | RegistryPolicyFile |  |
+| V-73519 | RegistryRule | RegistryPolicyFile |  |
+| V-80475 | RegistryRule | RegistryPolicyFile |  |
+| V-1113 | SecurityOptionRule | SecurityOption |  |
+| V-1114 | SecurityOptionRule | SecurityOption |  |
+| V-1115 | SecurityOptionRule | SecurityOption |  |
+| V-3337 | SecurityOptionRule | SecurityOption |  |
+| V-3380 | SecurityOptionRule | SecurityOption |  |
+| V-1074 | ServiceRule | Service |  |
+| V-8327.a | ServiceRule | Service |  |
+| V-8327.b | ServiceRule | Service |  |
+| V-8327.c | ServiceRule | Service |  |
+| V-8327.d | ServiceRule | Service |  |
+| V-8327.e | ServiceRule | Service |  |
+| V-8327.f | ServiceRule | Service |  |
+| V-8327.g | ServiceRule | Service |  |
+| V-8327.h | ServiceRule | Service |  |
+| V-8327.i | ServiceRule | Service |  |
+| V-15505 | ServiceRule | Service |  |
+| V-26600 | ServiceRule | Service |  |
+| V-26602 | ServiceRule | Service |  |
+| V-26604 | ServiceRule | Service |  |
+| V-26605 | ServiceRule | Service |  |
+| V-26606 | ServiceRule | Service |  |
+| V-36736 | ServiceRule | Service |  |
+| V-40206 | ServiceRule | Service |  |
+| V-42420 | ServiceRule | Service |  |
+| V-1102 | UserRightRule | UserRightsAssignment |  |
+| V-1155 | UserRightRule | UserRightsAssignment |  |
+| V-18010 | UserRightRule | UserRightsAssignment |  |
+| V-26469 | UserRightRule | UserRightsAssignment |  |
+| V-26470 | UserRightRule | UserRightsAssignment |  |
+| V-26472 | UserRightRule | UserRightsAssignment |  |
+| V-26473 | UserRightRule | UserRightsAssignment |  |
+| V-26474 | UserRightRule | UserRightsAssignment |  |
+| V-26478 | UserRightRule | UserRightsAssignment |  |
+| V-26479 | UserRightRule | UserRightsAssignment |  |
+| V-26480 | UserRightRule | UserRightsAssignment |  |
+| V-26481 | UserRightRule | UserRightsAssignment |  |
+| V-26482 | UserRightRule | UserRightsAssignment |  |
+| V-26483 | UserRightRule | UserRightsAssignment |  |
+| V-26484 | UserRightRule | UserRightsAssignment |  |
+| V-26485 | UserRightRule | UserRightsAssignment |  |
+| V-26486 | UserRightRule | UserRightsAssignment |  |
+| V-26487 | UserRightRule | UserRightsAssignment |  |
+| V-26488 | UserRightRule | UserRightsAssignment |  |
+| V-26489 | UserRightRule | UserRightsAssignment |  |
+| V-26490 | UserRightRule | UserRightsAssignment |  |
+| V-26492 | UserRightRule | UserRightsAssignment |  |
+| V-26493 | UserRightRule | UserRightsAssignment |  |
+| V-26494 | UserRightRule | UserRightsAssignment |  |
+| V-26496 | UserRightRule | UserRightsAssignment |  |
+| V-26498 | UserRightRule | UserRightsAssignment |  |
+| V-26499 | UserRightRule | UserRightsAssignment |  |
+| V-26500 | UserRightRule | UserRightsAssignment |  |
+| V-26504 | UserRightRule | UserRightsAssignment |  |
+| V-26506 | UserRightRule | UserRightsAssignment |  |
+| V-30016 | UserRightRule | UserRightsAssignment |  |
+| V-73805 | WindowsFeatureRule | WindowsFeature |  |
+| V-80477 | WindowsFeatureRule | WindowsFeature |  |
 
 ## Windows 2012 DC STIG, Version 2.18
 
@@ -2731,335 +2731,335 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_Windows_2012_and_2012_R2_DC_STIG_V2R18_Manual-xccdf.xml  
 **Created:** 12/17/2019  
 **Description:** The Windows Server 2012/2012 R2 Domain Controller Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **336** of **393** rules are automated; **85%**  
+**StigRuleCoverage:** **325** of **393** rules are automated; **83%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-1097 | AccountPolicyRule | AccountPolicy |
-| V-1098 | AccountPolicyRule | AccountPolicy |
-| V-1099 | AccountPolicyRule | AccountPolicy |
-| V-1104 | AccountPolicyRule | AccountPolicy |
-| V-1105 | AccountPolicyRule | AccountPolicy |
-| V-1107 | AccountPolicyRule | AccountPolicy |
-| V-1150 | AccountPolicyRule | AccountPolicy |
-| V-2372 | AccountPolicyRule | AccountPolicy |
-| V-2376 | AccountPolicyRule | AccountPolicy |
-| V-2377 | AccountPolicyRule | AccountPolicy |
-| V-2378 | AccountPolicyRule | AccountPolicy |
-| V-2379 | AccountPolicyRule | AccountPolicy |
-| V-2380 | AccountPolicyRule | AccountPolicy |
-| V-6836 | AccountPolicyRule | AccountPolicy |
-| V-26529 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26530 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26531 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26533 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26535 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26537 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26538 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26539 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26540 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26541 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26542 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26543 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26546 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26547 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26548 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26549 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26550 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26551 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26552 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26553 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26555 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26557 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26558 | AuditPolicyRule | AuditPolicySubcategory |
-| V-33663 | AuditPolicyRule | AuditPolicySubcategory |
-| V-33664 | AuditPolicyRule | AuditPolicySubcategory |
-| V-33665 | AuditPolicyRule | AuditPolicySubcategory |
-| V-33666 | AuditPolicyRule | AuditPolicySubcategory |
-| V-36667 | AuditPolicyRule | AuditPolicySubcategory |
-| V-36668 | AuditPolicyRule | AuditPolicySubcategory |
-| V-40200 | AuditPolicyRule | AuditPolicySubcategory |
-| V-40202 | AuditPolicyRule | AuditPolicySubcategory |
-| V-57633 | AuditPolicyRule | AuditPolicySubcategory |
-| V-78057 | AuditPolicyRule | AuditPolicySubcategory |
-| V-78059 | AuditPolicyRule | AuditPolicySubcategory |
-| V-78061 | AuditPolicyRule | AuditPolicySubcategory |
-| V-78063 | AuditPolicyRule | AuditPolicySubcategory |
-| V-1073 | AuditSettingRule | AuditSetting |
-| V-1081 | AuditSettingRule | AuditSetting |
-| V-80473 | AuditSettingRule | AuditSetting |
-| V-1152 | PermissionRule | RegistryAccessEntry |
-| V-26070 | PermissionRule | RegistryAccessEntry |
-| V-32282 | PermissionRule | RegistryAccessEntry |
-| V-36722 | PermissionRule | NTFSAccessEntry |
-| V-36723 | PermissionRule | NTFSAccessEntry |
-| V-36724 | PermissionRule | NTFSAccessEntry |
-| V-39331 | PermissionRule | NTFSAccessEntry |
-| V-40177.a | PermissionRule | NTFSAccessEntry |
-| V-40177.b | PermissionRule | NTFSAccessEntry |
-| V-40178 | PermissionRule | NTFSAccessEntry |
-| V-40179 | PermissionRule | NTFSAccessEntry |
-| V-57721 | PermissionRule | NTFSAccessEntry |
-| V-1075 | RegistryRule | Registry |
-| V-1089 | RegistryRule | Registry |
-| V-1090 | RegistryRule | Registry |
-| V-1093 | RegistryRule | Registry |
-| V-1136 | RegistryRule | Registry |
-| V-1141 | RegistryRule | Registry |
-| V-1145 | RegistryRule | Registry |
-| V-1151 | RegistryRule | Registry |
-| V-1153 | RegistryRule | Registry |
-| V-1154 | RegistryRule | Registry |
-| V-1157 | RegistryRule | Registry |
-| V-1162 | RegistryRule | Registry |
-| V-1163 | RegistryRule | Registry |
-| V-1164 | RegistryRule | Registry |
-| V-1165 | RegistryRule | Registry |
-| V-1166 | RegistryRule | Registry |
-| V-1171 | RegistryRule | Registry |
-| V-1172 | RegistryRule | Registry |
-| V-1173 | RegistryRule | Registry |
-| V-1174 | RegistryRule | Registry |
-| V-2374 | RegistryRule | RegistryPolicyFile |
-| V-3338 | RegistryRule | Registry |
-| V-3339 | RegistryRule | Registry |
-| V-3340 | RegistryRule | Registry |
-| V-3343 | RegistryRule | RegistryPolicyFile |
-| V-3344 | RegistryRule | Registry |
-| V-3373 | RegistryRule | Registry |
-| V-3374 | RegistryRule | Registry |
-| V-3377 | RegistryRule | Registry |
-| V-3378 | RegistryRule | Registry |
-| V-3379 | RegistryRule | Registry |
-| V-3381 | RegistryRule | Registry |
-| V-3382 | RegistryRule | Registry |
-| V-3383 | RegistryRule | Registry |
-| V-3385 | RegistryRule | Registry |
-| V-3449 | RegistryRule | RegistryPolicyFile |
-| V-3453 | RegistryRule | RegistryPolicyFile |
-| V-3454 | RegistryRule | RegistryPolicyFile |
-| V-3455 | RegistryRule | RegistryPolicyFile |
-| V-3456 | RegistryRule | RegistryPolicyFile |
-| V-3469 | RegistryRule | RegistryPolicyFile |
-| V-3470 | RegistryRule | RegistryPolicyFile |
-| V-3479 | RegistryRule | Registry |
-| V-3480 | RegistryRule | RegistryPolicyFile |
-| V-3481 | RegistryRule | RegistryPolicyFile |
-| V-3666 | RegistryRule | Registry |
-| V-4108 | RegistryRule | Registry |
-| V-4110 | RegistryRule | Registry |
-| V-4111 | RegistryRule | Registry |
-| V-4112 | RegistryRule | Registry |
-| V-4113 | RegistryRule | Registry |
-| V-4116 | RegistryRule | Registry |
-| V-4407 | RegistryRule | Registry |
-| V-4408 | RegistryRule | Registry |
-| V-4438 | RegistryRule | Registry |
-| V-4442 | RegistryRule | Registry |
-| V-4443 | RegistryRule | Registry |
-| V-4445 | RegistryRule | Registry |
-| V-4447 | RegistryRule | RegistryPolicyFile |
-| V-4448 | RegistryRule | RegistryPolicyFile |
-| V-6831 | RegistryRule | Registry |
-| V-6832 | RegistryRule | Registry |
-| V-6833 | RegistryRule | Registry |
-| V-6834 | RegistryRule | Registry |
-| V-8322.a | RegistryRule | Registry |
-| V-8322.b | RegistryRule | Registry |
-| V-8324 | RegistryRule | Registry |
-| V-11806 | RegistryRule | Registry |
-| V-14228 | RegistryRule | Registry |
-| V-14229 | RegistryRule | Registry |
-| V-14230 | RegistryRule | Registry |
-| V-14232 | RegistryRule | Registry |
-| V-14234 | RegistryRule | Registry |
-| V-14235 | RegistryRule | Registry |
-| V-14236 | RegistryRule | Registry |
-| V-14237 | RegistryRule | Registry |
-| V-14239 | RegistryRule | Registry |
-| V-14240 | RegistryRule | Registry |
-| V-14241 | RegistryRule | Registry |
-| V-14242 | RegistryRule | Registry |
-| V-14243 | RegistryRule | RegistryPolicyFile |
-| V-14247 | RegistryRule | RegistryPolicyFile |
-| V-14249 | RegistryRule | RegistryPolicyFile |
-| V-14259 | RegistryRule | RegistryPolicyFile |
-| V-14260 | RegistryRule | RegistryPolicyFile |
-| V-14261 | RegistryRule | RegistryPolicyFile |
-| V-14268 | RegistryRule | RegistryPolicyFile |
-| V-14269 | RegistryRule | RegistryPolicyFile |
-| V-14270 | RegistryRule | RegistryPolicyFile |
-| V-15666 | RegistryRule | RegistryPolicyFile |
-| V-15667 | RegistryRule | RegistryPolicyFile |
-| V-15672 | RegistryRule | RegistryPolicyFile |
-| V-15674 | RegistryRule | RegistryPolicyFile |
-| V-15682 | RegistryRule | RegistryPolicyFile |
-| V-15683 | RegistryRule | RegistryPolicyFile |
-| V-15684 | RegistryRule | RegistryPolicyFile |
-| V-15685 | RegistryRule | RegistryPolicyFile |
-| V-15686 | RegistryRule | RegistryPolicyFile |
-| V-15687 | RegistryRule | RegistryPolicyFile |
-| V-15696.a | RegistryRule | RegistryPolicyFile |
-| V-15696.b | RegistryRule | RegistryPolicyFile |
-| V-15696.c | RegistryRule | RegistryPolicyFile |
-| V-15696.d | RegistryRule | RegistryPolicyFile |
-| V-15697.a | RegistryRule | RegistryPolicyFile |
-| V-15697.b | RegistryRule | RegistryPolicyFile |
-| V-15697.c | RegistryRule | RegistryPolicyFile |
-| V-15697.d | RegistryRule | RegistryPolicyFile |
-| V-15698.a | RegistryRule | RegistryPolicyFile |
-| V-15698.b | RegistryRule | RegistryPolicyFile |
-| V-15698.c | RegistryRule | RegistryPolicyFile |
-| V-15698.d | RegistryRule | RegistryPolicyFile |
-| V-15698.e | RegistryRule | RegistryPolicyFile |
-| V-15699 | RegistryRule | RegistryPolicyFile |
-| V-15700 | RegistryRule | RegistryPolicyFile |
-| V-15701 | RegistryRule | RegistryPolicyFile |
-| V-15702 | RegistryRule | RegistryPolicyFile |
-| V-15703 | RegistryRule | RegistryPolicyFile |
-| V-15704 | RegistryRule | RegistryPolicyFile |
-| V-15705 | RegistryRule | RegistryPolicyFile |
-| V-15706 | RegistryRule | RegistryPolicyFile |
-| V-15707 | RegistryRule | RegistryPolicyFile |
-| V-15718 | RegistryRule | RegistryPolicyFile |
-| V-15722 | RegistryRule | RegistryPolicyFile |
-| V-15727 | RegistryRule | RegistryPolicyFile |
-| V-15991 | RegistryRule | Registry |
-| V-15997 | RegistryRule | RegistryPolicyFile |
-| V-15998 | RegistryRule | RegistryPolicyFile |
-| V-15999 | RegistryRule | RegistryPolicyFile |
-| V-16000 | RegistryRule | RegistryPolicyFile |
-| V-16008 | RegistryRule | Registry |
-| V-16020 | RegistryRule | RegistryPolicyFile |
-| V-16021 | RegistryRule | RegistryPolicyFile |
-| V-16048 | RegistryRule | RegistryPolicyFile |
-| V-21950 | RegistryRule | Registry |
-| V-21951 | RegistryRule | Registry |
-| V-21952 | RegistryRule | Registry |
-| V-21953 | RegistryRule | Registry |
-| V-21954 | RegistryRule | Registry |
-| V-21955 | RegistryRule | Registry |
-| V-21956 | RegistryRule | Registry |
-| V-21960 | RegistryRule | RegistryPolicyFile |
-| V-21961 | RegistryRule | RegistryPolicyFile |
-| V-21963 | RegistryRule | RegistryPolicyFile |
-| V-21964 | RegistryRule | RegistryPolicyFile |
-| V-21965 | RegistryRule | RegistryPolicyFile |
-| V-21967 | RegistryRule | RegistryPolicyFile |
-| V-21969 | RegistryRule | RegistryPolicyFile |
-| V-21970 | RegistryRule | RegistryPolicyFile |
-| V-21971 | RegistryRule | RegistryPolicyFile |
-| V-21973 | RegistryRule | RegistryPolicyFile |
-| V-21980 | RegistryRule | RegistryPolicyFile |
-| V-22692 | RegistryRule | RegistryPolicyFile |
-| V-26283 | RegistryRule | Registry |
-| V-26359 | RegistryRule | Registry |
-| V-26575 | RegistryRule | RegistryPolicyFile |
-| V-26576 | RegistryRule | RegistryPolicyFile |
-| V-26577 | RegistryRule | RegistryPolicyFile |
-| V-26578 | RegistryRule | RegistryPolicyFile |
-| V-26579 | RegistryRule | RegistryPolicyFile |
-| V-26580 | RegistryRule | RegistryPolicyFile |
-| V-26581 | RegistryRule | RegistryPolicyFile |
-| V-26582 | RegistryRule | RegistryPolicyFile |
-| V-28504 | RegistryRule | RegistryPolicyFile |
-| V-34974 | RegistryRule | RegistryPolicyFile |
-| V-36656 | RegistryRule | RegistryPolicyFile |
-| V-36657 | RegistryRule | RegistryPolicyFile |
-| V-36673 | RegistryRule | RegistryPolicyFile |
-| V-36677 | RegistryRule | RegistryPolicyFile |
-| V-36678 | RegistryRule | RegistryPolicyFile |
-| V-36679 | RegistryRule | RegistryPolicyFile |
-| V-36680 | RegistryRule | RegistryPolicyFile |
-| V-36681 | RegistryRule | RegistryPolicyFile |
-| V-36684 | RegistryRule | RegistryPolicyFile |
-| V-36687 | RegistryRule | RegistryPolicyFile |
-| V-36696 | RegistryRule | RegistryPolicyFile |
-| V-36697 | RegistryRule | RegistryPolicyFile |
-| V-36698 | RegistryRule | RegistryPolicyFile |
-| V-36700 | RegistryRule | RegistryPolicyFile |
-| V-36707 | RegistryRule | RegistryPolicyFile |
-| V-36708 | RegistryRule | RegistryPolicyFile |
-| V-36709 | RegistryRule | RegistryPolicyFile |
-| V-36710.a | RegistryRule | RegistryPolicyFile |
-| V-36710.b | RegistryRule | RegistryPolicyFile |
-| V-36711 | RegistryRule | RegistryPolicyFile |
-| V-36712 | RegistryRule | RegistryPolicyFile |
-| V-36713 | RegistryRule | RegistryPolicyFile |
-| V-36714 | RegistryRule | RegistryPolicyFile |
-| V-36718 | RegistryRule | RegistryPolicyFile |
-| V-36719 | RegistryRule | RegistryPolicyFile |
-| V-36720 | RegistryRule | RegistryPolicyFile |
-| V-36773 | RegistryRule | Registry |
-| V-36776 | RegistryRule | RegistryPolicyFile |
-| V-36777 | RegistryRule | RegistryPolicyFile |
-| V-40204 | RegistryRule | RegistryPolicyFile |
-| V-43238 | RegistryRule | RegistryPolicyFile |
-| V-43239 | RegistryRule | RegistryPolicyFile |
-| V-43240 | RegistryRule | RegistryPolicyFile |
-| V-43241 | RegistryRule | RegistryPolicyFile |
-| V-43245 | RegistryRule | RegistryPolicyFile |
-| V-57639 | RegistryRule | Registry |
-| V-72753 | RegistryRule | RegistryPolicyFile |
-| V-73519 | RegistryRule | RegistryPolicyFile |
-| V-80475 | RegistryRule | RegistryPolicyFile |
-| V-1113 | SecurityOptionRule | SecurityOption |
-| V-1114 | SecurityOptionRule | SecurityOption |
-| V-1115 | SecurityOptionRule | SecurityOption |
-| V-3337 | SecurityOptionRule | SecurityOption |
-| V-3380 | SecurityOptionRule | SecurityOption |
-| V-1074 | ServiceRule | Service |
-| V-8327.a | ServiceRule | Service |
-| V-8327.b | ServiceRule | Service |
-| V-8327.c | ServiceRule | Service |
-| V-8327.d | ServiceRule | Service |
-| V-8327.e | ServiceRule | Service |
-| V-8327.f | ServiceRule | Service |
-| V-8327.g | ServiceRule | Service |
-| V-8327.h | ServiceRule | Service |
-| V-8327.i | ServiceRule | Service |
-| V-15505 | ServiceRule | Service |
-| V-26600 | ServiceRule | Service |
-| V-26602 | ServiceRule | Service |
-| V-26604 | ServiceRule | Service |
-| V-26605 | ServiceRule | Service |
-| V-26606 | ServiceRule | Service |
-| V-36736 | ServiceRule | Service |
-| V-40206 | ServiceRule | Service |
-| V-42420 | ServiceRule | Service |
-| V-1102 | UserRightRule | UserRightsAssignment |
-| V-1155 | UserRightRule | UserRightsAssignment |
-| V-18010 | UserRightRule | UserRightsAssignment |
-| V-26469 | UserRightRule | UserRightsAssignment |
-| V-26470 | UserRightRule | UserRightsAssignment |
-| V-26472 | UserRightRule | UserRightsAssignment |
-| V-26473 | UserRightRule | UserRightsAssignment |
-| V-26474 | UserRightRule | UserRightsAssignment |
-| V-26478 | UserRightRule | UserRightsAssignment |
-| V-26479 | UserRightRule | UserRightsAssignment |
-| V-26480 | UserRightRule | UserRightsAssignment |
-| V-26481 | UserRightRule | UserRightsAssignment |
-| V-26482 | UserRightRule | UserRightsAssignment |
-| V-26483 | UserRightRule | UserRightsAssignment |
-| V-26484 | UserRightRule | UserRightsAssignment |
-| V-26485 | UserRightRule | UserRightsAssignment |
-| V-26486 | UserRightRule | UserRightsAssignment |
-| V-26487 | UserRightRule | UserRightsAssignment |
-| V-26488 | UserRightRule | UserRightsAssignment |
-| V-26489 | UserRightRule | UserRightsAssignment |
-| V-26490 | UserRightRule | UserRightsAssignment |
-| V-26492 | UserRightRule | UserRightsAssignment |
-| V-26493 | UserRightRule | UserRightsAssignment |
-| V-26494 | UserRightRule | UserRightsAssignment |
-| V-26496 | UserRightRule | UserRightsAssignment |
-| V-26498 | UserRightRule | UserRightsAssignment |
-| V-26499 | UserRightRule | UserRightsAssignment |
-| V-26500 | UserRightRule | UserRightsAssignment |
-| V-26504 | UserRightRule | UserRightsAssignment |
-| V-26506 | UserRightRule | UserRightsAssignment |
-| V-30016 | UserRightRule | UserRightsAssignment |
-| V-73805 | WindowsFeatureRule | WindowsFeature |
-| V-80477 | WindowsFeatureRule | WindowsFeature |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-1097 | AccountPolicyRule | AccountPolicy |  |
+| V-1098 | AccountPolicyRule | AccountPolicy |  |
+| V-1099 | AccountPolicyRule | AccountPolicy |  |
+| V-1104 | AccountPolicyRule | AccountPolicy |  |
+| V-1105 | AccountPolicyRule | AccountPolicy |  |
+| V-1107 | AccountPolicyRule | AccountPolicy |  |
+| V-1150 | AccountPolicyRule | AccountPolicy |  |
+| V-2372 | AccountPolicyRule | AccountPolicy |  |
+| V-2376 | AccountPolicyRule | AccountPolicy |  |
+| V-2377 | AccountPolicyRule | AccountPolicy |  |
+| V-2378 | AccountPolicyRule | AccountPolicy |  |
+| V-2379 | AccountPolicyRule | AccountPolicy |  |
+| V-2380 | AccountPolicyRule | AccountPolicy |  |
+| V-6836 | AccountPolicyRule | AccountPolicy |  |
+| V-26529 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26530 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26531 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26533 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26535 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26537 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26538 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26539 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26540 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26541 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26542 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26543 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26546 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26547 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26548 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26549 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26550 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26551 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26552 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26553 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26555 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26557 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26558 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-33663 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-33664 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-33665 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-33666 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-36667 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-36668 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-40200 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-40202 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-57633 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-78057 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-78059 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-78061 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-78063 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-1073 | AuditSettingRule | AuditSetting |  |
+| V-1081 | AuditSettingRule | AuditSetting |  |
+| V-80473 | AuditSettingRule | AuditSetting |  |
+| V-1152 | PermissionRule | RegistryAccessEntry |  |
+| V-26070 | PermissionRule | RegistryAccessEntry |  |
+| V-32282 | PermissionRule | RegistryAccessEntry |  |
+| V-36722 | PermissionRule | NTFSAccessEntry |  |
+| V-36723 | PermissionRule | NTFSAccessEntry |  |
+| V-36724 | PermissionRule | NTFSAccessEntry |  |
+| V-39331 | PermissionRule | NTFSAccessEntry |  |
+| V-40177.a | PermissionRule | NTFSAccessEntry |  |
+| V-40177.b | PermissionRule | NTFSAccessEntry |  |
+| V-40178 | PermissionRule | NTFSAccessEntry |  |
+| V-40179 | PermissionRule | NTFSAccessEntry |  |
+| V-57721 | PermissionRule | NTFSAccessEntry |  |
+| V-1075 | RegistryRule | Registry |  |
+| V-1089 | RegistryRule | Registry |  |
+| V-1090 | RegistryRule | Registry |  |
+| V-1093 | RegistryRule | Registry |  |
+| V-1136 | RegistryRule | Registry |  |
+| V-1141 | RegistryRule | Registry |  |
+| V-1145 | RegistryRule | Registry |  |
+| V-1151 | RegistryRule | Registry |  |
+| V-1153 | RegistryRule | Registry |  |
+| V-1154 | RegistryRule | Registry |  |
+| V-1157 | RegistryRule | Registry |  |
+| V-1162 | RegistryRule | Registry |  |
+| V-1163 | RegistryRule | Registry |  |
+| V-1164 | RegistryRule | Registry |  |
+| V-1165 | RegistryRule | Registry |  |
+| V-1166 | RegistryRule | Registry |  |
+| V-1171 | RegistryRule | Registry |  |
+| V-1172 | RegistryRule | Registry |  |
+| V-1173 | RegistryRule | Registry |  |
+| V-1174 | RegistryRule | Registry |  |
+| V-2374 | RegistryRule | RegistryPolicyFile |  |
+| V-3338 | RegistryRule | Registry |  |
+| V-3339 | RegistryRule | Registry |  |
+| V-3340 | RegistryRule | Registry |  |
+| V-3343 | RegistryRule | RegistryPolicyFile |  |
+| V-3344 | RegistryRule | Registry |  |
+| V-3373 | RegistryRule | Registry |  |
+| V-3374 | RegistryRule | Registry |  |
+| V-3377 | RegistryRule | Registry |  |
+| V-3378 | RegistryRule | Registry |  |
+| V-3379 | RegistryRule | Registry |  |
+| V-3381 | RegistryRule | Registry |  |
+| V-3382 | RegistryRule | Registry |  |
+| V-3383 | RegistryRule | Registry |  |
+| V-3385 | RegistryRule | Registry |  |
+| V-3449 | RegistryRule | RegistryPolicyFile |  |
+| V-3453 | RegistryRule | RegistryPolicyFile |  |
+| V-3454 | RegistryRule | RegistryPolicyFile |  |
+| V-3455 | RegistryRule | RegistryPolicyFile |  |
+| V-3456 | RegistryRule | RegistryPolicyFile |  |
+| V-3469 | RegistryRule | RegistryPolicyFile |  |
+| V-3470 | RegistryRule | RegistryPolicyFile |  |
+| V-3479 | RegistryRule | Registry |  |
+| V-3480 | RegistryRule | RegistryPolicyFile |  |
+| V-3481 | RegistryRule | RegistryPolicyFile |  |
+| V-3666 | RegistryRule | Registry |  |
+| V-4108 | RegistryRule | Registry |  |
+| V-4110 | RegistryRule | Registry |  |
+| V-4111 | RegistryRule | Registry |  |
+| V-4112 | RegistryRule | Registry |  |
+| V-4113 | RegistryRule | Registry |  |
+| V-4116 | RegistryRule | Registry |  |
+| V-4407 | RegistryRule | Registry |  |
+| V-4408 | RegistryRule | Registry |  |
+| V-4438 | RegistryRule | Registry |  |
+| V-4442 | RegistryRule | Registry |  |
+| V-4443 | RegistryRule | Registry |  |
+| V-4445 | RegistryRule | Registry |  |
+| V-4447 | RegistryRule | RegistryPolicyFile |  |
+| V-4448 | RegistryRule | RegistryPolicyFile |  |
+| V-6831 | RegistryRule | Registry |  |
+| V-6832 | RegistryRule | Registry |  |
+| V-6833 | RegistryRule | Registry |  |
+| V-6834 | RegistryRule | Registry |  |
+| V-8322.a | RegistryRule | Registry |  |
+| V-8322.b | RegistryRule | Registry |  |
+| V-8324 | RegistryRule | Registry |  |
+| V-11806 | RegistryRule | Registry |  |
+| V-14228 | RegistryRule | Registry |  |
+| V-14229 | RegistryRule | Registry |  |
+| V-14230 | RegistryRule | Registry |  |
+| V-14232 | RegistryRule | Registry |  |
+| V-14234 | RegistryRule | Registry |  |
+| V-14235 | RegistryRule | Registry |  |
+| V-14236 | RegistryRule | Registry |  |
+| V-14237 | RegistryRule | Registry |  |
+| V-14239 | RegistryRule | Registry |  |
+| V-14240 | RegistryRule | Registry |  |
+| V-14241 | RegistryRule | Registry |  |
+| V-14242 | RegistryRule | Registry |  |
+| V-14243 | RegistryRule | RegistryPolicyFile |  |
+| V-14247 | RegistryRule | RegistryPolicyFile |  |
+| V-14249 | RegistryRule | RegistryPolicyFile |  |
+| V-14259 | RegistryRule | RegistryPolicyFile |  |
+| V-14260 | RegistryRule | RegistryPolicyFile |  |
+| V-14261 | RegistryRule | RegistryPolicyFile |  |
+| V-14268 | RegistryRule | RegistryPolicyFile |  |
+| V-14269 | RegistryRule | RegistryPolicyFile |  |
+| V-14270 | RegistryRule | RegistryPolicyFile |  |
+| V-15666 | RegistryRule | RegistryPolicyFile |  |
+| V-15667 | RegistryRule | RegistryPolicyFile |  |
+| V-15672 | RegistryRule | RegistryPolicyFile |  |
+| V-15674 | RegistryRule | RegistryPolicyFile |  |
+| V-15682 | RegistryRule | RegistryPolicyFile |  |
+| V-15683 | RegistryRule | RegistryPolicyFile |  |
+| V-15684 | RegistryRule | RegistryPolicyFile |  |
+| V-15685 | RegistryRule | RegistryPolicyFile |  |
+| V-15686 | RegistryRule | RegistryPolicyFile |  |
+| V-15687 | RegistryRule | RegistryPolicyFile |  |
+| V-15696.a | RegistryRule | RegistryPolicyFile |  |
+| V-15696.b | RegistryRule | RegistryPolicyFile |  |
+| V-15696.c | RegistryRule | RegistryPolicyFile |  |
+| V-15696.d | RegistryRule | RegistryPolicyFile |  |
+| V-15697.a | RegistryRule | RegistryPolicyFile |  |
+| V-15697.b | RegistryRule | RegistryPolicyFile |  |
+| V-15697.c | RegistryRule | RegistryPolicyFile |  |
+| V-15697.d | RegistryRule | RegistryPolicyFile |  |
+| V-15698.a | RegistryRule | RegistryPolicyFile |  |
+| V-15698.b | RegistryRule | RegistryPolicyFile |  |
+| V-15698.c | RegistryRule | RegistryPolicyFile |  |
+| V-15698.d | RegistryRule | RegistryPolicyFile |  |
+| V-15698.e | RegistryRule | RegistryPolicyFile |  |
+| V-15699 | RegistryRule | RegistryPolicyFile |  |
+| V-15700 | RegistryRule | RegistryPolicyFile |  |
+| V-15701 | RegistryRule | RegistryPolicyFile |  |
+| V-15702 | RegistryRule | RegistryPolicyFile |  |
+| V-15703 | RegistryRule | RegistryPolicyFile |  |
+| V-15704 | RegistryRule | RegistryPolicyFile |  |
+| V-15705 | RegistryRule | RegistryPolicyFile |  |
+| V-15706 | RegistryRule | RegistryPolicyFile |  |
+| V-15707 | RegistryRule | RegistryPolicyFile |  |
+| V-15718 | RegistryRule | RegistryPolicyFile |  |
+| V-15722 | RegistryRule | RegistryPolicyFile |  |
+| V-15727 | RegistryRule | RegistryPolicyFile |  |
+| V-15991 | RegistryRule | Registry |  |
+| V-15997 | RegistryRule | RegistryPolicyFile |  |
+| V-15998 | RegistryRule | RegistryPolicyFile |  |
+| V-15999 | RegistryRule | RegistryPolicyFile |  |
+| V-16000 | RegistryRule | RegistryPolicyFile |  |
+| V-16008 | RegistryRule | Registry |  |
+| V-16020 | RegistryRule | RegistryPolicyFile |  |
+| V-16021 | RegistryRule | RegistryPolicyFile |  |
+| V-16048 | RegistryRule | RegistryPolicyFile |  |
+| V-21950 | RegistryRule | Registry |  |
+| V-21951 | RegistryRule | Registry |  |
+| V-21952 | RegistryRule | Registry |  |
+| V-21953 | RegistryRule | Registry |  |
+| V-21954 | RegistryRule | Registry |  |
+| V-21955 | RegistryRule | Registry |  |
+| V-21956 | RegistryRule | Registry |  |
+| V-21960 | RegistryRule | RegistryPolicyFile |  |
+| V-21961 | RegistryRule | RegistryPolicyFile |  |
+| V-21963 | RegistryRule | RegistryPolicyFile |  |
+| V-21964 | RegistryRule | RegistryPolicyFile |  |
+| V-21965 | RegistryRule | RegistryPolicyFile |  |
+| V-21967 | RegistryRule | RegistryPolicyFile |  |
+| V-21969 | RegistryRule | RegistryPolicyFile |  |
+| V-21970 | RegistryRule | RegistryPolicyFile |  |
+| V-21971 | RegistryRule | RegistryPolicyFile |  |
+| V-21973 | RegistryRule | RegistryPolicyFile |  |
+| V-21980 | RegistryRule | RegistryPolicyFile |  |
+| V-22692 | RegistryRule | RegistryPolicyFile |  |
+| V-26283 | RegistryRule | Registry |  |
+| V-26359 | RegistryRule | Registry |  |
+| V-26575 | RegistryRule | RegistryPolicyFile |  |
+| V-26576 | RegistryRule | RegistryPolicyFile |  |
+| V-26577 | RegistryRule | RegistryPolicyFile |  |
+| V-26578 | RegistryRule | RegistryPolicyFile |  |
+| V-26579 | RegistryRule | RegistryPolicyFile |  |
+| V-26580 | RegistryRule | RegistryPolicyFile |  |
+| V-26581 | RegistryRule | RegistryPolicyFile |  |
+| V-26582 | RegistryRule | RegistryPolicyFile |  |
+| V-28504 | RegistryRule | RegistryPolicyFile |  |
+| V-34974 | RegistryRule | RegistryPolicyFile |  |
+| V-36656 | RegistryRule | RegistryPolicyFile |  |
+| V-36657 | RegistryRule | RegistryPolicyFile |  |
+| V-36673 | RegistryRule | RegistryPolicyFile |  |
+| V-36677 | RegistryRule | RegistryPolicyFile |  |
+| V-36678 | RegistryRule | RegistryPolicyFile |  |
+| V-36679 | RegistryRule | RegistryPolicyFile |  |
+| V-36680 | RegistryRule | RegistryPolicyFile |  |
+| V-36681 | RegistryRule | RegistryPolicyFile |  |
+| V-36684 | RegistryRule | RegistryPolicyFile |  |
+| V-36687 | RegistryRule | RegistryPolicyFile |  |
+| V-36696 | RegistryRule | RegistryPolicyFile |  |
+| V-36697 | RegistryRule | RegistryPolicyFile |  |
+| V-36698 | RegistryRule | RegistryPolicyFile |  |
+| V-36700 | RegistryRule | RegistryPolicyFile |  |
+| V-36707 | RegistryRule | RegistryPolicyFile |  |
+| V-36708 | RegistryRule | RegistryPolicyFile |  |
+| V-36709 | RegistryRule | RegistryPolicyFile |  |
+| V-36710.a | RegistryRule | RegistryPolicyFile |  |
+| V-36710.b | RegistryRule | RegistryPolicyFile |  |
+| V-36711 | RegistryRule | RegistryPolicyFile |  |
+| V-36712 | RegistryRule | RegistryPolicyFile |  |
+| V-36713 | RegistryRule | RegistryPolicyFile |  |
+| V-36714 | RegistryRule | RegistryPolicyFile |  |
+| V-36718 | RegistryRule | RegistryPolicyFile |  |
+| V-36719 | RegistryRule | RegistryPolicyFile |  |
+| V-36720 | RegistryRule | RegistryPolicyFile |  |
+| V-36773 | RegistryRule | Registry |  |
+| V-36776 | RegistryRule | RegistryPolicyFile |  |
+| V-36777 | RegistryRule | RegistryPolicyFile |  |
+| V-40204 | RegistryRule | RegistryPolicyFile |  |
+| V-43238 | RegistryRule | RegistryPolicyFile |  |
+| V-43239 | RegistryRule | RegistryPolicyFile |  |
+| V-43240 | RegistryRule | RegistryPolicyFile |  |
+| V-43241 | RegistryRule | RegistryPolicyFile |  |
+| V-43245 | RegistryRule | RegistryPolicyFile |  |
+| V-57639 | RegistryRule | Registry |  |
+| V-72753 | RegistryRule | RegistryPolicyFile |  |
+| V-73519 | RegistryRule | RegistryPolicyFile |  |
+| V-80475 | RegistryRule | RegistryPolicyFile |  |
+| V-1113 | SecurityOptionRule | SecurityOption |  |
+| V-1114 | SecurityOptionRule | SecurityOption |  |
+| V-1115 | SecurityOptionRule | SecurityOption |  |
+| V-3337 | SecurityOptionRule | SecurityOption |  |
+| V-3380 | SecurityOptionRule | SecurityOption |  |
+| V-1074 | ServiceRule | Service |  |
+| V-8327.a | ServiceRule | Service |  |
+| V-8327.b | ServiceRule | Service |  |
+| V-8327.c | ServiceRule | Service |  |
+| V-8327.d | ServiceRule | Service |  |
+| V-8327.e | ServiceRule | Service |  |
+| V-8327.f | ServiceRule | Service |  |
+| V-8327.g | ServiceRule | Service |  |
+| V-8327.h | ServiceRule | Service |  |
+| V-8327.i | ServiceRule | Service |  |
+| V-15505 | ServiceRule | Service |  |
+| V-26600 | ServiceRule | Service |  |
+| V-26602 | ServiceRule | Service |  |
+| V-26604 | ServiceRule | Service |  |
+| V-26605 | ServiceRule | Service |  |
+| V-26606 | ServiceRule | Service |  |
+| V-36736 | ServiceRule | Service |  |
+| V-40206 | ServiceRule | Service |  |
+| V-42420 | ServiceRule | Service |  |
+| V-1102 | UserRightRule | UserRightsAssignment |  |
+| V-1155 | UserRightRule | UserRightsAssignment |  |
+| V-18010 | UserRightRule | UserRightsAssignment |  |
+| V-26469 | UserRightRule | UserRightsAssignment |  |
+| V-26470 | UserRightRule | UserRightsAssignment |  |
+| V-26472 | UserRightRule | UserRightsAssignment |  |
+| V-26473 | UserRightRule | UserRightsAssignment |  |
+| V-26474 | UserRightRule | UserRightsAssignment |  |
+| V-26478 | UserRightRule | UserRightsAssignment |  |
+| V-26479 | UserRightRule | UserRightsAssignment |  |
+| V-26480 | UserRightRule | UserRightsAssignment |  |
+| V-26481 | UserRightRule | UserRightsAssignment |  |
+| V-26482 | UserRightRule | UserRightsAssignment |  |
+| V-26483 | UserRightRule | UserRightsAssignment |  |
+| V-26484 | UserRightRule | UserRightsAssignment |  |
+| V-26485 | UserRightRule | UserRightsAssignment |  |
+| V-26486 | UserRightRule | UserRightsAssignment |  |
+| V-26487 | UserRightRule | UserRightsAssignment |  |
+| V-26488 | UserRightRule | UserRightsAssignment |  |
+| V-26489 | UserRightRule | UserRightsAssignment |  |
+| V-26490 | UserRightRule | UserRightsAssignment |  |
+| V-26492 | UserRightRule | UserRightsAssignment |  |
+| V-26493 | UserRightRule | UserRightsAssignment |  |
+| V-26494 | UserRightRule | UserRightsAssignment |  |
+| V-26496 | UserRightRule | UserRightsAssignment |  |
+| V-26498 | UserRightRule | UserRightsAssignment |  |
+| V-26499 | UserRightRule | UserRightsAssignment |  |
+| V-26500 | UserRightRule | UserRightsAssignment |  |
+| V-26504 | UserRightRule | UserRightsAssignment |  |
+| V-26506 | UserRightRule | UserRightsAssignment |  |
+| V-30016 | UserRightRule | UserRightsAssignment |  |
+| V-73805 | WindowsFeatureRule | WindowsFeature |  |
+| V-80477 | WindowsFeatureRule | WindowsFeature |  |
 
 ## Windows 2012 MS STIG, Version 2.16
 
@@ -3069,312 +3069,312 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_Windows_2012_and_2012_R2_MS_STIG_V2R16_Manual-xccdf.xml  
 **Created:** 9/6/2019  
 **Description:** The Windows Server 2012/2012 R2 Member Server Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **313** of **348** rules are automated; **90%**  
+**StigRuleCoverage:** **302** of **348** rules are automated; **87%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-1097 | AccountPolicyRule | AccountPolicy |
-| V-1098 | AccountPolicyRule | AccountPolicy |
-| V-1099 | AccountPolicyRule | AccountPolicy |
-| V-1104 | AccountPolicyRule | AccountPolicy |
-| V-1105 | AccountPolicyRule | AccountPolicy |
-| V-1107 | AccountPolicyRule | AccountPolicy |
-| V-1150 | AccountPolicyRule | AccountPolicy |
-| V-2372 | AccountPolicyRule | AccountPolicy |
-| V-6836 | AccountPolicyRule | AccountPolicy |
-| V-26529 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26530 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26533 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26535 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26537 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26538 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26539 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26540 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26541 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26542 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26543 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26546 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26547 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26548 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26549 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26550 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26551 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26552 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26553 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26555 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26557 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26558 | AuditPolicyRule | AuditPolicySubcategory |
-| V-36667 | AuditPolicyRule | AuditPolicySubcategory |
-| V-36668 | AuditPolicyRule | AuditPolicySubcategory |
-| V-40200 | AuditPolicyRule | AuditPolicySubcategory |
-| V-40202 | AuditPolicyRule | AuditPolicySubcategory |
-| V-57633 | AuditPolicyRule | AuditPolicySubcategory |
-| V-78057 | AuditPolicyRule | AuditPolicySubcategory |
-| V-78059 | AuditPolicyRule | AuditPolicySubcategory |
-| V-78061 | AuditPolicyRule | AuditPolicySubcategory |
-| V-78063 | AuditPolicyRule | AuditPolicySubcategory |
-| V-1073 | AuditSettingRule | AuditSetting |
-| V-1081 | AuditSettingRule | AuditSetting |
-| V-6840 | AuditSettingRule | AuditSetting |
-| V-7002 | AuditSettingRule | AuditSetting |
-| V-80473 | AuditSettingRule | AuditSetting |
-| V-1152 | PermissionRule | RegistryAccessEntry |
-| V-26070 | PermissionRule | RegistryAccessEntry |
-| V-32282 | PermissionRule | RegistryAccessEntry |
-| V-36722 | PermissionRule | NTFSAccessEntry |
-| V-36723 | PermissionRule | NTFSAccessEntry |
-| V-36724 | PermissionRule | NTFSAccessEntry |
-| V-40177.a | PermissionRule | NTFSAccessEntry |
-| V-40177.b | PermissionRule | NTFSAccessEntry |
-| V-40178 | PermissionRule | NTFSAccessEntry |
-| V-40179 | PermissionRule | NTFSAccessEntry |
-| V-57721 | PermissionRule | NTFSAccessEntry |
-| V-1075 | RegistryRule | Registry |
-| V-1089 | RegistryRule | Registry |
-| V-1090 | RegistryRule | Registry |
-| V-1093 | RegistryRule | Registry |
-| V-1136 | RegistryRule | Registry |
-| V-1141 | RegistryRule | Registry |
-| V-1145 | RegistryRule | Registry |
-| V-1151 | RegistryRule | Registry |
-| V-1153 | RegistryRule | Registry |
-| V-1154 | RegistryRule | Registry |
-| V-1157 | RegistryRule | Registry |
-| V-1162 | RegistryRule | Registry |
-| V-1163 | RegistryRule | Registry |
-| V-1164 | RegistryRule | Registry |
-| V-1165 | RegistryRule | Registry |
-| V-1166 | RegistryRule | Registry |
-| V-1171 | RegistryRule | Registry |
-| V-1172 | RegistryRule | Registry |
-| V-1173 | RegistryRule | Registry |
-| V-1174 | RegistryRule | Registry |
-| V-2374 | RegistryRule | RegistryPolicyFile |
-| V-3338 | RegistryRule | Registry |
-| V-3339 | RegistryRule | Registry |
-| V-3340 | RegistryRule | Registry |
-| V-3343 | RegistryRule | RegistryPolicyFile |
-| V-3344 | RegistryRule | Registry |
-| V-3373 | RegistryRule | Registry |
-| V-3374 | RegistryRule | Registry |
-| V-3377 | RegistryRule | Registry |
-| V-3378 | RegistryRule | Registry |
-| V-3379 | RegistryRule | Registry |
-| V-3381 | RegistryRule | Registry |
-| V-3382 | RegistryRule | Registry |
-| V-3383 | RegistryRule | Registry |
-| V-3385 | RegistryRule | Registry |
-| V-3449 | RegistryRule | RegistryPolicyFile |
-| V-3453 | RegistryRule | RegistryPolicyFile |
-| V-3454 | RegistryRule | RegistryPolicyFile |
-| V-3455 | RegistryRule | RegistryPolicyFile |
-| V-3456 | RegistryRule | RegistryPolicyFile |
-| V-3469 | RegistryRule | RegistryPolicyFile |
-| V-3470 | RegistryRule | RegistryPolicyFile |
-| V-3479 | RegistryRule | Registry |
-| V-3480 | RegistryRule | RegistryPolicyFile |
-| V-3481 | RegistryRule | RegistryPolicyFile |
-| V-3666 | RegistryRule | Registry |
-| V-4108 | RegistryRule | Registry |
-| V-4110 | RegistryRule | Registry |
-| V-4111 | RegistryRule | Registry |
-| V-4112 | RegistryRule | Registry |
-| V-4113 | RegistryRule | Registry |
-| V-4116 | RegistryRule | Registry |
-| V-4438 | RegistryRule | Registry |
-| V-4442 | RegistryRule | Registry |
-| V-4443 | RegistryRule | Registry |
-| V-4445 | RegistryRule | Registry |
-| V-4447 | RegistryRule | RegistryPolicyFile |
-| V-4448 | RegistryRule | RegistryPolicyFile |
-| V-6831 | RegistryRule | Registry |
-| V-6832 | RegistryRule | Registry |
-| V-6833 | RegistryRule | Registry |
-| V-6834 | RegistryRule | Registry |
-| V-11806 | RegistryRule | Registry |
-| V-14228 | RegistryRule | Registry |
-| V-14229 | RegistryRule | Registry |
-| V-14230 | RegistryRule | Registry |
-| V-14232 | RegistryRule | Registry |
-| V-14234 | RegistryRule | Registry |
-| V-14235 | RegistryRule | Registry |
-| V-14236 | RegistryRule | Registry |
-| V-14237 | RegistryRule | Registry |
-| V-14239 | RegistryRule | Registry |
-| V-14240 | RegistryRule | Registry |
-| V-14241 | RegistryRule | Registry |
-| V-14242 | RegistryRule | Registry |
-| V-14243 | RegistryRule | RegistryPolicyFile |
-| V-14247 | RegistryRule | RegistryPolicyFile |
-| V-14249 | RegistryRule | RegistryPolicyFile |
-| V-14253 | RegistryRule | RegistryPolicyFile |
-| V-14259 | RegistryRule | RegistryPolicyFile |
-| V-14260 | RegistryRule | RegistryPolicyFile |
-| V-14261 | RegistryRule | RegistryPolicyFile |
-| V-14268 | RegistryRule | RegistryPolicyFile |
-| V-14269 | RegistryRule | RegistryPolicyFile |
-| V-14270 | RegistryRule | RegistryPolicyFile |
-| V-15666 | RegistryRule | RegistryPolicyFile |
-| V-15667 | RegistryRule | RegistryPolicyFile |
-| V-15672 | RegistryRule | RegistryPolicyFile |
-| V-15674 | RegistryRule | RegistryPolicyFile |
-| V-15682 | RegistryRule | RegistryPolicyFile |
-| V-15683 | RegistryRule | RegistryPolicyFile |
-| V-15684 | RegistryRule | RegistryPolicyFile |
-| V-15685 | RegistryRule | RegistryPolicyFile |
-| V-15686 | RegistryRule | RegistryPolicyFile |
-| V-15687 | RegistryRule | RegistryPolicyFile |
-| V-15696.a | RegistryRule | RegistryPolicyFile |
-| V-15696.b | RegistryRule | RegistryPolicyFile |
-| V-15696.c | RegistryRule | RegistryPolicyFile |
-| V-15696.d | RegistryRule | RegistryPolicyFile |
-| V-15697.a | RegistryRule | RegistryPolicyFile |
-| V-15697.b | RegistryRule | RegistryPolicyFile |
-| V-15697.c | RegistryRule | RegistryPolicyFile |
-| V-15697.d | RegistryRule | RegistryPolicyFile |
-| V-15698.a | RegistryRule | RegistryPolicyFile |
-| V-15698.b | RegistryRule | RegistryPolicyFile |
-| V-15698.c | RegistryRule | RegistryPolicyFile |
-| V-15698.d | RegistryRule | RegistryPolicyFile |
-| V-15698.e | RegistryRule | RegistryPolicyFile |
-| V-15699 | RegistryRule | RegistryPolicyFile |
-| V-15700 | RegistryRule | RegistryPolicyFile |
-| V-15701 | RegistryRule | RegistryPolicyFile |
-| V-15702 | RegistryRule | RegistryPolicyFile |
-| V-15703 | RegistryRule | RegistryPolicyFile |
-| V-15704 | RegistryRule | RegistryPolicyFile |
-| V-15705 | RegistryRule | RegistryPolicyFile |
-| V-15706 | RegistryRule | RegistryPolicyFile |
-| V-15707 | RegistryRule | RegistryPolicyFile |
-| V-15718 | RegistryRule | RegistryPolicyFile |
-| V-15722 | RegistryRule | RegistryPolicyFile |
-| V-15727 | RegistryRule | RegistryPolicyFile |
-| V-15991 | RegistryRule | Registry |
-| V-15997 | RegistryRule | RegistryPolicyFile |
-| V-15998 | RegistryRule | RegistryPolicyFile |
-| V-15999 | RegistryRule | RegistryPolicyFile |
-| V-16000 | RegistryRule | RegistryPolicyFile |
-| V-16008 | RegistryRule | Registry |
-| V-16020 | RegistryRule | RegistryPolicyFile |
-| V-16021 | RegistryRule | RegistryPolicyFile |
-| V-16048 | RegistryRule | RegistryPolicyFile |
-| V-21950 | RegistryRule | Registry |
-| V-21951 | RegistryRule | Registry |
-| V-21952 | RegistryRule | Registry |
-| V-21953 | RegistryRule | Registry |
-| V-21954 | RegistryRule | Registry |
-| V-21955 | RegistryRule | Registry |
-| V-21956 | RegistryRule | Registry |
-| V-21960 | RegistryRule | RegistryPolicyFile |
-| V-21961 | RegistryRule | RegistryPolicyFile |
-| V-21963 | RegistryRule | RegistryPolicyFile |
-| V-21964 | RegistryRule | RegistryPolicyFile |
-| V-21965 | RegistryRule | RegistryPolicyFile |
-| V-21967 | RegistryRule | RegistryPolicyFile |
-| V-21969 | RegistryRule | RegistryPolicyFile |
-| V-21970 | RegistryRule | RegistryPolicyFile |
-| V-21971 | RegistryRule | RegistryPolicyFile |
-| V-21973 | RegistryRule | RegistryPolicyFile |
-| V-21980 | RegistryRule | RegistryPolicyFile |
-| V-22692 | RegistryRule | RegistryPolicyFile |
-| V-26283 | RegistryRule | Registry |
-| V-26359 | RegistryRule | Registry |
-| V-26575 | RegistryRule | RegistryPolicyFile |
-| V-26576 | RegistryRule | RegistryPolicyFile |
-| V-26577 | RegistryRule | RegistryPolicyFile |
-| V-26578 | RegistryRule | RegistryPolicyFile |
-| V-26579 | RegistryRule | RegistryPolicyFile |
-| V-26580 | RegistryRule | RegistryPolicyFile |
-| V-26581 | RegistryRule | RegistryPolicyFile |
-| V-26582 | RegistryRule | RegistryPolicyFile |
-| V-28504 | RegistryRule | RegistryPolicyFile |
-| V-34974 | RegistryRule | RegistryPolicyFile |
-| V-36439 | RegistryRule | RegistryPolicyFile |
-| V-36656 | RegistryRule | RegistryPolicyFile |
-| V-36657 | RegistryRule | RegistryPolicyFile |
-| V-36673 | RegistryRule | RegistryPolicyFile |
-| V-36677 | RegistryRule | RegistryPolicyFile |
-| V-36678 | RegistryRule | RegistryPolicyFile |
-| V-36679 | RegistryRule | RegistryPolicyFile |
-| V-36680 | RegistryRule | RegistryPolicyFile |
-| V-36681 | RegistryRule | RegistryPolicyFile |
-| V-36684 | RegistryRule | RegistryPolicyFile |
-| V-36687 | RegistryRule | RegistryPolicyFile |
-| V-36696 | RegistryRule | RegistryPolicyFile |
-| V-36697 | RegistryRule | RegistryPolicyFile |
-| V-36698 | RegistryRule | RegistryPolicyFile |
-| V-36700 | RegistryRule | RegistryPolicyFile |
-| V-36707 | RegistryRule | RegistryPolicyFile |
-| V-36708 | RegistryRule | RegistryPolicyFile |
-| V-36709 | RegistryRule | RegistryPolicyFile |
-| V-36710.a | RegistryRule | RegistryPolicyFile |
-| V-36710.b | RegistryRule | RegistryPolicyFile |
-| V-36711 | RegistryRule | RegistryPolicyFile |
-| V-36712 | RegistryRule | RegistryPolicyFile |
-| V-36713 | RegistryRule | RegistryPolicyFile |
-| V-36714 | RegistryRule | RegistryPolicyFile |
-| V-36718 | RegistryRule | RegistryPolicyFile |
-| V-36719 | RegistryRule | RegistryPolicyFile |
-| V-36720 | RegistryRule | RegistryPolicyFile |
-| V-36773 | RegistryRule | Registry |
-| V-36776 | RegistryRule | RegistryPolicyFile |
-| V-36777 | RegistryRule | RegistryPolicyFile |
-| V-40204 | RegistryRule | RegistryPolicyFile |
-| V-43238 | RegistryRule | RegistryPolicyFile |
-| V-43239 | RegistryRule | RegistryPolicyFile |
-| V-43240 | RegistryRule | RegistryPolicyFile |
-| V-43241 | RegistryRule | RegistryPolicyFile |
-| V-43245 | RegistryRule | RegistryPolicyFile |
-| V-57639 | RegistryRule | Registry |
-| V-72753 | RegistryRule | RegistryPolicyFile |
-| V-73519 | RegistryRule | RegistryPolicyFile |
-| V-80475 | RegistryRule | RegistryPolicyFile |
-| V-1113 | SecurityOptionRule | SecurityOption |
-| V-1114 | SecurityOptionRule | SecurityOption |
-| V-1115 | SecurityOptionRule | SecurityOption |
-| V-3337 | SecurityOptionRule | SecurityOption |
-| V-3380 | SecurityOptionRule | SecurityOption |
-| V-15505 | ServiceRule | Service |
-| V-26600 | ServiceRule | Service |
-| V-26602 | ServiceRule | Service |
-| V-26604 | ServiceRule | Service |
-| V-26605 | ServiceRule | Service |
-| V-26606 | ServiceRule | Service |
-| V-36736 | ServiceRule | Service |
-| V-40206 | ServiceRule | Service |
-| V-42420 | ServiceRule | Service |
-| V-1102 | UserRightRule | UserRightsAssignment |
-| V-1155 | UserRightRule | UserRightsAssignment |
-| V-18010 | UserRightRule | UserRightsAssignment |
-| V-26469 | UserRightRule | UserRightsAssignment |
-| V-26470 | UserRightRule | UserRightsAssignment |
-| V-26472 | UserRightRule | UserRightsAssignment |
-| V-26473 | UserRightRule | UserRightsAssignment |
-| V-26474 | UserRightRule | UserRightsAssignment |
-| V-26478 | UserRightRule | UserRightsAssignment |
-| V-26479 | UserRightRule | UserRightsAssignment |
-| V-26480 | UserRightRule | UserRightsAssignment |
-| V-26481 | UserRightRule | UserRightsAssignment |
-| V-26482 | UserRightRule | UserRightsAssignment |
-| V-26483 | UserRightRule | UserRightsAssignment |
-| V-26484 | UserRightRule | UserRightsAssignment |
-| V-26485 | UserRightRule | UserRightsAssignment |
-| V-26486 | UserRightRule | UserRightsAssignment |
-| V-26487 | UserRightRule | UserRightsAssignment |
-| V-26488 | UserRightRule | UserRightsAssignment |
-| V-26489 | UserRightRule | UserRightsAssignment |
-| V-26490 | UserRightRule | UserRightsAssignment |
-| V-26492 | UserRightRule | UserRightsAssignment |
-| V-26493 | UserRightRule | UserRightsAssignment |
-| V-26494 | UserRightRule | UserRightsAssignment |
-| V-26496 | UserRightRule | UserRightsAssignment |
-| V-26498 | UserRightRule | UserRightsAssignment |
-| V-26499 | UserRightRule | UserRightsAssignment |
-| V-26500 | UserRightRule | UserRightsAssignment |
-| V-26504 | UserRightRule | UserRightsAssignment |
-| V-26506 | UserRightRule | UserRightsAssignment |
-| V-73805 | WindowsFeatureRule | WindowsFeature |
-| V-80477 | WindowsFeatureRule | WindowsFeature |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-1097 | AccountPolicyRule | AccountPolicy |  |
+| V-1098 | AccountPolicyRule | AccountPolicy |  |
+| V-1099 | AccountPolicyRule | AccountPolicy |  |
+| V-1104 | AccountPolicyRule | AccountPolicy |  |
+| V-1105 | AccountPolicyRule | AccountPolicy |  |
+| V-1107 | AccountPolicyRule | AccountPolicy |  |
+| V-1150 | AccountPolicyRule | AccountPolicy |  |
+| V-2372 | AccountPolicyRule | AccountPolicy |  |
+| V-6836 | AccountPolicyRule | AccountPolicy |  |
+| V-26529 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26530 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26533 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26535 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26537 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26538 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26539 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26540 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26541 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26542 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26543 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26546 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26547 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26548 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26549 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26550 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26551 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26552 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26553 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26555 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26557 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26558 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-36667 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-36668 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-40200 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-40202 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-57633 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-78057 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-78059 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-78061 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-78063 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-1073 | AuditSettingRule | AuditSetting |  |
+| V-1081 | AuditSettingRule | AuditSetting |  |
+| V-6840 | AuditSettingRule | AuditSetting |  |
+| V-7002 | AuditSettingRule | AuditSetting |  |
+| V-80473 | AuditSettingRule | AuditSetting |  |
+| V-1152 | PermissionRule | RegistryAccessEntry |  |
+| V-26070 | PermissionRule | RegistryAccessEntry |  |
+| V-32282 | PermissionRule | RegistryAccessEntry |  |
+| V-36722 | PermissionRule | NTFSAccessEntry |  |
+| V-36723 | PermissionRule | NTFSAccessEntry |  |
+| V-36724 | PermissionRule | NTFSAccessEntry |  |
+| V-40177.a | PermissionRule | NTFSAccessEntry |  |
+| V-40177.b | PermissionRule | NTFSAccessEntry |  |
+| V-40178 | PermissionRule | NTFSAccessEntry |  |
+| V-40179 | PermissionRule | NTFSAccessEntry |  |
+| V-57721 | PermissionRule | NTFSAccessEntry |  |
+| V-1075 | RegistryRule | Registry |  |
+| V-1089 | RegistryRule | Registry |  |
+| V-1090 | RegistryRule | Registry |  |
+| V-1093 | RegistryRule | Registry |  |
+| V-1136 | RegistryRule | Registry |  |
+| V-1141 | RegistryRule | Registry |  |
+| V-1145 | RegistryRule | Registry |  |
+| V-1151 | RegistryRule | Registry |  |
+| V-1153 | RegistryRule | Registry |  |
+| V-1154 | RegistryRule | Registry |  |
+| V-1157 | RegistryRule | Registry |  |
+| V-1162 | RegistryRule | Registry |  |
+| V-1163 | RegistryRule | Registry |  |
+| V-1164 | RegistryRule | Registry |  |
+| V-1165 | RegistryRule | Registry |  |
+| V-1166 | RegistryRule | Registry |  |
+| V-1171 | RegistryRule | Registry |  |
+| V-1172 | RegistryRule | Registry |  |
+| V-1173 | RegistryRule | Registry |  |
+| V-1174 | RegistryRule | Registry |  |
+| V-2374 | RegistryRule | RegistryPolicyFile |  |
+| V-3338 | RegistryRule | Registry |  |
+| V-3339 | RegistryRule | Registry |  |
+| V-3340 | RegistryRule | Registry |  |
+| V-3343 | RegistryRule | RegistryPolicyFile |  |
+| V-3344 | RegistryRule | Registry |  |
+| V-3373 | RegistryRule | Registry |  |
+| V-3374 | RegistryRule | Registry |  |
+| V-3377 | RegistryRule | Registry |  |
+| V-3378 | RegistryRule | Registry |  |
+| V-3379 | RegistryRule | Registry |  |
+| V-3381 | RegistryRule | Registry |  |
+| V-3382 | RegistryRule | Registry |  |
+| V-3383 | RegistryRule | Registry |  |
+| V-3385 | RegistryRule | Registry |  |
+| V-3449 | RegistryRule | RegistryPolicyFile |  |
+| V-3453 | RegistryRule | RegistryPolicyFile |  |
+| V-3454 | RegistryRule | RegistryPolicyFile |  |
+| V-3455 | RegistryRule | RegistryPolicyFile |  |
+| V-3456 | RegistryRule | RegistryPolicyFile |  |
+| V-3469 | RegistryRule | RegistryPolicyFile |  |
+| V-3470 | RegistryRule | RegistryPolicyFile |  |
+| V-3479 | RegistryRule | Registry |  |
+| V-3480 | RegistryRule | RegistryPolicyFile |  |
+| V-3481 | RegistryRule | RegistryPolicyFile |  |
+| V-3666 | RegistryRule | Registry |  |
+| V-4108 | RegistryRule | Registry |  |
+| V-4110 | RegistryRule | Registry |  |
+| V-4111 | RegistryRule | Registry |  |
+| V-4112 | RegistryRule | Registry |  |
+| V-4113 | RegistryRule | Registry |  |
+| V-4116 | RegistryRule | Registry |  |
+| V-4438 | RegistryRule | Registry |  |
+| V-4442 | RegistryRule | Registry |  |
+| V-4443 | RegistryRule | Registry |  |
+| V-4445 | RegistryRule | Registry |  |
+| V-4447 | RegistryRule | RegistryPolicyFile |  |
+| V-4448 | RegistryRule | RegistryPolicyFile |  |
+| V-6831 | RegistryRule | Registry |  |
+| V-6832 | RegistryRule | Registry |  |
+| V-6833 | RegistryRule | Registry |  |
+| V-6834 | RegistryRule | Registry |  |
+| V-11806 | RegistryRule | Registry |  |
+| V-14228 | RegistryRule | Registry |  |
+| V-14229 | RegistryRule | Registry |  |
+| V-14230 | RegistryRule | Registry |  |
+| V-14232 | RegistryRule | Registry |  |
+| V-14234 | RegistryRule | Registry |  |
+| V-14235 | RegistryRule | Registry |  |
+| V-14236 | RegistryRule | Registry |  |
+| V-14237 | RegistryRule | Registry |  |
+| V-14239 | RegistryRule | Registry |  |
+| V-14240 | RegistryRule | Registry |  |
+| V-14241 | RegistryRule | Registry |  |
+| V-14242 | RegistryRule | Registry |  |
+| V-14243 | RegistryRule | RegistryPolicyFile |  |
+| V-14247 | RegistryRule | RegistryPolicyFile |  |
+| V-14249 | RegistryRule | RegistryPolicyFile |  |
+| V-14253 | RegistryRule | RegistryPolicyFile |  |
+| V-14259 | RegistryRule | RegistryPolicyFile |  |
+| V-14260 | RegistryRule | RegistryPolicyFile |  |
+| V-14261 | RegistryRule | RegistryPolicyFile |  |
+| V-14268 | RegistryRule | RegistryPolicyFile |  |
+| V-14269 | RegistryRule | RegistryPolicyFile |  |
+| V-14270 | RegistryRule | RegistryPolicyFile |  |
+| V-15666 | RegistryRule | RegistryPolicyFile |  |
+| V-15667 | RegistryRule | RegistryPolicyFile |  |
+| V-15672 | RegistryRule | RegistryPolicyFile |  |
+| V-15674 | RegistryRule | RegistryPolicyFile |  |
+| V-15682 | RegistryRule | RegistryPolicyFile |  |
+| V-15683 | RegistryRule | RegistryPolicyFile |  |
+| V-15684 | RegistryRule | RegistryPolicyFile |  |
+| V-15685 | RegistryRule | RegistryPolicyFile |  |
+| V-15686 | RegistryRule | RegistryPolicyFile |  |
+| V-15687 | RegistryRule | RegistryPolicyFile |  |
+| V-15696.a | RegistryRule | RegistryPolicyFile |  |
+| V-15696.b | RegistryRule | RegistryPolicyFile |  |
+| V-15696.c | RegistryRule | RegistryPolicyFile |  |
+| V-15696.d | RegistryRule | RegistryPolicyFile |  |
+| V-15697.a | RegistryRule | RegistryPolicyFile |  |
+| V-15697.b | RegistryRule | RegistryPolicyFile |  |
+| V-15697.c | RegistryRule | RegistryPolicyFile |  |
+| V-15697.d | RegistryRule | RegistryPolicyFile |  |
+| V-15698.a | RegistryRule | RegistryPolicyFile |  |
+| V-15698.b | RegistryRule | RegistryPolicyFile |  |
+| V-15698.c | RegistryRule | RegistryPolicyFile |  |
+| V-15698.d | RegistryRule | RegistryPolicyFile |  |
+| V-15698.e | RegistryRule | RegistryPolicyFile |  |
+| V-15699 | RegistryRule | RegistryPolicyFile |  |
+| V-15700 | RegistryRule | RegistryPolicyFile |  |
+| V-15701 | RegistryRule | RegistryPolicyFile |  |
+| V-15702 | RegistryRule | RegistryPolicyFile |  |
+| V-15703 | RegistryRule | RegistryPolicyFile |  |
+| V-15704 | RegistryRule | RegistryPolicyFile |  |
+| V-15705 | RegistryRule | RegistryPolicyFile |  |
+| V-15706 | RegistryRule | RegistryPolicyFile |  |
+| V-15707 | RegistryRule | RegistryPolicyFile |  |
+| V-15718 | RegistryRule | RegistryPolicyFile |  |
+| V-15722 | RegistryRule | RegistryPolicyFile |  |
+| V-15727 | RegistryRule | RegistryPolicyFile |  |
+| V-15991 | RegistryRule | Registry |  |
+| V-15997 | RegistryRule | RegistryPolicyFile |  |
+| V-15998 | RegistryRule | RegistryPolicyFile |  |
+| V-15999 | RegistryRule | RegistryPolicyFile |  |
+| V-16000 | RegistryRule | RegistryPolicyFile |  |
+| V-16008 | RegistryRule | Registry |  |
+| V-16020 | RegistryRule | RegistryPolicyFile |  |
+| V-16021 | RegistryRule | RegistryPolicyFile |  |
+| V-16048 | RegistryRule | RegistryPolicyFile |  |
+| V-21950 | RegistryRule | Registry |  |
+| V-21951 | RegistryRule | Registry |  |
+| V-21952 | RegistryRule | Registry |  |
+| V-21953 | RegistryRule | Registry |  |
+| V-21954 | RegistryRule | Registry |  |
+| V-21955 | RegistryRule | Registry |  |
+| V-21956 | RegistryRule | Registry |  |
+| V-21960 | RegistryRule | RegistryPolicyFile |  |
+| V-21961 | RegistryRule | RegistryPolicyFile |  |
+| V-21963 | RegistryRule | RegistryPolicyFile |  |
+| V-21964 | RegistryRule | RegistryPolicyFile |  |
+| V-21965 | RegistryRule | RegistryPolicyFile |  |
+| V-21967 | RegistryRule | RegistryPolicyFile |  |
+| V-21969 | RegistryRule | RegistryPolicyFile |  |
+| V-21970 | RegistryRule | RegistryPolicyFile |  |
+| V-21971 | RegistryRule | RegistryPolicyFile |  |
+| V-21973 | RegistryRule | RegistryPolicyFile |  |
+| V-21980 | RegistryRule | RegistryPolicyFile |  |
+| V-22692 | RegistryRule | RegistryPolicyFile |  |
+| V-26283 | RegistryRule | Registry |  |
+| V-26359 | RegistryRule | Registry |  |
+| V-26575 | RegistryRule | RegistryPolicyFile |  |
+| V-26576 | RegistryRule | RegistryPolicyFile |  |
+| V-26577 | RegistryRule | RegistryPolicyFile |  |
+| V-26578 | RegistryRule | RegistryPolicyFile |  |
+| V-26579 | RegistryRule | RegistryPolicyFile |  |
+| V-26580 | RegistryRule | RegistryPolicyFile |  |
+| V-26581 | RegistryRule | RegistryPolicyFile |  |
+| V-26582 | RegistryRule | RegistryPolicyFile |  |
+| V-28504 | RegistryRule | RegistryPolicyFile |  |
+| V-34974 | RegistryRule | RegistryPolicyFile |  |
+| V-36439 | RegistryRule | RegistryPolicyFile |  |
+| V-36656 | RegistryRule | RegistryPolicyFile |  |
+| V-36657 | RegistryRule | RegistryPolicyFile |  |
+| V-36673 | RegistryRule | RegistryPolicyFile |  |
+| V-36677 | RegistryRule | RegistryPolicyFile |  |
+| V-36678 | RegistryRule | RegistryPolicyFile |  |
+| V-36679 | RegistryRule | RegistryPolicyFile |  |
+| V-36680 | RegistryRule | RegistryPolicyFile |  |
+| V-36681 | RegistryRule | RegistryPolicyFile |  |
+| V-36684 | RegistryRule | RegistryPolicyFile |  |
+| V-36687 | RegistryRule | RegistryPolicyFile |  |
+| V-36696 | RegistryRule | RegistryPolicyFile |  |
+| V-36697 | RegistryRule | RegistryPolicyFile |  |
+| V-36698 | RegistryRule | RegistryPolicyFile |  |
+| V-36700 | RegistryRule | RegistryPolicyFile |  |
+| V-36707 | RegistryRule | RegistryPolicyFile |  |
+| V-36708 | RegistryRule | RegistryPolicyFile |  |
+| V-36709 | RegistryRule | RegistryPolicyFile |  |
+| V-36710.a | RegistryRule | RegistryPolicyFile |  |
+| V-36710.b | RegistryRule | RegistryPolicyFile |  |
+| V-36711 | RegistryRule | RegistryPolicyFile |  |
+| V-36712 | RegistryRule | RegistryPolicyFile |  |
+| V-36713 | RegistryRule | RegistryPolicyFile |  |
+| V-36714 | RegistryRule | RegistryPolicyFile |  |
+| V-36718 | RegistryRule | RegistryPolicyFile |  |
+| V-36719 | RegistryRule | RegistryPolicyFile |  |
+| V-36720 | RegistryRule | RegistryPolicyFile |  |
+| V-36773 | RegistryRule | Registry |  |
+| V-36776 | RegistryRule | RegistryPolicyFile |  |
+| V-36777 | RegistryRule | RegistryPolicyFile |  |
+| V-40204 | RegistryRule | RegistryPolicyFile |  |
+| V-43238 | RegistryRule | RegistryPolicyFile |  |
+| V-43239 | RegistryRule | RegistryPolicyFile |  |
+| V-43240 | RegistryRule | RegistryPolicyFile |  |
+| V-43241 | RegistryRule | RegistryPolicyFile |  |
+| V-43245 | RegistryRule | RegistryPolicyFile |  |
+| V-57639 | RegistryRule | Registry |  |
+| V-72753 | RegistryRule | RegistryPolicyFile |  |
+| V-73519 | RegistryRule | RegistryPolicyFile |  |
+| V-80475 | RegistryRule | RegistryPolicyFile |  |
+| V-1113 | SecurityOptionRule | SecurityOption |  |
+| V-1114 | SecurityOptionRule | SecurityOption |  |
+| V-1115 | SecurityOptionRule | SecurityOption |  |
+| V-3337 | SecurityOptionRule | SecurityOption |  |
+| V-3380 | SecurityOptionRule | SecurityOption |  |
+| V-15505 | ServiceRule | Service |  |
+| V-26600 | ServiceRule | Service |  |
+| V-26602 | ServiceRule | Service |  |
+| V-26604 | ServiceRule | Service |  |
+| V-26605 | ServiceRule | Service |  |
+| V-26606 | ServiceRule | Service |  |
+| V-36736 | ServiceRule | Service |  |
+| V-40206 | ServiceRule | Service |  |
+| V-42420 | ServiceRule | Service |  |
+| V-1102 | UserRightRule | UserRightsAssignment |  |
+| V-1155 | UserRightRule | UserRightsAssignment |  |
+| V-18010 | UserRightRule | UserRightsAssignment |  |
+| V-26469 | UserRightRule | UserRightsAssignment |  |
+| V-26470 | UserRightRule | UserRightsAssignment |  |
+| V-26472 | UserRightRule | UserRightsAssignment |  |
+| V-26473 | UserRightRule | UserRightsAssignment |  |
+| V-26474 | UserRightRule | UserRightsAssignment |  |
+| V-26478 | UserRightRule | UserRightsAssignment |  |
+| V-26479 | UserRightRule | UserRightsAssignment |  |
+| V-26480 | UserRightRule | UserRightsAssignment |  |
+| V-26481 | UserRightRule | UserRightsAssignment |  |
+| V-26482 | UserRightRule | UserRightsAssignment |  |
+| V-26483 | UserRightRule | UserRightsAssignment |  |
+| V-26484 | UserRightRule | UserRightsAssignment |  |
+| V-26485 | UserRightRule | UserRightsAssignment |  |
+| V-26486 | UserRightRule | UserRightsAssignment |  |
+| V-26487 | UserRightRule | UserRightsAssignment |  |
+| V-26488 | UserRightRule | UserRightsAssignment |  |
+| V-26489 | UserRightRule | UserRightsAssignment |  |
+| V-26490 | UserRightRule | UserRightsAssignment |  |
+| V-26492 | UserRightRule | UserRightsAssignment |  |
+| V-26493 | UserRightRule | UserRightsAssignment |  |
+| V-26494 | UserRightRule | UserRightsAssignment |  |
+| V-26496 | UserRightRule | UserRightsAssignment |  |
+| V-26498 | UserRightRule | UserRightsAssignment |  |
+| V-26499 | UserRightRule | UserRightsAssignment |  |
+| V-26500 | UserRightRule | UserRightsAssignment |  |
+| V-26504 | UserRightRule | UserRightsAssignment |  |
+| V-26506 | UserRightRule | UserRightsAssignment |  |
+| V-73805 | WindowsFeatureRule | WindowsFeature |  |
+| V-80477 | WindowsFeatureRule | WindowsFeature |  |
 
 ## Windows 2012 MS STIG, Version 2.17
 
@@ -3384,312 +3384,312 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_Windows_2012_and_2012_R2_MS_STIG_V2R17_Manual-xccdf.xml  
 **Created:** 12/5/2019  
 **Description:** The Windows Server 2012/2012 R2 Member Server Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **313** of **348** rules are automated; **90%**  
+**StigRuleCoverage:** **302** of **348** rules are automated; **87%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-1097 | AccountPolicyRule | AccountPolicy |
-| V-1098 | AccountPolicyRule | AccountPolicy |
-| V-1099 | AccountPolicyRule | AccountPolicy |
-| V-1104 | AccountPolicyRule | AccountPolicy |
-| V-1105 | AccountPolicyRule | AccountPolicy |
-| V-1107 | AccountPolicyRule | AccountPolicy |
-| V-1150 | AccountPolicyRule | AccountPolicy |
-| V-2372 | AccountPolicyRule | AccountPolicy |
-| V-6836 | AccountPolicyRule | AccountPolicy |
-| V-26529 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26530 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26533 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26535 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26537 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26538 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26539 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26540 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26541 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26542 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26543 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26546 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26547 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26548 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26549 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26550 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26551 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26552 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26553 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26555 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26557 | AuditPolicyRule | AuditPolicySubcategory |
-| V-26558 | AuditPolicyRule | AuditPolicySubcategory |
-| V-36667 | AuditPolicyRule | AuditPolicySubcategory |
-| V-36668 | AuditPolicyRule | AuditPolicySubcategory |
-| V-40200 | AuditPolicyRule | AuditPolicySubcategory |
-| V-40202 | AuditPolicyRule | AuditPolicySubcategory |
-| V-57633 | AuditPolicyRule | AuditPolicySubcategory |
-| V-78057 | AuditPolicyRule | AuditPolicySubcategory |
-| V-78059 | AuditPolicyRule | AuditPolicySubcategory |
-| V-78061 | AuditPolicyRule | AuditPolicySubcategory |
-| V-78063 | AuditPolicyRule | AuditPolicySubcategory |
-| V-1073 | AuditSettingRule | AuditSetting |
-| V-1081 | AuditSettingRule | AuditSetting |
-| V-6840 | AuditSettingRule | AuditSetting |
-| V-7002 | AuditSettingRule | AuditSetting |
-| V-80473 | AuditSettingRule | AuditSetting |
-| V-1152 | PermissionRule | RegistryAccessEntry |
-| V-26070 | PermissionRule | RegistryAccessEntry |
-| V-32282 | PermissionRule | RegistryAccessEntry |
-| V-36722 | PermissionRule | NTFSAccessEntry |
-| V-36723 | PermissionRule | NTFSAccessEntry |
-| V-36724 | PermissionRule | NTFSAccessEntry |
-| V-40177.a | PermissionRule | NTFSAccessEntry |
-| V-40177.b | PermissionRule | NTFSAccessEntry |
-| V-40178 | PermissionRule | NTFSAccessEntry |
-| V-40179 | PermissionRule | NTFSAccessEntry |
-| V-57721 | PermissionRule | NTFSAccessEntry |
-| V-1075 | RegistryRule | Registry |
-| V-1089 | RegistryRule | Registry |
-| V-1090 | RegistryRule | Registry |
-| V-1093 | RegistryRule | Registry |
-| V-1136 | RegistryRule | Registry |
-| V-1141 | RegistryRule | Registry |
-| V-1145 | RegistryRule | Registry |
-| V-1151 | RegistryRule | Registry |
-| V-1153 | RegistryRule | Registry |
-| V-1154 | RegistryRule | Registry |
-| V-1157 | RegistryRule | Registry |
-| V-1162 | RegistryRule | Registry |
-| V-1163 | RegistryRule | Registry |
-| V-1164 | RegistryRule | Registry |
-| V-1165 | RegistryRule | Registry |
-| V-1166 | RegistryRule | Registry |
-| V-1171 | RegistryRule | Registry |
-| V-1172 | RegistryRule | Registry |
-| V-1173 | RegistryRule | Registry |
-| V-1174 | RegistryRule | Registry |
-| V-2374 | RegistryRule | RegistryPolicyFile |
-| V-3338 | RegistryRule | Registry |
-| V-3339 | RegistryRule | Registry |
-| V-3340 | RegistryRule | Registry |
-| V-3343 | RegistryRule | RegistryPolicyFile |
-| V-3344 | RegistryRule | Registry |
-| V-3373 | RegistryRule | Registry |
-| V-3374 | RegistryRule | Registry |
-| V-3377 | RegistryRule | Registry |
-| V-3378 | RegistryRule | Registry |
-| V-3379 | RegistryRule | Registry |
-| V-3381 | RegistryRule | Registry |
-| V-3382 | RegistryRule | Registry |
-| V-3383 | RegistryRule | Registry |
-| V-3385 | RegistryRule | Registry |
-| V-3449 | RegistryRule | RegistryPolicyFile |
-| V-3453 | RegistryRule | RegistryPolicyFile |
-| V-3454 | RegistryRule | RegistryPolicyFile |
-| V-3455 | RegistryRule | RegistryPolicyFile |
-| V-3456 | RegistryRule | RegistryPolicyFile |
-| V-3469 | RegistryRule | RegistryPolicyFile |
-| V-3470 | RegistryRule | RegistryPolicyFile |
-| V-3479 | RegistryRule | Registry |
-| V-3480 | RegistryRule | RegistryPolicyFile |
-| V-3481 | RegistryRule | RegistryPolicyFile |
-| V-3666 | RegistryRule | Registry |
-| V-4108 | RegistryRule | Registry |
-| V-4110 | RegistryRule | Registry |
-| V-4111 | RegistryRule | Registry |
-| V-4112 | RegistryRule | Registry |
-| V-4113 | RegistryRule | Registry |
-| V-4116 | RegistryRule | Registry |
-| V-4438 | RegistryRule | Registry |
-| V-4442 | RegistryRule | Registry |
-| V-4443 | RegistryRule | Registry |
-| V-4445 | RegistryRule | Registry |
-| V-4447 | RegistryRule | RegistryPolicyFile |
-| V-4448 | RegistryRule | RegistryPolicyFile |
-| V-6831 | RegistryRule | Registry |
-| V-6832 | RegistryRule | Registry |
-| V-6833 | RegistryRule | Registry |
-| V-6834 | RegistryRule | Registry |
-| V-11806 | RegistryRule | Registry |
-| V-14228 | RegistryRule | Registry |
-| V-14229 | RegistryRule | Registry |
-| V-14230 | RegistryRule | Registry |
-| V-14232 | RegistryRule | Registry |
-| V-14234 | RegistryRule | Registry |
-| V-14235 | RegistryRule | Registry |
-| V-14236 | RegistryRule | Registry |
-| V-14237 | RegistryRule | Registry |
-| V-14239 | RegistryRule | Registry |
-| V-14240 | RegistryRule | Registry |
-| V-14241 | RegistryRule | Registry |
-| V-14242 | RegistryRule | Registry |
-| V-14243 | RegistryRule | RegistryPolicyFile |
-| V-14247 | RegistryRule | RegistryPolicyFile |
-| V-14249 | RegistryRule | RegistryPolicyFile |
-| V-14253 | RegistryRule | RegistryPolicyFile |
-| V-14259 | RegistryRule | RegistryPolicyFile |
-| V-14260 | RegistryRule | RegistryPolicyFile |
-| V-14261 | RegistryRule | RegistryPolicyFile |
-| V-14268 | RegistryRule | RegistryPolicyFile |
-| V-14269 | RegistryRule | RegistryPolicyFile |
-| V-14270 | RegistryRule | RegistryPolicyFile |
-| V-15666 | RegistryRule | RegistryPolicyFile |
-| V-15667 | RegistryRule | RegistryPolicyFile |
-| V-15672 | RegistryRule | RegistryPolicyFile |
-| V-15674 | RegistryRule | RegistryPolicyFile |
-| V-15682 | RegistryRule | RegistryPolicyFile |
-| V-15683 | RegistryRule | RegistryPolicyFile |
-| V-15684 | RegistryRule | RegistryPolicyFile |
-| V-15685 | RegistryRule | RegistryPolicyFile |
-| V-15686 | RegistryRule | RegistryPolicyFile |
-| V-15687 | RegistryRule | RegistryPolicyFile |
-| V-15696.a | RegistryRule | RegistryPolicyFile |
-| V-15696.b | RegistryRule | RegistryPolicyFile |
-| V-15696.c | RegistryRule | RegistryPolicyFile |
-| V-15696.d | RegistryRule | RegistryPolicyFile |
-| V-15697.a | RegistryRule | RegistryPolicyFile |
-| V-15697.b | RegistryRule | RegistryPolicyFile |
-| V-15697.c | RegistryRule | RegistryPolicyFile |
-| V-15697.d | RegistryRule | RegistryPolicyFile |
-| V-15698.a | RegistryRule | RegistryPolicyFile |
-| V-15698.b | RegistryRule | RegistryPolicyFile |
-| V-15698.c | RegistryRule | RegistryPolicyFile |
-| V-15698.d | RegistryRule | RegistryPolicyFile |
-| V-15698.e | RegistryRule | RegistryPolicyFile |
-| V-15699 | RegistryRule | RegistryPolicyFile |
-| V-15700 | RegistryRule | RegistryPolicyFile |
-| V-15701 | RegistryRule | RegistryPolicyFile |
-| V-15702 | RegistryRule | RegistryPolicyFile |
-| V-15703 | RegistryRule | RegistryPolicyFile |
-| V-15704 | RegistryRule | RegistryPolicyFile |
-| V-15705 | RegistryRule | RegistryPolicyFile |
-| V-15706 | RegistryRule | RegistryPolicyFile |
-| V-15707 | RegistryRule | RegistryPolicyFile |
-| V-15718 | RegistryRule | RegistryPolicyFile |
-| V-15722 | RegistryRule | RegistryPolicyFile |
-| V-15727 | RegistryRule | RegistryPolicyFile |
-| V-15991 | RegistryRule | Registry |
-| V-15997 | RegistryRule | RegistryPolicyFile |
-| V-15998 | RegistryRule | RegistryPolicyFile |
-| V-15999 | RegistryRule | RegistryPolicyFile |
-| V-16000 | RegistryRule | RegistryPolicyFile |
-| V-16008 | RegistryRule | Registry |
-| V-16020 | RegistryRule | RegistryPolicyFile |
-| V-16021 | RegistryRule | RegistryPolicyFile |
-| V-16048 | RegistryRule | RegistryPolicyFile |
-| V-21950 | RegistryRule | Registry |
-| V-21951 | RegistryRule | Registry |
-| V-21952 | RegistryRule | Registry |
-| V-21953 | RegistryRule | Registry |
-| V-21954 | RegistryRule | Registry |
-| V-21955 | RegistryRule | Registry |
-| V-21956 | RegistryRule | Registry |
-| V-21960 | RegistryRule | RegistryPolicyFile |
-| V-21961 | RegistryRule | RegistryPolicyFile |
-| V-21963 | RegistryRule | RegistryPolicyFile |
-| V-21964 | RegistryRule | RegistryPolicyFile |
-| V-21965 | RegistryRule | RegistryPolicyFile |
-| V-21967 | RegistryRule | RegistryPolicyFile |
-| V-21969 | RegistryRule | RegistryPolicyFile |
-| V-21970 | RegistryRule | RegistryPolicyFile |
-| V-21971 | RegistryRule | RegistryPolicyFile |
-| V-21973 | RegistryRule | RegistryPolicyFile |
-| V-21980 | RegistryRule | RegistryPolicyFile |
-| V-22692 | RegistryRule | RegistryPolicyFile |
-| V-26283 | RegistryRule | Registry |
-| V-26359 | RegistryRule | Registry |
-| V-26575 | RegistryRule | RegistryPolicyFile |
-| V-26576 | RegistryRule | RegistryPolicyFile |
-| V-26577 | RegistryRule | RegistryPolicyFile |
-| V-26578 | RegistryRule | RegistryPolicyFile |
-| V-26579 | RegistryRule | RegistryPolicyFile |
-| V-26580 | RegistryRule | RegistryPolicyFile |
-| V-26581 | RegistryRule | RegistryPolicyFile |
-| V-26582 | RegistryRule | RegistryPolicyFile |
-| V-28504 | RegistryRule | RegistryPolicyFile |
-| V-34974 | RegistryRule | RegistryPolicyFile |
-| V-36439 | RegistryRule | RegistryPolicyFile |
-| V-36656 | RegistryRule | RegistryPolicyFile |
-| V-36657 | RegistryRule | RegistryPolicyFile |
-| V-36673 | RegistryRule | RegistryPolicyFile |
-| V-36677 | RegistryRule | RegistryPolicyFile |
-| V-36678 | RegistryRule | RegistryPolicyFile |
-| V-36679 | RegistryRule | RegistryPolicyFile |
-| V-36680 | RegistryRule | RegistryPolicyFile |
-| V-36681 | RegistryRule | RegistryPolicyFile |
-| V-36684 | RegistryRule | RegistryPolicyFile |
-| V-36687 | RegistryRule | RegistryPolicyFile |
-| V-36696 | RegistryRule | RegistryPolicyFile |
-| V-36697 | RegistryRule | RegistryPolicyFile |
-| V-36698 | RegistryRule | RegistryPolicyFile |
-| V-36700 | RegistryRule | RegistryPolicyFile |
-| V-36707 | RegistryRule | RegistryPolicyFile |
-| V-36708 | RegistryRule | RegistryPolicyFile |
-| V-36709 | RegistryRule | RegistryPolicyFile |
-| V-36710.a | RegistryRule | RegistryPolicyFile |
-| V-36710.b | RegistryRule | RegistryPolicyFile |
-| V-36711 | RegistryRule | RegistryPolicyFile |
-| V-36712 | RegistryRule | RegistryPolicyFile |
-| V-36713 | RegistryRule | RegistryPolicyFile |
-| V-36714 | RegistryRule | RegistryPolicyFile |
-| V-36718 | RegistryRule | RegistryPolicyFile |
-| V-36719 | RegistryRule | RegistryPolicyFile |
-| V-36720 | RegistryRule | RegistryPolicyFile |
-| V-36773 | RegistryRule | Registry |
-| V-36776 | RegistryRule | RegistryPolicyFile |
-| V-36777 | RegistryRule | RegistryPolicyFile |
-| V-40204 | RegistryRule | RegistryPolicyFile |
-| V-43238 | RegistryRule | RegistryPolicyFile |
-| V-43239 | RegistryRule | RegistryPolicyFile |
-| V-43240 | RegistryRule | RegistryPolicyFile |
-| V-43241 | RegistryRule | RegistryPolicyFile |
-| V-43245 | RegistryRule | RegistryPolicyFile |
-| V-57639 | RegistryRule | Registry |
-| V-72753 | RegistryRule | RegistryPolicyFile |
-| V-73519 | RegistryRule | RegistryPolicyFile |
-| V-80475 | RegistryRule | RegistryPolicyFile |
-| V-1113 | SecurityOptionRule | SecurityOption |
-| V-1114 | SecurityOptionRule | SecurityOption |
-| V-1115 | SecurityOptionRule | SecurityOption |
-| V-3337 | SecurityOptionRule | SecurityOption |
-| V-3380 | SecurityOptionRule | SecurityOption |
-| V-15505 | ServiceRule | Service |
-| V-26600 | ServiceRule | Service |
-| V-26602 | ServiceRule | Service |
-| V-26604 | ServiceRule | Service |
-| V-26605 | ServiceRule | Service |
-| V-26606 | ServiceRule | Service |
-| V-36736 | ServiceRule | Service |
-| V-40206 | ServiceRule | Service |
-| V-42420 | ServiceRule | Service |
-| V-1102 | UserRightRule | UserRightsAssignment |
-| V-1155 | UserRightRule | UserRightsAssignment |
-| V-18010 | UserRightRule | UserRightsAssignment |
-| V-26469 | UserRightRule | UserRightsAssignment |
-| V-26470 | UserRightRule | UserRightsAssignment |
-| V-26472 | UserRightRule | UserRightsAssignment |
-| V-26473 | UserRightRule | UserRightsAssignment |
-| V-26474 | UserRightRule | UserRightsAssignment |
-| V-26478 | UserRightRule | UserRightsAssignment |
-| V-26479 | UserRightRule | UserRightsAssignment |
-| V-26480 | UserRightRule | UserRightsAssignment |
-| V-26481 | UserRightRule | UserRightsAssignment |
-| V-26482 | UserRightRule | UserRightsAssignment |
-| V-26483 | UserRightRule | UserRightsAssignment |
-| V-26484 | UserRightRule | UserRightsAssignment |
-| V-26485 | UserRightRule | UserRightsAssignment |
-| V-26486 | UserRightRule | UserRightsAssignment |
-| V-26487 | UserRightRule | UserRightsAssignment |
-| V-26488 | UserRightRule | UserRightsAssignment |
-| V-26489 | UserRightRule | UserRightsAssignment |
-| V-26490 | UserRightRule | UserRightsAssignment |
-| V-26492 | UserRightRule | UserRightsAssignment |
-| V-26493 | UserRightRule | UserRightsAssignment |
-| V-26494 | UserRightRule | UserRightsAssignment |
-| V-26496 | UserRightRule | UserRightsAssignment |
-| V-26498 | UserRightRule | UserRightsAssignment |
-| V-26499 | UserRightRule | UserRightsAssignment |
-| V-26500 | UserRightRule | UserRightsAssignment |
-| V-26504 | UserRightRule | UserRightsAssignment |
-| V-26506 | UserRightRule | UserRightsAssignment |
-| V-73805 | WindowsFeatureRule | WindowsFeature |
-| V-80477 | WindowsFeatureRule | WindowsFeature |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-1097 | AccountPolicyRule | AccountPolicy |  |
+| V-1098 | AccountPolicyRule | AccountPolicy |  |
+| V-1099 | AccountPolicyRule | AccountPolicy |  |
+| V-1104 | AccountPolicyRule | AccountPolicy |  |
+| V-1105 | AccountPolicyRule | AccountPolicy |  |
+| V-1107 | AccountPolicyRule | AccountPolicy |  |
+| V-1150 | AccountPolicyRule | AccountPolicy |  |
+| V-2372 | AccountPolicyRule | AccountPolicy |  |
+| V-6836 | AccountPolicyRule | AccountPolicy |  |
+| V-26529 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26530 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26533 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26535 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26537 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26538 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26539 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26540 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26541 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26542 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26543 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26546 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26547 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26548 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26549 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26550 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26551 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26552 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26553 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26555 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26557 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-26558 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-36667 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-36668 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-40200 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-40202 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-57633 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-78057 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-78059 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-78061 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-78063 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-1073 | AuditSettingRule | AuditSetting |  |
+| V-1081 | AuditSettingRule | AuditSetting |  |
+| V-6840 | AuditSettingRule | AuditSetting |  |
+| V-7002 | AuditSettingRule | AuditSetting |  |
+| V-80473 | AuditSettingRule | AuditSetting |  |
+| V-1152 | PermissionRule | RegistryAccessEntry |  |
+| V-26070 | PermissionRule | RegistryAccessEntry |  |
+| V-32282 | PermissionRule | RegistryAccessEntry |  |
+| V-36722 | PermissionRule | NTFSAccessEntry |  |
+| V-36723 | PermissionRule | NTFSAccessEntry |  |
+| V-36724 | PermissionRule | NTFSAccessEntry |  |
+| V-40177.a | PermissionRule | NTFSAccessEntry |  |
+| V-40177.b | PermissionRule | NTFSAccessEntry |  |
+| V-40178 | PermissionRule | NTFSAccessEntry |  |
+| V-40179 | PermissionRule | NTFSAccessEntry |  |
+| V-57721 | PermissionRule | NTFSAccessEntry |  |
+| V-1075 | RegistryRule | Registry |  |
+| V-1089 | RegistryRule | Registry |  |
+| V-1090 | RegistryRule | Registry |  |
+| V-1093 | RegistryRule | Registry |  |
+| V-1136 | RegistryRule | Registry |  |
+| V-1141 | RegistryRule | Registry |  |
+| V-1145 | RegistryRule | Registry |  |
+| V-1151 | RegistryRule | Registry |  |
+| V-1153 | RegistryRule | Registry |  |
+| V-1154 | RegistryRule | Registry |  |
+| V-1157 | RegistryRule | Registry |  |
+| V-1162 | RegistryRule | Registry |  |
+| V-1163 | RegistryRule | Registry |  |
+| V-1164 | RegistryRule | Registry |  |
+| V-1165 | RegistryRule | Registry |  |
+| V-1166 | RegistryRule | Registry |  |
+| V-1171 | RegistryRule | Registry |  |
+| V-1172 | RegistryRule | Registry |  |
+| V-1173 | RegistryRule | Registry |  |
+| V-1174 | RegistryRule | Registry |  |
+| V-2374 | RegistryRule | RegistryPolicyFile |  |
+| V-3338 | RegistryRule | Registry |  |
+| V-3339 | RegistryRule | Registry |  |
+| V-3340 | RegistryRule | Registry |  |
+| V-3343 | RegistryRule | RegistryPolicyFile |  |
+| V-3344 | RegistryRule | Registry |  |
+| V-3373 | RegistryRule | Registry |  |
+| V-3374 | RegistryRule | Registry |  |
+| V-3377 | RegistryRule | Registry |  |
+| V-3378 | RegistryRule | Registry |  |
+| V-3379 | RegistryRule | Registry |  |
+| V-3381 | RegistryRule | Registry |  |
+| V-3382 | RegistryRule | Registry |  |
+| V-3383 | RegistryRule | Registry |  |
+| V-3385 | RegistryRule | Registry |  |
+| V-3449 | RegistryRule | RegistryPolicyFile |  |
+| V-3453 | RegistryRule | RegistryPolicyFile |  |
+| V-3454 | RegistryRule | RegistryPolicyFile |  |
+| V-3455 | RegistryRule | RegistryPolicyFile |  |
+| V-3456 | RegistryRule | RegistryPolicyFile |  |
+| V-3469 | RegistryRule | RegistryPolicyFile |  |
+| V-3470 | RegistryRule | RegistryPolicyFile |  |
+| V-3479 | RegistryRule | Registry |  |
+| V-3480 | RegistryRule | RegistryPolicyFile |  |
+| V-3481 | RegistryRule | RegistryPolicyFile |  |
+| V-3666 | RegistryRule | Registry |  |
+| V-4108 | RegistryRule | Registry |  |
+| V-4110 | RegistryRule | Registry |  |
+| V-4111 | RegistryRule | Registry |  |
+| V-4112 | RegistryRule | Registry |  |
+| V-4113 | RegistryRule | Registry |  |
+| V-4116 | RegistryRule | Registry |  |
+| V-4438 | RegistryRule | Registry |  |
+| V-4442 | RegistryRule | Registry |  |
+| V-4443 | RegistryRule | Registry |  |
+| V-4445 | RegistryRule | Registry |  |
+| V-4447 | RegistryRule | RegistryPolicyFile |  |
+| V-4448 | RegistryRule | RegistryPolicyFile |  |
+| V-6831 | RegistryRule | Registry |  |
+| V-6832 | RegistryRule | Registry |  |
+| V-6833 | RegistryRule | Registry |  |
+| V-6834 | RegistryRule | Registry |  |
+| V-11806 | RegistryRule | Registry |  |
+| V-14228 | RegistryRule | Registry |  |
+| V-14229 | RegistryRule | Registry |  |
+| V-14230 | RegistryRule | Registry |  |
+| V-14232 | RegistryRule | Registry |  |
+| V-14234 | RegistryRule | Registry |  |
+| V-14235 | RegistryRule | Registry |  |
+| V-14236 | RegistryRule | Registry |  |
+| V-14237 | RegistryRule | Registry |  |
+| V-14239 | RegistryRule | Registry |  |
+| V-14240 | RegistryRule | Registry |  |
+| V-14241 | RegistryRule | Registry |  |
+| V-14242 | RegistryRule | Registry |  |
+| V-14243 | RegistryRule | RegistryPolicyFile |  |
+| V-14247 | RegistryRule | RegistryPolicyFile |  |
+| V-14249 | RegistryRule | RegistryPolicyFile |  |
+| V-14253 | RegistryRule | RegistryPolicyFile |  |
+| V-14259 | RegistryRule | RegistryPolicyFile |  |
+| V-14260 | RegistryRule | RegistryPolicyFile |  |
+| V-14261 | RegistryRule | RegistryPolicyFile |  |
+| V-14268 | RegistryRule | RegistryPolicyFile |  |
+| V-14269 | RegistryRule | RegistryPolicyFile |  |
+| V-14270 | RegistryRule | RegistryPolicyFile |  |
+| V-15666 | RegistryRule | RegistryPolicyFile |  |
+| V-15667 | RegistryRule | RegistryPolicyFile |  |
+| V-15672 | RegistryRule | RegistryPolicyFile |  |
+| V-15674 | RegistryRule | RegistryPolicyFile |  |
+| V-15682 | RegistryRule | RegistryPolicyFile |  |
+| V-15683 | RegistryRule | RegistryPolicyFile |  |
+| V-15684 | RegistryRule | RegistryPolicyFile |  |
+| V-15685 | RegistryRule | RegistryPolicyFile |  |
+| V-15686 | RegistryRule | RegistryPolicyFile |  |
+| V-15687 | RegistryRule | RegistryPolicyFile |  |
+| V-15696.a | RegistryRule | RegistryPolicyFile |  |
+| V-15696.b | RegistryRule | RegistryPolicyFile |  |
+| V-15696.c | RegistryRule | RegistryPolicyFile |  |
+| V-15696.d | RegistryRule | RegistryPolicyFile |  |
+| V-15697.a | RegistryRule | RegistryPolicyFile |  |
+| V-15697.b | RegistryRule | RegistryPolicyFile |  |
+| V-15697.c | RegistryRule | RegistryPolicyFile |  |
+| V-15697.d | RegistryRule | RegistryPolicyFile |  |
+| V-15698.a | RegistryRule | RegistryPolicyFile |  |
+| V-15698.b | RegistryRule | RegistryPolicyFile |  |
+| V-15698.c | RegistryRule | RegistryPolicyFile |  |
+| V-15698.d | RegistryRule | RegistryPolicyFile |  |
+| V-15698.e | RegistryRule | RegistryPolicyFile |  |
+| V-15699 | RegistryRule | RegistryPolicyFile |  |
+| V-15700 | RegistryRule | RegistryPolicyFile |  |
+| V-15701 | RegistryRule | RegistryPolicyFile |  |
+| V-15702 | RegistryRule | RegistryPolicyFile |  |
+| V-15703 | RegistryRule | RegistryPolicyFile |  |
+| V-15704 | RegistryRule | RegistryPolicyFile |  |
+| V-15705 | RegistryRule | RegistryPolicyFile |  |
+| V-15706 | RegistryRule | RegistryPolicyFile |  |
+| V-15707 | RegistryRule | RegistryPolicyFile |  |
+| V-15718 | RegistryRule | RegistryPolicyFile |  |
+| V-15722 | RegistryRule | RegistryPolicyFile |  |
+| V-15727 | RegistryRule | RegistryPolicyFile |  |
+| V-15991 | RegistryRule | Registry |  |
+| V-15997 | RegistryRule | RegistryPolicyFile |  |
+| V-15998 | RegistryRule | RegistryPolicyFile |  |
+| V-15999 | RegistryRule | RegistryPolicyFile |  |
+| V-16000 | RegistryRule | RegistryPolicyFile |  |
+| V-16008 | RegistryRule | Registry |  |
+| V-16020 | RegistryRule | RegistryPolicyFile |  |
+| V-16021 | RegistryRule | RegistryPolicyFile |  |
+| V-16048 | RegistryRule | RegistryPolicyFile |  |
+| V-21950 | RegistryRule | Registry |  |
+| V-21951 | RegistryRule | Registry |  |
+| V-21952 | RegistryRule | Registry |  |
+| V-21953 | RegistryRule | Registry |  |
+| V-21954 | RegistryRule | Registry |  |
+| V-21955 | RegistryRule | Registry |  |
+| V-21956 | RegistryRule | Registry |  |
+| V-21960 | RegistryRule | RegistryPolicyFile |  |
+| V-21961 | RegistryRule | RegistryPolicyFile |  |
+| V-21963 | RegistryRule | RegistryPolicyFile |  |
+| V-21964 | RegistryRule | RegistryPolicyFile |  |
+| V-21965 | RegistryRule | RegistryPolicyFile |  |
+| V-21967 | RegistryRule | RegistryPolicyFile |  |
+| V-21969 | RegistryRule | RegistryPolicyFile |  |
+| V-21970 | RegistryRule | RegistryPolicyFile |  |
+| V-21971 | RegistryRule | RegistryPolicyFile |  |
+| V-21973 | RegistryRule | RegistryPolicyFile |  |
+| V-21980 | RegistryRule | RegistryPolicyFile |  |
+| V-22692 | RegistryRule | RegistryPolicyFile |  |
+| V-26283 | RegistryRule | Registry |  |
+| V-26359 | RegistryRule | Registry |  |
+| V-26575 | RegistryRule | RegistryPolicyFile |  |
+| V-26576 | RegistryRule | RegistryPolicyFile |  |
+| V-26577 | RegistryRule | RegistryPolicyFile |  |
+| V-26578 | RegistryRule | RegistryPolicyFile |  |
+| V-26579 | RegistryRule | RegistryPolicyFile |  |
+| V-26580 | RegistryRule | RegistryPolicyFile |  |
+| V-26581 | RegistryRule | RegistryPolicyFile |  |
+| V-26582 | RegistryRule | RegistryPolicyFile |  |
+| V-28504 | RegistryRule | RegistryPolicyFile |  |
+| V-34974 | RegistryRule | RegistryPolicyFile |  |
+| V-36439 | RegistryRule | RegistryPolicyFile |  |
+| V-36656 | RegistryRule | RegistryPolicyFile |  |
+| V-36657 | RegistryRule | RegistryPolicyFile |  |
+| V-36673 | RegistryRule | RegistryPolicyFile |  |
+| V-36677 | RegistryRule | RegistryPolicyFile |  |
+| V-36678 | RegistryRule | RegistryPolicyFile |  |
+| V-36679 | RegistryRule | RegistryPolicyFile |  |
+| V-36680 | RegistryRule | RegistryPolicyFile |  |
+| V-36681 | RegistryRule | RegistryPolicyFile |  |
+| V-36684 | RegistryRule | RegistryPolicyFile |  |
+| V-36687 | RegistryRule | RegistryPolicyFile |  |
+| V-36696 | RegistryRule | RegistryPolicyFile |  |
+| V-36697 | RegistryRule | RegistryPolicyFile |  |
+| V-36698 | RegistryRule | RegistryPolicyFile |  |
+| V-36700 | RegistryRule | RegistryPolicyFile |  |
+| V-36707 | RegistryRule | RegistryPolicyFile |  |
+| V-36708 | RegistryRule | RegistryPolicyFile |  |
+| V-36709 | RegistryRule | RegistryPolicyFile |  |
+| V-36710.a | RegistryRule | RegistryPolicyFile |  |
+| V-36710.b | RegistryRule | RegistryPolicyFile |  |
+| V-36711 | RegistryRule | RegistryPolicyFile |  |
+| V-36712 | RegistryRule | RegistryPolicyFile |  |
+| V-36713 | RegistryRule | RegistryPolicyFile |  |
+| V-36714 | RegistryRule | RegistryPolicyFile |  |
+| V-36718 | RegistryRule | RegistryPolicyFile |  |
+| V-36719 | RegistryRule | RegistryPolicyFile |  |
+| V-36720 | RegistryRule | RegistryPolicyFile |  |
+| V-36773 | RegistryRule | Registry |  |
+| V-36776 | RegistryRule | RegistryPolicyFile |  |
+| V-36777 | RegistryRule | RegistryPolicyFile |  |
+| V-40204 | RegistryRule | RegistryPolicyFile |  |
+| V-43238 | RegistryRule | RegistryPolicyFile |  |
+| V-43239 | RegistryRule | RegistryPolicyFile |  |
+| V-43240 | RegistryRule | RegistryPolicyFile |  |
+| V-43241 | RegistryRule | RegistryPolicyFile |  |
+| V-43245 | RegistryRule | RegistryPolicyFile |  |
+| V-57639 | RegistryRule | Registry |  |
+| V-72753 | RegistryRule | RegistryPolicyFile |  |
+| V-73519 | RegistryRule | RegistryPolicyFile |  |
+| V-80475 | RegistryRule | RegistryPolicyFile |  |
+| V-1113 | SecurityOptionRule | SecurityOption |  |
+| V-1114 | SecurityOptionRule | SecurityOption |  |
+| V-1115 | SecurityOptionRule | SecurityOption |  |
+| V-3337 | SecurityOptionRule | SecurityOption |  |
+| V-3380 | SecurityOptionRule | SecurityOption |  |
+| V-15505 | ServiceRule | Service |  |
+| V-26600 | ServiceRule | Service |  |
+| V-26602 | ServiceRule | Service |  |
+| V-26604 | ServiceRule | Service |  |
+| V-26605 | ServiceRule | Service |  |
+| V-26606 | ServiceRule | Service |  |
+| V-36736 | ServiceRule | Service |  |
+| V-40206 | ServiceRule | Service |  |
+| V-42420 | ServiceRule | Service |  |
+| V-1102 | UserRightRule | UserRightsAssignment |  |
+| V-1155 | UserRightRule | UserRightsAssignment |  |
+| V-18010 | UserRightRule | UserRightsAssignment |  |
+| V-26469 | UserRightRule | UserRightsAssignment |  |
+| V-26470 | UserRightRule | UserRightsAssignment |  |
+| V-26472 | UserRightRule | UserRightsAssignment |  |
+| V-26473 | UserRightRule | UserRightsAssignment |  |
+| V-26474 | UserRightRule | UserRightsAssignment |  |
+| V-26478 | UserRightRule | UserRightsAssignment |  |
+| V-26479 | UserRightRule | UserRightsAssignment |  |
+| V-26480 | UserRightRule | UserRightsAssignment |  |
+| V-26481 | UserRightRule | UserRightsAssignment |  |
+| V-26482 | UserRightRule | UserRightsAssignment |  |
+| V-26483 | UserRightRule | UserRightsAssignment |  |
+| V-26484 | UserRightRule | UserRightsAssignment |  |
+| V-26485 | UserRightRule | UserRightsAssignment |  |
+| V-26486 | UserRightRule | UserRightsAssignment |  |
+| V-26487 | UserRightRule | UserRightsAssignment |  |
+| V-26488 | UserRightRule | UserRightsAssignment |  |
+| V-26489 | UserRightRule | UserRightsAssignment |  |
+| V-26490 | UserRightRule | UserRightsAssignment |  |
+| V-26492 | UserRightRule | UserRightsAssignment |  |
+| V-26493 | UserRightRule | UserRightsAssignment |  |
+| V-26494 | UserRightRule | UserRightsAssignment |  |
+| V-26496 | UserRightRule | UserRightsAssignment |  |
+| V-26498 | UserRightRule | UserRightsAssignment |  |
+| V-26499 | UserRightRule | UserRightsAssignment |  |
+| V-26500 | UserRightRule | UserRightsAssignment |  |
+| V-26504 | UserRightRule | UserRightsAssignment |  |
+| V-26506 | UserRightRule | UserRightsAssignment |  |
+| V-73805 | WindowsFeatureRule | WindowsFeature |  |
+| V-80477 | WindowsFeatureRule | WindowsFeature |  |
 
 ## Windows Server 2016 DC STIG, Version 1.8
 
@@ -3699,218 +3699,218 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_Windows_Server_2016_DC_STIG_V1R8_Manual-xccdf.xml  
 **Created:** 12/17/2019  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **218** of **265** rules are automated; **82%**  
+**StigRuleCoverage:** **208** of **265** rules are automated; **78%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-73359 | AccountPolicyRule | AccountPolicy |
-| V-73361 | AccountPolicyRule | AccountPolicy |
-| V-73363 | AccountPolicyRule | AccountPolicy |
-| V-73365 | AccountPolicyRule | AccountPolicy |
-| V-73367 | AccountPolicyRule | AccountPolicy |
-| V-73309 | AccountPolicyRule | AccountPolicy |
-| V-73311 | AccountPolicyRule | AccountPolicy |
-| V-73313 | AccountPolicyRule | AccountPolicy |
-| V-73315 | AccountPolicyRule | AccountPolicy |
-| V-73317 | AccountPolicyRule | AccountPolicy |
-| V-73319 | AccountPolicyRule | AccountPolicy |
-| V-73321 | AccountPolicyRule | AccountPolicy |
-| V-73323 | AccountPolicyRule | AccountPolicy |
-| V-73325 | AccountPolicyRule | AccountPolicy |
-| V-73413 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73415 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73417 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73419 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73423 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73427 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73429 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73431 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73433 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73435 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73437 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73439 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73441 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73443 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73445 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73447 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73449 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73451 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73453 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73455 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73457 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73459 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73461 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73463 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73465 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73467 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73469 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73471 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73473 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73475 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73477 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73479 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73481 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73483 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73489 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73491 | AuditPolicyRule | AuditPolicySubcategory |
-| V-90359 | AuditPolicyRule | AuditPolicySubcategory |
-| V-90361 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73239 | AuditSettingRule | AuditSetting |
-| V-73247 | AuditSettingRule | AuditSetting |
-| V-73249 | PermissionRule | NTFSAccessEntry |
-| V-73251.a | PermissionRule | NTFSAccessEntry |
-| V-73251.b | PermissionRule | NTFSAccessEntry |
-| V-73253 | PermissionRule | NTFSAccessEntry |
-| V-73255.a | PermissionRule | RegistryAccessEntry |
-| V-73255.b | PermissionRule | RegistryAccessEntry |
-| V-73255.c | PermissionRule | RegistryAccessEntry |
-| V-73371 | PermissionRule | NTFSAccessEntry |
-| V-73405 | PermissionRule | NTFSAccessEntry |
-| V-73407 | PermissionRule | NTFSAccessEntry |
-| V-73409 | PermissionRule | NTFSAccessEntry |
-| V-73411 | PermissionRule | NTFSAccessEntry |
-| V-73487 | RegistryRule | RegistryPolicyFile |
-| V-73493 | RegistryRule | RegistryPolicyFile |
-| V-73497 | RegistryRule | RegistryPolicyFile |
-| V-73499 | RegistryRule | RegistryPolicyFile |
-| V-73501 | RegistryRule | RegistryPolicyFile |
-| V-73503 | RegistryRule | RegistryPolicyFile |
-| V-73505 | RegistryRule | RegistryPolicyFile |
-| V-73507 | RegistryRule | RegistryPolicyFile |
-| V-73509.a | RegistryRule | RegistryPolicyFile |
-| V-73509.b | RegistryRule | RegistryPolicyFile |
-| V-73511 | RegistryRule | RegistryPolicyFile |
-| V-73513.a | RegistryRule | RegistryPolicyFile |
-| V-73513.b | RegistryRule | RegistryPolicyFile |
-| V-73515 | RegistryRule | RegistryPolicyFile |
-| V-73517 | RegistryRule | RegistryPolicyFile |
-| V-73521 | RegistryRule | RegistryPolicyFile |
-| V-73525 | RegistryRule | RegistryPolicyFile |
-| V-73527 | RegistryRule | RegistryPolicyFile |
-| V-73529 | RegistryRule | RegistryPolicyFile |
-| V-73531 | RegistryRule | RegistryPolicyFile |
-| V-73537 | RegistryRule | RegistryPolicyFile |
-| V-73539 | RegistryRule | RegistryPolicyFile |
-| V-73543 | RegistryRule | RegistryPolicyFile |
-| V-73545 | RegistryRule | RegistryPolicyFile |
-| V-73547 | RegistryRule | RegistryPolicyFile |
-| V-73549 | RegistryRule | RegistryPolicyFile |
-| V-73551 | RegistryRule | RegistryPolicyFile |
-| V-73553 | RegistryRule | RegistryPolicyFile |
-| V-73555 | RegistryRule | RegistryPolicyFile |
-| V-73557 | RegistryRule | RegistryPolicyFile |
-| V-73559 | RegistryRule | RegistryPolicyFile |
-| V-73561 | RegistryRule | RegistryPolicyFile |
-| V-73563 | RegistryRule | RegistryPolicyFile |
-| V-73565 | RegistryRule | RegistryPolicyFile |
-| V-73567 | RegistryRule | RegistryPolicyFile |
-| V-73569 | RegistryRule | RegistryPolicyFile |
-| V-73571 | RegistryRule | RegistryPolicyFile |
-| V-73573 | RegistryRule | RegistryPolicyFile |
-| V-73575 | RegistryRule | RegistryPolicyFile |
-| V-73577 | RegistryRule | RegistryPolicyFile |
-| V-73579 | RegistryRule | RegistryPolicyFile |
-| V-73581 | RegistryRule | RegistryPolicyFile |
-| V-73583 | RegistryRule | RegistryPolicyFile |
-| V-73585 | RegistryRule | RegistryPolicyFile |
-| V-73587 | RegistryRule | RegistryPolicyFile |
-| V-73589 | RegistryRule | RegistryPolicyFile |
-| V-73591 | RegistryRule | RegistryPolicyFile |
-| V-73593 | RegistryRule | RegistryPolicyFile |
-| V-73595 | RegistryRule | RegistryPolicyFile |
-| V-73597 | RegistryRule | RegistryPolicyFile |
-| V-73599 | RegistryRule | RegistryPolicyFile |
-| V-73601 | RegistryRule | RegistryPolicyFile |
-| V-73603 | RegistryRule | RegistryPolicyFile |
-| V-73621 | RegistryRule | Registry |
-| V-73627 | RegistryRule | Registry |
-| V-73629 | RegistryRule | Registry |
-| V-73631 | RegistryRule | Registry |
-| V-73633 | RegistryRule | Registry |
-| V-73635 | RegistryRule | Registry |
-| V-73637 | RegistryRule | Registry |
-| V-73639 | RegistryRule | Registry |
-| V-73641 | RegistryRule | Registry |
-| V-73643 | RegistryRule | Registry |
-| V-73645 | RegistryRule | Registry |
-| V-73647 | RegistryRule | Registry |
-| V-73649 | RegistryRule | Registry |
-| V-73653 | RegistryRule | Registry |
-| V-73655 | RegistryRule | Registry |
-| V-73657 | RegistryRule | Registry |
-| V-73661 | RegistryRule | Registry |
-| V-73663 | RegistryRule | Registry |
-| V-73667 | RegistryRule | Registry |
-| V-73669 | RegistryRule | Registry |
-| V-73673 | RegistryRule | Registry |
-| V-73675 | RegistryRule | Registry |
-| V-73679 | RegistryRule | Registry |
-| V-73681 | RegistryRule | Registry |
-| V-73683 | RegistryRule | Registry |
-| V-73685 | RegistryRule | Registry |
-| V-73687 | RegistryRule | Registry |
-| V-73691 | RegistryRule | Registry |
-| V-73693 | RegistryRule | Registry |
-| V-73695 | RegistryRule | Registry |
-| V-73697 | RegistryRule | Registry |
-| V-73699 | RegistryRule | Registry |
-| V-73701 | RegistryRule | Registry |
-| V-73705 | RegistryRule | Registry |
-| V-73707 | RegistryRule | Registry |
-| V-73709 | RegistryRule | Registry |
-| V-73711 | RegistryRule | Registry |
-| V-73713 | RegistryRule | Registry |
-| V-73715 | RegistryRule | Registry |
-| V-73717 | RegistryRule | Registry |
-| V-73719 | RegistryRule | Registry |
-| V-73721 | RegistryRule | Registry |
-| V-73727 | RegistryRule | RegistryPolicyFile |
-| V-73807 | RegistryRule | Registry |
-| V-78123 | RegistryRule | RegistryPolicyFile |
-| V-78125 | RegistryRule | RegistryPolicyFile |
-| V-73623 | SecurityOptionRule | SecurityOption |
-| V-73625 | SecurityOptionRule | SecurityOption |
-| V-73665 | SecurityOptionRule | SecurityOption |
-| V-73809 | SecurityOptionRule | SecurityOption |
-| V-73729 | UserRightRule | UserRightsAssignment |
-| V-73731 | UserRightRule | None |
-| V-73735 | UserRightRule | UserRightsAssignment |
-| V-73737 | UserRightRule | UserRightsAssignment |
-| V-73739 | UserRightRule | UserRightsAssignment |
-| V-73741 | UserRightRule | UserRightsAssignment |
-| V-73743 | UserRightRule | UserRightsAssignment |
-| V-73745 | UserRightRule | UserRightsAssignment |
-| V-73747 | UserRightRule | UserRightsAssignment |
-| V-73749 | UserRightRule | UserRightsAssignment |
-| V-73751 | UserRightRule | UserRightsAssignment |
-| V-73753 | UserRightRule | UserRightsAssignment |
-| V-73755 | UserRightRule | UserRightsAssignment |
-| V-73757 | UserRightRule | UserRightsAssignment |
-| V-73761 | UserRightRule | UserRightsAssignment |
-| V-73765 | UserRightRule | UserRightsAssignment |
-| V-73769 | UserRightRule | UserRightsAssignment |
-| V-73773 | UserRightRule | UserRightsAssignment |
-| V-73777 | UserRightRule | UserRightsAssignment |
-| V-73781 | UserRightRule | UserRightsAssignment |
-| V-73783 | UserRightRule | UserRightsAssignment |
-| V-73785 | UserRightRule | UserRightsAssignment |
-| V-73787 | UserRightRule | UserRightsAssignment |
-| V-73789 | UserRightRule | UserRightsAssignment |
-| V-73791 | UserRightRule | UserRightsAssignment |
-| V-73793 | UserRightRule | UserRightsAssignment |
-| V-73795 | UserRightRule | UserRightsAssignment |
-| V-73797 | UserRightRule | UserRightsAssignment |
-| V-73799 | UserRightRule | UserRightsAssignment |
-| V-73801 | UserRightRule | UserRightsAssignment |
-| V-73803 | UserRightRule | UserRightsAssignment |
-| V-73287 | WindowsFeatureRule | WindowsFeature |
-| V-73289 | WindowsFeatureRule | WindowsFeature |
-| V-73291 | WindowsFeatureRule | WindowsFeature |
-| V-73293 | WindowsFeatureRule | WindowsFeature |
-| V-73295 | WindowsFeatureRule | WindowsFeature |
-| V-73297 | WindowsFeatureRule | WindowsFeature |
-| V-73299 | WindowsFeatureRule | WindowsFeature |
-| V-73301 | WindowsFeatureRule | WindowsFeature |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-73359 | AccountPolicyRule | AccountPolicy |  |
+| V-73361 | AccountPolicyRule | AccountPolicy |  |
+| V-73363 | AccountPolicyRule | AccountPolicy |  |
+| V-73365 | AccountPolicyRule | AccountPolicy |  |
+| V-73367 | AccountPolicyRule | AccountPolicy |  |
+| V-73309 | AccountPolicyRule | AccountPolicy |  |
+| V-73311 | AccountPolicyRule | AccountPolicy |  |
+| V-73313 | AccountPolicyRule | AccountPolicy |  |
+| V-73315 | AccountPolicyRule | AccountPolicy |  |
+| V-73317 | AccountPolicyRule | AccountPolicy |  |
+| V-73319 | AccountPolicyRule | AccountPolicy |  |
+| V-73321 | AccountPolicyRule | AccountPolicy |  |
+| V-73323 | AccountPolicyRule | AccountPolicy |  |
+| V-73325 | AccountPolicyRule | AccountPolicy |  |
+| V-73413 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73415 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73417 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73419 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73423 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73427 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73429 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73431 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73433 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73435 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73437 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73439 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73441 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73443 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73445 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73447 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73449 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73451 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73453 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73455 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73457 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73459 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73461 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73463 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73465 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73467 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73469 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73471 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73473 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73475 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73477 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73479 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73481 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73483 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73489 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73491 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-90359 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-90361 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73239 | AuditSettingRule | AuditSetting |  |
+| V-73247 | AuditSettingRule | AuditSetting |  |
+| V-73249 | PermissionRule | NTFSAccessEntry |  |
+| V-73251.a | PermissionRule | NTFSAccessEntry |  |
+| V-73251.b | PermissionRule | NTFSAccessEntry |  |
+| V-73253 | PermissionRule | NTFSAccessEntry |  |
+| V-73255.a | PermissionRule | RegistryAccessEntry |  |
+| V-73255.b | PermissionRule | RegistryAccessEntry |  |
+| V-73255.c | PermissionRule | RegistryAccessEntry |  |
+| V-73371 | PermissionRule | NTFSAccessEntry |  |
+| V-73405 | PermissionRule | NTFSAccessEntry |  |
+| V-73407 | PermissionRule | NTFSAccessEntry |  |
+| V-73409 | PermissionRule | NTFSAccessEntry |  |
+| V-73411 | PermissionRule | NTFSAccessEntry |  |
+| V-73487 | RegistryRule | RegistryPolicyFile |  |
+| V-73493 | RegistryRule | RegistryPolicyFile |  |
+| V-73497 | RegistryRule | RegistryPolicyFile |  |
+| V-73499 | RegistryRule | RegistryPolicyFile |  |
+| V-73501 | RegistryRule | RegistryPolicyFile |  |
+| V-73503 | RegistryRule | RegistryPolicyFile |  |
+| V-73505 | RegistryRule | RegistryPolicyFile |  |
+| V-73507 | RegistryRule | RegistryPolicyFile |  |
+| V-73509.a | RegistryRule | RegistryPolicyFile |  |
+| V-73509.b | RegistryRule | RegistryPolicyFile |  |
+| V-73511 | RegistryRule | RegistryPolicyFile |  |
+| V-73513.a | RegistryRule | RegistryPolicyFile |  |
+| V-73513.b | RegistryRule | RegistryPolicyFile |  |
+| V-73515 | RegistryRule | RegistryPolicyFile |  |
+| V-73517 | RegistryRule | RegistryPolicyFile |  |
+| V-73521 | RegistryRule | RegistryPolicyFile |  |
+| V-73525 | RegistryRule | RegistryPolicyFile |  |
+| V-73527 | RegistryRule | RegistryPolicyFile |  |
+| V-73529 | RegistryRule | RegistryPolicyFile |  |
+| V-73531 | RegistryRule | RegistryPolicyFile |  |
+| V-73537 | RegistryRule | RegistryPolicyFile |  |
+| V-73539 | RegistryRule | RegistryPolicyFile |  |
+| V-73543 | RegistryRule | RegistryPolicyFile |  |
+| V-73545 | RegistryRule | RegistryPolicyFile |  |
+| V-73547 | RegistryRule | RegistryPolicyFile |  |
+| V-73549 | RegistryRule | RegistryPolicyFile |  |
+| V-73551 | RegistryRule | RegistryPolicyFile |  |
+| V-73553 | RegistryRule | RegistryPolicyFile |  |
+| V-73555 | RegistryRule | RegistryPolicyFile |  |
+| V-73557 | RegistryRule | RegistryPolicyFile |  |
+| V-73559 | RegistryRule | RegistryPolicyFile |  |
+| V-73561 | RegistryRule | RegistryPolicyFile |  |
+| V-73563 | RegistryRule | RegistryPolicyFile |  |
+| V-73565 | RegistryRule | RegistryPolicyFile |  |
+| V-73567 | RegistryRule | RegistryPolicyFile |  |
+| V-73569 | RegistryRule | RegistryPolicyFile |  |
+| V-73571 | RegistryRule | RegistryPolicyFile |  |
+| V-73573 | RegistryRule | RegistryPolicyFile |  |
+| V-73575 | RegistryRule | RegistryPolicyFile |  |
+| V-73577 | RegistryRule | RegistryPolicyFile |  |
+| V-73579 | RegistryRule | RegistryPolicyFile |  |
+| V-73581 | RegistryRule | RegistryPolicyFile |  |
+| V-73583 | RegistryRule | RegistryPolicyFile |  |
+| V-73585 | RegistryRule | RegistryPolicyFile |  |
+| V-73587 | RegistryRule | RegistryPolicyFile |  |
+| V-73589 | RegistryRule | RegistryPolicyFile |  |
+| V-73591 | RegistryRule | RegistryPolicyFile |  |
+| V-73593 | RegistryRule | RegistryPolicyFile |  |
+| V-73595 | RegistryRule | RegistryPolicyFile |  |
+| V-73597 | RegistryRule | RegistryPolicyFile |  |
+| V-73599 | RegistryRule | RegistryPolicyFile |  |
+| V-73601 | RegistryRule | RegistryPolicyFile |  |
+| V-73603 | RegistryRule | RegistryPolicyFile |  |
+| V-73621 | RegistryRule | Registry |  |
+| V-73627 | RegistryRule | Registry |  |
+| V-73629 | RegistryRule | Registry |  |
+| V-73631 | RegistryRule | Registry |  |
+| V-73633 | RegistryRule | Registry |  |
+| V-73635 | RegistryRule | Registry |  |
+| V-73637 | RegistryRule | Registry |  |
+| V-73639 | RegistryRule | Registry |  |
+| V-73641 | RegistryRule | Registry |  |
+| V-73643 | RegistryRule | Registry |  |
+| V-73645 | RegistryRule | Registry |  |
+| V-73647 | RegistryRule | Registry |  |
+| V-73649 | RegistryRule | Registry |  |
+| V-73653 | RegistryRule | Registry |  |
+| V-73655 | RegistryRule | Registry |  |
+| V-73657 | RegistryRule | Registry |  |
+| V-73661 | RegistryRule | Registry |  |
+| V-73663 | RegistryRule | Registry |  |
+| V-73667 | RegistryRule | Registry |  |
+| V-73669 | RegistryRule | Registry |  |
+| V-73673 | RegistryRule | Registry |  |
+| V-73675 | RegistryRule | Registry |  |
+| V-73679 | RegistryRule | Registry |  |
+| V-73681 | RegistryRule | Registry |  |
+| V-73683 | RegistryRule | Registry |  |
+| V-73685 | RegistryRule | Registry |  |
+| V-73687 | RegistryRule | Registry |  |
+| V-73691 | RegistryRule | Registry |  |
+| V-73693 | RegistryRule | Registry |  |
+| V-73695 | RegistryRule | Registry |  |
+| V-73697 | RegistryRule | Registry |  |
+| V-73699 | RegistryRule | Registry |  |
+| V-73701 | RegistryRule | Registry |  |
+| V-73705 | RegistryRule | Registry |  |
+| V-73707 | RegistryRule | Registry |  |
+| V-73709 | RegistryRule | Registry |  |
+| V-73711 | RegistryRule | Registry |  |
+| V-73713 | RegistryRule | Registry |  |
+| V-73715 | RegistryRule | Registry |  |
+| V-73717 | RegistryRule | Registry |  |
+| V-73719 | RegistryRule | Registry |  |
+| V-73721 | RegistryRule | Registry |  |
+| V-73727 | RegistryRule | RegistryPolicyFile |  |
+| V-73807 | RegistryRule | Registry |  |
+| V-78123 | RegistryRule | RegistryPolicyFile |  |
+| V-78125 | RegistryRule | RegistryPolicyFile |  |
+| V-73623 | SecurityOptionRule | SecurityOption |  |
+| V-73625 | SecurityOptionRule | SecurityOption |  |
+| V-73665 | SecurityOptionRule | SecurityOption |  |
+| V-73809 | SecurityOptionRule | SecurityOption |  |
+| V-73729 | UserRightRule | UserRightsAssignment |  |
+| V-73731 | UserRightRule | None | V-73729 |
+| V-73735 | UserRightRule | UserRightsAssignment |  |
+| V-73737 | UserRightRule | UserRightsAssignment |  |
+| V-73739 | UserRightRule | UserRightsAssignment |  |
+| V-73741 | UserRightRule | UserRightsAssignment |  |
+| V-73743 | UserRightRule | UserRightsAssignment |  |
+| V-73745 | UserRightRule | UserRightsAssignment |  |
+| V-73747 | UserRightRule | UserRightsAssignment |  |
+| V-73749 | UserRightRule | UserRightsAssignment |  |
+| V-73751 | UserRightRule | UserRightsAssignment |  |
+| V-73753 | UserRightRule | UserRightsAssignment |  |
+| V-73755 | UserRightRule | UserRightsAssignment |  |
+| V-73757 | UserRightRule | UserRightsAssignment |  |
+| V-73761 | UserRightRule | UserRightsAssignment |  |
+| V-73765 | UserRightRule | UserRightsAssignment |  |
+| V-73769 | UserRightRule | UserRightsAssignment |  |
+| V-73773 | UserRightRule | UserRightsAssignment |  |
+| V-73777 | UserRightRule | UserRightsAssignment |  |
+| V-73781 | UserRightRule | UserRightsAssignment |  |
+| V-73783 | UserRightRule | UserRightsAssignment |  |
+| V-73785 | UserRightRule | UserRightsAssignment |  |
+| V-73787 | UserRightRule | UserRightsAssignment |  |
+| V-73789 | UserRightRule | UserRightsAssignment |  |
+| V-73791 | UserRightRule | UserRightsAssignment |  |
+| V-73793 | UserRightRule | UserRightsAssignment |  |
+| V-73795 | UserRightRule | UserRightsAssignment |  |
+| V-73797 | UserRightRule | UserRightsAssignment |  |
+| V-73799 | UserRightRule | UserRightsAssignment |  |
+| V-73801 | UserRightRule | UserRightsAssignment |  |
+| V-73803 | UserRightRule | UserRightsAssignment |  |
+| V-73287 | WindowsFeatureRule | WindowsFeature |  |
+| V-73289 | WindowsFeatureRule | WindowsFeature |  |
+| V-73291 | WindowsFeatureRule | WindowsFeature |  |
+| V-73293 | WindowsFeatureRule | WindowsFeature |  |
+| V-73295 | WindowsFeatureRule | WindowsFeature |  |
+| V-73297 | WindowsFeatureRule | WindowsFeature |  |
+| V-73299 | WindowsFeatureRule | WindowsFeature |  |
+| V-73301 | WindowsFeatureRule | WindowsFeature |  |
 
 ## Windows Server 2016 DC STIG, Version 1.9
 
@@ -3920,217 +3920,217 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_Windows_Server_2016_DC_STIG_V1R9_Manual-xccdf.xml  
 **Created:** 12/17/2019  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **217** of **264** rules are automated; **82%**  
+**StigRuleCoverage:** **207** of **264** rules are automated; **78%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-73359 | AccountPolicyRule | AccountPolicy |
-| V-73361 | AccountPolicyRule | AccountPolicy |
-| V-73363 | AccountPolicyRule | AccountPolicy |
-| V-73365 | AccountPolicyRule | AccountPolicy |
-| V-73367 | AccountPolicyRule | AccountPolicy |
-| V-73309 | AccountPolicyRule | AccountPolicy |
-| V-73311 | AccountPolicyRule | AccountPolicy |
-| V-73313 | AccountPolicyRule | AccountPolicy |
-| V-73315 | AccountPolicyRule | AccountPolicy |
-| V-73317 | AccountPolicyRule | AccountPolicy |
-| V-73319 | AccountPolicyRule | AccountPolicy |
-| V-73321 | AccountPolicyRule | AccountPolicy |
-| V-73323 | AccountPolicyRule | AccountPolicy |
-| V-73325 | AccountPolicyRule | AccountPolicy |
-| V-73413 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73415 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73417 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73419 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73423 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73427 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73429 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73431 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73433 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73435 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73437 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73439 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73441 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73443 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73445 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73447 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73449 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73451 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73453 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73455 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73457 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73459 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73461 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73463 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73465 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73467 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73469 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73471 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73473 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73475 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73477 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73479 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73481 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73483 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73489 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73491 | AuditPolicyRule | AuditPolicySubcategory |
-| V-90359 | AuditPolicyRule | AuditPolicySubcategory |
-| V-90361 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73239 | AuditSettingRule | AuditSetting |
-| V-73247 | AuditSettingRule | AuditSetting |
-| V-73249 | PermissionRule | NTFSAccessEntry |
-| V-73251.a | PermissionRule | NTFSAccessEntry |
-| V-73251.b | PermissionRule | NTFSAccessEntry |
-| V-73253 | PermissionRule | NTFSAccessEntry |
-| V-73255.a | PermissionRule | RegistryAccessEntry |
-| V-73255.b | PermissionRule | RegistryAccessEntry |
-| V-73255.c | PermissionRule | RegistryAccessEntry |
-| V-73371 | PermissionRule | NTFSAccessEntry |
-| V-73405 | PermissionRule | NTFSAccessEntry |
-| V-73407 | PermissionRule | NTFSAccessEntry |
-| V-73409 | PermissionRule | NTFSAccessEntry |
-| V-73411 | PermissionRule | NTFSAccessEntry |
-| V-73487 | RegistryRule | RegistryPolicyFile |
-| V-73493 | RegistryRule | RegistryPolicyFile |
-| V-73497 | RegistryRule | RegistryPolicyFile |
-| V-73499 | RegistryRule | RegistryPolicyFile |
-| V-73501 | RegistryRule | RegistryPolicyFile |
-| V-73503 | RegistryRule | RegistryPolicyFile |
-| V-73505 | RegistryRule | RegistryPolicyFile |
-| V-73507 | RegistryRule | RegistryPolicyFile |
-| V-73509.a | RegistryRule | RegistryPolicyFile |
-| V-73509.b | RegistryRule | RegistryPolicyFile |
-| V-73511 | RegistryRule | RegistryPolicyFile |
-| V-73513.a | RegistryRule | RegistryPolicyFile |
-| V-73513.b | RegistryRule | RegistryPolicyFile |
-| V-73515 | RegistryRule | RegistryPolicyFile |
-| V-73521 | RegistryRule | RegistryPolicyFile |
-| V-73525 | RegistryRule | RegistryPolicyFile |
-| V-73527 | RegistryRule | RegistryPolicyFile |
-| V-73529 | RegistryRule | RegistryPolicyFile |
-| V-73531 | RegistryRule | RegistryPolicyFile |
-| V-73537 | RegistryRule | RegistryPolicyFile |
-| V-73539 | RegistryRule | RegistryPolicyFile |
-| V-73543 | RegistryRule | RegistryPolicyFile |
-| V-73545 | RegistryRule | RegistryPolicyFile |
-| V-73547 | RegistryRule | RegistryPolicyFile |
-| V-73549 | RegistryRule | RegistryPolicyFile |
-| V-73551 | RegistryRule | RegistryPolicyFile |
-| V-73553 | RegistryRule | RegistryPolicyFile |
-| V-73555 | RegistryRule | RegistryPolicyFile |
-| V-73557 | RegistryRule | RegistryPolicyFile |
-| V-73559 | RegistryRule | RegistryPolicyFile |
-| V-73561 | RegistryRule | RegistryPolicyFile |
-| V-73563 | RegistryRule | RegistryPolicyFile |
-| V-73565 | RegistryRule | RegistryPolicyFile |
-| V-73567 | RegistryRule | RegistryPolicyFile |
-| V-73569 | RegistryRule | RegistryPolicyFile |
-| V-73571 | RegistryRule | RegistryPolicyFile |
-| V-73573 | RegistryRule | RegistryPolicyFile |
-| V-73575 | RegistryRule | RegistryPolicyFile |
-| V-73577 | RegistryRule | RegistryPolicyFile |
-| V-73579 | RegistryRule | RegistryPolicyFile |
-| V-73581 | RegistryRule | RegistryPolicyFile |
-| V-73583 | RegistryRule | RegistryPolicyFile |
-| V-73585 | RegistryRule | RegistryPolicyFile |
-| V-73587 | RegistryRule | RegistryPolicyFile |
-| V-73589 | RegistryRule | RegistryPolicyFile |
-| V-73591 | RegistryRule | RegistryPolicyFile |
-| V-73593 | RegistryRule | RegistryPolicyFile |
-| V-73595 | RegistryRule | RegistryPolicyFile |
-| V-73597 | RegistryRule | RegistryPolicyFile |
-| V-73599 | RegistryRule | RegistryPolicyFile |
-| V-73601 | RegistryRule | RegistryPolicyFile |
-| V-73603 | RegistryRule | RegistryPolicyFile |
-| V-73621 | RegistryRule | Registry |
-| V-73627 | RegistryRule | Registry |
-| V-73629 | RegistryRule | Registry |
-| V-73631 | RegistryRule | Registry |
-| V-73633 | RegistryRule | Registry |
-| V-73635 | RegistryRule | Registry |
-| V-73637 | RegistryRule | Registry |
-| V-73639 | RegistryRule | Registry |
-| V-73641 | RegistryRule | Registry |
-| V-73643 | RegistryRule | Registry |
-| V-73645 | RegistryRule | Registry |
-| V-73647 | RegistryRule | Registry |
-| V-73649 | RegistryRule | Registry |
-| V-73653 | RegistryRule | Registry |
-| V-73655 | RegistryRule | Registry |
-| V-73657 | RegistryRule | Registry |
-| V-73661 | RegistryRule | Registry |
-| V-73663 | RegistryRule | Registry |
-| V-73667 | RegistryRule | Registry |
-| V-73669 | RegistryRule | Registry |
-| V-73673 | RegistryRule | Registry |
-| V-73675 | RegistryRule | Registry |
-| V-73679 | RegistryRule | Registry |
-| V-73681 | RegistryRule | Registry |
-| V-73683 | RegistryRule | Registry |
-| V-73685 | RegistryRule | Registry |
-| V-73687 | RegistryRule | Registry |
-| V-73691 | RegistryRule | Registry |
-| V-73693 | RegistryRule | Registry |
-| V-73695 | RegistryRule | Registry |
-| V-73697 | RegistryRule | Registry |
-| V-73699 | RegistryRule | Registry |
-| V-73701 | RegistryRule | Registry |
-| V-73705 | RegistryRule | Registry |
-| V-73707 | RegistryRule | Registry |
-| V-73709 | RegistryRule | Registry |
-| V-73711 | RegistryRule | Registry |
-| V-73713 | RegistryRule | Registry |
-| V-73715 | RegistryRule | Registry |
-| V-73717 | RegistryRule | Registry |
-| V-73719 | RegistryRule | Registry |
-| V-73721 | RegistryRule | Registry |
-| V-73727 | RegistryRule | RegistryPolicyFile |
-| V-73807 | RegistryRule | Registry |
-| V-78123 | RegistryRule | RegistryPolicyFile |
-| V-78125 | RegistryRule | RegistryPolicyFile |
-| V-73623 | SecurityOptionRule | SecurityOption |
-| V-73625 | SecurityOptionRule | SecurityOption |
-| V-73665 | SecurityOptionRule | SecurityOption |
-| V-73809 | SecurityOptionRule | SecurityOption |
-| V-73729 | UserRightRule | UserRightsAssignment |
-| V-73731 | UserRightRule | UserRightsAssignment |
-| V-73735 | UserRightRule | UserRightsAssignment |
-| V-73737 | UserRightRule | UserRightsAssignment |
-| V-73739 | UserRightRule | UserRightsAssignment |
-| V-73741 | UserRightRule | UserRightsAssignment |
-| V-73743 | UserRightRule | UserRightsAssignment |
-| V-73745 | UserRightRule | UserRightsAssignment |
-| V-73747 | UserRightRule | UserRightsAssignment |
-| V-73749 | UserRightRule | UserRightsAssignment |
-| V-73751 | UserRightRule | UserRightsAssignment |
-| V-73753 | UserRightRule | UserRightsAssignment |
-| V-73755 | UserRightRule | UserRightsAssignment |
-| V-73757 | UserRightRule | UserRightsAssignment |
-| V-73761 | UserRightRule | UserRightsAssignment |
-| V-73765 | UserRightRule | UserRightsAssignment |
-| V-73769 | UserRightRule | UserRightsAssignment |
-| V-73773 | UserRightRule | UserRightsAssignment |
-| V-73777 | UserRightRule | UserRightsAssignment |
-| V-73781 | UserRightRule | UserRightsAssignment |
-| V-73783 | UserRightRule | UserRightsAssignment |
-| V-73785 | UserRightRule | UserRightsAssignment |
-| V-73787 | UserRightRule | UserRightsAssignment |
-| V-73789 | UserRightRule | UserRightsAssignment |
-| V-73791 | UserRightRule | UserRightsAssignment |
-| V-73793 | UserRightRule | UserRightsAssignment |
-| V-73795 | UserRightRule | UserRightsAssignment |
-| V-73797 | UserRightRule | UserRightsAssignment |
-| V-73799 | UserRightRule | UserRightsAssignment |
-| V-73801 | UserRightRule | UserRightsAssignment |
-| V-73803 | UserRightRule | UserRightsAssignment |
-| V-73287 | WindowsFeatureRule | WindowsFeature |
-| V-73289 | WindowsFeatureRule | WindowsFeature |
-| V-73291 | WindowsFeatureRule | WindowsFeature |
-| V-73293 | WindowsFeatureRule | WindowsFeature |
-| V-73295 | WindowsFeatureRule | WindowsFeature |
-| V-73297 | WindowsFeatureRule | WindowsFeature |
-| V-73299 | WindowsFeatureRule | WindowsFeature |
-| V-73301 | WindowsFeatureRule | WindowsFeature |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-73359 | AccountPolicyRule | AccountPolicy |  |
+| V-73361 | AccountPolicyRule | AccountPolicy |  |
+| V-73363 | AccountPolicyRule | AccountPolicy |  |
+| V-73365 | AccountPolicyRule | AccountPolicy |  |
+| V-73367 | AccountPolicyRule | AccountPolicy |  |
+| V-73309 | AccountPolicyRule | AccountPolicy |  |
+| V-73311 | AccountPolicyRule | AccountPolicy |  |
+| V-73313 | AccountPolicyRule | AccountPolicy |  |
+| V-73315 | AccountPolicyRule | AccountPolicy |  |
+| V-73317 | AccountPolicyRule | AccountPolicy |  |
+| V-73319 | AccountPolicyRule | AccountPolicy |  |
+| V-73321 | AccountPolicyRule | AccountPolicy |  |
+| V-73323 | AccountPolicyRule | AccountPolicy |  |
+| V-73325 | AccountPolicyRule | AccountPolicy |  |
+| V-73413 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73415 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73417 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73419 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73423 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73427 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73429 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73431 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73433 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73435 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73437 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73439 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73441 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73443 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73445 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73447 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73449 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73451 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73453 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73455 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73457 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73459 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73461 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73463 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73465 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73467 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73469 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73471 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73473 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73475 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73477 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73479 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73481 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73483 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73489 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73491 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-90359 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-90361 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73239 | AuditSettingRule | AuditSetting |  |
+| V-73247 | AuditSettingRule | AuditSetting |  |
+| V-73249 | PermissionRule | NTFSAccessEntry |  |
+| V-73251.a | PermissionRule | NTFSAccessEntry |  |
+| V-73251.b | PermissionRule | NTFSAccessEntry |  |
+| V-73253 | PermissionRule | NTFSAccessEntry |  |
+| V-73255.a | PermissionRule | RegistryAccessEntry |  |
+| V-73255.b | PermissionRule | RegistryAccessEntry |  |
+| V-73255.c | PermissionRule | RegistryAccessEntry |  |
+| V-73371 | PermissionRule | NTFSAccessEntry |  |
+| V-73405 | PermissionRule | NTFSAccessEntry |  |
+| V-73407 | PermissionRule | NTFSAccessEntry |  |
+| V-73409 | PermissionRule | NTFSAccessEntry |  |
+| V-73411 | PermissionRule | NTFSAccessEntry |  |
+| V-73487 | RegistryRule | RegistryPolicyFile |  |
+| V-73493 | RegistryRule | RegistryPolicyFile |  |
+| V-73497 | RegistryRule | RegistryPolicyFile |  |
+| V-73499 | RegistryRule | RegistryPolicyFile |  |
+| V-73501 | RegistryRule | RegistryPolicyFile |  |
+| V-73503 | RegistryRule | RegistryPolicyFile |  |
+| V-73505 | RegistryRule | RegistryPolicyFile |  |
+| V-73507 | RegistryRule | RegistryPolicyFile |  |
+| V-73509.a | RegistryRule | RegistryPolicyFile |  |
+| V-73509.b | RegistryRule | RegistryPolicyFile |  |
+| V-73511 | RegistryRule | RegistryPolicyFile |  |
+| V-73513.a | RegistryRule | RegistryPolicyFile |  |
+| V-73513.b | RegistryRule | RegistryPolicyFile |  |
+| V-73515 | RegistryRule | RegistryPolicyFile |  |
+| V-73521 | RegistryRule | RegistryPolicyFile |  |
+| V-73525 | RegistryRule | RegistryPolicyFile |  |
+| V-73527 | RegistryRule | RegistryPolicyFile |  |
+| V-73529 | RegistryRule | RegistryPolicyFile |  |
+| V-73531 | RegistryRule | RegistryPolicyFile |  |
+| V-73537 | RegistryRule | RegistryPolicyFile |  |
+| V-73539 | RegistryRule | RegistryPolicyFile |  |
+| V-73543 | RegistryRule | RegistryPolicyFile |  |
+| V-73545 | RegistryRule | RegistryPolicyFile |  |
+| V-73547 | RegistryRule | RegistryPolicyFile |  |
+| V-73549 | RegistryRule | RegistryPolicyFile |  |
+| V-73551 | RegistryRule | RegistryPolicyFile |  |
+| V-73553 | RegistryRule | RegistryPolicyFile |  |
+| V-73555 | RegistryRule | RegistryPolicyFile |  |
+| V-73557 | RegistryRule | RegistryPolicyFile |  |
+| V-73559 | RegistryRule | RegistryPolicyFile |  |
+| V-73561 | RegistryRule | RegistryPolicyFile |  |
+| V-73563 | RegistryRule | RegistryPolicyFile |  |
+| V-73565 | RegistryRule | RegistryPolicyFile |  |
+| V-73567 | RegistryRule | RegistryPolicyFile |  |
+| V-73569 | RegistryRule | RegistryPolicyFile |  |
+| V-73571 | RegistryRule | RegistryPolicyFile |  |
+| V-73573 | RegistryRule | RegistryPolicyFile |  |
+| V-73575 | RegistryRule | RegistryPolicyFile |  |
+| V-73577 | RegistryRule | RegistryPolicyFile |  |
+| V-73579 | RegistryRule | RegistryPolicyFile |  |
+| V-73581 | RegistryRule | RegistryPolicyFile |  |
+| V-73583 | RegistryRule | RegistryPolicyFile |  |
+| V-73585 | RegistryRule | RegistryPolicyFile |  |
+| V-73587 | RegistryRule | RegistryPolicyFile |  |
+| V-73589 | RegistryRule | RegistryPolicyFile |  |
+| V-73591 | RegistryRule | RegistryPolicyFile |  |
+| V-73593 | RegistryRule | RegistryPolicyFile |  |
+| V-73595 | RegistryRule | RegistryPolicyFile |  |
+| V-73597 | RegistryRule | RegistryPolicyFile |  |
+| V-73599 | RegistryRule | RegistryPolicyFile |  |
+| V-73601 | RegistryRule | RegistryPolicyFile |  |
+| V-73603 | RegistryRule | RegistryPolicyFile |  |
+| V-73621 | RegistryRule | Registry |  |
+| V-73627 | RegistryRule | Registry |  |
+| V-73629 | RegistryRule | Registry |  |
+| V-73631 | RegistryRule | Registry |  |
+| V-73633 | RegistryRule | Registry |  |
+| V-73635 | RegistryRule | Registry |  |
+| V-73637 | RegistryRule | Registry |  |
+| V-73639 | RegistryRule | Registry |  |
+| V-73641 | RegistryRule | Registry |  |
+| V-73643 | RegistryRule | Registry |  |
+| V-73645 | RegistryRule | Registry |  |
+| V-73647 | RegistryRule | Registry |  |
+| V-73649 | RegistryRule | Registry |  |
+| V-73653 | RegistryRule | Registry |  |
+| V-73655 | RegistryRule | Registry |  |
+| V-73657 | RegistryRule | Registry |  |
+| V-73661 | RegistryRule | Registry |  |
+| V-73663 | RegistryRule | Registry |  |
+| V-73667 | RegistryRule | Registry |  |
+| V-73669 | RegistryRule | Registry |  |
+| V-73673 | RegistryRule | Registry |  |
+| V-73675 | RegistryRule | Registry |  |
+| V-73679 | RegistryRule | Registry |  |
+| V-73681 | RegistryRule | Registry |  |
+| V-73683 | RegistryRule | Registry |  |
+| V-73685 | RegistryRule | Registry |  |
+| V-73687 | RegistryRule | Registry |  |
+| V-73691 | RegistryRule | Registry |  |
+| V-73693 | RegistryRule | Registry |  |
+| V-73695 | RegistryRule | Registry |  |
+| V-73697 | RegistryRule | Registry |  |
+| V-73699 | RegistryRule | Registry |  |
+| V-73701 | RegistryRule | Registry |  |
+| V-73705 | RegistryRule | Registry |  |
+| V-73707 | RegistryRule | Registry |  |
+| V-73709 | RegistryRule | Registry |  |
+| V-73711 | RegistryRule | Registry |  |
+| V-73713 | RegistryRule | Registry |  |
+| V-73715 | RegistryRule | Registry |  |
+| V-73717 | RegistryRule | Registry |  |
+| V-73719 | RegistryRule | Registry |  |
+| V-73721 | RegistryRule | Registry |  |
+| V-73727 | RegistryRule | RegistryPolicyFile |  |
+| V-73807 | RegistryRule | Registry |  |
+| V-78123 | RegistryRule | RegistryPolicyFile |  |
+| V-78125 | RegistryRule | RegistryPolicyFile |  |
+| V-73623 | SecurityOptionRule | SecurityOption |  |
+| V-73625 | SecurityOptionRule | SecurityOption |  |
+| V-73665 | SecurityOptionRule | SecurityOption |  |
+| V-73809 | SecurityOptionRule | SecurityOption |  |
+| V-73729 | UserRightRule | UserRightsAssignment |  |
+| V-73731 | UserRightRule | UserRightsAssignment |  |
+| V-73735 | UserRightRule | UserRightsAssignment |  |
+| V-73737 | UserRightRule | UserRightsAssignment |  |
+| V-73739 | UserRightRule | UserRightsAssignment |  |
+| V-73741 | UserRightRule | UserRightsAssignment |  |
+| V-73743 | UserRightRule | UserRightsAssignment |  |
+| V-73745 | UserRightRule | UserRightsAssignment |  |
+| V-73747 | UserRightRule | UserRightsAssignment |  |
+| V-73749 | UserRightRule | UserRightsAssignment |  |
+| V-73751 | UserRightRule | UserRightsAssignment |  |
+| V-73753 | UserRightRule | UserRightsAssignment |  |
+| V-73755 | UserRightRule | UserRightsAssignment |  |
+| V-73757 | UserRightRule | UserRightsAssignment |  |
+| V-73761 | UserRightRule | UserRightsAssignment |  |
+| V-73765 | UserRightRule | UserRightsAssignment |  |
+| V-73769 | UserRightRule | UserRightsAssignment |  |
+| V-73773 | UserRightRule | UserRightsAssignment |  |
+| V-73777 | UserRightRule | UserRightsAssignment |  |
+| V-73781 | UserRightRule | UserRightsAssignment |  |
+| V-73783 | UserRightRule | UserRightsAssignment |  |
+| V-73785 | UserRightRule | UserRightsAssignment |  |
+| V-73787 | UserRightRule | UserRightsAssignment |  |
+| V-73789 | UserRightRule | UserRightsAssignment |  |
+| V-73791 | UserRightRule | UserRightsAssignment |  |
+| V-73793 | UserRightRule | UserRightsAssignment |  |
+| V-73795 | UserRightRule | UserRightsAssignment |  |
+| V-73797 | UserRightRule | UserRightsAssignment |  |
+| V-73799 | UserRightRule | UserRightsAssignment |  |
+| V-73801 | UserRightRule | UserRightsAssignment |  |
+| V-73803 | UserRightRule | UserRightsAssignment |  |
+| V-73287 | WindowsFeatureRule | WindowsFeature |  |
+| V-73289 | WindowsFeatureRule | WindowsFeature |  |
+| V-73291 | WindowsFeatureRule | WindowsFeature |  |
+| V-73293 | WindowsFeatureRule | WindowsFeature |  |
+| V-73295 | WindowsFeatureRule | WindowsFeature |  |
+| V-73297 | WindowsFeatureRule | WindowsFeature |  |
+| V-73299 | WindowsFeatureRule | WindowsFeature |  |
+| V-73301 | WindowsFeatureRule | WindowsFeature |  |
 
 ## Windows Server 2016 MS STIG, Version 1.8
 
@@ -4140,209 +4140,209 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_Windows_Server_2016_MS_STIG_V1R8_Manual-xccdf.xml  
 **Created:** 9/6/2019  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **209** of **237** rules are automated; **88%**  
+**StigRuleCoverage:** **199** of **237** rules are automated; **84%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-73309 | AccountPolicyRule | AccountPolicy |
-| V-73311 | AccountPolicyRule | AccountPolicy |
-| V-73313 | AccountPolicyRule | AccountPolicy |
-| V-73315 | AccountPolicyRule | AccountPolicy |
-| V-73317 | AccountPolicyRule | AccountPolicy |
-| V-73319 | AccountPolicyRule | AccountPolicy |
-| V-73321 | AccountPolicyRule | AccountPolicy |
-| V-73323 | AccountPolicyRule | AccountPolicy |
-| V-73325 | AccountPolicyRule | AccountPolicy |
-| V-73413 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73415 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73419 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73423 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73427 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73429 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73431 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73433 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73443 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73445 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73447 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73449 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73451 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73453 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73455 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73457 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73459 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73461 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73463 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73465 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73467 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73469 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73471 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73473 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73475 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73477 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73479 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73481 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73483 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73489 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73491 | AuditPolicyRule | AuditPolicySubcategory |
-| V-90359 | AuditPolicyRule | AuditPolicySubcategory |
-| V-90361 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73239 | AuditSettingRule | AuditSetting |
-| V-73247 | AuditSettingRule | AuditSetting |
-| V-73249 | PermissionRule | NTFSAccessEntry |
-| V-73251.a | PermissionRule | NTFSAccessEntry |
-| V-73251.b | PermissionRule | NTFSAccessEntry |
-| V-73253 | PermissionRule | NTFSAccessEntry |
-| V-73255.a | PermissionRule | RegistryAccessEntry |
-| V-73255.b | PermissionRule | RegistryAccessEntry |
-| V-73255.c | PermissionRule | RegistryAccessEntry |
-| V-73405 | PermissionRule | NTFSAccessEntry |
-| V-73407 | PermissionRule | NTFSAccessEntry |
-| V-73409 | PermissionRule | NTFSAccessEntry |
-| V-73411 | PermissionRule | NTFSAccessEntry |
-| V-73487 | RegistryRule | RegistryPolicyFile |
-| V-73493 | RegistryRule | RegistryPolicyFile |
-| V-73495 | RegistryRule | RegistryPolicyFile |
-| V-73497 | RegistryRule | RegistryPolicyFile |
-| V-73499 | RegistryRule | RegistryPolicyFile |
-| V-73501 | RegistryRule | RegistryPolicyFile |
-| V-73503 | RegistryRule | RegistryPolicyFile |
-| V-73505 | RegistryRule | RegistryPolicyFile |
-| V-73507 | RegistryRule | RegistryPolicyFile |
-| V-73509.a | RegistryRule | RegistryPolicyFile |
-| V-73509.b | RegistryRule | RegistryPolicyFile |
-| V-73511 | RegistryRule | RegistryPolicyFile |
-| V-73513.a | RegistryRule | RegistryPolicyFile |
-| V-73513.b | RegistryRule | RegistryPolicyFile |
-| V-73515 | RegistryRule | RegistryPolicyFile |
-| V-73517 | RegistryRule | RegistryPolicyFile |
-| V-73521 | RegistryRule | RegistryPolicyFile |
-| V-73525 | RegistryRule | RegistryPolicyFile |
-| V-73527 | RegistryRule | RegistryPolicyFile |
-| V-73529 | RegistryRule | RegistryPolicyFile |
-| V-73531 | RegistryRule | RegistryPolicyFile |
-| V-73533 | RegistryRule | RegistryPolicyFile |
-| V-73537 | RegistryRule | RegistryPolicyFile |
-| V-73539 | RegistryRule | RegistryPolicyFile |
-| V-73541 | RegistryRule | RegistryPolicyFile |
-| V-73543 | RegistryRule | RegistryPolicyFile |
-| V-73545 | RegistryRule | RegistryPolicyFile |
-| V-73547 | RegistryRule | RegistryPolicyFile |
-| V-73549 | RegistryRule | RegistryPolicyFile |
-| V-73551 | RegistryRule | RegistryPolicyFile |
-| V-73553 | RegistryRule | RegistryPolicyFile |
-| V-73555 | RegistryRule | RegistryPolicyFile |
-| V-73557 | RegistryRule | RegistryPolicyFile |
-| V-73559 | RegistryRule | RegistryPolicyFile |
-| V-73561 | RegistryRule | RegistryPolicyFile |
-| V-73563 | RegistryRule | RegistryPolicyFile |
-| V-73565 | RegistryRule | RegistryPolicyFile |
-| V-73567 | RegistryRule | RegistryPolicyFile |
-| V-73569 | RegistryRule | RegistryPolicyFile |
-| V-73571 | RegistryRule | RegistryPolicyFile |
-| V-73573 | RegistryRule | RegistryPolicyFile |
-| V-73575 | RegistryRule | RegistryPolicyFile |
-| V-73577 | RegistryRule | RegistryPolicyFile |
-| V-73579 | RegistryRule | RegistryPolicyFile |
-| V-73581 | RegistryRule | RegistryPolicyFile |
-| V-73583 | RegistryRule | RegistryPolicyFile |
-| V-73585 | RegistryRule | RegistryPolicyFile |
-| V-73587 | RegistryRule | RegistryPolicyFile |
-| V-73589 | RegistryRule | RegistryPolicyFile |
-| V-73591 | RegistryRule | RegistryPolicyFile |
-| V-73593 | RegistryRule | RegistryPolicyFile |
-| V-73595 | RegistryRule | RegistryPolicyFile |
-| V-73597 | RegistryRule | RegistryPolicyFile |
-| V-73599 | RegistryRule | RegistryPolicyFile |
-| V-73601 | RegistryRule | RegistryPolicyFile |
-| V-73603 | RegistryRule | RegistryPolicyFile |
-| V-73621 | RegistryRule | Registry |
-| V-73627 | RegistryRule | Registry |
-| V-73633 | RegistryRule | Registry |
-| V-73635 | RegistryRule | Registry |
-| V-73637 | RegistryRule | Registry |
-| V-73639 | RegistryRule | Registry |
-| V-73641 | RegistryRule | Registry |
-| V-73643 | RegistryRule | Registry |
-| V-73645 | RegistryRule | Registry |
-| V-73647 | RegistryRule | Registry |
-| V-73649 | RegistryRule | Registry |
-| V-73651 | RegistryRule | Registry |
-| V-73653 | RegistryRule | Registry |
-| V-73655 | RegistryRule | Registry |
-| V-73657 | RegistryRule | Registry |
-| V-73661 | RegistryRule | Registry |
-| V-73663 | RegistryRule | Registry |
-| V-73667 | RegistryRule | Registry |
-| V-73669 | RegistryRule | Registry |
-| V-73673 | RegistryRule | Registry |
-| V-73675 | RegistryRule | Registry |
-| V-73677 | RegistryRule | Registry |
-| V-73679 | RegistryRule | Registry |
-| V-73681 | RegistryRule | Registry |
-| V-73683 | RegistryRule | Registry |
-| V-73685 | RegistryRule | Registry |
-| V-73687 | RegistryRule | Registry |
-| V-73691 | RegistryRule | Registry |
-| V-73693 | RegistryRule | Registry |
-| V-73695 | RegistryRule | Registry |
-| V-73697 | RegistryRule | Registry |
-| V-73699 | RegistryRule | Registry |
-| V-73701 | RegistryRule | Registry |
-| V-73705 | RegistryRule | Registry |
-| V-73707 | RegistryRule | Registry |
-| V-73709 | RegistryRule | Registry |
-| V-73711 | RegistryRule | Registry |
-| V-73713 | RegistryRule | Registry |
-| V-73715 | RegistryRule | Registry |
-| V-73717 | RegistryRule | Registry |
-| V-73719 | RegistryRule | Registry |
-| V-73721 | RegistryRule | Registry |
-| V-73727 | RegistryRule | RegistryPolicyFile |
-| V-73807 | RegistryRule | Registry |
-| V-78123 | RegistryRule | RegistryPolicyFile |
-| V-78125 | RegistryRule | RegistryPolicyFile |
-| V-73623 | SecurityOptionRule | SecurityOption |
-| V-73625 | SecurityOptionRule | SecurityOption |
-| V-73665 | SecurityOptionRule | SecurityOption |
-| V-73809 | SecurityOptionRule | SecurityOption |
-| V-73729 | UserRightRule | UserRightsAssignment |
-| V-73731 | UserRightRule | None |
-| V-73733 | UserRightRule | UserRightsAssignment |
-| V-73735 | UserRightRule | UserRightsAssignment |
-| V-73739 | UserRightRule | UserRightsAssignment |
-| V-73743 | UserRightRule | UserRightsAssignment |
-| V-73745 | UserRightRule | UserRightsAssignment |
-| V-73747 | UserRightRule | UserRightsAssignment |
-| V-73749 | UserRightRule | UserRightsAssignment |
-| V-73751 | UserRightRule | UserRightsAssignment |
-| V-73753 | UserRightRule | UserRightsAssignment |
-| V-73755 | UserRightRule | UserRightsAssignment |
-| V-73759 | UserRightRule | UserRightsAssignment |
-| V-73763 | UserRightRule | UserRightsAssignment |
-| V-73767 | UserRightRule | UserRightsAssignment |
-| V-73771 | UserRightRule | UserRightsAssignment |
-| V-73775 | UserRightRule | UserRightsAssignment |
-| V-73779 | UserRightRule | UserRightsAssignment |
-| V-73781 | UserRightRule | UserRightsAssignment |
-| V-73783 | UserRightRule | UserRightsAssignment |
-| V-73785 | UserRightRule | UserRightsAssignment |
-| V-73787 | UserRightRule | UserRightsAssignment |
-| V-73789 | UserRightRule | UserRightsAssignment |
-| V-73791 | UserRightRule | UserRightsAssignment |
-| V-73793 | UserRightRule | UserRightsAssignment |
-| V-73795 | UserRightRule | UserRightsAssignment |
-| V-73797 | UserRightRule | UserRightsAssignment |
-| V-73799 | UserRightRule | UserRightsAssignment |
-| V-73801 | UserRightRule | UserRightsAssignment |
-| V-73803 | UserRightRule | UserRightsAssignment |
-| V-73287 | WindowsFeatureRule | WindowsFeature |
-| V-73289 | WindowsFeatureRule | WindowsFeature |
-| V-73291 | WindowsFeatureRule | WindowsFeature |
-| V-73293 | WindowsFeatureRule | WindowsFeature |
-| V-73295 | WindowsFeatureRule | WindowsFeature |
-| V-73297 | WindowsFeatureRule | WindowsFeature |
-| V-73299 | WindowsFeatureRule | WindowsFeature |
-| V-73301 | WindowsFeatureRule | WindowsFeature |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-73309 | AccountPolicyRule | AccountPolicy |  |
+| V-73311 | AccountPolicyRule | AccountPolicy |  |
+| V-73313 | AccountPolicyRule | AccountPolicy |  |
+| V-73315 | AccountPolicyRule | AccountPolicy |  |
+| V-73317 | AccountPolicyRule | AccountPolicy |  |
+| V-73319 | AccountPolicyRule | AccountPolicy |  |
+| V-73321 | AccountPolicyRule | AccountPolicy |  |
+| V-73323 | AccountPolicyRule | AccountPolicy |  |
+| V-73325 | AccountPolicyRule | AccountPolicy |  |
+| V-73413 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73415 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73419 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73423 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73427 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73429 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73431 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73433 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73443 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73445 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73447 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73449 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73451 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73453 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73455 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73457 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73459 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73461 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73463 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73465 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73467 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73469 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73471 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73473 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73475 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73477 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73479 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73481 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73483 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73489 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73491 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-90359 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-90361 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73239 | AuditSettingRule | AuditSetting |  |
+| V-73247 | AuditSettingRule | AuditSetting |  |
+| V-73249 | PermissionRule | NTFSAccessEntry |  |
+| V-73251.a | PermissionRule | NTFSAccessEntry |  |
+| V-73251.b | PermissionRule | NTFSAccessEntry |  |
+| V-73253 | PermissionRule | NTFSAccessEntry |  |
+| V-73255.a | PermissionRule | RegistryAccessEntry |  |
+| V-73255.b | PermissionRule | RegistryAccessEntry |  |
+| V-73255.c | PermissionRule | RegistryAccessEntry |  |
+| V-73405 | PermissionRule | NTFSAccessEntry |  |
+| V-73407 | PermissionRule | NTFSAccessEntry |  |
+| V-73409 | PermissionRule | NTFSAccessEntry |  |
+| V-73411 | PermissionRule | NTFSAccessEntry |  |
+| V-73487 | RegistryRule | RegistryPolicyFile |  |
+| V-73493 | RegistryRule | RegistryPolicyFile |  |
+| V-73495 | RegistryRule | RegistryPolicyFile |  |
+| V-73497 | RegistryRule | RegistryPolicyFile |  |
+| V-73499 | RegistryRule | RegistryPolicyFile |  |
+| V-73501 | RegistryRule | RegistryPolicyFile |  |
+| V-73503 | RegistryRule | RegistryPolicyFile |  |
+| V-73505 | RegistryRule | RegistryPolicyFile |  |
+| V-73507 | RegistryRule | RegistryPolicyFile |  |
+| V-73509.a | RegistryRule | RegistryPolicyFile |  |
+| V-73509.b | RegistryRule | RegistryPolicyFile |  |
+| V-73511 | RegistryRule | RegistryPolicyFile |  |
+| V-73513.a | RegistryRule | RegistryPolicyFile |  |
+| V-73513.b | RegistryRule | RegistryPolicyFile |  |
+| V-73515 | RegistryRule | RegistryPolicyFile |  |
+| V-73517 | RegistryRule | RegistryPolicyFile |  |
+| V-73521 | RegistryRule | RegistryPolicyFile |  |
+| V-73525 | RegistryRule | RegistryPolicyFile |  |
+| V-73527 | RegistryRule | RegistryPolicyFile |  |
+| V-73529 | RegistryRule | RegistryPolicyFile |  |
+| V-73531 | RegistryRule | RegistryPolicyFile |  |
+| V-73533 | RegistryRule | RegistryPolicyFile |  |
+| V-73537 | RegistryRule | RegistryPolicyFile |  |
+| V-73539 | RegistryRule | RegistryPolicyFile |  |
+| V-73541 | RegistryRule | RegistryPolicyFile |  |
+| V-73543 | RegistryRule | RegistryPolicyFile |  |
+| V-73545 | RegistryRule | RegistryPolicyFile |  |
+| V-73547 | RegistryRule | RegistryPolicyFile |  |
+| V-73549 | RegistryRule | RegistryPolicyFile |  |
+| V-73551 | RegistryRule | RegistryPolicyFile |  |
+| V-73553 | RegistryRule | RegistryPolicyFile |  |
+| V-73555 | RegistryRule | RegistryPolicyFile |  |
+| V-73557 | RegistryRule | RegistryPolicyFile |  |
+| V-73559 | RegistryRule | RegistryPolicyFile |  |
+| V-73561 | RegistryRule | RegistryPolicyFile |  |
+| V-73563 | RegistryRule | RegistryPolicyFile |  |
+| V-73565 | RegistryRule | RegistryPolicyFile |  |
+| V-73567 | RegistryRule | RegistryPolicyFile |  |
+| V-73569 | RegistryRule | RegistryPolicyFile |  |
+| V-73571 | RegistryRule | RegistryPolicyFile |  |
+| V-73573 | RegistryRule | RegistryPolicyFile |  |
+| V-73575 | RegistryRule | RegistryPolicyFile |  |
+| V-73577 | RegistryRule | RegistryPolicyFile |  |
+| V-73579 | RegistryRule | RegistryPolicyFile |  |
+| V-73581 | RegistryRule | RegistryPolicyFile |  |
+| V-73583 | RegistryRule | RegistryPolicyFile |  |
+| V-73585 | RegistryRule | RegistryPolicyFile |  |
+| V-73587 | RegistryRule | RegistryPolicyFile |  |
+| V-73589 | RegistryRule | RegistryPolicyFile |  |
+| V-73591 | RegistryRule | RegistryPolicyFile |  |
+| V-73593 | RegistryRule | RegistryPolicyFile |  |
+| V-73595 | RegistryRule | RegistryPolicyFile |  |
+| V-73597 | RegistryRule | RegistryPolicyFile |  |
+| V-73599 | RegistryRule | RegistryPolicyFile |  |
+| V-73601 | RegistryRule | RegistryPolicyFile |  |
+| V-73603 | RegistryRule | RegistryPolicyFile |  |
+| V-73621 | RegistryRule | Registry |  |
+| V-73627 | RegistryRule | Registry |  |
+| V-73633 | RegistryRule | Registry |  |
+| V-73635 | RegistryRule | Registry |  |
+| V-73637 | RegistryRule | Registry |  |
+| V-73639 | RegistryRule | Registry |  |
+| V-73641 | RegistryRule | Registry |  |
+| V-73643 | RegistryRule | Registry |  |
+| V-73645 | RegistryRule | Registry |  |
+| V-73647 | RegistryRule | Registry |  |
+| V-73649 | RegistryRule | Registry |  |
+| V-73651 | RegistryRule | Registry |  |
+| V-73653 | RegistryRule | Registry |  |
+| V-73655 | RegistryRule | Registry |  |
+| V-73657 | RegistryRule | Registry |  |
+| V-73661 | RegistryRule | Registry |  |
+| V-73663 | RegistryRule | Registry |  |
+| V-73667 | RegistryRule | Registry |  |
+| V-73669 | RegistryRule | Registry |  |
+| V-73673 | RegistryRule | Registry |  |
+| V-73675 | RegistryRule | Registry |  |
+| V-73677 | RegistryRule | Registry |  |
+| V-73679 | RegistryRule | Registry |  |
+| V-73681 | RegistryRule | Registry |  |
+| V-73683 | RegistryRule | Registry |  |
+| V-73685 | RegistryRule | Registry |  |
+| V-73687 | RegistryRule | Registry |  |
+| V-73691 | RegistryRule | Registry |  |
+| V-73693 | RegistryRule | Registry |  |
+| V-73695 | RegistryRule | Registry |  |
+| V-73697 | RegistryRule | Registry |  |
+| V-73699 | RegistryRule | Registry |  |
+| V-73701 | RegistryRule | Registry |  |
+| V-73705 | RegistryRule | Registry |  |
+| V-73707 | RegistryRule | Registry |  |
+| V-73709 | RegistryRule | Registry |  |
+| V-73711 | RegistryRule | Registry |  |
+| V-73713 | RegistryRule | Registry |  |
+| V-73715 | RegistryRule | Registry |  |
+| V-73717 | RegistryRule | Registry |  |
+| V-73719 | RegistryRule | Registry |  |
+| V-73721 | RegistryRule | Registry |  |
+| V-73727 | RegistryRule | RegistryPolicyFile |  |
+| V-73807 | RegistryRule | Registry |  |
+| V-78123 | RegistryRule | RegistryPolicyFile |  |
+| V-78125 | RegistryRule | RegistryPolicyFile |  |
+| V-73623 | SecurityOptionRule | SecurityOption |  |
+| V-73625 | SecurityOptionRule | SecurityOption |  |
+| V-73665 | SecurityOptionRule | SecurityOption |  |
+| V-73809 | SecurityOptionRule | SecurityOption |  |
+| V-73729 | UserRightRule | UserRightsAssignment |  |
+| V-73731 | UserRightRule | None | V-73729 |
+| V-73733 | UserRightRule | UserRightsAssignment |  |
+| V-73735 | UserRightRule | UserRightsAssignment |  |
+| V-73739 | UserRightRule | UserRightsAssignment |  |
+| V-73743 | UserRightRule | UserRightsAssignment |  |
+| V-73745 | UserRightRule | UserRightsAssignment |  |
+| V-73747 | UserRightRule | UserRightsAssignment |  |
+| V-73749 | UserRightRule | UserRightsAssignment |  |
+| V-73751 | UserRightRule | UserRightsAssignment |  |
+| V-73753 | UserRightRule | UserRightsAssignment |  |
+| V-73755 | UserRightRule | UserRightsAssignment |  |
+| V-73759 | UserRightRule | UserRightsAssignment |  |
+| V-73763 | UserRightRule | UserRightsAssignment |  |
+| V-73767 | UserRightRule | UserRightsAssignment |  |
+| V-73771 | UserRightRule | UserRightsAssignment |  |
+| V-73775 | UserRightRule | UserRightsAssignment |  |
+| V-73779 | UserRightRule | UserRightsAssignment |  |
+| V-73781 | UserRightRule | UserRightsAssignment |  |
+| V-73783 | UserRightRule | UserRightsAssignment |  |
+| V-73785 | UserRightRule | UserRightsAssignment |  |
+| V-73787 | UserRightRule | UserRightsAssignment |  |
+| V-73789 | UserRightRule | UserRightsAssignment |  |
+| V-73791 | UserRightRule | UserRightsAssignment |  |
+| V-73793 | UserRightRule | UserRightsAssignment |  |
+| V-73795 | UserRightRule | UserRightsAssignment |  |
+| V-73797 | UserRightRule | UserRightsAssignment |  |
+| V-73799 | UserRightRule | UserRightsAssignment |  |
+| V-73801 | UserRightRule | UserRightsAssignment |  |
+| V-73803 | UserRightRule | UserRightsAssignment |  |
+| V-73287 | WindowsFeatureRule | WindowsFeature |  |
+| V-73289 | WindowsFeatureRule | WindowsFeature |  |
+| V-73291 | WindowsFeatureRule | WindowsFeature |  |
+| V-73293 | WindowsFeatureRule | WindowsFeature |  |
+| V-73295 | WindowsFeatureRule | WindowsFeature |  |
+| V-73297 | WindowsFeatureRule | WindowsFeature |  |
+| V-73299 | WindowsFeatureRule | WindowsFeature |  |
+| V-73301 | WindowsFeatureRule | WindowsFeature |  |
 
 ## Windows Server 2016 MS STIG, Version 1.9
 
@@ -4352,207 +4352,207 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_Windows_Server_2016_MS_STIG_V1R9_Manual-xccdf.xml  
 **Created:** 9/19/2019  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **207** of **235** rules are automated; **88%**  
+**StigRuleCoverage:** **197** of **235** rules are automated; **84%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-73309 | AccountPolicyRule | AccountPolicy |
-| V-73311 | AccountPolicyRule | AccountPolicy |
-| V-73313 | AccountPolicyRule | AccountPolicy |
-| V-73315 | AccountPolicyRule | AccountPolicy |
-| V-73317 | AccountPolicyRule | AccountPolicy |
-| V-73319 | AccountPolicyRule | AccountPolicy |
-| V-73321 | AccountPolicyRule | AccountPolicy |
-| V-73323 | AccountPolicyRule | AccountPolicy |
-| V-73325 | AccountPolicyRule | AccountPolicy |
-| V-73413 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73415 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73419 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73423 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73427 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73429 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73431 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73433 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73443 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73445 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73447 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73449 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73451 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73453 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73455 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73457 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73459 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73461 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73463 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73465 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73467 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73469 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73471 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73473 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73475 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73477 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73479 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73481 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73483 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73489 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73491 | AuditPolicyRule | AuditPolicySubcategory |
-| V-90359 | AuditPolicyRule | AuditPolicySubcategory |
-| V-90361 | AuditPolicyRule | AuditPolicySubcategory |
-| V-73239 | AuditSettingRule | AuditSetting |
-| V-73247 | AuditSettingRule | AuditSetting |
-| V-73249 | PermissionRule | NTFSAccessEntry |
-| V-73251.a | PermissionRule | NTFSAccessEntry |
-| V-73251.b | PermissionRule | NTFSAccessEntry |
-| V-73253 | PermissionRule | NTFSAccessEntry |
-| V-73255.a | PermissionRule | RegistryAccessEntry |
-| V-73255.b | PermissionRule | RegistryAccessEntry |
-| V-73255.c | PermissionRule | RegistryAccessEntry |
-| V-73405 | PermissionRule | NTFSAccessEntry |
-| V-73407 | PermissionRule | NTFSAccessEntry |
-| V-73409 | PermissionRule | NTFSAccessEntry |
-| V-73411 | PermissionRule | NTFSAccessEntry |
-| V-73487 | RegistryRule | RegistryPolicyFile |
-| V-73493 | RegistryRule | RegistryPolicyFile |
-| V-73495 | RegistryRule | RegistryPolicyFile |
-| V-73497 | RegistryRule | RegistryPolicyFile |
-| V-73499 | RegistryRule | RegistryPolicyFile |
-| V-73501 | RegistryRule | RegistryPolicyFile |
-| V-73503 | RegistryRule | RegistryPolicyFile |
-| V-73505 | RegistryRule | RegistryPolicyFile |
-| V-73507 | RegistryRule | RegistryPolicyFile |
-| V-73509.a | RegistryRule | RegistryPolicyFile |
-| V-73509.b | RegistryRule | RegistryPolicyFile |
-| V-73511 | RegistryRule | RegistryPolicyFile |
-| V-73513.a | RegistryRule | RegistryPolicyFile |
-| V-73513.b | RegistryRule | RegistryPolicyFile |
-| V-73515 | RegistryRule | RegistryPolicyFile |
-| V-73521 | RegistryRule | RegistryPolicyFile |
-| V-73525 | RegistryRule | RegistryPolicyFile |
-| V-73527 | RegistryRule | RegistryPolicyFile |
-| V-73529 | RegistryRule | RegistryPolicyFile |
-| V-73531 | RegistryRule | RegistryPolicyFile |
-| V-73533 | RegistryRule | RegistryPolicyFile |
-| V-73537 | RegistryRule | RegistryPolicyFile |
-| V-73539 | RegistryRule | RegistryPolicyFile |
-| V-73541 | RegistryRule | RegistryPolicyFile |
-| V-73543 | RegistryRule | RegistryPolicyFile |
-| V-73545 | RegistryRule | RegistryPolicyFile |
-| V-73547 | RegistryRule | RegistryPolicyFile |
-| V-73549 | RegistryRule | RegistryPolicyFile |
-| V-73551 | RegistryRule | RegistryPolicyFile |
-| V-73553 | RegistryRule | RegistryPolicyFile |
-| V-73555 | RegistryRule | RegistryPolicyFile |
-| V-73557 | RegistryRule | RegistryPolicyFile |
-| V-73559 | RegistryRule | RegistryPolicyFile |
-| V-73561 | RegistryRule | RegistryPolicyFile |
-| V-73563 | RegistryRule | RegistryPolicyFile |
-| V-73565 | RegistryRule | RegistryPolicyFile |
-| V-73567 | RegistryRule | RegistryPolicyFile |
-| V-73569 | RegistryRule | RegistryPolicyFile |
-| V-73571 | RegistryRule | RegistryPolicyFile |
-| V-73573 | RegistryRule | RegistryPolicyFile |
-| V-73575 | RegistryRule | RegistryPolicyFile |
-| V-73577 | RegistryRule | RegistryPolicyFile |
-| V-73579 | RegistryRule | RegistryPolicyFile |
-| V-73581 | RegistryRule | RegistryPolicyFile |
-| V-73583 | RegistryRule | RegistryPolicyFile |
-| V-73585 | RegistryRule | RegistryPolicyFile |
-| V-73587 | RegistryRule | RegistryPolicyFile |
-| V-73589 | RegistryRule | RegistryPolicyFile |
-| V-73591 | RegistryRule | RegistryPolicyFile |
-| V-73593 | RegistryRule | RegistryPolicyFile |
-| V-73595 | RegistryRule | RegistryPolicyFile |
-| V-73597 | RegistryRule | RegistryPolicyFile |
-| V-73599 | RegistryRule | RegistryPolicyFile |
-| V-73601 | RegistryRule | RegistryPolicyFile |
-| V-73603 | RegistryRule | RegistryPolicyFile |
-| V-73621 | RegistryRule | Registry |
-| V-73627 | RegistryRule | Registry |
-| V-73633 | RegistryRule | Registry |
-| V-73635 | RegistryRule | Registry |
-| V-73637 | RegistryRule | Registry |
-| V-73639 | RegistryRule | Registry |
-| V-73641 | RegistryRule | Registry |
-| V-73643 | RegistryRule | Registry |
-| V-73645 | RegistryRule | Registry |
-| V-73647 | RegistryRule | Registry |
-| V-73649 | RegistryRule | Registry |
-| V-73651 | RegistryRule | Registry |
-| V-73653 | RegistryRule | Registry |
-| V-73655 | RegistryRule | Registry |
-| V-73657 | RegistryRule | Registry |
-| V-73661 | RegistryRule | Registry |
-| V-73663 | RegistryRule | Registry |
-| V-73667 | RegistryRule | Registry |
-| V-73669 | RegistryRule | Registry |
-| V-73673 | RegistryRule | Registry |
-| V-73675 | RegistryRule | Registry |
-| V-73677 | RegistryRule | Registry |
-| V-73679 | RegistryRule | Registry |
-| V-73681 | RegistryRule | Registry |
-| V-73683 | RegistryRule | Registry |
-| V-73685 | RegistryRule | Registry |
-| V-73687 | RegistryRule | Registry |
-| V-73691 | RegistryRule | Registry |
-| V-73693 | RegistryRule | Registry |
-| V-73695 | RegistryRule | Registry |
-| V-73697 | RegistryRule | Registry |
-| V-73699 | RegistryRule | Registry |
-| V-73701 | RegistryRule | Registry |
-| V-73705 | RegistryRule | Registry |
-| V-73707 | RegistryRule | Registry |
-| V-73709 | RegistryRule | Registry |
-| V-73711 | RegistryRule | Registry |
-| V-73713 | RegistryRule | Registry |
-| V-73715 | RegistryRule | Registry |
-| V-73717 | RegistryRule | Registry |
-| V-73719 | RegistryRule | Registry |
-| V-73721 | RegistryRule | Registry |
-| V-73727 | RegistryRule | RegistryPolicyFile |
-| V-73807 | RegistryRule | Registry |
-| V-78123 | RegistryRule | RegistryPolicyFile |
-| V-78125 | RegistryRule | RegistryPolicyFile |
-| V-73623 | SecurityOptionRule | SecurityOption |
-| V-73625 | SecurityOptionRule | SecurityOption |
-| V-73665 | SecurityOptionRule | SecurityOption |
-| V-73809 | SecurityOptionRule | SecurityOption |
-| V-73729 | UserRightRule | UserRightsAssignment |
-| V-73733 | UserRightRule | UserRightsAssignment |
-| V-73735 | UserRightRule | UserRightsAssignment |
-| V-73739 | UserRightRule | UserRightsAssignment |
-| V-73743 | UserRightRule | UserRightsAssignment |
-| V-73745 | UserRightRule | UserRightsAssignment |
-| V-73747 | UserRightRule | UserRightsAssignment |
-| V-73749 | UserRightRule | UserRightsAssignment |
-| V-73751 | UserRightRule | UserRightsAssignment |
-| V-73753 | UserRightRule | UserRightsAssignment |
-| V-73755 | UserRightRule | UserRightsAssignment |
-| V-73759 | UserRightRule | UserRightsAssignment |
-| V-73763 | UserRightRule | UserRightsAssignment |
-| V-73767 | UserRightRule | UserRightsAssignment |
-| V-73771 | UserRightRule | UserRightsAssignment |
-| V-73775 | UserRightRule | UserRightsAssignment |
-| V-73779 | UserRightRule | UserRightsAssignment |
-| V-73781 | UserRightRule | UserRightsAssignment |
-| V-73783 | UserRightRule | UserRightsAssignment |
-| V-73785 | UserRightRule | UserRightsAssignment |
-| V-73787 | UserRightRule | UserRightsAssignment |
-| V-73789 | UserRightRule | UserRightsAssignment |
-| V-73791 | UserRightRule | UserRightsAssignment |
-| V-73793 | UserRightRule | UserRightsAssignment |
-| V-73795 | UserRightRule | UserRightsAssignment |
-| V-73797 | UserRightRule | UserRightsAssignment |
-| V-73799 | UserRightRule | UserRightsAssignment |
-| V-73801 | UserRightRule | UserRightsAssignment |
-| V-73803 | UserRightRule | UserRightsAssignment |
-| V-73287 | WindowsFeatureRule | WindowsFeature |
-| V-73289 | WindowsFeatureRule | WindowsFeature |
-| V-73291 | WindowsFeatureRule | WindowsFeature |
-| V-73293 | WindowsFeatureRule | WindowsFeature |
-| V-73295 | WindowsFeatureRule | WindowsFeature |
-| V-73297 | WindowsFeatureRule | WindowsFeature |
-| V-73299 | WindowsFeatureRule | WindowsFeature |
-| V-73301 | WindowsFeatureRule | WindowsFeature |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-73309 | AccountPolicyRule | AccountPolicy |  |
+| V-73311 | AccountPolicyRule | AccountPolicy |  |
+| V-73313 | AccountPolicyRule | AccountPolicy |  |
+| V-73315 | AccountPolicyRule | AccountPolicy |  |
+| V-73317 | AccountPolicyRule | AccountPolicy |  |
+| V-73319 | AccountPolicyRule | AccountPolicy |  |
+| V-73321 | AccountPolicyRule | AccountPolicy |  |
+| V-73323 | AccountPolicyRule | AccountPolicy |  |
+| V-73325 | AccountPolicyRule | AccountPolicy |  |
+| V-73413 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73415 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73419 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73423 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73427 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73429 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73431 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73433 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73443 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73445 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73447 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73449 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73451 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73453 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73455 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73457 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73459 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73461 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73463 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73465 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73467 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73469 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73471 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73473 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73475 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73477 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73479 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73481 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73483 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73489 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73491 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-90359 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-90361 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-73239 | AuditSettingRule | AuditSetting |  |
+| V-73247 | AuditSettingRule | AuditSetting |  |
+| V-73249 | PermissionRule | NTFSAccessEntry |  |
+| V-73251.a | PermissionRule | NTFSAccessEntry |  |
+| V-73251.b | PermissionRule | NTFSAccessEntry |  |
+| V-73253 | PermissionRule | NTFSAccessEntry |  |
+| V-73255.a | PermissionRule | RegistryAccessEntry |  |
+| V-73255.b | PermissionRule | RegistryAccessEntry |  |
+| V-73255.c | PermissionRule | RegistryAccessEntry |  |
+| V-73405 | PermissionRule | NTFSAccessEntry |  |
+| V-73407 | PermissionRule | NTFSAccessEntry |  |
+| V-73409 | PermissionRule | NTFSAccessEntry |  |
+| V-73411 | PermissionRule | NTFSAccessEntry |  |
+| V-73487 | RegistryRule | RegistryPolicyFile |  |
+| V-73493 | RegistryRule | RegistryPolicyFile |  |
+| V-73495 | RegistryRule | RegistryPolicyFile |  |
+| V-73497 | RegistryRule | RegistryPolicyFile |  |
+| V-73499 | RegistryRule | RegistryPolicyFile |  |
+| V-73501 | RegistryRule | RegistryPolicyFile |  |
+| V-73503 | RegistryRule | RegistryPolicyFile |  |
+| V-73505 | RegistryRule | RegistryPolicyFile |  |
+| V-73507 | RegistryRule | RegistryPolicyFile |  |
+| V-73509.a | RegistryRule | RegistryPolicyFile |  |
+| V-73509.b | RegistryRule | RegistryPolicyFile |  |
+| V-73511 | RegistryRule | RegistryPolicyFile |  |
+| V-73513.a | RegistryRule | RegistryPolicyFile |  |
+| V-73513.b | RegistryRule | RegistryPolicyFile |  |
+| V-73515 | RegistryRule | RegistryPolicyFile |  |
+| V-73521 | RegistryRule | RegistryPolicyFile |  |
+| V-73525 | RegistryRule | RegistryPolicyFile |  |
+| V-73527 | RegistryRule | RegistryPolicyFile |  |
+| V-73529 | RegistryRule | RegistryPolicyFile |  |
+| V-73531 | RegistryRule | RegistryPolicyFile |  |
+| V-73533 | RegistryRule | RegistryPolicyFile |  |
+| V-73537 | RegistryRule | RegistryPolicyFile |  |
+| V-73539 | RegistryRule | RegistryPolicyFile |  |
+| V-73541 | RegistryRule | RegistryPolicyFile |  |
+| V-73543 | RegistryRule | RegistryPolicyFile |  |
+| V-73545 | RegistryRule | RegistryPolicyFile |  |
+| V-73547 | RegistryRule | RegistryPolicyFile |  |
+| V-73549 | RegistryRule | RegistryPolicyFile |  |
+| V-73551 | RegistryRule | RegistryPolicyFile |  |
+| V-73553 | RegistryRule | RegistryPolicyFile |  |
+| V-73555 | RegistryRule | RegistryPolicyFile |  |
+| V-73557 | RegistryRule | RegistryPolicyFile |  |
+| V-73559 | RegistryRule | RegistryPolicyFile |  |
+| V-73561 | RegistryRule | RegistryPolicyFile |  |
+| V-73563 | RegistryRule | RegistryPolicyFile |  |
+| V-73565 | RegistryRule | RegistryPolicyFile |  |
+| V-73567 | RegistryRule | RegistryPolicyFile |  |
+| V-73569 | RegistryRule | RegistryPolicyFile |  |
+| V-73571 | RegistryRule | RegistryPolicyFile |  |
+| V-73573 | RegistryRule | RegistryPolicyFile |  |
+| V-73575 | RegistryRule | RegistryPolicyFile |  |
+| V-73577 | RegistryRule | RegistryPolicyFile |  |
+| V-73579 | RegistryRule | RegistryPolicyFile |  |
+| V-73581 | RegistryRule | RegistryPolicyFile |  |
+| V-73583 | RegistryRule | RegistryPolicyFile |  |
+| V-73585 | RegistryRule | RegistryPolicyFile |  |
+| V-73587 | RegistryRule | RegistryPolicyFile |  |
+| V-73589 | RegistryRule | RegistryPolicyFile |  |
+| V-73591 | RegistryRule | RegistryPolicyFile |  |
+| V-73593 | RegistryRule | RegistryPolicyFile |  |
+| V-73595 | RegistryRule | RegistryPolicyFile |  |
+| V-73597 | RegistryRule | RegistryPolicyFile |  |
+| V-73599 | RegistryRule | RegistryPolicyFile |  |
+| V-73601 | RegistryRule | RegistryPolicyFile |  |
+| V-73603 | RegistryRule | RegistryPolicyFile |  |
+| V-73621 | RegistryRule | Registry |  |
+| V-73627 | RegistryRule | Registry |  |
+| V-73633 | RegistryRule | Registry |  |
+| V-73635 | RegistryRule | Registry |  |
+| V-73637 | RegistryRule | Registry |  |
+| V-73639 | RegistryRule | Registry |  |
+| V-73641 | RegistryRule | Registry |  |
+| V-73643 | RegistryRule | Registry |  |
+| V-73645 | RegistryRule | Registry |  |
+| V-73647 | RegistryRule | Registry |  |
+| V-73649 | RegistryRule | Registry |  |
+| V-73651 | RegistryRule | Registry |  |
+| V-73653 | RegistryRule | Registry |  |
+| V-73655 | RegistryRule | Registry |  |
+| V-73657 | RegistryRule | Registry |  |
+| V-73661 | RegistryRule | Registry |  |
+| V-73663 | RegistryRule | Registry |  |
+| V-73667 | RegistryRule | Registry |  |
+| V-73669 | RegistryRule | Registry |  |
+| V-73673 | RegistryRule | Registry |  |
+| V-73675 | RegistryRule | Registry |  |
+| V-73677 | RegistryRule | Registry |  |
+| V-73679 | RegistryRule | Registry |  |
+| V-73681 | RegistryRule | Registry |  |
+| V-73683 | RegistryRule | Registry |  |
+| V-73685 | RegistryRule | Registry |  |
+| V-73687 | RegistryRule | Registry |  |
+| V-73691 | RegistryRule | Registry |  |
+| V-73693 | RegistryRule | Registry |  |
+| V-73695 | RegistryRule | Registry |  |
+| V-73697 | RegistryRule | Registry |  |
+| V-73699 | RegistryRule | Registry |  |
+| V-73701 | RegistryRule | Registry |  |
+| V-73705 | RegistryRule | Registry |  |
+| V-73707 | RegistryRule | Registry |  |
+| V-73709 | RegistryRule | Registry |  |
+| V-73711 | RegistryRule | Registry |  |
+| V-73713 | RegistryRule | Registry |  |
+| V-73715 | RegistryRule | Registry |  |
+| V-73717 | RegistryRule | Registry |  |
+| V-73719 | RegistryRule | Registry |  |
+| V-73721 | RegistryRule | Registry |  |
+| V-73727 | RegistryRule | RegistryPolicyFile |  |
+| V-73807 | RegistryRule | Registry |  |
+| V-78123 | RegistryRule | RegistryPolicyFile |  |
+| V-78125 | RegistryRule | RegistryPolicyFile |  |
+| V-73623 | SecurityOptionRule | SecurityOption |  |
+| V-73625 | SecurityOptionRule | SecurityOption |  |
+| V-73665 | SecurityOptionRule | SecurityOption |  |
+| V-73809 | SecurityOptionRule | SecurityOption |  |
+| V-73729 | UserRightRule | UserRightsAssignment |  |
+| V-73733 | UserRightRule | UserRightsAssignment |  |
+| V-73735 | UserRightRule | UserRightsAssignment |  |
+| V-73739 | UserRightRule | UserRightsAssignment |  |
+| V-73743 | UserRightRule | UserRightsAssignment |  |
+| V-73745 | UserRightRule | UserRightsAssignment |  |
+| V-73747 | UserRightRule | UserRightsAssignment |  |
+| V-73749 | UserRightRule | UserRightsAssignment |  |
+| V-73751 | UserRightRule | UserRightsAssignment |  |
+| V-73753 | UserRightRule | UserRightsAssignment |  |
+| V-73755 | UserRightRule | UserRightsAssignment |  |
+| V-73759 | UserRightRule | UserRightsAssignment |  |
+| V-73763 | UserRightRule | UserRightsAssignment |  |
+| V-73767 | UserRightRule | UserRightsAssignment |  |
+| V-73771 | UserRightRule | UserRightsAssignment |  |
+| V-73775 | UserRightRule | UserRightsAssignment |  |
+| V-73779 | UserRightRule | UserRightsAssignment |  |
+| V-73781 | UserRightRule | UserRightsAssignment |  |
+| V-73783 | UserRightRule | UserRightsAssignment |  |
+| V-73785 | UserRightRule | UserRightsAssignment |  |
+| V-73787 | UserRightRule | UserRightsAssignment |  |
+| V-73789 | UserRightRule | UserRightsAssignment |  |
+| V-73791 | UserRightRule | UserRightsAssignment |  |
+| V-73793 | UserRightRule | UserRightsAssignment |  |
+| V-73795 | UserRightRule | UserRightsAssignment |  |
+| V-73797 | UserRightRule | UserRightsAssignment |  |
+| V-73799 | UserRightRule | UserRightsAssignment |  |
+| V-73801 | UserRightRule | UserRightsAssignment |  |
+| V-73803 | UserRightRule | UserRightsAssignment |  |
+| V-73287 | WindowsFeatureRule | WindowsFeature |  |
+| V-73289 | WindowsFeatureRule | WindowsFeature |  |
+| V-73291 | WindowsFeatureRule | WindowsFeature |  |
+| V-73293 | WindowsFeatureRule | WindowsFeature |  |
+| V-73295 | WindowsFeatureRule | WindowsFeature |  |
+| V-73297 | WindowsFeatureRule | WindowsFeature |  |
+| V-73299 | WindowsFeatureRule | WindowsFeature |  |
+| V-73301 | WindowsFeatureRule | WindowsFeature |  |
 
 ## Windows Server 2019 DC STIG, Version 1.2
 
@@ -4562,251 +4562,251 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_Windows_Server_2019_DC_STIG_V1R2_Manual-xccdf.xml  
 **Created:** 12/17/2019  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **253** of **296** rules are automated; **85%**  
+**StigRuleCoverage:** **241** of **296** rules are automated; **81%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-93443 | AccountPolicyRule | AccountPolicy |
-| V-93445 | AccountPolicyRule | AccountPolicy |
-| V-93447 | AccountPolicyRule | AccountPolicy |
-| V-93449 | AccountPolicyRule | AccountPolicy |
-| V-93451 | AccountPolicyRule | AccountPolicy |
-| V-93141 | AccountPolicyRule | AccountPolicy |
-| V-93143 | AccountPolicyRule | AccountPolicy |
-| V-93145 | AccountPolicyRule | AccountPolicy |
-| V-93459 | AccountPolicyRule | AccountPolicy |
-| V-93463 | AccountPolicyRule | AccountPolicy |
-| V-93465 | AccountPolicyRule | AccountPolicy |
-| V-93471 | AccountPolicyRule | AccountPolicy |
-| V-93477 | AccountPolicyRule | AccountPolicy |
-| V-93479 | AccountPolicyRule | AccountPolicy |
-| V-92967 | AuditPolicyRule | AuditPolicySubcategory |
-| V-92969 | AuditPolicyRule | AuditPolicySubcategory |
-| V-92979 | AuditPolicyRule | AuditPolicySubcategory |
-| V-92981 | AuditPolicyRule | AuditPolicySubcategory |
-| V-92983 | AuditPolicyRule | AuditPolicySubcategory |
-| V-92985 | AuditPolicyRule | AuditPolicySubcategory |
-| V-92987 | AuditPolicyRule | AuditPolicySubcategory |
-| V-92989 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93089 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93091 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93093 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93095 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93097 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93099 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93101 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93103 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93105 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93107 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93109 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93111 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93113 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93115 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93117 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93119 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93133 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93135 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93137 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93139 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93153 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93155 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93157 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93159 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93161 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93163 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93165 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93167 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93169 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93171 | AuditPolicyRule | AuditPolicySubcategory |
-| V-92991 | AuditSettingRule | AuditSetting |
-| V-93215 | AuditSettingRule | AuditSetting |
-| V-93019 | PermissionRule | NTFSAccessEntry |
-| V-93021.a | PermissionRule | NTFSAccessEntry |
-| V-93021.b | PermissionRule | NTFSAccessEntry |
-| V-93023 | PermissionRule | NTFSAccessEntry |
-| V-93025.a | PermissionRule | RegistryAccessEntry |
-| V-93025.b | PermissionRule | RegistryAccessEntry |
-| V-93025.c | PermissionRule | RegistryAccessEntry |
-| V-93031 | PermissionRule | NTFSAccessEntry |
-| V-93189 | PermissionRule | NTFSAccessEntry |
-| V-93191 | PermissionRule | NTFSAccessEntry |
-| V-93193 | PermissionRule | NTFSAccessEntry |
-| V-93195 | PermissionRule | NTFSAccessEntry |
-| V-93313 | ProcessMitigationRule | ProcessMitigation |
-| V-93315 | ProcessMitigationRule | ProcessMitigation |
-| V-93317 | ProcessMitigationRule | ProcessMitigation |
-| V-93319 | ProcessMitigationRule | ProcessMitigation |
-| V-93321 | ProcessMitigationRule | ProcessMitigation |
-| V-93323 | ProcessMitigationRule | ProcessMitigation |
-| V-93325 | ProcessMitigationRule | ProcessMitigation |
-| V-93327 | ProcessMitigationRule | ProcessMitigation |
-| V-93329 | ProcessMitigationRule | ProcessMitigation |
-| V-93331 | ProcessMitigationRule | ProcessMitigation |
-| V-93333 | ProcessMitigationRule | ProcessMitigation |
-| V-93335 | ProcessMitigationRule | ProcessMitigation |
-| V-93337 | ProcessMitigationRule | ProcessMitigation |
-| V-93339.a | ProcessMitigationRule | ProcessMitigation |
-| V-93339.b | ProcessMitigationRule | ProcessMitigation |
-| V-93339.c | ProcessMitigationRule | ProcessMitigation |
-| V-93341 | ProcessMitigationRule | ProcessMitigation |
-| V-93343 | ProcessMitigationRule | ProcessMitigation |
-| V-93345 | ProcessMitigationRule | ProcessMitigation |
-| V-93347 | ProcessMitigationRule | ProcessMitigation |
-| V-93349 | ProcessMitigationRule | ProcessMitigation |
-| V-93351 | ProcessMitigationRule | ProcessMitigation |
-| V-93353 | ProcessMitigationRule | ProcessMitigation |
-| V-93355 | ProcessMitigationRule | ProcessMitigation |
-| V-93357 | ProcessMitigationRule | ProcessMitigation |
-| V-93359 | ProcessMitigationRule | ProcessMitigation |
-| V-93361 | ProcessMitigationRule | ProcessMitigation |
-| V-93363 | ProcessMitigationRule | ProcessMitigation |
-| V-93365 | ProcessMitigationRule | ProcessMitigation |
-| V-93367 | ProcessMitigationRule | ProcessMitigation |
-| V-93565 | ProcessMitigationRule | ProcessMitigation |
-| V-92961 | RegistryRule | Registry |
-| V-92971 | RegistryRule | RegistryPolicyFile |
-| V-92973 | RegistryRule | RegistryPolicyFile |
-| V-93147 | RegistryRule | Registry |
-| V-93149 | RegistryRule | Registry |
-| V-93151 | RegistryRule | Registry |
-| V-93173 | RegistryRule | RegistryPolicyFile |
-| V-93175 | RegistryRule | RegistryPolicyFile |
-| V-93177 | RegistryRule | RegistryPolicyFile |
-| V-93179 | RegistryRule | RegistryPolicyFile |
-| V-93181 | RegistryRule | RegistryPolicyFile |
-| V-93199 | RegistryRule | RegistryPolicyFile |
-| V-93201 | RegistryRule | RegistryPolicyFile |
-| V-93233 | RegistryRule | RegistryPolicyFile |
-| V-93235 | RegistryRule | RegistryPolicyFile |
-| V-93237 | RegistryRule | RegistryPolicyFile |
-| V-93239 | RegistryRule | RegistryPolicyFile |
-| V-93241.a | RegistryRule | RegistryPolicyFile |
-| V-93241.b | RegistryRule | RegistryPolicyFile |
-| V-93243 | RegistryRule | RegistryPolicyFile |
-| V-93245.a | RegistryRule | RegistryPolicyFile |
-| V-93245.b | RegistryRule | RegistryPolicyFile |
-| V-93249 | RegistryRule | RegistryPolicyFile |
-| V-93251 | RegistryRule | RegistryPolicyFile |
-| V-93253 | RegistryRule | RegistryPolicyFile |
-| V-93255 | RegistryRule | RegistryPolicyFile |
-| V-93257 | RegistryRule | RegistryPolicyFile |
-| V-93259 | RegistryRule | RegistryPolicyFile |
-| V-93261 | RegistryRule | RegistryPolicyFile |
-| V-93263 | RegistryRule | RegistryPolicyFile |
-| V-93265 | RegistryRule | RegistryPolicyFile |
-| V-93267 | RegistryRule | RegistryPolicyFile |
-| V-93269 | RegistryRule | RegistryPolicyFile |
-| V-93273 | RegistryRule | Registry |
-| V-93279 | RegistryRule | Registry |
-| V-93285 | RegistryRule | Registry |
-| V-93287 | RegistryRule | Registry |
-| V-93291 | RegistryRule | Registry |
-| V-93293 | RegistryRule | Registry |
-| V-93295 | RegistryRule | Registry |
-| V-93297 | RegistryRule | Registry |
-| V-93299 | RegistryRule | Registry |
-| V-93301 | RegistryRule | Registry |
-| V-93303 | RegistryRule | Registry |
-| V-93305 | RegistryRule | Registry |
-| V-93307 | RegistryRule | Registry |
-| V-93309 | RegistryRule | Registry |
-| V-93311 | RegistryRule | RegistryPolicyFile |
-| V-93373 | RegistryRule | RegistryPolicyFile |
-| V-93375 | RegistryRule | RegistryPolicyFile |
-| V-93377 | RegistryRule | RegistryPolicyFile |
-| V-93393 | RegistryRule | RegistryPolicyFile |
-| V-93395 | RegistryRule | RegistryPolicyFile |
-| V-93399 | RegistryRule | RegistryPolicyFile |
-| V-93401 | RegistryRule | RegistryPolicyFile |
-| V-93403 | RegistryRule | RegistryPolicyFile |
-| V-93405 | RegistryRule | RegistryPolicyFile |
-| V-93407 | RegistryRule | RegistryPolicyFile |
-| V-93409 | RegistryRule | RegistryPolicyFile |
-| V-93411 | RegistryRule | RegistryPolicyFile |
-| V-93413 | RegistryRule | RegistryPolicyFile |
-| V-93415 | RegistryRule | RegistryPolicyFile |
-| V-93425 | RegistryRule | RegistryPolicyFile |
-| V-93427 | RegistryRule | RegistryPolicyFile |
-| V-93429 | RegistryRule | RegistryPolicyFile |
-| V-93431 | RegistryRule | Registry |
-| V-93433 | RegistryRule | Registry |
-| V-93435 | RegistryRule | Registry |
-| V-93455 | RegistryRule | Registry |
-| V-93467 | RegistryRule | Registry |
-| V-93469 | RegistryRule | Registry |
-| V-93493 | RegistryRule | Registry |
-| V-93495 | RegistryRule | Registry |
-| V-93499 | RegistryRule | RegistryPolicyFile |
-| V-93501 | RegistryRule | RegistryPolicyFile |
-| V-93503 | RegistryRule | RegistryPolicyFile |
-| V-93505 | RegistryRule | RegistryPolicyFile |
-| V-93507 | RegistryRule | RegistryPolicyFile |
-| V-93511 | RegistryRule | Registry |
-| V-93517 | RegistryRule | RegistryPolicyFile |
-| V-93521 | RegistryRule | Registry |
-| V-93523 | RegistryRule | Registry |
-| V-93525 | RegistryRule | Registry |
-| V-93527 | RegistryRule | Registry |
-| V-93529 | RegistryRule | Registry |
-| V-93533 | RegistryRule | RegistryPolicyFile |
-| V-93537 | RegistryRule | Registry |
-| V-93539 | RegistryRule | Registry |
-| V-93541 | RegistryRule | RegistryPolicyFile |
-| V-93545 | RegistryRule | Registry |
-| V-93547 | RegistryRule | Registry |
-| V-93549 | RegistryRule | Registry |
-| V-93551 | RegistryRule | Registry |
-| V-93553 | RegistryRule | Registry |
-| V-93555 | RegistryRule | Registry |
-| V-93557 | RegistryRule | Registry |
-| V-93559 | RegistryRule | Registry |
-| V-93561 | RegistryRule | Registry |
-| V-93563 | RegistryRule | RegistryPolicyFile |
-| V-93289 | SecurityOptionRule | SecurityOption |
-| V-93281 | SecurityOptionRule | SecurityOption |
-| V-93283 | SecurityOptionRule | SecurityOption |
-| V-93497 | SecurityOptionRule | SecurityOption |
-| V-93217 | ServiceRule | Service |
-| V-93571 | ServiceRule | Service |
-| V-92963 | UserRightRule | UserRightsAssignment |
-| V-92995 | UserRightRule | UserRightsAssignment |
-| V-92997 | UserRightRule | UserRightsAssignment |
-| V-92999 | UserRightRule | UserRightsAssignment |
-| V-93001 | UserRightRule | UserRightsAssignment |
-| V-93003 | UserRightRule | UserRightsAssignment |
-| V-93005 | UserRightRule | UserRightsAssignment |
-| V-93017 | UserRightRule | UserRightsAssignment |
-| V-93039 | UserRightRule | UserRightsAssignment |
-| V-93041 | UserRightRule | UserRightsAssignment |
-| V-93049 | UserRightRule | UserRightsAssignment |
-| V-93051 | UserRightRule | UserRightsAssignment |
-| V-93053 | UserRightRule | UserRightsAssignment |
-| V-93055 | UserRightRule | UserRightsAssignment |
-| V-93057 | UserRightRule | UserRightsAssignment |
-| V-93059 | UserRightRule | UserRightsAssignment |
-| V-93061 | UserRightRule | UserRightsAssignment |
-| V-93063 | UserRightRule | UserRightsAssignment |
-| V-93065 | UserRightRule | UserRightsAssignment |
-| V-93067 | UserRightRule | UserRightsAssignment |
-| V-93069 | UserRightRule | UserRightsAssignment |
-| V-93071 | UserRightRule | UserRightsAssignment |
-| V-93073 | UserRightRule | UserRightsAssignment |
-| V-93075 | UserRightRule | UserRightsAssignment |
-| V-93077 | UserRightRule | UserRightsAssignment |
-| V-93079 | UserRightRule | UserRightsAssignment |
-| V-93081 | UserRightRule | UserRightsAssignment |
-| V-93083 | UserRightRule | UserRightsAssignment |
-| V-93085 | UserRightRule | UserRightsAssignment |
-| V-93087 | UserRightRule | UserRightsAssignment |
-| V-93197 | UserRightRule | UserRightsAssignment |
-| V-93383 | WindowsFeatureRule | WindowsFeature |
-| V-93385 | WindowsFeatureRule | WindowsFeature |
-| V-93387 | WindowsFeatureRule | WindowsFeature |
-| V-93389 | WindowsFeatureRule | WindowsFeature |
-| V-93391 | WindowsFeatureRule | WindowsFeature |
-| V-93397 | WindowsFeatureRule | WindowsFeature |
-| V-93421 | WindowsFeatureRule | WindowsFeature |
-| V-93423 | WindowsFeatureRule | WindowsFeature |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-93443 | AccountPolicyRule | AccountPolicy |  |
+| V-93445 | AccountPolicyRule | AccountPolicy |  |
+| V-93447 | AccountPolicyRule | AccountPolicy |  |
+| V-93449 | AccountPolicyRule | AccountPolicy |  |
+| V-93451 | AccountPolicyRule | AccountPolicy |  |
+| V-93141 | AccountPolicyRule | AccountPolicy |  |
+| V-93143 | AccountPolicyRule | AccountPolicy |  |
+| V-93145 | AccountPolicyRule | AccountPolicy |  |
+| V-93459 | AccountPolicyRule | AccountPolicy |  |
+| V-93463 | AccountPolicyRule | AccountPolicy |  |
+| V-93465 | AccountPolicyRule | AccountPolicy |  |
+| V-93471 | AccountPolicyRule | AccountPolicy |  |
+| V-93477 | AccountPolicyRule | AccountPolicy |  |
+| V-93479 | AccountPolicyRule | AccountPolicy |  |
+| V-92967 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-92969 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-92979 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-92981 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-92983 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-92985 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-92987 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-92989 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93089 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93091 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93093 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93095 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93097 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93099 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93101 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93103 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93105 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93107 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93109 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93111 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93113 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93115 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93117 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93119 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93133 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93135 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93137 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93139 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93153 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93155 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93157 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93159 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93161 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93163 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93165 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93167 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93169 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93171 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-92991 | AuditSettingRule | AuditSetting |  |
+| V-93215 | AuditSettingRule | AuditSetting |  |
+| V-93019 | PermissionRule | NTFSAccessEntry |  |
+| V-93021.a | PermissionRule | NTFSAccessEntry |  |
+| V-93021.b | PermissionRule | NTFSAccessEntry |  |
+| V-93023 | PermissionRule | NTFSAccessEntry |  |
+| V-93025.a | PermissionRule | RegistryAccessEntry |  |
+| V-93025.b | PermissionRule | RegistryAccessEntry |  |
+| V-93025.c | PermissionRule | RegistryAccessEntry |  |
+| V-93031 | PermissionRule | NTFSAccessEntry |  |
+| V-93189 | PermissionRule | NTFSAccessEntry |  |
+| V-93191 | PermissionRule | NTFSAccessEntry |  |
+| V-93193 | PermissionRule | NTFSAccessEntry |  |
+| V-93195 | PermissionRule | NTFSAccessEntry |  |
+| V-93313 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93315 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93317 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93319 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93321 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93323 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93325 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93327 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93329 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93331 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93333 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93335 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93337 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93339.a | ProcessMitigationRule | ProcessMitigation |  |
+| V-93339.b | ProcessMitigationRule | ProcessMitigation |  |
+| V-93339.c | ProcessMitigationRule | ProcessMitigation |  |
+| V-93341 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93343 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93345 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93347 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93349 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93351 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93353 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93355 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93357 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93359 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93361 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93363 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93365 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93367 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93565 | ProcessMitigationRule | ProcessMitigation |  |
+| V-92961 | RegistryRule | Registry |  |
+| V-92971 | RegistryRule | RegistryPolicyFile |  |
+| V-92973 | RegistryRule | RegistryPolicyFile |  |
+| V-93147 | RegistryRule | Registry |  |
+| V-93149 | RegistryRule | Registry |  |
+| V-93151 | RegistryRule | Registry |  |
+| V-93173 | RegistryRule | RegistryPolicyFile |  |
+| V-93175 | RegistryRule | RegistryPolicyFile |  |
+| V-93177 | RegistryRule | RegistryPolicyFile |  |
+| V-93179 | RegistryRule | RegistryPolicyFile |  |
+| V-93181 | RegistryRule | RegistryPolicyFile |  |
+| V-93199 | RegistryRule | RegistryPolicyFile |  |
+| V-93201 | RegistryRule | RegistryPolicyFile |  |
+| V-93233 | RegistryRule | RegistryPolicyFile |  |
+| V-93235 | RegistryRule | RegistryPolicyFile |  |
+| V-93237 | RegistryRule | RegistryPolicyFile |  |
+| V-93239 | RegistryRule | RegistryPolicyFile |  |
+| V-93241.a | RegistryRule | RegistryPolicyFile |  |
+| V-93241.b | RegistryRule | RegistryPolicyFile |  |
+| V-93243 | RegistryRule | RegistryPolicyFile |  |
+| V-93245.a | RegistryRule | RegistryPolicyFile |  |
+| V-93245.b | RegistryRule | RegistryPolicyFile |  |
+| V-93249 | RegistryRule | RegistryPolicyFile |  |
+| V-93251 | RegistryRule | RegistryPolicyFile |  |
+| V-93253 | RegistryRule | RegistryPolicyFile |  |
+| V-93255 | RegistryRule | RegistryPolicyFile |  |
+| V-93257 | RegistryRule | RegistryPolicyFile |  |
+| V-93259 | RegistryRule | RegistryPolicyFile |  |
+| V-93261 | RegistryRule | RegistryPolicyFile |  |
+| V-93263 | RegistryRule | RegistryPolicyFile |  |
+| V-93265 | RegistryRule | RegistryPolicyFile |  |
+| V-93267 | RegistryRule | RegistryPolicyFile |  |
+| V-93269 | RegistryRule | RegistryPolicyFile |  |
+| V-93273 | RegistryRule | Registry |  |
+| V-93279 | RegistryRule | Registry |  |
+| V-93285 | RegistryRule | Registry |  |
+| V-93287 | RegistryRule | Registry |  |
+| V-93291 | RegistryRule | Registry |  |
+| V-93293 | RegistryRule | Registry |  |
+| V-93295 | RegistryRule | Registry |  |
+| V-93297 | RegistryRule | Registry |  |
+| V-93299 | RegistryRule | Registry |  |
+| V-93301 | RegistryRule | Registry |  |
+| V-93303 | RegistryRule | Registry |  |
+| V-93305 | RegistryRule | Registry |  |
+| V-93307 | RegistryRule | Registry |  |
+| V-93309 | RegistryRule | Registry |  |
+| V-93311 | RegistryRule | RegistryPolicyFile |  |
+| V-93373 | RegistryRule | RegistryPolicyFile |  |
+| V-93375 | RegistryRule | RegistryPolicyFile |  |
+| V-93377 | RegistryRule | RegistryPolicyFile |  |
+| V-93393 | RegistryRule | RegistryPolicyFile |  |
+| V-93395 | RegistryRule | RegistryPolicyFile |  |
+| V-93399 | RegistryRule | RegistryPolicyFile |  |
+| V-93401 | RegistryRule | RegistryPolicyFile |  |
+| V-93403 | RegistryRule | RegistryPolicyFile |  |
+| V-93405 | RegistryRule | RegistryPolicyFile |  |
+| V-93407 | RegistryRule | RegistryPolicyFile |  |
+| V-93409 | RegistryRule | RegistryPolicyFile |  |
+| V-93411 | RegistryRule | RegistryPolicyFile |  |
+| V-93413 | RegistryRule | RegistryPolicyFile |  |
+| V-93415 | RegistryRule | RegistryPolicyFile |  |
+| V-93425 | RegistryRule | RegistryPolicyFile |  |
+| V-93427 | RegistryRule | RegistryPolicyFile |  |
+| V-93429 | RegistryRule | RegistryPolicyFile |  |
+| V-93431 | RegistryRule | Registry |  |
+| V-93433 | RegistryRule | Registry |  |
+| V-93435 | RegistryRule | Registry |  |
+| V-93455 | RegistryRule | Registry |  |
+| V-93467 | RegistryRule | Registry |  |
+| V-93469 | RegistryRule | Registry |  |
+| V-93493 | RegistryRule | Registry |  |
+| V-93495 | RegistryRule | Registry |  |
+| V-93499 | RegistryRule | RegistryPolicyFile |  |
+| V-93501 | RegistryRule | RegistryPolicyFile |  |
+| V-93503 | RegistryRule | RegistryPolicyFile |  |
+| V-93505 | RegistryRule | RegistryPolicyFile |  |
+| V-93507 | RegistryRule | RegistryPolicyFile |  |
+| V-93511 | RegistryRule | Registry |  |
+| V-93517 | RegistryRule | RegistryPolicyFile |  |
+| V-93521 | RegistryRule | Registry |  |
+| V-93523 | RegistryRule | Registry |  |
+| V-93525 | RegistryRule | Registry |  |
+| V-93527 | RegistryRule | Registry |  |
+| V-93529 | RegistryRule | Registry |  |
+| V-93533 | RegistryRule | RegistryPolicyFile |  |
+| V-93537 | RegistryRule | Registry |  |
+| V-93539 | RegistryRule | Registry |  |
+| V-93541 | RegistryRule | RegistryPolicyFile |  |
+| V-93545 | RegistryRule | Registry |  |
+| V-93547 | RegistryRule | Registry |  |
+| V-93549 | RegistryRule | Registry |  |
+| V-93551 | RegistryRule | Registry |  |
+| V-93553 | RegistryRule | Registry |  |
+| V-93555 | RegistryRule | Registry |  |
+| V-93557 | RegistryRule | Registry |  |
+| V-93559 | RegistryRule | Registry |  |
+| V-93561 | RegistryRule | Registry |  |
+| V-93563 | RegistryRule | RegistryPolicyFile |  |
+| V-93289 | SecurityOptionRule | SecurityOption |  |
+| V-93281 | SecurityOptionRule | SecurityOption |  |
+| V-93283 | SecurityOptionRule | SecurityOption |  |
+| V-93497 | SecurityOptionRule | SecurityOption |  |
+| V-93217 | ServiceRule | Service |  |
+| V-93571 | ServiceRule | Service |  |
+| V-92963 | UserRightRule | UserRightsAssignment |  |
+| V-92995 | UserRightRule | UserRightsAssignment |  |
+| V-92997 | UserRightRule | UserRightsAssignment |  |
+| V-92999 | UserRightRule | UserRightsAssignment |  |
+| V-93001 | UserRightRule | UserRightsAssignment |  |
+| V-93003 | UserRightRule | UserRightsAssignment |  |
+| V-93005 | UserRightRule | UserRightsAssignment |  |
+| V-93017 | UserRightRule | UserRightsAssignment |  |
+| V-93039 | UserRightRule | UserRightsAssignment |  |
+| V-93041 | UserRightRule | UserRightsAssignment |  |
+| V-93049 | UserRightRule | UserRightsAssignment |  |
+| V-93051 | UserRightRule | UserRightsAssignment |  |
+| V-93053 | UserRightRule | UserRightsAssignment |  |
+| V-93055 | UserRightRule | UserRightsAssignment |  |
+| V-93057 | UserRightRule | UserRightsAssignment |  |
+| V-93059 | UserRightRule | UserRightsAssignment |  |
+| V-93061 | UserRightRule | UserRightsAssignment |  |
+| V-93063 | UserRightRule | UserRightsAssignment |  |
+| V-93065 | UserRightRule | UserRightsAssignment |  |
+| V-93067 | UserRightRule | UserRightsAssignment |  |
+| V-93069 | UserRightRule | UserRightsAssignment |  |
+| V-93071 | UserRightRule | UserRightsAssignment |  |
+| V-93073 | UserRightRule | UserRightsAssignment |  |
+| V-93075 | UserRightRule | UserRightsAssignment |  |
+| V-93077 | UserRightRule | UserRightsAssignment |  |
+| V-93079 | UserRightRule | UserRightsAssignment |  |
+| V-93081 | UserRightRule | UserRightsAssignment |  |
+| V-93083 | UserRightRule | UserRightsAssignment |  |
+| V-93085 | UserRightRule | UserRightsAssignment |  |
+| V-93087 | UserRightRule | UserRightsAssignment |  |
+| V-93197 | UserRightRule | UserRightsAssignment |  |
+| V-93383 | WindowsFeatureRule | WindowsFeature |  |
+| V-93385 | WindowsFeatureRule | WindowsFeature |  |
+| V-93387 | WindowsFeatureRule | WindowsFeature |  |
+| V-93389 | WindowsFeatureRule | WindowsFeature |  |
+| V-93391 | WindowsFeatureRule | WindowsFeature |  |
+| V-93397 | WindowsFeatureRule | WindowsFeature |  |
+| V-93421 | WindowsFeatureRule | WindowsFeature |  |
+| V-93423 | WindowsFeatureRule | WindowsFeature |  |
 
 ## Windows Server 2019 MS STIG, Version 1.2
 
@@ -4816,239 +4816,239 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 **FileName:** U_MS_Windows_Server_2019_MS_STIG_V1R2_Manual-xccdf.xml  
 **Created:** 12/17/2019  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **244** of **267** rules are automated; **91%**  
+**StigRuleCoverage:** **232** of **267** rules are automated; **87%**  
 
-| StigRuleId | RuleType | DscResource |
-| :---- | :---- | :---- |
-| V-93141 | AccountPolicyRule | AccountPolicy |
-| V-93143 | AccountPolicyRule | AccountPolicy |
-| V-93145 | AccountPolicyRule | AccountPolicy |
-| V-93459 | AccountPolicyRule | AccountPolicy |
-| V-93463 | AccountPolicyRule | AccountPolicy |
-| V-93465 | AccountPolicyRule | AccountPolicy |
-| V-93471 | AccountPolicyRule | AccountPolicy |
-| V-93477 | AccountPolicyRule | AccountPolicy |
-| V-93479 | AccountPolicyRule | AccountPolicy |
-| V-92967 | AuditPolicyRule | AuditPolicySubcategory |
-| V-92969 | AuditPolicyRule | AuditPolicySubcategory |
-| V-92979 | AuditPolicyRule | AuditPolicySubcategory |
-| V-92981 | AuditPolicyRule | AuditPolicySubcategory |
-| V-92983 | AuditPolicyRule | AuditPolicySubcategory |
-| V-92987 | AuditPolicyRule | AuditPolicySubcategory |
-| V-92989 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93089 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93091 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93093 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93095 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93097 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93099 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93101 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93103 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93105 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93107 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93109 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93111 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93113 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93115 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93117 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93119 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93153 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93155 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93157 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93159 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93161 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93163 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93165 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93167 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93169 | AuditPolicyRule | AuditPolicySubcategory |
-| V-93171 | AuditPolicyRule | AuditPolicySubcategory |
-| V-92991 | AuditSettingRule | AuditSetting |
-| V-93215 | AuditSettingRule | AuditSetting |
-| V-93019 | PermissionRule | NTFSAccessEntry |
-| V-93021.a | PermissionRule | NTFSAccessEntry |
-| V-93021.b | PermissionRule | NTFSAccessEntry |
-| V-93023 | PermissionRule | NTFSAccessEntry |
-| V-93025.a | PermissionRule | RegistryAccessEntry |
-| V-93025.b | PermissionRule | RegistryAccessEntry |
-| V-93025.c | PermissionRule | RegistryAccessEntry |
-| V-93189 | PermissionRule | NTFSAccessEntry |
-| V-93191 | PermissionRule | NTFSAccessEntry |
-| V-93193 | PermissionRule | NTFSAccessEntry |
-| V-93195 | PermissionRule | NTFSAccessEntry |
-| V-93313 | ProcessMitigationRule | ProcessMitigation |
-| V-93315 | ProcessMitigationRule | ProcessMitigation |
-| V-93317 | ProcessMitigationRule | ProcessMitigation |
-| V-93319 | ProcessMitigationRule | ProcessMitigation |
-| V-93321 | ProcessMitigationRule | ProcessMitigation |
-| V-93323 | ProcessMitigationRule | ProcessMitigation |
-| V-93325 | ProcessMitigationRule | ProcessMitigation |
-| V-93327 | ProcessMitigationRule | ProcessMitigation |
-| V-93329 | ProcessMitigationRule | ProcessMitigation |
-| V-93331 | ProcessMitigationRule | ProcessMitigation |
-| V-93333 | ProcessMitigationRule | ProcessMitigation |
-| V-93335 | ProcessMitigationRule | ProcessMitigation |
-| V-93337 | ProcessMitigationRule | ProcessMitigation |
-| V-93339.a | ProcessMitigationRule | ProcessMitigation |
-| V-93339.b | ProcessMitigationRule | ProcessMitigation |
-| V-93339.c | ProcessMitigationRule | ProcessMitigation |
-| V-93341 | ProcessMitigationRule | ProcessMitigation |
-| V-93343 | ProcessMitigationRule | ProcessMitigation |
-| V-93345 | ProcessMitigationRule | ProcessMitigation |
-| V-93347 | ProcessMitigationRule | ProcessMitigation |
-| V-93349 | ProcessMitigationRule | ProcessMitigation |
-| V-93351 | ProcessMitigationRule | ProcessMitigation |
-| V-93353 | ProcessMitigationRule | ProcessMitigation |
-| V-93355 | ProcessMitigationRule | ProcessMitigation |
-| V-93357 | ProcessMitigationRule | ProcessMitigation |
-| V-93359 | ProcessMitigationRule | ProcessMitigation |
-| V-93361 | ProcessMitigationRule | ProcessMitigation |
-| V-93363 | ProcessMitigationRule | ProcessMitigation |
-| V-93365 | ProcessMitigationRule | ProcessMitigation |
-| V-93367 | ProcessMitigationRule | ProcessMitigation |
-| V-93565 | ProcessMitigationRule | ProcessMitigation |
-| V-92961 | RegistryRule | Registry |
-| V-92971 | RegistryRule | RegistryPolicyFile |
-| V-92973 | RegistryRule | RegistryPolicyFile |
-| V-93045 | RegistryRule | Registry |
-| V-93147 | RegistryRule | Registry |
-| V-93149 | RegistryRule | Registry |
-| V-93151 | RegistryRule | Registry |
-| V-93173 | RegistryRule | RegistryPolicyFile |
-| V-93175 | RegistryRule | RegistryPolicyFile |
-| V-93177 | RegistryRule | RegistryPolicyFile |
-| V-93179 | RegistryRule | RegistryPolicyFile |
-| V-93181 | RegistryRule | RegistryPolicyFile |
-| V-93199 | RegistryRule | RegistryPolicyFile |
-| V-93201 | RegistryRule | RegistryPolicyFile |
-| V-93233 | RegistryRule | RegistryPolicyFile |
-| V-93235 | RegistryRule | RegistryPolicyFile |
-| V-93237 | RegistryRule | RegistryPolicyFile |
-| V-93239 | RegistryRule | RegistryPolicyFile |
-| V-93241.a | RegistryRule | RegistryPolicyFile |
-| V-93241.b | RegistryRule | RegistryPolicyFile |
-| V-93243 | RegistryRule | RegistryPolicyFile |
-| V-93245.a | RegistryRule | RegistryPolicyFile |
-| V-93245.b | RegistryRule | RegistryPolicyFile |
-| V-93249 | RegistryRule | RegistryPolicyFile |
-| V-93251 | RegistryRule | RegistryPolicyFile |
-| V-93253 | RegistryRule | RegistryPolicyFile |
-| V-93255 | RegistryRule | RegistryPolicyFile |
-| V-93257 | RegistryRule | RegistryPolicyFile |
-| V-93259 | RegistryRule | RegistryPolicyFile |
-| V-93261 | RegistryRule | RegistryPolicyFile |
-| V-93263 | RegistryRule | RegistryPolicyFile |
-| V-93265 | RegistryRule | RegistryPolicyFile |
-| V-93267 | RegistryRule | RegistryPolicyFile |
-| V-93269 | RegistryRule | RegistryPolicyFile |
-| V-93275 | RegistryRule | Registry |
-| V-93277 | RegistryRule | RegistryPolicyFile |
-| V-93279 | RegistryRule | Registry |
-| V-93285 | RegistryRule | Registry |
-| V-93287 | RegistryRule | Registry |
-| V-93291 | RegistryRule | Registry |
-| V-93293 | RegistryRule | Registry |
-| V-93295 | RegistryRule | Registry |
-| V-93297 | RegistryRule | Registry |
-| V-93299 | RegistryRule | Registry |
-| V-93301 | RegistryRule | Registry |
-| V-93303 | RegistryRule | Registry |
-| V-93305 | RegistryRule | Registry |
-| V-93307 | RegistryRule | Registry |
-| V-93309 | RegistryRule | Registry |
-| V-93311 | RegistryRule | RegistryPolicyFile |
-| V-93373 | RegistryRule | RegistryPolicyFile |
-| V-93375 | RegistryRule | RegistryPolicyFile |
-| V-93377 | RegistryRule | RegistryPolicyFile |
-| V-93393 | RegistryRule | RegistryPolicyFile |
-| V-93395 | RegistryRule | RegistryPolicyFile |
-| V-93399 | RegistryRule | RegistryPolicyFile |
-| V-93401 | RegistryRule | RegistryPolicyFile |
-| V-93403 | RegistryRule | RegistryPolicyFile |
-| V-93405 | RegistryRule | RegistryPolicyFile |
-| V-93407 | RegistryRule | RegistryPolicyFile |
-| V-93409 | RegistryRule | RegistryPolicyFile |
-| V-93411 | RegistryRule | RegistryPolicyFile |
-| V-93413 | RegistryRule | RegistryPolicyFile |
-| V-93415 | RegistryRule | RegistryPolicyFile |
-| V-93419 | RegistryRule | RegistryPolicyFile |
-| V-93425 | RegistryRule | RegistryPolicyFile |
-| V-93427 | RegistryRule | RegistryPolicyFile |
-| V-93429 | RegistryRule | RegistryPolicyFile |
-| V-93431 | RegistryRule | Registry |
-| V-93433 | RegistryRule | Registry |
-| V-93435 | RegistryRule | Registry |
-| V-93453 | RegistryRule | RegistryPolicyFile |
-| V-93455 | RegistryRule | Registry |
-| V-93467 | RegistryRule | Registry |
-| V-93469 | RegistryRule | Registry |
-| V-93493 | RegistryRule | Registry |
-| V-93495 | RegistryRule | Registry |
-| V-93499 | RegistryRule | RegistryPolicyFile |
-| V-93501 | RegistryRule | RegistryPolicyFile |
-| V-93503 | RegistryRule | RegistryPolicyFile |
-| V-93505 | RegistryRule | RegistryPolicyFile |
-| V-93507 | RegistryRule | RegistryPolicyFile |
-| V-93511 | RegistryRule | Registry |
-| V-93517 | RegistryRule | RegistryPolicyFile |
-| V-93519 | RegistryRule | RegistryPolicyFile |
-| V-93521 | RegistryRule | Registry |
-| V-93523 | RegistryRule | Registry |
-| V-93525 | RegistryRule | Registry |
-| V-93527 | RegistryRule | Registry |
-| V-93529 | RegistryRule | Registry |
-| V-93533 | RegistryRule | RegistryPolicyFile |
-| V-93537 | RegistryRule | Registry |
-| V-93539 | RegistryRule | Registry |
-| V-93541 | RegistryRule | RegistryPolicyFile |
-| V-93547 | RegistryRule | Registry |
-| V-93549 | RegistryRule | Registry |
-| V-93551 | RegistryRule | Registry |
-| V-93553 | RegistryRule | Registry |
-| V-93555 | RegistryRule | Registry |
-| V-93557 | RegistryRule | Registry |
-| V-93559 | RegistryRule | Registry |
-| V-93561 | RegistryRule | Registry |
-| V-93563 | RegistryRule | RegistryPolicyFile |
-| V-93289 | SecurityOptionRule | SecurityOption |
-| V-93281 | SecurityOptionRule | SecurityOption |
-| V-93283 | SecurityOptionRule | SecurityOption |
-| V-93497 | SecurityOptionRule | SecurityOption |
-| V-93217 | ServiceRule | Service |
-| V-93571 | ServiceRule | Service |
-| V-92965 | UserRightRule | UserRightsAssignment |
-| V-93007 | UserRightRule | UserRightsAssignment |
-| V-93009 | UserRightRule | UserRightsAssignment |
-| V-93011 | UserRightRule | UserRightsAssignment |
-| V-93013 | UserRightRule | UserRightsAssignment |
-| V-93015 | UserRightRule | UserRightsAssignment |
-| V-93017 | UserRightRule | UserRightsAssignment |
-| V-93047 | UserRightRule | UserRightsAssignment |
-| V-93049 | UserRightRule | UserRightsAssignment |
-| V-93051 | UserRightRule | UserRightsAssignment |
-| V-93053 | UserRightRule | UserRightsAssignment |
-| V-93055 | UserRightRule | UserRightsAssignment |
-| V-93057 | UserRightRule | UserRightsAssignment |
-| V-93059 | UserRightRule | UserRightsAssignment |
-| V-93061 | UserRightRule | UserRightsAssignment |
-| V-93063 | UserRightRule | UserRightsAssignment |
-| V-93065 | UserRightRule | UserRightsAssignment |
-| V-93067 | UserRightRule | UserRightsAssignment |
-| V-93069 | UserRightRule | UserRightsAssignment |
-| V-93071 | UserRightRule | UserRightsAssignment |
-| V-93073 | UserRightRule | UserRightsAssignment |
-| V-93075 | UserRightRule | UserRightsAssignment |
-| V-93077 | UserRightRule | UserRightsAssignment |
-| V-93079 | UserRightRule | UserRightsAssignment |
-| V-93081 | UserRightRule | UserRightsAssignment |
-| V-93083 | UserRightRule | UserRightsAssignment |
-| V-93085 | UserRightRule | UserRightsAssignment |
-| V-93087 | UserRightRule | UserRightsAssignment |
-| V-93197 | UserRightRule | UserRightsAssignment |
-| V-93383 | WindowsFeatureRule | WindowsFeature |
-| V-93385 | WindowsFeatureRule | WindowsFeature |
-| V-93387 | WindowsFeatureRule | WindowsFeature |
-| V-93389 | WindowsFeatureRule | WindowsFeature |
-| V-93391 | WindowsFeatureRule | WindowsFeature |
-| V-93397 | WindowsFeatureRule | WindowsFeature |
-| V-93421 | WindowsFeatureRule | WindowsFeature |
-| V-93423 | WindowsFeatureRule | WindowsFeature |
+| StigRuleId | RuleType | DscResource | DuplicateOf
+| :---- | :---- | :---- | :---- |
+| V-93141 | AccountPolicyRule | AccountPolicy |  |
+| V-93143 | AccountPolicyRule | AccountPolicy |  |
+| V-93145 | AccountPolicyRule | AccountPolicy |  |
+| V-93459 | AccountPolicyRule | AccountPolicy |  |
+| V-93463 | AccountPolicyRule | AccountPolicy |  |
+| V-93465 | AccountPolicyRule | AccountPolicy |  |
+| V-93471 | AccountPolicyRule | AccountPolicy |  |
+| V-93477 | AccountPolicyRule | AccountPolicy |  |
+| V-93479 | AccountPolicyRule | AccountPolicy |  |
+| V-92967 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-92969 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-92979 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-92981 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-92983 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-92987 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-92989 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93089 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93091 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93093 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93095 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93097 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93099 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93101 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93103 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93105 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93107 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93109 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93111 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93113 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93115 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93117 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93119 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93153 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93155 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93157 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93159 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93161 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93163 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93165 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93167 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93169 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-93171 | AuditPolicyRule | AuditPolicySubcategory |  |
+| V-92991 | AuditSettingRule | AuditSetting |  |
+| V-93215 | AuditSettingRule | AuditSetting |  |
+| V-93019 | PermissionRule | NTFSAccessEntry |  |
+| V-93021.a | PermissionRule | NTFSAccessEntry |  |
+| V-93021.b | PermissionRule | NTFSAccessEntry |  |
+| V-93023 | PermissionRule | NTFSAccessEntry |  |
+| V-93025.a | PermissionRule | RegistryAccessEntry |  |
+| V-93025.b | PermissionRule | RegistryAccessEntry |  |
+| V-93025.c | PermissionRule | RegistryAccessEntry |  |
+| V-93189 | PermissionRule | NTFSAccessEntry |  |
+| V-93191 | PermissionRule | NTFSAccessEntry |  |
+| V-93193 | PermissionRule | NTFSAccessEntry |  |
+| V-93195 | PermissionRule | NTFSAccessEntry |  |
+| V-93313 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93315 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93317 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93319 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93321 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93323 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93325 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93327 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93329 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93331 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93333 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93335 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93337 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93339.a | ProcessMitigationRule | ProcessMitigation |  |
+| V-93339.b | ProcessMitigationRule | ProcessMitigation |  |
+| V-93339.c | ProcessMitigationRule | ProcessMitigation |  |
+| V-93341 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93343 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93345 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93347 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93349 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93351 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93353 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93355 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93357 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93359 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93361 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93363 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93365 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93367 | ProcessMitigationRule | ProcessMitigation |  |
+| V-93565 | ProcessMitigationRule | ProcessMitigation |  |
+| V-92961 | RegistryRule | Registry |  |
+| V-92971 | RegistryRule | RegistryPolicyFile |  |
+| V-92973 | RegistryRule | RegistryPolicyFile |  |
+| V-93045 | RegistryRule | Registry |  |
+| V-93147 | RegistryRule | Registry |  |
+| V-93149 | RegistryRule | Registry |  |
+| V-93151 | RegistryRule | Registry |  |
+| V-93173 | RegistryRule | RegistryPolicyFile |  |
+| V-93175 | RegistryRule | RegistryPolicyFile |  |
+| V-93177 | RegistryRule | RegistryPolicyFile |  |
+| V-93179 | RegistryRule | RegistryPolicyFile |  |
+| V-93181 | RegistryRule | RegistryPolicyFile |  |
+| V-93199 | RegistryRule | RegistryPolicyFile |  |
+| V-93201 | RegistryRule | RegistryPolicyFile |  |
+| V-93233 | RegistryRule | RegistryPolicyFile |  |
+| V-93235 | RegistryRule | RegistryPolicyFile |  |
+| V-93237 | RegistryRule | RegistryPolicyFile |  |
+| V-93239 | RegistryRule | RegistryPolicyFile |  |
+| V-93241.a | RegistryRule | RegistryPolicyFile |  |
+| V-93241.b | RegistryRule | RegistryPolicyFile |  |
+| V-93243 | RegistryRule | RegistryPolicyFile |  |
+| V-93245.a | RegistryRule | RegistryPolicyFile |  |
+| V-93245.b | RegistryRule | RegistryPolicyFile |  |
+| V-93249 | RegistryRule | RegistryPolicyFile |  |
+| V-93251 | RegistryRule | RegistryPolicyFile |  |
+| V-93253 | RegistryRule | RegistryPolicyFile |  |
+| V-93255 | RegistryRule | RegistryPolicyFile |  |
+| V-93257 | RegistryRule | RegistryPolicyFile |  |
+| V-93259 | RegistryRule | RegistryPolicyFile |  |
+| V-93261 | RegistryRule | RegistryPolicyFile |  |
+| V-93263 | RegistryRule | RegistryPolicyFile |  |
+| V-93265 | RegistryRule | RegistryPolicyFile |  |
+| V-93267 | RegistryRule | RegistryPolicyFile |  |
+| V-93269 | RegistryRule | RegistryPolicyFile |  |
+| V-93275 | RegistryRule | Registry |  |
+| V-93277 | RegistryRule | RegistryPolicyFile |  |
+| V-93279 | RegistryRule | Registry |  |
+| V-93285 | RegistryRule | Registry |  |
+| V-93287 | RegistryRule | Registry |  |
+| V-93291 | RegistryRule | Registry |  |
+| V-93293 | RegistryRule | Registry |  |
+| V-93295 | RegistryRule | Registry |  |
+| V-93297 | RegistryRule | Registry |  |
+| V-93299 | RegistryRule | Registry |  |
+| V-93301 | RegistryRule | Registry |  |
+| V-93303 | RegistryRule | Registry |  |
+| V-93305 | RegistryRule | Registry |  |
+| V-93307 | RegistryRule | Registry |  |
+| V-93309 | RegistryRule | Registry |  |
+| V-93311 | RegistryRule | RegistryPolicyFile |  |
+| V-93373 | RegistryRule | RegistryPolicyFile |  |
+| V-93375 | RegistryRule | RegistryPolicyFile |  |
+| V-93377 | RegistryRule | RegistryPolicyFile |  |
+| V-93393 | RegistryRule | RegistryPolicyFile |  |
+| V-93395 | RegistryRule | RegistryPolicyFile |  |
+| V-93399 | RegistryRule | RegistryPolicyFile |  |
+| V-93401 | RegistryRule | RegistryPolicyFile |  |
+| V-93403 | RegistryRule | RegistryPolicyFile |  |
+| V-93405 | RegistryRule | RegistryPolicyFile |  |
+| V-93407 | RegistryRule | RegistryPolicyFile |  |
+| V-93409 | RegistryRule | RegistryPolicyFile |  |
+| V-93411 | RegistryRule | RegistryPolicyFile |  |
+| V-93413 | RegistryRule | RegistryPolicyFile |  |
+| V-93415 | RegistryRule | RegistryPolicyFile |  |
+| V-93419 | RegistryRule | RegistryPolicyFile |  |
+| V-93425 | RegistryRule | RegistryPolicyFile |  |
+| V-93427 | RegistryRule | RegistryPolicyFile |  |
+| V-93429 | RegistryRule | RegistryPolicyFile |  |
+| V-93431 | RegistryRule | Registry |  |
+| V-93433 | RegistryRule | Registry |  |
+| V-93435 | RegistryRule | Registry |  |
+| V-93453 | RegistryRule | RegistryPolicyFile |  |
+| V-93455 | RegistryRule | Registry |  |
+| V-93467 | RegistryRule | Registry |  |
+| V-93469 | RegistryRule | Registry |  |
+| V-93493 | RegistryRule | Registry |  |
+| V-93495 | RegistryRule | Registry |  |
+| V-93499 | RegistryRule | RegistryPolicyFile |  |
+| V-93501 | RegistryRule | RegistryPolicyFile |  |
+| V-93503 | RegistryRule | RegistryPolicyFile |  |
+| V-93505 | RegistryRule | RegistryPolicyFile |  |
+| V-93507 | RegistryRule | RegistryPolicyFile |  |
+| V-93511 | RegistryRule | Registry |  |
+| V-93517 | RegistryRule | RegistryPolicyFile |  |
+| V-93519 | RegistryRule | RegistryPolicyFile |  |
+| V-93521 | RegistryRule | Registry |  |
+| V-93523 | RegistryRule | Registry |  |
+| V-93525 | RegistryRule | Registry |  |
+| V-93527 | RegistryRule | Registry |  |
+| V-93529 | RegistryRule | Registry |  |
+| V-93533 | RegistryRule | RegistryPolicyFile |  |
+| V-93537 | RegistryRule | Registry |  |
+| V-93539 | RegistryRule | Registry |  |
+| V-93541 | RegistryRule | RegistryPolicyFile |  |
+| V-93547 | RegistryRule | Registry |  |
+| V-93549 | RegistryRule | Registry |  |
+| V-93551 | RegistryRule | Registry |  |
+| V-93553 | RegistryRule | Registry |  |
+| V-93555 | RegistryRule | Registry |  |
+| V-93557 | RegistryRule | Registry |  |
+| V-93559 | RegistryRule | Registry |  |
+| V-93561 | RegistryRule | Registry |  |
+| V-93563 | RegistryRule | RegistryPolicyFile |  |
+| V-93289 | SecurityOptionRule | SecurityOption |  |
+| V-93281 | SecurityOptionRule | SecurityOption |  |
+| V-93283 | SecurityOptionRule | SecurityOption |  |
+| V-93497 | SecurityOptionRule | SecurityOption |  |
+| V-93217 | ServiceRule | Service |  |
+| V-93571 | ServiceRule | Service |  |
+| V-92965 | UserRightRule | UserRightsAssignment |  |
+| V-93007 | UserRightRule | UserRightsAssignment |  |
+| V-93009 | UserRightRule | UserRightsAssignment |  |
+| V-93011 | UserRightRule | UserRightsAssignment |  |
+| V-93013 | UserRightRule | UserRightsAssignment |  |
+| V-93015 | UserRightRule | UserRightsAssignment |  |
+| V-93017 | UserRightRule | UserRightsAssignment |  |
+| V-93047 | UserRightRule | UserRightsAssignment |  |
+| V-93049 | UserRightRule | UserRightsAssignment |  |
+| V-93051 | UserRightRule | UserRightsAssignment |  |
+| V-93053 | UserRightRule | UserRightsAssignment |  |
+| V-93055 | UserRightRule | UserRightsAssignment |  |
+| V-93057 | UserRightRule | UserRightsAssignment |  |
+| V-93059 | UserRightRule | UserRightsAssignment |  |
+| V-93061 | UserRightRule | UserRightsAssignment |  |
+| V-93063 | UserRightRule | UserRightsAssignment |  |
+| V-93065 | UserRightRule | UserRightsAssignment |  |
+| V-93067 | UserRightRule | UserRightsAssignment |  |
+| V-93069 | UserRightRule | UserRightsAssignment |  |
+| V-93071 | UserRightRule | UserRightsAssignment |  |
+| V-93073 | UserRightRule | UserRightsAssignment |  |
+| V-93075 | UserRightRule | UserRightsAssignment |  |
+| V-93077 | UserRightRule | UserRightsAssignment |  |
+| V-93079 | UserRightRule | UserRightsAssignment |  |
+| V-93081 | UserRightRule | UserRightsAssignment |  |
+| V-93083 | UserRightRule | UserRightsAssignment |  |
+| V-93085 | UserRightRule | UserRightsAssignment |  |
+| V-93087 | UserRightRule | UserRightsAssignment |  |
+| V-93197 | UserRightRule | UserRightsAssignment |  |
+| V-93383 | WindowsFeatureRule | WindowsFeature |  |
+| V-93385 | WindowsFeatureRule | WindowsFeature |  |
+| V-93387 | WindowsFeatureRule | WindowsFeature |  |
+| V-93389 | WindowsFeatureRule | WindowsFeature |  |
+| V-93391 | WindowsFeatureRule | WindowsFeature |  |
+| V-93397 | WindowsFeatureRule | WindowsFeature |  |
+| V-93421 | WindowsFeatureRule | WindowsFeature |  |
+| V-93423 | WindowsFeatureRule | WindowsFeature |  |
