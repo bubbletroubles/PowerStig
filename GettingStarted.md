@@ -202,7 +202,7 @@ If you want to look at the raw Test-DscConfiguration object you can import it ba
 **NOTE:** the file names are datetime stamped, so yours will be whenever you ran the scan you want to load.
 
 ```powershell
-$audit = Import-Clixml -Path 'C:\Dev\DSCEA\Output\results.20181127-1149-48.xml'
+$audit = Import-Clixml -Path 'C:\Dev\DSCEA\results.20181127-1149-48.xml'
 ```
 
 ### Review Exceptions
@@ -227,7 +227,7 @@ If you look at $audit.Resources**Not**InDesiredState you will have a list of set
 Here is an example of a non-compliant setting.
 
 ```powershell
-C:\WINDOWS\system32> $audit.ResourcesNotInDesiredState[0]
+C:\WINDOWS\system32> $audit.Compliance.ResourcesNotInDesiredState[0]
 
 ConfigurationName    : Example
 DependsOn            :
