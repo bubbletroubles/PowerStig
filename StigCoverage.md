@@ -2,92 +2,47 @@
 
 Technology Coverage for **PowerSTIG** is listed in the following tables:
 
-## Active Directory Domain, Version 2.11
-
-**Title:** Active Directory Domain Security Technical Implementation Guide (STIG)
-**Version:** 2
-**Release:** Release: 11 Benchmark Date: 26 Oct 2018
-**FileName:** U_Active_Directory_Domain_STIG_V2R11_Manual-xccdf.xml
-**Created:** 7/19/2019
-**Description:** This STIG provides focused security requirements for the AD or Active Directory Domain Services (AD DS) element for Windows Servers operating systems.  These requirements apply to the domain and can typically be reviewed once per AD domain.  The separate Active Directory Forest STIG contains forest level requirements.  Systems must also be reviewed using the applicable Windows STIG.   Comments or proposed revisions to this document should be sent via e-mail to the following address:  disa.stig_spt@mail.mil.
-
-| RuleId | RuleType | DSC Resource | Description |
-| :---- | :---- | :---- | :--- |
-
-## Active Directory Domain, Version 2.12
-
-**Title:** Active Directory Domain Security Technical Implementation Guide (STIG)
-**Version:** 2
-**Release:** Release: 12 Benchmark Date: 25 Jan 2019
-**FileName:** U_Active_Directory_Domain_STIG_V2R12_Manual-xccdf.xml
-**Created:** 7/19/2019
-**Description:** This STIG provides focused security requirements for the AD or Active Directory Domain Services (AD DS) element for Windows Servers operating systems.  These requirements apply to the domain and can typically be reviewed once per AD domain.  The separate Active Directory Forest STIG contains forest level requirements.  Systems must also be reviewed using the applicable Windows STIG.   Comments or proposed revisions to this document should be sent via e-mail to the following address:  disa.stig_spt@mail.mil.
-
-| RuleId | RuleType | DSC Resource | Description |
-| :---- | :---- | :---- | :--- |
-
-## Active Directory Forest, Version 2.7
-
-**Title:** Active Directory Forest Security Technical Implementation Guide (STIG)
-**Version:** 2
-**Release:** Release: 7 Benchmark Date: 27 Jan 2017
-**FileName:** U_Active_Directory_Forest_V2R7_STIG_Manual-xccdf.xml
-**Created:** 7/19/2019
-**Description:** This STIG provides focused security requirements for the AD or Active Directory Domain Services (AD DS) element for Windows Servers operating systems. These requirements apply to the forest and can typically be reviewed once per AD Forest. The separate Active Directory Domain STIG contains domain level requirements. Systems must also be reviewed using the applicable Windows STIG. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.
-
-| RuleId | RuleType | DSC Resource | Description |
-| :---- | :---- | :---- | :--- |
-
-## Active Directory Forest, Version 2.8
-
-**Title:** Active Directory Forest Security Technical Implementation Guide (STIG)
-**Version:** 2
-**Release:** Release: 8 Benchmark Date: 27 Jul 2018
-**FileName:** U_Active_Directory_Forest_V2R8_STIG_Manual-xccdf.xml
-**Created:** 7/19/2019
-**Description:** This STIG provides focused security requirements for the AD or Active Directory Domain Services (AD DS) element for Windows Servers operating systems. These requirements apply to the forest and can typically be reviewed once per AD Forest. The separate Active Directory Domain STIG contains domain level requirements. Systems must also be reviewed using the applicable Windows STIG. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.
-
-| RuleId | RuleType | DSC Resource | Description |
-| :---- | :---- | :---- | :--- |
-
 ## MS Dot Net Framework, Version 1.8
 
-**Title:** Microsoft DotNet Framework 4.0 STIG
-**Version:** 1
-**Release:** Release: 8 Benchmark Date: 16 July 2019
-**FileName:** U_MS_DotNet_Framework_4-0_STIG_V1R8_Manual-xccdf.xml
-**Created:** 8/14/2019
-**Description:** Applicable to systems and applications utilizing the Microsoft .Net version 4.0 framework.
+**Title:** Microsoft DotNet Framework 4.0 STIG  
+**Version:** 1  
+**Release:** Release: 8 Benchmark Date: 16 July 2019  
+**FileName:** U_MS_DotNet_Framework_4-0_STIG_V1R8_Manual-xccdf.xml  
+**Created:** 8/14/2019  
+**Description:** Applicable to systems and applications utilizing the Microsoft .Net version 4.0 framework.  
+**StigRuleCoverage:** **5** of **16** rules are automated; **31%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-30935 | RegistryRule | Registry | The "bypassTrustedAppStrongNames" setting specifies whether the bypass feature that avoids validating strong names for full-trust assemblies is enabled. By default the bypass feature is enabled in .Net 4, therefore strong names are not validated for correctness when the assembly/program is loaded. Not validating strong names provides a faster application load time but at the expense of performing certificate validation. Full trust assemblies are .Net applications launched from the local host. Strong names are digital signatures tied to .Net applications/assemblies. .Net 4 considers applications installed locally to be fully trusted by default and grants these applications full permissions to access host resources. The bypass feature applies to any assembly signed with a strong name and having the following characteristics: Fully trusted without the StrongName evidence (for example, has MyComputer zone evidence). Loaded into a fully trusted AppDomain. Loaded from a location under the ApplicationBase property of that AppDomain. Not delay-signed. Not validating the certificates used to sign strong name assemblies will provide a faster application load time, but falsely assumes that signatures used to sign the application are to be implicitly trusted. Not validating strong name certificates introduces an integrity risk to the system. |
 | V-81495 | RegistryRule | Registry | Use of the RC4 cipher in TLS could allow an attacker to perform man-in-the-middle attacks and recover plaintext from encrypted sessions. Applications that target .Net version 4.x running on multiple Windows versions could be vulnerable to these types of attacks. The registry settings in this requirement will prevent .Net applications that target the 4.x framework from selecting and utilizing the Schannel.dll RC4 cipher for TLS connections. Applications that use TLS when connecting to remote systems will perform a handshake and negotiate the TLS version and cipher that is to be used between the client and the server. This is standard protocol for all TLS connections. If the server and client are not configured to use the same TLS version and cipher, the TLS connection may fail. Applications should be tested with these registry settings prior to production implementation of the fix in order to avoid application outages. |
 
 ## MS Dot Net Framework, Version 1.9
 
-**Title:** Microsoft DotNet Framework 4.0 STIG
-**Version:** 1
-**Release:** Release: 9 Benchmark Date: 25 Oct 2019
-**FileName:** U_MS_DotNet_Framework_4-0_STIG_V1R9_Manual-xccdf.xml
-**Created:** 11/18/2019
-**Description:** Applicable to systems and applications utilizing the Microsoft .Net version 4.0 framework.
+**Title:** Microsoft DotNet Framework 4.0 STIG  
+**Version:** 1  
+**Release:** Release: 9 Benchmark Date: 25 Oct 2019  
+**FileName:** U_MS_DotNet_Framework_4-0_STIG_V1R9_Manual-xccdf.xml  
+**Created:** 11/18/2019  
+**Description:** Applicable to systems and applications utilizing the Microsoft .Net version 4.0 framework.  
+**StigRuleCoverage:** **5** of **16** rules are automated; **31%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-30935 | RegistryRule | Registry | The "bypassTrustedAppStrongNames" setting specifies whether the bypass feature that avoids validating strong names for full-trust assemblies is enabled. By default the bypass feature is enabled in .Net 4, therefore strong names are not validated for correctness when the assembly/program is loaded. Not validating strong names provides a faster application load time but at the expense of performing certificate validation. Full trust assemblies are .Net applications launched from the local host. Strong names are digital signatures tied to .Net applications/assemblies. .Net 4 considers applications installed locally to be fully trusted by default and grants these applications full permissions to access host resources. The bypass feature applies to any assembly signed with a strong name and having the following characteristics: Fully trusted without the StrongName evidence (for example, has MyComputer zone evidence). Loaded into a fully trusted AppDomain. Loaded from a location under the ApplicationBase property of that AppDomain. Not delay-signed. Not validating the certificates used to sign strong name assemblies will provide a faster application load time, but falsely assumes that signatures used to sign the application are to be implicitly trusted. Not validating strong name certificates introduces an integrity risk to the system. |
 | V-81495 | RegistryRule | Registry | Use of the RC4 cipher in TLS could allow an attacker to perform man-in-the-middle attacks and recover plaintext from encrypted sessions. Applications that target .Net version 4.x running on multiple Windows versions could be vulnerable to these types of attacks. The registry settings in this requirement will prevent .Net applications that target the 4.x framework from selecting and utilizing the Schannel.dll RC4 cipher for TLS connections. Applications that use TLS when connecting to remote systems will perform a handshake and negotiate the TLS version and cipher that is to be used between the client and the server. This is standard protocol for all TLS connections. If the server and client are not configured to use the same TLS version and cipher, the TLS connection may fail. Applications should be tested with these registry settings prior to production implementation of the fix in order to avoid application outages. |
 
 ## Mozilla FireFox STIG, Version 4.26
 
-**Title:** Mozilla FireFox Security Technical Implementation Guide
-**Version:** 4
-**Release:** Release: 26 Benchmark Date: 26 Jul 2019
-**FileName:** U_Mozilla_FireFox_STIG_V4R26_Manual-xccdf.xml
-**Created:** 8/8/2019
-**Description:** The Mozilla FireFox Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil
+**Title:** Mozilla FireFox Security Technical Implementation Guide  
+**Version:** 4  
+**Release:** Release: 26 Benchmark Date: 26 Jul 2019  
+**FileName:** U_Mozilla_FireFox_STIG_V4R26_Manual-xccdf.xml  
+**Created:** 8/8/2019  
+**Description:** The Mozilla FireFox Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil  
+**StigRuleCoverage:** **20** of **23** rules are automated; **87%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-15768 | FileContentRule | ReplaceText | When a web site asks for a certificate for user authentication, Firefox must be configured to have the user choose which certificate to present. Websites within DOD require user authentication for access which increases security for DoD information. Access will be denied to the user if certificate management is not configured. |
 | V-15771 | FileContentRule | ReplaceText | Although current versions of Firefox have this set to disabled by default, use of this option can be harmful. This would allow the browser to access the Windows shell. This could allow access to the underlying system. This check verifies that the default setting has not been changed.  |
@@ -110,14 +65,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Firefox, Version 4.27
 
-**Title:** Mozilla Firefox Security Technical Implementation Guide
-**Version:** 4
-**Release:** Release: 27 Benchmark Date: 25 Oct 2019
-**FileName:** U_Mozilla_FireFox_STIG_V4R27_Manual-xccdf.xml
-**Created:** 11/19/2019
-**Description:** The Mozilla Firefox Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil
+**Title:** Mozilla Firefox Security Technical Implementation Guide  
+**Version:** 4  
+**Release:** Release: 27 Benchmark Date: 25 Oct 2019  
+**FileName:** U_Mozilla_FireFox_STIG_V4R27_Manual-xccdf.xml  
+**Created:** 11/19/2019  
+**Description:** The Mozilla Firefox Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil  
+**StigRuleCoverage:** **21** of **24** rules are automated; **88%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-15768 | FileContentRule | ReplaceText | When a web site asks for a certificate for user authentication, Firefox must be configured to have the user choose which certificate to present. Websites within DOD require user authentication for access which increases security for DoD information. Access will be denied to the user if certificate management is not configured. |
 | V-15771 | FileContentRule | ReplaceText | Although current versions of Firefox have this set to disabled by default, use of this option can be harmful. This would allow the browser to access the Windows shell. This could allow access to the underlying system. This check verifies that the default setting has not been changed.  |
@@ -141,14 +97,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## IIS 8-5 Server STIG, Version 1.7
 
-**Title:** IIS 8.5 Server Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 7 Benchmark Date: 26 Apr 2019
-**FileName:** U_MS_IIS_8-5_Server_STIG_V1R7_Manual-xccdf.xml
-**Created:** 9/19/2019
-**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.
+**Title:** IIS 8.5 Server Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 7 Benchmark Date: 26 Apr 2019  
+**FileName:** U_MS_IIS_8-5_Server_STIG_V1R7_Manual-xccdf.xml  
+**Created:** 9/19/2019  
+**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **35** of **58** rules are automated; **60%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-76681 | IisLoggingRule | xIISLogging | Log files are a critical component to the successful management of an IS used within the DoD. By generating log files with useful information web administrators can leverage them in the event of a disaster, malicious attack, or other site specific needs. Ascertaining the correct order of the events that occurred is important during forensic analysis. Events that appear harmless by themselves might be flagged as a potential threat when properly viewed in sequence. By also establishing the event date and time, an event can be properly viewed with an enterprise tool to fully see a possible threat in its entirety. Without sufficient information establishing when the log event occurred, investigation into the cause of event is severely hindered. Log record content that may be necessary to satisfy the requirement of this control includes, but is not limited to, time stamps, source and destination IP addresses, user/process identifiers, event descriptions, application-specific events, success/fail indications, file names involved, access control, or flow control rules invoked. Satisfies: SRG-APP-000092-WSR-000055, SRG-APP-000093-WSR-000053, SRG-APP-000095-WSR-000056, SRG-APP-000096-WSR-000057, SRG-APP-000097-WSR-000058, SRG-APP-000097-WSR-000059 |
 | V-76683 | IisLoggingRule | xIISLogging | Internet Information Services (IIS) on Windows Server 2012 provides basic logging capabilities. However, because IIS takes some time to flush logs to disk, administrators do not have access to logging information in real-time. In addition, text-based log files can be difficult and time-consuming to process. In IIS 8.5, the administrator has the option of sending logging information to Event Tracing for Windows (ETW). This option gives the administrator the ability to use standard query tools, or create custom tools, for viewing real-time logging information in ETW. This provides a significant advantage over parsing text-based log files that are not updated in real time. Satisfies: SRG-APP-000092-WSR-000055, SRG-APP-000108-WSR-000166, SRG-APP-000358-WSR-000063 |
@@ -182,14 +139,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## IIS 8-5 Server STIG, Version 1.9
 
-**Title:** IIS 8.5 Server Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 9 Benchmark Date: 25 Oct 2019
-**FileName:** U_MS_IIS_8-5_Server_STIG_V1R9_Manual-xccdf.xml
-**Created:** 11/18/2019
-**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.
+**Title:** IIS 8.5 Server Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 9 Benchmark Date: 25 Oct 2019  
+**FileName:** U_MS_IIS_8-5_Server_STIG_V1R9_Manual-xccdf.xml  
+**Created:** 11/18/2019  
+**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **35** of **58** rules are automated; **60%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-76681 | IisLoggingRule | xIISLogging | Log files are a critical component to the successful management of an IS used within the DoD. By generating log files with useful information web administrators can leverage them in the event of a disaster, malicious attack, or other site specific needs. Ascertaining the correct order of the events that occurred is important during forensic analysis. Events that appear harmless by themselves might be flagged as a potential threat when properly viewed in sequence. By also establishing the event date and time, an event can be properly viewed with an enterprise tool to fully see a possible threat in its entirety. Without sufficient information establishing when the log event occurred, investigation into the cause of event is severely hindered. Log record content that may be necessary to satisfy the requirement of this control includes, but is not limited to, time stamps, source and destination IP addresses, user/process identifiers, event descriptions, application-specific events, success/fail indications, file names involved, access control, or flow control rules invoked. Satisfies: SRG-APP-000092-WSR-000055, SRG-APP-000093-WSR-000053, SRG-APP-000095-WSR-000056, SRG-APP-000096-WSR-000057, SRG-APP-000097-WSR-000058, SRG-APP-000097-WSR-000059 |
 | V-76683 | IisLoggingRule | xIISLogging | Internet Information Services (IIS) on Windows Server 2012 provides basic logging capabilities. However, because IIS takes some time to flush logs to disk, administrators do not have access to logging information in real-time. In addition, text-based log files can be difficult and time-consuming to process. In IIS 8.5, the administrator has the option of sending logging information to Event Tracing for Windows (ETW). This option gives the administrator the ability to use standard query tools, or create custom tools, for viewing real-time logging information in ETW. This provides a significant advantage over parsing text-based log files that are not updated in real time. Satisfies: SRG-APP-000092-WSR-000055, SRG-APP-000108-WSR-000166, SRG-APP-000358-WSR-000063 |
@@ -223,14 +181,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## IIS 8-5 Site STIG, Version 1.8
 
-**Title:** IIS 8.5 Site Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 8 Benchmark Date: 26 Jul 2019
-**FileName:** U_MS_IIS_8-5_Site_V1R8_Manual-xccdf.xml
-**Created:** 12/5/2019
-**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.
+**Title:** IIS 8.5 Site Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 8 Benchmark Date: 26 Jul 2019  
+**FileName:** U_MS_IIS_8-5_Site_V1R8_Manual-xccdf.xml  
+**Created:** 12/5/2019  
+**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **48** of **58** rules are automated; **83%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-76783 | IisLoggingRule | XWebsite | Log files are a critical component to the successful management of an IS used within the DoD. By generating log files with useful information web administrators can leverage them in the event of a disaster, malicious attack, or other site-specific needs. Ascertaining the correct order of the events that occurred is important during forensic analysis. Events that appear harmless by themselves might be flagged as a potential threat when properly viewed in sequence. By also establishing the event date and time, an event can be properly viewed with an enterprise tool to fully see a possible threat in its entirety. Without sufficient information establishing when the log event occurred, investigation into the cause of event is severely hindered. Log record content that may be necessary to satisfy the requirement of this control includes, but is not limited to, time stamps, source and destination IP addresses, user/process identifiers, event descriptions, application-specific events, success/fail indications, file names involved, access control, or flow control rules invoked. Satisfies: SRG-APP-000092-WSR-000055, SRG-APP-000093-WSR-000053 |
 | V-76785 | IisLoggingRule | XWebsite | Internet Information Services (IIS) on Windows Server 2012 provides basic logging capabilities. However, because IIS takes some time to flush logs to disk, administrators do not have access to logging information in real-time. In addition, text-based log files can be difficult and time-consuming to process. In IIS 8.5, the administrator has the option of sending logging information to Event Tracing for Windows (ETW). This option gives the administrator the ability to use standard query tools, or create custom tools, for viewing real-time logging information in ETW. This provides a significant advantage over parsing text-based log files that are not updated in real time. Satisfies: SRG-APP-000092-WSR-000055, SRG-APP-000108-WSR-000166 |
@@ -276,14 +235,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## IIS 8-5 Site STIG, Version 1.9
 
-**Title:** IIS 8.5 Site Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 9 Benchmark Date: 25 Oct 2019
-**FileName:** U_MS_IIS_8-5_Site_V1R9_Manual-xccdf.xml
-**Created:** 11/21/2019
-**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.
+**Title:** IIS 8.5 Site Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 9 Benchmark Date: 25 Oct 2019  
+**FileName:** U_MS_IIS_8-5_Site_V1R9_Manual-xccdf.xml  
+**Created:** 11/21/2019  
+**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **48** of **58** rules are automated; **83%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-76783 | IisLoggingRule | XWebsite | Log files are a critical component to the successful management of an IS used within the DoD. By generating log files with useful information web administrators can leverage them in the event of a disaster, malicious attack, or other site-specific needs. Ascertaining the correct order of the events that occurred is important during forensic analysis. Events that appear harmless by themselves might be flagged as a potential threat when properly viewed in sequence. By also establishing the event date and time, an event can be properly viewed with an enterprise tool to fully see a possible threat in its entirety. Without sufficient information establishing when the log event occurred, investigation into the cause of event is severely hindered. Log record content that may be necessary to satisfy the requirement of this control includes, but is not limited to, time stamps, source and destination IP addresses, user/process identifiers, event descriptions, application-specific events, success/fail indications, file names involved, access control, or flow control rules invoked. Satisfies: SRG-APP-000092-WSR-000055, SRG-APP-000093-WSR-000053 |
 | V-76785 | IisLoggingRule | XWebsite | Internet Information Services (IIS) on Windows Server 2012 provides basic logging capabilities. However, because IIS takes some time to flush logs to disk, administrators do not have access to logging information in real-time. In addition, text-based log files can be difficult and time-consuming to process. In IIS 8.5, the administrator has the option of sending logging information to Event Tracing for Windows (ETW). This option gives the administrator the ability to use standard query tools, or create custom tools, for viewing real-time logging information in ETW. This provides a significant advantage over parsing text-based log files that are not updated in real time. Satisfies: SRG-APP-000092-WSR-000055, SRG-APP-000108-WSR-000166 |
@@ -329,14 +289,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## IE 11 STIG, Version 1.17
 
-**Title:** Microsoft Internet Explorer 11 Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 17 Benchmark Date: 26 Apr 2019
-**FileName:** U_MS_IE11_STIG_V1R17_Manual-xccdf.xml
-**Created:** 12/5/2019
-**Description:** The Microsoft Internet Explorer 11 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil
+**Title:** Microsoft Internet Explorer 11 Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 17 Benchmark Date: 26 Apr 2019  
+**FileName:** U_MS_IE11_STIG_V1R17_Manual-xccdf.xml  
+**Created:** 12/5/2019  
+**Description:** The Microsoft Internet Explorer 11 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil  
+**StigRuleCoverage:** **139** of **138** rules are automated; **101%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-46473 | RegistryRule | RegistryPolicyFile | This parameter ensures only DoD-approved ciphers and algorithms are enabled for use by the web browser by allowing you to turn on/off support for TLS and SSL. TLS is a protocol for protecting communications between the browser and the target server. When the browser attempts to set up a protected communication with the target server, the browser and server negotiate which protocol and version to use. The browser and server attempt to match each other's list of supported protocols and versions and pick the most preferred match.. |
 | V-46475 | RegistryRule | RegistryPolicyFile | This parameter warns users if the certificate being presented by the website is invalid. Since server certificates are used to validate the identity of the web server it is critical to warn the user of a potential issue with the certificate being presented by the web server. This setting aids to prevent spoofing attacks. |
@@ -479,14 +440,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## IE 11 STIG, Version 1.18
 
-**Title:** Microsoft Internet Explorer 11 Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 18 Benchmark Date: 25 Oct 2019
-**FileName:** U_MS_IE11_STIG_V1R18_Manual-xccdf.xml
-**Created:** 12/5/2019
-**Description:** The Microsoft Internet Explorer 11 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil
+**Title:** Microsoft Internet Explorer 11 Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 18 Benchmark Date: 25 Oct 2019  
+**FileName:** U_MS_IE11_STIG_V1R18_Manual-xccdf.xml  
+**Created:** 12/5/2019  
+**Description:** The Microsoft Internet Explorer 11 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil  
+**StigRuleCoverage:** **140** of **139** rules are automated; **101%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-46473 | RegistryRule | RegistryPolicyFile | This parameter ensures only DoD-approved ciphers and algorithms are enabled for use by the web browser by allowing you to turn on/off support for TLS and SSL. TLS is a protocol for protecting communications between the browser and the target server. When the browser attempts to set up a protected communication with the target server, the browser and server negotiate which protocol and version to use. The browser and server attempt to match each other's list of supported protocols and versions and pick the most preferred match.. |
 | V-46475 | RegistryRule | RegistryPolicyFile | This parameter warns users if the certificate being presented by the website is invalid. Since server certificates are used to validate the identity of the web server it is critical to warn the user of a potential issue with the certificate being presented by the web server. This setting aids to prevent spoofing attacks. |
@@ -630,14 +592,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Microsoft Excel 2013, Version 1.7
 
-**Title:** Microsoft Excel 2013 STIG
-**Version:** 1
-**Release:** Release: 7 Benchmark Date: 27 Apr 2018
-**FileName:** U_MS_Excel_2013_STIG_V1R7_Manual-xccdf.xml
-**Created:** 9/6/2019
-**Description:** The Microsoft Excel 2013 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.
+**Title:** Microsoft Excel 2013 STIG  
+**Version:** 1  
+**Release:** Release: 7 Benchmark Date: 27 Apr 2018  
+**FileName:** U_MS_Excel_2013_STIG_V1R7_Manual-xccdf.xml  
+**Created:** 9/6/2019  
+**Description:** The Microsoft Excel 2013 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **49** of **48** rules are automated; **102%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-17173 | RegistryRule | RegistryPolicyFile | The Uniform Resource Locator (URL) standard allows user authentication to be included in URL strings in the form http://username:password@example.com. A malicious user might use this URL syntax to create a hyperlink that appears to open a legitimate website but actually opens a deceptive (spoofed) website. For example, the URL http://www.wingtiptoys.com@example.com appears to open http://www.wingtiptoys.com but actually opens http://example.com. To protect users from such attacks, Internet Explorer usually blocks any URLs using this syntax. This functionality can be controlled separately for instances of Internet Explorer spawned by Office applications (for example, if a user clicks a link in an Office document or selects a menu option that loads a web page). If user names and passwords in URLs are allowed, users could be diverted to dangerous web pages, which could pose a security risk. |
 | V-17174 | RegistryRule | RegistryPolicyFile | Internet Explorer performs a number of safety checks before initializing an ActiveX control. It will not initialize a control if the kill bit for the control is set in the registry, or if the security settings for the zone in which the control is located do not allow it to be initialized. This functionality can be controlled separately for instances of Internet Explorer spawned by Office applications (for example, if a user clicks a link in an Office document or selects a menu option that loads a Web page). A security risk could occur if potentially dangerous controls are allowed to load. |
@@ -690,14 +653,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Microsoft Excel 2016, Version 1.2
 
-**Title:** Microsoft Excel 2016 Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 2 Benchmark Date: 27 Oct 2017
-**FileName:** U_MS_Excel_2016_STIG_V1R2_Manual-xccdf.xml
-**Created:** 9/6/2019
-**Description:** The Microsoft Excel 2016 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.
+**Title:** Microsoft Excel 2016 Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 2 Benchmark Date: 27 Oct 2017  
+**FileName:** U_MS_Excel_2016_STIG_V1R2_Manual-xccdf.xml  
+**Created:** 9/6/2019  
+**Description:** The Microsoft Excel 2016 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **43** of **42** rules are automated; **102%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-70955 | RegistryRule | RegistryPolicyFile | The Uniform Resource Locator (URL) standard allows user authentication to be included in URL strings in the form http://username:password@example.com. A malicious user might use this URL syntax to create a hyperlink that appears to open a legitimate website but actually opens a deceptive (spoofed) website. For example, the URL http://www.wingtiptoys.com@example.com appears to open http://www.wingtiptoys.com but actually opens http://example.com. To protect users from such attacks, Internet Explorer usually blocks any URLs using this syntax. This functionality can be controlled separately for instances of Internet Explorer spawned by Office applications (for example, if a user clicks a link in an Office document or selects a menu option that loads a website). If user names and passwords in URLs are allowed, users could be diverted to dangerous Web pages, which could pose a security risk. |
 | V-70957 | RegistryRule | RegistryPolicyFile | This policy setting allows you to determine whether users can open, view, edit, or save Excel files with the format specified by the title of this policy setting. If you enable this policy setting, you can specify whether users can open, view, edit, or save files. The options that can be selected are below. Note: Not all options may be available for this policy setting.- Do not block: The file type will not be blocked.- Save blocked: Saving of the file type will be blocked.- Open/Save blocked, use open policy: Both opening and saving of the file type will be blocked. The file will open based on the policy setting configured in the "default file block behavior" key.- Block: Both opening and saving of the file type will be blocked, and the file will not open.- Open in Protected View: Both opening and saving of the file type will be blocked, and the option to edit the file type will not be enabled.- Allow editing and open in Protected View: Both opening and saving of the file type will be blocked, and the option to edit will be enabled. If you disable or do not configure this policy setting, the file type will be blocked.  |
@@ -744,14 +708,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Microsoft Outlook 2013, Version 1.12
 
-**Title:** Microsoft Outlook 2013 STIG
-**Version:** 1
-**Release:** Release: 12 Benchmark Date: 27 Apr 2018
-**FileName:** U_MicrosoftOutlook2013_STIG_V1R12_Manual-xccdf.xml
-**Created:** 9/6/2019
-**Description:** The Microsoft Outlook 2013 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.
+**Title:** Microsoft Outlook 2013 STIG  
+**Version:** 1  
+**Release:** Release: 12 Benchmark Date: 27 Apr 2018  
+**FileName:** U_MicrosoftOutlook2013_STIG_V1R12_Manual-xccdf.xml  
+**Created:** 9/6/2019  
+**Description:** The Microsoft Outlook 2013 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **83** of **82** rules are automated; **101%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-17173 | RegistryRule | RegistryPolicyFile | The Uniform Resource Locator (URL) standard allows user authentication to be included in URL strings in the form http://username:password@example.com. A malicious user might use this URL syntax to create a hyperlink that appears to open a legitimate website but actually opens a deceptive (spoofed) website. For example, the URL http://www.wingtiptoys.com@example.com appears to open http://www.wingtiptoys.com but actually opens http://example.com. To protect users from such attacks, Internet Explorer usually blocks any URLs using this syntax. This functionality can be controlled separately for instances of Internet Explorer spawned by Office applications (for example, if a user clicks a link in an Office document or selects a menu option that loads a web page). If user names and passwords in URLs are allowed, users could be diverted to dangerous web pages, which would pose a security risk. |
 | V-17174 | RegistryRule | RegistryPolicyFile | Internet Explorer performs a number of safety checks before initializing an ActiveX control. It will not initialize a control if the kill bit for the control is set in the registry, or if the security settings for the zone in which the control is located do not allow it to be initialized. This functionality can be controlled separately for instances of Internet Explorer spawned by Office applications (for example, if a user clicks a link in an Office document or selects a menu option that loads a web page). A security risk could occur if potentially dangerous controls are allowed to load. |
@@ -838,14 +803,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Microsoft Outlook 2013, Version 1.13
 
-**Title:** Microsoft Outlook 2013 STIG
-**Version:** 1
-**Release:** Release: 13 Benchmark Date: 26 Oct 2018
-**FileName:** U_MicrosoftOutlook2013_STIG_V1R13_Manual-xccdf.xml
-**Created:** 9/6/2019
-**Description:** The Microsoft Outlook 2013 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.
+**Title:** Microsoft Outlook 2013 STIG  
+**Version:** 1  
+**Release:** Release: 13 Benchmark Date: 26 Oct 2018  
+**FileName:** U_MicrosoftOutlook2013_STIG_V1R13_Manual-xccdf.xml  
+**Created:** 9/6/2019  
+**Description:** The Microsoft Outlook 2013 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **83** of **82** rules are automated; **101%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-17173 | RegistryRule | RegistryPolicyFile | The Uniform Resource Locator (URL) standard allows user authentication to be included in URL strings in the form http://username:password@example.com. A malicious user might use this URL syntax to create a hyperlink that appears to open a legitimate website but actually opens a deceptive (spoofed) website. For example, the URL http://www.wingtiptoys.com@example.com appears to open http://www.wingtiptoys.com but actually opens http://example.com. To protect users from such attacks, Internet Explorer usually blocks any URLs using this syntax. This functionality can be controlled separately for instances of Internet Explorer spawned by Office applications (for example, if a user clicks a link in an Office document or selects a menu option that loads a web page). If user names and passwords in URLs are allowed, users could be diverted to dangerous web pages, which would pose a security risk. |
 | V-17174 | RegistryRule | RegistryPolicyFile | Internet Explorer performs a number of safety checks before initializing an ActiveX control. It will not initialize a control if the kill bit for the control is set in the registry, or if the security settings for the zone in which the control is located do not allow it to be initialized. This functionality can be controlled separately for instances of Internet Explorer spawned by Office applications (for example, if a user clicks a link in an Office document or selects a menu option that loads a web page). A security risk could occur if potentially dangerous controls are allowed to load. |
@@ -932,14 +898,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Microsoft Outlook 2016, Version 1.2
 
-**Title:** Microsoft Outlook 2016 Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 2 Benchmark Date: 28 Jul 2017
-**FileName:** U_Microsoft_Outlook_2016_STIG_V1R2_Manual-xccdf.xml
-**Created:** 9/6/2019
-**Description:** The Microsoft Outlook 2016 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.
+**Title:** Microsoft Outlook 2016 Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 2 Benchmark Date: 28 Jul 2017  
+**FileName:** U_Microsoft_Outlook_2016_STIG_V1R2_Manual-xccdf.xml  
+**Created:** 9/6/2019  
+**Description:** The Microsoft Outlook 2016 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **59** of **58** rules are automated; **102%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-71109 | RegistryRule | RegistryPolicyFile | The Uniform Resource Locator (URL) standard allows user authentication to be included in URL strings in the form http://username:password@example.com. A malicious user might use this URL syntax to create a hyperlink that appears to open a legitimate website but actually opens a deceptive (spoofed) website. For example, the URL http://www.wingtiptoys.com@example.com appears to open http://www.wingtiptoys.com but actually opens http://example.com. To protect users from such attacks, Internet Explorer usually blocks any URLs using this syntax. This functionality can be controlled separately for instances of Internet Explorer spawned by Office applications (for example, if a user clicks a link in an Office document or selects a menu option that loads a website). If user names and passwords in URLs are allowed, users could be diverted to dangerous Web pages, which could pose a security risk. |
 | V-71111 | RegistryRule | RegistryPolicyFile | Internet Explorer performs a number of safety checks before initializing an ActiveX control. It will not initialize a control if the kill bit for the control is set in the registry, or if the security settings for the zone in which the control is located do not allow it to be initialized. This functionality can be controlled separately for instances of Internet Explorer spawned by Office applications (for example, if a user clicks a link in an Office document or selects a menu option that loads a web page). A security risk could occur if potentially dangerous controls are allowed to load. |
@@ -1002,14 +969,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Microsoft PowerPoint 2013, Version 1.6
 
-**Title:** Microsoft PowerPoint 2013 STIG
-**Version:** 1
-**Release:** Release: 6 Benchmark Date: 27 Apr 2018
-**FileName:** U_MS_PowerPoint_2013_V1R6_Manual-xccdf.xml
-**Created:** 9/6/2019
-**Description:** The Microsoft PowerPoint 2013 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.
+**Title:** Microsoft PowerPoint 2013 STIG  
+**Version:** 1  
+**Release:** Release: 6 Benchmark Date: 27 Apr 2018  
+**FileName:** U_MS_PowerPoint_2013_V1R6_Manual-xccdf.xml  
+**Created:** 9/6/2019  
+**Description:** The Microsoft PowerPoint 2013 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **42** of **41** rules are automated; **102%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-17173 | RegistryRule | RegistryPolicyFile | The Uniform Resource Locator (URL) standard allows user authentication to be included in URL strings in the form http://username:password@example.com. A malicious user might use this URL syntax to create a hyperlink that appears to open a legitimate website but actually opens a deceptive (spoofed) website. For example, the URL http://www.wingtiptoys.com@example.com appears to open http://www.wingtiptoys.com but actually opens http://example.com. To protect users from such attacks, Internet Explorer usually blocks any URLs using this syntax. This functionality can be controlled separately for instances of Internet Explorer spawned by Office applications (for example, if a user clicks a link in an Office document or selects a menu option that loads a web page). If user names and passwords in URLs are allowed, users could be diverted to dangerous web pages, which could pose a security risk. |
 | V-17174 | RegistryRule | RegistryPolicyFile | Internet Explorer performs a number of safety checks before initializing an ActiveX control. It will not initialize a control if the kill bit for the control is set in the registry, or if the security settings for the zone in which the control is located do not allow it to be initialized. This functionality can be controlled separately for instances of Internet Explorer spawned by Office applications (for example, if a user clicks a link in an Office document or selects a menu option that loads a web page). A security risk could occur if potentially dangerous controls are allowed to load. |
@@ -1055,14 +1023,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Microsoft PowerPoint 2016, Version 1.1
 
-**Title:** Microsoft PowerPoint 2016 Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 1 Benchmark Date: 14 Nov 2016
-**FileName:** U_Microsoft_PowerPoint_2016_STIG_V1R1_Manual-xccdf.xml
-**Created:** 9/6/2019
-**Description:** The Microsoft PowerPoint 2016 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.
+**Title:** Microsoft PowerPoint 2016 Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 1 Benchmark Date: 14 Nov 2016  
+**FileName:** U_Microsoft_PowerPoint_2016_STIG_V1R1_Manual-xccdf.xml  
+**Created:** 9/6/2019  
+**Description:** The Microsoft PowerPoint 2016 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **39** of **38** rules are automated; **103%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-70641 | RegistryRule | RegistryPolicyFile | The Uniform Resource Locator (URL) standard allows user authentication to be included in URL strings in the form http://username:password@example.com. A malicious user might use this URL syntax to create a hyperlink that appears to open a legitimate website but actually opens a deceptive (spoofed) website. For example, the URL http://www.wingtiptoys.com@example.com appears to open http://www.wingtiptoys.com but actually opens http://example.com. To protect users from such attacks, Internet Explorer usually blocks any URLs using this syntax. This functionality can be controlled separately for instances of Internet Explorer spawned by Office applications (for example, if a user clicks a link in an Office document or selects a menu option that loads a website). If user names and passwords in URLs are allowed, users could be diverted to dangerous Web pages, which could pose a security risk.  |
 | V-70643 | RegistryRule | RegistryPolicyFile | This policy setting allows you to determine if users can open, view, or edit Word files. If you enable this policy setting, you can set one of these options:- Blocked files are not opened- Blocked files open in Protected View and can not be edited- Blocked files open in Protected View and can be edited. If you disable or do not configure this policy setting, the behavior is the same as the "Blocked files are not opened" setting. Users will not be able to open blocked files. |
@@ -1105,14 +1074,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Microsoft Office System 2013, Version 1.9
 
-**Title:** Microsoft Office System 2013 STIG
-**Version:** 1
-**Release:** Release: 9 Benchmark Date: 25 Oct 2019
-**FileName:** U_MS_OfficeSystem_2013_STIG_V1R9_Manual-xccdf.xml
-**Created:** 12/4/2019
-**Description:** The Microsoft Office System 2013 STIG is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the NIST 800-53 and related documents. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.
+**Title:** Microsoft Office System 2013 STIG  
+**Version:** 1  
+**Release:** Release: 9 Benchmark Date: 25 Oct 2019  
+**FileName:** U_MS_OfficeSystem_2013_STIG_V1R9_Manual-xccdf.xml  
+**Created:** 12/4/2019  
+**Description:** The Microsoft Office System 2013 STIG is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the NIST 800-53 and related documents. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **53** of **52** rules are automated; **102%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-17547.a | RegistryRule | RegistryPolicyFile | ActiveX controls can adversely affect a computer directly. In addition, malicious code can be used to compromise an ActiveX control and attack a computer. To indicate the safety of an ActiveX control, developers can denote them as Safe For Initialization (SFI). SFI indicates a control is safe to open and run, and it is not capable of causing a problem for any computer, regardless of whether it has persisted data values or not. If a control is not marked SFI, it is possible the control could adversely affect a computer—or it could mean the developers did not test the control in all situations and are not sure whether it might be compromised in the future. By default, if a control is marked SFI, the application loads the control in safe mode and uses persisted values (if any). If the control is not marked SFI, the application loads the control in unsafe mode with persisted values (if any), or uses the default (first-time initialization) settings. In both situations, the Message Bar informs users the controls have been disabled and prompts them to respond. |
 | V-17547.b | RegistryRule | RegistryPolicyFile | ActiveX controls can adversely affect a computer directly. In addition, malicious code can be used to compromise an ActiveX control and attack a computer. To indicate the safety of an ActiveX control, developers can denote them as Safe For Initialization (SFI). SFI indicates a control is safe to open and run, and it is not capable of causing a problem for any computer, regardless of whether it has persisted data values or not. If a control is not marked SFI, it is possible the control could adversely affect a computer—or it could mean the developers did not test the control in all situations and are not sure whether it might be compromised in the future. By default, if a control is marked SFI, the application loads the control in safe mode and uses persisted values (if any). If the control is not marked SFI, the application loads the control in unsafe mode with persisted values (if any), or uses the default (first-time initialization) settings. In both situations, the Message Bar informs users the controls have been disabled and prompts them to respond. |
@@ -1169,14 +1139,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Microsoft Office System 2016, Version 1.1
 
-**Title:** Microsoft Office System 2016 Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 1 Benchmark Date: 14 Nov 2016
-**FileName:** U_Microsoft_Office_System_2016_STIG_V1R1_Manual-xccdf.xml
-**Created:** 12/17/2019
-**Description:** The Microsoft Office System 2016 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the NIST 800-53 and related documents. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.
+**Title:** Microsoft Office System 2016 Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 1 Benchmark Date: 14 Nov 2016  
+**FileName:** U_Microsoft_Office_System_2016_STIG_V1R1_Manual-xccdf.xml  
+**Created:** 12/17/2019  
+**Description:** The Microsoft Office System 2016 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the NIST 800-53 and related documents. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **23** of **22** rules are automated; **105%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-70855 | RegistryRule | RegistryPolicyFile | This policy setting controls whether the Help Improve Proofing Tools feature sends usage data to Microsoft. The Help Improve Proofing Tools feature collects data about use of the Proofing Tools, such as additions to the custom dictionary, and sends it to Microsoft. After about six months, the feature stops sending data to Microsoft and deletes the data collection file from the user's computer. If you enable this policy setting, this feature is enabled if users choose to participate in the Customer Experience Improvement Program (CEIP). If your organization has policies that govern the use of external resources such as the CEIP, allowing the use of the Help Improve Proofing Tools feature might cause them to violate these policies. If you disable this policy setting, the Help Improve Proofing Tools feature does not collect proofing tool usage information and transmit it to Microsoft. If you do not configure this policy setting, the behavior is the equivalent of setting the policy to "Enabled".  |
 | V-70859 | RegistryRule | RegistryPolicyFile | This policy setting controls whether Office 2016 applications notify users when potentially unsafe features or content are detected, or whether such features or content are silently disabled without notification. The Message Bar in Office 2016 applications is used to identify security issues, such as unsigned macros or potentially unsafe add-ins. When such issues are detected, the application disables the unsafe feature or content and displays the Message Bar at the top of the active window. The Message Bar informs the users about the nature of the security issue and, in some cases, provides the users with an option to enable the potentially unsafe feature or content, which could harm the user's computer. If you enable this policy setting, Office 2016 applications do not display information in the Message Bar about potentially unsafe content that has been detected or has automatically been blocked. If you disable this policy setting, Office 2016 applications display information in the Message Bar about content that has automatically been blocked. If you do not configure this policy setting, if an Office 2016 application detects a security issue, the Message Bar is displayed. However, this configuration can be modified by users in the Trust Center.  |
@@ -1203,14 +1174,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Microsoft Word 2013, Version 1.6
 
-**Title:** Microsoft Word 2013 STIG
-**Version:** 1
-**Release:** Release: 6 Benchmark Date: 27 Apr 2018
-**FileName:** U_MS_Word_2013_STIG_V1R6_Manual-xccdf.xml
-**Created:** 9/6/2019
-**Description:** The Microsoft Word 2013 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.
+**Title:** Microsoft Word 2013 STIG  
+**Version:** 1  
+**Release:** Release: 6 Benchmark Date: 27 Apr 2018  
+**FileName:** U_MS_Word_2013_STIG_V1R6_Manual-xccdf.xml  
+**Created:** 9/6/2019  
+**Description:** The Microsoft Word 2013 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **37** of **36** rules are automated; **103%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-17173 | RegistryRule | RegistryPolicyFile | The Uniform Resource Locator (URL) standard allows user authentication to be included in URL strings in the form http://username:password@example.com. A malicious user might use this URL syntax to create a hyperlink that appears to open a legitimate website but actually opens a deceptive (spoofed) website. For example, the URL http://www.wingtiptoys.com@example.com appears to open http://www.wingtiptoys.com but actually opens http://example.com. To protect users from such attacks, Internet Explorer usually blocks any URLs using this syntax. This functionality can be controlled separately for instances of Internet Explorer spawned by Office applications (for example, if a user clicks a link in an Office document or selects a menu option that loads a web page). If user names and passwords in URLs are allowed, users could be diverted to dangerous web pages, which could pose a security risk. |
 | V-17174 | RegistryRule | RegistryPolicyFile | Internet Explorer performs a number of safety checks before initializing an ActiveX control. It will not initialize a control if the kill bit for the control is set in the registry, or if the security settings for the zone in which the control is located do not allow it to be initialized. This functionality can be controlled separately for instances of Internet Explorer spawned by Office applications (for example, if a user clicks a link in an Office document or selects a menu option that loads a web page). A security risk could occur if potentially dangerous controls are allowed to load. |
@@ -1251,14 +1223,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Microsoft Word 2016, Version 1.1
 
-**Title:** Microsoft Word 2016 Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 1 Benchmark Date: 14 Nov 2016
-**FileName:** U_Microsoft_Word_2016_STIG_V1R1_Manual-xccdf.xml
-**Created:** 9/6/2019
-**Description:** The Microsoft Word 2016 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.
+**Title:** Microsoft Word 2016 Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 1 Benchmark Date: 14 Nov 2016  
+**FileName:** U_Microsoft_Word_2016_STIG_V1R1_Manual-xccdf.xml  
+**Created:** 9/6/2019  
+**Description:** The Microsoft Word 2016 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **36** of **35** rules are automated; **103%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-71041 | RegistryRule | RegistryPolicyFile | The Uniform Resource Locator (URL) standard allows user authentication to be included in URL strings in the form http://username:password@example.com. A malicious user might use this URL syntax to create a hyperlink that appears to open a legitimate website but actually opens a deceptive (spoofed) website. For example, the URL http://www.wingtiptoys.com@example.com appears to open http://www.wingtiptoys.com but actually opens http://example.com. To protect users from such attacks, Internet Explorer usually blocks any URLs using this syntax. This functionality can be controlled separately for instances of Internet Explorer spawned by Office applications (for example, if a user clicks a link in an Office document or selects a menu option that loads a website). If user names and passwords in URLs are allowed, users could be diverted to dangerous Web pages, which could pose a security risk. |
 | V-71043 | RegistryRule | RegistryPolicyFile | This policy setting allows you to determine if users can open, view, or edit Word files. If you enable this policy setting, you can set one of these options:- Blocked files are not opened- Blocked files open in Protected View and can not be edited- Blocked files open in Protected View and can be edited. If you disable or do not configure this policy setting, the behavior is the same as the "Blocked files are not opened" setting. Users will not be able to open blocked files.  |
@@ -1298,14 +1271,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## JRE 8 and Windows STIG, Version 1.5
 
-**Title:** Java Runtime Environment (JRE) version 8 STIG for Windows
-**Version:** 1
-**Release:** Release: 5 Benchmark Date: 26 Jan 2018
-**FileName:** U_Oracle_JRE_8_Windows_STIG_V1R5_Manual-xccdf.xml
-**Created:** 11/21/2019
-**Description:** The Java Runtime Environment (JRE) is a bundle developed and offered by Oracle Corporation which includes the Java Virtual Machine (JVM), class libraries, and other components necessary to run Java applications and applets.  Certain default settings within the JRE pose a security risk so it is necessary to deploy system wide properties to ensure a higher degree of security when utilizing the JRE.
+**Title:** Java Runtime Environment (JRE) version 8 STIG for Windows  
+**Version:** 1  
+**Release:** Release: 5 Benchmark Date: 26 Jan 2018  
+**FileName:** U_Oracle_JRE_8_Windows_STIG_V1R5_Manual-xccdf.xml  
+**Created:** 11/21/2019  
+**Description:** The Java Runtime Environment (JRE) is a bundle developed and offered by Oracle Corporation which includes the Java Virtual Machine (JVM), class libraries, and other components necessary to run Java applications and applets.  Certain default settings within the JRE pose a security risk so it is necessary to deploy system wide properties to ensure a higher degree of security when utilizing the JRE.  
+**StigRuleCoverage:** **22** of **26** rules are automated; **85%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-66723.a | FileContentRule | KeyValuePairFile | Certificates may be revoked due to improper issuance, compromise of the certificate, and failure to adhere to policy. Therefore, any certificate found revoked on a CRL or via Online Certificate Status Protocol (OCSP) should not be trusted. Permitting execution of an applet published with a revoked certificate may result in spoofing, malware, system modification, invasion of privacy, and denial of service. Ensuring users cannot change these settings assures a more consistent security profile. |
 | V-66723.b | FileContentRule | KeyValuePairFile | Certificates may be revoked due to improper issuance, compromise of the certificate, and failure to adhere to policy. Therefore, any certificate found revoked on a CRL or via Online Certificate Status Protocol (OCSP) should not be trusted. Permitting execution of an applet published with a revoked certificate may result in spoofing, malware, system modification, invasion of privacy, and denial of service. Ensuring users cannot change these settings assures a more consistent security profile. |
@@ -1330,42 +1304,45 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## MS SQL Server 2012 Database Instance STIG, Version 1.18
 
-**Title:** Microsoft SQL Server 2012 Database Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 18 Benchmark Date: 25 Jan 2019
-**FileName:** U_MS_SQL_Server_2012_Database_STIG_V1R18_Manual-xccdf.xml
-**Created:** 7/29/2019
-**Description:** The Microsoft SQL Server 2012 Database Instance Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.
+**Title:** Microsoft SQL Server 2012 Database Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 18 Benchmark Date: 25 Jan 2019  
+**FileName:** U_MS_SQL_Server_2012_Database_STIG_V1R18_Manual-xccdf.xml  
+**Created:** 7/29/2019  
+**Description:** The Microsoft SQL Server 2012 Database Instance Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **5** of **28** rules are automated; **18%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-41402 | SqlScriptQueryRule | SqlScriptQuery | Audit records can be generated from various components within the information system (e.g., network interface, hard disk, modem, etc.). From an application perspective, certain specific application functionalities may be audited as well. The list of audited events is the set of events for which audits are to be generated. This set of events is typically a subset of the list of all events for which the system is capable of generating audit records. Examples are auditable events, time stamps, source and destination addresses, user/process identifiers, event descriptions, success/fail indications, file names involved, and access control or flow control rules invoked. Organizations define which application components shall provide auditable events. The DBMS must provide auditing for the list of events defined by the organization or risk negatively impacting forensic investigations into malicious behavior in the information system. |
 | V-41407 | SqlScriptQueryRule | SqlScriptQuery | SQL Server database ownership is a higher level privilege that grants full rights to everything in that database, including the right to grant privileges to others. SQL Server requires that the owner of a database object be a user, and only one user can be the assigned owner of a database object. This tends to minimize the risk that multiple users could gain unauthorized access, except the one individual who is the owner. Within the database, object ownership implies full privileges to the owned object, including the privilege to assign access to the owned objects to other subjects. Unmanaged or uncontrolled ownership of databases can lead to unauthorized granting of privileges and database alterations. |
 
 ## MS SQL Server 2012 STIG, Version 1.19
 
-**Title:** Microsoft SQL Server 2012 Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 19 Benchmark Date: 26 Jul 2019
-**FileName:** U_MS_SQL_Server_2012_Database_STIG_V1R19_Manual-xccdf.xml
-**Created:** 8/22/2019
-**Description:** The Microsoft SQL Server 2012 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.
+**Title:** Microsoft SQL Server 2012 Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 19 Benchmark Date: 26 Jul 2019  
+**FileName:** U_MS_SQL_Server_2012_Database_STIG_V1R19_Manual-xccdf.xml  
+**Created:** 8/22/2019  
+**Description:** The Microsoft SQL Server 2012 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **5** of **28** rules are automated; **18%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-41402 | SqlScriptQueryRule | SqlScriptQuery | Audit records can be generated from various components within the information system (e.g., network interface, hard disk, modem, etc.). From an application perspective, certain specific application functionalities may be audited as well. The list of audited events is the set of events for which audits are to be generated. This set of events is typically a subset of the list of all events for which the system is capable of generating audit records. Examples are auditable events, time stamps, source and destination addresses, user/process identifiers, event descriptions, success/fail indications, file names involved, and access control or flow control rules invoked. Organizations define which application components shall provide auditable events. The DBMS must provide auditing for the list of events defined by the organization or risk negatively impacting forensic investigations into malicious behavior in the information system. |
 | V-41407 | SqlScriptQueryRule | SqlScriptQuery | SQL Server database ownership is a higher level privilege that grants full rights to everything in that database, including the right to grant privileges to others. SQL Server requires that the owner of a database object be a user, and only one user can be the assigned owner of a database object. This tends to minimize the risk that multiple users could gain unauthorized access, except the one individual who is the owner. Within the database, object ownership implies full privileges to the owned object, including the privilege to assign access to the owned objects to other subjects. Unmanaged or uncontrolled ownership of databases can lead to unauthorized granting of privileges and database alterations. |
 
 ## Microsoft SQL Server 2012 Database Instance Security Technical Implementation Guide, Version 1.17
 
-**Title:** Microsoft SQL Server 2012 Database Instance Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 17 Benchmark Date: 27 Apr 2018
-**FileName:** U_SQL_Server_2012_Instance_STIG_V1R17_Manual-xccdf.xml
-**Created:** 11/21/2019
-**Description:** The Microsoft SQL Server 2012 Database Instance Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.
+**Title:** Microsoft SQL Server 2012 Database Instance Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 17 Benchmark Date: 27 Apr 2018  
+**FileName:** U_SQL_Server_2012_Instance_STIG_V1R17_Manual-xccdf.xml  
+**Created:** 11/21/2019  
+**Description:** The Microsoft SQL Server 2012 Database Instance Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **55** of **153** rules are automated; **36%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-40950 | PermissionRule | FileSystemAuditRuleEntry | Any changes to the hardware, software, and/or firmware components of the information system and/or application can potentially have significant effects on the overall security of the system. Accordingly, only qualified and authorized individuals are allowed to obtain access to information system components for purposes of initiating changes, including upgrades and modifications. Access restrictions for change also include software libraries. Examples of access restrictions include: physical access controls (such as locks and access cards), logical access controls (such as ACLs), automated auditing (logging) of logical access, workflow automation, media libraries, abstract layers (e.g., changes are implemented into a third-party interface rather than directly into the information system component), and change windows (e.g., changes occur only during specified times, making unauthorized changes outside the window easy to discover). This requirement focuses on the auditing aspect of the protections. |
 | V-69169 | PermissionRule | FileSystemAuditRuleEntry | When dealing with change control issues, it should be noted, any changes to the hardware, software, and/or firmware components of applications and tools related to SQL Server can potentially have significant effects on the overall security of the system. Only qualified and authorized individuals shall be allowed to obtain access to components related to SQL Server for purposes of initiating changes, including upgrades and modifications. Unmanaged changes that occur to the software libraries or configuration can lead to unauthorized or compromised installations. Of particular note in this context is that any software installed for auditing and/or audit file management must be protected and audited. |
@@ -1421,14 +1398,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## MS SQL Server 2012 STIG, Version 1.19
 
-**Title:** Microsoft SQL Server 2012 Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 19 Benchmark Date: 26 Jul 2019
-**FileName:** U_MS_SQL_Server_2012_Instance_STIG_V1R19_Manual-xccdf.xml
-**Created:** 12/5/2019
-**Description:** The Microsoft SQL Server 2012 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.
+**Title:** Microsoft SQL Server 2012 Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 19 Benchmark Date: 26 Jul 2019  
+**FileName:** U_MS_SQL_Server_2012_Instance_STIG_V1R19_Manual-xccdf.xml  
+**Created:** 12/5/2019  
+**Description:** The Microsoft SQL Server 2012 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **55** of **153** rules are automated; **36%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-40950 | PermissionRule | FileSystemAuditRuleEntry | Any changes to the hardware, software, and/or firmware components of the information system and/or application can potentially have significant effects on the overall security of the system. Accordingly, only qualified and authorized individuals are allowed to obtain access to information system components for purposes of initiating changes, including upgrades and modifications. Access restrictions for change also include software libraries. Examples of access restrictions include: physical access controls (such as locks and access cards), logical access controls (such as ACLs), automated auditing (logging) of logical access, workflow automation, media libraries, abstract layers (e.g., changes are implemented into a third-party interface rather than directly into the information system component), and change windows (e.g., changes occur only during specified times, making unauthorized changes outside the window easy to discover). This requirement focuses on the auditing aspect of the protections. |
 | V-69169 | PermissionRule | FileSystemAuditRuleEntry | When dealing with change control issues, it should be noted, any changes to the hardware, software, and/or firmware components of applications and tools related to SQL Server can potentially have significant effects on the overall security of the system. Only qualified and authorized individuals shall be allowed to obtain access to components related to SQL Server for purposes of initiating changes, including upgrades and modifications. Unmanaged changes that occur to the software libraries or configuration can lead to unauthorized or compromised installations. Of particular note in this context is that any software installed for auditing and/or audit file management must be protected and audited. |
@@ -1484,14 +1462,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## MS SQL Server 2016 Instance STIG, Version 1.3
 
-**Title:** MS SQL Server 2016 Instance Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 3 Benchmark Date: 26 Oct 2018
-**FileName:** U_MS_SQL_Server_2016_Instance_STIG_V1R3_Manual-xccdf.xml
-**Created:** 11/22/2019
-**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.
+**Title:** MS SQL Server 2016 Instance Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 3 Benchmark Date: 26 Oct 2018  
+**FileName:** U_MS_SQL_Server_2016_Instance_STIG_V1R3_Manual-xccdf.xml  
+**Created:** 11/22/2019  
+**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **24** of **119** rules are automated; **20%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-79197 | SecurityOptionRule | SecurityOption | The DoD standard for authentication is DoD-approved PKI certificates. PKI certificate-based authentication is performed by requiring the certificate holder to cryptographically prove possession of the corresponding private key. If the private key is stolen, an attacker can use the private key(s) to impersonate the certificate holder. In cases where SQL Server-stored private keys are used to authenticate SQL Server to the system’s clients, loss of the corresponding private keys would allow an attacker to successfully perform undetected man in the middle attacks against SQL Server system and its clients. Both the holder of a digital certificate and the issuing authority must take careful measures to protect the corresponding private key. Private keys should always be generated and protected in FIPS 140-2 validated cryptographic modules. All access to the private key(s) of SQL Server must be restricted to authorized and authenticated users. If unauthorized users have access to one or more of SQL Server's private keys, an attacker could gain access to the key(s) and use them to impersonate the database on the network or otherwise perform unauthorized actions. |
 | V-79141 | SqlScriptQueryRule | SqlScriptQuery | Session auditing is for use when a user's activities are under investigation. To be sure of capturing all activity during those periods when session auditing is in use, it needs to be in operation for the whole time SQL Server is running. |
@@ -1517,14 +1496,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## MS SQL Server 2016 Instance STIG, Version 1.7
 
-**Title:** MS SQL Server 2016 Instance Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 7 Benchmark Date: 25 Oct 2019
-**FileName:** U_MS_SQL_Server_2016_Instance_STIG_V1R7_Manual-xccdf.xml
-**Created:** 12/5/2019
-**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.
+**Title:** MS SQL Server 2016 Instance Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 7 Benchmark Date: 25 Oct 2019  
+**FileName:** U_MS_SQL_Server_2016_Instance_STIG_V1R7_Manual-xccdf.xml  
+**Created:** 12/5/2019  
+**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **41** of **133** rules are automated; **31%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-97521.a | RegistryRule | Registry | Transport Layer Security (TLS) encryption is a required security setting as a number of known vulnerabilities have been reported against Secure Sockets Layer (SSL) and earlier versions of TLS. Encryption of private information is essential to ensuring data confidentiality. If private information is not encrypted, it can be intercepted and easily read by an unauthorized party. SQL Server must use a minimum of FIPS 140-2-approved TLS version 1.2, and all non-FIPS-approved SSL and TLS versions must be disabled. NIST SP 800-52 Rev.2 specifies the preferred configurations for government systems. References: TLS Support 1.2 for SQL Server: https://support.microsoft.com/en-us/kb/3135244 TLS Registry Settings: https://docs.microsoft.com/en-us/windows-server/security/tls/tls-registry-settings  |
 | V-97521.b | RegistryRule | Registry | Transport Layer Security (TLS) encryption is a required security setting as a number of known vulnerabilities have been reported against Secure Sockets Layer (SSL) and earlier versions of TLS. Encryption of private information is essential to ensuring data confidentiality. If private information is not encrypted, it can be intercepted and easily read by an unauthorized party. SQL Server must use a minimum of FIPS 140-2-approved TLS version 1.2, and all non-FIPS-approved SSL and TLS versions must be disabled. NIST SP 800-52 Rev.2 specifies the preferred configurations for government systems. References: TLS Support 1.2 for SQL Server: https://support.microsoft.com/en-us/kb/3135244 TLS Registry Settings: https://docs.microsoft.com/en-us/windows-server/security/tls/tls-registry-settings  |
@@ -1566,14 +1546,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Windows 10 STIG, Version 1.18
 
-**Title:** Windows 10 Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 18 Benchmark Date: 26 Jul 2019
-**FileName:** U_MS_Windows_10_STIG_V1R18_Manual-xccdf.xml
-**Created:** 11/8/2019
-**Description:** The Windows 10 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.
+**Title:** Windows 10 Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 18 Benchmark Date: 26 Jul 2019  
+**FileName:** U_MS_Windows_10_STIG_V1R18_Manual-xccdf.xml  
+**Created:** 11/8/2019  
+**Description:** The Windows 10 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **279** of **298** rules are automated; **94%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-63405 | AccountPolicyRule | AccountPolicy | The account lockout feature, when enabled, prevents brute-force password attacks on the system. This parameter specifies the amount of time that an account will remain locked after the specified number of failed logon attempts. |
 | V-63409 | AccountPolicyRule | AccountPolicy | The account lockout feature, when enabled, prevents brute-force password attacks on the system. The higher this value is, the less effective the account lockout feature will be in protecting the local system. The number of bad logon attempts must be reasonably small to minimize the possibility of a successful password attack, while allowing for honest errors made during a normal user logon. |
@@ -1846,14 +1827,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Windows 10 STIG, Version 1.19
 
-**Title:** Windows 10 Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 19 Benchmark Date: 25 Oct 2019
-**FileName:** U_MS_Windows_10_STIG_V1R19_Manual-xccdf.xml
-**Created:** 11/18/2019
-**Description:** The Windows 10 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.
+**Title:** Windows 10 Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 19 Benchmark Date: 25 Oct 2019  
+**FileName:** U_MS_Windows_10_STIG_V1R19_Manual-xccdf.xml  
+**Created:** 11/18/2019  
+**Description:** The Windows 10 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **279** of **298** rules are automated; **94%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-63405 | AccountPolicyRule | AccountPolicy | The account lockout feature, when enabled, prevents brute-force password attacks on the system. This parameter specifies the amount of time that an account will remain locked after the specified number of failed logon attempts. |
 | V-63409 | AccountPolicyRule | AccountPolicy | The account lockout feature, when enabled, prevents brute-force password attacks on the system. The higher this value is, the less effective the account lockout feature will be in protecting the local system. The number of bad logon attempts must be reasonably small to minimize the possibility of a successful password attack, while allowing for honest errors made during a normal user logon. |
@@ -2126,14 +2108,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Windows Defender Antivirus, Version 1.5
 
-**Title:** MS Windows Defender Antivirus Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 5 Benchmark Date: 26 Apr 2019
-**FileName:** U_MS_Windows_Defender_Antivirus_STIG_V1R5_Manual-xccdf.xml
-**Created:** 12/5/2019
-**Description:** The Windows Defender Antivirus Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be send via e-mail to the following address: disa.stig_spt@mail.mil.
+**Title:** MS Windows Defender Antivirus Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 5 Benchmark Date: 26 Apr 2019  
+**FileName:** U_MS_Windows_Defender_Antivirus_STIG_V1R5_Manual-xccdf.xml  
+**Created:** 12/5/2019  
+**Description:** The Windows Defender Antivirus Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be send via e-mail to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **42** of **41** rules are automated; **102%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-75147 | RegistryRule | RegistryPolicyFile | After enabling this feature, Potentially Unwanted Application (PUA) protection blocking takes effect on endpoint clients after the next signature update or computer restart. Signature updates take place daily under typical circumstances. PUA will be blocked and automatically quarantined. |
 | V-75151 | RegistryRule | RegistryPolicyFile | This policy setting allows you to configure whether Windows Defender automatically takes action on all detected threats. The action to be taken on a particular threat is determined by the combination of the policy-defined action user-defined action and the signature-defined action. If you enable this policy setting Windows Defender does not automatically take action on the detected threats but prompts users to choose from the actions available for each threat. If you disable or do not configure this policy setting Windows Defender automatically takes action on all detected threats after a nonconfigurable delay of approximately five seconds. |
@@ -2179,14 +2162,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Windows Defender Antivirus, Version 1.6
 
-**Title:** MS Windows Defender Antivirus Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 6 Benchmark Date: 26 Jul 2019
-**FileName:** U_MS_Windows_Defender_Antivirus_STIG_V1R6_Manual-xccdf.xml
-**Created:** 12/5/2019
-**Description:** The Windows Defender Antivirus Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be send via e-mail to the following address: disa.stig_spt@mail.mil.
+**Title:** MS Windows Defender Antivirus Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 6 Benchmark Date: 26 Jul 2019  
+**FileName:** U_MS_Windows_Defender_Antivirus_STIG_V1R6_Manual-xccdf.xml  
+**Created:** 12/5/2019  
+**Description:** The Windows Defender Antivirus Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be send via e-mail to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **42** of **41** rules are automated; **102%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-75147 | RegistryRule | RegistryPolicyFile | After enabling this feature, Potentially Unwanted Application (PUA) protection blocking takes effect on endpoint clients after the next signature update or computer restart. Signature updates take place daily under typical circumstances. PUA will be blocked and automatically quarantined. |
 | V-75151 | RegistryRule | RegistryPolicyFile | This policy setting allows you to configure whether Windows Defender automatically takes action on all detected threats. The action to be taken on a particular threat is determined by the combination of the policy-defined action user-defined action and the signature-defined action. If you enable this policy setting Windows Defender does not automatically take action on the detected threats but prompts users to choose from the actions available for each threat. If you disable or do not configure this policy setting Windows Defender automatically takes action on all detected threats after a nonconfigurable delay of approximately five seconds. |
@@ -2232,14 +2216,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Microsoft Windows 2012 Server Domain Name System STIG, Version 1.11
 
-**Title:** Microsoft Windows 2012 Server Domain Name System Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 11 Benchmark Date: 25 Jan 2019
-**FileName:** U_MS_Windows_2012_Server_DNS_STIG_V1R11_Manual-xccdf.xml
-**Created:** 7/19/2019
-**Description:** The Microsoft Windows 2012 Server Domain Name System Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.
+**Title:** Microsoft Windows 2012 Server Domain Name System Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 11 Benchmark Date: 25 Jan 2019  
+**FileName:** U_MS_Windows_2012_Server_DNS_STIG_V1R11_Manual-xccdf.xml  
+**Created:** 7/19/2019  
+**Description:** The Microsoft Windows 2012 Server Domain Name System Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **27** of **93** rules are automated; **29%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-58615 | DnsServerRootHintRule | Script | All caching name servers must be authoritative for the root zone because, without this starting point, they would have no knowledge of the DNS infrastructure and thus would be unable to respond to any queries. The security risk is that an adversary could change the root hints and direct the caching name server to a bogus root server. At that point, every query response from that name server is suspect, which would give the adversary substantial control over the network communication of the name servers' clients. When authoritative servers are sent queries for zones that they are not authoritative for, and they are configured as a non-caching server (as recommended), they can either be configured to return a referral to the root servers or they can be configured to refuse to answer the query. The recommendation is to configure authoritative servers to refuse to answer queries for any zones for which they are not authoritative. This is more efficient for the server and allows it to spend more of its resources doing what its intended purpose is, answering authoritatively for its zone. |
 | V-58543 | DnsServerSettingRule | xDnsServerSetting | Without a means for identifying the individual that produced the information, the information cannot be relied upon. Identifying the validity of information may be delayed or deterred. This requirement ensures organizational personnel have a means to identify who produced or changed specific information in transfers, zone information, or DNS configuration changes. |
@@ -2265,14 +2250,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Microsoft Windows 2012 Server Domain Name System STIG, Version 1.12
 
-**Title:** Microsoft Windows 2012 Server Domain Name System Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 12 Benchmark Date: 26 Jul 2019
-**FileName:** U_MS_Windows_2012_Server_DNS_STIG_V1R12_Manual-xccdf.xml
-**Created:** 12/5/2019
-**Description:** The Microsoft Windows 2012 Server Domain Name System Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.
+**Title:** Microsoft Windows 2012 Server Domain Name System Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 12 Benchmark Date: 26 Jul 2019  
+**FileName:** U_MS_Windows_2012_Server_DNS_STIG_V1R12_Manual-xccdf.xml  
+**Created:** 12/5/2019  
+**Description:** The Microsoft Windows 2012 Server Domain Name System Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **28** of **93** rules are automated; **30%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-58615 | DnsServerRootHintRule | Script | All caching name servers must be authoritative for the root zone because, without this starting point, they would have no knowledge of the DNS infrastructure and thus would be unable to respond to any queries. The security risk is that an adversary could change the root hints and direct the caching name server to a bogus root server. At that point, every query response from that name server is suspect, which would give the adversary substantial control over the network communication of the name servers' clients. When authoritative servers are sent queries for zones that they are not authoritative for, and they are configured as a non-caching server (as recommended), they can either be configured to return a referral to the root servers or they can be configured to refuse to answer the query. The recommendation is to configure authoritative servers to refuse to answer queries for any zones for which they are not authoritative. This is more efficient for the server and allows it to spend more of its resources doing what its intended purpose is, answering authoritatively for its zone. |
 | V-58543 | DnsServerSettingRule | xDnsServerSetting | Without a means for identifying the individual that produced the information, the information cannot be relied upon. Identifying the validity of information may be delayed or deterred. This requirement ensures organizational personnel have a means to identify who produced or changed specific information in transfers, zone information, or DNS configuration changes. |
@@ -2299,14 +2285,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Windows Firewall, Version 1.6
 
-**Title:** Windows Firewall with Advanced Security Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 6 Benchmark Date: 28 Apr 2017
-**FileName:** U_Windows_Firewall_STIG_V1R6_Manual-xccdf.xml
-**Created:** 7/19/2019
-**Description:** The Windows Firewall with Advanced Security Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.
+**Title:** Windows Firewall with Advanced Security Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 6 Benchmark Date: 28 Apr 2017  
+**FileName:** U_Windows_Firewall_STIG_V1R6_Manual-xccdf.xml  
+**Created:** 7/19/2019  
+**Description:** The Windows Firewall with Advanced Security Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **39** of **39** rules are automated; **100%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-17415.a | RegistryRule | Registry | A firewall provides a line of defense against attack. To be effective, it must be enabled and properly configured. This setting enables the firewall when connected to the domain. |
 | V-17415.b | RegistryRule | Registry | A firewall provides a line of defense against attack. To be effective, it must be enabled and properly configured. This setting enables the firewall when connected to the domain. |
@@ -2349,14 +2336,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Windows Firewall, Version 1.7
 
-**Title:** Windows Firewall with Advanced Security Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 7 Benchmark Date: 27 Apr 2018
-**FileName:** U_Windows_Firewall_STIG_V1R7_Manual-xccdf.xml
-**Created:** 7/19/2019
-**Description:** The Windows Firewall with Advanced Security Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.
+**Title:** Windows Firewall with Advanced Security Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 7 Benchmark Date: 27 Apr 2018  
+**FileName:** U_Windows_Firewall_STIG_V1R7_Manual-xccdf.xml  
+**Created:** 7/19/2019  
+**Description:** The Windows Firewall with Advanced Security Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **39** of **39** rules are automated; **100%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-17415.a | RegistryRule | Registry | A firewall provides a line of defense against attack. To be effective, it must be enabled and properly configured. This setting enables the firewall when connected to the domain. |
 | V-17415.b | RegistryRule | Registry | A firewall provides a line of defense against attack. To be effective, it must be enabled and properly configured. This setting enables the firewall when connected to the domain. |
@@ -2399,14 +2387,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Windows 2012 DC STIG, Version 2.17
 
-**Title:** Windows Server 2012/2012 R2 Domain Controller Security Technical Implementation Guide
-**Version:** 2
-**Release:** Release: 17 Benchmark Date: 26 Jul 2019
-**FileName:** U_MS_Windows_2012_and_2012_R2_DC_STIG_V2R17_Manual-xccdf.xml
-**Created:** 12/17/2019
-**Description:** The Windows Server 2012/2012 R2 Domain Controller Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.
+**Title:** Windows Server 2012/2012 R2 Domain Controller Security Technical Implementation Guide  
+**Version:** 2  
+**Release:** Release: 17 Benchmark Date: 26 Jul 2019  
+**FileName:** U_MS_Windows_2012_and_2012_R2_DC_STIG_V2R17_Manual-xccdf.xml  
+**Created:** 12/17/2019  
+**Description:** The Windows Server 2012/2012 R2 Domain Controller Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **336** of **393** rules are automated; **85%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-1097 | AccountPolicyRule | AccountPolicy | The account lockout feature, when enabled, prevents brute-force password attacks on the system. The higher this value is, the less effective the account lockout feature will be in protecting the local system. The number of bad logon attempts must be reasonably small to minimize the possibility of a successful password attack, while allowing for honest errors made during a normal user logon. |
 | V-1098 | AccountPolicyRule | AccountPolicy | The account lockout feature, when enabled, prevents brute-force password attacks on the system. This parameter specifies the period of time that must pass after failed logon attempts before the counter is reset to "0". The smaller this value is, the less effective the account lockout feature will be in protecting the local system. |
@@ -2736,14 +2725,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Windows 2012 DC STIG, Version 2.18
 
-**Title:** Windows Server 2012/2012 R2 Domain Controller Security Technical Implementation Guide
-**Version:** 2
-**Release:** Release: 18 Benchmark Date: 25 Oct 2019
-**FileName:** U_MS_Windows_2012_and_2012_R2_DC_STIG_V2R18_Manual-xccdf.xml
-**Created:** 12/17/2019
-**Description:** The Windows Server 2012/2012 R2 Domain Controller Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.
+**Title:** Windows Server 2012/2012 R2 Domain Controller Security Technical Implementation Guide  
+**Version:** 2  
+**Release:** Release: 18 Benchmark Date: 25 Oct 2019  
+**FileName:** U_MS_Windows_2012_and_2012_R2_DC_STIG_V2R18_Manual-xccdf.xml  
+**Created:** 12/17/2019  
+**Description:** The Windows Server 2012/2012 R2 Domain Controller Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **336** of **393** rules are automated; **85%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-1097 | AccountPolicyRule | AccountPolicy | The account lockout feature, when enabled, prevents brute-force password attacks on the system. The higher this value is, the less effective the account lockout feature will be in protecting the local system. The number of bad logon attempts must be reasonably small to minimize the possibility of a successful password attack, while allowing for honest errors made during a normal user logon. |
 | V-1098 | AccountPolicyRule | AccountPolicy | The account lockout feature, when enabled, prevents brute-force password attacks on the system. This parameter specifies the period of time that must pass after failed logon attempts before the counter is reset to "0". The smaller this value is, the less effective the account lockout feature will be in protecting the local system. |
@@ -3073,14 +3063,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Windows 2012 MS STIG, Version 2.16
 
-**Title:** Windows Server 2012/2012 R2 Member Server Security Technical Implementation Guide
-**Version:** 2
-**Release:** Release: 16 Benchmark Date: 26 Jul 2019
-**FileName:** U_MS_Windows_2012_and_2012_R2_MS_STIG_V2R16_Manual-xccdf.xml
-**Created:** 9/6/2019
-**Description:** The Windows Server 2012/2012 R2 Member Server Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.
+**Title:** Windows Server 2012/2012 R2 Member Server Security Technical Implementation Guide  
+**Version:** 2  
+**Release:** Release: 16 Benchmark Date: 26 Jul 2019  
+**FileName:** U_MS_Windows_2012_and_2012_R2_MS_STIG_V2R16_Manual-xccdf.xml  
+**Created:** 9/6/2019  
+**Description:** The Windows Server 2012/2012 R2 Member Server Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **313** of **348** rules are automated; **90%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-1097 | AccountPolicyRule | AccountPolicy | The account lockout feature, when enabled, prevents brute-force password attacks on the system. The higher this value is, the less effective the account lockout feature will be in protecting the local system. The number of bad logon attempts must be reasonably small to minimize the possibility of a successful password attack, while allowing for honest errors made during a normal user logon. |
 | V-1098 | AccountPolicyRule | AccountPolicy | The account lockout feature, when enabled, prevents brute-force password attacks on the system. This parameter specifies the period of time that must pass after failed logon attempts before the counter is reset to "0". The smaller this value is, the less effective the account lockout feature will be in protecting the local system. |
@@ -3387,14 +3378,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Windows 2012 MS STIG, Version 2.17
 
-**Title:** Windows Server 2012/2012 R2 Member Server Security Technical Implementation Guide
-**Version:** 2
-**Release:** Release: 17 Benchmark Date: 25 Oct 2019
-**FileName:** U_MS_Windows_2012_and_2012_R2_MS_STIG_V2R17_Manual-xccdf.xml
-**Created:** 12/5/2019
-**Description:** The Windows Server 2012/2012 R2 Member Server Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.
+**Title:** Windows Server 2012/2012 R2 Member Server Security Technical Implementation Guide  
+**Version:** 2  
+**Release:** Release: 17 Benchmark Date: 25 Oct 2019  
+**FileName:** U_MS_Windows_2012_and_2012_R2_MS_STIG_V2R17_Manual-xccdf.xml  
+**Created:** 12/5/2019  
+**Description:** The Windows Server 2012/2012 R2 Member Server Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **313** of **348** rules are automated; **90%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-1097 | AccountPolicyRule | AccountPolicy | The account lockout feature, when enabled, prevents brute-force password attacks on the system. The higher this value is, the less effective the account lockout feature will be in protecting the local system. The number of bad logon attempts must be reasonably small to minimize the possibility of a successful password attack, while allowing for honest errors made during a normal user logon. |
 | V-1098 | AccountPolicyRule | AccountPolicy | The account lockout feature, when enabled, prevents brute-force password attacks on the system. This parameter specifies the period of time that must pass after failed logon attempts before the counter is reset to "0". The smaller this value is, the less effective the account lockout feature will be in protecting the local system. |
@@ -3701,14 +3693,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Windows Server 2016 DC STIG, Version 1.8
 
-**Title:** Windows Server 2016 Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 8 Benchmark Date: 26 Apr 2019
-**FileName:** U_MS_Windows_Server_2016_DC_STIG_V1R8_Manual-xccdf.xml
-**Created:** 12/17/2019
-**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.
+**Title:** Windows Server 2016 Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 8 Benchmark Date: 26 Apr 2019  
+**FileName:** U_MS_Windows_Server_2016_DC_STIG_V1R8_Manual-xccdf.xml  
+**Created:** 12/17/2019  
+**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **218** of **265** rules are automated; **82%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-73359 | AccountPolicyRule | AccountPolicy | This policy setting determines whether the Kerberos Key Distribution Center (KDC) validates every request for a session ticket against the user rights policy of the target computer. The policy is enabled by default, which is the most secure setting for validating that access to target resources is not circumvented. Satisfies: SRG-OS-000112-GPOS-00057, SRG-OS-000113-GPOS-00058 |
 | V-73361 | AccountPolicyRule | AccountPolicy | This setting determines the maximum amount of time (in minutes) that a granted session ticket can be used to access a particular service. Session tickets are used only to authenticate new connections with servers. Ongoing operations are not interrupted if the session ticket used to authenticate the connection expires during the connection. Satisfies: SRG-OS-000112-GPOS-00057, SRG-OS-000113-GPOS-00058 |
@@ -3921,14 +3914,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Windows Server 2016 DC STIG, Version 1.9
 
-**Title:** Windows Server 2016 Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 9 Benchmark Date: 26 Jul 2019
-**FileName:** U_MS_Windows_Server_2016_DC_STIG_V1R9_Manual-xccdf.xml
-**Created:** 12/17/2019
-**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.
+**Title:** Windows Server 2016 Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 9 Benchmark Date: 26 Jul 2019  
+**FileName:** U_MS_Windows_Server_2016_DC_STIG_V1R9_Manual-xccdf.xml  
+**Created:** 12/17/2019  
+**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **217** of **264** rules are automated; **82%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-73359 | AccountPolicyRule | AccountPolicy | This policy setting determines whether the Kerberos Key Distribution Center (KDC) validates every request for a session ticket against the user rights policy of the target computer. The policy is enabled by default, which is the most secure setting for validating that access to target resources is not circumvented. Satisfies: SRG-OS-000112-GPOS-00057, SRG-OS-000113-GPOS-00058 |
 | V-73361 | AccountPolicyRule | AccountPolicy | This setting determines the maximum amount of time (in minutes) that a granted session ticket can be used to access a particular service. Session tickets are used only to authenticate new connections with servers. Ongoing operations are not interrupted if the session ticket used to authenticate the connection expires during the connection. Satisfies: SRG-OS-000112-GPOS-00057, SRG-OS-000113-GPOS-00058 |
@@ -4140,14 +4134,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Windows Server 2016 MS STIG, Version 1.8
 
-**Title:** Windows Server 2016 Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 8 Benchmark Date: 26 Apr 2019
-**FileName:** U_MS_Windows_Server_2016_MS_STIG_V1R8_Manual-xccdf.xml
-**Created:** 9/6/2019
-**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.
+**Title:** Windows Server 2016 Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 8 Benchmark Date: 26 Apr 2019  
+**FileName:** U_MS_Windows_Server_2016_MS_STIG_V1R8_Manual-xccdf.xml  
+**Created:** 9/6/2019  
+**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **209** of **237** rules are automated; **88%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-73309 | AccountPolicyRule | AccountPolicy | The account lockout feature, when enabled, prevents brute-force password attacks on the system. This parameter specifies the period of time that an account will remain locked after the specified number of failed logon attempts. |
 | V-73311 | AccountPolicyRule | AccountPolicy | The account lockout feature, when enabled, prevents brute-force password attacks on the system. The higher this value is, the less effective the account lockout feature will be in protecting the local system. The number of bad logon attempts must be reasonably small to minimize the possibility of a successful password attack while allowing for honest errors made during normal user logon. |
@@ -4351,14 +4346,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Windows Server 2016 MS STIG, Version 1.9
 
-**Title:** Windows Server 2016 Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 9 Benchmark Date: 26 Jul 2019
-**FileName:** U_MS_Windows_Server_2016_MS_STIG_V1R9_Manual-xccdf.xml
-**Created:** 9/19/2019
-**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.
+**Title:** Windows Server 2016 Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 9 Benchmark Date: 26 Jul 2019  
+**FileName:** U_MS_Windows_Server_2016_MS_STIG_V1R9_Manual-xccdf.xml  
+**Created:** 9/19/2019  
+**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **207** of **235** rules are automated; **88%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-73309 | AccountPolicyRule | AccountPolicy | The account lockout feature, when enabled, prevents brute-force password attacks on the system. This parameter specifies the period of time that an account will remain locked after the specified number of failed logon attempts. |
 | V-73311 | AccountPolicyRule | AccountPolicy | The account lockout feature, when enabled, prevents brute-force password attacks on the system. The higher this value is, the less effective the account lockout feature will be in protecting the local system. The number of bad logon attempts must be reasonably small to minimize the possibility of a successful password attack while allowing for honest errors made during normal user logon. |
@@ -4560,14 +4556,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Windows Server 2019 DC STIG, Version 1.2
 
-**Title:** Windows Server 2019 Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 2 Benchmark Date: 26 Jul 2019
-**FileName:** U_MS_Windows_Server_2019_DC_STIG_V1R2_Manual-xccdf.xml
-**Created:** 12/17/2019
-**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.
+**Title:** Windows Server 2019 Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 2 Benchmark Date: 26 Jul 2019  
+**FileName:** U_MS_Windows_Server_2019_DC_STIG_V1R2_Manual-xccdf.xml  
+**Created:** 12/17/2019  
+**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **253** of **296** rules are automated; **85%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-93443 | AccountPolicyRule | AccountPolicy | This policy setting determines whether the Kerberos Key Distribution Center (KDC) validates every request for a session ticket against the user rights policy of the target computer. The policy is enabled by default, which is the most secure setting for validating that access to target resources is not circumvented. Satisfies: SRG-OS-000112-GPOS-00057, SRG-OS-000113-GPOS-00058 |
 | V-93445 | AccountPolicyRule | AccountPolicy | This setting determines the maximum amount of time (in minutes) that a granted session ticket can be used to access a particular service. Session tickets are used only to authenticate new connections with servers. Ongoing operations are not interrupted if the session ticket used to authenticate the connection expires during the connection. Satisfies: SRG-OS-000112-GPOS-00057, SRG-OS-000113-GPOS-00058 |
@@ -4813,14 +4810,15 @@ Technology Coverage for **PowerSTIG** is listed in the following tables:
 
 ## Windows Server 2019 MS STIG, Version 1.2
 
-**Title:** Windows Server 2019 Security Technical Implementation Guide
-**Version:** 1
-**Release:** Release: 2 Benchmark Date: 26 Jul 2019
-**FileName:** U_MS_Windows_Server_2019_MS_STIG_V1R2_Manual-xccdf.xml
-**Created:** 12/17/2019
-**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.
+**Title:** Windows Server 2019 Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 2 Benchmark Date: 26 Jul 2019  
+**FileName:** U_MS_Windows_Server_2019_MS_STIG_V1R2_Manual-xccdf.xml  
+**Created:** 12/17/2019  
+**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
+**StigRuleCoverage:** **244** of **267** rules are automated; **91%**  
 
-| RuleId | RuleType | DSC Resource | Description |
+| StigRuleId | RuleType | DscResource | Description |
 | :---- | :---- | :---- | :--- |
 | V-93141 | AccountPolicyRule | AccountPolicy | The account lockout feature, when enabled, prevents brute-force password attacks on the system. The higher this value is, the less effective the account lockout feature will be in protecting the local system. The number of bad logon attempts must be reasonably small to minimize the possibility of a successful password attack while allowing for honest errors made during normal user logon. |
 | V-93143 | AccountPolicyRule | AccountPolicy | The account lockout feature, when enabled, prevents brute-force password attacks on the system. This parameter specifies the period of time that must pass after failed logon attempts before the counter is reset to "0". The smaller this value is, the less effective the account lockout feature will be in protecting the local system. Satisfies: SRG-OS-000021-GPOS-00005, SRG-OS-000329-GPOS-00128 |
