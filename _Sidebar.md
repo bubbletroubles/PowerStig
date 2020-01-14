@@ -17,6 +17,7 @@
 * [PowerSTIG with Azure Automation][powerstigwithazureautomation] 
 * [STIG Caveats][stigcaveats]
   * [SqlServer][sqlservercaveats]
+* [STIG Coverage Summary][stigcoveragesummary]
 
 [home]:                   https://github.com/Microsoft/PowerStig/wiki/home
 [convert]:                https://github.com/Microsoft/PowerStig/wiki/Convert
@@ -39,3 +40,4 @@
 [DscOnPremises]:          https://github.com/Microsoft/PowerStig/wiki/DscOnPremises
 [DscAzureAutomation]:     https://github.com/Microsoft/PowerStig/wiki/DscAzureAutomation
 [DscAzureVirtualMachine]: https://github.com/Microsoft/PowerStig/wiki/DscAzureVirtualMachine
+[stigcoveragesummary]:    https://github.com/Microsoft/PowerStig/wiki/StigCoverageSummary
