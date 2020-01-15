@@ -6,7 +6,11 @@
 **FileName:** U_Windows_Firewall_STIG_V1R7_Manual-xccdf.xml  
 **Created:** 7/19/2019  
 **Description:** The Windows Firewall with Advanced Security Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **38** of **39** rules are automated; **97%**  
+**Total Stig Rule Coverage:** **38** of **39** rules are automated; **97%**
+
+* **High (CAT I):** **6** of **6** rules are automated
+* **Medium (CAT II):** **14** of **15** rules are automated
+* **Low (CAT III):** **18** of **18** rules are automated
 
 ## Automated Rules
 

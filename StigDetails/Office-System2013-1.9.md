@@ -6,7 +6,11 @@
 **FileName:** U_MS_OfficeSystem_2013_STIG_V1R9_Manual-xccdf.xml  
 **Created:** 12/4/2019  
 **Description:** The Microsoft Office System 2013 STIG is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the NIST 800-53 and related documents. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **52** of **52** rules are automated; **100%**  
+**Total Stig Rule Coverage:** **52** of **52** rules are automated; **100%**
+
+* **High (CAT I):** **0** of **0** rules are automated
+* **Medium (CAT II):** **52** of **52** rules are automated
+* **Low (CAT III):** **0** of **0** rules are automated
 
 ## Automated Rules
 

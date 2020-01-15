@@ -6,7 +6,11 @@
 **FileName:** U_Mozilla_FireFox_STIG_V4R27_Manual-xccdf.xml  
 **Created:** 11/19/2019  
 **Description:** The Mozilla Firefox Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil  
-**StigRuleCoverage:** **19** of **24** rules are automated; **79%**  
+**Total Stig Rule Coverage:** **19** of **24** rules are automated; **79%**
+
+* **High (CAT I):** **0** of **1** rules are automated
+* **Medium (CAT II):** **18** of **22** rules are automated
+* **Low (CAT III):** **1** of **1** rules are automated
 
 ## Automated Rules
 

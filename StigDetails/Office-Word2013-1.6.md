@@ -6,7 +6,11 @@
 **FileName:** U_MS_Word_2013_STIG_V1R6_Manual-xccdf.xml  
 **Created:** 9/6/2019  
 **Description:** The Microsoft Word 2013 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **36** of **36** rules are automated; **100%**  
+**Total Stig Rule Coverage:** **36** of **36** rules are automated; **100%**
+
+* **High (CAT I):** **0** of **0** rules are automated
+* **Medium (CAT II):** **36** of **36** rules are automated
+* **Low (CAT III):** **0** of **0** rules are automated
 
 ## Automated Rules
 

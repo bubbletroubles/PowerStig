@@ -6,7 +6,11 @@
 **FileName:** U_MicrosoftOutlook2013_STIG_V1R12_Manual-xccdf.xml  
 **Created:** 9/6/2019  
 **Description:** The Microsoft Outlook 2013 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **82** of **82** rules are automated; **100%**  
+**Total Stig Rule Coverage:** **82** of **82** rules are automated; **100%**
+
+* **High (CAT I):** **0** of **0** rules are automated
+* **Medium (CAT II):** **82** of **82** rules are automated
+* **Low (CAT III):** **0** of **0** rules are automated
 
 ## Automated Rules
 

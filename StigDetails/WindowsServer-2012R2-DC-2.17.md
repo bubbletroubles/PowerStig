@@ -6,7 +6,11 @@
 **FileName:** U_MS_Windows_2012_and_2012_R2_DC_STIG_V2R17_Manual-xccdf.xml  
 **Created:** 12/17/2019  
 **Description:** The Windows Server 2012/2012 R2 Domain Controller Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **325** of **393** rules are automated; **83%**  
+**Total Stig Rule Coverage:** **325** of **393** rules are automated; **83%**
+
+* **High (CAT I):** **29** of **41** rules are automated
+* **Medium (CAT II):** **242** of **288** rules are automated
+* **Low (CAT III):** **54** of **64** rules are automated
 
 ## Automated Rules
 

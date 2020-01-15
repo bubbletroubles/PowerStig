@@ -6,7 +6,11 @@
 **FileName:** U_SQL_Server_2012_Instance_STIG_V1R17_Manual-xccdf.xml  
 **Created:** 11/21/2019  
 **Description:** The Microsoft SQL Server 2012 Database Instance Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **51** of **153** rules are automated; **33%**  
+**Total Stig Rule Coverage:** **51** of **153** rules are automated; **33%**
+
+* **High (CAT I):** **0** of **6** rules are automated
+* **Medium (CAT II):** **50** of **138** rules are automated
+* **Low (CAT III):** **1** of **9** rules are automated
 
 ## Automated Rules
 

@@ -6,7 +6,11 @@
 **FileName:** U_MS_DotNet_Framework_4-0_STIG_V1R8_Manual-xccdf.xml  
 **Created:** 8/14/2019  
 **Description:** Applicable to systems and applications utilizing the Microsoft .Net version 4.0 framework.  
-**StigRuleCoverage:** **2** of **16** rules are automated; **12%**  
+**Total Stig Rule Coverage:** **2** of **16** rules are automated; **12%**
+
+* **High (CAT I):** **0** of **0** rules are automated
+* **Medium (CAT II):** **2** of **14** rules are automated
+* **Low (CAT III):** **0** of **2** rules are automated
 
 ## Automated Rules
 

@@ -6,7 +6,11 @@
 **FileName:** U_MS_Windows_Server_2016_MS_STIG_V1R9_Manual-xccdf.xml  
 **Created:** 9/19/2019  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **197** of **235** rules are automated; **84%**  
+**Total Stig Rule Coverage:** **197** of **235** rules are automated; **84%**
+
+* **High (CAT I):** **20** of **24** rules are automated
+* **Medium (CAT II):** **169** of **199** rules are automated
+* **Low (CAT III):** **8** of **12** rules are automated
 
 ## Automated Rules
 

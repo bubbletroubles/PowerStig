@@ -6,7 +6,11 @@
 **FileName:** U_Oracle_JRE_8_Windows_STIG_V1R5_Manual-xccdf.xml  
 **Created:** 11/21/2019  
 **Description:** The Java Runtime Environment (JRE) is a bundle developed and offered by Oracle Corporation which includes the Java Virtual Machine (JVM), class libraries, and other components necessary to run Java applications and applets.  Certain default settings within the JRE pose a security risk so it is necessary to deploy system wide properties to ensure a higher degree of security when utilizing the JRE.  
-**StigRuleCoverage:** **20** of **26** rules are automated; **77%**  
+**Total Stig Rule Coverage:** **20** of **26** rules are automated; **77%**
+
+* **High (CAT I):** **0** of **1** rules are automated
+* **Medium (CAT II):** **18** of **23** rules are automated
+* **Low (CAT III):** **2** of **2** rules are automated
 
 ## Automated Rules
 

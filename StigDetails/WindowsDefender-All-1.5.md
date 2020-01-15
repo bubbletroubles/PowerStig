@@ -6,7 +6,11 @@
 **FileName:** U_MS_Windows_Defender_Antivirus_STIG_V1R5_Manual-xccdf.xml  
 **Created:** 12/5/2019  
 **Description:** The Windows Defender Antivirus Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be send via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **41** of **41** rules are automated; **100%**  
+**Total Stig Rule Coverage:** **41** of **41** rules are automated; **100%**
+
+* **High (CAT I):** **4** of **4** rules are automated
+* **Medium (CAT II):** **37** of **37** rules are automated
+* **Low (CAT III):** **0** of **0** rules are automated
 
 ## Automated Rules
 

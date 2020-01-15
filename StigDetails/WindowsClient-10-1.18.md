@@ -6,7 +6,11 @@
 **FileName:** U_MS_Windows_10_STIG_V1R18_Manual-xccdf.xml  
 **Created:** 11/8/2019  
 **Description:** The Windows 10 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**StigRuleCoverage:** **268** of **298** rules are automated; **90%**  
+**Total Stig Rule Coverage:** **268** of **298** rules are automated; **90%**
+
+* **High (CAT I):** **22** of **26** rules are automated
+* **Medium (CAT II):** **229** of **251** rules are automated
+* **Low (CAT III):** **17** of **21** rules are automated
 
 ## Automated Rules
 
