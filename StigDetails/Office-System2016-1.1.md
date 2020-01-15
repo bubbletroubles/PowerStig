@@ -10,27 +10,27 @@
 
 ## Automated Rules
 
-| StigRuleId | Severity | RuleType | DscResource | DuplicateOf | Title |
+| StigRuleId | Severity | RuleType | DscResource | DuplicateOf |
 | :---- | :---- | :---- | :---- | :---- | :---- |
-| V-70855 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000516 |
-| V-70859 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000207 |
-| V-70861 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000429 |
-| V-70863 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000231 |
-| V-70865 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000231 |
-| V-70867 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000231 |
-| V-70869.a | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000488 |
-| V-70869.b | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000488 |
-| V-70871.a | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000207 |
-| V-70871.b | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000207 |
-| V-70873 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
-| V-70875 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000516 |
-| V-70877 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000516 |
-| V-70881 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000340 |
-| V-70883 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000516 |
-| V-70885 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000429 |
-| V-70889 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000141 |
-| V-70891 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
-| V-70893 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000516 |
-| V-70895 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000516 |
-| V-70897 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000516 |
-| V-70899 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000516 |
+| V-70855 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-70859 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-70861 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-70863 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-70865 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-70867 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-70869.a | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-70869.b | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-70871.a | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-70871.b | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-70873 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-70875 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-70877 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-70881 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-70883 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-70885 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-70889 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-70891 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-70893 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-70895 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-70897 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-70899 | Medium | RegistryRule | RegistryPolicyFile |  |
