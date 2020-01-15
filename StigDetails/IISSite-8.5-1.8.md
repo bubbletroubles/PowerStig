@@ -8,6 +8,8 @@
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **StigRuleCoverage:** **41** of **58** rules are automated; **71%**  
 
+## Automated Rules
+
 | StigRuleId | RuleType | DscResource | DuplicateOf |
 | :---- | :---- | :---- | :---- |
 | V-76783 | IisLoggingRule | XWebsite |  |
@@ -51,3 +53,25 @@
 | V-76859.a | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
 | V-76859.b | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
 | V-76803 | WindowsFeatureRule | WindowsFeature |  |
+
+## Document / Manual Rules (Not Automated)
+
+| StigRuleId | RuleType |
+| :---- | :---- |
+| V-76799 | DocumentRule |
+| V-76801 | DocumentRule |
+| V-76807 | DocumentRule |
+| V-76831 | DocumentRule |
+| V-76843 | DocumentRule |
+| V-76845 | DocumentRule |
+| V-76847 | DocumentRule |
+| V-76787 | ManualRule |
+| V-76795 | ManualRule |
+| V-76811 | ManualRule |
+| V-76815 | ManualRule |
+| V-76849 | ManualRule |
+| V-76865 | ManualRule |
+| V-76885 | ManualRule |
+| V-76887 | ManualRule |
+| V-76889 | ManualRule |
+| V-76891 | ManualRule |

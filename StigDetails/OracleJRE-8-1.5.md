@@ -8,6 +8,8 @@
 **Description:** The Java Runtime Environment (JRE) is a bundle developed and offered by Oracle Corporation which includes the Java Virtual Machine (JVM), class libraries, and other components necessary to run Java applications and applets.  Certain default settings within the JRE pose a security risk so it is necessary to deploy system wide properties to ensure a higher degree of security when utilizing the JRE.  
 **StigRuleCoverage:** **20** of **26** rules are automated; **77%**  
 
+## Automated Rules
+
 | StigRuleId | RuleType | DscResource | DuplicateOf |
 | :---- | :---- | :---- | :---- |
 | V-66723.a | FileContentRule | KeyValuePairFile |  |
@@ -30,3 +32,14 @@
 | V-66961.b | FileContentRule | KeyValuePairFile |  |
 | V-66963.a | FileContentRule | KeyValuePairFile |  |
 | V-66963.b | FileContentRule | KeyValuePairFile |  |
+
+## Document / Manual Rules (Not Automated)
+
+| StigRuleId | RuleType |
+| :---- | :---- |
+| V-66939 | ManualRule |
+| V-66943 | ManualRule |
+| V-66957 | ManualRule |
+| V-66959 | ManualRule |
+| V-66965 | ManualRule |
+| V-66967 | ManualRule |

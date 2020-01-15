@@ -8,7 +8,28 @@
 **Description:** Applicable to systems and applications utilizing the Microsoft .Net version 4.0 framework.  
 **StigRuleCoverage:** **2** of **16** rules are automated; **12%**  
 
+## Automated Rules
+
 | StigRuleId | RuleType | DscResource | DuplicateOf |
 | :---- | :---- | :---- | :---- |
 | V-30935 | RegistryRule | Registry |  |
 | V-81495 | RegistryRule | Registry |  |
+
+## Document / Manual Rules (Not Automated)
+
+| StigRuleId | RuleType |
+| :---- | :---- |
+| V-7055 | DocumentRule |
+| V-7069 | DocumentRule |
+| V-7061 | ManualRule |
+| V-7063 | ManualRule |
+| V-7067 | ManualRule |
+| V-7070 | ManualRule |
+| V-18395 | ManualRule |
+| V-30926 | ManualRule |
+| V-30937 | ManualRule |
+| V-30968 | ManualRule |
+| V-30972 | ManualRule |
+| V-30986 | ManualRule |
+| V-31026 | ManualRule |
+| V-32025 | ManualRule |

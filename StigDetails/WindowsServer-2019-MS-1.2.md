@@ -8,6 +8,8 @@
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **StigRuleCoverage:** **232** of **267** rules are automated; **87%**  
 
+## Automated Rules
+
 | StigRuleId | RuleType | DscResource | DuplicateOf |
 | :---- | :---- | :---- | :---- |
 | V-93141 | AccountPolicyRule | AccountPolicy |  |
@@ -242,3 +244,43 @@
 | V-93397 | WindowsFeatureRule | WindowsFeature |  |
 | V-93421 | WindowsFeatureRule | WindowsFeature |  |
 | V-93423 | WindowsFeatureRule | WindowsFeature |  |
+
+## Document / Manual Rules (Not Automated)
+
+| StigRuleId | RuleType |
+| :---- | :---- |
+| V-93219 | DocumentRule |
+| V-93221 | DocumentRule |
+| V-93381 | DocumentRule |
+| V-93437 | DocumentRule |
+| V-93457 | DocumentRule |
+| V-93487 | DocumentRule |
+| V-93567 | DocumentRule |
+| V-92975 | ManualRule |
+| V-92977 | ManualRule |
+| V-92993 | ManualRule |
+| V-93043 | ManualRule |
+| V-93183 | ManualRule |
+| V-93185 | ManualRule |
+| V-93187 | ManualRule |
+| V-93203 | ManualRule |
+| V-93205 | ManualRule |
+| V-93207 | ManualRule |
+| V-93209 | ManualRule |
+| V-93213 | ManualRule |
+| V-93223 | ManualRule |
+| V-93225 | ManualRule |
+| V-93229 | ManualRule |
+| V-93231 | ManualRule |
+| V-93369 | ManualRule |
+| V-93379 | ManualRule |
+| V-93439 | ManualRule |
+| V-93461 | ManualRule |
+| V-93473 | ManualRule |
+| V-93475 | ManualRule |
+| V-93489 | ManualRule |
+| V-93491 | ManualRule |
+| V-93515 | ManualRule |
+| V-93531 | ManualRule |
+| V-93543 | ManualRule |
+| V-93227 | ManualRule |

@@ -8,6 +8,8 @@
 **Description:** The Mozilla FireFox Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil  
 **StigRuleCoverage:** **18** of **23** rules are automated; **78%**  
 
+## Automated Rules
+
 | StigRuleId | RuleType | DscResource | DuplicateOf |
 | :---- | :---- | :---- | :---- |
 | V-15768 | FileContentRule | ReplaceText |  |
@@ -28,3 +30,13 @@
 | V-79053.a | FileContentRule | ReplaceText |  |
 | V-79053.b | FileContentRule | ReplaceText |  |
 | V-79053.c | FileContentRule | ReplaceText |  |
+
+## Document / Manual Rules (Not Automated)
+
+| StigRuleId | RuleType |
+| :---- | :---- |
+| V-6318 | ManualRule |
+| V-15770 | ManualRule |
+| V-15773 | ManualRule |
+| V-17988 | ManualRule |
+| V-19743 | ManualRule |

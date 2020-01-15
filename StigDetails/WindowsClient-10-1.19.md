@@ -8,6 +8,8 @@
 **Description:** The Windows 10 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
 **StigRuleCoverage:** **268** of **298** rules are automated; **90%**  
 
+## Automated Rules
+
 | StigRuleId | RuleType | DscResource | DuplicateOf |
 | :---- | :---- | :---- | :---- |
 | V-63405 | AccountPolicyRule | AccountPolicy |  |
@@ -278,3 +280,38 @@
 | V-70637.a | WindowsFeatureRule | WindowsOptionalFeature |  |
 | V-70637.b | WindowsFeatureRule | WindowsOptionalFeature |  |
 | V-70639 | WindowsFeatureRule | WindowsOptionalFeature |  |
+
+## Document / Manual Rules (Not Automated)
+
+| StigRuleId | RuleType |
+| :---- | :---- |
+| V-63343 | DocumentRule |
+| V-63359 | DocumentRule |
+| V-63365 | DocumentRule |
+| V-63393 | DocumentRule |
+| V-63579 | DocumentRule |
+| V-72765 | DocumentRule |
+| V-63319 | ManualRule |
+| V-63323 | ManualRule |
+| V-63337 | ManualRule |
+| V-63345 | ManualRule |
+| V-63351 | ManualRule |
+| V-63355 | ManualRule |
+| V-63357 | ManualRule |
+| V-63361 | ManualRule |
+| V-63363 | ManualRule |
+| V-63367 | ManualRule |
+| V-63371 | ManualRule |
+| V-63399 | ManualRule |
+| V-63403 | ManualRule |
+| V-63583 | ManualRule |
+| V-63587 | ManualRule |
+| V-63589 | ManualRule |
+| V-63685 | ManualRule |
+| V-68845 | ManualRule |
+| V-72767 | ManualRule |
+| V-72769 | ManualRule |
+| V-76505 | ManualRule |
+| V-77083 | ManualRule |
+| V-77085 | ManualRule |
+| V-78129 | ManualRule |

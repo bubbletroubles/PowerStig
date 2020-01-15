@@ -8,6 +8,8 @@
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **StigRuleCoverage:** **207** of **264** rules are automated; **78%**  
 
+## Automated Rules
+
 | StigRuleId | RuleType | DscResource | DuplicateOf |
 | :---- | :---- | :---- | :---- |
 | V-73359 | AccountPolicyRule | AccountPolicy |  |
@@ -217,3 +219,65 @@
 | V-73297 | WindowsFeatureRule | WindowsFeature |  |
 | V-73299 | WindowsFeatureRule | WindowsFeature |  |
 | V-73301 | WindowsFeatureRule | WindowsFeature |  |
+
+## Document / Manual Rules (Not Automated)
+
+| StigRuleId | RuleType |
+| :---- | :---- |
+| V-73233 | DocumentRule |
+| V-73245 | DocumentRule |
+| V-73257 | DocumentRule |
+| V-73259 | DocumentRule |
+| V-73271 | DocumentRule |
+| V-73277 | DocumentRule |
+| V-73281 | DocumentRule |
+| V-73373 | DocumentRule |
+| V-73377 | DocumentRule |
+| V-73383 | DocumentRule |
+| V-73605 | DocumentRule |
+| V-73615 | DocumentRule |
+| V-73217 | ManualRule |
+| V-73219 | ManualRule |
+| V-73223 | ManualRule |
+| V-73225 | ManualRule |
+| V-73227 | ManualRule |
+| V-73229 | ManualRule |
+| V-73231 | ManualRule |
+| V-73235 | ManualRule |
+| V-73237 | ManualRule |
+| V-73241 | ManualRule |
+| V-73261 | ManualRule |
+| V-73263 | ManualRule |
+| V-73265 | ManualRule |
+| V-73267 | ManualRule |
+| V-73273 | ManualRule |
+| V-73275 | ManualRule |
+| V-73279 | ManualRule |
+| V-73283 | ManualRule |
+| V-73285 | ManualRule |
+| V-73303 | ManualRule |
+| V-73305 | ManualRule |
+| V-73307 | ManualRule |
+| V-73369 | ManualRule |
+| V-73375 | ManualRule |
+| V-73379 | ManualRule |
+| V-73381 | ManualRule |
+| V-73385 | ManualRule |
+| V-73387 | ManualRule |
+| V-73389 | ManualRule |
+| V-73391 | ManualRule |
+| V-73393 | ManualRule |
+| V-73395 | ManualRule |
+| V-73397 | ManualRule |
+| V-73399 | ManualRule |
+| V-73401 | ManualRule |
+| V-73403 | ManualRule |
+| V-73607 | ManualRule |
+| V-73609 | ManualRule |
+| V-73611 | ManualRule |
+| V-73613 | ManualRule |
+| V-73617 | ManualRule |
+| V-90355 | ManualRule |
+| V-90357 | ManualRule |
+| V-91779 | ManualRule |
+| V-78127 | ManualRule |

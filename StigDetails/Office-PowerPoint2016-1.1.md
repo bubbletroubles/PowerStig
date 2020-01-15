@@ -8,6 +8,8 @@
 **Description:** The Microsoft PowerPoint 2016 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
 **StigRuleCoverage:** **38** of **38** rules are automated; **100%**  
 
+## Automated Rules
+
 | StigRuleId | RuleType | DscResource | DuplicateOf |
 | :---- | :---- | :---- | :---- |
 | V-70641 | RegistryRule | RegistryPolicyFile |  |

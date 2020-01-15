@@ -8,6 +8,8 @@
 **Description:** The Microsoft Office System 2016 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the NIST 800-53 and related documents. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
 **StigRuleCoverage:** **22** of **22** rules are automated; **100%**  
 
+## Automated Rules
+
 | StigRuleId | RuleType | DscResource | DuplicateOf |
 | :---- | :---- | :---- | :---- |
 | V-70855 | RegistryRule | RegistryPolicyFile |  |

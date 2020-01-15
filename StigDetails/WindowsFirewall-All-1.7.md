@@ -8,6 +8,8 @@
 **Description:** The Windows Firewall with Advanced Security Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
 **StigRuleCoverage:** **38** of **39** rules are automated; **97%**  
 
+## Automated Rules
+
 | StigRuleId | RuleType | DscResource | DuplicateOf |
 | :---- | :---- | :---- | :---- |
 | V-17415.a | RegistryRule | Registry |  |
@@ -48,3 +50,9 @@
 | V-17446.b | RegistryRule | Registry |  |
 | V-17447.a | RegistryRule | Registry |  |
 | V-17447.b | RegistryRule | Registry |  |
+
+## Document / Manual Rules (Not Automated)
+
+| StigRuleId | RuleType |
+| :---- | :---- |
+| V-36440 | ManualRule |

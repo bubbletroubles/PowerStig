@@ -8,6 +8,8 @@
 **Description:** The Windows Server 2012/2012 R2 Member Server Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
 **StigRuleCoverage:** **302** of **348** rules are automated; **87%**  
 
+## Automated Rules
+
 | StigRuleId | RuleType | DscResource | DuplicateOf |
 | :---- | :---- | :---- | :---- |
 | V-1097 | AccountPolicyRule | AccountPolicy |  |
@@ -312,3 +314,54 @@
 | V-26506 | UserRightRule | UserRightsAssignment |  |
 | V-73805 | WindowsFeatureRule | WindowsFeature |  |
 | V-80477 | WindowsFeatureRule | WindowsFeature |  |
+
+## Document / Manual Rules (Not Automated)
+
+| StigRuleId | RuleType |
+| :---- | :---- |
+| V-1072 | DocumentRule |
+| V-1112 | DocumentRule |
+| V-1120 | DocumentRule |
+| V-1121 | DocumentRule |
+| V-1168 | DocumentRule |
+| V-3289 | DocumentRule |
+| V-3487 | DocumentRule |
+| V-15823 | DocumentRule |
+| V-32272 | DocumentRule |
+| V-36658 | DocumentRule |
+| V-36734 | DocumentRule |
+| V-40173 | DocumentRule |
+| V-73523.a | DocumentRule |
+| V-73523.b | DocumentRule |
+| V-1070 | ManualRule |
+| V-1074 | ManualRule |
+| V-1076 | ManualRule |
+| V-1119 | ManualRule |
+| V-1127 | ManualRule |
+| V-1128 | ManualRule |
+| V-1135 | ManualRule |
+| V-2907 | ManualRule |
+| V-3245 | ManualRule |
+| V-3472 | ManualRule |
+| V-14225 | ManualRule |
+| V-32274 | ManualRule |
+| V-36451 | ManualRule |
+| V-36659 | ManualRule |
+| V-36661 | ManualRule |
+| V-36662 | ManualRule |
+| V-36666 | ManualRule |
+| V-36670 | ManualRule |
+| V-36671 | ManualRule |
+| V-36672 | ManualRule |
+| V-36733 | ManualRule |
+| V-36735 | ManualRule |
+| V-40172 | ManualRule |
+| V-40198 | ManualRule |
+| V-40237 | ManualRule |
+| V-57637 | ManualRule |
+| V-57641 | ManualRule |
+| V-57645 | ManualRule |
+| V-57653 | ManualRule |
+| V-57655 | ManualRule |
+| V-57719 | ManualRule |
+| V-75915 | ManualRule |
