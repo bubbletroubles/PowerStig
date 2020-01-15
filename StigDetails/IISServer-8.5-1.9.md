@@ -10,68 +10,68 @@
 
 ## Automated Rules
 
-| StigRuleId | RuleType | DscResource | DuplicateOf |
-| :---- | :---- | :---- | :---- |
-| V-76681 | IisLoggingRule | xIISLogging |  |
-| V-76683 | IisLoggingRule | xIISLogging |  |
-| V-76687 | IisLoggingRule | xIISLogging |  |
-| V-76689 | IisLoggingRule | xIISLogging |  |
-| V-76711.a | MimeTypeRule | xIisMimeTypeMapping |  |
-| V-76711.b | MimeTypeRule | xIisMimeTypeMapping |  |
-| V-76711.c | MimeTypeRule | xIisMimeTypeMapping |  |
-| V-76711.d | MimeTypeRule | xIisMimeTypeMapping |  |
-| V-76711.e | MimeTypeRule | xIisMimeTypeMapping |  |
-| V-76745 | PermissionRule | NTFSAccessEntry |  |
-| V-76759.a | RegistryRule | Registry |  |
-| V-76759.b | RegistryRule | Registry |  |
-| V-76759.c | RegistryRule | Registry |  |
-| V-76759.d | RegistryRule | Registry |  |
-| V-76759.e | RegistryRule | Registry |  |
-| V-76759.f | RegistryRule | Registry |  |
-| V-76759.g | RegistryRule | Registry |  |
-| V-76759.h | RegistryRule | Registry |  |
-| V-76725 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
-| V-76727.a | WebConfigurationPropertyRule | None | V-76725 |
-| V-76727.b | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
-| V-76731.a | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
-| V-76731.b | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
-| V-76733 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
-| V-76737 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
-| V-76757 | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
-| V-76769.a | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
-| V-76769.b | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
-| V-76713 | WindowsFeatureRule | WindowsFeature |  |
+| StigRuleId | Severity | RuleType | DscResource | DuplicateOf | Title |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| V-76681 | Medium | IisLoggingRule | xIISLogging |  | SRG-APP-000092-WSR-000055 |
+| V-76683 | Medium | IisLoggingRule | xIISLogging |  | SRG-APP-000092-WSR-000055 |
+| V-76687 | Medium | IisLoggingRule | xIISLogging |  | SRG-APP-000099-WSR-000061 |
+| V-76689 | Medium | IisLoggingRule | xIISLogging |  | SRG-APP-000100-WSR-000064 |
+| V-76711.a | Medium | MimeTypeRule | xIisMimeTypeMapping |  | SRG-APP-000141-WSR-000081 |
+| V-76711.b | Medium | MimeTypeRule | xIisMimeTypeMapping |  | SRG-APP-000141-WSR-000081 |
+| V-76711.c | Medium | MimeTypeRule | xIisMimeTypeMapping |  | SRG-APP-000141-WSR-000081 |
+| V-76711.d | Medium | MimeTypeRule | xIisMimeTypeMapping |  | SRG-APP-000141-WSR-000081 |
+| V-76711.e | Medium | MimeTypeRule | xIisMimeTypeMapping |  | SRG-APP-000141-WSR-000081 |
+| V-76745 | Medium | PermissionRule | NTFSAccessEntry |  | SRG-APP-000340-WSR-000029 |
+| V-76759.a | High | RegistryRule | Registry |  | SRG-APP-000439-WSR-000156 |
+| V-76759.b | High | RegistryRule | Registry |  | SRG-APP-000439-WSR-000156 |
+| V-76759.c | High | RegistryRule | Registry |  | SRG-APP-000439-WSR-000156 |
+| V-76759.d | High | RegistryRule | Registry |  | SRG-APP-000439-WSR-000156 |
+| V-76759.e | High | RegistryRule | Registry |  | SRG-APP-000439-WSR-000156 |
+| V-76759.f | High | RegistryRule | Registry |  | SRG-APP-000439-WSR-000156 |
+| V-76759.g | High | RegistryRule | Registry |  | SRG-APP-000439-WSR-000156 |
+| V-76759.h | High | RegistryRule | Registry |  | SRG-APP-000439-WSR-000156 |
+| V-76725 | Medium | WebConfigurationPropertyRule | xWebConfigKeyValue |  | SRG-APP-000223-WSR-000011 |
+| V-76727.a | Medium | WebConfigurationPropertyRule | None | V-76725 | SRG-APP-000223-WSR-000145 |
+| V-76727.b | Medium | WebConfigurationPropertyRule | xWebConfigKeyValue |  | SRG-APP-000223-WSR-000145 |
+| V-76731.a | Medium | WebConfigurationPropertyRule | xWebConfigKeyValue |  | SRG-APP-000231-WSR-000144 |
+| V-76731.b | Medium | WebConfigurationPropertyRule | xWebConfigKeyValue |  | SRG-APP-000231-WSR-000144 |
+| V-76733 | Medium | WebConfigurationPropertyRule | xWebConfigKeyValue |  | SRG-APP-000251-WSR-000157 |
+| V-76737 | Medium | WebConfigurationPropertyRule | xWebConfigKeyValue |  | SRG-APP-000266-WSR-000159 |
+| V-76757 | Medium | WebConfigurationPropertyRule | xWebConfigKeyValue |  | SRG-APP-000439-WSR-000152 |
+| V-76769.a | Medium | WebConfigurationPropertyRule | xWebConfigKeyValue |  | SRG-APP-000516-WSR-000174 |
+| V-76769.b | Medium | WebConfigurationPropertyRule | xWebConfigKeyValue |  | SRG-APP-000516-WSR-000174 |
+| V-76713 | Medium | WindowsFeatureRule | WindowsFeature |  | SRG-APP-000141-WSR-000085 |
 
 ## Document / Manual Rules (Not Automated)
 
-| StigRuleId | RuleType |
-| :---- | :---- |
-| V-76679 | DocumentRule |
-| V-76699 | DocumentRule |
-| V-76701 | DocumentRule |
-| V-76719 | DocumentRule |
-| V-76729 | DocumentRule |
-| V-76735 | DocumentRule |
-| V-76739 | DocumentRule |
-| V-76743 | DocumentRule |
-| V-76747 | DocumentRule |
-| V-76749 | DocumentRule |
-| V-76751 | DocumentRule |
-| V-76755 | DocumentRule |
-| V-76761 | DocumentRule |
-| V-76767 | DocumentRule |
-| V-76685 | ManualRule |
-| V-76695 | ManualRule |
-| V-76697 | ManualRule |
-| V-76703 | ManualRule |
-| V-76705 | ManualRule |
-| V-76707 | ManualRule |
-| V-76709 | ManualRule |
-| V-76715 | ManualRule |
-| V-76717 | ManualRule |
-| V-76721 | ManualRule |
-| V-76741 | ManualRule |
-| V-76753 | ManualRule |
-| V-76765 | ManualRule |
-| V-76771 | ManualRule |
-| V-95633 | ManualRule |
+| StigRuleId | Severity | RuleType | Title |
+| :---- | :---- | :---- | :---- |
+| V-76679 | Medium | DocumentRule | SRG-APP-000015-WSR-000014 |
+| V-76699 | Medium | DocumentRule | SRG-APP-000141-WSR-000015 |
+| V-76701 | Medium | DocumentRule | SRG-APP-000141-WSR-000075 |
+| V-76719 | High | DocumentRule | SRG-APP-000211-WSR-000030 |
+| V-76729 | Medium | DocumentRule | SRG-APP-000225-WSR-000074 |
+| V-76735 | Medium | DocumentRule | SRG-APP-000266-WSR-000142 |
+| V-76739 | High | DocumentRule | SRG-APP-000315-WSR-000003 |
+| V-76743 | Medium | DocumentRule | SRG-APP-000316-WSR-000170 |
+| V-76747 | Medium | DocumentRule | SRG-APP-000357-WSR-000150 |
+| V-76749 | Medium | DocumentRule | SRG-APP-000380-WSR-000072 |
+| V-76751 | Medium | DocumentRule | SRG-APP-000383-WSR-000175 |
+| V-76755 | Medium | DocumentRule | SRG-APP-000435-WSR-000148 |
+| V-76761 | Medium | DocumentRule | SRG-APP-000439-WSR-000156 |
+| V-76767 | Medium | DocumentRule | SRG-APP-000516-WSR-000174 |
+| V-76685 | Medium | ManualRule | SRG-APP-000098-WSR-000060 |
+| V-76695 | Medium | ManualRule | SRG-APP-000120-WSR-000070 |
+| V-76697 | Medium | ManualRule | SRG-APP-000125-WSR-000071 |
+| V-76703 | Medium | ManualRule | SRG-APP-000141-WSR-000076 |
+| V-76705 | High | ManualRule | SRG-APP-000141-WSR-000077 |
+| V-76707 | Medium | ManualRule | SRG-APP-000141-WSR-000078 |
+| V-76709 | Medium | ManualRule | SRG-APP-000141-WSR-000080 |
+| V-76715 | Medium | ManualRule | SRG-APP-000175-WSR-000095 |
+| V-76717 | Medium | ManualRule | SRG-APP-000206-WSR-000128 |
+| V-76721 | Medium | ManualRule | SRG-APP-000211-WSR-000129 |
+| V-76741 | Medium | ManualRule | SRG-APP-000315-WSR-000004 |
+| V-76753 | Medium | ManualRule | SRG-APP-000383-WSR-000175 |
+| V-76765 | High | ManualRule | SRG-APP-000516-WSR-000079 |
+| V-76771 | Medium | ManualRule | SRG-APP-000516-WSR-000174 |
+| V-95633 | Medium | ManualRule | SRG-APP-000001-WSR-000001 |

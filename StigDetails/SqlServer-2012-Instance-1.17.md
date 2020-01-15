@@ -10,163 +10,163 @@
 
 ## Automated Rules
 
-| StigRuleId | RuleType | DscResource | DuplicateOf |
-| :---- | :---- | :---- | :---- |
-| V-40950 | PermissionRule | FileSystemAuditRuleEntry |  |
-| V-69169 | PermissionRule | FileSystemAuditRuleEntry |  |
-| V-40936 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-40942 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-40943 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41021 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41022 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41024 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41027 | SqlScriptQueryRule | None | V-41021 |
-| V-41028 | SqlScriptQueryRule | None | V-41021 |
-| V-41029 | SqlScriptQueryRule | None | V-41021 |
-| V-41030 | SqlScriptQueryRule | None | V-41021 |
-| V-41031 | SqlScriptQueryRule | None | V-41021 |
-| V-41032 | SqlScriptQueryRule | None | V-41021 |
-| V-41033 | SqlScriptQueryRule | None | V-41021 |
-| V-41035 | SqlScriptQueryRule | None | V-41021 |
-| V-41037 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41042 | SqlScriptQueryRule | None | V-41021 |
-| V-41207 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41208 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41209 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41246 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41248 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41250 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41251 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41252 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41262 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41263 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41264 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41265 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41266 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41267 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41268 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41271 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41273 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41274 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41275 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41276 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41277 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41278 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41279 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41284 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41287 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41289 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41294 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41295 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41296 | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-41305 | SqlScriptQueryRule | None | V-41021 |
-| V-41306 | SqlScriptQueryRule | None | V-41021 |
-| V-41307 | SqlScriptQueryRule | None | V-41021 |
-| V-55805 | SqlScriptQueryRule | SqlScriptQuery |  |
+| StigRuleId | Severity | RuleType | DscResource | DuplicateOf | Title |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| V-40950 | Medium | PermissionRule | FileSystemAuditRuleEntry |  | SRG-APP-000130-DB-000088 |
+| V-69169 | Medium | PermissionRule | FileSystemAuditRuleEntry |  | SRG-APP-000133-DB-000179 |
+| V-40936 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000141-DB-000092 |
+| V-40942 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000141-DB-000090 |
+| V-40943 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000141-DB-000090 |
+| V-41021 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000115-DB-000056 |
+| V-41022 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000107-DB-000169 |
+| V-41024 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000071-DB-000047 |
+| V-41027 | Medium | SqlScriptQueryRule | None | V-41021 | SRG-APP-000101-DB-000044 |
+| V-41028 | Medium | SqlScriptQueryRule | None | V-41021 | SRG-APP-000100-DB-000201 |
+| V-41029 | Medium | SqlScriptQueryRule | None | V-41021 | SRG-APP-000099-DB-000043 |
+| V-41030 | Medium | SqlScriptQueryRule | None | V-41021 | SRG-APP-000098-DB-000042 |
+| V-41031 | Medium | SqlScriptQueryRule | None | V-41021 | SRG-APP-000097-DB-000041 |
+| V-41032 | Medium | SqlScriptQueryRule | None | V-41021 | SRG-APP-000096-DB-000040 |
+| V-41033 | Medium | SqlScriptQueryRule | None | V-41021 | SRG-APP-000095-DB-000039 |
+| V-41035 | Medium | SqlScriptQueryRule | None | V-41021 | SRG-APP-000091-DB-000066 |
+| V-41037 | Low | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000063-DB-000023 |
+| V-41042 | Medium | SqlScriptQueryRule | None | V-41021 | SRG-APP-000063-DB-000018 |
+| V-41207 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41208 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41209 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41246 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41248 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41250 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41251 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41252 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41262 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41263 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41264 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41265 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41266 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41267 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41268 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41271 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41273 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41274 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41275 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41276 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41277 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41278 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41279 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41284 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41287 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41289 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41294 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41295 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41296 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
+| V-41305 | Medium | SqlScriptQueryRule | None | V-41021 | SRG-APP-000292-DB-000138 |
+| V-41306 | Medium | SqlScriptQueryRule | None | V-41021 | SRG-APP-000027-DB-000186 |
+| V-41307 | Medium | SqlScriptQueryRule | None | V-41021 | SRG-APP-000019-DB-000197 |
+| V-55805 | Medium | SqlScriptQueryRule | SqlScriptQuery |  | SRG-APP-000035-DB-000007 |
 
 ## Document / Manual Rules (Not Automated)
 
-| StigRuleId | RuleType |
-| :---- | :---- |
-| V-40907 | DocumentRule |
-| V-40908 | DocumentRule |
-| V-40909 | DocumentRule |
-| V-40912 | DocumentRule |
-| V-40913 | DocumentRule |
-| V-40914 | DocumentRule |
-| V-40916 | DocumentRule |
-| V-40917 | DocumentRule |
-| V-40918 | DocumentRule |
-| V-40919 | DocumentRule |
-| V-40927 | DocumentRule |
-| V-40928 | DocumentRule |
-| V-40929 | DocumentRule |
-| V-40937 | DocumentRule |
-| V-40941 | DocumentRule |
-| V-40947 | DocumentRule |
-| V-40948 | DocumentRule |
-| V-40949 | DocumentRule |
-| V-41034 | DocumentRule |
-| V-41038 | DocumentRule |
-| V-41039 | DocumentRule |
-| V-41041 | DocumentRule |
-| V-41044 | DocumentRule |
-| V-41046 | DocumentRule |
-| V-41202 | DocumentRule |
-| V-41204 | DocumentRule |
-| V-41205 | DocumentRule |
-| V-41304 | DocumentRule |
-| V-41311 | DocumentRule |
-| V-53877 | DocumentRule |
-| V-70625 | DocumentRule |
-| V-72413 | DocumentRule |
-| V-72415 | DocumentRule |
-| V-40905 | ManualRule |
-| V-40906 | ManualRule |
-| V-40910 | ManualRule |
-| V-40915 | ManualRule |
-| V-40922 | ManualRule |
-| V-40923 | ManualRule |
-| V-40924 | ManualRule |
-| V-40925 | ManualRule |
-| V-40926 | ManualRule |
-| V-40930 | ManualRule |
-| V-40932 | ManualRule |
-| V-40933 | ManualRule |
-| V-40934 | ManualRule |
-| V-40935 | ManualRule |
-| V-40938 | ManualRule |
-| V-40939 | ManualRule |
-| V-40940 | ManualRule |
-| V-40944 | ManualRule |
-| V-40945 | ManualRule |
-| V-40946 | ManualRule |
-| V-40951 | ManualRule |
-| V-40952 | ManualRule |
-| V-40953 | ManualRule |
-| V-41016 | ManualRule |
-| V-41017 | ManualRule |
-| V-41023 | ManualRule |
-| V-41025 | ManualRule |
-| V-41026 | ManualRule |
-| V-41036 | ManualRule |
-| V-41040 | ManualRule |
-| V-41043 | ManualRule |
-| V-41045 | ManualRule |
-| V-41047 | ManualRule |
-| V-41206 | ManualRule |
-| V-41247 | ManualRule |
-| V-41253 | ManualRule |
-| V-41254 | ManualRule |
-| V-41255 | ManualRule |
-| V-41256 | ManualRule |
-| V-41257 | ManualRule |
-| V-41258 | ManualRule |
-| V-41259 | ManualRule |
-| V-41260 | ManualRule |
-| V-41261 | ManualRule |
-| V-41269 | ManualRule |
-| V-41270 | ManualRule |
-| V-41280 | ManualRule |
-| V-41281 | ManualRule |
-| V-41283 | ManualRule |
-| V-41285 | ManualRule |
-| V-41286 | ManualRule |
-| V-41288 | ManualRule |
-| V-41290 | ManualRule |
-| V-41291 | ManualRule |
-| V-41292 | ManualRule |
-| V-41293 | ManualRule |
-| V-41297 | ManualRule |
-| V-41298 | ManualRule |
-| V-41299 | ManualRule |
-| V-41300 | ManualRule |
-| V-41302 | ManualRule |
-| V-41303 | ManualRule |
-| V-41419 | ManualRule |
-| V-43196 | ManualRule |
-| V-54859 | ManualRule |
-| V-54879 | ManualRule |
-| V-54881 | ManualRule |
-| V-59857 | ManualRule |
-| V-59915 | ManualRule |
+| StigRuleId | Severity | RuleType | Title |
+| :---- | :---- | :---- | :---- |
+| V-40907 | High | DocumentRule | SRG-APP-000264-DB-000136 |
+| V-40908 | Medium | DocumentRule | SRG-APP-000248-DB-000135 |
+| V-40909 | Low | DocumentRule | SRG-APP-000248-DB-000135 |
+| V-40912 | Low | DocumentRule | SRG-APP-000203-DB-000146 |
+| V-40913 | Medium | DocumentRule | SRG-APP-000201-DB-000145 |
+| V-40914 | Medium | DocumentRule | SRG-APP-000201-DB-000145 |
+| V-40916 | Medium | DocumentRule | SRG-APP-000201-DB-000145 |
+| V-40917 | High | DocumentRule | SRG-APP-000196-DB-000141 |
+| V-40918 | Medium | DocumentRule | SRG-APP-000198-DB-000143 |
+| V-40919 | Medium | DocumentRule | SRG-APP-000180-DB-000115 |
+| V-40927 | Medium | DocumentRule | SRG-APP-000145-DB-000098 |
+| V-40928 | Medium | DocumentRule | SRG-APP-000145-DB-000097 |
+| V-40929 | Medium | DocumentRule | SRG-APP-000145-DB-000096 |
+| V-40937 | Medium | DocumentRule | SRG-APP-000141-DB-000092 |
+| V-40941 | High | DocumentRule | SRG-APP-000141-DB-000091 |
+| V-40947 | Medium | DocumentRule | SRG-APP-000133-DB-000198 |
+| V-40948 | High | DocumentRule | SRG-APP-000133-DB-000179 |
+| V-40949 | Medium | DocumentRule | SRG-APP-000133-DB-000179 |
+| V-41034 | Low | DocumentRule | SRG-APP-000080-DB-000063 |
+| V-41038 | Medium | DocumentRule | SRG-APP-000063-DB-000022 |
+| V-41039 | Medium | DocumentRule | SRG-APP-000063-DB-000021 |
+| V-41041 | Medium | DocumentRule | SRG-APP-000063-DB-000019 |
+| V-41044 | Medium | DocumentRule | SRG-APP-000062-DB-000016 |
+| V-41046 | Medium | DocumentRule | SRG-APP-000062-DB-000011 |
+| V-41202 | Medium | DocumentRule | SRG-APP-000062-DB-000009 |
+| V-41204 | Medium | DocumentRule | SRG-APP-000085-DB-000038 |
+| V-41205 | Medium | DocumentRule | SRG-APP-000036-DB-000174 |
+| V-41304 | Medium | DocumentRule | SRG-APP-000035-DB-000007 |
+| V-41311 | Medium | DocumentRule | SRG-APP-000001-DB-000031 |
+| V-53877 | Medium | DocumentRule | SRG-APP-000196-DB-000301 |
+| V-70625 | Low | DocumentRule | SRG-APP-000516-DB-999900 |
+| V-72413 | Medium | DocumentRule | SRG-APP-000164-DB-000401 |
+| V-72415 | Medium | DocumentRule | SRG-APP-000164-DB-000401 |
+| V-40905 | Medium | ManualRule | SRG-APP-000268-DB-000164 |
+| V-40906 | Medium | ManualRule | SRG-APP-000265-DB-000161 |
+| V-40910 | Medium | ManualRule | SRG-APP-000233-DB-000124 |
+| V-40915 | Medium | ManualRule | SRG-APP-000201-DB-000145 |
+| V-40922 | Medium | ManualRule | SRG-APP-000171-DB-000074 |
+| V-40923 | Medium | ManualRule | SRG-APP-000153-DB-000108 |
+| V-40924 | Medium | ManualRule | SRG-APP-000148-DB-000103 |
+| V-40925 | Medium | ManualRule | SRG-APP-000146-DB-000100 |
+| V-40926 | Medium | ManualRule | SRG-APP-000146-DB-000099 |
+| V-40930 | Medium | ManualRule | SRG-APP-000145-DB-000095 |
+| V-40932 | High | ManualRule | SRG-APP-000144-DB-000101 |
+| V-40933 | Medium | ManualRule | SRG-APP-000142-DB-000094 |
+| V-40934 | Medium | ManualRule | SRG-APP-000142-DB-000094 |
+| V-40935 | Medium | ManualRule | SRG-APP-000141-DB-000093 |
+| V-40938 | Medium | ManualRule | SRG-APP-000141-DB-000091 |
+| V-40939 | Medium | ManualRule | SRG-APP-000141-DB-000091 |
+| V-40940 | Medium | ManualRule | SRG-APP-000141-DB-000091 |
+| V-40944 | Medium | ManualRule | SRG-APP-000133-DB-000207 |
+| V-40945 | High | ManualRule | SRG-APP-000133-DB-000205 |
+| V-40946 | Low | ManualRule | SRG-APP-000133-DB-000199 |
+| V-40951 | Medium | ManualRule | SRG-APP-000129-DB-000087 |
+| V-40952 | Low | ManualRule | SRG-APP-000120-DB-000061 |
+| V-40953 | Low | ManualRule | SRG-APP-000119-DB-000060 |
+| V-41016 | Medium | ManualRule | SRG-APP-000118-DB-000059 |
+| V-41017 | Medium | ManualRule | SRG-APP-000127-DB-000172 |
+| V-41023 | Low | ManualRule | SRG-APP-000103-DB-000050 |
+| V-41025 | Medium | ManualRule | SRG-APP-000071-DB-000047 |
+| V-41026 | Medium | ManualRule | SRG-APP-000072-DB-000046 |
+| V-41036 | Medium | ManualRule | SRG-APP-999999-DB-000209 |
+| V-41040 | Medium | ManualRule | SRG-APP-000063-DB-000020 |
+| V-41043 | Medium | ManualRule | SRG-APP-000063-DB-000017 |
+| V-41045 | Medium | ManualRule | SRG-APP-000062-DB-000012 |
+| V-41047 | Medium | ManualRule | SRG-APP-000062-DB-000010 |
+| V-41206 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41247 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41253 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41254 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41255 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41256 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41257 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41258 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41259 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41260 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41261 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41269 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41270 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41280 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41281 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41283 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41285 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41286 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41288 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41290 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41291 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41292 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41293 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41297 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41298 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41299 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41300 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41302 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41303 | Medium | ManualRule | SRG-APP-000035-DB-000007 |
+| V-41419 | Medium | ManualRule | SRG-APP-000231-DB-000154 |
+| V-43196 | Medium | ManualRule | SRG-APP-999999-DB-000209     |
+| V-54859 | Medium | ManualRule | SRG-APP-000133-DB-000207 |
+| V-54879 | Medium | ManualRule | SRG-APP-000133-DB-000207 |
+| V-54881 | Medium | ManualRule | SRG-APP-000133-DB-000207 |
+| V-59857 | Medium | ManualRule | SRG-APP-000063-DB-000018 |
+| V-59915 | Medium | ManualRule | SRG-APP-000035-DB-000007 |

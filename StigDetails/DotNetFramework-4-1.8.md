@@ -10,26 +10,26 @@
 
 ## Automated Rules
 
-| StigRuleId | RuleType | DscResource | DuplicateOf |
-| :---- | :---- | :---- | :---- |
-| V-30935 | RegistryRule | Registry |  |
-| V-81495 | RegistryRule | Registry |  |
+| StigRuleId | Severity | RuleType | DscResource | DuplicateOf | Title |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| V-30935 | Medium | RegistryRule | Registry |  | APPNET0063 Validation of Strong Names |
+| V-81495 | Medium | RegistryRule | Registry |  | APPNET0075 Disable TLS RC4 cipher in .Net |
 
 ## Document / Manual Rules (Not Automated)
 
-| StigRuleId | RuleType |
-| :---- | :---- |
-| V-7055 | DocumentRule |
-| V-7069 | DocumentRule |
-| V-7061 | ManualRule |
-| V-7063 | ManualRule |
-| V-7067 | ManualRule |
-| V-7070 | ManualRule |
-| V-18395 | ManualRule |
-| V-30926 | ManualRule |
-| V-30937 | ManualRule |
-| V-30968 | ManualRule |
-| V-30972 | ManualRule |
-| V-30986 | ManualRule |
-| V-31026 | ManualRule |
-| V-32025 | ManualRule |
+| StigRuleId | Severity | RuleType | Title |
+| :---- | :---- | :---- | :---- |
+| V-7055 | Medium | DocumentRule | APPNET0031 No Strong Name Verification |
+| V-7069 | Medium | DocumentRule | APPNET0055 CAS and Policy Config File Backups |
+| V-7061 | Medium | ManualRule | APPNET0046 Test Root certificates |
+| V-7063 | Medium | ManualRule | APPNET0048 Publisher Membership Condition |
+| V-7067 | Medium | ManualRule | APPNET0052 Strong Name Membership Condition |
+| V-7070 | Medium | ManualRule | APPNET0060 Remoting Services Auth and Encryption HTTP Channel. |
+| V-18395 | Medium | ManualRule | APPNET0061 Unsupported .Net Framework Versions |
+| V-30926 | Medium | ManualRule | APPNET0062 Administering FIPS Policy |
+| V-30937 | Low | ManualRule | APPNET0064 Legacy Security Policy |
+| V-30968 | Medium | ManualRule | APPNET0065 Load From Remote Sources |
+| V-30972 | Low | ManualRule | APPNET0066 .Net Default Proxy Settings |
+| V-30986 | Medium | ManualRule | APPNET0070 Software protections and controls |
+| V-31026 | Medium | ManualRule | APPNET0067 .NET Event Tracing for Windows. |
+| V-32025 | Medium | ManualRule | APPNET0071 Remoting Services auth and encryption TCP channel |

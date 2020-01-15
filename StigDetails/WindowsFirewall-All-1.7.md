@@ -10,49 +10,49 @@
 
 ## Automated Rules
 
-| StigRuleId | RuleType | DscResource | DuplicateOf |
-| :---- | :---- | :---- | :---- |
-| V-17415.a | RegistryRule | Registry |  |
-| V-17415.b | RegistryRule | Registry |  |
-| V-17416.a | RegistryRule | Registry |  |
-| V-17416.b | RegistryRule | Registry |  |
-| V-17417.a | RegistryRule | Registry |  |
-| V-17417.b | RegistryRule | Registry |  |
-| V-17418.a | RegistryRule | Registry |  |
-| V-17418.b | RegistryRule | Registry |  |
-| V-17419.a | RegistryRule | Registry |  |
-| V-17419.b | RegistryRule | Registry |  |
-| V-17425.a | RegistryRule | Registry |  |
-| V-17425.b | RegistryRule | Registry |  |
-| V-17426.a | RegistryRule | Registry |  |
-| V-17426.b | RegistryRule | Registry |  |
-| V-17427.a | RegistryRule | Registry |  |
-| V-17427.b | RegistryRule | Registry |  |
-| V-17428.a | RegistryRule | Registry |  |
-| V-17428.b | RegistryRule | Registry |  |
-| V-17429.a | RegistryRule | Registry |  |
-| V-17429.b | RegistryRule | Registry |  |
-| V-17435.a | RegistryRule | Registry |  |
-| V-17435.b | RegistryRule | Registry |  |
-| V-17436.a | RegistryRule | Registry |  |
-| V-17436.b | RegistryRule | Registry |  |
-| V-17437.a | RegistryRule | Registry |  |
-| V-17437.b | RegistryRule | Registry |  |
-| V-17438.a | RegistryRule | Registry |  |
-| V-17438.b | RegistryRule | Registry |  |
-| V-17439.a | RegistryRule | Registry |  |
-| V-17439.b | RegistryRule | Registry |  |
-| V-17442 | RegistryRule | Registry |  |
-| V-17443 | RegistryRule | Registry |  |
-| V-17445.a | RegistryRule | Registry |  |
-| V-17445.b | RegistryRule | Registry |  |
-| V-17446.a | RegistryRule | Registry |  |
-| V-17446.b | RegistryRule | Registry |  |
-| V-17447.a | RegistryRule | Registry |  |
-| V-17447.b | RegistryRule | Registry |  |
+| StigRuleId | Severity | RuleType | DscResource | DuplicateOf | Title |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| V-17415.a | Medium | RegistryRule | Registry |  | Windows Firewall Domain - Enable Firewall |
+| V-17415.b | Medium | RegistryRule | Registry |  | Windows Firewall Domain - Enable Firewall |
+| V-17416.a | Medium | RegistryRule | Registry |  | Windows Firewall Private - Enable Firewall |
+| V-17416.b | Medium | RegistryRule | Registry |  | Windows Firewall Private - Enable Firewall |
+| V-17417.a | Medium | RegistryRule | Registry |  | Windows Firewall Public - Enable Firewall |
+| V-17417.b | Medium | RegistryRule | Registry |  | Windows Firewall Public - Enable Firewall |
+| V-17418.a | High | RegistryRule | Registry |  | Windows Firewall Domain - Inbound |
+| V-17418.b | High | RegistryRule | Registry |  | Windows Firewall Domain - Inbound |
+| V-17419.a | Medium | RegistryRule | Registry |  | Windows Firewall Domain - Outbound |
+| V-17419.b | Medium | RegistryRule | Registry |  | Windows Firewall Domain - Outbound |
+| V-17425.a | Low | RegistryRule | Registry |  | Windows Firewall Domain - Log Size |
+| V-17425.b | Low | RegistryRule | Registry |  | Windows Firewall Domain - Log Size |
+| V-17426.a | Low | RegistryRule | Registry |  | Windows Firewall Domain - Log Dropped Packets |
+| V-17426.b | Low | RegistryRule | Registry |  | Windows Firewall Domain - Log Dropped Packets |
+| V-17427.a | Low | RegistryRule | Registry |  | Windows FW Domain - Log Successful Connections |
+| V-17427.b | Low | RegistryRule | Registry |  | Windows FW Domain - Log Successful Connections |
+| V-17428.a | High | RegistryRule | Registry |  | Windows Firewall Private – Inbound |
+| V-17428.b | High | RegistryRule | Registry |  | Windows Firewall Private – Inbound |
+| V-17429.a | Medium | RegistryRule | Registry |  | Windows Firewall Private - Outbound |
+| V-17429.b | Medium | RegistryRule | Registry |  | Windows Firewall Private - Outbound |
+| V-17435.a | Low | RegistryRule | Registry |  | Windows Firewall Private - Log Size |
+| V-17435.b | Low | RegistryRule | Registry |  | Windows Firewall Private - Log Size |
+| V-17436.a | Low | RegistryRule | Registry |  | Windows Firewall Private - Log Dropped Packets |
+| V-17436.b | Low | RegistryRule | Registry |  | Windows Firewall Private - Log Dropped Packets |
+| V-17437.a | Low | RegistryRule | Registry |  | Windows FW Private - Log Successful Connections |
+| V-17437.b | Low | RegistryRule | Registry |  | Windows FW Private - Log Successful Connections |
+| V-17438.a | High | RegistryRule | Registry |  | Windows Firewall Public – Inbound  |
+| V-17438.b | High | RegistryRule | Registry |  | Windows Firewall Public – Inbound  |
+| V-17439.a | Medium | RegistryRule | Registry |  | Windows Firewall Public - Outbound  |
+| V-17439.b | Medium | RegistryRule | Registry |  | Windows Firewall Public - Outbound  |
+| V-17442 | Medium | RegistryRule | Registry |  | Windows Firewall Public - Local Firewall Rules |
+| V-17443 | Medium | RegistryRule | Registry |  | Windows Firewall Public - Local Connection Rules |
+| V-17445.a | Low | RegistryRule | Registry |  | Windows Firewall Public - Log Size |
+| V-17445.b | Low | RegistryRule | Registry |  | Windows Firewall Public - Log Size |
+| V-17446.a | Low | RegistryRule | Registry |  | Windows Firewall Public - Log Dropped Packets |
+| V-17446.b | Low | RegistryRule | Registry |  | Windows Firewall Public - Log Dropped Packets |
+| V-17447.a | Low | RegistryRule | Registry |  | Windows FW Public - Log Successful Connections |
+| V-17447.b | Low | RegistryRule | Registry |  | Windows FW Public - Log Successful Connections |
 
 ## Document / Manual Rules (Not Automated)
 
-| StigRuleId | RuleType |
-| :---- | :---- |
-| V-36440 | ManualRule |
+| StigRuleId | Severity | RuleType | Title |
+| :---- | :---- | :---- | :---- |
+| V-36440 | Medium | ManualRule | Inbound Firewall Exception for Administration |

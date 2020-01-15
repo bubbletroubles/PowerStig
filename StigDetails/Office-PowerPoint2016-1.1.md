@@ -10,43 +10,43 @@
 
 ## Automated Rules
 
-| StigRuleId | RuleType | DscResource | DuplicateOf |
-| :---- | :---- | :---- | :---- |
-| V-70641 | RegistryRule | RegistryPolicyFile |  |
-| V-70643 | RegistryRule | RegistryPolicyFile |  |
-| V-70645 | RegistryRule | RegistryPolicyFile |  |
-| V-70647 | RegistryRule | RegistryPolicyFile |  |
-| V-70649 | RegistryRule | RegistryPolicyFile |  |
-| V-70651 | RegistryRule | RegistryPolicyFile |  |
-| V-70653 | RegistryRule | RegistryPolicyFile |  |
-| V-70655 | RegistryRule | RegistryPolicyFile |  |
-| V-70657 | RegistryRule | RegistryPolicyFile |  |
-| V-70659 | RegistryRule | RegistryPolicyFile |  |
-| V-70661 | RegistryRule | RegistryPolicyFile |  |
-| V-70663 | RegistryRule | RegistryPolicyFile |  |
-| V-70665 | RegistryRule | RegistryPolicyFile |  |
-| V-70667 | RegistryRule | RegistryPolicyFile |  |
-| V-70669 | RegistryRule | RegistryPolicyFile |  |
-| V-70671 | RegistryRule | RegistryPolicyFile |  |
-| V-70673 | RegistryRule | RegistryPolicyFile |  |
-| V-70675 | RegistryRule | RegistryPolicyFile |  |
-| V-70677 | RegistryRule | RegistryPolicyFile |  |
-| V-70679 | RegistryRule | RegistryPolicyFile |  |
-| V-70681 | RegistryRule | RegistryPolicyFile |  |
-| V-70683 | RegistryRule | RegistryPolicyFile |  |
-| V-70685 | RegistryRule | RegistryPolicyFile |  |
-| V-70687 | RegistryRule | RegistryPolicyFile |  |
-| V-70689 | RegistryRule | RegistryPolicyFile |  |
-| V-70691 | RegistryRule | RegistryPolicyFile |  |
-| V-70693 | RegistryRule | RegistryPolicyFile |  |
-| V-70695 | RegistryRule | RegistryPolicyFile |  |
-| V-70697 | RegistryRule | RegistryPolicyFile |  |
-| V-70699 | RegistryRule | RegistryPolicyFile |  |
-| V-70701 | RegistryRule | RegistryPolicyFile |  |
-| V-71401 | RegistryRule | RegistryPolicyFile |  |
-| V-71403 | RegistryRule | RegistryPolicyFile |  |
-| V-71405 | RegistryRule | RegistryPolicyFile |  |
-| V-71407.a | RegistryRule | RegistryPolicyFile |  |
-| V-71407.b | RegistryRule | RegistryPolicyFile |  |
-| V-71641 | RegistryRule | RegistryPolicyFile |  |
-| V-71647 | RegistryRule | RegistryPolicyFile |  |
+| StigRuleId | Severity | RuleType | DscResource | DuplicateOf | Title |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| V-70641 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-70643 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000207 |
+| V-70645 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000112 |
+| V-70647 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-70649 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000112 |
+| V-70651 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000207 |
+| V-70653 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000207 |
+| V-70655 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000131 |
+| V-70657 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000207 |
+| V-70659 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000131 |
+| V-70661 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000209 |
+| V-70663 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-70665 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-70667 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000141 |
+| V-70669 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-70671 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000141 |
+| V-70673 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000112 |
+| V-70675 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000488 |
+| V-70677 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-70679 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-70681 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000141 |
+| V-70683 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-70685 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000112 |
+| V-70687 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-70689 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-70691 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000112 |
+| V-70693 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000207 |
+| V-70695 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000207 |
+| V-70697 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000112 |
+| V-70699 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000488 |
+| V-70701 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-71401 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-71403 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000112 |
+| V-71405 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-71407.a | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-71407.b | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-71641 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-71647 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000209 |

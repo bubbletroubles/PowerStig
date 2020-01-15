@@ -10,277 +10,277 @@
 
 ## Automated Rules
 
-| StigRuleId | RuleType | DscResource | DuplicateOf |
-| :---- | :---- | :---- | :---- |
-| V-93141 | AccountPolicyRule | AccountPolicy |  |
-| V-93143 | AccountPolicyRule | AccountPolicy |  |
-| V-93145 | AccountPolicyRule | AccountPolicy |  |
-| V-93459 | AccountPolicyRule | AccountPolicy |  |
-| V-93463 | AccountPolicyRule | AccountPolicy |  |
-| V-93465 | AccountPolicyRule | AccountPolicy |  |
-| V-93471 | AccountPolicyRule | AccountPolicy |  |
-| V-93477 | AccountPolicyRule | AccountPolicy |  |
-| V-93479 | AccountPolicyRule | AccountPolicy |  |
-| V-92967 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-92969 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-92979 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-92981 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-92983 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-92987 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-92989 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-93089 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-93091 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-93093 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-93095 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-93097 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-93099 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-93101 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-93103 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-93105 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-93107 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-93109 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-93111 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-93113 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-93115 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-93117 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-93119 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-93153 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-93155 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-93157 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-93159 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-93161 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-93163 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-93165 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-93167 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-93169 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-93171 | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-92991 | AuditSettingRule | AuditSetting |  |
-| V-93215 | AuditSettingRule | AuditSetting |  |
-| V-93019 | PermissionRule | NTFSAccessEntry |  |
-| V-93021.a | PermissionRule | NTFSAccessEntry |  |
-| V-93021.b | PermissionRule | NTFSAccessEntry |  |
-| V-93023 | PermissionRule | NTFSAccessEntry |  |
-| V-93025.a | PermissionRule | RegistryAccessEntry |  |
-| V-93025.b | PermissionRule | RegistryAccessEntry |  |
-| V-93025.c | PermissionRule | RegistryAccessEntry |  |
-| V-93189 | PermissionRule | NTFSAccessEntry |  |
-| V-93191 | PermissionRule | NTFSAccessEntry |  |
-| V-93193 | PermissionRule | NTFSAccessEntry |  |
-| V-93195 | PermissionRule | NTFSAccessEntry |  |
-| V-93313 | ProcessMitigationRule | ProcessMitigation |  |
-| V-93315 | ProcessMitigationRule | ProcessMitigation |  |
-| V-93317 | ProcessMitigationRule | ProcessMitigation |  |
-| V-93319 | ProcessMitigationRule | ProcessMitigation |  |
-| V-93321 | ProcessMitigationRule | ProcessMitigation |  |
-| V-93323 | ProcessMitigationRule | ProcessMitigation |  |
-| V-93325 | ProcessMitigationRule | ProcessMitigation |  |
-| V-93327 | ProcessMitigationRule | ProcessMitigation |  |
-| V-93329 | ProcessMitigationRule | ProcessMitigation |  |
-| V-93331 | ProcessMitigationRule | ProcessMitigation |  |
-| V-93333 | ProcessMitigationRule | ProcessMitigation |  |
-| V-93335 | ProcessMitigationRule | ProcessMitigation |  |
-| V-93337 | ProcessMitigationRule | ProcessMitigation |  |
-| V-93339.a | ProcessMitigationRule | ProcessMitigation |  |
-| V-93339.b | ProcessMitigationRule | ProcessMitigation |  |
-| V-93339.c | ProcessMitigationRule | ProcessMitigation |  |
-| V-93341 | ProcessMitigationRule | ProcessMitigation |  |
-| V-93343 | ProcessMitigationRule | ProcessMitigation |  |
-| V-93345 | ProcessMitigationRule | ProcessMitigation |  |
-| V-93347 | ProcessMitigationRule | ProcessMitigation |  |
-| V-93349 | ProcessMitigationRule | ProcessMitigation |  |
-| V-93351 | ProcessMitigationRule | ProcessMitigation |  |
-| V-93353 | ProcessMitigationRule | ProcessMitigation |  |
-| V-93355 | ProcessMitigationRule | ProcessMitigation |  |
-| V-93357 | ProcessMitigationRule | ProcessMitigation |  |
-| V-93359 | ProcessMitigationRule | ProcessMitigation |  |
-| V-93361 | ProcessMitigationRule | ProcessMitigation |  |
-| V-93363 | ProcessMitigationRule | ProcessMitigation |  |
-| V-93365 | ProcessMitigationRule | ProcessMitigation |  |
-| V-93367 | ProcessMitigationRule | ProcessMitigation |  |
-| V-93565 | ProcessMitigationRule | ProcessMitigation |  |
-| V-92961 | RegistryRule | Registry |  |
-| V-92971 | RegistryRule | RegistryPolicyFile |  |
-| V-92973 | RegistryRule | RegistryPolicyFile |  |
-| V-93045 | RegistryRule | Registry |  |
-| V-93147 | RegistryRule | Registry |  |
-| V-93149 | RegistryRule | Registry |  |
-| V-93151 | RegistryRule | Registry |  |
-| V-93173 | RegistryRule | RegistryPolicyFile |  |
-| V-93175 | RegistryRule | RegistryPolicyFile |  |
-| V-93177 | RegistryRule | RegistryPolicyFile |  |
-| V-93179 | RegistryRule | RegistryPolicyFile |  |
-| V-93181 | RegistryRule | RegistryPolicyFile |  |
-| V-93199 | RegistryRule | RegistryPolicyFile |  |
-| V-93201 | RegistryRule | RegistryPolicyFile |  |
-| V-93233 | RegistryRule | RegistryPolicyFile |  |
-| V-93235 | RegistryRule | RegistryPolicyFile |  |
-| V-93237 | RegistryRule | RegistryPolicyFile |  |
-| V-93239 | RegistryRule | RegistryPolicyFile |  |
-| V-93241.a | RegistryRule | RegistryPolicyFile |  |
-| V-93241.b | RegistryRule | RegistryPolicyFile |  |
-| V-93243 | RegistryRule | RegistryPolicyFile |  |
-| V-93245.a | RegistryRule | RegistryPolicyFile |  |
-| V-93245.b | RegistryRule | RegistryPolicyFile |  |
-| V-93249 | RegistryRule | RegistryPolicyFile |  |
-| V-93251 | RegistryRule | RegistryPolicyFile |  |
-| V-93253 | RegistryRule | RegistryPolicyFile |  |
-| V-93255 | RegistryRule | RegistryPolicyFile |  |
-| V-93257 | RegistryRule | RegistryPolicyFile |  |
-| V-93259 | RegistryRule | RegistryPolicyFile |  |
-| V-93261 | RegistryRule | RegistryPolicyFile |  |
-| V-93263 | RegistryRule | RegistryPolicyFile |  |
-| V-93265 | RegistryRule | RegistryPolicyFile |  |
-| V-93267 | RegistryRule | RegistryPolicyFile |  |
-| V-93269 | RegistryRule | RegistryPolicyFile |  |
-| V-93275 | RegistryRule | Registry |  |
-| V-93277 | RegistryRule | RegistryPolicyFile |  |
-| V-93279 | RegistryRule | Registry |  |
-| V-93285 | RegistryRule | Registry |  |
-| V-93287 | RegistryRule | Registry |  |
-| V-93291 | RegistryRule | Registry |  |
-| V-93293 | RegistryRule | Registry |  |
-| V-93295 | RegistryRule | Registry |  |
-| V-93297 | RegistryRule | Registry |  |
-| V-93299 | RegistryRule | Registry |  |
-| V-93301 | RegistryRule | Registry |  |
-| V-93303 | RegistryRule | Registry |  |
-| V-93305 | RegistryRule | Registry |  |
-| V-93307 | RegistryRule | Registry |  |
-| V-93309 | RegistryRule | Registry |  |
-| V-93311 | RegistryRule | RegistryPolicyFile |  |
-| V-93373 | RegistryRule | RegistryPolicyFile |  |
-| V-93375 | RegistryRule | RegistryPolicyFile |  |
-| V-93377 | RegistryRule | RegistryPolicyFile |  |
-| V-93393 | RegistryRule | RegistryPolicyFile |  |
-| V-93395 | RegistryRule | RegistryPolicyFile |  |
-| V-93399 | RegistryRule | RegistryPolicyFile |  |
-| V-93401 | RegistryRule | RegistryPolicyFile |  |
-| V-93403 | RegistryRule | RegistryPolicyFile |  |
-| V-93405 | RegistryRule | RegistryPolicyFile |  |
-| V-93407 | RegistryRule | RegistryPolicyFile |  |
-| V-93409 | RegistryRule | RegistryPolicyFile |  |
-| V-93411 | RegistryRule | RegistryPolicyFile |  |
-| V-93413 | RegistryRule | RegistryPolicyFile |  |
-| V-93415 | RegistryRule | RegistryPolicyFile |  |
-| V-93419 | RegistryRule | RegistryPolicyFile |  |
-| V-93425 | RegistryRule | RegistryPolicyFile |  |
-| V-93427 | RegistryRule | RegistryPolicyFile |  |
-| V-93429 | RegistryRule | RegistryPolicyFile |  |
-| V-93431 | RegistryRule | Registry |  |
-| V-93433 | RegistryRule | Registry |  |
-| V-93435 | RegistryRule | Registry |  |
-| V-93453 | RegistryRule | RegistryPolicyFile |  |
-| V-93455 | RegistryRule | Registry |  |
-| V-93467 | RegistryRule | Registry |  |
-| V-93469 | RegistryRule | Registry |  |
-| V-93493 | RegistryRule | Registry |  |
-| V-93495 | RegistryRule | Registry |  |
-| V-93499 | RegistryRule | RegistryPolicyFile |  |
-| V-93501 | RegistryRule | RegistryPolicyFile |  |
-| V-93503 | RegistryRule | RegistryPolicyFile |  |
-| V-93505 | RegistryRule | RegistryPolicyFile |  |
-| V-93507 | RegistryRule | RegistryPolicyFile |  |
-| V-93511 | RegistryRule | Registry |  |
-| V-93517 | RegistryRule | RegistryPolicyFile |  |
-| V-93519 | RegistryRule | RegistryPolicyFile |  |
-| V-93521 | RegistryRule | Registry |  |
-| V-93523 | RegistryRule | Registry |  |
-| V-93525 | RegistryRule | Registry |  |
-| V-93527 | RegistryRule | Registry |  |
-| V-93529 | RegistryRule | Registry |  |
-| V-93533 | RegistryRule | RegistryPolicyFile |  |
-| V-93537 | RegistryRule | Registry |  |
-| V-93539 | RegistryRule | Registry |  |
-| V-93541 | RegistryRule | RegistryPolicyFile |  |
-| V-93547 | RegistryRule | Registry |  |
-| V-93549 | RegistryRule | Registry |  |
-| V-93551 | RegistryRule | Registry |  |
-| V-93553 | RegistryRule | Registry |  |
-| V-93555 | RegistryRule | Registry |  |
-| V-93557 | RegistryRule | Registry |  |
-| V-93559 | RegistryRule | Registry |  |
-| V-93561 | RegistryRule | Registry |  |
-| V-93563 | RegistryRule | RegistryPolicyFile |  |
-| V-93289 | SecurityOptionRule | SecurityOption |  |
-| V-93281 | SecurityOptionRule | SecurityOption |  |
-| V-93283 | SecurityOptionRule | SecurityOption |  |
-| V-93497 | SecurityOptionRule | SecurityOption |  |
-| V-93217 | ServiceRule | Service |  |
-| V-93571 | ServiceRule | Service |  |
-| V-92965 | UserRightRule | UserRightsAssignment |  |
-| V-93007 | UserRightRule | UserRightsAssignment |  |
-| V-93009 | UserRightRule | UserRightsAssignment |  |
-| V-93011 | UserRightRule | UserRightsAssignment |  |
-| V-93013 | UserRightRule | UserRightsAssignment |  |
-| V-93015 | UserRightRule | UserRightsAssignment |  |
-| V-93017 | UserRightRule | UserRightsAssignment |  |
-| V-93047 | UserRightRule | UserRightsAssignment |  |
-| V-93049 | UserRightRule | UserRightsAssignment |  |
-| V-93051 | UserRightRule | UserRightsAssignment |  |
-| V-93053 | UserRightRule | UserRightsAssignment |  |
-| V-93055 | UserRightRule | UserRightsAssignment |  |
-| V-93057 | UserRightRule | UserRightsAssignment |  |
-| V-93059 | UserRightRule | UserRightsAssignment |  |
-| V-93061 | UserRightRule | UserRightsAssignment |  |
-| V-93063 | UserRightRule | UserRightsAssignment |  |
-| V-93065 | UserRightRule | UserRightsAssignment |  |
-| V-93067 | UserRightRule | UserRightsAssignment |  |
-| V-93069 | UserRightRule | UserRightsAssignment |  |
-| V-93071 | UserRightRule | UserRightsAssignment |  |
-| V-93073 | UserRightRule | UserRightsAssignment |  |
-| V-93075 | UserRightRule | UserRightsAssignment |  |
-| V-93077 | UserRightRule | UserRightsAssignment |  |
-| V-93079 | UserRightRule | UserRightsAssignment |  |
-| V-93081 | UserRightRule | UserRightsAssignment |  |
-| V-93083 | UserRightRule | UserRightsAssignment |  |
-| V-93085 | UserRightRule | UserRightsAssignment |  |
-| V-93087 | UserRightRule | UserRightsAssignment |  |
-| V-93197 | UserRightRule | UserRightsAssignment |  |
-| V-93383 | WindowsFeatureRule | WindowsFeature |  |
-| V-93385 | WindowsFeatureRule | WindowsFeature |  |
-| V-93387 | WindowsFeatureRule | WindowsFeature |  |
-| V-93389 | WindowsFeatureRule | WindowsFeature |  |
-| V-93391 | WindowsFeatureRule | WindowsFeature |  |
-| V-93397 | WindowsFeatureRule | WindowsFeature |  |
-| V-93421 | WindowsFeatureRule | WindowsFeature |  |
-| V-93423 | WindowsFeatureRule | WindowsFeature |  |
+| StigRuleId | Severity | RuleType | DscResource | DuplicateOf | Title |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| V-93141 | Medium | AccountPolicyRule | AccountPolicy |  | SRG-OS-000021-GPOS-00005 |
+| V-93143 | Medium | AccountPolicyRule | AccountPolicy |  | SRG-OS-000021-GPOS-00005 |
+| V-93145 | Medium | AccountPolicyRule | AccountPolicy |  | SRG-OS-000329-GPOS-00128 |
+| V-93459 | Medium | AccountPolicyRule | AccountPolicy |  | SRG-OS-000069-GPOS-00037 |
+| V-93463 | Medium | AccountPolicyRule | AccountPolicy |  | SRG-OS-000078-GPOS-00046 |
+| V-93465 | High | AccountPolicyRule | AccountPolicy |  | SRG-OS-000073-GPOS-00041 |
+| V-93471 | Medium | AccountPolicyRule | AccountPolicy |  | SRG-OS-000075-GPOS-00043 |
+| V-93477 | Medium | AccountPolicyRule | AccountPolicy |  | SRG-OS-000076-GPOS-00044 |
+| V-93479 | Medium | AccountPolicyRule | AccountPolicy |  | SRG-OS-000077-GPOS-00045 |
+| V-92967 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000032-GPOS-00013 |
+| V-92969 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000032-GPOS-00013 |
+| V-92979 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000004-GPOS-00004 |
+| V-92981 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000004-GPOS-00004 |
+| V-92983 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000004-GPOS-00004 |
+| V-92987 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000240-GPOS-00090 |
+| V-92989 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000240-GPOS-00090 |
+| V-93089 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000327-GPOS-00127 |
+| V-93091 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000327-GPOS-00127 |
+| V-93093 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000327-GPOS-00127 |
+| V-93095 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000327-GPOS-00127 |
+| V-93097 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000327-GPOS-00127 |
+| V-93099 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000327-GPOS-00127 |
+| V-93101 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000327-GPOS-00127 |
+| V-93103 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000327-GPOS-00127 |
+| V-93105 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000327-GPOS-00127 |
+| V-93107 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000327-GPOS-00127 |
+| V-93109 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000327-GPOS-00127 |
+| V-93111 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000327-GPOS-00127 |
+| V-93113 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000327-GPOS-00127 |
+| V-93115 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000327-GPOS-00127 |
+| V-93117 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000327-GPOS-00127 |
+| V-93119 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000327-GPOS-00127 |
+| V-93153 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000470-GPOS-00214 |
+| V-93155 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000470-GPOS-00214 |
+| V-93157 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000474-GPOS-00219 |
+| V-93159 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000470-GPOS-00214 |
+| V-93161 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000470-GPOS-00214 |
+| V-93163 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000470-GPOS-00214 |
+| V-93165 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000470-GPOS-00214 |
+| V-93167 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000474-GPOS-00219 |
+| V-93169 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000474-GPOS-00219 |
+| V-93171 | Medium | AuditPolicyRule | AuditPolicySubcategory |  | SRG-OS-000472-GPOS-00217 |
+| V-92991 | High | AuditSettingRule | AuditSetting |  | SRG-OS-000080-GPOS-00048 |
+| V-93215 | High | AuditSettingRule | AuditSetting |  | SRG-OS-000480-GPOS-00227 |
+| V-93019 | Medium | PermissionRule | NTFSAccessEntry |  | SRG-OS-000312-GPOS-00122 |
+| V-93021.a | Medium | PermissionRule | NTFSAccessEntry |  | SRG-OS-000312-GPOS-00122 |
+| V-93021.b | Medium | PermissionRule | NTFSAccessEntry |  | SRG-OS-000312-GPOS-00122 |
+| V-93023 | Medium | PermissionRule | NTFSAccessEntry |  | SRG-OS-000312-GPOS-00122 |
+| V-93025.a | Medium | PermissionRule | RegistryAccessEntry |  | SRG-OS-000324-GPOS-00125 |
+| V-93025.b | Medium | PermissionRule | RegistryAccessEntry |  | SRG-OS-000324-GPOS-00125 |
+| V-93025.c | Medium | PermissionRule | RegistryAccessEntry |  | SRG-OS-000324-GPOS-00125 |
+| V-93189 | Medium | PermissionRule | NTFSAccessEntry |  | SRG-OS-000057-GPOS-00027 |
+| V-93191 | Medium | PermissionRule | NTFSAccessEntry |  | SRG-OS-000057-GPOS-00027 |
+| V-93193 | Medium | PermissionRule | NTFSAccessEntry |  | SRG-OS-000057-GPOS-00027 |
+| V-93195 | Medium | PermissionRule | NTFSAccessEntry |  | SRG-OS-000257-GPOS-00098 |
+| V-93313 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93315 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93317 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93319 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93321 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93323 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93325 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93327 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93329 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93331 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93333 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93335 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93337 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93339.a | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93339.b | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93339.c | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93341 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93343 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93345 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93347 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93349 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93351 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93353 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93355 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93357 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93359 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93361 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93363 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93365 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93367 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000480-GPOS-00227 |
+| V-93565 | Medium | ProcessMitigationRule | ProcessMitigation |  | SRG-OS-000433-GPOS-00193 |
+| V-92961 | Medium | RegistryRule | Registry |  | SRG-OS-000028-GPOS-00009 |
+| V-92971 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000033-GPOS-00014 |
+| V-92973 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000033-GPOS-00014 |
+| V-93045 | Medium | RegistryRule | Registry |  | SRG-OS-000324-GPOS-00125 |
+| V-93147 | Medium | RegistryRule | Registry |  | SRG-OS-000023-GPOS-00006 |
+| V-93149 | Low | RegistryRule | Registry |  | SRG-OS-000023-GPOS-00006 |
+| V-93151 | Medium | RegistryRule | Registry |  | SRG-OS-000062-GPOS-00031 |
+| V-93173 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000042-GPOS-00020 |
+| V-93175 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000042-GPOS-00020 |
+| V-93177 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000341-GPOS-00132 |
+| V-93179 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000341-GPOS-00132 |
+| V-93181 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000341-GPOS-00132 |
+| V-93199 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000362-GPOS-00149 |
+| V-93201 | High | RegistryRule | RegistryPolicyFile |  | SRG-OS-000362-GPOS-00149 |
+| V-93233 | Low | RegistryRule | RegistryPolicyFile |  | SRG-OS-000480-GPOS-00227 |
+| V-93235 | Low | RegistryRule | RegistryPolicyFile |  | SRG-OS-000480-GPOS-00227 |
+| V-93237 | Low | RegistryRule | RegistryPolicyFile |  | SRG-OS-000480-GPOS-00227 |
+| V-93239 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000480-GPOS-00227 |
+| V-93241.a | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000480-GPOS-00227 |
+| V-93241.b | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000480-GPOS-00227 |
+| V-93243 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000480-GPOS-00227 |
+| V-93245.a | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000480-GPOS-00227 |
+| V-93245.b | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000480-GPOS-00227 |
+| V-93249 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000480-GPOS-00227 |
+| V-93251 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000480-GPOS-00227 |
+| V-93253 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000480-GPOS-00227 |
+| V-93255 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000480-GPOS-00227 |
+| V-93257 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000480-GPOS-00227 |
+| V-93259 | Low | RegistryRule | RegistryPolicyFile |  | SRG-OS-000480-GPOS-00227 |
+| V-93261 | Low | RegistryRule | RegistryPolicyFile |  | SRG-OS-000480-GPOS-00227 |
+| V-93263 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000480-GPOS-00227 |
+| V-93265 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000480-GPOS-00227 |
+| V-93267 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000480-GPOS-00227 |
+| V-93269 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000480-GPOS-00229 |
+| V-93275 | Medium | RegistryRule | Registry |  | SRG-OS-000480-GPOS-00227 |
+| V-93277 | High | RegistryRule | RegistryPolicyFile |  | SRG-OS-000480-GPOS-00227 |
+| V-93279 | High | RegistryRule | Registry |  | SRG-OS-000480-GPOS-00227 |
+| V-93285 | Medium | RegistryRule | Registry |  | SRG-OS-000480-GPOS-00227 |
+| V-93287 | Medium | RegistryRule | Registry |  | SRG-OS-000480-GPOS-00227 |
+| V-93291 | High | RegistryRule | Registry |  | SRG-OS-000480-GPOS-00227 |
+| V-93293 | Medium | RegistryRule | Registry |  | SRG-OS-000480-GPOS-00227 |
+| V-93295 | Medium | RegistryRule | Registry |  | SRG-OS-000480-GPOS-00227 |
+| V-93297 | Medium | RegistryRule | Registry |  | SRG-OS-000480-GPOS-00227 |
+| V-93299 | Medium | RegistryRule | Registry |  | SRG-OS-000480-GPOS-00227 |
+| V-93301 | High | RegistryRule | Registry |  | SRG-OS-000480-GPOS-00227 |
+| V-93303 | Medium | RegistryRule | Registry |  | SRG-OS-000480-GPOS-00227 |
+| V-93305 | Medium | RegistryRule | Registry |  | SRG-OS-000480-GPOS-00227 |
+| V-93307 | Medium | RegistryRule | Registry |  | SRG-OS-000480-GPOS-00227 |
+| V-93309 | Low | RegistryRule | Registry |  | SRG-OS-000480-GPOS-00227 |
+| V-93311 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000480-GPOS-00227 |
+| V-93373 | High | RegistryRule | RegistryPolicyFile |  | SRG-OS-000368-GPOS-00154 |
+| V-93375 | High | RegistryRule | RegistryPolicyFile |  | SRG-OS-000368-GPOS-00154 |
+| V-93377 | High | RegistryRule | RegistryPolicyFile |  | SRG-OS-000368-GPOS-00154 |
+| V-93393 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000095-GPOS-00049 |
+| V-93395 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000095-GPOS-00049 |
+| V-93399 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000095-GPOS-00049 |
+| V-93401 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000095-GPOS-00049 |
+| V-93403 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000095-GPOS-00049 |
+| V-93405 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000095-GPOS-00049 |
+| V-93407 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000095-GPOS-00049 |
+| V-93409 | Low | RegistryRule | RegistryPolicyFile |  | SRG-OS-000095-GPOS-00049 |
+| V-93411 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000095-GPOS-00049 |
+| V-93413 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000095-GPOS-00049 |
+| V-93415 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000095-GPOS-00049 |
+| V-93419 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000095-GPOS-00049 |
+| V-93425 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000373-GPOS-00157 |
+| V-93427 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000373-GPOS-00157 |
+| V-93429 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000373-GPOS-00157 |
+| V-93431 | Medium | RegistryRule | Registry |  | SRG-OS-000373-GPOS-00157 |
+| V-93433 | Medium | RegistryRule | Registry |  | SRG-OS-000373-GPOS-00157 |
+| V-93435 | Medium | RegistryRule | Registry |  | SRG-OS-000373-GPOS-00157 |
+| V-93453 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000379-GPOS-00164 |
+| V-93455 | Medium | RegistryRule | Registry |  | SRG-OS-000379-GPOS-00164 |
+| V-93467 | High | RegistryRule | Registry |  | SRG-OS-000073-GPOS-00041 |
+| V-93469 | Medium | RegistryRule | Registry |  | SRG-OS-000074-GPOS-00042 |
+| V-93493 | Medium | RegistryRule | Registry |  | SRG-OS-000067-GPOS-00035 |
+| V-93495 | Medium | RegistryRule | Registry |  | SRG-OS-000120-GPOS-00061 |
+| V-93499 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000393-GPOS-00173 |
+| V-93501 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000393-GPOS-00173 |
+| V-93503 | High | RegistryRule | RegistryPolicyFile |  | SRG-OS-000125-GPOS-00065 |
+| V-93505 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000125-GPOS-00065 |
+| V-93507 | High | RegistryRule | RegistryPolicyFile |  | SRG-OS-000125-GPOS-00065 |
+| V-93511 | Medium | RegistryRule | Registry |  | SRG-OS-000478-GPOS-00223 |
+| V-93517 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000134-GPOS-00068 |
+| V-93519 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000134-GPOS-00068 |
+| V-93521 | Medium | RegistryRule | Registry |  | SRG-OS-000134-GPOS-00068 |
+| V-93523 | Medium | RegistryRule | Registry |  | SRG-OS-000134-GPOS-00068 |
+| V-93525 | Medium | RegistryRule | Registry |  | SRG-OS-000134-GPOS-00068 |
+| V-93527 | Medium | RegistryRule | Registry |  | SRG-OS-000134-GPOS-00068 |
+| V-93529 | Medium | RegistryRule | Registry |  | SRG-OS-000134-GPOS-00068 |
+| V-93533 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000138-GPOS-00069 |
+| V-93537 | High | RegistryRule | Registry |  | SRG-OS-000138-GPOS-00069 |
+| V-93539 | High | RegistryRule | Registry |  | SRG-OS-000138-GPOS-00069 |
+| V-93541 | Low | RegistryRule | RegistryPolicyFile |  | SRG-OS-000420-GPOS-00186 |
+| V-93547 | Medium | RegistryRule | Registry |  | SRG-OS-000423-GPOS-00187 |
+| V-93549 | Medium | RegistryRule | Registry |  | SRG-OS-000423-GPOS-00187 |
+| V-93551 | Medium | RegistryRule | Registry |  | SRG-OS-000423-GPOS-00187 |
+| V-93553 | Medium | RegistryRule | Registry |  | SRG-OS-000423-GPOS-00187 |
+| V-93555 | Medium | RegistryRule | Registry |  | SRG-OS-000423-GPOS-00187 |
+| V-93557 | Medium | RegistryRule | Registry |  | SRG-OS-000423-GPOS-00187 |
+| V-93559 | Medium | RegistryRule | Registry |  | SRG-OS-000423-GPOS-00187 |
+| V-93561 | Medium | RegistryRule | Registry |  | SRG-OS-000423-GPOS-00187 |
+| V-93563 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-OS-000433-GPOS-00192 |
+| V-93289 | High | SecurityOptionRule | SecurityOption |  | SRG-OS-000480-GPOS-00227 |
+| V-93281 | Medium | SecurityOptionRule | SecurityOption |  | SRG-OS-000480-GPOS-00227 |
+| V-93283 | Medium | SecurityOptionRule | SecurityOption |  | SRG-OS-000480-GPOS-00227 |
+| V-93497 | Medium | SecurityOptionRule | SecurityOption |  | SRG-OS-000121-GPOS-00062 |
+| V-93217 | High | ServiceRule | Service |  | SRG-OS-000480-GPOS-00227 |
+| V-93571 | Medium | ServiceRule | Service |  | SRG-OS-000480-GPOS-00231 |
+| V-92965 | Medium | UserRightRule | UserRightsAssignment |  | SRG-OS-000297-GPOS-00115 |
+| V-93007 | Medium | UserRightRule | UserRightsAssignment |  | SRG-OS-000080-GPOS-00048 |
+| V-93009 | Medium | UserRightRule | UserRightsAssignment |  | SRG-OS-000080-GPOS-00048 |
+| V-93011 | Medium | UserRightRule | UserRightsAssignment |  | SRG-OS-000080-GPOS-00048 |
+| V-93013 | Medium | UserRightRule | UserRightsAssignment |  | SRG-OS-000080-GPOS-00048 |
+| V-93015 | Medium | UserRightRule | UserRightsAssignment |  | SRG-OS-000080-GPOS-00048 |
+| V-93017 | Medium | UserRightRule | UserRightsAssignment |  | SRG-OS-000080-GPOS-00048 |
+| V-93047 | Medium | UserRightRule | UserRightsAssignment |  | SRG-OS-000324-GPOS-00125 |
+| V-93049 | Medium | UserRightRule | UserRightsAssignment |  | SRG-OS-000324-GPOS-00125 |
+| V-93051 | High | UserRightRule | UserRightsAssignment |  | SRG-OS-000324-GPOS-00125 |
+| V-93053 | Medium | UserRightRule | UserRightsAssignment |  | SRG-OS-000324-GPOS-00125 |
+| V-93055 | Medium | UserRightRule | UserRightsAssignment |  | SRG-OS-000324-GPOS-00125 |
+| V-93057 | High | UserRightRule | UserRightsAssignment |  | SRG-OS-000324-GPOS-00125 |
+| V-93059 | Medium | UserRightRule | UserRightsAssignment |  | SRG-OS-000324-GPOS-00125 |
+| V-93061 | Medium | UserRightRule | UserRightsAssignment |  | SRG-OS-000324-GPOS-00125 |
+| V-93063 | Medium | UserRightRule | UserRightsAssignment |  | SRG-OS-000324-GPOS-00125 |
+| V-93065 | High | UserRightRule | UserRightsAssignment |  | SRG-OS-000324-GPOS-00125 |
+| V-93067 | Medium | UserRightRule | UserRightsAssignment |  | SRG-OS-000324-GPOS-00125 |
+| V-93069 | Medium | UserRightRule | UserRightsAssignment |  | SRG-OS-000324-GPOS-00125 |
+| V-93071 | Medium | UserRightRule | UserRightsAssignment |  | SRG-OS-000324-GPOS-00125 |
+| V-93073 | Medium | UserRightRule | UserRightsAssignment |  | SRG-OS-000324-GPOS-00125 |
+| V-93075 | Medium | UserRightRule | UserRightsAssignment |  | SRG-OS-000324-GPOS-00125 |
+| V-93077 | Medium | UserRightRule | UserRightsAssignment |  | SRG-OS-000324-GPOS-00125 |
+| V-93079 | Medium | UserRightRule | UserRightsAssignment |  | SRG-OS-000324-GPOS-00125 |
+| V-93081 | Medium | UserRightRule | UserRightsAssignment |  | SRG-OS-000324-GPOS-00125 |
+| V-93083 | Medium | UserRightRule | UserRightsAssignment |  | SRG-OS-000324-GPOS-00125 |
+| V-93085 | Medium | UserRightRule | UserRightsAssignment |  | SRG-OS-000324-GPOS-00125 |
+| V-93087 | Medium | UserRightRule | UserRightsAssignment |  | SRG-OS-000324-GPOS-00125 |
+| V-93197 | Medium | UserRightRule | UserRightsAssignment |  | SRG-OS-000057-GPOS-00027 |
+| V-93383 | Medium | WindowsFeatureRule | WindowsFeature |  | SRG-OS-000095-GPOS-00049 |
+| V-93385 | Medium | WindowsFeatureRule | WindowsFeature |  | SRG-OS-000095-GPOS-00049 |
+| V-93387 | Medium | WindowsFeatureRule | WindowsFeature |  | SRG-OS-000095-GPOS-00049 |
+| V-93389 | Medium | WindowsFeatureRule | WindowsFeature |  | SRG-OS-000095-GPOS-00049 |
+| V-93391 | Medium | WindowsFeatureRule | WindowsFeature |  | SRG-OS-000095-GPOS-00049 |
+| V-93397 | Medium | WindowsFeatureRule | WindowsFeature |  | SRG-OS-000095-GPOS-00049 |
+| V-93421 | Medium | WindowsFeatureRule | WindowsFeature |  | SRG-OS-000096-GPOS-00050 |
+| V-93423 | Medium | WindowsFeatureRule | WindowsFeature |  | SRG-OS-000096-GPOS-00050 |
 
 ## Document / Manual Rules (Not Automated)
 
-| StigRuleId | RuleType |
-| :---- | :---- |
-| V-93219 | DocumentRule |
-| V-93221 | DocumentRule |
-| V-93381 | DocumentRule |
-| V-93437 | DocumentRule |
-| V-93457 | DocumentRule |
-| V-93487 | DocumentRule |
-| V-93567 | DocumentRule |
-| V-92975 | ManualRule |
-| V-92977 | ManualRule |
-| V-92993 | ManualRule |
-| V-93043 | ManualRule |
-| V-93183 | ManualRule |
-| V-93185 | ManualRule |
-| V-93187 | ManualRule |
-| V-93203 | ManualRule |
-| V-93205 | ManualRule |
-| V-93207 | ManualRule |
-| V-93209 | ManualRule |
-| V-93213 | ManualRule |
-| V-93223 | ManualRule |
-| V-93225 | ManualRule |
-| V-93229 | ManualRule |
-| V-93231 | ManualRule |
-| V-93369 | ManualRule |
-| V-93379 | ManualRule |
-| V-93439 | ManualRule |
-| V-93461 | ManualRule |
-| V-93473 | ManualRule |
-| V-93475 | ManualRule |
-| V-93489 | ManualRule |
-| V-93491 | ManualRule |
-| V-93515 | ManualRule |
-| V-93531 | ManualRule |
-| V-93543 | ManualRule |
-| V-93227 | ManualRule |
+| StigRuleId | Severity | RuleType | Title |
+| :---- | :---- | :---- | :---- |
+| V-93219 | Medium | DocumentRule | SRG-OS-000480-GPOS-00227 |
+| V-93221 | Medium | DocumentRule | SRG-OS-000480-GPOS-00227 |
+| V-93381 | Medium | DocumentRule | SRG-OS-000095-GPOS-00049 |
+| V-93437 | Medium | DocumentRule | SRG-OS-000104-GPOS-00051 |
+| V-93457 | Medium | DocumentRule | SRG-OS-000118-GPOS-00060 |
+| V-93487 | Medium | DocumentRule | SRG-OS-000066-GPOS-00034 |
+| V-93567 | Medium | DocumentRule | SRG-OS-000191-GPOS-00080 |
+| V-92975 | Medium | ManualRule | SRG-OS-000002-GPOS-00002 |
+| V-92977 | Medium | ManualRule | SRG-OS-000123-GPOS-00064 |
+| V-92993 | Low | ManualRule | SRG-OS-000080-GPOS-00048 |
+| V-93043 | High | ManualRule | SRG-OS-000324-GPOS-00125 |
+| V-93183 | Medium | ManualRule | SRG-OS-000342-GPOS-00133 |
+| V-93185 | Medium | ManualRule | SRG-OS-000479-GPOS-00224 |
+| V-93187 | Low | ManualRule | SRG-OS-000355-GPOS-00143 |
+| V-93203 | Medium | ManualRule | SRG-OS-000363-GPOS-00150 |
+| V-93205 | High | ManualRule | SRG-OS-000480-GPOS-00227 |
+| V-93207 | Medium | ManualRule | SRG-OS-000480-GPOS-00227 |
+| V-93209 | Medium | ManualRule | SRG-OS-000480-GPOS-00227 |
+| V-93213 | Medium | ManualRule | SRG-OS-000480-GPOS-00227 |
+| V-93223 | Medium | ManualRule | SRG-OS-000480-GPOS-00227 |
+| V-93225 | Medium | ManualRule | SRG-OS-000480-GPOS-00227 |
+| V-93229 | Low | ManualRule | SRG-OS-000480-GPOS-00227 |
+| V-93231 | Low | ManualRule | SRG-OS-000480-GPOS-00227 |
+| V-93369 | High | ManualRule | SRG-OS-000480-GPOS-00227 |
+| V-93379 | Medium | ManualRule | SRG-OS-000370-GPOS-00155 |
+| V-93439 | Medium | ManualRule | SRG-OS-000104-GPOS-00051 |
+| V-93461 | Medium | ManualRule | SRG-OS-000078-GPOS-00046 |
+| V-93473 | Medium | ManualRule | SRG-OS-000076-GPOS-00044 |
+| V-93475 | Medium | ManualRule | SRG-OS-000076-GPOS-00044 |
+| V-93489 | Medium | ManualRule | SRG-OS-000066-GPOS-00034 |
+| V-93491 | Medium | ManualRule | SRG-OS-000066-GPOS-00034 |
+| V-93515 | Medium | ManualRule | SRG-OS-000185-GPOS-00079 |
+| V-93531 | Medium | ManualRule | SRG-OS-000138-GPOS-00069 |
+| V-93543 | Medium | ManualRule | SRG-OS-000425-GPOS-00189 |
+| V-93227 | Medium | ManualRule | SRG-OS-000480-GPOS-00227 |

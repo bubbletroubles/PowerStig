@@ -10,46 +10,46 @@
 
 ## Automated Rules
 
-| StigRuleId | RuleType | DscResource | DuplicateOf |
-| :---- | :---- | :---- | :---- |
-| V-75147 | RegistryRule | RegistryPolicyFile |  |
-| V-75151 | RegistryRule | RegistryPolicyFile |  |
-| V-75153 | RegistryRule | RegistryPolicyFile |  |
-| V-75155 | RegistryRule | RegistryPolicyFile |  |
-| V-75157 | RegistryRule | RegistryPolicyFile |  |
-| V-75159 | RegistryRule | RegistryPolicyFile |  |
-| V-75161 | RegistryRule | RegistryPolicyFile |  |
-| V-75163 | RegistryRule | RegistryPolicyFile |  |
-| V-75167 | RegistryRule | RegistryPolicyFile |  |
-| V-75207 | RegistryRule | RegistryPolicyFile |  |
-| V-75209 | RegistryRule | RegistryPolicyFile |  |
-| V-75211 | RegistryRule | RegistryPolicyFile |  |
-| V-75213 | RegistryRule | RegistryPolicyFile |  |
-| V-75215 | RegistryRule | RegistryPolicyFile |  |
-| V-75217 | RegistryRule | RegistryPolicyFile |  |
-| V-75219 | RegistryRule | RegistryPolicyFile |  |
-| V-75221 | RegistryRule | RegistryPolicyFile |  |
-| V-75223 | RegistryRule | RegistryPolicyFile |  |
-| V-75225 | RegistryRule | RegistryPolicyFile |  |
-| V-75227 | RegistryRule | RegistryPolicyFile |  |
-| V-75229 | RegistryRule | RegistryPolicyFile |  |
-| V-75231 | RegistryRule | RegistryPolicyFile |  |
-| V-75233 | RegistryRule | RegistryPolicyFile |  |
-| V-75235 | RegistryRule | RegistryPolicyFile |  |
-| V-75237 | RegistryRule | RegistryPolicyFile |  |
-| V-75239 | RegistryRule | RegistryPolicyFile |  |
-| V-75241 | RegistryRule | RegistryPolicyFile |  |
-| V-75243 | RegistryRule | RegistryPolicyFile |  |
-| V-75245 | RegistryRule | RegistryPolicyFile |  |
-| V-75247 | RegistryRule | RegistryPolicyFile |  |
-| V-77965 | RegistryRule | RegistryPolicyFile |  |
-| V-77967 | RegistryRule | RegistryPolicyFile |  |
-| V-77969 | RegistryRule | RegistryPolicyFile |  |
-| V-77971 | RegistryRule | RegistryPolicyFile |  |
-| V-77973 | RegistryRule | RegistryPolicyFile |  |
-| V-77975 | RegistryRule | RegistryPolicyFile |  |
-| V-77977 | RegistryRule | RegistryPolicyFile |  |
-| V-77979 | RegistryRule | RegistryPolicyFile |  |
-| V-79965 | RegistryRule | RegistryPolicyFile |  |
-| V-79967 | RegistryRule | RegistryPolicyFile |  |
-| V-79971 | RegistryRule | RegistryPolicyFile |  |
+| StigRuleId | Severity | RuleType | DscResource | DuplicateOf | Title |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| V-75147 | High | RegistryRule | RegistryPolicyFile |  | SRG-APP-000279 |
+| V-75151 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000279 |
+| V-75153 | High | RegistryRule | RegistryPolicyFile |  | SRG-APP-000278 |
+| V-75155 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000278 |
+| V-75157 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000278 |
+| V-75159 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000278 |
+| V-75161 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-75163 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000278 |
+| V-75167 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-75207 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-75209 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000278 |
+| V-75211 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000112 |
+| V-75213 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000112 |
+| V-75215 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000209 |
+| V-75217 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-75219 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000278 |
+| V-75221 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000278 |
+| V-75223 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000278 |
+| V-75225 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000209 |
+| V-75227 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000278 |
+| V-75229 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-75231 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000278 |
+| V-75233 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000278 |
+| V-75235 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000073 |
+| V-75237 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000277 |
+| V-75239 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-75241 | High | RegistryRule | RegistryPolicyFile |  | SRG-APP-000276 |
+| V-75243 | High | RegistryRule | RegistryPolicyFile |  | SRG-APP-000276 |
+| V-75245 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000261 |
+| V-75247 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000207 |
+| V-77965 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-77967 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-77969 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-77971 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-77973 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-77975 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-77977 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-77979 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000210 |
+| V-79965 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000207 |
+| V-79967 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000207 |
+| V-79971 | Medium | RegistryRule | RegistryPolicyFile |  | SRG-APP-000207 |
