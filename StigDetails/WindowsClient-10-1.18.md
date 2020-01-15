@@ -11,7 +11,7 @@
 ## Automated Rules
 
 | StigRuleId | Severity | RuleType | DscResource | DuplicateOf |
-| :---- | :---- | :---- | :---- | :---- | :---- |
+| :---- | :---- | :---- | :---- | :---- |
 | V-63405 | Medium | AccountPolicyRule | AccountPolicy |  |
 | V-63409 | Medium | AccountPolicyRule | AccountPolicy |  |
 | V-63413 | Medium | AccountPolicyRule | AccountPolicy |  |
@@ -284,7 +284,7 @@
 ## Document / Manual Rules (Not Automated)
 
 | StigRuleId | Severity | RuleType |
-| :---- | :---- | :---- | :---- |
+| :---- | :---- | :---- |
 | V-63343 | Medium | DocumentRule |
 | V-63359 | Low | DocumentRule |
 | V-63365 | Medium | DocumentRule |

@@ -11,7 +11,7 @@
 ## Automated Rules
 
 | StigRuleId | Severity | RuleType | DscResource | DuplicateOf |
-| :---- | :---- | :---- | :---- | :---- | :---- |
+| :---- | :---- | :---- | :---- | :---- |
 | V-15768 | Medium | FileContentRule | ReplaceText |  |
 | V-15771 | Medium | FileContentRule | ReplaceText |  |
 | V-15772 | Medium | FileContentRule | ReplaceText |  |
@@ -34,7 +34,7 @@
 ## Document / Manual Rules (Not Automated)
 
 | StigRuleId | Severity | RuleType |
-| :---- | :---- | :---- | :---- |
+| :---- | :---- | :---- |
 | V-6318 | Medium | ManualRule |
 | V-15770 | Medium | ManualRule |
 | V-15773 | Medium | ManualRule |

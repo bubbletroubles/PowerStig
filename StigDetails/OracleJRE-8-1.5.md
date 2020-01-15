@@ -11,7 +11,7 @@
 ## Automated Rules
 
 | StigRuleId | Severity | RuleType | DscResource | DuplicateOf |
-| :---- | :---- | :---- | :---- | :---- | :---- |
+| :---- | :---- | :---- | :---- | :---- |
 | V-66723.a | Medium | FileContentRule | KeyValuePairFile |  |
 | V-66723.b | Medium | FileContentRule | KeyValuePairFile |  |
 | V-66941.a | Medium | FileContentRule | KeyValuePairFile |  |
@@ -36,7 +36,7 @@
 ## Document / Manual Rules (Not Automated)
 
 | StigRuleId | Severity | RuleType |
-| :---- | :---- | :---- | :---- |
+| :---- | :---- | :---- |
 | V-66939 | Medium | ManualRule |
 | V-66943 | Medium | ManualRule |
 | V-66957 | Medium | ManualRule |

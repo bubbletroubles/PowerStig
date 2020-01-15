@@ -11,14 +11,14 @@
 ## Automated Rules
 
 | StigRuleId | Severity | RuleType | DscResource | DuplicateOf |
-| :---- | :---- | :---- | :---- | :---- | :---- |
+| :---- | :---- | :---- | :---- | :---- |
 | V-30935 | Medium | RegistryRule | Registry |  |
 | V-81495 | Medium | RegistryRule | Registry |  |
 
 ## Document / Manual Rules (Not Automated)
 
 | StigRuleId | Severity | RuleType |
-| :---- | :---- | :---- | :---- |
+| :---- | :---- | :---- |
 | V-7055 | Medium | DocumentRule |
 | V-7069 | Medium | DocumentRule |
 | V-7061 | Medium | ManualRule |

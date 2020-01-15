@@ -11,7 +11,7 @@
 ## Automated Rules
 
 | StigRuleId | Severity | RuleType | DscResource | DuplicateOf |
-| :---- | :---- | :---- | :---- | :---- | :---- |
+| :---- | :---- | :---- | :---- | :---- |
 | V-40950 | Medium | PermissionRule | FileSystemAuditRuleEntry |  |
 | V-69169 | Medium | PermissionRule | FileSystemAuditRuleEntry |  |
 | V-40936 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
@@ -67,7 +67,7 @@
 ## Document / Manual Rules (Not Automated)
 
 | StigRuleId | Severity | RuleType |
-| :---- | :---- | :---- | :---- |
+| :---- | :---- | :---- |
 | V-40907 | High | DocumentRule |
 | V-40908 | Medium | DocumentRule |
 | V-40909 | Low | DocumentRule |

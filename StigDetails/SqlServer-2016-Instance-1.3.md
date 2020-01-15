@@ -11,7 +11,7 @@
 ## Automated Rules
 
 | StigRuleId | Severity | RuleType | DscResource | DuplicateOf |
-| :---- | :---- | :---- | :---- | :---- | :---- |
+| :---- | :---- | :---- | :---- | :---- |
 | V-79197 | Low | SecurityOptionRule | SecurityOption |  |
 | V-79141 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
 | V-79239 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
@@ -37,7 +37,7 @@
 ## Document / Manual Rules (Not Automated)
 
 | StigRuleId | Severity | RuleType |
-| :---- | :---- | :---- | :---- |
+| :---- | :---- | :---- |
 | V-79119 | Medium | DocumentRule |
 | V-79121 | Medium | DocumentRule |
 | V-79123 | Medium | DocumentRule |

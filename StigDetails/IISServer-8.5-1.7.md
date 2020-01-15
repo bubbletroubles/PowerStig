@@ -11,7 +11,7 @@
 ## Automated Rules
 
 | StigRuleId | Severity | RuleType | DscResource | DuplicateOf |
-| :---- | :---- | :---- | :---- | :---- | :---- |
+| :---- | :---- | :---- | :---- | :---- |
 | V-76681 | Medium | IisLoggingRule | xIISLogging |  |
 | V-76683 | Medium | IisLoggingRule | xIISLogging |  |
 | V-76687 | Medium | IisLoggingRule | xIISLogging |  |
@@ -45,7 +45,7 @@
 ## Document / Manual Rules (Not Automated)
 
 | StigRuleId | Severity | RuleType |
-| :---- | :---- | :---- | :---- |
+| :---- | :---- | :---- |
 | V-76679 | Medium | DocumentRule |
 | V-76699 | Medium | DocumentRule |
 | V-76701 | Medium | DocumentRule |

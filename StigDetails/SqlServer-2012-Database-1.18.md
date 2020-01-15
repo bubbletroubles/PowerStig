@@ -11,14 +11,14 @@
 ## Automated Rules
 
 | StigRuleId | Severity | RuleType | DscResource | DuplicateOf |
-| :---- | :---- | :---- | :---- | :---- | :---- |
+| :---- | :---- | :---- | :---- | :---- |
 | V-41402 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
 | V-41407 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
 
 ## Document / Manual Rules (Not Automated)
 
 | StigRuleId | Severity | RuleType |
-| :---- | :---- | :---- | :---- |
+| :---- | :---- | :---- |
 | V-41389 | Medium | DocumentRule |
 | V-41391 | Medium | DocumentRule |
 | V-41392 | Medium | DocumentRule |

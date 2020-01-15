@@ -11,7 +11,7 @@
 ## Automated Rules
 
 | StigRuleId | Severity | RuleType | DscResource | DuplicateOf |
-| :---- | :---- | :---- | :---- | :---- | :---- |
+| :---- | :---- | :---- | :---- | :---- |
 | V-58615 | Medium | DnsServerRootHintRule | Script |  |
 | V-58543 | Medium | DnsServerSettingRule | xDnsServerSetting |  |
 | V-58549 | Medium | DnsServerSettingRule | None | V-58543 |
@@ -37,7 +37,7 @@
 ## Document / Manual Rules (Not Automated)
 
 | StigRuleId | Severity | RuleType |
-| :---- | :---- | :---- | :---- |
+| :---- | :---- | :---- |
 | V-58547 | Medium | DocumentRule |
 | V-58619 | Medium | DocumentRule |
 | V-58621 | Medium | DocumentRule |

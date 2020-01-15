@@ -11,7 +11,7 @@
 ## Automated Rules
 
 | StigRuleId | Severity | RuleType | DscResource | DuplicateOf |
-| :---- | :---- | :---- | :---- | :---- | :---- |
+| :---- | :---- | :---- | :---- | :---- |
 | V-70641 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-70643 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-70645 | Medium | RegistryRule | RegistryPolicyFile |  |

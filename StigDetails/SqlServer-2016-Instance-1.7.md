@@ -11,7 +11,7 @@
 ## Automated Rules
 
 | StigRuleId | Severity | RuleType | DscResource | DuplicateOf |
-| :---- | :---- | :---- | :---- | :---- | :---- |
+| :---- | :---- | :---- | :---- | :---- |
 | V-97521.a | Medium | RegistryRule | Registry |  |
 | V-97521.b | Medium | RegistryRule | Registry |  |
 | V-97521.c | Medium | RegistryRule | Registry |  |
@@ -53,7 +53,7 @@
 ## Document / Manual Rules (Not Automated)
 
 | StigRuleId | Severity | RuleType |
-| :---- | :---- | :---- | :---- |
+| :---- | :---- | :---- |
 | V-79119 | Medium | DocumentRule |
 | V-79121 | Medium | DocumentRule |
 | V-79123 | Medium | DocumentRule |
