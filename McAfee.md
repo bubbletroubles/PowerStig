@@ -25,9 +25,7 @@ None
 ```PowerShell
 <#
     Use the embedded STIG data with default range values to apply the most recent STIG settings.
-    In this example, the composite resource gets the highest 2012 R2 member server STIG version
-    file it can find locally and applies it to the server. The composite resource merges in the
-    default values for any settings that have a valid range.
+    The composite resource merges in the default values for any settings that have a valid range.
 #>
 configuration Example
 {
@@ -59,7 +57,7 @@ Example
 ```PowerShell
 <#
     Use embedded STIG data and inject exception data.
-    In this example, the Windows Server 2012R2 V2 R8 domain controller STIG is
+    In this example, the McAfee VirusScan STIG is
     processed by the composite resource and merges in the default values for any
     settings that have a valid range. Additionally, an exception is added inline
     to the configuration, so that the setting in STIG ID V-1075 would be over
@@ -96,7 +94,7 @@ Example
 ```PowerShell
 <#
     Provide an organizational range xml file to merge into the main STIG settings.
-    In this example, the Windows Server 2012R2 member server STIG is processed
+    In this example, the Mcafee VirusScan STIG is processed
     by the composite resource. Instead of merging in the default values for any settings
     that have a valid range, the organization has provided a list of values to merge
     into the valid ranges.
@@ -152,7 +150,7 @@ Example
 ```PowerShell
 <#
     Use embedded STIG data and inject a skipped rule. In this example,
-    the Windows Server 2012R2 V2 R8 domain controller STIG is processed
+    the Mcafee VirusScan STIG is processed
     by the composite resource and merges in the default values for any
     settings that have a valid range. Additionally, a skip is added
     inline to the configuration, so that the setting in STIG ID V-1075
@@ -184,7 +182,7 @@ configuration Example
 Example
 ```
 ## Managing a System with DSC while "On Access Protection" is enabled 
-The Virus Scan STIG enables "On Accesss Protection", which in turn disables DSC's ability to make changes to McAfee keys in the registry. In order to maintain/change settings in the registry with DSC, a modification must be made to the Access Protection settings within the virus scan console.
+The VirusScan STIG enables "On Accesss Protection", which in turn disables DSC's ability to make changes to McAfee keys in the registry. In order to maintain/change settings in the registry with DSC, a modification must be made to the Access Protection settings within the VirusScan console.
 
 * Open Virus Console and Navigate to right-click on "Access Protection"
 
