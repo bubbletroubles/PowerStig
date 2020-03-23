@@ -11,6 +11,7 @@
   * [WindowsDnsServer][windowsdnsserver]
   * [WindowsFirewall][windowsfirewall]
   * [WindowsServer][windowsserver]
+  * [McAfee][McAfee]
 * [Document Module][document]
 * [PowerSTIG Archive Log][powerstigarchivelog]
   * [HardCodedRule Examples][hardcodedexamples]
@@ -30,6 +31,7 @@
 [windowsdnsserver]:       https://github.com/Microsoft/PowerStig/wiki/WindowsDnsServer
 [windowsfirewall]:        https://github.com/Microsoft/PowerStig/wiki/WindowsFirewall
 [windowsserver]:          https://github.com/Microsoft/PowerStig/wiki/WindowsServer
+[mcafee]:                 https://github.com/Microsoft/PowerStig/wiki/Mcafee
 [document]:               https://github.com/Microsoft/PowerStig/wiki/Document
 [powerstigarchivelog]:    https://github.com/Microsoft/PowerStig/wiki/PowerSTIGArchiveLog
 [hardcodedexamples]:      https://github.com/Microsoft/PowerStig/wiki/PowerSTIGArchiveLog#HardCodedRule-Examples
