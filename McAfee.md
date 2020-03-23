@@ -12,7 +12,7 @@ None
 | --------- | --------- | -------- | ----------- | -------------- |
 | TechnologyRole | True | String | The role of the Mcafee technology STIG to apply and monitor | VirusScan |
 | Version | True | String | The version number of the McAfee technology | 8.8 |
-| StigVersion | False | Version | Uses the OsVersion and OsRole to select the version of the STIG to apply and monitor. If this parameter is not provided, the most recent version of the STIG is automatically selected. | 2.12,2.13 |
+| StigVersion | False | Version | If this parameter is not provided, the most recent version of the STIG is automatically selected. | 5.16 |
 | Exception | False | PSObject | A hashtable of @{StigId = @{Property = 'Value'}} that is injected into the STIG data and applied to the target node. |  |
 | OrgSettings | False | PSObject | The path to the xml file that contains the local organizations preferred settings for STIG items that have allowable ranges. |  |
 | SkipRule | False | PSObject | The SkipRule Node is injected into the STIG data and applied to the taget node. The title of STIG settings are tagged with the text 'Skip' to identify the skips to policy across the data center when you centralize DSC log collection. |  |
@@ -83,7 +83,7 @@ configuration Example
         {
             TechnologyRole = 'VirusScan'
             Version        = '8.8'
-            Exception      = @{'V-14621'= @{'VSIDBlockOnNonVirus'='0'} }
+            Exception      = @{'V-14621'= @{ValueData ='0'} }
         }
     }
 }
@@ -137,7 +137,7 @@ configuration Example
         {
             TechnologyRole = 'VirusScan'
             Version        = '8.8'
-            OrgSettings = "$PSScriptRoot\orgsettings.xml"
+            OrgSettings    = "$PSScriptRoot\orgsettings.xml"
         }
     }
 }
@@ -176,7 +176,7 @@ configuration Example
         {
             TechnologyRole = 'VirusScan'
             Version        = '8.8'
-            SkipRule    = 'V-14620'
+            SkipRule       = 'V-14620'
         }
     }
 }
