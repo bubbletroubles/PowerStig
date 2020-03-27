@@ -1,21 +1,37 @@
-# [MS SQL Server 2016 Instance STIG, Version 1.3](https://github.com/Microsoft/PowerStig/wiki/SqlServer-2016-Instance-1.3)
+# [MS SQL Server 2016 Instance STIG, Version 1.8](https://github.com/Microsoft/PowerStig/wiki/SqlServer-2016-Instance-1.8)
 
 **Title:** MS SQL Server 2016 Instance Security Technical Implementation Guide  
 **Version:** 1  
-**Release:** Release: 3 Benchmark Date: 26 Oct 2018  
-**FileName:** U_MS_SQL_Server_2016_Instance_STIG_V1R3_Manual-xccdf.xml  
-**Created:** 11/22/2019  
+**Release:** Release: 8 Benchmark Date: 24 Jan 2020  
+**FileName:** U_MS_SQL_Server_2016_Instance_STIG_V1R8_Manual-xccdf.xml  
+**Created:** 3/2/2020  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **21** of **119** rules are automated; **18%**
+**Total Stig Rule Coverage:** **37** of **133** rules are automated; **28.000000000000004%**
 
 * **High (CAT I):** **0** of **8** rules are automated
-* **Medium (CAT II):** **20** of **108** rules are automated
+* **Medium (CAT II):** **36** of **122** rules are automated
 * **Low (CAT III):** **1** of **3** rules are automated
 
 ## Automated Rules
 
 | StigRuleId | Severity | RuleType | DscResource | DuplicateOf |
 | :---- | :---- | :---- | :---- | :---- |
+| V-97521.a | Medium | RegistryRule | Registry |  |
+| V-97521.b | Medium | RegistryRule | Registry |  |
+| V-97521.c | Medium | RegistryRule | Registry |  |
+| V-97521.d | Medium | RegistryRule | Registry |  |
+| V-97521.e | Medium | RegistryRule | Registry |  |
+| V-97521.f | Medium | RegistryRule | Registry |  |
+| V-97521.g | Medium | RegistryRule | Registry |  |
+| V-97521.h | Medium | RegistryRule | Registry |  |
+| V-97521.i | Medium | RegistryRule | Registry |  |
+| V-97521.j | Medium | RegistryRule | Registry |  |
+| V-97521.k | Medium | RegistryRule | Registry |  |
+| V-97521.l | Medium | RegistryRule | Registry |  |
+| V-97521.m | Medium | RegistryRule | Registry |  |
+| V-97521.n | Medium | RegistryRule | Registry |  |
+| V-97521.o | Medium | RegistryRule | Registry |  |
+| V-97521.p | Medium | RegistryRule | Registry |  |
 | V-79197 | Low | SecurityOptionRule | SecurityOption |  |
 | V-79141 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
 | V-79239 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
@@ -32,8 +48,8 @@
 | V-79287 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
 | V-79289 | Medium | SqlScriptQueryRule | None | V-79141 |
 | V-79291 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-79293 | Medium | SqlScriptQueryRule | None | V-79291 |
-| V-79295 | Medium | SqlScriptQueryRule | None | V-79291 |
+| V-79293 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-79295 | Medium | SqlScriptQueryRule | None | V-79293 |
 | V-79297 | Medium | SqlScriptQueryRule | None | V-79141 |
 | V-79317 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
 | V-79319 | Medium | SqlScriptQueryRule | None | V-79317 |
@@ -51,7 +67,6 @@
 | V-79135 | Medium | DocumentRule |
 | V-79137 | Medium | DocumentRule |
 | V-79139 | Medium | DocumentRule |
-| V-79143 | Medium | DocumentRule |
 | V-79145 | Medium | DocumentRule |
 | V-79147 | Medium | DocumentRule |
 | V-79149 | Medium | DocumentRule |
@@ -106,7 +121,6 @@
 | V-79325 | Medium | DocumentRule |
 | V-79327 | Medium | DocumentRule |
 | V-79329 | Medium | DocumentRule |
-| V-79331 | Medium | DocumentRule |
 | V-79333 | Medium | DocumentRule |
 | V-79335 | Medium | DocumentRule |
 | V-79337 | Medium | DocumentRule |

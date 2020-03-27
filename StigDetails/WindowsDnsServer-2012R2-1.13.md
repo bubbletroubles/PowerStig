@@ -1,15 +1,15 @@
-# [Microsoft Windows 2012 Server Domain Name System STIG, Version 1.11](https://github.com/Microsoft/PowerStig/wiki/WindowsDnsServer-2012R2-1.11)
+# [Microsoft Windows 2012 Server Domain Name System STIG, Version 1.13](https://github.com/Microsoft/PowerStig/wiki/WindowsDnsServer-2012R2-1.13)
 
 **Title:** Microsoft Windows 2012 Server Domain Name System Security Technical Implementation Guide  
 **Version:** 1  
-**Release:** Release: 11 Benchmark Date: 25 Jan 2019  
-**FileName:** U_MS_Windows_2012_Server_DNS_STIG_V1R11_Manual-xccdf.xml  
-**Created:** 7/19/2019  
+**Release:** Release: 13 Benchmark Date: 24 Jan 2020  
+**FileName:** U_Microsoft_Windows_2012_Server_DNS_V1R13_Manual-xccdf.xml  
+**Created:** 2/25/2020  
 **Description:** The Microsoft Windows 2012 Server Domain Name System Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **21** of **93** rules are automated; **23%**
+**Total Stig Rule Coverage:** **22** of **93** rules are automated; **24%**
 
 * **High (CAT I):** **0** of **3** rules are automated
-* **Medium (CAT II):** **21** of **90** rules are automated
+* **Medium (CAT II):** **22** of **90** rules are automated
 * **Low (CAT III):** **0** of **0** rules are automated
 
 ## Automated Rules
@@ -25,6 +25,7 @@
 | V-58641 | Medium | PermissionRule | NTFSAccessEntry |  |
 | V-58643 | Medium | PermissionRule | None | V-58641 |
 | V-58645 | Medium | PermissionRule | None | V-58641 |
+| V-58627 | Medium | RegistryRule | Registry |  |
 | V-58553.b | Medium | UserRightRule | UserRightsAssignment |  |
 | V-58697.a | Medium | UserRightRule | UserRightsAssignment |  |
 | V-58697.b | Medium | UserRightRule | UserRightsAssignment |  |
@@ -76,7 +77,6 @@
 | V-58617 | Medium | ManualRule |
 | V-58623 | Medium | ManualRule |
 | V-58625 | Medium | ManualRule |
-| V-58627 | Medium | ManualRule |
 | V-58629 | Medium | ManualRule |
 | V-58631 | Medium | ManualRule |
 | V-58633 | Medium | ManualRule |

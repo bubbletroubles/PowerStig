@@ -4,28 +4,30 @@
 **Version:** 1  
 **Release:** Release: 9 Benchmark Date: 25 Oct 2019  
 **FileName:** U_MS_DotNet_Framework_4-0_STIG_V1R9_Manual-xccdf.xml  
-**Created:** 11/18/2019  
+**Created:** 3/23/2020  
 **Description:** Applicable to systems and applications utilizing the Microsoft .Net version 4.0 framework.  
-**Total Stig Rule Coverage:** **2** of **16** rules are automated; **12%**
+**Total Stig Rule Coverage:** **6** of **18** rules are automated; **33%**
 
 * **High (CAT I):** **0** of **0** rules are automated
-* **Medium (CAT II):** **2** of **14** rules are automated
+* **Medium (CAT II):** **6** of **16** rules are automated
 * **Low (CAT III):** **0** of **2** rules are automated
 
 ## Automated Rules
 
 | StigRuleId | Severity | RuleType | DscResource | DuplicateOf |
 | :---- | :---- | :---- | :---- | :---- |
-| V-30935 | Medium | RegistryRule | Registry |  |
-| V-81495 | Medium | RegistryRule | Registry |  |
+| V-7055 | Medium | RegistryRule | Registry |  |
+| V-7061 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-30935.a | Medium | RegistryRule | Registry |  |
+| V-30935.b | Medium | RegistryRule | Registry |  |
+| V-81495.a | Medium | RegistryRule | Registry |  |
+| V-81495.b | Medium | RegistryRule | Registry |  |
 
 ## Document / Manual Rules (Not Automated)
 
 | StigRuleId | Severity | RuleType |
 | :---- | :---- | :---- |
-| V-7055 | Medium | DocumentRule |
 | V-7069 | Medium | DocumentRule |
-| V-7061 | Medium | ManualRule |
 | V-7063 | Medium | ManualRule |
 | V-7067 | Medium | ManualRule |
 | V-7070 | Medium | ManualRule |

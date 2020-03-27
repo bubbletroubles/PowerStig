@@ -1,16 +1,16 @@
-# [Windows Server 2016 MS STIG, Version 1.8](https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2016-MS-1.8)
+# [Windows Server 2016 MS STIG, Version 1.10](https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2016-MS-1.10)
 
 **Title:** Windows Server 2016 Security Technical Implementation Guide  
 **Version:** 1  
-**Release:** Release: 8 Benchmark Date: 26 Apr 2019  
-**FileName:** U_MS_Windows_Server_2016_MS_STIG_V1R8_Manual-xccdf.xml  
-**Created:** 9/6/2019  
+**Release:** Release: 10 Benchmark Date: 24 Jan 2020  
+**FileName:** U_MS_Windows_Server_2016_MS_STIG_V1R10_Manual-xccdf.xml  
+**Created:** 2/26/2020  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **199** of **237** rules are automated; **84%**
+**Total Stig Rule Coverage:** **197** of **234** rules are automated; **84%**
 
-* **High (CAT I):** **19** of **23** rules are automated
-* **Medium (CAT II):** **168** of **197** rules are automated
-* **Low (CAT III):** **12** of **17** rules are automated
+* **High (CAT I):** **20** of **24** rules are automated
+* **Medium (CAT II):** **169** of **198** rules are automated
+* **Low (CAT III):** **8** of **12** rules are automated
 
 ## Automated Rules
 
@@ -83,10 +83,9 @@
 | V-73509.a | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-73509.b | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-73511 | Medium | RegistryRule | RegistryPolicyFile |  |
-| V-73513.a | Low | RegistryRule | RegistryPolicyFile |  |
-| V-73513.b | Low | RegistryRule | RegistryPolicyFile |  |
-| V-73515 | Low | RegistryRule | RegistryPolicyFile |  |
-| V-73517 | Low | RegistryRule | RegistryPolicyFile |  |
+| V-73513.a | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-73513.b | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-73515 | High | RegistryRule | RegistryPolicyFile |  |
 | V-73521 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-73525 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-73527 | Medium | RegistryRule | RegistryPolicyFile |  |
@@ -178,7 +177,6 @@
 | V-73665 | High | SecurityOptionRule | SecurityOption |  |
 | V-73809 | Medium | SecurityOptionRule | SecurityOption |  |
 | V-73729 | Medium | UserRightRule | UserRightsAssignment |  |
-| V-73731 | Medium | UserRightRule | None | V-73729 |
 | V-73733 | Medium | UserRightRule | UserRightsAssignment |  |
 | V-73735 | High | UserRightRule | UserRightsAssignment |  |
 | V-73739 | Medium | UserRightRule | UserRightsAssignment |  |
@@ -226,6 +224,7 @@
 | V-73259 | Medium | DocumentRule |
 | V-73271 | Medium | DocumentRule |
 | V-73277 | Medium | DocumentRule |
+| V-73281 | Medium | DocumentRule |
 | V-73605 | Medium | DocumentRule |
 | V-73217 | High | ManualRule |
 | V-73221 | High | ManualRule |
@@ -235,7 +234,7 @@
 | V-73229 | Medium | ManualRule |
 | V-73231 | Medium | ManualRule |
 | V-73235 | Medium | ManualRule |
-| V-73237 | Low | ManualRule |
+| V-73237 | Medium | ManualRule |
 | V-73241 | High | ManualRule |
 | V-73261 | Medium | ManualRule |
 | V-73263 | Medium | ManualRule |
@@ -244,7 +243,6 @@
 | V-73273 | Medium | ManualRule |
 | V-73275 | Medium | ManualRule |
 | V-73279 | Medium | ManualRule |
-| V-73281 | Medium | ManualRule |
 | V-73283 | Medium | ManualRule |
 | V-73285 | Medium | ManualRule |
 | V-73303 | Medium | ManualRule |
@@ -256,5 +254,4 @@
 | V-73609 | Medium | ManualRule |
 | V-90355 | Low | ManualRule |
 | V-90357 | Low | ManualRule |
-| V-91779 | Medium | ManualRule |
 | V-78127 | Medium | ManualRule |

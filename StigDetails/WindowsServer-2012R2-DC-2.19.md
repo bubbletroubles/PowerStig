@@ -1,10 +1,10 @@
-# [Windows 2012 DC STIG, Version 2.17](https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2012R2-DC-2.17)
+# [Windows 2012 DC STIG, Version 2.19](https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2012R2-DC-2.19)
 
 **Title:** Windows Server 2012/2012 R2 Domain Controller Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 17 Benchmark Date: 26 Jul 2019  
-**FileName:** U_MS_Windows_2012_and_2012_R2_DC_STIG_V2R17_Manual-xccdf.xml  
-**Created:** 12/17/2019  
+**Release:** Release: 19 Benchmark Date: 24 Jan 2020  
+**FileName:** U_MS_Windows_2012_and_2012_R2_DC_STIG_V2R19_Manual-xccdf.xml  
+**Created:** 2/25/2020  
 **Description:** The Windows Server 2012/2012 R2 Domain Controller Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **325** of **393** rules are automated; **83%**
 
@@ -350,6 +350,7 @@
 | V-1112 | Low | DocumentRule |
 | V-1120 | Medium | DocumentRule |
 | V-1121 | High | DocumentRule |
+| V-1135 | Low | DocumentRule |
 | V-1168 | Medium | DocumentRule |
 | V-3289 | Medium | DocumentRule |
 | V-3487 | Medium | DocumentRule |
@@ -369,7 +370,6 @@
 | V-1119 | Medium | ManualRule |
 | V-1127 | High | ManualRule |
 | V-1128 | Low | ManualRule |
-| V-1135 | Low | ManualRule |
 | V-2907 | Medium | ManualRule |
 | V-3245 | Medium | ManualRule |
 | V-3472 | Low | ManualRule |

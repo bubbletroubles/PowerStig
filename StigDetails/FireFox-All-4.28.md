@@ -1,16 +1,16 @@
-# [Mozilla FireFox STIG, Version 4.26](https://github.com/Microsoft/PowerStig/wiki/FireFox-All-4.26)
+# [Mozilla FireFox STIG, Version 4.28](https://github.com/Microsoft/PowerStig/wiki/FireFox-All-4.28)
 
 **Title:** Mozilla FireFox Security Technical Implementation Guide  
 **Version:** 4  
-**Release:** Release: 26 Benchmark Date: 26 Jul 2019  
-**FileName:** U_Mozilla_FireFox_STIG_V4R26_Manual-xccdf.xml  
-**Created:** 8/8/2019  
+**Release:** Release: 28 Benchmark Date: 24 Jan 2020  
+**FileName:** U_Mozilla_FireFox_V4R28_Manual-xccdf.xml  
+**Created:** 2/24/2020  
 **Description:** The Mozilla FireFox Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil  
-**Total Stig Rule Coverage:** **18** of **23** rules are automated; **78%**
+**Total Stig Rule Coverage:** **17** of **22** rules are automated; **77%**
 
 * **High (CAT I):** **0** of **1** rules are automated
-* **Medium (CAT II):** **18** of **22** rules are automated
-* **Low (CAT III):** **0** of **0** rules are automated
+* **Medium (CAT II):** **16** of **20** rules are automated
+* **Low (CAT III):** **1** of **1** rules are automated
 
 ## Automated Rules
 
@@ -31,9 +31,8 @@
 | V-19742 | Medium | FileContentRule | ReplaceText |  |
 | V-19744 | Medium | FileContentRule | ReplaceText |  |
 | V-64891 | Medium | FileContentRule | ReplaceText |  |
-| V-79053.a | Medium | FileContentRule | ReplaceText |  |
-| V-79053.b | Medium | FileContentRule | ReplaceText |  |
-| V-79053.c | Medium | FileContentRule | ReplaceText |  |
+| V-79053 | Medium | FileContentRule | ReplaceText |  |
+| V-97529 | Low | FileContentRule | ReplaceText |  |
 
 ## Document / Manual Rules (Not Automated)
 

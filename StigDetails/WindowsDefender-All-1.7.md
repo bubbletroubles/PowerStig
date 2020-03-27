@@ -1,10 +1,10 @@
-# [Windows Defender Antivirus, Version 1.5](https://github.com/Microsoft/PowerStig/wiki/WindowsDefender-All-1.5)
+# [Windows Defender Antivirus, Version 1.7](https://github.com/Microsoft/PowerStig/wiki/WindowsDefender-All-1.7)
 
 **Title:** MS Windows Defender Antivirus Security Technical Implementation Guide  
 **Version:** 1  
-**Release:** Release: 5 Benchmark Date: 26 Apr 2019  
-**FileName:** U_MS_Windows_Defender_Antivirus_STIG_V1R5_Manual-xccdf.xml  
-**Created:** 12/5/2019  
+**Release:** Release: 7 Benchmark Date: 24 Jan 2020  
+**FileName:** U_MS_Windows_Defender_Antivirus_STIG_V1R7_Manual-xccdf.xml  
+**Created:** 2/24/2020  
 **Description:** The Windows Defender Antivirus Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be send via e-mail to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **41** of **41** rules are automated; **100%**
 
