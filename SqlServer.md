@@ -48,7 +48,6 @@ configuration Example
         {
             SqlVersion     = '2012'
             SqlRole        = 'Instance'
-            StigVersion    = '1.17'
             ServerInstance = 'ServerX\TestInstance'
         }
     }
@@ -86,7 +85,6 @@ configuration Example
         {
             SqlVersion     = '2012'
             SqlRole        = 'Instance'
-            StigVersion    = '1.17'
             ServerInstance = 'ServerX\TestInstance'
             Exception      = @{'V-40942'= @{'GetScript'="SELECT name from sysdatabases where name like 'DefaultDataBase'"} }
         }
@@ -123,7 +121,6 @@ configuration Example
         {
             SqlVersion     = '2012'
             SqlRole        = 'Instance'
-            StigVersion    = '1.16'
             ServerInstance = 'ServerX\TestInstance'
             SkipRuleType   = 'SqlScriptQueryRule'
         }
