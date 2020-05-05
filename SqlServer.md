@@ -12,7 +12,7 @@ None
 | --------- | --------- | -------- | ----------- | -------------- |
 | SqlVersion | True | String | The version of SQL being used E.g. 'Server2012' | 2012 |
 | SqlRole | True | String | There are two STIGs that cover the scope of SQL. SQL Instance covers each instance of SQL on a server SQL Database covers each Database within an Instance. | Database,Instance |
-| StigVersion | False | Version | The version of the SQL STIG to apply and/or monitor | 1.16,1.17 |
+| StigVersion | False | Version | The version of the SQL STIG to apply and/or monitor | [See STIG Coverage Summary](https://github.com/Microsoft/PowerStig/wiki/StigCoverageSummary) |
 | ServerInstance | True | String[] | The name of the SQL Instance that the STIG data will be applied to. To define a specific Instance you must use the following format: "ComputerName\InstanceName" If you want to use the default instance, you only need to use the hosting computer name. |  |
 | Database | False | String[] | The Name of the database that you would like to be applied to. This parameter is only used for the SQL Database STIG. |  |
 | Exception | False | PSObject | A hashtable of @{StigId = @{Property = 'Value'}} that is injected into the STIG data and applied to the target node. |  |
