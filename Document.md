@@ -25,11 +25,10 @@ Once a configuration is deployed to a server, you can generate checklists direct
 
 ```powershell
 $DscResults = Test-DsCconfiguration -ComputerName localhost -Detailed
-$ReferenceConfiguration = ".\reference.mof"
 $XccdfPath  = '.\U_Windows_2012_and_2012_R2_MS_STIG_V2R12_Manual-xccdf.xml'
 $outputPath = ".\checklist.ckl"
 
-New-StigCheckList -ReferenceConfiguration $ReferenceConfiguration -DscResult $DscResults -XccdfPath $XccdfPath -OutputPath $outputPath
+New-StigCheckList -DscResult $DscResults -XccdfPath $XccdfPath -OutputPath $outputPath
 ```
 
 If you have any feedback on how this should or could work, please open a issue and share your ideas.
