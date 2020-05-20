@@ -42,7 +42,7 @@ configuration Example
     {
         Mcafee BaseLine
         {
-            TechnlogyRole = 'VirusScan'
+            TechnologyRole = 'VirusScan'
             Version       = '8.8'
             StigVersion   = '5.16'
         }
@@ -181,7 +181,7 @@ configuration Example
 
 Example
 ```
-## Managing a System with DSC while "On Access Protection" is enabled 
+## Managing a System with DSC while "On Access Protection" is enabled
 The VirusScan STIG enables "On Accesss Protection", which in turn disables DSC's ability to make changes to McAfee keys in the registry. In order to maintain/change settings in the registry with DSC, a modification must be made to the Access Protection settings within the VirusScan console.
 
 * Open Virus Console and Navigate to right-click on "Access Protection"
