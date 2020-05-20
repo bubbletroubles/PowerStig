@@ -58,8 +58,7 @@ An organizational setting allows each customer to define a specific value (withi
 This list of organizational settings should be centrally stored and all configurations for the enterprise can/should reference it.
 By centrally storing a list of (IA approved) organizational settings, each server/service owner will have one less thing to manage.
 Organizational settings are provided to a configuration as an input parameter.
-If a value is provided to a configuration that is outside of the valid range, PowerSTIG will detect it and throw an error.
-If you still need to configure a rule that is outside of a valid range, you can configure an exception to the rule.
+Some values are intentionally left blank from the organization values to allow individuals to provide custom data input. If organizations do not provide the values in the organizational settings, the rule will be skipped by default.
 For more information and examples of how to use organizational settings, please see [here][CompositeResourcesOrganizationalSettings].
 
 ### Exception
