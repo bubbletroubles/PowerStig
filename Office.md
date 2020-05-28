@@ -10,7 +10,7 @@ None
 
 | Parameter | Attribute | DataType | Description | Allowed Values |
 | --------- | --------- | -------- | ----------- | -------------- |
-| Office | True | String | The version of the Office STIG to apply and monitor | Excel2013, Office2013, PowerPoint2013, Word2013 |
+| Office | True | String | The version of the Office STIG to apply and monitor | Excel2013, Office2013, PowerPoint2013, Word2013, System2013, Visio2013, Excel2016, Office2016, PowerPoint2016, Word2016, System2016, Visio2016 |
 | StigVersion | False | Version | The version of the Office STIG to apply and/or monitor | 1.6, 1.7, 1.12 |
 | Exception | False | PSObject | A hashtable of @{StigId = @{Property = 'Value'}} that is injected into the STIG data and applied to the target node. |  |
 | OrgSettings | False | PSObject | The path to the XML file that contains the local organizations preferred settings for STIG items that have allowable ranges. |  |
@@ -35,7 +35,7 @@ Configuration Office2013
         $NodeName = 'localhost'
     )
 
-    Import-DscResource -ModuleName PowerStig -ModuleVersion 2.1.0.0
+    Import-DscResource -ModuleName PowerStig
 
     Node $NodeName
     {
@@ -46,5 +46,5 @@ Configuration Office2013
         }
     }
 }
-Example
+Office2013
 ```
