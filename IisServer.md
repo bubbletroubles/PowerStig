@@ -44,8 +44,8 @@ configuration Example
     {
         IisServer BaseLine
         {
-            IIsVersion   = '10.0'
-            LogPath = 'C:\logs'
+            IIsVersion = '10.0'
+            LogPath    = 'C:\logs'
         }
     }
 }

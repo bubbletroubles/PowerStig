@@ -45,9 +45,9 @@ configuration Example
     {
         IisSite BaseLine
         {
-            IIsVersion   = '10.0'
+            IIsVersion  = '10.0'
             WebsiteName = 'Test'
-            WebAppPool = 'TestPool'
+            WebAppPool  = 'TestPool'
         }
     }
 }
