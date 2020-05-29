@@ -13,6 +13,7 @@
   * [WindowsServer][windowsserver]
   * [McAfee][McAfee]
   * [IisServer][IisServer]
+  * [IisSite][IisSite]
 * [Document Module][document]
 * [PowerSTIG Archive Log][powerstigarchivelog]
   * [HardCodedRule Examples][hardcodedexamples]
@@ -34,6 +35,7 @@
 [windowsserver]:          https://github.com/Microsoft/PowerStig/wiki/WindowsServer
 [mcafee]:                 https://github.com/Microsoft/PowerStig/wiki/Mcafee
 [IisServer]:              https://github.com/Microsoft/PowerStig/wiki/IisServer
+[IisSite]:                https://github.com/Microsoft/PowerStig/wiki/IisSite
 [document]:               https://github.com/Microsoft/PowerStig/wiki/Document
 [powerstigarchivelog]:    https://github.com/Microsoft/PowerStig/wiki/PowerSTIGArchiveLog
 [hardcodedexamples]:      https://github.com/Microsoft/PowerStig/wiki/PowerSTIGArchiveLog#HardCodedRule-Examples
