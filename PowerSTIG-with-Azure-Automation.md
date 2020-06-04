@@ -30,7 +30,7 @@ PowerSTIG (3.3.0) has several modules dependenies that will need to be imported 
 
 The following PowerShell will script will import the PowerSTIG dependencies into an existing Azure Automation environment. For more informationon how to install PowerSTIG please reference: https://github.com/microsoft/PowerStig 
 
-**Note:** PowerSTIG requires a number of dependent DSC modules, and the version of theses modules will most likely change over time.  To ensure you have the correct required modules run this code
+**Note:** PowerSTIG requires a number of dependent DSC modules, and the version of theses modules will most likely change over time.  To ensure you have the correct required modules run this code. **If the modules fail to load, please run this script a second time. **
 
 ```powershell
 [CmdletBinding()] 
