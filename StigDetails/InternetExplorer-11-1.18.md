@@ -4,7 +4,7 @@
 **Version:** 1  
 **Release:** Release: 18 Benchmark Date: 25 Oct 2019  
 **FileName:** U_MS_IE11_STIG_V1R18_Manual-xccdf.xml  
-**Created:** 12/5/2019  
+**Created:** 6/12/2020  
 **Description:** The Microsoft Internet Explorer 11 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil  
 **Total Stig Rule Coverage:** **139** of **139** rules are automated; **100%**
 

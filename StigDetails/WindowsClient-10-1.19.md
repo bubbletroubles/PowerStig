@@ -4,12 +4,12 @@
 **Version:** 1  
 **Release:** Release: 19 Benchmark Date: 25 Oct 2019  
 **FileName:** U_MS_Windows_10_STIG_V1R19_Manual-xccdf.xml  
-**Created:** 11/18/2019  
+**Created:** 6/17/2020  
 **Description:** The Windows 10 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **268** of **298** rules are automated; **90%**
+**Total Stig Rule Coverage:** **243** of **296** rules are automated; **82%**
 
 * **High (CAT I):** **22** of **26** rules are automated
-* **Medium (CAT II):** **229** of **251** rules are automated
+* **Medium (CAT II):** **204** of **249** rules are automated
 * **Low (CAT III):** **17** of **21** rules are automated
 
 ## Automated Rules
@@ -76,32 +76,7 @@
 | V-77097 | Medium | ProcessMitigationRule | ProcessMitigation |  |
 | V-77101 | Medium | ProcessMitigationRule | ProcessMitigation |  |
 | V-77103 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-77189 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-77191 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-77195 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-77201 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-77205 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-77209 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-77213 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-77217 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-77221 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-77223.a | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-77223.b | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-77223.c | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-77227 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-77231 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-77233 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-77235 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-77239 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-77243 | Medium | ProcessMitigationRule | ProcessMitigation |  |
 | V-77245 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-77247 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-77249 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-77255 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-77259 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-77263 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-77267 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-77269 | Medium | ProcessMitigationRule | ProcessMitigation |  |
 | V-63321 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-63325 | High | RegistryRule | RegistryPolicyFile |  |
 | V-63329 | Medium | RegistryRule | RegistryPolicyFile |  |
@@ -295,6 +270,29 @@
 | V-63393 | Medium | DocumentRule |
 | V-63579 | Medium | DocumentRule |
 | V-72765 | Medium | DocumentRule |
+| V-77189 | Medium | DocumentRule |
+| V-77191 | Medium | DocumentRule |
+| V-77195 | Medium | DocumentRule |
+| V-77201 | Medium | DocumentRule |
+| V-77205 | Medium | DocumentRule |
+| V-77209 | Medium | DocumentRule |
+| V-77213 | Medium | DocumentRule |
+| V-77217 | Medium | DocumentRule |
+| V-77221 | Medium | DocumentRule |
+| V-77223 | Medium | DocumentRule |
+| V-77227 | Medium | DocumentRule |
+| V-77231 | Medium | DocumentRule |
+| V-77233 | Medium | DocumentRule |
+| V-77235 | Medium | DocumentRule |
+| V-77239 | Medium | DocumentRule |
+| V-77243 | Medium | DocumentRule |
+| V-77247 | Medium | DocumentRule |
+| V-77249 | Medium | DocumentRule |
+| V-77255 | Medium | DocumentRule |
+| V-77259 | Medium | DocumentRule |
+| V-77263 | Medium | DocumentRule |
+| V-77267 | Medium | DocumentRule |
+| V-77269 | Medium | DocumentRule |
 | V-63319 | Medium | ManualRule |
 | V-63323 | Low | ManualRule |
 | V-63337 | Medium | ManualRule |

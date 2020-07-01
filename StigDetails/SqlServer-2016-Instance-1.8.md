@@ -6,7 +6,7 @@
 **FileName:** U_MS_SQL_Server_2016_Instance_STIG_V1R8_Manual-xccdf.xml  
 **Created:** 3/2/2020  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **37** of **133** rules are automated; **28.000000000000004%**
+**Total Stig Rule Coverage:** **37** of **133** rules are automated; **28%**
 
 * **High (CAT I):** **0** of **8** rules are automated
 * **Medium (CAT II):** **36** of **122** rules are automated

@@ -6,7 +6,7 @@
 **FileName:** U_McAfee_VirusScan88_Local_Client_STIG_V5R16_Manual-xccdf.xml  
 **Created:** 3/24/2020  
 **Description:** The McAfee VirusScan 8.8 Local Client STIG is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the NIST 800-53 and related documents. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **55** of **95** rules are automated; **57.99999999999999%**
+**Total Stig Rule Coverage:** **55** of **95** rules are automated; **58%**
 
 * **High (CAT I):** **2** of **3** rules are automated
 * **Medium (CAT II):** **53** of **92** rules are automated

@@ -1,12 +1,12 @@
-# [MS SQL Server 2012 Database Instance STIG, Version 1.18](https://github.com/Microsoft/PowerStig/wiki/SqlServer-2012-Database-1.18)
+# [MS SQL Server Database 2012, Version 1.20](https://github.com/Microsoft/PowerStig/wiki/SqlServer-2012-Database-1.20)
 
-**Title:** Microsoft SQL Server 2012 Database Security Technical Implementation Guide  
+**Title:** Microsoft SQL Server Database 2012 Security Technical Implementation Guide  
 **Version:** 1  
-**Release:** Release: 18 Benchmark Date: 25 Jan 2019  
-**FileName:** U_MS_SQL_Server_2012_Database_STIG_V1R18_Manual-xccdf.xml  
-**Created:** 7/29/2019  
-**Description:** The Microsoft SQL Server 2012 Database Instance Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **2** of **28** rules are automated; **7.000000000000001%**
+**Release:** Release: 20 Benchmark Date: 16 Jan 2020  
+**FileName:** U_MS_SQL_Server_2012_Database_STIG_V1R20_Manual-xccdf.xml  
+**Created:** 5/19/2020  
+**Description:** The Microsoft SQL Server 2012 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
+**Total Stig Rule Coverage:** **2** of **28** rules are automated; **7%**
 
 * **High (CAT I):** **0** of **0** rules are automated
 * **Medium (CAT II):** **2** of **27** rules are automated

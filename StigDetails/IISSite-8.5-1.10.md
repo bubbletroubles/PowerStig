@@ -1,15 +1,15 @@
-# [IIS 8-5 Site STIG, Version 1.8](https://github.com/Microsoft/PowerStig/wiki/IISSite-8.5-1.8)
+# [IIS 8-5 Site STIG, Version 1.10](https://github.com/Microsoft/PowerStig/wiki/IISSite-8.5-1.10)
 
 **Title:** IIS 8.5 Site Security Technical Implementation Guide  
 **Version:** 1  
-**Release:** Release: 8 Benchmark Date: 26 Jul 2019  
-**FileName:** U_MS_IIS_8-5_Site_V1R8_Manual-xccdf.xml  
-**Created:** 12/5/2019  
+**Release:** Release: 10 Benchmark Date: 24 Apr 2020  
+**FileName:** U_MS_IIS_8-5_Site_V1R10_Manual-xccdf.xml  
+**Created:** 5/20/2020  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **41** of **58** rules are automated; **71%**
+**Total Stig Rule Coverage:** **40** of **56** rules are automated; **71%**
 
 * **High (CAT I):** **0** of **1** rules are automated
-* **Medium (CAT II):** **41** of **57** rules are automated
+* **Medium (CAT II):** **40** of **55** rules are automated
 * **Low (CAT III):** **0** of **0** rules are automated
 
 ## Automated Rules
@@ -42,7 +42,6 @@
 | V-76775 | Medium | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
 | V-76777 | Medium | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
 | V-76805 | Medium | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
-| V-76813 | Medium | WebConfigurationPropertyRule | None | V-76775 |
 | V-76817 | Medium | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
 | V-76819 | Medium | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
 | V-76821 | Medium | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
@@ -65,13 +64,12 @@
 | V-76799 | Medium | DocumentRule |
 | V-76801 | Medium | DocumentRule |
 | V-76807 | Medium | DocumentRule |
-| V-76831 | Medium | DocumentRule |
 | V-76843 | Medium | DocumentRule |
 | V-76845 | Medium | DocumentRule |
 | V-76847 | Medium | DocumentRule |
 | V-76787 | Medium | ManualRule |
-| V-76795 | Medium | ManualRule |
 | V-76811 | High | ManualRule |
+| V-76813 | Medium | ManualRule |
 | V-76815 | Medium | ManualRule |
 | V-76849 | Medium | ManualRule |
 | V-76865 | Medium | ManualRule |

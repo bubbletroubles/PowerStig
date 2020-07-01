@@ -1,12 +1,12 @@
-# [MS SQL Server 2016 Instance STIG, Version 1.7](https://github.com/Microsoft/PowerStig/wiki/SqlServer-2016-Instance-1.7)
+# [MS SQL Server 2016 Instance STIG, Version 1.9](https://github.com/Microsoft/PowerStig/wiki/SqlServer-2016-Instance-1.9)
 
 **Title:** MS SQL Server 2016 Instance Security Technical Implementation Guide  
 **Version:** 1  
-**Release:** Release: 7 Benchmark Date: 25 Oct 2019  
-**FileName:** U_MS_SQL_Server_2016_Instance_STIG_V1R7_Manual-xccdf.xml  
-**Created:** 2/28/2020  
+**Release:** Release: 9 Benchmark Date: 24 Apr 2020  
+**FileName:** U_MS_SQL_Server_2016_Instance_STIG_V1R9_Manual-xccdf.xml  
+**Created:** 5/28/2020  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **37** of **133** rules are automated; **28.000000000000004%**
+**Total Stig Rule Coverage:** **37** of **133** rules are automated; **28%**
 
 * **High (CAT I):** **0** of **8** rules are automated
 * **Medium (CAT II):** **36** of **122** rules are automated
@@ -95,7 +95,6 @@
 | V-79223 | Medium | DocumentRule |
 | V-79225 | Medium | DocumentRule |
 | V-79227 | Medium | DocumentRule |
-| V-79231 | Medium | DocumentRule |
 | V-79233 | Medium | DocumentRule |
 | V-79235 | Medium | DocumentRule |
 | V-79237 | Medium | DocumentRule |
@@ -148,6 +147,7 @@
 | V-79209 | Medium | ManualRule |
 | V-79217 | Medium | ManualRule |
 | V-79229 | Medium | ManualRule |
+| V-79231 | Medium | ManualRule |
 | V-79249 | Medium | ManualRule |
 | V-79251 | Medium | ManualRule |
 | V-79303 | Medium | ManualRule |
