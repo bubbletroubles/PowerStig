@@ -1,10 +1,10 @@
 ﻿# FireFox
 
-A composite DSC resource to manage the FireFoxSTIG settings
+A composite DSC resource to manage the FireFox STIG settings
 
 ## Requirements
 
-None
+Mozilla Firefox installation
 
 ## Parameters
 
