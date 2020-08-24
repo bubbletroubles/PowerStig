@@ -2,16 +2,17 @@
 
 Documentation is a big part of STIG compliance. This usually takes the form of generating a STIG checklist that can be viewed in the STIG Viewer that is provided by DISA. PowerSTIG improves on this process by enabling you to generate a STIG checklist from either a compiled .MOF file or the DSC results generated from a target that has been configured with DSC. Here's what gets generated:
 
-* Accurate status is reported for vulnerabilities that are to be addressed by PowerSTIG (.MOF) or that are compliant (DSC results).
+* Accurate status is reported for vulnerabilities that are to be addressed by PowerStig (.MOF) or that are compliant (DSC results). Note that because a checklist generated from a .MOF file is showing a configuration that hasn't yet been applied, the vulnerabilities that PowerStig addresses will have a status of 'Open'. A checklist generated using DSC results show actual configuration applied so the vulnerabilities that PowerStig addresses will have a status of 'Not a Finding' because they have been actually mitigated. 
 * Finding Details and Comments are populated with information as to how/what was/will be applied.
 * Org settings are reflected in what is reported.
 * Manual entries from a file are injected into the checklist showing the Status, Finding Details and Comments so that vulnerabilities that haven't been automated can be reported.
+* Information about the target of the .MOF or DSC results is populated in the checklist.
 
 STIG details are not carried forward in the PowerStig processed data files, so it is necessary to provide the raw STIG file so that the extra details can be added to the checklist file. This is either done by passing in a reference to an XCCDF file or a file with a list of XCCDF files in it.
 
 ## Generating a checklist from a MOF
 
-To validate MOF before you deploy it, you can create a checklist from it by running the following command.
+To validate what vulnerabilities can be addressed by PowerStig-generated MOF before you deploy it, you can create a checklist from it by running the following command.
 
 ```powershell
 $ReferenceConfiguration = ".\reference.mof"
@@ -21,9 +22,9 @@ $outputPath = ".\checklist.ckl"
 New-StigCheckList -ReferenceConfiguration $ReferenceConfiguration -XccdfPath $XccdfPath -OutputPath $outputPath
 ```
 
-## Generate a checklist from the DSC results
+## Generate a checklist from DSC results
 
-Once a configuration is deployed to a server, you can generate checklists directly from the Test-DscConfiguration results.
+Once a configuration is deployed to a server, you can generate checklists directly from the Test-DscConfiguration results. This will show what resources have been employed to apply STIG vulnerability rules.
 
 ```powershell
 $DscResults = Test-DsCconfiguration -ComputerName localhost -Detailed
@@ -35,30 +36,40 @@ New-StigCheckList -DscResult $DscResults -XccdfPath $XccdfPath -OutputPath $outp
 
 ## Generate a checklist for an endpoint for multiple STIGs
 
-It is common for a checklist to be created for all of the STIGs that apply to an endpoint, computer, or server. This is done by calling New-StigChecklist with a different set of parameters, similar to what is listed above.
+It is common for a checklist to be created for all of the STIGs that apply to an endpoint, computer, or server. This is done by calling New-StigChecklist with a list of STIGs you are checking, similar to what is listed above.
 
 ```powershell
-New-StigCheckList -MofFile $MofFile -ChecklistSTIGFiles $ChecklistSTIGFiles -OutputPath $outputPath
-New-StigCheckList -DscResults $DscResults -ChecklistSTIGFiles $ChecklistSTIGFiles -OutputPath $outputPath
+$MofFile = 'C:\contoso.local.mof'
+$XccdfPath = @(
+    'C:\STIGS\SQL Server\U_MS_SQL_Server_2016_Instance_STIG_V1R7_Manual-xccdf.xml',
+    'C:\STIGS\Windows.Server.2012R2\U_MS_Windows_2012_and_2012_R2_DC_STIG_V2R19_Manual-xccdf.xml'
+)
+$outputPath = 'C:\SqlServer01_mof.ckl'
+New-StigCheckList -DscResults $auditRehydrated -XccdfPath $XccdfPath -OutputPath $outputPath
 ```
-This is a simple list of the paths to STIGs that should be checked. See a sample at /PowerShell/StigData/Samples/ChecklistSTIGFiles.txt.
+The list of STIGs to use for generating the checklist is a simple list/string array. Each path and filename entry in the list should point to a valid file. Typically, the STIGs tested and generated into a checklist should match the STIGs that were invoked as part of the configuration that was used to create the .MOF file.
+
+The list of STIGs used for generating a checklist can also be stored in a simple text file. The file can be read using Get-Content which will load the file into a string array with each line representing a different array element.
 
 ## Inject manual entries into a checklist
 
 While PowerSTIG automates a high percentage of vulnerabilities for supported STIGs, there is usually a set of vulnerabilities that are not automated. A checklist generated from PowerSTIG will report a status of 'Not Reviewed' for these rules. However, these rules can be populated at the time the checklist is generated by adding a manual checklist entries file as a parameter when generating a checklist. The command(s) look like this:
 
 ```powershell
-New-StigCheckList -MofFile $MofFile -ChecklistSTIGFiles $ChecklistSTIGFiles -OutputPath $outputPath -ManualChecklistEntries $ManualChecklistEntriesFile
-New-StigCheckList -DscResults $DscResults -ChecklistSTIGFiles $ChecklistSTIGFiles -OutputPath $outputPath -ManualChecklistEntries $ManualChecklistEntriesFile
+New-StigCheckList -ReferenceConfiguration $MofFile -XccdfPath $XccdfPath -OutputPath $outputPath -ManualChecklistEntries $ManualChecklistEntriesFile
+New-StigCheckList -DscResults $DscResults -XccdfPath $XccdfPath -OutputPath $outputPath -ManualChecklistEntries $ManualChecklistEntriesFile
 ```
 The manual checklist entries file is an XML file that can be created manually or by exporting an Excel worksheet as XML. The file format should look like the following:
 
         <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-        <ManualChecklistEntries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	        <VulID id="V-79119" Status="NotAFinding">
-		        <Details>See System Security Document.</Details>
-		        <Comments>This is a test of a manual check file entry.</Comments>
-	        </VulID>
-        </ManualChecklistEntries>
+        <stigManualChecklistData>
+        <stigRuleData>
+            <STIG>U_Windows_Firewall_STIG_V1R7_Manual-xccdf.xml</STIG>
+            <ID>V-36440</ID>
+            <Status>NotAFinding</Status>
+            <Comments>Not Applicable</Comments>
+            <Details>This machine is not part of a domain, so this rule does not apply.</Details>
+        </stigRuleData>
         
-For your convenience, you can see a sample at /PowerShell/StigData/Samples/ManualCheckListEntriesExcelExport.xml.
+For your convenience, you can See a sample at /PowerShell/StigData/Samples/ManualCheckListEntriesSample.xml.
+
