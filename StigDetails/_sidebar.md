@@ -14,7 +14,7 @@
   * [McAfee][McAfee]
   * [IisServer][IisServer]
   * [IisSite][IisSite]
-* [Document Module][document]
+* [STIG Checklists][document]
 * [PowerSTIG Archive Log][powerstigarchivelog]
   * [HardCodedRule Examples][hardcodedexamples]
 * [PowerSTIG with Azure Automation][powerstigwithazureautomation]
