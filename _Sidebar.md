@@ -16,7 +16,7 @@
   * [IisSite][IisSite]
   * [Firefox][Firefox]
 
-* [Document Module][document]
+* [Documentation via STIG Checklists][Documentation-via-STIG-Checklists]
 * [PowerSTIG Archive Log][powerstigarchivelog]
   * [HardCodedRule Examples][hardcodedexamples]
 * [PowerSTIG with Azure Automation][powerstigwithazureautomation]
@@ -39,7 +39,7 @@
 [IisServer]:              https://github.com/Microsoft/PowerStig/wiki/IisServer
 [IisSite]:                https://github.com/Microsoft/PowerStig/wiki/IisSite
 [Firefox]:                https://github.com/Microsoft/PowerStig/wiki/firefox
-[document]:               https://github.com/Microsoft/PowerStig/wiki/Document
+[Documentation-via-STIG-Checklists]:               https://github.com/microsoft/PowerStig/wiki/Documentation-via-STIG-Checklists
 [powerstigarchivelog]:    https://github.com/Microsoft/PowerStig/wiki/PowerSTIGArchiveLog
 [hardcodedexamples]:      https://github.com/Microsoft/PowerStig/wiki/PowerSTIGArchiveLog#HardCodedRule-Examples
 [powerstigwithazureautomation]:    https://github.com/microsoft/PowerStig/wiki/PowerSTIG-With-Azure-Automation
