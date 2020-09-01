@@ -1,15 +1,15 @@
-# [Windows 2012 MS STIG, Version 2.16](https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2012R2-MS-2.16)
+# [Windows 2012 MS STIG, Version 2.19](https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2012R2-MS-2.19)
 
 **Title:** Windows Server 2012/2012 R2 Member Server Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 16 Benchmark Date: 26 Jul 2019  
-**FileName:** U_MS_Windows_2012_and_2012_R2_MS_STIG_V2R16_Manual-xccdf.xml  
-**Created:** 4/21/2020  
+**Release:** Release: 19 Benchmark Date: 17 Jun 2020  
+**FileName:** U_MS_Windows_2012_and_2012_R2_MS_V2R19_Manual-xccdf.xml  
+**Created:** 8/26/2020  
 **Description:** The Windows Server 2012/2012 R2 Member Server Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **302** of **347** rules are automated; **87%**
+**Total Stig Rule Coverage:** **304** of **349** rules are automated; **87%**
 
 * **High (CAT I):** **28** of **33** rules are automated
-* **Medium (CAT II):** **222** of **254** rules are automated
+* **Medium (CAT II):** **224** of **256** rules are automated
 * **Low (CAT III):** **52** of **60** rules are automated
 
 ## Automated Rules
@@ -272,6 +272,8 @@
 | V-72753 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-73519 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-80475 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-102619.a | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-102619.b | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-1113 | Medium | SecurityOptionRule | SecurityOption |  |
 | V-1114 | Medium | SecurityOptionRule | SecurityOption |  |
 | V-1115 | Medium | SecurityOptionRule | SecurityOption |  |
@@ -327,6 +329,7 @@
 | V-1112 | Low | DocumentRule |
 | V-1120 | Medium | DocumentRule |
 | V-1121 | High | DocumentRule |
+| V-1135 | Low | DocumentRule |
 | V-1168 | Medium | DocumentRule |
 | V-3289 | Medium | DocumentRule |
 | V-3487 | Medium | DocumentRule |
@@ -342,7 +345,6 @@
 | V-1119 | Medium | ManualRule |
 | V-1127 | High | ManualRule |
 | V-1128 | Low | ManualRule |
-| V-1135 | Low | ManualRule |
 | V-2907 | Medium | ManualRule |
 | V-3245 | Medium | ManualRule |
 | V-3472 | Low | ManualRule |

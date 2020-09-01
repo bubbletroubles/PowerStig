@@ -4,12 +4,12 @@
 **Version:** 1  
 **Release:** Release: 9 Benchmark Date: 24 Apr 2020  
 **FileName:** U_MS_SQL_Server_2016_Instance_STIG_V1R9_Manual-xccdf.xml  
-**Created:** 5/28/2020  
+**Created:** 7/14/2020  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **37** of **133** rules are automated; **28%**
+**Total Stig Rule Coverage:** **41** of **137** rules are automated; **30%**
 
 * **High (CAT I):** **0** of **8** rules are automated
-* **Medium (CAT II):** **36** of **122** rules are automated
+* **Medium (CAT II):** **40** of **126** rules are automated
 * **Low (CAT III):** **1** of **3** rules are automated
 
 ## Automated Rules
@@ -32,6 +32,10 @@
 | V-97521.n | Medium | RegistryRule | Registry |  |
 | V-97521.o | Medium | RegistryRule | Registry |  |
 | V-97521.p | Medium | RegistryRule | Registry |  |
+| V-97521.q | Medium | RegistryRule | Registry |  |
+| V-97521.r | Medium | RegistryRule | Registry |  |
+| V-97521.s | Medium | RegistryRule | Registry |  |
+| V-97521.t | Medium | RegistryRule | Registry |  |
 | V-79197 | Low | SecurityOptionRule | SecurityOption |  |
 | V-79141 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
 | V-79239 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |

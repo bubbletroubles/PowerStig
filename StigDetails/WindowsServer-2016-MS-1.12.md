@@ -1,15 +1,15 @@
-# [Windows Server 2016 MS STIG, Version 1.9](https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2016-MS-1.9)
+# [Windows Server 2016 MS STIG, Version 1.12](https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2016-MS-1.12)
 
 **Title:** Windows Server 2016 Security Technical Implementation Guide  
 **Version:** 1  
-**Release:** Release: 9 Benchmark Date: 26 Jul 2019  
-**FileName:** U_MS_Windows_Server_2016_MS_STIG_V1R9_Manual-xccdf.xml  
-**Created:** 9/19/2019  
+**Release:** Release: 12 Benchmark Date: 17 Jun 2020  
+**FileName:** U_MS_Windows_Server_2016_MS_STIG_V1R12_Manual-xccdf.xml  
+**Created:** 8/26/2020  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **197** of **235** rules are automated; **84%**
+**Total Stig Rule Coverage:** **199** of **236** rules are automated; **84%**
 
 * **High (CAT I):** **20** of **24** rules are automated
-* **Medium (CAT II):** **169** of **199** rules are automated
+* **Medium (CAT II):** **171** of **200** rules are automated
 * **Low (CAT III):** **8** of **12** rules are automated
 
 ## Automated Rules
@@ -172,6 +172,8 @@
 | V-73807 | Medium | RegistryRule | Registry |  |
 | V-78123 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-78125 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-102623.a | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-102623.b | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-73623 | Medium | SecurityOptionRule | SecurityOption |  |
 | V-73625 | Medium | SecurityOptionRule | SecurityOption |  |
 | V-73665 | High | SecurityOptionRule | SecurityOption |  |
@@ -254,5 +256,4 @@
 | V-73609 | Medium | ManualRule |
 | V-90355 | Low | ManualRule |
 | V-90357 | Low | ManualRule |
-| V-91779 | Medium | ManualRule |
 | V-78127 | Medium | ManualRule |

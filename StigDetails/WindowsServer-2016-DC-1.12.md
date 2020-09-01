@@ -1,15 +1,15 @@
-# [Windows Server 2016 DC STIG, Version 1.9](https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2016-DC-1.9)
+# [Windows Server 2016 DC STIG, Version 1.12](https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2016-DC-1.12)
 
 **Title:** Windows Server 2016 Security Technical Implementation Guide  
 **Version:** 1  
-**Release:** Release: 9 Benchmark Date: 26 Jul 2019  
-**FileName:** U_MS_Windows_Server_2016_DC_STIG_V1R9_Manual-xccdf.xml  
-**Created:** 12/17/2019  
+**Release:** Release: 12 Benchmark Date: 17 Jun 2020  
+**FileName:** U_MS_Windows_Server_2016_DC_STIG_V1R12_Manual-xccdf.xml  
+**Created:** 8/26/2020  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **207** of **264** rules are automated; **78%**
+**Total Stig Rule Coverage:** **208** of **265** rules are automated; **78%**
 
-* **High (CAT I):** **21** of **32** rules are automated
-* **Medium (CAT II):** **178** of **219** rules are automated
+* **High (CAT I):** **20** of **31** rules are automated
+* **Medium (CAT II):** **180** of **221** rules are automated
 * **Low (CAT III):** **8** of **13** rules are automated
 
 ## Automated Rules
@@ -95,7 +95,6 @@
 | V-73511 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-73513.a | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-73513.b | Medium | RegistryRule | RegistryPolicyFile |  |
-| V-73515 | High | RegistryRule | RegistryPolicyFile |  |
 | V-73521 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-73525 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-73527 | Medium | RegistryRule | RegistryPolicyFile |  |
@@ -180,6 +179,8 @@
 | V-73807 | Medium | RegistryRule | Registry |  |
 | V-78123 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-78125 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-102623.a | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-102623.b | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-73623 | Medium | SecurityOptionRule | SecurityOption |  |
 | V-73625 | Medium | SecurityOptionRule | SecurityOption |  |
 | V-73665 | High | SecurityOptionRule | SecurityOption |  |

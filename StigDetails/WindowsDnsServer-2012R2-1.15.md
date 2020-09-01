@@ -1,10 +1,10 @@
-# [Microsoft Windows 2012 Server Domain Name System STIG, Version 1.13](https://github.com/Microsoft/PowerStig/wiki/WindowsDnsServer-2012R2-1.13)
+# [Microsoft Windows 2012 Server Domain Name System STIG, Version 1.15](https://github.com/Microsoft/PowerStig/wiki/WindowsDnsServer-2012R2-1.15)
 
 **Title:** Microsoft Windows 2012 Server Domain Name System Security Technical Implementation Guide  
 **Version:** 1  
-**Release:** Release: 13 Benchmark Date: 24 Jan 2020  
-**FileName:** U_Microsoft_Windows_2012_Server_DNS_V1R13_Manual-xccdf.xml  
-**Created:** 2/25/2020  
+**Release:** Release: 15 Benchmark Date: 24 Jul 2020  
+**FileName:** U_Microsoft_Windows_2012_Server_DNS_STIG_V1R15_Manual-xccdf.xml  
+**Created:** 8/5/2020  
 **Description:** The Microsoft Windows 2012 Server Domain Name System Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **22** of **93** rules are automated; **24%**
 

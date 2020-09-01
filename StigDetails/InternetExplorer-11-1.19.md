@@ -1,16 +1,16 @@
-# [IE 11 STIG, Version 1.17](https://github.com/Microsoft/PowerStig/wiki/InternetExplorer-11-1.17)
+# [IE 11 STIG, Version 1.19](https://github.com/Microsoft/PowerStig/wiki/InternetExplorer-11-1.19)
 
 **Title:** Microsoft Internet Explorer 11 Security Technical Implementation Guide  
 **Version:** 1  
-**Release:** Release: 17 Benchmark Date: 26 Apr 2019  
-**FileName:** U_MS_IE11_STIG_V1R17_Manual-xccdf.xml  
-**Created:** 6/12/2020  
+**Release:** Release: 19 Benchmark Date: 24 Jul 2020  
+**FileName:** U_MS_IE11_STIG_V1R19_Manual-xccdf.xml  
+**Created:** 8/21/2020  
 **Description:** The Microsoft Internet Explorer 11 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil  
-**Total Stig Rule Coverage:** **138** of **138** rules are automated; **100%**
+**Total Stig Rule Coverage:** **139** of **139** rules are automated; **100%**
 
 * **High (CAT I):** **0** of **0** rules are automated
 * **Medium (CAT II):** **136** of **136** rules are automated
-* **Low (CAT III):** **2** of **2** rules are automated
+* **Low (CAT III):** **3** of **3** rules are automated
 
 ## Automated Rules
 
@@ -154,3 +154,4 @@
 | V-72763 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-75169 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-75171 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-97527 | Low | RegistryRule | RegistryPolicyFile |  |

@@ -1,15 +1,15 @@
-# [Windows 2012 DC STIG, Version 2.18](https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2012R2-DC-2.18)
+# [Windows 2012 DC STIG, Version 2.21](https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2012R2-DC-2.21)
 
 **Title:** Windows Server 2012/2012 R2 Domain Controller Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 18 Benchmark Date: 25 Oct 2019  
-**FileName:** U_MS_Windows_2012_and_2012_R2_DC_STIG_V2R18_Manual-xccdf.xml  
-**Created:** 4/21/2020  
+**Release:** Release: 21 Benchmark Date: 17 Jun 2020  
+**FileName:** U_MS_Windows_2012_and_2012_R2_DC_STIG_V2R21_Manual-xccdf.xml  
+**Created:** 8/26/2020  
 **Description:** The Windows Server 2012/2012 R2 Domain Controller Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **325** of **392** rules are automated; **83%**
+**Total Stig Rule Coverage:** **327** of **394** rules are automated; **83%**
 
 * **High (CAT I):** **29** of **41** rules are automated
-* **Medium (CAT II):** **242** of **287** rules are automated
+* **Medium (CAT II):** **244** of **289** rules are automated
 * **Low (CAT III):** **54** of **64** rules are automated
 
 ## Automated Rules
@@ -284,6 +284,8 @@
 | V-72753 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-73519 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-80475 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-102619.a | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-102619.b | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-1113 | Medium | SecurityOptionRule | SecurityOption |  |
 | V-1114 | Medium | SecurityOptionRule | SecurityOption |  |
 | V-1115 | Medium | SecurityOptionRule | SecurityOption |  |

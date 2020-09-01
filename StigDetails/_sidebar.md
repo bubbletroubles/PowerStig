@@ -14,6 +14,8 @@
   * [McAfee][McAfee]
   * [IisServer][IisServer]
   * [IisSite][IisSite]
+  * [Firefox][Firefox]
+
 * [Documentation via STIG Checklists][Documentation-via-STIG-Checklists]
 * [PowerSTIG Archive Log][powerstigarchivelog]
   * [HardCodedRule Examples][hardcodedexamples]
@@ -24,16 +26,18 @@
   * [Adobe-AcrobatReader-1.6][AdobeAcrobatReader16]
   * [DotNetFramework-4-1.8][DotNetFramework418]
   * [DotNetFramework-4-1.9][DotNetFramework419]
-  * [FireFox-All-4.27][FireFoxAll427]
   * [FireFox-All-4.28][FireFoxAll428]
+  * [FireFox-All-4.29][FireFoxAll429]
   * [IISServer-10.0-1.1][IISServer10011]
+  * [IISServer-10.0-1.2][IISServer10012]
   * [IISServer-8.5-1.10][IISServer85110]
-  * [IISServer-8.5-1.9][IISServer8519]
+  * [IISServer-8.5-1.11][IISServer85111]
   * [IISSite-10.0-1.1][IISSite10011]
+  * [IISSite-10.0-1.2][IISSite10012]
   * [IISSite-8.5-1.10][IISSite85110]
-  * [IISSite-8.5-1.9][IISSite8519]
-  * [InternetExplorer-11-1.17][InternetExplorer11117]
+  * [IISSite-8.5-1.11][IISSite85111]
   * [InternetExplorer-11-1.18][InternetExplorer11118]
+  * [InternetExplorer-11-1.19][InternetExplorer11119]
   * [McAfee-8.8-VirusScan-5.16][McAfee88VirusScan516]
   * [Office-Excel2013-1.7][OfficeExcel201317]
   * [Office-Excel2016-1.2][OfficeExcel201612]
@@ -52,30 +56,30 @@
   * [SqlServer-2012-Database-1.20][SqlServer2012Database120]
   * [SqlServer-2012-Instance-1.19][SqlServer2012Instance119]
   * [SqlServer-2012-Instance-1.20][SqlServer2012Instance120]
-  * [SqlServer-2016-Instance-1.8][SqlServer2016Instance18]
+  * [SqlServer-2016-Instance-1.10][SqlServer2016Instance110]
   * [SqlServer-2016-Instance-1.9][SqlServer2016Instance19]
   * [vSphere-6.5-1.3][vSphere6513]
   * [Vsphere-6.5-1.4][Vsphere6514]
-  * [WindowsClient-10-1.19][WindowsClient10119]
   * [WindowsClient-10-1.21][WindowsClient10121]
+  * [WindowsClient-10-1.23][WindowsClient10123]
   * [WindowsDefender-All-1.7][WindowsDefenderAll17]
   * [WindowsDefender-All-1.8][WindowsDefenderAll18]
-  * [WindowsDnsServer-2012R2-1.13][WindowsDnsServer2012R2113]
   * [WindowsDnsServer-2012R2-1.14][WindowsDnsServer2012R2114]
+  * [WindowsDnsServer-2012R2-1.15][WindowsDnsServer2012R2115]
   * [WindowsFirewall-All-1.6][WindowsFirewallAll16]
   * [WindowsFirewall-All-1.7][WindowsFirewallAll17]
-  * [WindowsServer-2012R2-DC-2.18][WindowsServer2012R2DC218]
   * [WindowsServer-2012R2-DC-2.19][WindowsServer2012R2DC219]
-  * [WindowsServer-2012R2-MS-2.16][WindowsServer2012R2MS216]
+  * [WindowsServer-2012R2-DC-2.21][WindowsServer2012R2DC221]
   * [WindowsServer-2012R2-MS-2.17][WindowsServer2012R2MS217]
+  * [WindowsServer-2012R2-MS-2.19][WindowsServer2012R2MS219]
   * [WindowsServer-2016-DC-1.10][WindowsServer2016DC110]
-  * [WindowsServer-2016-DC-1.9][WindowsServer2016DC19]
+  * [WindowsServer-2016-DC-1.12][WindowsServer2016DC112]
   * [WindowsServer-2016-MS-1.10][WindowsServer2016MS110]
-  * [WindowsServer-2016-MS-1.9][WindowsServer2016MS19]
-  * [WindowsServer-2019-DC-1.2][WindowsServer2019DC12]
+  * [WindowsServer-2016-MS-1.12][WindowsServer2016MS112]
   * [WindowsServer-2019-DC-1.3][WindowsServer2019DC13]
-  * [WindowsServer-2019-MS-1.2][WindowsServer2019MS12]
+  * [WindowsServer-2019-DC-1.5][WindowsServer2019DC15]
   * [WindowsServer-2019-MS-1.3][WindowsServer2019MS13]
+  * [WindowsServer-2019-MS-1.5][WindowsServer2019MS15]
 
 [home]:                   https://github.com/Microsoft/PowerStig/wiki/home
 [convert]:                https://github.com/Microsoft/PowerStig/wiki/Convert
@@ -91,6 +95,7 @@
 [mcafee]:                 https://github.com/Microsoft/PowerStig/wiki/Mcafee
 [IisServer]:              https://github.com/Microsoft/PowerStig/wiki/IisServer
 [IisSite]:                https://github.com/Microsoft/PowerStig/wiki/IisSite
+[Firefox]:                https://github.com/Microsoft/PowerStig/wiki/firefox
 [Documentation-via-STIG-Checklists]:               https://github.com/microsoft/PowerStig/wiki/Documentation-via-STIG-Checklists
 [powerstigarchivelog]:    https://github.com/Microsoft/PowerStig/wiki/PowerSTIGArchiveLog
 [hardcodedexamples]:      https://github.com/Microsoft/PowerStig/wiki/PowerSTIGArchiveLog#HardCodedRule-Examples
@@ -105,16 +110,18 @@
 [AdobeAcrobatReader16]: https://github.com/Microsoft/PowerStig/wiki/Adobe-AcrobatReader-1.6
 [DotNetFramework418]: https://github.com/Microsoft/PowerStig/wiki/DotNetFramework-4-1.8
 [DotNetFramework419]: https://github.com/Microsoft/PowerStig/wiki/DotNetFramework-4-1.9
-[FireFoxAll427]: https://github.com/Microsoft/PowerStig/wiki/FireFox-All-4.27
 [FireFoxAll428]: https://github.com/Microsoft/PowerStig/wiki/FireFox-All-4.28
+[FireFoxAll429]: https://github.com/Microsoft/PowerStig/wiki/FireFox-All-4.29
 [IISServer10011]: https://github.com/Microsoft/PowerStig/wiki/IISServer-10.0-1.1
+[IISServer10012]: https://github.com/Microsoft/PowerStig/wiki/IISServer-10.0-1.2
 [IISServer85110]: https://github.com/Microsoft/PowerStig/wiki/IISServer-8.5-1.10
-[IISServer8519]: https://github.com/Microsoft/PowerStig/wiki/IISServer-8.5-1.9
+[IISServer85111]: https://github.com/Microsoft/PowerStig/wiki/IISServer-8.5-1.11
 [IISSite10011]: https://github.com/Microsoft/PowerStig/wiki/IISSite-10.0-1.1
+[IISSite10012]: https://github.com/Microsoft/PowerStig/wiki/IISSite-10.0-1.2
 [IISSite85110]: https://github.com/Microsoft/PowerStig/wiki/IISSite-8.5-1.10
-[IISSite8519]: https://github.com/Microsoft/PowerStig/wiki/IISSite-8.5-1.9
-[InternetExplorer11117]: https://github.com/Microsoft/PowerStig/wiki/InternetExplorer-11-1.17
+[IISSite85111]: https://github.com/Microsoft/PowerStig/wiki/IISSite-8.5-1.11
 [InternetExplorer11118]: https://github.com/Microsoft/PowerStig/wiki/InternetExplorer-11-1.18
+[InternetExplorer11119]: https://github.com/Microsoft/PowerStig/wiki/InternetExplorer-11-1.19
 [McAfee88VirusScan516]: https://github.com/Microsoft/PowerStig/wiki/McAfee-8.8-VirusScan-5.16
 [OfficeExcel201317]: https://github.com/Microsoft/PowerStig/wiki/Office-Excel2013-1.7
 [OfficeExcel201612]: https://github.com/Microsoft/PowerStig/wiki/Office-Excel2016-1.2
@@ -133,27 +140,27 @@
 [SqlServer2012Database120]: https://github.com/Microsoft/PowerStig/wiki/SqlServer-2012-Database-1.20
 [SqlServer2012Instance119]: https://github.com/Microsoft/PowerStig/wiki/SqlServer-2012-Instance-1.19
 [SqlServer2012Instance120]: https://github.com/Microsoft/PowerStig/wiki/SqlServer-2012-Instance-1.20
-[SqlServer2016Instance18]: https://github.com/Microsoft/PowerStig/wiki/SqlServer-2016-Instance-1.8
+[SqlServer2016Instance110]: https://github.com/Microsoft/PowerStig/wiki/SqlServer-2016-Instance-1.10
 [SqlServer2016Instance19]: https://github.com/Microsoft/PowerStig/wiki/SqlServer-2016-Instance-1.9
 [vSphere6513]: https://github.com/Microsoft/PowerStig/wiki/vSphere-6.5-1.3
 [Vsphere6514]: https://github.com/Microsoft/PowerStig/wiki/Vsphere-6.5-1.4
-[WindowsClient10119]: https://github.com/Microsoft/PowerStig/wiki/WindowsClient-10-1.19
 [WindowsClient10121]: https://github.com/Microsoft/PowerStig/wiki/WindowsClient-10-1.21
+[WindowsClient10123]: https://github.com/Microsoft/PowerStig/wiki/WindowsClient-10-1.23
 [WindowsDefenderAll17]: https://github.com/Microsoft/PowerStig/wiki/WindowsDefender-All-1.7
 [WindowsDefenderAll18]: https://github.com/Microsoft/PowerStig/wiki/WindowsDefender-All-1.8
-[WindowsDnsServer2012R2113]: https://github.com/Microsoft/PowerStig/wiki/WindowsDnsServer-2012R2-1.13
 [WindowsDnsServer2012R2114]: https://github.com/Microsoft/PowerStig/wiki/WindowsDnsServer-2012R2-1.14
+[WindowsDnsServer2012R2115]: https://github.com/Microsoft/PowerStig/wiki/WindowsDnsServer-2012R2-1.15
 [WindowsFirewallAll16]: https://github.com/Microsoft/PowerStig/wiki/WindowsFirewall-All-1.6
 [WindowsFirewallAll17]: https://github.com/Microsoft/PowerStig/wiki/WindowsFirewall-All-1.7
-[WindowsServer2012R2DC218]: https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2012R2-DC-2.18
 [WindowsServer2012R2DC219]: https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2012R2-DC-2.19
-[WindowsServer2012R2MS216]: https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2012R2-MS-2.16
+[WindowsServer2012R2DC221]: https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2012R2-DC-2.21
 [WindowsServer2012R2MS217]: https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2012R2-MS-2.17
+[WindowsServer2012R2MS219]: https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2012R2-MS-2.19
 [WindowsServer2016DC110]: https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2016-DC-1.10
-[WindowsServer2016DC19]: https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2016-DC-1.9
+[WindowsServer2016DC112]: https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2016-DC-1.12
 [WindowsServer2016MS110]: https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2016-MS-1.10
-[WindowsServer2016MS19]: https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2016-MS-1.9
-[WindowsServer2019DC12]: https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2019-DC-1.2
+[WindowsServer2016MS112]: https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2016-MS-1.12
 [WindowsServer2019DC13]: https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2019-DC-1.3
-[WindowsServer2019MS12]: https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2019-MS-1.2
+[WindowsServer2019DC15]: https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2019-DC-1.5
 [WindowsServer2019MS13]: https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2019-MS-1.3
+[WindowsServer2019MS15]: https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2019-MS-1.5

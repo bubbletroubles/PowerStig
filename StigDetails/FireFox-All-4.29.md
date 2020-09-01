@@ -1,16 +1,16 @@
-# [Firefox, Version 4.27](https://github.com/Microsoft/PowerStig/wiki/FireFox-All-4.27)
+# [Mozilla FireFox STIG, Version 4.29](https://github.com/Microsoft/PowerStig/wiki/FireFox-All-4.29)
 
-**Title:** Mozilla Firefox Security Technical Implementation Guide  
+**Title:** Mozilla FireFox Security Technical Implementation Guide  
 **Version:** 4  
-**Release:** Release: 27 Benchmark Date: 25 Oct 2019  
-**FileName:** U_Mozilla_FireFox_STIG_V4R27_Manual-xccdf.xml  
-**Created:** 11/19/2019  
-**Description:** The Mozilla Firefox Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil  
-**Total Stig Rule Coverage:** **19** of **24** rules are automated; **79%**
+**Release:** Release: 29 Benchmark Date: 24 Jul 2020  
+**FileName:** U_Mozilla_FireFox_V4R29_Manual-xccdf.xml  
+**Created:** 8/5/2020  
+**Description:** The Mozilla FireFox Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil  
+**Total Stig Rule Coverage:** **25** of **29** rules are automated; **86%**
 
 * **High (CAT I):** **0** of **1** rules are automated
-* **Medium (CAT II):** **18** of **22** rules are automated
-* **Low (CAT III):** **1** of **1** rules are automated
+* **Medium (CAT II):** **23** of **26** rules are automated
+* **Low (CAT III):** **2** of **2** rules are automated
 
 ## Automated Rules
 
@@ -31,10 +31,16 @@
 | V-19742 | Medium | FileContentRule | ReplaceText |  |
 | V-19744 | Medium | FileContentRule | ReplaceText |  |
 | V-64891 | Medium | FileContentRule | ReplaceText |  |
-| V-79053.a | Medium | FileContentRule | ReplaceText |  |
-| V-79053.b | Medium | FileContentRule | ReplaceText |  |
-| V-79053.c | Medium | FileContentRule | ReplaceText |  |
+| V-79053 | Medium | FileContentRule | ReplaceText |  |
 | V-97529 | Low | FileContentRule | ReplaceText |  |
+| V-102875 | Medium | FileContentRule | ReplaceText |  |
+| V-102877 | Medium | FileContentRule | ReplaceText |  |
+| V-102879 | Medium | FileContentRule | ReplaceText |  |
+| V-102881 | Medium | FileContentRule | ReplaceText |  |
+| V-102883 | Medium | FileContentRule | ReplaceText |  |
+| V-102885 | Medium | FileContentRule | ReplaceText |  |
+| V-102887 | Low | FileContentRule | ReplaceText |  |
+| V-102889 | Medium | FileContentRule | ReplaceText |  |
 
 ## Document / Manual Rules (Not Automated)
 
@@ -44,4 +50,3 @@
 | V-15770 | Medium | ManualRule |
 | V-15773 | Medium | ManualRule |
 | V-17988 | High | ManualRule |
-| V-19743 | Medium | ManualRule |
