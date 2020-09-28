@@ -118,7 +118,7 @@ else
 ``` 
 
 ## Importing PowerSTIG Desired State Configuration (DSC) into Azure Automation
-The following code will import a PowerSTUG Desired State Configuration from a PS1 file into Azure Automation.
+The following code will import a PowerSTIG Desired State Configuration from a PS1 file into Azure Automation.
 
 For additional details on the Import-AzAutomationDscConfiguration cmdlet please reference the following link: 
 https://docs.microsoft.com/en-us/powershell/module/az.automation/import-azautomationdscconfiguration?view=azps-2.6.0
