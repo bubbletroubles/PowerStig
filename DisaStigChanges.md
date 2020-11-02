@@ -49,6 +49,6 @@ configuration OfficeSystem2013
 }
 ```
 
-One way to reconsile the new ID is to view the STIG in Internet Explorer and search for the "**Legacy ID**", in the above example, it would be **V-17560**. Notice the new "**Group ID (Vulid)**" is **V-228518**, which is illustrated below.
+One way to reconsile the new ID is to view the STIG in Internet Explorer and search for the "**Legacy ID**", in the above example, the Legacy Id is **V-17560**. Notice the new "**Group ID (Vulid)**" is **V-228518**, which is illustrated below.
 
 ![OfficeSystem2013Example](images/OfficeSystem2013Example.jpg)
