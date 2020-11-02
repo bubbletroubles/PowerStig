@@ -1,6 +1,7 @@
 # PowerStig
 
 * [Home][home]
+* [Important DISA STIG Updates][disastigchanges]
 * [Getting Started][gettingstarted]
   * [No existing DSC infrastructure][DscGettingStarted]
   * [Existing DSC infrastructure][DscOnPremises]
@@ -27,6 +28,7 @@
 [home]:                   https://github.com/Microsoft/PowerStig/wiki/home
 [convert]:                https://github.com/Microsoft/PowerStig/wiki/Convert
 [stig]:                   https://github.com/Microsoft/PowerStig/wiki/Stig
+[disastigchanges]:        https://github.com/Microsoft/PowerStig/wiki/DisaStigChanges
 [compositeresources]:     https://github.com/Microsoft/PowerStig/wiki/CompositeResources
 [gettingstarted]:         https://github.com/Microsoft/PowerStig/wiki/GettingStarted
 [InternetExplorer]:       https://github.com/Microsoft/PowerStig/wiki/InternetExplorer
