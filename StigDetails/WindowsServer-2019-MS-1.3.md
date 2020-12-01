@@ -4,12 +4,12 @@
 **Version:** 1  
 **Release:** Release: 3 Benchmark Date: 24 Jan 2020  
 **FileName:** U_MS_Windows_Server_2019_MS_STIG_V1R3_Manual-xccdf.xml  
-**Created:** 8/26/2020  
+**Created:** 11/10/2020  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **399** of **434** rules are automated; **92%**
+**Total Stig Rule Coverage:** **408** of **440** rules are automated; **93%**
 
 * **High (CAT I):** **21** of **24** rules are automated
-* **Medium (CAT II):** **369** of **397** rules are automated
+* **Medium (CAT II):** **378** of **403** rules are automated
 * **Low (CAT III):** **9** of **13** rules are automated
 
 ## Automated Rules
@@ -372,6 +372,15 @@
 | V-93559 | Medium | RegistryRule | Registry |  |
 | V-93561 | Medium | RegistryRule | Registry |  |
 | V-93563 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-93487.a | Medium | RootCertificateRule | CertificateDSC |  |
+| V-93487.b | Medium | RootCertificateRule | CertificateDSC |  |
+| V-93487.c | Medium | RootCertificateRule | CertificateDSC |  |
+| V-93487.d | Medium | RootCertificateRule | CertificateDSC |  |
+| V-93489.a | Medium | RootCertificateRule | CertificateDSC |  |
+| V-93489.b | Medium | RootCertificateRule | CertificateDSC |  |
+| V-93489.c | Medium | RootCertificateRule | CertificateDSC |  |
+| V-93491.a | Medium | RootCertificateRule | CertificateDSC |  |
+| V-93491.b | Medium | RootCertificateRule | CertificateDSC |  |
 | V-93289 | High | SecurityOptionRule | SecurityOption |  |
 | V-93281 | Medium | SecurityOptionRule | SecurityOption |  |
 | V-93283 | Medium | SecurityOptionRule | SecurityOption |  |
@@ -425,7 +434,6 @@
 | V-93381 | Medium | DocumentRule |
 | V-93437 | Medium | DocumentRule |
 | V-93457 | Medium | DocumentRule |
-| V-93487 | Medium | DocumentRule |
 | V-93567 | Medium | DocumentRule |
 | V-92975 | Medium | ManualRule |
 | V-92977 | Medium | ManualRule |
@@ -449,8 +457,6 @@
 | V-93461 | Medium | ManualRule |
 | V-93473 | Medium | ManualRule |
 | V-93475 | Medium | ManualRule |
-| V-93489 | Medium | ManualRule |
-| V-93491 | Medium | ManualRule |
 | V-93515 | Medium | ManualRule |
 | V-93531 | Medium | ManualRule |
 | V-93543 | Medium | ManualRule |

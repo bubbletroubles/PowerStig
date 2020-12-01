@@ -4,12 +4,12 @@
 **Version:** 1  
 **Release:** Release: 12 Benchmark Date: 17 Jun 2020  
 **FileName:** U_MS_Windows_Server_2016_DC_STIG_V1R12_Manual-xccdf.xml  
-**Created:** 8/26/2020  
+**Created:** 11/3/2020  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **208** of **265** rules are automated; **78%**
+**Total Stig Rule Coverage:** **215** of **269** rules are automated; **80%**
 
 * **High (CAT I):** **20** of **31** rules are automated
-* **Medium (CAT II):** **180** of **221** rules are automated
+* **Medium (CAT II):** **187** of **225** rules are automated
 * **Low (CAT III):** **8** of **13** rules are automated
 
 ## Automated Rules
@@ -181,6 +181,13 @@
 | V-78125 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-102623.a | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-102623.b | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-73605.a | Medium | RootCertificateRule | CertificateDSC |  |
+| V-73605.b | Medium | RootCertificateRule | CertificateDSC |  |
+| V-73605.c | Medium | RootCertificateRule | CertificateDSC |  |
+| V-73605.d | Medium | RootCertificateRule | CertificateDSC |  |
+| V-73607.a | Medium | RootCertificateRule | CertificateDSC |  |
+| V-73607.b | Medium | RootCertificateRule | CertificateDSC |  |
+| V-73609 | Medium | RootCertificateRule | CertificateDSC |  |
 | V-73623 | Medium | SecurityOptionRule | SecurityOption |  |
 | V-73625 | Medium | SecurityOptionRule | SecurityOption |  |
 | V-73665 | High | SecurityOptionRule | SecurityOption |  |
@@ -239,7 +246,6 @@
 | V-73373 | High | DocumentRule |
 | V-73377 | High | DocumentRule |
 | V-73383 | Medium | DocumentRule |
-| V-73605 | Medium | DocumentRule |
 | V-73615 | High | DocumentRule |
 | V-73217 | High | ManualRule |
 | V-73219 | High | ManualRule |
@@ -277,8 +283,6 @@
 | V-73399 | Medium | ManualRule |
 | V-73401 | Medium | ManualRule |
 | V-73403 | Medium | ManualRule |
-| V-73607 | Medium | ManualRule |
-| V-73609 | Medium | ManualRule |
 | V-73611 | Medium | ManualRule |
 | V-73613 | High | ManualRule |
 | V-73617 | Medium | ManualRule |

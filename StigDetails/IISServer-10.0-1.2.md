@@ -4,12 +4,12 @@
 **Version:** 1  
 **Release:** Release: 2 Benchmark Date: 24 Jul 2020  
 **FileName:** U_MS_IIS_10-0_Server_V1R2_Manual-xccdf.xml  
-**Created:** 8/5/2020  
+**Created:** 11/2/2020  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **29** of **59** rules are automated; **49%**
+**Total Stig Rule Coverage:** **30** of **60** rules are automated; **50%**
 
 * **High (CAT I):** **9** of **13** rules are automated
-* **Medium (CAT II):** **20** of **45** rules are automated
+* **Medium (CAT II):** **21** of **46** rules are automated
 * **Low (CAT III):** **0** of **1** rules are automated
 
 ## Automated Rules
@@ -36,7 +36,8 @@
 | V-100177.h | High | RegistryRule | Registry |  |
 | V-100177.i | High | RegistryRule | Registry |  |
 | V-100143 | Medium | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
-| V-100145.a | Medium | WebConfigurationPropertyRule | None | V-100143 |
+| V-100145.a | Medium | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
+| V-100145.b | Medium | WebConfigurationPropertyRule | None | V-100143 |
 | V-100149.a | Medium | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
 | V-100149.b | Medium | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
 | V-100151 | Medium | WebConfigurationPropertyRule | xWebConfigKeyValue |  |

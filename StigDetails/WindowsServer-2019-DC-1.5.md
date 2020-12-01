@@ -4,12 +4,12 @@
 **Version:** 1  
 **Release:** Release: 5 Benchmark Date: 17 Jun 2020  
 **FileName:** U_MS_Windows_Server_2019_DC_STIG_V1R5_Manual-xccdf.xml  
-**Created:** 8/26/2020  
+**Created:** 11/10/2020  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **410** of **465** rules are automated; **88%**
+**Total Stig Rule Coverage:** **419** of **471** rules are automated; **89%**
 
 * **High (CAT I):** **21** of **31** rules are automated
-* **Medium (CAT II):** **380** of **420** rules are automated
+* **Medium (CAT II):** **389** of **426** rules are automated
 * **Low (CAT III):** **9** of **14** rules are automated
 
 ## Automated Rules
@@ -381,6 +381,15 @@
 | V-93563 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-102625.a | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-102625.b | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-93487.a | Medium | RootCertificateRule | CertificateDSC |  |
+| V-93487.b | Medium | RootCertificateRule | CertificateDSC |  |
+| V-93487.c | Medium | RootCertificateRule | CertificateDSC |  |
+| V-93487.d | Medium | RootCertificateRule | CertificateDSC |  |
+| V-93489.a | Medium | RootCertificateRule | CertificateDSC |  |
+| V-93489.b | Medium | RootCertificateRule | CertificateDSC |  |
+| V-93489.c | Medium | RootCertificateRule | CertificateDSC |  |
+| V-93491.a | Medium | RootCertificateRule | CertificateDSC |  |
+| V-93491.b | Medium | RootCertificateRule | CertificateDSC |  |
 | V-93289 | High | SecurityOptionRule | SecurityOption |  |
 | V-93281 | Medium | SecurityOptionRule | SecurityOption |  |
 | V-93283 | Medium | SecurityOptionRule | SecurityOption |  |
@@ -439,7 +448,6 @@
 | V-93437 | Medium | DocumentRule |
 | V-93457 | Medium | DocumentRule |
 | V-93485 | High | DocumentRule |
-| V-93487 | Medium | DocumentRule |
 | V-93513 | Medium | DocumentRule |
 | V-93567 | Medium | DocumentRule |
 | V-92975 | Medium | ManualRule |
@@ -478,8 +486,6 @@
 | V-93475 | Medium | ManualRule |
 | V-93481 | Medium | ManualRule |
 | V-93483 | High | ManualRule |
-| V-93489 | Medium | ManualRule |
-| V-93491 | Medium | ManualRule |
 | V-93509 | Low | ManualRule |
 | V-93515 | Medium | ManualRule |
 | V-93531 | Medium | ManualRule |

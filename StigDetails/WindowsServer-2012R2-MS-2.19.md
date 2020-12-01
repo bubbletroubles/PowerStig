@@ -4,12 +4,12 @@
 **Version:** 2  
 **Release:** Release: 19 Benchmark Date: 17 Jun 2020  
 **FileName:** U_MS_Windows_2012_and_2012_R2_MS_V2R19_Manual-xccdf.xml  
-**Created:** 8/26/2020  
+**Created:** 11/3/2020  
 **Description:** The Windows Server 2012/2012 R2 Member Server Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **304** of **349** rules are automated; **87%**
+**Total Stig Rule Coverage:** **311** of **353** rules are automated; **88%**
 
 * **High (CAT I):** **28** of **33** rules are automated
-* **Medium (CAT II):** **224** of **256** rules are automated
+* **Medium (CAT II):** **231** of **260** rules are automated
 * **Low (CAT III):** **52** of **60** rules are automated
 
 ## Automated Rules
@@ -274,6 +274,13 @@
 | V-80475 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-102619.a | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-102619.b | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-32272.a | Medium | RootCertificateRule | CertificateDSC |  |
+| V-32272.b | Medium | RootCertificateRule | CertificateDSC |  |
+| V-32272.c | Medium | RootCertificateRule | CertificateDSC |  |
+| V-32272.d | Medium | RootCertificateRule | CertificateDSC |  |
+| V-32274.a | Medium | RootCertificateRule | CertificateDSC |  |
+| V-32274.b | Medium | RootCertificateRule | CertificateDSC |  |
+| V-40237 | Medium | RootCertificateRule | CertificateDSC |  |
 | V-1113 | Medium | SecurityOptionRule | SecurityOption |  |
 | V-1114 | Medium | SecurityOptionRule | SecurityOption |  |
 | V-1115 | Medium | SecurityOptionRule | SecurityOption |  |
@@ -334,7 +341,6 @@
 | V-3289 | Medium | DocumentRule |
 | V-3487 | Medium | DocumentRule |
 | V-15823 | Medium | DocumentRule |
-| V-32272 | Medium | DocumentRule |
 | V-36658 | Medium | DocumentRule |
 | V-36734 | Medium | DocumentRule |
 | V-40173 | Low | DocumentRule |
@@ -349,7 +355,6 @@
 | V-3245 | Medium | ManualRule |
 | V-3472 | Low | ManualRule |
 | V-14225 | Medium | ManualRule |
-| V-32274 | Medium | ManualRule |
 | V-36451 | High | ManualRule |
 | V-36659 | High | ManualRule |
 | V-36661 | Medium | ManualRule |
@@ -362,7 +367,6 @@
 | V-36735 | Medium | ManualRule |
 | V-40172 | Low | ManualRule |
 | V-40198 | Medium | ManualRule |
-| V-40237 | Medium | ManualRule |
 | V-57637 | Medium | ManualRule |
 | V-57641 | Medium | ManualRule |
 | V-57645 | Medium | ManualRule |

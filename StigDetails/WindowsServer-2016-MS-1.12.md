@@ -4,12 +4,12 @@
 **Version:** 1  
 **Release:** Release: 12 Benchmark Date: 17 Jun 2020  
 **FileName:** U_MS_Windows_Server_2016_MS_STIG_V1R12_Manual-xccdf.xml  
-**Created:** 8/26/2020  
+**Created:** 11/3/2020  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **199** of **236** rules are automated; **84%**
+**Total Stig Rule Coverage:** **206** of **240** rules are automated; **86%**
 
 * **High (CAT I):** **20** of **24** rules are automated
-* **Medium (CAT II):** **171** of **200** rules are automated
+* **Medium (CAT II):** **178** of **204** rules are automated
 * **Low (CAT III):** **8** of **12** rules are automated
 
 ## Automated Rules
@@ -174,6 +174,13 @@
 | V-78125 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-102623.a | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-102623.b | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-73605.a | Medium | RootCertificateRule | CertificateDSC |  |
+| V-73605.b | Medium | RootCertificateRule | CertificateDSC |  |
+| V-73605.c | Medium | RootCertificateRule | CertificateDSC |  |
+| V-73605.d | Medium | RootCertificateRule | CertificateDSC |  |
+| V-73607.a | Medium | RootCertificateRule | CertificateDSC |  |
+| V-73607.b | Medium | RootCertificateRule | CertificateDSC |  |
+| V-73609 | Medium | RootCertificateRule | CertificateDSC |  |
 | V-73623 | Medium | SecurityOptionRule | SecurityOption |  |
 | V-73625 | Medium | SecurityOptionRule | SecurityOption |  |
 | V-73665 | High | SecurityOptionRule | SecurityOption |  |
@@ -227,7 +234,6 @@
 | V-73271 | Medium | DocumentRule |
 | V-73277 | Medium | DocumentRule |
 | V-73281 | Medium | DocumentRule |
-| V-73605 | Medium | DocumentRule |
 | V-73217 | High | ManualRule |
 | V-73221 | High | ManualRule |
 | V-73223 | Medium | ManualRule |
@@ -252,8 +258,6 @@
 | V-73307 | Low | ManualRule |
 | V-73401 | Medium | ManualRule |
 | V-73403 | Medium | ManualRule |
-| V-73607 | Medium | ManualRule |
-| V-73609 | Medium | ManualRule |
 | V-90355 | Low | ManualRule |
 | V-90357 | Low | ManualRule |
 | V-78127 | Medium | ManualRule |

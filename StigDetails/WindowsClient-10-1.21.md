@@ -4,12 +4,12 @@
 **Version:** 1  
 **Release:** Release: 21 Benchmark Date: 24 Apr 2020  
 **FileName:** U_MS_Windows_10_STIG_V1R21_Manual-xccdf.xml  
-**Created:** 8/26/2020  
+**Created:** 11/24/2020  
 **Description:** The Windows 10 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **431** of **462** rules are automated; **93%**
+**Total Stig Rule Coverage:** **440** of **467** rules are automated; **94%**
 
 * **High (CAT I):** **23** of **27** rules are automated
-* **Medium (CAT II):** **391** of **415** rules are automated
+* **Medium (CAT II):** **400** of **420** rules are automated
 * **Low (CAT III):** **17** of **20** rules are automated
 
 ## Automated Rules
@@ -327,6 +327,8 @@
 | V-63679 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-63681 | Low | RegistryRule | Registry |  |
 | V-63683 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-63685.a | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-63685.b | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-63687 | Low | RegistryRule | Registry |  |
 | V-63689 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-63691 | Low | RegistryRule | RegistryPolicyFile |  |
@@ -404,6 +406,13 @@
 | V-99561 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-99563 | Low | RegistryRule | RegistryPolicyFile |  |
 | V-100093 | Medium | RegistryRule | Registry |  |
+| V-63579.a | Medium | RootCertificateRule | CertificateDSC |  |
+| V-63579.b | Medium | RootCertificateRule | CertificateDSC |  |
+| V-63579.c | Medium | RootCertificateRule | CertificateDSC |  |
+| V-63579.d | Medium | RootCertificateRule | CertificateDSC |  |
+| V-63587.a | Medium | RootCertificateRule | CertificateDSC |  |
+| V-63587.b | Medium | RootCertificateRule | CertificateDSC |  |
+| V-63589 | Medium | RootCertificateRule | CertificateDSC |  |
 | V-63601 | Medium | SecurityOptionRule | SecurityOption |  |
 | V-63611 | Medium | SecurityOptionRule | SecurityOption |  |
 | V-63619 | Medium | SecurityOptionRule | SecurityOption |  |
@@ -456,7 +465,6 @@
 | V-63359 | Low | DocumentRule |
 | V-63365 | Medium | DocumentRule |
 | V-63393 | Medium | DocumentRule |
-| V-63579 | Medium | DocumentRule |
 | V-72765 | Medium | DocumentRule |
 | V-63319 | Medium | ManualRule |
 | V-63323 | Medium | ManualRule |
@@ -472,9 +480,6 @@
 | V-63399 | Medium | ManualRule |
 | V-63403 | Medium | ManualRule |
 | V-63583 | Medium | ManualRule |
-| V-63587 | Medium | ManualRule |
-| V-63589 | Medium | ManualRule |
-| V-63685 | Medium | ManualRule |
 | V-68845 | High | ManualRule |
 | V-72767 | Medium | ManualRule |
 | V-72769 | Medium | ManualRule |
