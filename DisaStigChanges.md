@@ -1,6 +1,6 @@
 # DISA STIG "Group Id" Changes
 
-**IMPORTANT INFORMATION: PowerSTIG 4.6.0 (Currently Unreleased), includes the October 2020 DISA Quarterly updates, which necessitates changes to existing configurations.**
+**IMPORTANT INFORMATION: Beginning with PowerSTIG 4.6.0, includes the October 2020 DISA Quarterly updates, which necessitates changes to existing configurations.**
 
 Due to a DISA Update, which is explained [here](https://public.cyber.mil/announcement/disa-posts-files-to-test-new-stig-group-and-rule-ids/), the "Group Id" that PowerSTIG uses to identify specific rule automation is changing. 
 
