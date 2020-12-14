@@ -43,7 +43,7 @@
 [IisSite]:                           https://github.com/Microsoft/PowerStig/wiki/IisSite
 [Firefox]:                           https://github.com/Microsoft/PowerStig/wiki/firefox
 [Documentation-via-STIG-Checklists]: https://github.com/microsoft/PowerStig/wiki/Documentation-via-STIG-Checklists
-[DoD-Root-Certificate-Rules]         https://github.com/microsoft/PowerStig/wiki/DoD-Root-Certificate-Rules
+[DoD-Root-Certificate-Rules]:        https://github.com/microsoft/PowerStig/wiki/DoD-Root-Certificate-Rules
 [powerstigarchivelog]:               https://github.com/Microsoft/PowerStig/wiki/PowerSTIGArchiveLog
 [hardcodedexamples]:                 https://github.com/Microsoft/PowerStig/wiki/PowerSTIGArchiveLog#HardCodedRule-Examples
 [powerstigwithazureautomation]:      https://github.com/microsoft/PowerStig/wiki/PowerSTIG-With-Azure-Automation
