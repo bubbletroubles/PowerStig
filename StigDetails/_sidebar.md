@@ -18,6 +18,7 @@
   * [Firefox][Firefox]
 
 * [Documentation via STIG Checklists][Documentation-via-STIG-Checklists]
+* [DoD Root Certificate Rules][DoD-Root-Certificate-Rules]
 * [PowerSTIG Archive Log][powerstigarchivelog]
   * [HardCodedRule Examples][hardcodedexamples]
 * [PowerSTIG with Azure Automation][powerstigwithazureautomation]
