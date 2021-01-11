@@ -41,7 +41,7 @@ Once you have a compiled MOF, you can start an initial audit on a server or work
 Since we are using standard DSC components, we can take advantage of the different DSC infrastructure options.
 
 1. [No DSC infrastructure (Manual Push)][DscGettingStarted]
-1. [On-premises DSC infrastructure (Pull Server)][DscOnPremises]
+1. [On-premises DSC infrastructure (Pull Server)](https://docs.microsoft.com/en-us/powershell/scripting/dsc/pull-server/pullserver?view=powershell-5.1)
 1. [Azure Automation DSC][DscAzureAutomation]
 1. [Azure Virtual Machine extension][DscAzureVirtualMachine]
 
