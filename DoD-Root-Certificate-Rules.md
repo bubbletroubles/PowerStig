@@ -16,8 +16,8 @@ Functionality was added to include the ability to confirm DOD root certificates 
 4. Run FBCA_crosscert_remover as Administrator
 5. Get Thumbprints for your technlogy from PowerStig (Stigdata\Processed)
 ```powershell
-    # Ensure PowerSTIG is installed on host computer
-	#This example gets the thumbprints from Windows Client V2R1 Processed STIG, then exports to the c:\ drive
+# Ensure PowerSTIG is installed on host computer
+#This example gets the thumbprints from Windows Client V2R1 Processed STIG, then exports to the c:\ drive
 
 Import-Module PowerStig -verbose -force
 $powerSTIGpath = (Get-Module -Name PowerSTIG).ModuleBase
