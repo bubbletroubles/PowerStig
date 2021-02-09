@@ -26,9 +26,8 @@ None
 
     WindowsFirewall STIG_WindowsFirewall
     {
-        #PublicProfile Azure Example
+        # PublicProfile Azure Example
         Skiprule = @('V-17438.a','V-17438.b')
-
     }
 ```
 
