@@ -3,7 +3,7 @@
 A composite DSC resource to manage the Windows Firewall STIG settings
 
 
-> Tip: If you are deploying PowerSTIG to Azure VM you may experience connectivity issues due to a default inbound deny all rule for specific profiles. You will need to configure a rule to allow RDP inbound from Azure or skip the rule (DomainProfile = V-17418, PublicProfile =  V-17438, PrivateProfile = V-17428) You must skip Rule.a and Rule.b.
+> Tip: If you are deploying PowerSTIG to Azure VM you may experience connectivity issues due to a default inbound deny all rule for specific profiles. You will need to configure a rule to allow RDP inbound from Azure or skip the rule (DomainProfile = V-17418, PublicProfile =  V-17438, PrivateProfile = V-17428). You must skip Rule.a and Rule.b.
 
 Example :
 ```PowerShell
