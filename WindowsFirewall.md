@@ -2,6 +2,20 @@
 
 A composite DSC resource to manage the Windows Firewall STIG settings
 
+
+> Tip: If you are deploying PowerSTIG to Azure VM you may experience connectivity issues due to a default inbound deny all rule for specific profiles. (DomainProfile = V-17418, PublicProfile =  V-17438, PrivateProfile = V-17428) You must skip rule.a and rule.b
+
+Example :
+```PowerShell
+
+    WindowsFirewall STIG_WindowsFirewall
+    {
+        #PublicProfile Example
+        Skiprule = @('V-17438.a','V-17438.b')
+
+    }
+```
+
 ## Requirements
 
 None
