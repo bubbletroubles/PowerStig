@@ -2,20 +2,6 @@
 
 A composite DSC resource to manage the Windows Firewall STIG settings
 
-
-> Tip: If you are deploying PowerSTIG to Azure VM you may experience connectivity issues due to a default inbound deny all rule for specific profiles. You will need to configure a rule to allow RDP inbound from Azure or skip the rule (DomainProfile = V-17418, PublicProfile =  V-17438, PrivateProfile = V-17428). You must skip Rule.a and Rule.b.
-
-Example :
-```PowerShell
-
-    WindowsFirewall STIG_WindowsFirewall
-    {
-        #PublicProfile Azure Example
-        Skiprule = @('V-17438.a','V-17438.b')
-
-    }
-```
-
 ## Requirements
 
 None
@@ -31,6 +17,19 @@ None
 | SkipRuleType | False | PSObject | All STIG rule IDs of the specified type are collected in an array and passed to the Skip-Rule function. Each rule follows the same process as the SkipRule parameter. |  |
 
 ## Examples
+
+> Tip: If you are deploying PowerSTIG to an Azure VM you may experience connectivity issues due to a default inbound deny all rule for specific profiles. You will need to configure a rule to allow RDP inbound from Azure or skip the rule (DomainProfile = V-17418, PublicProfile =  V-17438, PrivateProfile = V-17428). You must skip Rule.a and Rule.b.
+
+Example :
+```PowerShell
+
+    WindowsFirewall STIG_WindowsFirewall
+    {
+        #PublicProfile Azure Example
+        Skiprule = @('V-17438.a','V-17438.b')
+
+    }
+```
 
 ### Apply the latest Windows Firewall STIG to a node
 
