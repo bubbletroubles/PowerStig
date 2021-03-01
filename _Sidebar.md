@@ -4,7 +4,6 @@
 * [Important DISA STIG Updates][disastigchanges]
 * [Getting Started][gettingstarted]
   * [No existing DSC infrastructure][DscGettingStarted]
-  * [Existing DSC infrastructure][DscOnPremises]
 * [Composite Resources][compositeresources]
   * [InternetExplorer][InternetExplorer]
   * [Office][Office]
@@ -50,7 +49,6 @@
 [stigcaveats]:                       https://github.com/Microsoft/PowerStig/wiki/StigCaveats
 [sqlservercaveats]:                  https://github.com/Microsoft/PowerStig/wiki/StigCaveats#sqlserver-2012
 [DscGettingStarted]:                 https://github.com/Microsoft/PowerStig/wiki/DscGettingStarted
-[DscOnPremises]:                     https://github.com/Microsoft/PowerStig/wiki/DscOnPremises
 [DscAzureAutomation]:                https://github.com/Microsoft/PowerStig/wiki/DscAzureAutomation
 [DscAzureVirtualMachine]:            https://github.com/Microsoft/PowerStig/wiki/DscAzureVirtualMachine
 [stigcoveragesummary]:               https://github.com/Microsoft/PowerStig/wiki/StigCoverageSummary
