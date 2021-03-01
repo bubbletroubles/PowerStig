@@ -7,10 +7,10 @@ Functionality was added to include the ability to confirm DOD root certificates 
 ## Steps to use new functionality
 
 1. Download  InstallRoot
-[InstallRoot] (https://public.cyber.mil/pki-pke/end-users/getting-started/#toggle-id-1)
+[InstallRoot](https://public.cyber.mil/pki-pke/end-users/getting-started/#toggle-id-1)
 
 2. Download the FBCA Cross-Certificate Remover 
-[FBCA Cross-Certificate Remover] (https://public.cyber.mil/unclass-fbca_crosscert_remover_v118)
+[FBCA Cross-Certificate Remover](https://public.cyber.mil/unclass-fbca_crosscert_remover_v118)
 
 3. Run InstallRoot as Administrator
 4. Run FBCA_crosscert_remover as Administrator
