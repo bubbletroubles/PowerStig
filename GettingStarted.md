@@ -2,7 +2,7 @@
 PowerSTIG uses PowerShell Desired State Configuration (DSC) to audit and enforce individual STIG rules.
 If you are not already familiar with DSC, please review the official documentation [here](https://docs.microsoft.com/en-us/powershell/scripting/dsc/getting-started/wingettingstarted?view=powershell-5.1).
 Once you are comfortable with DSC concepts, it's time to download the PowerSTIG module from the [PowerShell Gallery][PsGallery].
-Using PowerShellGet in PowerShell 5.0 +, run the following command:
+Using PowerShellGet in PowerShell 5.x, run the following command:
 
 **NOTE:** You **don't** need to run as an admin to install the modules.
 '-Scope CurrentUser' is used to install into your profile module path.
