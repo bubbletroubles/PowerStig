@@ -1,16 +1,16 @@
-# [MS SQL Server 2016 Instance STIG, Version 2.1](https://github.com/Microsoft/PowerStig/wiki/SqlServer-2016-Instance-2.1)
+# [MS SQL Server 2016 Instance STIG, Version 2.3](https://github.com/Microsoft/PowerStig/wiki/SqlServer-2016-Instance-2.3)
 
 **Title:** MS SQL Server 2016 Instance Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 1 Benchmark Date: 23 Oct 2020 3.1.1.36225 1.10.0  
-**FileName:** U_MS_SQL_Server_2016_Instance_STIG_V2R1_Manual-xccdf.xml  
-**Created:** 12/3/2020  
+**Release:** Release: 3 Benchmark Date: 23 Apr 2021 3.2.2.36079 1.10.0  
+**FileName:** U_MS_SQL_Server_2016_Instance_STIG_V2R3_Manual-xccdf.xml  
+**Created:** 5/27/2021  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **41** of **135** rules are automated; **30%**
+**Total Stig Rule Coverage:** **53** of **135** rules are automated; **39%**
 
-* **High (CAT I):** **0** of **8** rules are automated
-* **Medium (CAT II):** **40** of **124** rules are automated
-* **Low (CAT III):** **1** of **3** rules are automated
+* **High (CAT I):** **1** of **9** rules are automated
+* **Medium (CAT II):** **52** of **124** rules are automated
+* **Low (CAT III):** **0** of **2** rules are automated
 
 ## Automated Rules
 
@@ -36,7 +36,7 @@
 | V-213967.r | Medium | RegistryRule | Registry |  |
 | V-213967.s | Medium | RegistryRule | Registry |  |
 | V-213967.t | Medium | RegistryRule | Registry |  |
-| V-213968 | Low | SecurityOptionRule | SecurityOption |  |
+| V-213968 | High | SecurityOptionRule | SecurityOption |  |
 | V-213940 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
 | V-213989 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
 | V-213999 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
@@ -57,6 +57,18 @@
 | V-214018 | Medium | SqlScriptQueryRule | None | V-213940 |
 | V-214028 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
 | V-214029 | Medium | SqlScriptQueryRule | None | V-214028 |
+| V-213957 | Medium | SqlServerConfigurationRule | SqlServerConfiguration |  |
+| V-213958 | Medium | SqlServerConfigurationRule | SqlServerConfiguration |  |
+| V-213975 | Medium | SqlServerConfigurationRule | SqlServerConfiguration |  |
+| V-214034 | Medium | SqlServerConfigurationRule | SqlServerConfiguration |  |
+| V-214035 | Medium | SqlServerConfigurationRule | SqlServerConfiguration |  |
+| V-214036 | Medium | SqlServerConfigurationRule | SqlServerConfiguration |  |
+| V-214037 | Medium | SqlServerConfigurationRule | SqlServerConfiguration |  |
+| V-214038 | Medium | SqlServerConfigurationRule | SqlServerConfiguration |  |
+| V-214039 | Medium | SqlServerConfigurationRule | SqlServerConfiguration |  |
+| V-214040 | Medium | SqlServerConfigurationRule | SqlServerConfiguration |  |
+| V-214041 | Medium | SqlServerConfigurationRule | SqlServerConfiguration |  |
+| V-214043 | Medium | SqlServerConfigurationRule | SqlServerConfiguration |  |
 
 ## Document / Manual Rules (Not Automated)
 
@@ -83,15 +95,12 @@
 | V-213954 | Medium | DocumentRule |
 | V-213955 | Medium | DocumentRule |
 | V-213956 | Medium | DocumentRule |
-| V-213957 | Medium | DocumentRule |
-| V-213958 | Medium | DocumentRule |
 | V-213959 | Medium | DocumentRule |
 | V-213960 | Medium | DocumentRule |
 | V-213962 | Medium | DocumentRule |
 | V-213965 | Medium | DocumentRule |
 | V-213970 | Medium | DocumentRule |
 | V-213972 | High | DocumentRule |
-| V-213975 | Medium | DocumentRule |
 | V-213976 | Medium | DocumentRule |
 | V-213977 | Medium | DocumentRule |
 | V-213979 | Medium | DocumentRule |
@@ -123,16 +132,7 @@
 | V-214031 | Medium | DocumentRule |
 | V-214032 | Medium | DocumentRule |
 | V-214033 | Medium | DocumentRule |
-| V-214034 | Medium | DocumentRule |
-| V-214035 | Medium | DocumentRule |
-| V-214036 | Medium | DocumentRule |
-| V-214037 | Medium | DocumentRule |
-| V-214038 | Medium | DocumentRule |
-| V-214039 | Medium | DocumentRule |
-| V-214040 | Medium | DocumentRule |
-| V-214041 | Medium | DocumentRule |
 | V-214042 | Low | DocumentRule |
-| V-214043 | Medium | DocumentRule |
 | V-214044 | Low | DocumentRule |
 | V-214045 | High | DocumentRule |
 | V-213934 | High | ManualRule |

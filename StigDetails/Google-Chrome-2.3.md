@@ -1,15 +1,15 @@
-# [Google Chrome Current Windows, Version 2.1](https://github.com/Microsoft/PowerStig/wiki/Google-Chrome-2.1)
+# [Google Chrome Current Windows, Version 2.3](https://github.com/Microsoft/PowerStig/wiki/Google-Chrome-2.3)
 
 **Title:** Google Chrome Current Windows Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 1 Benchmark Date: 23 Oct 2020 3.1.1.36225 1.10.0  
-**FileName:** U_Google_Chrome_STIG_V2R1_Manual-xccdf.xml  
-**Created:** 12/16/2020  
+**Release:** Release: 3 Benchmark Date: 23 Apr 2021 3.2.2.36079 1.10.0  
+**FileName:** U_Google_Chrome_STIG_V2R3_Manual-xccdf.xml  
+**Created:** 5/20/2021  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **43** of **44** rules are automated; **98%**
+**Total Stig Rule Coverage:** **41** of **42** rules are automated; **98%**
 
 * **High (CAT I):** **1** of **1** rules are automated
-* **Medium (CAT II):** **41** of **42** rules are automated
+* **Medium (CAT II):** **39** of **40** rules are automated
 * **Low (CAT III):** **1** of **1** rules are automated
 
 ## Automated Rules
@@ -25,7 +25,6 @@
 | V-221565 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-221566 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-221567 | Medium | RegistryRule | RegistryPolicyFile |  |
-| V-221568 | High | RegistryRule | RegistryPolicyFile |  |
 | V-221570 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-221571 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-221572 | Medium | RegistryRule | RegistryPolicyFile |  |
@@ -39,12 +38,9 @@
 | V-221580 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-221581 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-221582 | Medium | RegistryRule | RegistryPolicyFile |  |
-| V-221583 | Medium | RegistryRule | Registry |  |
-| V-221585 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-221586 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-221587 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-221588 | Medium | RegistryRule | RegistryPolicyFile |  |
-| V-221589 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-221590 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-221591 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-221592 | Medium | RegistryRule | RegistryPolicyFile |  |
@@ -59,6 +55,8 @@
 | V-226402 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-226403 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-226404 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-234701 | High | RegistryRule | RegistryPolicyFile |  |
+| V-241787 | Medium | RegistryRule | RegistryPolicyFile |  |
 
 ## Document / Manual Rules (Not Automated)
 
