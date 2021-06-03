@@ -70,6 +70,7 @@
   * [SqlServer-2016-Instance-2.2][SqlServer2016Instance22]
   * [SqlServer-2016-Instance-2.3][SqlServer2016Instance23]
   * [Ubuntu-18.04-2.2][Ubuntu180422]
+  * [Ubuntu-18.04-2.3][Ubuntu180423]
   * [Vsphere-6.5-1.4][Vsphere6514]
   * [Vsphere-6.5-2.1][Vsphere6521]
   * [WindowsClient-10-2.1][WindowsClient1021]
@@ -166,6 +167,7 @@
 [SqlServer2016Instance22]: https://github.com/Microsoft/PowerStig/wiki/SqlServer-2016-Instance-2.2
 [SqlServer2016Instance23]: https://github.com/Microsoft/PowerStig/wiki/SqlServer-2016-Instance-2.3
 [Ubuntu180422]: https://github.com/Microsoft/PowerStig/wiki/Ubuntu-18.04-2.2
+[Ubuntu180423]: https://github.com/Microsoft/PowerStig/wiki/Ubuntu-18.04-2.3
 [Vsphere6514]: https://github.com/Microsoft/PowerStig/wiki/Vsphere-6.5-1.4
 [Vsphere6521]: https://github.com/Microsoft/PowerStig/wiki/Vsphere-6.5-2.1
 [WindowsClient1021]: https://github.com/Microsoft/PowerStig/wiki/WindowsClient-10-2.1

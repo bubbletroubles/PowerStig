@@ -1,4 +1,4 @@
-# PowerSTIG Technology Coverage : Module Version 4.9.0
+# PowerSTIG Technology Coverage : Module Version 4.9.1
 
 A Summary of Technology Coverage for **PowerSTIG** is listed below, for more detailed rule coverage, follow the technology specific link:
 
@@ -649,6 +649,20 @@ following address: disa.stig_spt@mail.mil.
 
 * **High (CAT I):** **8** of **15** rules are automated
 * **Medium (CAT II):** **178** of **237** rules are automated
+* **Low (CAT III):** **15** of **25** rules are automated
+
+## [U CAN Ubuntu 18-04 STIG, Version 2.3](https://github.com/Microsoft/PowerStig/wiki/Ubuntu-18.04-2.3)
+
+**Title:** Canonical Ubuntu 18.04 LTS Security Technical Implementation Guide  
+**Version:** 2  
+**Release:** Release: 3 Benchmark Date: 23 Apr 2021 3.2.2.36079 1.10.0  
+**FileName:** U_CAN_Ubuntu_18-04_LTS_STIG_V2R3_Manual-xccdf.xml  
+**Created:** 6/2/2021  
+**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
+**Total Stig Rule Coverage:** **191** of **270** rules are automated; **71%**
+
+* **High (CAT I):** **8** of **15** rules are automated
+* **Medium (CAT II):** **168** of **230** rules are automated
 * **Low (CAT III):** **15** of **25** rules are automated
 
 ## [VMware vSphere 6-5 ESXi STIG, Version 1.4](https://github.com/Microsoft/PowerStig/wiki/Vsphere-6.5-1.4)
