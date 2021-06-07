@@ -142,6 +142,71 @@ Now that you have all the resources copied over, it's time to audit the server.
 
 ### Audit Servers
 
+## Audit with Test-DscConfiguration
+
+1. Install PowerSTIG on Target 
+```powereshell
+Install-module PowerSTIG
+```
+1. Configuration WinRM Settings
+```powershell
+winrm quickconfig 
+```
+1. Generate a PowerSTIG configuration 
+```powershell
+configuration Example
+{
+    param
+    (
+        [parameter()]
+        [string]
+        $NodeName = 'localhost'
+    )
+
+    Import-DscResource -ModuleName PowerStig
+
+    Node $NodeName
+    {
+        WindowsServer BaseLine
+        {
+            OsVersion   = '2012R2'
+            OsRole      = 'MS'
+            Exception   = @{
+                'V-205733'= @{
+                    'Identity'='Guests'
+                }
+                'V-205672'= @{
+                    'Identity'='Guests'
+                }
+                'V-205673'= @{
+                    'Identity'='Guests'
+                }
+                'V-205675'= @{
+                    'Identity'='Guests'
+                }
+            }
+            OrgSettings = @{
+                'V-205910' = @{OptionValue = 'xGuest'}
+                'V-205717' = @{Value = '2'}
+            }
+        }
+    }
+}
+
+Example
+```
+1. Audit current settings against .mof
+```powershell
+$audit = Test-DscConfiguration -ReferenceConfiguration .\Example\localhost.mof
+# View compliant settings
+$audit.ResourcesInDesiredState | Out-GridView
+
+# View non-compliant settings
+$audit.ResourcesNotInDesiredState | Out-GridView
+```
+
+## Audit with DSCEA
+
 In this section we will be using [DSC Environment Analyzer (DSCEA)][DSCEA] to audit the server.
 Before you can audit a server, you need to run a configuration with PowerSTIG defined to compile a MOF.
 The following configuration assumes that you have created a central organizational settings file.
