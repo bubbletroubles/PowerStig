@@ -142,7 +142,7 @@ Now that you have all the resources copied over, it's time to audit the server.
 
 ### Audit Servers
 
-## Audit with Test-DscConfiguration
+#### Audit with Test-DscConfiguration
 
 1. Install PowerSTIG on Target 
 ```powereshell
@@ -205,7 +205,7 @@ $audit.ResourcesInDesiredState | Out-GridView
 $audit.ResourcesNotInDesiredState | Out-GridView
 ```
 
-## Audit with DSCEA
+#### Audit with DSCEA
 
 In this section we will be using [DSC Environment Analyzer (DSCEA)][DSCEA] to audit the server.
 Before you can audit a server, you need to run a configuration with PowerSTIG defined to compile a MOF.

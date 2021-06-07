@@ -2,6 +2,8 @@
 
 PowerSTIG is a project to aid customers that want or need to comply with DISA STIG's.
 
+NOTE: PowerSTIG is currently only compatible with PowerShell v5
+
 If you are interested in contributing to PowerSTIG, please go [here][Contributing].
 
 If you are interested in how to use PowerSTIG please go [here][GettingStarted].
