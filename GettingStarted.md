@@ -148,11 +148,11 @@ Now that you have all the resources copied over, it's time to audit the server.
 ```powereshell
 Install-module PowerSTIG
 ```
-1. Configuration WinRM Settings
+2. Configuration WinRM Settings
 ```powershell
 winrm quickconfig 
 ```
-1. Generate a PowerSTIG configuration 
+3. Generate a PowerSTIG configuration 
 ```powershell
 configuration Example
 {
@@ -195,7 +195,7 @@ configuration Example
 
 Example
 ```
-1. Audit current settings against .mof
+4. Audit current settings against .mof
 ```powershell
 $audit = Test-DscConfiguration -ReferenceConfiguration .\Example\localhost.mof
 # View compliant settings
