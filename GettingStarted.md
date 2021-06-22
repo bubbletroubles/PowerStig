@@ -148,9 +148,20 @@ Now that you have all the resources copied over, it's time to audit the server.
 ```powereshell
 Install-module PowerSTIG
 ```
-2. Configuration WinRM Settings
+2. Configure required settings for WinRM
 ```powershell
-winrm quickconfig 
+# Set basic winrm settings
+winrm quickconfig
+
+# Get the name of the public profile
+Get-NetConnectionProfile
+
+# Update the InterfaceAlias parameter with the name of the profile from above
+Set-NetConnectionProfile -InterfaceAlias 'Ethernet' -NetworkCategory Private
+
+# Update the WSMAN MaxEnvelopeSizekb
+Set-Item -Path WSMan:\localhost\MaxEnvelopeSizekb -Value 8192
+
 ```
 3. Generate a PowerSTIG configuration 
 ```powershell
