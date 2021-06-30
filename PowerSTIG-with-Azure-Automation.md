@@ -143,7 +143,7 @@ param
 # Imports Azure Automation DSC Configuration from PS1 provided in $SourcePath 
 try 
 {
-    Import-AzAutomationDscConfiguration -AutomationAccountName $automationAccountName -ResourceGroupName $resourceGroupName -SourcePath $sourcePath -Force
+    Import-AzAutomationDscConfiguration -AutomationAccountName $automationAccountName -ResourceGroupName $resourceGroupName -SourcePath $sourcePath -Force -Published
 }
 catch
 {
