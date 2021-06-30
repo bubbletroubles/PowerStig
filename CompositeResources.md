@@ -169,14 +169,14 @@ ResourceID = "[Script][V-1075][low][[Skip]Display Shutdown Button]::[WindowsServ
  ModuleName = "PSDesiredStateConfiguration";
 ```
 
-To skip multiple rules a string array will be required
+To skip multiple rules a string array will be required:
 ```powershell
     WindowsServer BaseLine
     {
         OsVersion   = '2012R2'
         OsRole      = 'MS'
         StigVersion = '2.13'
-        SkipRule    = @'V-1075','V-1076')
+        SkipRule    = @('V-1075','V-1076')
     }
 ```
 
