@@ -79,7 +79,7 @@ There is a known limitation with DSC for Linux where a mof size greater than 23 
 
 However, a workaround can be used to **manually apply** a PowerSTIG generated mof to a supported Linux based target following the steps outlined below:
 
-1. Generate a mof using PowerSTIG with the Linux composite.
+1. Generate a mof using PowerSTIG with the RHEL or Ubuntu composites.
 1. Using the mof generated in step one, copy the mof to /etc/opt/omi/conf/dsc/configuration/ as Pending.mof, please note the capitalization of the letter "P".
 1. Register the DSC on the machine to create a PUSH mode MetaConfig:
     1. ```sudo /opt/microsoft/dsc/Scripts/Register.py --RefreshMode Push --ConfigurationMode ApplyAndAutoCorrect```
