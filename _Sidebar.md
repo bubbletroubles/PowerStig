@@ -52,5 +52,5 @@
 [DscGettingStarted]:                                 https://github.com/Microsoft/PowerStig/wiki/DscGettingStarted
 [DscAzureAutomation]:                                https://github.com/Microsoft/PowerStig/wiki/DscAzureAutomation
 [DscAzureVirtualMachine]:                            https://github.com/Microsoft/PowerStig/wiki/DscAzureVirtualMachine
-[PowerSTIG-&-Desired-State-Configuration-for-Linux]: https://github.com/Microsoft/PowerStig/wiki/DscForLinux
+[PowerSTIG-&-Desired-State-Configuration-for-Linux]: https://github.com/Microsoft/PowerStig/wiki/PowerSTIG-&-Desired-State-Configuration-for-Linux
 [stigcoveragesummary]:                               https://github.com/Microsoft/PowerStig/wiki/StigCoverageSummary
