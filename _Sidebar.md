@@ -18,6 +18,7 @@
 
 * [Documentation via STIG Checklists][Documentation-via-STIG-Checklists]
 * [DoD Root Certificate Rules][DoD-Root-Certificate-Rules]
+* [PowerSTIG & DSC for Linux][DscForLinux]
 * [PowerSTIG Archive Log][powerstigarchivelog]
   * [HardCodedRule Examples][hardcodedexamples]
 * [PowerSTIG with Azure Automation][powerstigwithazureautomation]
@@ -51,4 +52,5 @@
 [DscGettingStarted]:                 https://github.com/Microsoft/PowerStig/wiki/DscGettingStarted
 [DscAzureAutomation]:                https://github.com/Microsoft/PowerStig/wiki/DscAzureAutomation
 [DscAzureVirtualMachine]:            https://github.com/Microsoft/PowerStig/wiki/DscAzureVirtualMachine
+[DscForLinux]:                       https://github.com/Microsoft/PowerStig/wiki/DscForLinux
 [stigcoveragesummary]:               https://github.com/Microsoft/PowerStig/wiki/StigCoverageSummary
