@@ -26,7 +26,8 @@ Use DSC for Linux to apply PowerSTIG configurations to Linux
     Use the embedded STIG data with default range values to apply the most recent STIG settings.
     In this example, the composite resource gets the highest Ubuntu 18.04 STIG version file it
     can find locally generates an Ubuntu 18.04 mof file. The composite resource merges in the
-    default values for any settings that have a valid range.
+    default values for any settings that have a valid range. Get/Set-Content is used to remove
+    Carriage Returns (CR) from the mof file, as Linux uses Line Feed (LF) for new lines.
 #>
 configuration UbuntuBaseLine
 {
@@ -41,7 +42,8 @@ configuration UbuntuBaseLine
    }
 }
 
-UbuntuBaseLine -Output C:\dev
+$mofPath = UbuntuBaseLine -Output C:\dev
+(Get-Content -Path $mofPath.FullName -Raw).Replace("`r`n","`n") | Set-Content -Path $mofPath.FullName -Encoding UTF8 -Force 
 ```
 
 ### Use PowerSTIG to generate a RHEL 7.x DSC mof
@@ -51,7 +53,8 @@ UbuntuBaseLine -Output C:\dev
     Use the embedded STIG data with default range values to apply the most recent STIG settings.
     In this example, the composite resource gets the highest RHEL 7 STIG version file it can
     find locally generates an RHEL 7 mof file. The composite resource merges in the default values
-    for any settings that have a valid range.
+    for any settings that have a valid range. Get/Set-Content is used to remove Carriage Returns (CR)
+    from the mof file, as Linux uses Line Feed (LF) for new lines.
 #>
 configuration RHELBaseLine
 {
@@ -66,16 +69,27 @@ configuration RHELBaseLine
    }
 }
 
-RHELBaseLine -Output C:\dev
+$mofPath = RHELBaseLine -Output C:\dev
+(Get-Content -Path $mofPath.FullName -Raw).Replace("`r`n","`n") | Set-Content -Path $mofPath.FullName -Encoding UTF8 -Force 
 ```
 
-## Known Limitations and Work Around
+## Known Limitations and Workarounds
+
+### Mof Encoding and Carriage Return / Linefeed (Windows line termination sequence)
+
+Windows uses "Carriage Return / Line Feed" (CRLF) for its line termination sequence, whereas Linux uses "Linefeed" (LF). When the configuration is generated on a Windows system using Windows PowerShell 5.1 the mof is UTF-16 encoded and using CRFL for line termination. To apply a PowerSTIG generated mof to a Linux target, the mof file should be encoded UTF-8 and have no CR in its line termination sequence. Using the example below, Get-Content and Set-Content is used to remove the CR line terminator and set UTF-8 encoding, so that the mof can be successfully used on a Linux Target.
+
+```PowerShell
+(Get-Content -Path C:\Dev\localhost.mof -Raw).Replace("`r`n","`n") | Set-Content -Path C:\Dev\localhost.mof -Encoding UTF8 -Force
+```
 
 ### Mof File Size Limitation
 
 There is a known limitation with DSC for Linux where a mof size greater than 23 KB cannot be applied with StartDscConfiguration.py, i.e.:
 
-```sudo ./StartDscConfiguration.py –-configurationmof /tmp/localhost.mof```
+```bash
+sudo ./StartDscConfiguration.py –-configurationmof /tmp/localhost.mof
+```
 
 However, a workaround can be used to **manually apply** a PowerSTIG generated mof to a supported Linux based target following the steps outlined below:
 
