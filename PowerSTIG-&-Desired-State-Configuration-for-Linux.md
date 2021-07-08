@@ -42,8 +42,8 @@ configuration UbuntuBaseLine
    }
 }
 
-$mofPath = UbuntuBaseLine -Output C:\dev
-(Get-Content -Path $mofPath.FullName -Raw).Replace("`r`n","`n") | Set-Content -Path $mofPath.FullName -Encoding UTF8 -Force 
+$mof = UbuntuBaseLine -Output C:\dev
+(Get-Content -Path $mof.FullName -Raw).Replace("`r`n","`n") | Set-Content -Path $mofPath.FullName -Encoding UTF8 -Force 
 ```
 
 ### Use PowerSTIG to generate a RHEL 7.x DSC mof
@@ -69,8 +69,8 @@ configuration RHELBaseLine
    }
 }
 
-$mofPath = RHELBaseLine -Output C:\dev
-(Get-Content -Path $mofPath.FullName -Raw).Replace("`r`n","`n") | Set-Content -Path $mofPath.FullName -Encoding UTF8 -Force 
+$mof = RHELBaseLine -Output C:\dev
+(Get-Content -Path $mof.FullName -Raw).Replace("`r`n","`n") | Set-Content -Path $mofPath.FullName -Encoding UTF8 -Force 
 ```
 
 ## Known Limitations and Workarounds
