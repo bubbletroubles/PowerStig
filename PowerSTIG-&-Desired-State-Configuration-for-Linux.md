@@ -80,7 +80,8 @@ $mof = RHELBaseLine -Output C:\dev
 Windows uses "Carriage Return / Line Feed" (CRLF) for its line termination sequence, whereas Linux uses "Linefeed" (LF). When the configuration is generated on a Windows system using Windows PowerShell 5.1 the mof is UTF-16 encoded and using CRFL for line termination. To apply a PowerSTIG generated mof to a Linux target, the mof file should be encoded UTF-8 and have no CR in its line termination sequence. Using the example below, Get-Content and Set-Content is used to remove the CR line terminator and set UTF-8 encoding, so that the mof can be successfully used on a Linux Target.
 
 ```PowerShell
-(Get-Content -Path C:\Dev\localhost.mof -Raw).Replace("`r`n","`n") | Set-Content -Path C:\Dev\localhost.mof -Encoding UTF8 -Force
+$mofPath = 'C:\Dev\localhost.mof'
+(Get-Content -Path $mofPath -Raw).Replace("`r`n","`n") | Set-Content -Path $mofPath -Encoding UTF8 -Force
 ```
 
 ### Mof File Size Limitation
