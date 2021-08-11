@@ -48,7 +48,7 @@ configuration Example
         {
             SqlVersion     = '2012'
             SqlRole        = 'Instance'
-            ServerInstance = 'ServerX\TestInstance'
+            ServerInstance = 'ServerX'
         }
     }
 }
