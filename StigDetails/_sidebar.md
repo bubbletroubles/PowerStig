@@ -19,6 +19,7 @@
 * [Documentation via STIG Checklists][Documentation-via-STIG-Checklists]
 * [DoD Root Certificate Rules][DoD-Root-Certificate-Rules]
 * [PowerSTIG & DSC for Linux][PowerSTIG-&-Desired-State-Configuration-for-Linux]
+* [Backup and Revert][Backup-and-Revert]
 * [PowerSTIG Archive Log][powerstigarchivelog]
   * [HardCodedRule Examples][hardcodedexamples]
 * [PowerSTIG with Azure Automation][powerstigwithazureautomation]
