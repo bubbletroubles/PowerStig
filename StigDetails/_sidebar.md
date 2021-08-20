@@ -18,33 +18,37 @@
 
 * [Documentation via STIG Checklists][Documentation-via-STIG-Checklists]
 * [DoD Root Certificate Rules][DoD-Root-Certificate-Rules]
+* [PowerSTIG & DSC for Linux][PowerSTIG-&-Desired-State-Configuration-for-Linux]
 * [PowerSTIG Archive Log][powerstigarchivelog]
   * [HardCodedRule Examples][hardcodedexamples]
 * [PowerSTIG with Azure Automation][powerstigwithazureautomation]
 * [STIG Caveats][stigcaveats]
   * [SqlServer][sqlservercaveats]
 * [STIG Coverage Summary][stigcoveragesummary]
+  * [Adobe-AcrobatPro-2.1][AdobeAcrobatPro21]
   * [Adobe-AcrobatReader-1.6][AdobeAcrobatReader16]
+  * [Adobe-AcrobatReader-2.1][AdobeAcrobatReader21]
   * [DotNetFramework-4-1.9][DotNetFramework419]
   * [DotNetFramework-4-2.1][DotNetFramework421]
-  * [FireFox-All-4.29][FireFoxAll429]
   * [FireFox-All-5.1][FireFoxAll51]
-  * [Google-Chrome-2.2][GoogleChrome22]
+  * [FireFox-All-5.2][FireFoxAll52]
   * [Google-Chrome-2.3][GoogleChrome23]
-  * [IISServer-10.0-2.1][IISServer10021]
+  * [Google-Chrome-2.4][GoogleChrome24]
   * [IISServer-10.0-2.2][IISServer10022]
+  * [IISServer-10.0-2.3][IISServer10023]
   * [IISServer-8.5-2.1][IISServer8521]
   * [IISServer-8.5-2.2][IISServer8522]
-  * [IISSite-10.0-2.1][IISSite10021]
   * [IISSite-10.0-2.2][IISSite10022]
-  * [IISSite-8.5-2.1][IISSite8521]
+  * [IISSite-10.0-2.3][IISSite10023]
   * [IISSite-8.5-2.2][IISSite8522]
+  * [IISSite-8.5-2.3][IISSite8523]
   * [InternetExplorer-11-1.18][InternetExplorer11118]
   * [InternetExplorer-11-1.19][InternetExplorer11119]
   * [McAfee-8.8-VirusScan-5.16][McAfee88VirusScan516]
   * [MS-Edge-1.1][MSEdge11]
-  * [Office-365ProPlus-2.1][Office365ProPlus21]
+  * [MS-Edge-1.2][MSEdge12]
   * [Office-365ProPlus-2.2][Office365ProPlus22]
+  * [Office-365ProPlus-2.3][Office365ProPlus23]
   * [Office-Excel2013-1.7][OfficeExcel201317]
   * [Office-Excel2016-1.2][OfficeExcel201612]
   * [Office-Outlook2013-1.12][OfficeOutlook2013112]
@@ -56,29 +60,30 @@
   * [Office-System2013-1.9][OfficeSystem201319]
   * [Office-System2013-2.1][OfficeSystem201321]
   * [Office-System2016-1.1][OfficeSystem201611]
+  * [Office-System2016-2.1][OfficeSystem201621]
   * [Office-Visio2013-1.4][OfficeVisio201314]
   * [Office-Word2013-1.6][OfficeWord201316]
   * [Office-Word2016-1.1][OfficeWord201611]
   * [OracleJRE-8-1.5][OracleJRE815]
   * [OracleJRE-8-2.1][OracleJRE821]
-  * [RHEL-7-3.2][RHEL732]
   * [RHEL-7-3.3][RHEL733]
+  * [RHEL-7-3.4][RHEL734]
   * [SqlServer-2012-Database-1.19][SqlServer2012Database119]
   * [SqlServer-2012-Database-1.20][SqlServer2012Database120]
   * [SqlServer-2012-Instance-1.19][SqlServer2012Instance119]
   * [SqlServer-2012-Instance-1.20][SqlServer2012Instance120]
-  * [SqlServer-2016-Instance-2.2][SqlServer2016Instance22]
   * [SqlServer-2016-Instance-2.3][SqlServer2016Instance23]
-  * [Ubuntu-18.04-2.2][Ubuntu180422]
+  * [SqlServer-2016-Instance-2.4][SqlServer2016Instance24]
   * [Ubuntu-18.04-2.3][Ubuntu180423]
-  * [Vsphere-6.5-1.4][Vsphere6514]
+  * [Ubuntu-18.04-2.4][Ubuntu180424]
   * [Vsphere-6.5-2.1][Vsphere6521]
+  * [Vsphere-6.5-2.2][Vsphere6522]
   * [WindowsClient-10-2.1][WindowsClient1021]
   * [WindowsClient-10-2.2][WindowsClient1022]
   * [WindowsDefender-All-1.8][WindowsDefenderAll18]
   * [WindowsDefender-All-2.1][WindowsDefenderAll21]
-  * [WindowsDnsServer-2012R2-2.1][WindowsDnsServer2012R221]
   * [WindowsDnsServer-2012R2-2.2][WindowsDnsServer2012R222]
+  * [WindowsDnsServer-2012R2-2.3][WindowsDnsServer2012R223]
   * [WindowsFirewall-All-1.6][WindowsFirewallAll16]
   * [WindowsFirewall-All-1.7][WindowsFirewallAll17]
   * [WindowsServer-2012R2-DC-3.1][WindowsServer2012R2DC31]
@@ -94,54 +99,58 @@
   * [WindowsServer-2019-MS-2.1][WindowsServer2019MS21]
   * [WindowsServer-2019-MS-2.2][WindowsServer2019MS22]
 
-[home]:                              https://github.com/Microsoft/PowerStig/wiki/home
-[convert]:                           https://github.com/Microsoft/PowerStig/wiki/Convert
-[stig]:                              https://github.com/Microsoft/PowerStig/wiki/Stig
-[disastigchanges]:                   https://github.com/Microsoft/PowerStig/wiki/DisaStigChanges
-[compositeresources]:                https://github.com/Microsoft/PowerStig/wiki/CompositeResources
-[gettingstarted]:                    https://github.com/Microsoft/PowerStig/wiki/GettingStarted
-[InternetExplorer]:                  https://github.com/Microsoft/PowerStig/wiki/InternetExplorer
-[office]:                            https://github.com/Microsoft/PowerStig/wiki/Office
-[sqlserver]:                         https://github.com/Microsoft/PowerStig/wiki/SqlServer
-[windowsdnsserver]:                  https://github.com/Microsoft/PowerStig/wiki/WindowsDnsServer
-[windowsfirewall]:                   https://github.com/Microsoft/PowerStig/wiki/WindowsFirewall
-[windowsserver]:                     https://github.com/Microsoft/PowerStig/wiki/WindowsServer
-[mcafee]:                            https://github.com/Microsoft/PowerStig/wiki/Mcafee
-[IisServer]:                         https://github.com/Microsoft/PowerStig/wiki/IisServer
-[IisSite]:                           https://github.com/Microsoft/PowerStig/wiki/IisSite
-[Firefox]:                           https://github.com/Microsoft/PowerStig/wiki/firefox
-[Documentation-via-STIG-Checklists]: https://github.com/microsoft/PowerStig/wiki/Documentation-via-STIG-Checklists
-[DoD-Root-Certificate-Rules]:        https://github.com/microsoft/PowerStig/wiki/DoD-Root-Certificate-Rules
-[powerstigarchivelog]:               https://github.com/Microsoft/PowerStig/wiki/PowerSTIGArchiveLog
-[hardcodedexamples]:                 https://github.com/Microsoft/PowerStig/wiki/PowerSTIGArchiveLog#HardCodedRule-Examples
-[powerstigwithazureautomation]:      https://github.com/microsoft/PowerStig/wiki/PowerSTIG-With-Azure-Automation
-[stigcaveats]:                       https://github.com/Microsoft/PowerStig/wiki/StigCaveats
-[sqlservercaveats]:                  https://github.com/Microsoft/PowerStig/wiki/StigCaveats#sqlserver-2012
-[DscGettingStarted]:                 https://github.com/Microsoft/PowerStig/wiki/DscGettingStarted
-[DscAzureAutomation]:                https://github.com/Microsoft/PowerStig/wiki/DscAzureAutomation
-[DscAzureVirtualMachine]:            https://github.com/Microsoft/PowerStig/wiki/DscAzureVirtualMachine
-[stigcoveragesummary]:               https://github.com/Microsoft/PowerStig/wiki/StigCoverageSummary
+[home]:                                              https://github.com/Microsoft/PowerStig/wiki/home
+[convert]:                                           https://github.com/Microsoft/PowerStig/wiki/Convert
+[stig]:                                              https://github.com/Microsoft/PowerStig/wiki/Stig
+[disastigchanges]:                                   https://github.com/Microsoft/PowerStig/wiki/DisaStigChanges
+[compositeresources]:                                https://github.com/Microsoft/PowerStig/wiki/CompositeResources
+[gettingstarted]:                                    https://github.com/Microsoft/PowerStig/wiki/GettingStarted
+[InternetExplorer]:                                  https://github.com/Microsoft/PowerStig/wiki/InternetExplorer
+[office]:                                            https://github.com/Microsoft/PowerStig/wiki/Office
+[sqlserver]:                                         https://github.com/Microsoft/PowerStig/wiki/SqlServer
+[windowsdnsserver]:                                  https://github.com/Microsoft/PowerStig/wiki/WindowsDnsServer
+[windowsfirewall]:                                   https://github.com/Microsoft/PowerStig/wiki/WindowsFirewall
+[windowsserver]:                                     https://github.com/Microsoft/PowerStig/wiki/WindowsServer
+[mcafee]:                                            https://github.com/Microsoft/PowerStig/wiki/Mcafee
+[IisServer]:                                         https://github.com/Microsoft/PowerStig/wiki/IisServer
+[IisSite]:                                           https://github.com/Microsoft/PowerStig/wiki/IisSite
+[Firefox]:                                           https://github.com/Microsoft/PowerStig/wiki/firefox
+[Documentation-via-STIG-Checklists]:                 https://github.com/microsoft/PowerStig/wiki/Documentation-via-STIG-Checklists
+[DoD-Root-Certificate-Rules]:                        https://github.com/microsoft/PowerStig/wiki/DoD-Root-Certificate-Rules
+[powerstigarchivelog]:                               https://github.com/Microsoft/PowerStig/wiki/PowerSTIGArchiveLog
+[hardcodedexamples]:                                 https://github.com/Microsoft/PowerStig/wiki/PowerSTIGArchiveLog#HardCodedRule-Examples
+[powerstigwithazureautomation]:                      https://github.com/microsoft/PowerStig/wiki/PowerSTIG-With-Azure-Automation
+[stigcaveats]:                                       https://github.com/Microsoft/PowerStig/wiki/StigCaveats
+[sqlservercaveats]:                                  https://github.com/Microsoft/PowerStig/wiki/StigCaveats#sqlserver-2012
+[DscGettingStarted]:                                 https://github.com/Microsoft/PowerStig/wiki/DscGettingStarted
+[DscAzureAutomation]:                                https://github.com/Microsoft/PowerStig/wiki/DscAzureAutomation
+[DscAzureVirtualMachine]:                            https://github.com/Microsoft/PowerStig/wiki/DscAzureVirtualMachine
+[PowerSTIG-&-Desired-State-Configuration-for-Linux]: https://github.com/Microsoft/PowerStig/wiki/PowerSTIG-&-Desired-State-Configuration-for-Linux
+[stigcoveragesummary]:                               https://github.com/Microsoft/PowerStig/wiki/StigCoverageSummary
+[AdobeAcrobatPro21]: https://github.com/Microsoft/PowerStig/wiki/Adobe-AcrobatPro-2.1
 [AdobeAcrobatReader16]: https://github.com/Microsoft/PowerStig/wiki/Adobe-AcrobatReader-1.6
+[AdobeAcrobatReader21]: https://github.com/Microsoft/PowerStig/wiki/Adobe-AcrobatReader-2.1
 [DotNetFramework419]: https://github.com/Microsoft/PowerStig/wiki/DotNetFramework-4-1.9
 [DotNetFramework421]: https://github.com/Microsoft/PowerStig/wiki/DotNetFramework-4-2.1
-[FireFoxAll429]: https://github.com/Microsoft/PowerStig/wiki/FireFox-All-4.29
 [FireFoxAll51]: https://github.com/Microsoft/PowerStig/wiki/FireFox-All-5.1
-[GoogleChrome22]: https://github.com/Microsoft/PowerStig/wiki/Google-Chrome-2.2
+[FireFoxAll52]: https://github.com/Microsoft/PowerStig/wiki/FireFox-All-5.2
 [GoogleChrome23]: https://github.com/Microsoft/PowerStig/wiki/Google-Chrome-2.3
-[IISServer10021]: https://github.com/Microsoft/PowerStig/wiki/IISServer-10.0-2.1
+[GoogleChrome24]: https://github.com/Microsoft/PowerStig/wiki/Google-Chrome-2.4
 [IISServer10022]: https://github.com/Microsoft/PowerStig/wiki/IISServer-10.0-2.2
+[IISServer10023]: https://github.com/Microsoft/PowerStig/wiki/IISServer-10.0-2.3
 [IISServer8521]: https://github.com/Microsoft/PowerStig/wiki/IISServer-8.5-2.1
 [IISServer8522]: https://github.com/Microsoft/PowerStig/wiki/IISServer-8.5-2.2
-[IISSite10021]: https://github.com/Microsoft/PowerStig/wiki/IISSite-10.0-2.1
 [IISSite10022]: https://github.com/Microsoft/PowerStig/wiki/IISSite-10.0-2.2
-[IISSite8521]: https://github.com/Microsoft/PowerStig/wiki/IISSite-8.5-2.1
+[IISSite10023]: https://github.com/Microsoft/PowerStig/wiki/IISSite-10.0-2.3
 [IISSite8522]: https://github.com/Microsoft/PowerStig/wiki/IISSite-8.5-2.2
+[IISSite8523]: https://github.com/Microsoft/PowerStig/wiki/IISSite-8.5-2.3
 [InternetExplorer11118]: https://github.com/Microsoft/PowerStig/wiki/InternetExplorer-11-1.18
 [InternetExplorer11119]: https://github.com/Microsoft/PowerStig/wiki/InternetExplorer-11-1.19
 [McAfee88VirusScan516]: https://github.com/Microsoft/PowerStig/wiki/McAfee-8.8-VirusScan-5.16
 [MSEdge11]: https://github.com/Microsoft/PowerStig/wiki/MS-Edge-1.1
-[Office365ProPlus21]: https://github.com/Microsoft/PowerStig/wiki/Office-365ProPlus-2.1
+[MSEdge12]: https://github.com/Microsoft/PowerStig/wiki/MS-Edge-1.2
 [Office365ProPlus22]: https://github.com/Microsoft/PowerStig/wiki/Office-365ProPlus-2.2
+[Office365ProPlus23]: https://github.com/Microsoft/PowerStig/wiki/Office-365ProPlus-2.3
 [OfficeExcel201317]: https://github.com/Microsoft/PowerStig/wiki/Office-Excel2013-1.7
 [OfficeExcel201612]: https://github.com/Microsoft/PowerStig/wiki/Office-Excel2016-1.2
 [OfficeOutlook2013112]: https://github.com/Microsoft/PowerStig/wiki/Office-Outlook2013-1.12
@@ -153,29 +162,30 @@
 [OfficeSystem201319]: https://github.com/Microsoft/PowerStig/wiki/Office-System2013-1.9
 [OfficeSystem201321]: https://github.com/Microsoft/PowerStig/wiki/Office-System2013-2.1
 [OfficeSystem201611]: https://github.com/Microsoft/PowerStig/wiki/Office-System2016-1.1
+[OfficeSystem201621]: https://github.com/Microsoft/PowerStig/wiki/Office-System2016-2.1
 [OfficeVisio201314]: https://github.com/Microsoft/PowerStig/wiki/Office-Visio2013-1.4
 [OfficeWord201316]: https://github.com/Microsoft/PowerStig/wiki/Office-Word2013-1.6
 [OfficeWord201611]: https://github.com/Microsoft/PowerStig/wiki/Office-Word2016-1.1
 [OracleJRE815]: https://github.com/Microsoft/PowerStig/wiki/OracleJRE-8-1.5
 [OracleJRE821]: https://github.com/Microsoft/PowerStig/wiki/OracleJRE-8-2.1
-[RHEL732]: https://github.com/Microsoft/PowerStig/wiki/RHEL-7-3.2
 [RHEL733]: https://github.com/Microsoft/PowerStig/wiki/RHEL-7-3.3
+[RHEL734]: https://github.com/Microsoft/PowerStig/wiki/RHEL-7-3.4
 [SqlServer2012Database119]: https://github.com/Microsoft/PowerStig/wiki/SqlServer-2012-Database-1.19
 [SqlServer2012Database120]: https://github.com/Microsoft/PowerStig/wiki/SqlServer-2012-Database-1.20
 [SqlServer2012Instance119]: https://github.com/Microsoft/PowerStig/wiki/SqlServer-2012-Instance-1.19
 [SqlServer2012Instance120]: https://github.com/Microsoft/PowerStig/wiki/SqlServer-2012-Instance-1.20
-[SqlServer2016Instance22]: https://github.com/Microsoft/PowerStig/wiki/SqlServer-2016-Instance-2.2
 [SqlServer2016Instance23]: https://github.com/Microsoft/PowerStig/wiki/SqlServer-2016-Instance-2.3
-[Ubuntu180422]: https://github.com/Microsoft/PowerStig/wiki/Ubuntu-18.04-2.2
+[SqlServer2016Instance24]: https://github.com/Microsoft/PowerStig/wiki/SqlServer-2016-Instance-2.4
 [Ubuntu180423]: https://github.com/Microsoft/PowerStig/wiki/Ubuntu-18.04-2.3
-[Vsphere6514]: https://github.com/Microsoft/PowerStig/wiki/Vsphere-6.5-1.4
+[Ubuntu180424]: https://github.com/Microsoft/PowerStig/wiki/Ubuntu-18.04-2.4
 [Vsphere6521]: https://github.com/Microsoft/PowerStig/wiki/Vsphere-6.5-2.1
+[Vsphere6522]: https://github.com/Microsoft/PowerStig/wiki/Vsphere-6.5-2.2
 [WindowsClient1021]: https://github.com/Microsoft/PowerStig/wiki/WindowsClient-10-2.1
 [WindowsClient1022]: https://github.com/Microsoft/PowerStig/wiki/WindowsClient-10-2.2
 [WindowsDefenderAll18]: https://github.com/Microsoft/PowerStig/wiki/WindowsDefender-All-1.8
 [WindowsDefenderAll21]: https://github.com/Microsoft/PowerStig/wiki/WindowsDefender-All-2.1
-[WindowsDnsServer2012R221]: https://github.com/Microsoft/PowerStig/wiki/WindowsDnsServer-2012R2-2.1
 [WindowsDnsServer2012R222]: https://github.com/Microsoft/PowerStig/wiki/WindowsDnsServer-2012R2-2.2
+[WindowsDnsServer2012R223]: https://github.com/Microsoft/PowerStig/wiki/WindowsDnsServer-2012R2-2.3
 [WindowsFirewallAll16]: https://github.com/Microsoft/PowerStig/wiki/WindowsFirewall-All-1.6
 [WindowsFirewallAll17]: https://github.com/Microsoft/PowerStig/wiki/WindowsFirewall-All-1.7
 [WindowsServer2012R2DC31]: https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2012R2-DC-3.1

@@ -4,7 +4,7 @@
 **Version:** 2  
 **Release:** Release: 3 Benchmark Date: 23 Apr 2021 3.2.2.36079 1.10.0  
 **FileName:** U_MS_SQL_Server_2016_Instance_STIG_V2R3_Manual-xccdf.xml  
-**Created:** 5/27/2021  
+**Created:** 8/12/2021  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **53** of **135** rules are automated; **39%**
 
@@ -56,7 +56,7 @@
 | V-214017 | Medium | SqlScriptQueryRule | None | V-214016 |
 | V-214018 | Medium | SqlScriptQueryRule | None | V-213940 |
 | V-214028 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-214029 | Medium | SqlScriptQueryRule | None | V-214028 |
+| V-214029 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
 | V-213957 | Medium | SqlServerConfigurationRule | SqlServerConfiguration |  |
 | V-213958 | Medium | SqlServerConfigurationRule | SqlServerConfiguration |  |
 | V-213975 | Medium | SqlServerConfigurationRule | SqlServerConfiguration |  |

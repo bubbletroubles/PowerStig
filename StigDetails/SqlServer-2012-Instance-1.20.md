@@ -4,7 +4,7 @@
 **Version:** 1  
 **Release:** Release: 20 Benchmark Date: 16 Jan 2020  
 **FileName:** U_MS_SQL_Server_Instance_2012_V1R20_Manual-xccdf.xml  
-**Created:** 5/18/2021  
+**Created:** 8/12/2021  
 **Description:** The Microsoft SQL Server 2012 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **52** of **153** rules are automated; **34%**
 

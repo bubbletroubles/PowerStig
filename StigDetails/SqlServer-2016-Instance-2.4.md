@@ -1,15 +1,15 @@
-# [MS SQL Server 2016 Instance STIG, Version 2.2](https://github.com/Microsoft/PowerStig/wiki/SqlServer-2016-Instance-2.2)
+# [MS SQL Server 2016 Instance STIG, Version 2.4](https://github.com/Microsoft/PowerStig/wiki/SqlServer-2016-Instance-2.4)
 
 **Title:** MS SQL Server 2016 Instance Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 2 Benchmark Date: 22 Jan 2021 3.2.1.41666 1.10.0  
-**FileName:** U_MS_SQL_Server_2016_Instance_STIG_V2R2_Manual-xccdf.xml  
-**Created:** 5/18/2021  
+**Release:** Release: 4 Benchmark Date: 23 Jul 2021 3.2.2.36079 1.10.0  
+**FileName:** U_MS_SQL_Server_2016_Instance_STIG_V2R4_Manual-xccdf.xml  
+**Created:** 8/18/2021  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **53** of **135** rules are automated; **39%**
+**Total Stig Rule Coverage:** **53** of **134** rules are automated; **40%**
 
 * **High (CAT I):** **1** of **9** rules are automated
-* **Medium (CAT II):** **52** of **124** rules are automated
+* **Medium (CAT II):** **52** of **123** rules are automated
 * **Low (CAT III):** **0** of **2** rules are automated
 
 ## Automated Rules
@@ -56,7 +56,7 @@
 | V-214017 | Medium | SqlScriptQueryRule | None | V-214016 |
 | V-214018 | Medium | SqlScriptQueryRule | None | V-213940 |
 | V-214028 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
-| V-214029 | Medium | SqlScriptQueryRule | None | V-214028 |
+| V-214029 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
 | V-213957 | Medium | SqlServerConfigurationRule | SqlServerConfiguration |  |
 | V-213958 | Medium | SqlServerConfigurationRule | SqlServerConfiguration |  |
 | V-213975 | Medium | SqlServerConfigurationRule | SqlServerConfiguration |  |
@@ -115,7 +115,6 @@
 | V-213991 | Medium | DocumentRule |
 | V-213992 | Medium | DocumentRule |
 | V-213993 | Medium | DocumentRule |
-| V-213996 | Medium | DocumentRule |
 | V-213997 | Medium | DocumentRule |
 | V-213998 | Medium | DocumentRule |
 | V-214005 | Medium | DocumentRule |

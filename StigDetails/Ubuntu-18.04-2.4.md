@@ -1,15 +1,15 @@
-# [U CAN Ubuntu 18-04 STIG, Version 2.2](https://github.com/Microsoft/PowerStig/wiki/Ubuntu-18.04-2.2)
+# [U CAN Ubuntu 18-04 STIG, Version 2.4](https://github.com/Microsoft/PowerStig/wiki/Ubuntu-18.04-2.4)
 
 **Title:** Canonical Ubuntu 18.04 LTS Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 2 Benchmark Date: 22 Jan 2021 3.2.1.41666 1.10.0  
-**FileName:** U_CAN_Ubuntu_18-04_LTS_STIG_V2R2_Manual-xccdf.xml  
-**Created:** 2/4/2021  
+**Release:** Release: 4 Benchmark Date: 23 Jul 2021 3.2.2.36079 1.10.0  
+**FileName:** U_CAN_Ubuntu_18-04_LTS_STIG_V2R4_Manual-xccdf.xml  
+**Created:** 8/6/2021  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **201** of **277** rules are automated; **73%**
+**Total Stig Rule Coverage:** **191** of **270** rules are automated; **71%**
 
 * **High (CAT I):** **8** of **15** rules are automated
-* **Medium (CAT II):** **178** of **237** rules are automated
+* **Medium (CAT II):** **168** of **230** rules are automated
 * **Low (CAT III):** **15** of **25** rules are automated
 
 ## Automated Rules
@@ -123,20 +123,12 @@
 | V-219275 | Medium | nxFileLineRule | nxFileLine |  |
 | V-219276 | Medium | nxFileLineRule | nxFileLine |  |
 | V-219277 | Medium | nxFileLineRule | nxFileLine |  |
-| V-219278.a | Medium | nxFileLineRule | nxFileLine |  |
-| V-219278.b | Medium | nxFileLineRule | nxFileLine |  |
 | V-219279.a | Medium | nxFileLineRule | nxFileLine |  |
 | V-219279.b | Medium | nxFileLineRule | nxFileLine |  |
-| V-219280.a | Medium | nxFileLineRule | nxFileLine |  |
-| V-219280.b | Medium | nxFileLineRule | nxFileLine |  |
 | V-219281.a | Medium | nxFileLineRule | nxFileLine |  |
 | V-219281.b | Medium | nxFileLineRule | nxFileLine |  |
 | V-219281.c | Medium | nxFileLineRule | nxFileLine |  |
 | V-219281.d | Medium | nxFileLineRule | nxFileLine |  |
-| V-219282.a | Medium | nxFileLineRule | nxFileLine |  |
-| V-219282.b | Medium | nxFileLineRule | nxFileLine |  |
-| V-219283.a | Medium | nxFileLineRule | nxFileLine |  |
-| V-219283.b | Medium | nxFileLineRule | nxFileLine |  |
 | V-219284.a | Medium | nxFileLineRule | nxFileLine |  |
 | V-219284.b | Medium | nxFileLineRule | nxFileLine |  |
 | V-219285.a | Medium | nxFileLineRule | nxFileLine |  |
@@ -153,8 +145,6 @@
 | V-219290.b | Medium | nxFileLineRule | nxFileLine |  |
 | V-219291.a | Medium | nxFileLineRule | nxFileLine |  |
 | V-219291.b | Medium | nxFileLineRule | nxFileLine |  |
-| V-219292.a | Medium | nxFileLineRule | nxFileLine |  |
-| V-219292.b | Medium | nxFileLineRule | nxFileLine |  |
 | V-219293.a | Medium | nxFileLineRule | nxFileLine |  |
 | V-219293.b | Medium | nxFileLineRule | nxFileLine |  |
 | V-219293.c | Medium | nxFileLineRule | nxFileLine |  |
@@ -298,3 +288,6 @@
 | V-219340 | Medium | ManualRule |
 | V-219342 | Medium | ManualRule |
 | V-219344 | Medium | ManualRule |
+| V-237768 | Medium | ManualRule |
+| V-237769 | Medium | ManualRule |
+| V-237770 | Medium | ManualRule |

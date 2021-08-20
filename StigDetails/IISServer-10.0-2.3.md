@@ -1,16 +1,16 @@
-# [IIS 10-0 Server STIG, Version 2.1](https://github.com/Microsoft/PowerStig/wiki/IISServer-10.0-2.1)
+# [IIS 10-0 Server STIG, Version 2.3](https://github.com/Microsoft/PowerStig/wiki/IISServer-10.0-2.3)
 
 **Title:** Microsoft IIS 10.0 Server Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 1 Benchmark Date: 23 Oct 2020 3.1.1.36225 1.10.0  
-**FileName:** U_MS_IIS_10-0_Server_STIG_V2R1_Manual-xccdf.xml  
-**Created:** 12/7/2020  
+**Release:** Release: 3 Benchmark Date: 23 Jul 2021 3.2.2.36079 1.10.0  
+**FileName:** U_MS_IIS_10-0_Server_STIG_V2R3_Manual-xccdf.xml  
+**Created:** 7/29/2021  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **30** of **60** rules are automated; **50%**
+**Total Stig Rule Coverage:** **31** of **62** rules are automated; **50%**
 
 * **High (CAT I):** **9** of **13** rules are automated
 * **Medium (CAT II):** **21** of **46** rules are automated
-* **Low (CAT III):** **0** of **1** rules are automated
+* **Low (CAT III):** **1** of **3** rules are automated
 
 ## Automated Rules
 
@@ -35,6 +35,7 @@
 | V-218821.g | High | RegistryRule | Registry |  |
 | V-218821.h | High | RegistryRule | Registry |  |
 | V-218821.i | High | RegistryRule | Registry |  |
+| V-241788 | Low | RegistryRule | Registry |  |
 | V-218804 | Medium | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
 | V-218805.a | Medium | WebConfigurationPropertyRule | xWebConfigKeyValue |  |
 | V-218805.b | Medium | WebConfigurationPropertyRule | None | V-218804 |
@@ -64,7 +65,9 @@
 | V-218817 | Medium | DocumentRule |
 | V-218819 | Medium | DocumentRule |
 | V-218822 | Medium | DocumentRule |
+| V-218827 | Low | DocumentRule |
 | V-228572 | Medium | DocumentRule |
+| V-241789 | Low | DocumentRule |
 | V-218787 | Medium | ManualRule |
 | V-218790 | Medium | ManualRule |
 | V-218791 | Medium | ManualRule |
@@ -80,4 +83,3 @@
 | V-218823 | High | ManualRule |
 | V-218825 | Medium | ManualRule |
 | V-218826 | Medium | ManualRule |
-| V-218827 | Low | ManualRule |
