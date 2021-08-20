@@ -2,7 +2,7 @@
 
 **Applies to: PowerStig 4.10.0 or later**
 
-Functionality was added to include the ability to Backup system STIG settings to CSV and Revert to those settings if needed. The solution will backup and revert most settings, however there is a small number of settings that will be backed up at this time, due to limitations with one of our dependent resources.
+Functionality was added to include the ability to Backup system STIG settings to CSV and Revert to those settings if needed. The solution will backup and revert most settings, however there is a small number of settings that will not be backed up at this time, due to limitations with one of our dependent resources.
 
 **Note**
 
