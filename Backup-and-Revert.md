@@ -1,14 +1,14 @@
 # Documentation
 
-**Applies to: PowerStig 4.10 or later**
+**Applies to: PowerStig 4.10.0 or later**
 
-Functionality was added to include the ability to Backup system STIG settings to CSV and Revert to those settings if needed. The product will backup and revert most settings, but there a small number that will not revert, due to limitations with one of our dependent resources.
+Functionality was added to include the ability to Backup system STIG settings to CSV and Revert to those settings if needed. The solution will backup and revert most settings, however there is a small number of settings that will be backed up at this time, due to limitations with one of our dependent resources.
 
 **Note**
 
-One great thing you could do with this new functionality is backup one system, then restore many systems to a pre-PowerSTIG state. This could be helpful if you apply security settings to many systems, without a pre-existing backup in place and something breaks.
+With this new functionality you can "backup" a reference pre-PowerSTIG system, then restore the backup to any number of target systems. This could be helpful if you apply security settings to many systems, without a pre-existing backup in place and something breaks.
 
-## Steps to use new functionality
+## Steps to use the new backup/restore functionality
 
 1. Install the latest version of PowerSTIG (4.10.0 or newer)
 2. Backup STIG settings based on a target STIG
