@@ -19,7 +19,7 @@
 * [Documentation via STIG Checklists][Documentation-via-STIG-Checklists]
 * [DoD Root Certificate Rules][DoD-Root-Certificate-Rules]
 * [PowerSTIG & DSC for Linux][PowerSTIG-&-Desired-State-Configuration-for-Linux]
-* [Backup and Revert][Backup-and-Revert]
+* [Backup and Revert Settings][Backup-and-Revert]
 * [PowerSTIG Archive Log][powerstigarchivelog]
   * [HardCodedRule Examples][hardcodedexamples]
 * [PowerSTIG with Azure Automation][powerstigwithazureautomation]
@@ -127,6 +127,7 @@
 [DscAzureAutomation]:                                https://github.com/Microsoft/PowerStig/wiki/DscAzureAutomation
 [DscAzureVirtualMachine]:                            https://github.com/Microsoft/PowerStig/wiki/DscAzureVirtualMachine
 [PowerSTIG-&-Desired-State-Configuration-for-Linux]: https://github.com/Microsoft/PowerStig/wiki/PowerSTIG-&-Desired-State-Configuration-for-Linux
+[Backup-and-Revert]:                                 https://github.com/Microsoft/PowerStig/wiki/Backup-and-Revert
 [stigcoveragesummary]:                               https://github.com/Microsoft/PowerStig/wiki/StigCoverageSummary
 [AdobeAcrobatPro21]: https://github.com/Microsoft/PowerStig/wiki/Adobe-AcrobatPro-2.1
 [AdobeAcrobatReader16]: https://github.com/Microsoft/PowerStig/wiki/Adobe-AcrobatReader-1.6

@@ -1,4 +1,4 @@
-# PowerSTIG Technology Coverage : Module Version 4.10.0
+# PowerSTIG Technology Coverage : Module Version 4.10.1
 
 A Summary of Technology Coverage for **PowerSTIG** is listed below, for more detailed rule coverage, follow the technology specific link:
 
