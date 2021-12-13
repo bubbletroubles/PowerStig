@@ -1,15 +1,15 @@
-# [Windows 2012 MS STIG, Version 3.1](https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2012R2-MS-3.1)
+# [Windows 2012 MS STIG, Version 3.3](https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2012R2-MS-3.3)
 
 **Title:** Microsoft Windows Server 2012/2012 R2 Member Server Security Technical Implementation Guide  
 **Version:** 3  
-**Release:** Release: 1 Benchmark Date: 13 Nov 2020 3.1.1.36225 1.10.0  
-**FileName:** U_MS_Windows_2012_and_2012_R2_MS_V3R1_Manual-xccdf.xml  
-**Created:** 12/8/2020  
+**Release:** Release: 3 Benchmark Date: 01 Nov 2021 3.2.2.36079 1.10.0  
+**FileName:** U_MS_Windows_2012_and_2012_R2_MS_STIG_V3R3_Manual-xccdf.xml  
+**Created:** 11/23/2021  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **310** of **352** rules are automated; **88%**
+**Total Stig Rule Coverage:** **305** of **347** rules are automated; **88%**
 
 * **High (CAT I):** **28** of **33** rules are automated
-* **Medium (CAT II):** **230** of **259** rules are automated
+* **Medium (CAT II):** **225** of **254** rules are automated
 * **Low (CAT III):** **52** of **60** rules are automated
 
 ## Automated Rules
@@ -86,10 +86,6 @@
 | V-225317 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-225318 | Low | RegistryRule | RegistryPolicyFile |  |
 | V-225319 | Low | RegistryRule | RegistryPolicyFile |  |
-| V-225320 | Medium | RegistryRule | RegistryPolicyFile |  |
-| V-225321 | Medium | RegistryRule | RegistryPolicyFile |  |
-| V-225322 | Medium | RegistryRule | RegistryPolicyFile |  |
-| V-225323 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-225324 | Low | RegistryRule | RegistryPolicyFile |  |
 | V-225325.a | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-225325.b | Medium | RegistryRule | RegistryPolicyFile |  |
@@ -286,7 +282,6 @@
 | V-225491 | High | SecurityOptionRule | SecurityOption |  |
 | V-225506 | Medium | SecurityOptionRule | SecurityOption |  |
 | V-225416 | Medium | ServiceRule | Service |  |
-| V-225430 | Medium | ServiceRule | Service |  |
 | V-225436 | Medium | ServiceRule | Service |  |
 | V-225528 | Medium | ServiceRule | Service |  |
 | V-225529 | Medium | ServiceRule | Service |  |

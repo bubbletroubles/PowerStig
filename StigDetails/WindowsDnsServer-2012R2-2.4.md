@@ -1,15 +1,15 @@
-# [Microsoft Windows 2012 Server Domain Name System STIG, Version 2.2](https://github.com/Microsoft/PowerStig/wiki/WindowsDnsServer-2012R2-2.2)
+# [Microsoft Windows 2012 Server Domain Name System STIG, Version 2.4](https://github.com/Microsoft/PowerStig/wiki/WindowsDnsServer-2012R2-2.4)
 
 **Title:** Microsoft Windows 2012 Server Domain Name System Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 2 Benchmark Date: 23 Apr 2021 3.2.2.36079 1.10.0  
-**FileName:** U_Microsoft_Windows_2012_Server_DNS_STIG_V2R2_Manual-xccdf.xml  
-**Created:** 5/26/2021  
+**Release:** Release: 4 Benchmark Date: 01 Nov 2021 3.2.2.36079 1.10.0  
+**FileName:** U_MS_Windows_2012_Server_DNS_STIG_V2R4_Manual-xccdf.xml  
+**Created:** 11/23/2021  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **14** of **85** rules are automated; **16%**
+**Total Stig Rule Coverage:** **13** of **84** rules are automated; **15%**
 
 * **High (CAT I):** **0** of **3** rules are automated
-* **Medium (CAT II):** **14** of **82** rules are automated
+* **Medium (CAT II):** **13** of **81** rules are automated
 * **Low (CAT III):** **0** of **0** rules are automated
 
 ## Automated Rules
@@ -25,7 +25,6 @@
 | V-215605 | Medium | PermissionRule | None | V-215604 |
 | V-215606 | Medium | PermissionRule | None | V-215604 |
 | V-215652.a | Medium | PermissionRule | NTFSAccessEntry |  |
-| V-215597 | Medium | RegistryRule | Registry |  |
 | V-215632.a | Medium | UserRightRule | UserRightsAssignment |  |
 | V-215632.b | Medium | UserRightRule | UserRightsAssignment |  |
 | V-215632.c | Medium | UserRightRule | UserRightsAssignment |  |

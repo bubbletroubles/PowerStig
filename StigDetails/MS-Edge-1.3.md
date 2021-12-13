@@ -1,15 +1,15 @@
-# [MS Edge STIG, Version 1.1](https://github.com/Microsoft/PowerStig/wiki/MS-Edge-1.1)
+# [MS Edge STIG, Version 1.3](https://github.com/Microsoft/PowerStig/wiki/MS-Edge-1.3)
 
 **Title:** Microsoft Edge Security Technical Implementation Guide  
 **Version:** 1  
-**Release:** Release: 1 Benchmark Date: 14 Jan 2021 3.2.1.41666 1.10.0  
-**FileName:** U_MS_Edge_V1R1_STIG_Manual-xccdf.xml  
-**Created:** 2/27/2021  
+**Release:** Release: 3 Benchmark Date: 27 Oct 2021 3.2.2.36079 1.10.0  
+**FileName:** U_MS_Edge_V1R3_STIG_Manual-xccdf.xml  
+**Created:** 11/1/2021  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **52** of **56** rules are automated; **93%**
+**Total Stig Rule Coverage:** **51** of **55** rules are automated; **93%**
 
 * **High (CAT I):** **1** of **2** rules are automated
-* **Medium (CAT II):** **46** of **48** rules are automated
+* **Medium (CAT II):** **45** of **47** rules are automated
 * **Low (CAT III):** **5** of **6** rules are automated
 
 ## Automated Rules
@@ -51,11 +51,9 @@
 | V-235752 | Low | RegistryRule | RegistryPolicyFile |  |
 | V-235754 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-235756 | Medium | RegistryRule | RegistryPolicyFile |  |
-| V-235757 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-235759 | High | RegistryRule | RegistryPolicyFile |  |
 | V-235760 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-235761 | Medium | RegistryRule | RegistryPolicyFile |  |
-| V-235762 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-235763 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-235764 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-235765 | Low | RegistryRule | RegistryPolicyFile |  |
@@ -68,6 +66,7 @@
 | V-235772 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-235773 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-235774 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-246736 | Medium | RegistryRule | RegistryPolicyFile |  |
 
 ## Document / Manual Rules (Not Automated)
 

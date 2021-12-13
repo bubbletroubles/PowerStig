@@ -1,15 +1,15 @@
-# [Windows 10 STIG, Version 2.1](https://github.com/Microsoft/PowerStig/wiki/WindowsClient-10-2.1)
+# [Windows 10 STIG, Version 2.3](https://github.com/Microsoft/PowerStig/wiki/WindowsClient-10-2.3)
 
 **Title:** Windows 10 Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 1 Benchmark Date: 13 Nov 2020 3.1.1.36225 1.10.0  
-**FileName:** U_MS_Windows_10_STIG_V2R1_Manual-xccdf.xml  
-**Created:** 12/9/2020  
+**Release:** Release: 3 Benchmark Date: 01 Nov 2021 3.2.2.36079 1.10.0  
+**FileName:** U_MS_Windows_10_STIG_V2R3_Manual-xccdf.xml  
+**Created:** 11/23/2021  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **368** of **397** rules are automated; **93%**
+**Total Stig Rule Coverage:** **248** of **277** rules are automated; **90%**
 
 * **High (CAT I):** **23** of **27** rules are automated
-* **Medium (CAT II):** **328** of **350** rules are automated
+* **Medium (CAT II):** **208** of **230** rules are automated
 * **Low (CAT III):** **17** of **20** rules are automated
 
 ## Automated Rules
@@ -74,126 +74,6 @@
 | V-220907.a | Medium | PermissionRule | RegistryAccessEntry |  |
 | V-220907.b | Medium | PermissionRule | RegistryAccessEntry |  |
 | V-220907.c | Medium | PermissionRule | RegistryAccessEntry |  |
-| V-220873 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220874 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220875 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220876 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220877 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220878.a | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220878.b | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220878.c | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220878.d | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220878.e | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220879.a | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220879.b | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220879.c | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220879.d | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220879.e | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220880 | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220881.a | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220881.b | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220881.c | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220881.d | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220881.e | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220882.a | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220882.b | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220883.a | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220883.b | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220883.c | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220883.d | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220883.e | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220884.a | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220884.b | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220884.c | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220884.d | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220884.e | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220884.f | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220885.a | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220885.b | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220885.c | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220885.d | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220885.e | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220886.a | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220886.b | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220886.c | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220886.d | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220886.e | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220887.a | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220887.b | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220887.c | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220887.d | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220887.e | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220887.f | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220887.g | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220887.h | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220887.i | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220887.j | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220887.k | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220887.l | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220888.a | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220888.b | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220888.c | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220888.d | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220888.e | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220889.a | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220889.b | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220889.c | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220889.d | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220889.e | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220890.a | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220890.b | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220890.c | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220890.d | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220890.e | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220891.a | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220891.b | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220891.c | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220891.d | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220891.e | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220891.f | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220891.g | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220893.a | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220893.b | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220893.c | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220893.d | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220893.e | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220894.a | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220894.b | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220894.c | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220894.d | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220895.a | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220895.b | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220895.c | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220895.d | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220895.e | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220896.a | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220896.b | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220896.c | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220896.d | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220896.e | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220897.a | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220897.b | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220897.c | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220897.d | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220897.e | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220898.a | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220898.b | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220898.c | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220898.d | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220898.e | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220899.a | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220899.b | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220899.c | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220899.d | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220899.e | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220900.a | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220900.b | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220900.c | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220900.d | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220901.a | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220901.b | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220901.c | Medium | ProcessMitigationRule | ProcessMitigation |  |
-| V-220901.d | Medium | ProcessMitigationRule | ProcessMitigation |  |
 | V-220703.a | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-220703.b | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-220704 | Medium | RegistryRule | Registry |  |
@@ -218,8 +98,6 @@
 | V-220801.d | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-220802 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-220803 | Medium | RegistryRule | RegistryPolicyFile |  |
-| V-220804.a | Medium | RegistryRule | RegistryPolicyFile |  |
-| V-220804.b | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-220805 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-220806 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-220807 | Medium | RegistryRule | RegistryPolicyFile |  |
@@ -333,7 +211,9 @@
 | V-220951 | Medium | RegistryRule | Registry |  |
 | V-220954 | Low | RegistryRule | RegistryPolicyFile |  |
 | V-220955 | Medium | RegistryRule | RegistryPolicyFile |  |
-| V-230220 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-250318 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-250319.a | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-250319.b | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-220903.a | Medium | RootCertificateRule | CertificateDSC |  |
 | V-220903.b | Medium | RootCertificateRule | CertificateDSC |  |
 | V-220903.c | Medium | RootCertificateRule | CertificateDSC |  |

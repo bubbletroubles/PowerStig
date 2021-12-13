@@ -4,12 +4,12 @@
 **Version:** 2  
 **Release:** Release: 4 Benchmark Date: 23 Jul 2021 3.2.2.36079 1.10.0  
 **FileName:** U_MS_SQL_Server_2016_Instance_STIG_V2R4_Manual-xccdf.xml  
-**Created:** 8/18/2021  
+**Created:** 9/9/2021  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **53** of **134** rules are automated; **40%**
+**Total Stig Rule Coverage:** **59** of **137** rules are automated; **43%**
 
 * **High (CAT I):** **1** of **9** rules are automated
-* **Medium (CAT II):** **52** of **123** rules are automated
+* **Medium (CAT II):** **58** of **126** rules are automated
 * **Low (CAT III):** **0** of **2** rules are automated
 
 ## Automated Rules
@@ -37,6 +37,12 @@
 | V-213967.s | Medium | RegistryRule | Registry |  |
 | V-213967.t | Medium | RegistryRule | Registry |  |
 | V-213968 | High | SecurityOptionRule | SecurityOption |  |
+| V-213954.a | Medium | SqlDatabaseRule | SqlDatabase |  |
+| V-213954.b | Medium | SqlDatabaseRule | SqlDatabase |  |
+| V-213954.c | Medium | SqlDatabaseRule | SqlDatabase |  |
+| V-213954.d | Medium | SqlDatabaseRule | SqlDatabase |  |
+| V-213964 | Medium | SqlLoginRule | SqlLogin |  |
+| V-213961 | Medium | SqlProtocolRule | SqlProtocol |  |
 | V-213940 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
 | V-213989 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
 | V-213999 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
@@ -92,7 +98,6 @@
 | V-213950 | Medium | DocumentRule |
 | V-213951 | Medium | DocumentRule |
 | V-213952 | Medium | DocumentRule |
-| V-213954 | Medium | DocumentRule |
 | V-213955 | Medium | DocumentRule |
 | V-213956 | Medium | DocumentRule |
 | V-213959 | Medium | DocumentRule |
@@ -138,9 +143,7 @@
 | V-213935 | Medium | ManualRule |
 | V-213944 | Medium | ManualRule |
 | V-213953 | Medium | ManualRule |
-| V-213961 | Medium | ManualRule |
 | V-213963 | Medium | ManualRule |
-| V-213964 | Medium | ManualRule |
 | V-213966 | High | ManualRule |
 | V-213969 | Medium | ManualRule |
 | V-213971 | Medium | ManualRule |

@@ -4,7 +4,7 @@
 **Version:** 2  
 **Release:** Release: 2 Benchmark Date: 23 Apr 2021 3.2.2.36079 1.10.0  
 **FileName:** U_MS_IIS_8-5_Server_STIG_V2R2_Manual-xccdf.xml  
-**Created:** 5/26/2021  
+**Created:** 8/23/2021  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **30** of **59** rules are automated; **51%**
 
@@ -16,7 +16,7 @@
 
 | StigRuleId | Severity | RuleType | DscResource | DuplicateOf |
 | :---- | :---- | :---- | :---- | :---- |
-| V-214400 | Medium | IisLoggingRule | xIISLogging |  |
+| V-214400 | Medium | IisLoggingRule | xWebAdministration |  |
 | V-214401 | Medium | IisLoggingRule | xIISLogging |  |
 | V-214403 | Medium | IisLoggingRule | xIISLogging |  |
 | V-214404 | Medium | IisLoggingRule | xIISLogging |  |

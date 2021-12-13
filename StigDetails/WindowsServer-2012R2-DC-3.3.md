@@ -1,15 +1,15 @@
-# [Windows 2012 DC STIG, Version 3.1](https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2012R2-DC-3.1)
+# [Windows 2012 DC STIG, Version 3.3](https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2012R2-DC-3.3)
 
 **Title:** Microsoft Windows Server 2012/2012 R2 Domain Controller Security Technical Implementation Guide  
 **Version:** 3  
-**Release:** Release: 1 Benchmark Date: 13 Nov 2020 3.1.1.36225 1.10.0  
-**FileName:** U_MS_Windows_2012_and_2012_R2_DC_STIG_V3R1_Manual-xccdf.xml  
-**Created:** 1/4/2021  
+**Release:** Release: 3 Benchmark Date: 01 Nov 2021 3.2.2.36079 1.10.0  
+**FileName:** U_MS_Windows_2012_and_2012_R2_DC_STIG_V3R3_Manual-xccdf.xml  
+**Created:** 11/23/2021  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **333** of **397** rules are automated; **84%**
+**Total Stig Rule Coverage:** **328** of **392** rules are automated; **84%**
 
 * **High (CAT I):** **29** of **41** rules are automated
-* **Medium (CAT II):** **250** of **292** rules are automated
+* **Medium (CAT II):** **245** of **287** rules are automated
 * **Low (CAT III):** **54** of **64** rules are automated
 
 ## Automated Rules
@@ -98,10 +98,6 @@
 | V-226138 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-226139 | Low | RegistryRule | RegistryPolicyFile |  |
 | V-226140 | Low | RegistryRule | RegistryPolicyFile |  |
-| V-226141 | Medium | RegistryRule | RegistryPolicyFile |  |
-| V-226142 | Medium | RegistryRule | RegistryPolicyFile |  |
-| V-226143 | Medium | RegistryRule | RegistryPolicyFile |  |
-| V-226144 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-226145 | Low | RegistryRule | RegistryPolicyFile |  |
 | V-226146.a | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-226146.b | Medium | RegistryRule | RegistryPolicyFile |  |
@@ -308,7 +304,6 @@
 | V-226079.h | Medium | ServiceRule | Service |  |
 | V-226079.i | Medium | ServiceRule | Service |  |
 | V-226236 | Medium | ServiceRule | Service |  |
-| V-226250 | Medium | ServiceRule | Service |  |
 | V-226256 | Medium | ServiceRule | Service |  |
 | V-226353 | Medium | ServiceRule | Service |  |
 | V-226354 | Medium | ServiceRule | Service |  |

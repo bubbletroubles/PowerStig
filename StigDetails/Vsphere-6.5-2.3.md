@@ -1,15 +1,15 @@
-# [VMware vSphere 6-5 ESXi STIG, Version 2.1](https://github.com/Microsoft/PowerStig/wiki/Vsphere-6.5-2.1)
+# [VMware vSphere 6-5 ESXi STIG, Version 2.3](https://github.com/Microsoft/PowerStig/wiki/Vsphere-6.5-2.3)
 
 **Title:** VMware vSphere 6.5 ESXi Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 1 Benchmark Date: 22 Jan 2021 3.2.1.41666 1.10.0  
-**FileName:** U_VMW_vSphere_6-5_ESXi_STIG_V2R1_Manual-xccdf.xml  
-**Created:** 2/24/2021  
+**Release:** Release: 3 Benchmark Date: 27 Oct 2021 3.2.2.36079 1.10.0  
+**FileName:** U_VMW_vSphere_6-5_ESXi_STIG_V2R3_Manual-xccdf.xml  
+**Created:** 11/3/2021  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **32** of **76** rules are automated; **42%**
+**Total Stig Rule Coverage:** **32** of **77** rules are automated; **42%**
 
 * **High (CAT I):** **3** of **7** rules are automated
-* **Medium (CAT II):** **24** of **50** rules are automated
+* **Medium (CAT II):** **24** of **51** rules are automated
 * **Low (CAT III):** **5** of **19** rules are automated
 
 ## Automated Rules
@@ -97,3 +97,4 @@
 | V-207673 | Medium | ManualRule |
 | V-207674 | Medium | ManualRule |
 | V-207675 | Low | ManualRule |
+| V-251043 | Medium | ManualRule |

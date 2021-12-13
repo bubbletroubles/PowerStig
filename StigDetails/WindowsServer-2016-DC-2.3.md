@@ -1,10 +1,10 @@
-# [Windows Server 2016 DC STIG, Version 2.1](https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2016-DC-2.1)
+# [Windows Server 2016 DC STIG, Version 2.3](https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2016-DC-2.3)
 
 **Title:** Microsoft Windows Server 2016 Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 1 Benchmark Date: 13 Nov 2020 3.1.1.36225 1.10.0  
-**FileName:** U_MS_Windows_Server_2016_DC_STIG_V2R1_Manual-xccdf.xml  
-**Created:** 12/9/2020  
+**Release:** Release: 3 Benchmark Date: 01 Nov 2021 3.2.2.36079 1.10.0  
+**FileName:** U_MS_Windows_Server_2016_DC_STIG_V2R3_Manual-xccdf.xml  
+**Created:** 11/25/2021  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **215** of **269** rules are automated; **80%**
 
@@ -122,8 +122,6 @@
 | V-224947 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-224948 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-224949 | Medium | RegistryRule | RegistryPolicyFile |  |
-| V-224950.a | Medium | RegistryRule | RegistryPolicyFile |  |
-| V-224950.b | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-224951 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-224952 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-224953 | Medium | RegistryRule | RegistryPolicyFile |  |
@@ -181,6 +179,8 @@
 | V-225067 | Medium | RegistryRule | Registry |  |
 | V-225068 | Medium | RegistryRule | Registry |  |
 | V-225069 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-236000.a | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-236000.b | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-225021.a | Medium | RootCertificateRule | CertificateDSC |  |
 | V-225021.b | Medium | RootCertificateRule | CertificateDSC |  |
 | V-225021.c | Medium | RootCertificateRule | CertificateDSC |  |

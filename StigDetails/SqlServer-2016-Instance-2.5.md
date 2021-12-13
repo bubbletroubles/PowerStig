@@ -1,15 +1,15 @@
-# [MS SQL Server 2016 Instance STIG, Version 2.3](https://github.com/Microsoft/PowerStig/wiki/SqlServer-2016-Instance-2.3)
+# [MS SQL Server 2016 Instance STIG, Version 2.5](https://github.com/Microsoft/PowerStig/wiki/SqlServer-2016-Instance-2.5)
 
 **Title:** MS SQL Server 2016 Instance Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 3 Benchmark Date: 23 Apr 2021 3.2.2.36079 1.10.0  
-**FileName:** U_MS_SQL_Server_2016_Instance_STIG_V2R3_Manual-xccdf.xml  
-**Created:** 8/12/2021  
+**Release:** Release: 5 Benchmark Date: 27 Oct 2021 3.2.2.36079 1.10.0  
+**FileName:** U_MS_SQL_Server_2016_Instance_STIG_V2R5_Manual-xccdf.xml  
+**Created:** 11/15/2021  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **53** of **135** rules are automated; **39%**
+**Total Stig Rule Coverage:** **58** of **136** rules are automated; **43%**
 
 * **High (CAT I):** **1** of **9** rules are automated
-* **Medium (CAT II):** **52** of **124** rules are automated
+* **Medium (CAT II):** **57** of **125** rules are automated
 * **Low (CAT III):** **0** of **2** rules are automated
 
 ## Automated Rules
@@ -37,6 +37,12 @@
 | V-213967.s | Medium | RegistryRule | Registry |  |
 | V-213967.t | Medium | RegistryRule | Registry |  |
 | V-213968 | High | SecurityOptionRule | SecurityOption |  |
+| V-213954.a | Medium | SqlDatabaseRule | SqlDatabase |  |
+| V-213954.b | Medium | SqlDatabaseRule | SqlDatabase |  |
+| V-213954.c | Medium | SqlDatabaseRule | SqlDatabase |  |
+| V-213954.d | Medium | SqlDatabaseRule | SqlDatabase |  |
+| V-213964 | Medium | SqlLoginRule | SqlLogin |  |
+| V-213961 | Medium | SqlProtocolRule | SqlProtocol |  |
 | V-213940 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
 | V-213989 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
 | V-213999 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
@@ -45,7 +51,6 @@
 | V-214002 | Medium | SqlScriptQueryRule | None | V-213999 |
 | V-214003 | Medium | SqlScriptQueryRule | None | V-213940 |
 | V-214004 | Medium | SqlScriptQueryRule | None | V-213940 |
-| V-214007 | Medium | SqlScriptQueryRule | None | V-213999 |
 | V-214008 | Medium | SqlScriptQueryRule | None | V-213999 |
 | V-214009 | Medium | SqlScriptQueryRule | None | V-213940 |
 | V-214010 | Medium | SqlScriptQueryRule | None | V-213940 |
@@ -92,7 +97,6 @@
 | V-213950 | Medium | DocumentRule |
 | V-213951 | Medium | DocumentRule |
 | V-213952 | Medium | DocumentRule |
-| V-213954 | Medium | DocumentRule |
 | V-213955 | Medium | DocumentRule |
 | V-213956 | Medium | DocumentRule |
 | V-213959 | Medium | DocumentRule |
@@ -115,7 +119,6 @@
 | V-213991 | Medium | DocumentRule |
 | V-213992 | Medium | DocumentRule |
 | V-213993 | Medium | DocumentRule |
-| V-213996 | Medium | DocumentRule |
 | V-213997 | Medium | DocumentRule |
 | V-213998 | Medium | DocumentRule |
 | V-214005 | Medium | DocumentRule |
@@ -139,9 +142,7 @@
 | V-213935 | Medium | ManualRule |
 | V-213944 | Medium | ManualRule |
 | V-213953 | Medium | ManualRule |
-| V-213961 | Medium | ManualRule |
 | V-213963 | Medium | ManualRule |
-| V-213964 | Medium | ManualRule |
 | V-213966 | High | ManualRule |
 | V-213969 | Medium | ManualRule |
 | V-213971 | Medium | ManualRule |

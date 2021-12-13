@@ -4,7 +4,7 @@
 **Version:** 2  
 **Release:** Release: 4 Benchmark Date: 23 Jul 2021 3.2.2.36079 1.10.0  
 **FileName:** U_CAN_Ubuntu_18-04_LTS_STIG_V2R4_Manual-xccdf.xml  
-**Created:** 8/6/2021  
+**Created:** 11/22/2021  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **191** of **270** rules are automated; **71%**
 
