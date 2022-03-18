@@ -1,10 +1,10 @@
-# [Microsoft Office System 2016, Version 2.1](https://github.com/Microsoft/PowerStig/wiki/Office-System2016-2.1)
+# [Microsoft Office System 2016, Version 2.2](https://github.com/Microsoft/PowerStig/wiki/Office-System2016-2.2)
 
 **Title:** Microsoft Office System 2016 Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 1 Benchmark Date: 23 Jul 2021 3.2.2.36079 1.10.0  
-**FileName:** U_Microsoft_Office_System_2016_STIG_V2R1_Manual-xccdf.xml  
-**Created:** 8/6/2021  
+**Release:** Release: 2 Benchmark Date: 27 Jan 2022 3.2.2.36079 1.10.0  
+**FileName:** U_Microsoft_Office_System_2016_STIG_V2R2_Manual-xccdf.xml  
+**Created:** 2/25/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **22** of **22** rules are automated; **100%**
 

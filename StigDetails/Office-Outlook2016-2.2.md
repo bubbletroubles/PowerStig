@@ -1,15 +1,15 @@
-# [Microsoft Outlook 2016, Version 2.1](https://github.com/Microsoft/PowerStig/wiki/Office-Outlook2016-2.1)
+# [Microsoft Outlook 2016, Version 2.2](https://github.com/Microsoft/PowerStig/wiki/Office-Outlook2016-2.2)
 
 **Title:** Microsoft Outlook 2016 Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 1 Benchmark Date: 23 Oct 2020 3.1.1.36225 1.10.0  
-**FileName:** U_MS_Outlook_2016_STIG_V2R1_Manual-xccdf.xml  
-**Created:** 12/3/2020  
+**Release:** Release: 2 Benchmark Date: 15 Dec 2021 3.2.2.36079 1.10.0  
+**FileName:** U_MS_Outlook_2016_STIG_V2R2_Manual-xccdf.xml  
+**Created:** 1/11/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **58** of **58** rules are automated; **100%**
+**Total Stig Rule Coverage:** **63** of **63** rules are automated; **100%**
 
 * **High (CAT I):** **0** of **0** rules are automated
-* **Medium (CAT II):** **58** of **58** rules are automated
+* **Medium (CAT II):** **63** of **63** rules are automated
 * **Low (CAT III):** **0** of **0** rules are automated
 
 ## Automated Rules
@@ -74,3 +74,8 @@
 | V-228474 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-228475 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-228476 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-251863 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-251865 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-251866 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-251867 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-251872 | Medium | RegistryRule | RegistryPolicyFile |  |

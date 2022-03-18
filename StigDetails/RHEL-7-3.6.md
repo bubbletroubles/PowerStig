@@ -1,15 +1,15 @@
-# [RHEL 7 STIG, Version 3.5](https://github.com/Microsoft/PowerStig/wiki/RHEL-7-3.5)
+# [RHEL 7 STIG, Version 3.6](https://github.com/Microsoft/PowerStig/wiki/RHEL-7-3.6)
 
 **Title:** Red Hat Enterprise Linux 7 Security Technical Implementation Guide  
 **Version:** 3  
-**Release:** Release: 5 Benchmark Date: 27 Oct 2021 3.2.2.36079 1.10.0  
-**FileName:** U_RHEL_7_STIG_V3R5_Manual-xccdf.xml  
-**Created:** 1/31/2022  
+**Release:** Release: 6 Benchmark Date: 27 Jan 2022 3.2.2.36079 1.10.0  
+**FileName:** U_RHEL_7_STIG_V3R6_Manual-xccdf.xml  
+**Created:** 3/2/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **211** of **311** rules are automated; **68%**
+**Total Stig Rule Coverage:** **161** of **265** rules are automated; **61%**
 
-* **High (CAT I):** **10** of **25** rules are automated
-* **Medium (CAT II):** **198** of **274** rules are automated
+* **High (CAT I):** **10** of **26** rules are automated
+* **Medium (CAT II):** **148** of **227** rules are automated
 * **Low (CAT III):** **3** of **12** rules are automated
 
 ## Automated Rules
@@ -27,7 +27,7 @@
 | V-204411 | Medium | nxFileLineRule | nxFileLine |  |
 | V-204412 | Medium | nxFileLineRule | nxFileLine |  |
 | V-204413 | Medium | nxFileLineRule | nxFileLine |  |
-| V-204414 | Medium | nxFileLineRule | nxFileLine |  |
+| V-204413 | Medium | nxFileLineRule | nxFileLine |  |
 | V-204416 | Medium | nxFileLineRule | nxFileLine |  |
 | V-204418 | Medium | nxFileLineRule | nxFileLine |  |
 | V-204420 | Medium | nxFileLineRule | nxFileLine |  |
@@ -68,54 +68,14 @@
 | V-204516.d | Medium | nxFileLineRule | nxFileLine |  |
 | V-204517.a | Medium | nxFileLineRule | nxFileLine |  |
 | V-204517.b | Medium | nxFileLineRule | nxFileLine |  |
-| V-204518.a | Medium | nxFileLineRule | nxFileLine |  |
-| V-204518.b | Medium | nxFileLineRule | nxFileLine |  |
-| V-204519.a | Medium | nxFileLineRule | nxFileLine |  |
-| V-204519.b | Medium | nxFileLineRule | nxFileLine |  |
-| V-204520.a | Medium | nxFileLineRule | nxFileLine |  |
-| V-204520.b | Medium | nxFileLineRule | nxFileLine |  |
 | V-204521.a | Medium | nxFileLineRule | nxFileLine |  |
 | V-204521.b | Medium | nxFileLineRule | nxFileLine |  |
-| V-204522.a | Medium | nxFileLineRule | nxFileLine |  |
-| V-204522.b | Medium | nxFileLineRule | nxFileLine |  |
-| V-204523.a | Medium | nxFileLineRule | nxFileLine |  |
-| V-204523.b | Medium | nxFileLineRule | nxFileLine |  |
 | V-204524.a | Medium | nxFileLineRule | nxFileLine |  |
 | V-204524.b | Medium | nxFileLineRule | nxFileLine |  |
-| V-204525.a | Medium | nxFileLineRule | nxFileLine |  |
-| V-204525.b | Medium | nxFileLineRule | nxFileLine |  |
-| V-204526.a | Medium | nxFileLineRule | nxFileLine |  |
-| V-204526.b | Medium | nxFileLineRule | nxFileLine |  |
-| V-204527.a | Medium | nxFileLineRule | nxFileLine |  |
-| V-204527.b | Medium | nxFileLineRule | nxFileLine |  |
-| V-204528.a | Medium | nxFileLineRule | nxFileLine |  |
-| V-204528.b | Medium | nxFileLineRule | nxFileLine |  |
-| V-204529.a | Medium | nxFileLineRule | nxFileLine |  |
-| V-204529.b | Medium | nxFileLineRule | nxFileLine |  |
-| V-204530.a | Medium | nxFileLineRule | nxFileLine |  |
-| V-204530.b | Medium | nxFileLineRule | nxFileLine |  |
-| V-204530.c | Medium | nxFileLineRule | nxFileLine |  |
-| V-204530.d | Medium | nxFileLineRule | nxFileLine |  |
 | V-204531.a | Medium | nxFileLineRule | nxFileLine |  |
 | V-204531.b | Medium | nxFileLineRule | nxFileLine |  |
 | V-204531.c | Medium | nxFileLineRule | nxFileLine |  |
 | V-204531.d | Medium | nxFileLineRule | nxFileLine |  |
-| V-204532.a | Medium | nxFileLineRule | nxFileLine |  |
-| V-204532.b | Medium | nxFileLineRule | nxFileLine |  |
-| V-204532.c | Medium | nxFileLineRule | nxFileLine |  |
-| V-204532.d | Medium | nxFileLineRule | nxFileLine |  |
-| V-204533.a | Medium | nxFileLineRule | nxFileLine |  |
-| V-204533.b | Medium | nxFileLineRule | nxFileLine |  |
-| V-204533.c | Medium | nxFileLineRule | nxFileLine |  |
-| V-204533.d | Medium | nxFileLineRule | nxFileLine |  |
-| V-204534.a | Medium | nxFileLineRule | nxFileLine |  |
-| V-204534.b | Medium | nxFileLineRule | nxFileLine |  |
-| V-204534.c | Medium | nxFileLineRule | nxFileLine |  |
-| V-204534.d | Medium | nxFileLineRule | nxFileLine |  |
-| V-204535.a | Medium | nxFileLineRule | nxFileLine |  |
-| V-204535.b | Medium | nxFileLineRule | nxFileLine |  |
-| V-204535.c | Medium | nxFileLineRule | nxFileLine |  |
-| V-204535.d | Medium | nxFileLineRule | nxFileLine |  |
 | V-204536 | Medium | nxFileLineRule | nxFileLine |  |
 | V-204537 | Medium | nxFileLineRule | nxFileLine |  |
 | V-204538 | Medium | nxFileLineRule | nxFileLine |  |
@@ -146,8 +106,6 @@
 | V-204559.b | Medium | nxFileLineRule | nxFileLine |  |
 | V-204560.a | Medium | nxFileLineRule | nxFileLine |  |
 | V-204560.b | Medium | nxFileLineRule | nxFileLine |  |
-| V-204561.a | Medium | nxFileLineRule | nxFileLine |  |
-| V-204561.b | Medium | nxFileLineRule | nxFileLine |  |
 | V-204562.a | Medium | nxFileLineRule | nxFileLine |  |
 | V-204562.b | Medium | nxFileLineRule | nxFileLine |  |
 | V-204563 | Medium | nxFileLineRule | nxFileLine |  |
@@ -156,16 +114,8 @@
 | V-204566 | Medium | nxFileLineRule | nxFileLine |  |
 | V-204567 | Medium | nxFileLineRule | nxFileLine |  |
 | V-204568 | Medium | nxFileLineRule | nxFileLine |  |
-| V-204569.a | Medium | nxFileLineRule | nxFileLine |  |
-| V-204569.b | Medium | nxFileLineRule | nxFileLine |  |
-| V-204570.a | Medium | nxFileLineRule | nxFileLine |  |
-| V-204570.b | Medium | nxFileLineRule | nxFileLine |  |
-| V-204571.a | Medium | nxFileLineRule | nxFileLine |  |
-| V-204571.b | Medium | nxFileLineRule | nxFileLine |  |
 | V-204572.a | Medium | nxFileLineRule | nxFileLine |  |
 | V-204572.b | Medium | nxFileLineRule | nxFileLine |  |
-| V-204573.a | Medium | nxFileLineRule | nxFileLine |  |
-| V-204573.b | Medium | nxFileLineRule | nxFileLine |  |
 | V-204578 | Medium | nxFileLineRule | nxFileLine |  |
 | V-204579.b | Medium | nxFileLineRule | nxFileLine |  |
 | V-204580 | Medium | nxFileLineRule | nxFileLine |  |
@@ -188,6 +138,7 @@
 | V-233307 | Medium | nxFileLineRule | nxFileLine |  |
 | V-244557 | Medium | nxFileLineRule | nxFileLine |  |
 | V-244558 | Medium | nxFileLineRule | nxFileLine |  |
+| V-250314 | Medium | nxFileLineRule | nxFileLine |  |
 | V-204395 | Medium | nxFileRule | nxFile |  |
 | V-204399.a | Medium | nxFileRule | nxFile |  |
 | V-204449.a | Medium | nxFileRule | nxFile |  |
@@ -211,7 +162,6 @@
 | V-237634.b | Medium | nxFileRule | nxFile |  |
 | V-237634.c | Medium | nxFileRule | nxFile |  |
 | V-237635 | Medium | nxFileRule | nxFile |  |
-| V-250314 | Medium | nxFileRule | nxFile |  |
 | V-204442 | High | nxPackageRule | nxPackage |  |
 | V-204443 | High | nxPackageRule | nxPackage |  |
 | V-204497 | High | nxPackageRule | nxPackage |  |
@@ -332,3 +282,7 @@
 | V-219059 | Medium | ManualRule |
 | V-228563 | Medium | ManualRule |
 | V-237633 | Medium | ManualRule |
+| V-251702 | High | ManualRule |
+| V-251703 | Medium | ManualRule |
+| V-251704 | Medium | ManualRule |
+| V-251705 | Medium | ManualRule |

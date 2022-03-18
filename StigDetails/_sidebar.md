@@ -25,58 +25,57 @@
 * [PowerSTIG with Azure Automation][powerstigwithazureautomation]
 * [STIG Caveats][stigcaveats]
   * [SqlServer][sqlservercaveats]
-* [STIG Coverage Summary][stigcoveragesummary]
-  * [Adobe-AcrobatPro-2.1][AdobeAcrobatPro21]
+* [STIG Coverage Summary][stigcoveragesummary]  * [Adobe-AcrobatPro-2.1][AdobeAcrobatPro21]
   * [Adobe-AcrobatReader-1.6][AdobeAcrobatReader16]
   * [Adobe-AcrobatReader-2.1][AdobeAcrobatReader21]
   * [DotNetFramework-4-1.9][DotNetFramework419]
   * [DotNetFramework-4-2.1][DotNetFramework421]
   * [FireFox-All-5.1][FireFoxAll51]
   * [FireFox-All-5.2][FireFoxAll52]
-  * [Google-Chrome-2.3][GoogleChrome23]
   * [Google-Chrome-2.4][GoogleChrome24]
-  * [IISServer-10.0-2.3][IISServer10023]
+  * [Google-Chrome-2.5][GoogleChrome25]
   * [IISServer-10.0-2.4][IISServer10024]
+  * [IISServer-10.0-2.5][IISServer10025]
   * [IISServer-8.5-2.2][IISServer8522]
   * [IISServer-8.5-2.3][IISServer8523]
-  * [IISSite-10.0-2.3][IISSite10023]
   * [IISSite-10.0-2.4][IISSite10024]
-  * [IISSite-8.5-2.3][IISSite8523]
+  * [IISSite-10.0-2.5][IISSite10025]
   * [IISSite-8.5-2.4][IISSite8524]
+  * [IISSite-8.5-2.5][IISSite8525]
   * [InternetExplorer-11-1.19][InternetExplorer11119]
   * [InternetExplorer-11-2.1][InternetExplorer1121]
   * [McAfee-8.8-VirusScan-5.16][McAfee88VirusScan516]
-  * [MS-Edge-1.2][MSEdge12]
   * [MS-Edge-1.3][MSEdge13]
-  * [Office-365ProPlus-2.2][Office365ProPlus22]
+  * [MS-Edge-1.4][MSEdge14]
   * [Office-365ProPlus-2.3][Office365ProPlus23]
+  * [Office-365ProPlus-2.4][Office365ProPlus24]
   * [Office-Excel2013-1.7][OfficeExcel201317]
   * [Office-Excel2016-1.2][OfficeExcel201612]
   * [Office-Outlook2013-1.12][OfficeOutlook2013112]
   * [Office-Outlook2013-1.13][OfficeOutlook2013113]
-  * [Office-Outlook2016-1.2][OfficeOutlook201612]
   * [Office-Outlook2016-2.1][OfficeOutlook201621]
+  * [Office-Outlook2016-2.2][OfficeOutlook201622]
   * [Office-PowerPoint2013-1.6][OfficePowerPoint201316]
   * [Office-PowerPoint2016-1.1][OfficePowerPoint201611]
   * [Office-System2013-1.9][OfficeSystem201319]
   * [Office-System2013-2.1][OfficeSystem201321]
-  * [Office-System2016-1.1][OfficeSystem201611]
   * [Office-System2016-2.1][OfficeSystem201621]
+  * [Office-System2016-2.2][OfficeSystem201622]
   * [Office-Visio2013-1.4][OfficeVisio201314]
   * [Office-Word2013-1.6][OfficeWord201316]
   * [Office-Word2016-1.1][OfficeWord201611]
   * [OracleJRE-8-1.5][OracleJRE815]
   * [OracleJRE-8-2.1][OracleJRE821]
-  * [RHEL-7-3.4][RHEL734]
   * [RHEL-7-3.5][RHEL735]
+  * [RHEL-7-3.6][RHEL736]
   * [SqlServer-2012-Database-1.19][SqlServer2012Database119]
   * [SqlServer-2012-Database-1.20][SqlServer2012Database120]
   * [SqlServer-2012-Instance-1.19][SqlServer2012Instance119]
   * [SqlServer-2012-Instance-1.20][SqlServer2012Instance120]
-  * [SqlServer-2016-Instance-2.4][SqlServer2016Instance24]
   * [SqlServer-2016-Instance-2.5][SqlServer2016Instance25]
-  * [Ubuntu-18.04-2.4][Ubuntu180424]
+  * [SqlServer-2016-Instance-2.6][SqlServer2016Instance26]
   * [Ubuntu-18.04-2.5][Ubuntu180425]
+  * [Ubuntu-18.04-2.6][Ubuntu180426]
   * [Vsphere-6.5-2.2][Vsphere6522]
   * [Vsphere-6.5-2.3][Vsphere6523]
   * [WindowsClient-10-2.2][WindowsClient1022]
@@ -99,6 +98,7 @@
   * [WindowsServer-2019-DC-2.3][WindowsServer2019DC23]
   * [WindowsServer-2019-MS-2.2][WindowsServer2019MS22]
   * [WindowsServer-2019-MS-2.3][WindowsServer2019MS23]
+
 
 [home]:                                              https://github.com/Microsoft/PowerStig/wiki/home
 [convert]:                                           https://github.com/Microsoft/PowerStig/wiki/Convert
@@ -136,50 +136,50 @@
 [DotNetFramework421]: https://github.com/Microsoft/PowerStig/wiki/DotNetFramework-4-2.1
 [FireFoxAll51]: https://github.com/Microsoft/PowerStig/wiki/FireFox-All-5.1
 [FireFoxAll52]: https://github.com/Microsoft/PowerStig/wiki/FireFox-All-5.2
-[GoogleChrome23]: https://github.com/Microsoft/PowerStig/wiki/Google-Chrome-2.3
 [GoogleChrome24]: https://github.com/Microsoft/PowerStig/wiki/Google-Chrome-2.4
-[IISServer10023]: https://github.com/Microsoft/PowerStig/wiki/IISServer-10.0-2.3
+[GoogleChrome25]: https://github.com/Microsoft/PowerStig/wiki/Google-Chrome-2.5
 [IISServer10024]: https://github.com/Microsoft/PowerStig/wiki/IISServer-10.0-2.4
+[IISServer10025]: https://github.com/Microsoft/PowerStig/wiki/IISServer-10.0-2.5
 [IISServer8522]: https://github.com/Microsoft/PowerStig/wiki/IISServer-8.5-2.2
 [IISServer8523]: https://github.com/Microsoft/PowerStig/wiki/IISServer-8.5-2.3
-[IISSite10023]: https://github.com/Microsoft/PowerStig/wiki/IISSite-10.0-2.3
 [IISSite10024]: https://github.com/Microsoft/PowerStig/wiki/IISSite-10.0-2.4
-[IISSite8523]: https://github.com/Microsoft/PowerStig/wiki/IISSite-8.5-2.3
+[IISSite10025]: https://github.com/Microsoft/PowerStig/wiki/IISSite-10.0-2.5
 [IISSite8524]: https://github.com/Microsoft/PowerStig/wiki/IISSite-8.5-2.4
+[IISSite8525]: https://github.com/Microsoft/PowerStig/wiki/IISSite-8.5-2.5
 [InternetExplorer11119]: https://github.com/Microsoft/PowerStig/wiki/InternetExplorer-11-1.19
 [InternetExplorer1121]: https://github.com/Microsoft/PowerStig/wiki/InternetExplorer-11-2.1
 [McAfee88VirusScan516]: https://github.com/Microsoft/PowerStig/wiki/McAfee-8.8-VirusScan-5.16
-[MSEdge12]: https://github.com/Microsoft/PowerStig/wiki/MS-Edge-1.2
 [MSEdge13]: https://github.com/Microsoft/PowerStig/wiki/MS-Edge-1.3
-[Office365ProPlus22]: https://github.com/Microsoft/PowerStig/wiki/Office-365ProPlus-2.2
+[MSEdge14]: https://github.com/Microsoft/PowerStig/wiki/MS-Edge-1.4
 [Office365ProPlus23]: https://github.com/Microsoft/PowerStig/wiki/Office-365ProPlus-2.3
+[Office365ProPlus24]: https://github.com/Microsoft/PowerStig/wiki/Office-365ProPlus-2.4
 [OfficeExcel201317]: https://github.com/Microsoft/PowerStig/wiki/Office-Excel2013-1.7
 [OfficeExcel201612]: https://github.com/Microsoft/PowerStig/wiki/Office-Excel2016-1.2
 [OfficeOutlook2013112]: https://github.com/Microsoft/PowerStig/wiki/Office-Outlook2013-1.12
 [OfficeOutlook2013113]: https://github.com/Microsoft/PowerStig/wiki/Office-Outlook2013-1.13
-[OfficeOutlook201612]: https://github.com/Microsoft/PowerStig/wiki/Office-Outlook2016-1.2
 [OfficeOutlook201621]: https://github.com/Microsoft/PowerStig/wiki/Office-Outlook2016-2.1
+[OfficeOutlook201622]: https://github.com/Microsoft/PowerStig/wiki/Office-Outlook2016-2.2
 [OfficePowerPoint201316]: https://github.com/Microsoft/PowerStig/wiki/Office-PowerPoint2013-1.6
 [OfficePowerPoint201611]: https://github.com/Microsoft/PowerStig/wiki/Office-PowerPoint2016-1.1
 [OfficeSystem201319]: https://github.com/Microsoft/PowerStig/wiki/Office-System2013-1.9
 [OfficeSystem201321]: https://github.com/Microsoft/PowerStig/wiki/Office-System2013-2.1
-[OfficeSystem201611]: https://github.com/Microsoft/PowerStig/wiki/Office-System2016-1.1
 [OfficeSystem201621]: https://github.com/Microsoft/PowerStig/wiki/Office-System2016-2.1
+[OfficeSystem201622]: https://github.com/Microsoft/PowerStig/wiki/Office-System2016-2.2
 [OfficeVisio201314]: https://github.com/Microsoft/PowerStig/wiki/Office-Visio2013-1.4
 [OfficeWord201316]: https://github.com/Microsoft/PowerStig/wiki/Office-Word2013-1.6
 [OfficeWord201611]: https://github.com/Microsoft/PowerStig/wiki/Office-Word2016-1.1
 [OracleJRE815]: https://github.com/Microsoft/PowerStig/wiki/OracleJRE-8-1.5
 [OracleJRE821]: https://github.com/Microsoft/PowerStig/wiki/OracleJRE-8-2.1
-[RHEL734]: https://github.com/Microsoft/PowerStig/wiki/RHEL-7-3.4
 [RHEL735]: https://github.com/Microsoft/PowerStig/wiki/RHEL-7-3.5
+[RHEL736]: https://github.com/Microsoft/PowerStig/wiki/RHEL-7-3.6
 [SqlServer2012Database119]: https://github.com/Microsoft/PowerStig/wiki/SqlServer-2012-Database-1.19
 [SqlServer2012Database120]: https://github.com/Microsoft/PowerStig/wiki/SqlServer-2012-Database-1.20
 [SqlServer2012Instance119]: https://github.com/Microsoft/PowerStig/wiki/SqlServer-2012-Instance-1.19
 [SqlServer2012Instance120]: https://github.com/Microsoft/PowerStig/wiki/SqlServer-2012-Instance-1.20
-[SqlServer2016Instance24]: https://github.com/Microsoft/PowerStig/wiki/SqlServer-2016-Instance-2.4
 [SqlServer2016Instance25]: https://github.com/Microsoft/PowerStig/wiki/SqlServer-2016-Instance-2.5
-[Ubuntu180424]: https://github.com/Microsoft/PowerStig/wiki/Ubuntu-18.04-2.4
+[SqlServer2016Instance26]: https://github.com/Microsoft/PowerStig/wiki/SqlServer-2016-Instance-2.6
 [Ubuntu180425]: https://github.com/Microsoft/PowerStig/wiki/Ubuntu-18.04-2.5
+[Ubuntu180426]: https://github.com/Microsoft/PowerStig/wiki/Ubuntu-18.04-2.6
 [Vsphere6522]: https://github.com/Microsoft/PowerStig/wiki/Vsphere-6.5-2.2
 [Vsphere6523]: https://github.com/Microsoft/PowerStig/wiki/Vsphere-6.5-2.3
 [WindowsClient1022]: https://github.com/Microsoft/PowerStig/wiki/WindowsClient-10-2.2
