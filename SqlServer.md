@@ -4,7 +4,8 @@ A composite DSC resource to manage the SQL STIG settings
 
 ## Requirements
 
-None
+Ensure the following Directory exists for audits
+"C:\audits"
 
 ## Parameters
 
