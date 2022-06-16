@@ -4,13 +4,13 @@
 **Version:** 2  
 **Release:** Release: 6 Benchmark Date: 27 Jan 2022 3.2.2.36079 1.10.0  
 **FileName:** U_CAN_Ubuntu_18-04_LTS_STIG_V2R6_Manual-xccdf.xml  
-**Created:** 3/1/2022  
+**Created:** 5/6/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **129** of **210** rules are automated; **61%**
 
 * **High (CAT I):** **8** of **17** rules are automated
-* **Medium (CAT II):** **107** of **169** rules are automated
-* **Low (CAT III):** **14** of **24** rules are automated
+* **Medium (CAT II):** **106** of **168** rules are automated
+* **Low (CAT III):** **15** of **25** rules are automated
 
 ## Automated Rules
 
@@ -102,7 +102,7 @@
 | V-219298 | Medium | nxFileLineRule | nxFileLine |  |
 | V-219299 | Medium | nxFileLineRule | nxFileLine |  |
 | V-219300 | Medium | nxFileLineRule | nxFileLine |  |
-| V-219300 | Medium | nxFileLineRule | nxFileLine |  |
+| V-219301 | Low | nxFileLineRule | nxFileLine |  |
 | V-219303.b | Medium | nxFileLineRule | nxFileLine |  |
 | V-219303.c | Medium | nxFileLineRule | nxFileLine |  |
 | V-219303.d | Medium | nxFileLineRule | nxFileLine |  |

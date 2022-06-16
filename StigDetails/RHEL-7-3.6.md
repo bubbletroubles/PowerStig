@@ -4,7 +4,7 @@
 **Version:** 3  
 **Release:** Release: 6 Benchmark Date: 27 Jan 2022 3.2.2.36079 1.10.0  
 **FileName:** U_RHEL_7_STIG_V3R6_Manual-xccdf.xml  
-**Created:** 3/2/2022  
+**Created:** 5/6/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **161** of **265** rules are automated; **61%**
 
@@ -27,7 +27,7 @@
 | V-204411 | Medium | nxFileLineRule | nxFileLine |  |
 | V-204412 | Medium | nxFileLineRule | nxFileLine |  |
 | V-204413 | Medium | nxFileLineRule | nxFileLine |  |
-| V-204413 | Medium | nxFileLineRule | nxFileLine |  |
+| V-204414 | Medium | nxFileLineRule | nxFileLine |  |
 | V-204416 | Medium | nxFileLineRule | nxFileLine |  |
 | V-204418 | Medium | nxFileLineRule | nxFileLine |  |
 | V-204420 | Medium | nxFileLineRule | nxFileLine |  |
@@ -138,7 +138,6 @@
 | V-233307 | Medium | nxFileLineRule | nxFileLine |  |
 | V-244557 | Medium | nxFileLineRule | nxFileLine |  |
 | V-244558 | Medium | nxFileLineRule | nxFileLine |  |
-| V-250314 | Medium | nxFileLineRule | nxFileLine |  |
 | V-204395 | Medium | nxFileRule | nxFile |  |
 | V-204399.a | Medium | nxFileRule | nxFile |  |
 | V-204449.a | Medium | nxFileRule | nxFile |  |
@@ -162,6 +161,7 @@
 | V-237634.b | Medium | nxFileRule | nxFile |  |
 | V-237634.c | Medium | nxFileRule | nxFile |  |
 | V-237635 | Medium | nxFileRule | nxFile |  |
+| V-250314 | Medium | nxFileRule | nxFile |  |
 | V-204442 | High | nxPackageRule | nxPackage |  |
 | V-204443 | High | nxPackageRule | nxPackage |  |
 | V-204497 | High | nxPackageRule | nxPackage |  |

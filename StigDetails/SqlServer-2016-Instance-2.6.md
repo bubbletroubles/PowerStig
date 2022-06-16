@@ -4,12 +4,12 @@
 **Version:** 2  
 **Release:** Release: 6 Benchmark Date: 27 Jan 2022 3.2.2.36079 1.10.0  
 **FileName:** U_MS_SQL_Server_2016_Instance_STIG_V2R6_Manual-xccdf.xml  
-**Created:** 2/24/2022  
+**Created:** 3/18/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **78** of **139** rules are automated; **56%**
+**Total Stig Rule Coverage:** **77** of **136** rules are automated; **57%**
 
 * **High (CAT I):** **3** of **9** rules are automated
-* **Medium (CAT II):** **75** of **128** rules are automated
+* **Medium (CAT II):** **74** of **125** rules are automated
 * **Low (CAT III):** **0** of **2** rules are automated
 
 ## Automated Rules
@@ -66,8 +66,7 @@
 | V-214004 | Medium | SqlScriptQueryRule | None | V-214003 |
 | V-214005 | Medium | SqlScriptQueryRule | None | V-213938 |
 | V-214006 | Medium | SqlScriptQueryRule | None | V-213938 |
-| V-214007 | Medium | SqlScriptQueryRule | None | V-213940 |
-| V-214008 | Medium | SqlScriptQueryRule | None | V-213940 |
+| V-214008 | Medium | SqlScriptQueryRule | None | V-213999 |
 | V-214009 | Medium | SqlScriptQueryRule | None | V-214003 |
 | V-214010 | Medium | SqlScriptQueryRule | None | V-214003 |
 | V-214011 | Medium | SqlScriptQueryRule | None | V-213938 |
@@ -127,7 +126,6 @@
 | V-213980 | Medium | DocumentRule |
 | V-213981 | Medium | DocumentRule |
 | V-213982 | Medium | DocumentRule |
-| V-213983 | Medium | DocumentRule |
 | V-213986 | Medium | DocumentRule |
 | V-213987 | Medium | DocumentRule |
 | V-213988 | Medium | DocumentRule |
@@ -135,7 +133,6 @@
 | V-213991 | Medium | DocumentRule |
 | V-213992 | Medium | DocumentRule |
 | V-213993 | Medium | DocumentRule |
-| V-214024 | Medium | DocumentRule |
 | V-214025 | Medium | DocumentRule |
 | V-214026 | Medium | DocumentRule |
 | V-214027 | Medium | DocumentRule |
