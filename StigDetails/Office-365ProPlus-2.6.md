@@ -1,10 +1,10 @@
-# [MS Office 365 ProPlus STIG, Version 2.4](https://github.com/Microsoft/PowerStig/wiki/Office-365ProPlus-2.4)
+# [MS Office 365 ProPlus STIG, Version 2.6](https://github.com/Microsoft/PowerStig/wiki/Office-365ProPlus-2.6)
 
 **Title:** Microsoft Office 365 ProPlus Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 4 Benchmark Date: 27 Jan 2022 3.2.2.36079 1.10.0  
-**FileName:** U_MS_Office_365_ProPlus_STIG_V2R4_Manual-xccdf.xml  
-**Created:** 3/3/2022  
+**Release:** Release: 6 Benchmark Date: 27 Jul 2022 3.3.0.27375 1.10.0  
+**FileName:** U_MS_Office_365_ProPlus_STIG_V2R6_Manual-xccdf.xml  
+**Created:** 8/23/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **129** of **142** rules are automated; **91%**
 

@@ -1,10 +1,10 @@
-# [U CAN Ubuntu 18-04 STIG, Version 2.6](https://github.com/Microsoft/PowerStig/wiki/Ubuntu-18.04-2.6)
+# [U CAN Ubuntu 18-04 STIG, Version 2.8](https://github.com/Microsoft/PowerStig/wiki/Ubuntu-18.04-2.8)
 
 **Title:** Canonical Ubuntu 18.04 LTS Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 6 Benchmark Date: 27 Jan 2022 3.2.2.36079 1.10.0  
-**FileName:** U_CAN_Ubuntu_18-04_LTS_STIG_V2R6_Manual-xccdf.xml  
-**Created:** 5/6/2022  
+**Release:** Release: 8 Benchmark Date: 27 Jul 2022 3.3.0.27375 1.10.0  
+**FileName:** U_CAN_Ubuntu_18-04_LTS_STIG_V2R8_Manual-xccdf.xml  
+**Created:** 9/1/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **129** of **210** rules are automated; **61%**
 
@@ -168,7 +168,7 @@
 | V-219326 | Medium | DocumentRule |
 | V-219331 | Medium | DocumentRule |
 | V-219341 | Medium | DocumentRule |
-| V-219346 | Medium | DocumentRule |
+| V-252703 | Medium | DocumentRule |
 | V-219147 | High | ManualRule |
 | V-219148 | High | ManualRule |
 | V-219149 | Medium | ManualRule |

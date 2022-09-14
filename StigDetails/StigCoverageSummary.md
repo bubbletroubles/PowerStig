@@ -1,4 +1,4 @@
-# PowerSTIG Technology Coverage : Module Version 4.13.0
+# PowerSTIG Technology Coverage : Module Version 4.14.0
 
 A Summary of Technology Coverage for **PowerSTIG** is listed below, for more detailed rule coverage, follow the technology specific link:
 
@@ -133,20 +133,6 @@ following address: disa.stig_spt@mail.mil.
 * **Medium (CAT II):** **40** of **41** rules are automated
 * **Low (CAT III):** **1** of **1** rules are automated
 
-## [IIS 10-0 Server STIG, Version 2.4](https://github.com/Microsoft/PowerStig/wiki/IISServer-10.0-2.4)
-
-**Title:** Microsoft IIS 10.0 Server Security Technical Implementation Guide  
-**Version:** 2  
-**Release:** Release: 4 Benchmark Date: 27 Oct 2021 3.2.2.36079 1.10.0  
-**FileName:** U_MS_IIS_10-0_Server_STIG_V2R4_Manual-xccdf.xml  
-**Created:** 11/1/2021  
-**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **31** of **62** rules are automated; **50%**
-
-* **High (CAT I):** **9** of **13** rules are automated
-* **Medium (CAT II):** **21** of **46** rules are automated
-* **Low (CAT III):** **1** of **3** rules are automated
-
 ## [IIS 10-0 Server STIG, Version 2.5](https://github.com/Microsoft/PowerStig/wiki/IISServer-10.0-2.5)
 
 **Title:** Microsoft IIS 10.0 Server Security Technical Implementation Guide  
@@ -161,19 +147,19 @@ following address: disa.stig_spt@mail.mil.
 * **Medium (CAT II):** **21** of **46** rules are automated
 * **Low (CAT III):** **1** of **3** rules are automated
 
-## [IIS 8-5 Server STIG, Version 2.2](https://github.com/Microsoft/PowerStig/wiki/IISServer-8.5-2.2)
+## [IIS 10-0 Server STIG, Version 2.6](https://github.com/Microsoft/PowerStig/wiki/IISServer-10.0-2.6)
 
-**Title:** Microsoft IIS 8.5 Server Security Technical Implementation Guide  
+**Title:** Microsoft IIS 10.0 Server Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 2 Benchmark Date: 23 Apr 2021 3.2.2.36079 1.10.0  
-**FileName:** U_MS_IIS_8-5_Server_STIG_V2R2_Manual-xccdf.xml  
-**Created:** 8/23/2021  
+**Release:** Release: 6 Benchmark Date: 27 Jul 2022 3.3.0.27375 1.10.0  
+**FileName:** U_MS_IIS_10-0_Server_STIG_V2R6_Manual-xccdf.xml  
+**Created:** 8/23/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **30** of **59** rules are automated; **51%**
+**Total Stig Rule Coverage:** **31** of **62** rules are automated; **50%**
 
 * **High (CAT I):** **9** of **13** rules are automated
 * **Medium (CAT II):** **21** of **46** rules are automated
-* **Low (CAT III):** **0** of **0** rules are automated
+* **Low (CAT III):** **1** of **3** rules are automated
 
 ## [IIS 8-5 Server STIG, Version 2.3](https://github.com/Microsoft/PowerStig/wiki/IISServer-8.5-2.3)
 
@@ -189,18 +175,18 @@ following address: disa.stig_spt@mail.mil.
 * **Medium (CAT II):** **21** of **46** rules are automated
 * **Low (CAT III):** **0** of **0** rules are automated
 
-## [IIS 10-0 Site STIG, Version 2.4](https://github.com/Microsoft/PowerStig/wiki/IISSite-10.0-2.4)
+## [IIS 8-5 Server STIG, Version 2.4](https://github.com/Microsoft/PowerStig/wiki/IISServer-8.5-2.4)
 
-**Title:** Microsoft IIS 10.0 Site Security Technical Implementation Guide  
+**Title:** Microsoft IIS 8.5 Server Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 4 Benchmark Date: 27 Oct 2021 3.2.2.36079 1.10.0  
-**FileName:** U_MS_IIS_10-0_Site_STIG_V2R4_Manual-xccdf.xml  
-**Created:** 3/2/2022  
+**Release:** Release: 4 Benchmark Date: 27 Jul 2022 3.3.0.27375 1.10.0  
+**FileName:** U_MS_IIS_8-5_Server_STIG_V2R4_Manual-xccdf.xml  
+**Created:** 8/24/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **35** of **50** rules are automated; **70%**
+**Total Stig Rule Coverage:** **30** of **59** rules are automated; **51%**
 
-* **High (CAT I):** **0** of **1** rules are automated
-* **Medium (CAT II):** **35** of **49** rules are automated
+* **High (CAT I):** **9** of **13** rules are automated
+* **Medium (CAT II):** **21** of **46** rules are automated
 * **Low (CAT III):** **0** of **0** rules are automated
 
 ## [IIS 10-0 Site STIG, Version 2.5](https://github.com/Microsoft/PowerStig/wiki/IISSite-10.0-2.5)
@@ -217,18 +203,18 @@ following address: disa.stig_spt@mail.mil.
 * **Medium (CAT II):** **35** of **49** rules are automated
 * **Low (CAT III):** **0** of **0** rules are automated
 
-## [IIS 8-5 Site STIG, Version 2.4](https://github.com/Microsoft/PowerStig/wiki/IISSite-8.5-2.4)
+## [IIS 10-0 Site STIG, Version 2.6](https://github.com/Microsoft/PowerStig/wiki/IISSite-10.0-2.6)
 
-**Title:** Microsoft IIS 8.5 Site Security Technical Implementation Guide  
+**Title:** Microsoft IIS 10.0 Site Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 4 Benchmark Date: 27 Oct 2021 3.2.2.36079 1.10.0  
-**FileName:** U_MS_IIS_8-5_Site_STIG_V2R4_Manual-xccdf.xml  
-**Created:** 11/3/2021  
+**Release:** Release: 6 Benchmark Date: 27 Jul 2022 3.3.0.27375 1.10.0  
+**FileName:** U_MS_IIS_10-0_Site_STIG_V2R6_Manual-xccdf.xml  
+**Created:** 8/23/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **38** of **54** rules are automated; **70%**
+**Total Stig Rule Coverage:** **35** of **50** rules are automated; **70%**
 
 * **High (CAT I):** **0** of **1** rules are automated
-* **Medium (CAT II):** **38** of **53** rules are automated
+* **Medium (CAT II):** **35** of **49** rules are automated
 * **Low (CAT III):** **0** of **0** rules are automated
 
 ## [IIS 8-5 Site STIG, Version 2.5](https://github.com/Microsoft/PowerStig/wiki/IISSite-8.5-2.5)
@@ -245,19 +231,19 @@ following address: disa.stig_spt@mail.mil.
 * **Medium (CAT II):** **38** of **53** rules are automated
 * **Low (CAT III):** **0** of **0** rules are automated
 
-## [IE 11 STIG, Version 1.19](https://github.com/Microsoft/PowerStig/wiki/InternetExplorer-11-1.19)
+## [IIS 8-5 Site STIG, Version 2.6](https://github.com/Microsoft/PowerStig/wiki/IISSite-8.5-2.6)
 
-**Title:** Microsoft Internet Explorer 11 Security Technical Implementation Guide  
-**Version:** 1  
-**Release:** Release: 19 Benchmark Date: 24 Jul 2020  
-**FileName:** U_MS_IE11_STIG_V1R19_Manual-xccdf.xml  
-**Created:** 8/21/2020  
-**Description:** The Microsoft Internet Explorer 11 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil  
-**Total Stig Rule Coverage:** **139** of **139** rules are automated; **100%**
+**Title:** Microsoft IIS 8.5 Site Security Technical Implementation Guide  
+**Version:** 2  
+**Release:** Release: 6 Benchmark Date: 27 Jul 2022 3.3.0.27375 1.10.0  
+**FileName:** U_MS_IIS_8-5_Site_STIG_V2R6_Manual-xccdf.xml  
+**Created:** 8/23/2022  
+**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
+**Total Stig Rule Coverage:** **37** of **53** rules are automated; **70%**
 
-* **High (CAT I):** **0** of **0** rules are automated
-* **Medium (CAT II):** **136** of **136** rules are automated
-* **Low (CAT III):** **3** of **3** rules are automated
+* **High (CAT I):** **0** of **1** rules are automated
+* **Medium (CAT II):** **37** of **52** rules are automated
+* **Low (CAT III):** **0** of **0** rules are automated
 
 ## [IE 11 STIG, Version 2.1](https://github.com/Microsoft/PowerStig/wiki/InternetExplorer-11-2.1)
 
@@ -270,6 +256,20 @@ following address: disa.stig_spt@mail.mil.
 **Total Stig Rule Coverage:** **139** of **139** rules are automated; **100%**
 
 * **High (CAT I):** **0** of **0** rules are automated
+* **Medium (CAT II):** **136** of **136** rules are automated
+* **Low (CAT III):** **3** of **3** rules are automated
+
+## [IE 11 STIG, Version 2.2](https://github.com/Microsoft/PowerStig/wiki/InternetExplorer-11-2.2)
+
+**Title:** Microsoft Internet Explorer 11 Security Technical Implementation Guide  
+**Version:** 2  
+**Release:** Release: 2 Benchmark Date: 27 Jul 2022 3.3.0.27375 1.10.0  
+**FileName:** U_MS_IE11_STIG_V2R2_Manual-xccdf.xml  
+**Created:** 8/24/2022  
+**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
+**Total Stig Rule Coverage:** **139** of **140** rules are automated; **99%**
+
+* **High (CAT I):** **0** of **1** rules are automated
 * **Medium (CAT II):** **136** of **136** rules are automated
 * **Low (CAT III):** **3** of **3** rules are automated
 
@@ -287,20 +287,6 @@ following address: disa.stig_spt@mail.mil.
 * **Medium (CAT II):** **53** of **92** rules are automated
 * **Low (CAT III):** **0** of **0** rules are automated
 
-## [MS Edge STIG, Version 1.3](https://github.com/Microsoft/PowerStig/wiki/MS-Edge-1.3)
-
-**Title:** Microsoft Edge Security Technical Implementation Guide  
-**Version:** 1  
-**Release:** Release: 3 Benchmark Date: 27 Oct 2021 3.2.2.36079 1.10.0  
-**FileName:** U_MS_Edge_V1R3_STIG_Manual-xccdf.xml  
-**Created:** 11/1/2021  
-**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **51** of **55** rules are automated; **93%**
-
-* **High (CAT I):** **1** of **2** rules are automated
-* **Medium (CAT II):** **45** of **47** rules are automated
-* **Low (CAT III):** **5** of **6** rules are automated
-
 ## [MS Edge STIG, Version 1.4](https://github.com/Microsoft/PowerStig/wiki/MS-Edge-1.4)
 
 **Title:** Microsoft Edge Security Technical Implementation Guide  
@@ -315,19 +301,19 @@ following address: disa.stig_spt@mail.mil.
 * **Medium (CAT II):** **45** of **48** rules are automated
 * **Low (CAT III):** **5** of **6** rules are automated
 
-## [MS Office 365 ProPlus STIG, Version 2.4](https://github.com/Microsoft/PowerStig/wiki/Office-365ProPlus-2.4)
+## [MS Edge STIG, Version 1.5](https://github.com/Microsoft/PowerStig/wiki/MS-Edge-1.5)
 
-**Title:** Microsoft Office 365 ProPlus Security Technical Implementation Guide  
-**Version:** 2  
-**Release:** Release: 4 Benchmark Date: 27 Jan 2022 3.2.2.36079 1.10.0  
-**FileName:** U_MS_Office_365_ProPlus_STIG_V2R4_Manual-xccdf.xml  
-**Created:** 3/3/2022  
+**Title:** Microsoft Edge Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 5 Benchmark Date: 27 Jul 2022 3.3.0.27375 1.10.0  
+**FileName:** U_MS_Edge_V1R5_STIG_Manual-xccdf.xml  
+**Created:** 8/24/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **129** of **142** rules are automated; **91%**
+**Total Stig Rule Coverage:** **51** of **56** rules are automated; **91%**
 
-* **High (CAT I):** **0** of **0** rules are automated
-* **Medium (CAT II):** **129** of **142** rules are automated
-* **Low (CAT III):** **0** of **0** rules are automated
+* **High (CAT I):** **1** of **2** rules are automated
+* **Medium (CAT II):** **45** of **48** rules are automated
+* **Low (CAT III):** **5** of **6** rules are automated
 
 ## [MS Office 365 ProPlus STIG, Version 2.5](https://github.com/Microsoft/PowerStig/wiki/Office-365ProPlus-2.5)
 
@@ -336,6 +322,20 @@ following address: disa.stig_spt@mail.mil.
 **Release:** Release: 5 Benchmark Date: 27 Apr 2022 3.3.0.27375 1.10.0  
 **FileName:** U_MS_Office_365_ProPlus_STIG_V2R5_Manual-xccdf.xml  
 **Created:** 6/6/2022  
+**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
+**Total Stig Rule Coverage:** **129** of **142** rules are automated; **91%**
+
+* **High (CAT I):** **0** of **0** rules are automated
+* **Medium (CAT II):** **129** of **142** rules are automated
+* **Low (CAT III):** **0** of **0** rules are automated
+
+## [MS Office 365 ProPlus STIG, Version 2.6](https://github.com/Microsoft/PowerStig/wiki/Office-365ProPlus-2.6)
+
+**Title:** Microsoft Office 365 ProPlus Security Technical Implementation Guide  
+**Version:** 2  
+**Release:** Release: 6 Benchmark Date: 27 Jul 2022 3.3.0.27375 1.10.0  
+**FileName:** U_MS_Office_365_ProPlus_STIG_V2R6_Manual-xccdf.xml  
+**Created:** 8/23/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **129** of **142** rules are automated; **91%**
 
@@ -453,6 +453,20 @@ following address: disa.stig_spt@mail.mil.
 
 * **High (CAT I):** **0** of **0** rules are automated
 * **Medium (CAT II):** **38** of **38** rules are automated
+* **Low (CAT III):** **0** of **0** rules are automated
+
+## [Microsoft Publisher 2016, Version 1.3](https://github.com/Microsoft/PowerStig/wiki/Office-Publisher2016-1.3)
+
+**Title:** Microsoft Publisher 2016 Security Technical Implementation Guide  
+**Version:** 1  
+**Release:** Release: 3 Benchmark Date: 27 Apr 2018  
+**FileName:** U_MS_Publisher_2016_STIG_V1R3_Manual-xccdf.xml  
+**Created:** 7/19/2022  
+**Description:** The Microsoft Publisher 2016 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems.  Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
+**Total Stig Rule Coverage:** **15** of **15** rules are automated; **100%**
+
+* **High (CAT I):** **0** of **0** rules are automated
+* **Medium (CAT II):** **15** of **15** rules are automated
 * **Low (CAT III):** **0** of **0** rules are automated
 
 ## [Microsoft Office System 2013, Version 1.9](https://github.com/Microsoft/PowerStig/wiki/Office-System2013-1.9)
@@ -581,20 +595,6 @@ following address: disa.stig_spt@mail.mil.
 * **Medium (CAT II):** **18** of **23** rules are automated
 * **Low (CAT III):** **2** of **2** rules are automated
 
-## [RHEL 7 STIG, Version 3.6](https://github.com/Microsoft/PowerStig/wiki/RHEL-7-3.6)
-
-**Title:** Red Hat Enterprise Linux 7 Security Technical Implementation Guide  
-**Version:** 3  
-**Release:** Release: 6 Benchmark Date: 27 Jan 2022 3.2.2.36079 1.10.0  
-**FileName:** U_RHEL_7_STIG_V3R6_Manual-xccdf.xml  
-**Created:** 5/6/2022  
-**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **161** of **265** rules are automated; **61%**
-
-* **High (CAT I):** **10** of **26** rules are automated
-* **Medium (CAT II):** **148** of **227** rules are automated
-* **Low (CAT III):** **3** of **12** rules are automated
-
 ## [RHEL 7 STIG, Version 3.7](https://github.com/Microsoft/PowerStig/wiki/RHEL-7-3.7)
 
 **Title:** Red Hat Enterprise Linux 7 Security Technical Implementation Guide  
@@ -602,6 +602,20 @@ following address: disa.stig_spt@mail.mil.
 **Release:** Release: 7 Benchmark Date: 27 Apr 2022 3.3.0.27375 1.10.0  
 **FileName:** U_RHEL_7_STIG_V3R7_Manual-xccdf.xml  
 **Created:** 6/9/2022  
+**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
+**Total Stig Rule Coverage:** **161** of **265** rules are automated; **61%**
+
+* **High (CAT I):** **10** of **26** rules are automated
+* **Medium (CAT II):** **148** of **227** rules are automated
+* **Low (CAT III):** **3** of **12** rules are automated
+
+## [RHEL 7 STIG, Version 3.8](https://github.com/Microsoft/PowerStig/wiki/RHEL-7-3.8)
+
+**Title:** Red Hat Enterprise Linux 7 Security Technical Implementation Guide  
+**Version:** 3  
+**Release:** Release: 8 Benchmark Date: 27 Jul 2022 3.3.0.27375 1.10.0  
+**FileName:** U_RHEL_7_STIG_V3R8_Manual-xccdf.xml  
+**Created:** 9/12/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **161** of **265** rules are automated; **61%**
 
@@ -693,20 +707,6 @@ following address: disa.stig_spt@mail.mil.
 * **Medium (CAT II):** **51** of **100** rules are automated
 * **Low (CAT III):** **0** of **2** rules are automated
 
-## [U CAN Ubuntu 18-04 STIG, Version 2.6](https://github.com/Microsoft/PowerStig/wiki/Ubuntu-18.04-2.6)
-
-**Title:** Canonical Ubuntu 18.04 LTS Security Technical Implementation Guide  
-**Version:** 2  
-**Release:** Release: 6 Benchmark Date: 27 Jan 2022 3.2.2.36079 1.10.0  
-**FileName:** U_CAN_Ubuntu_18-04_LTS_STIG_V2R6_Manual-xccdf.xml  
-**Created:** 5/6/2022  
-**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **129** of **210** rules are automated; **61%**
-
-* **High (CAT I):** **8** of **17** rules are automated
-* **Medium (CAT II):** **106** of **168** rules are automated
-* **Low (CAT III):** **15** of **25** rules are automated
-
 ## [U CAN Ubuntu 18-04 STIG, Version 2.7](https://github.com/Microsoft/PowerStig/wiki/Ubuntu-18.04-2.7)
 
 **Title:** Canonical Ubuntu 18.04 LTS Security Technical Implementation Guide  
@@ -714,6 +714,20 @@ following address: disa.stig_spt@mail.mil.
 **Release:** Release: 7 Benchmark Date: 27 Apr 2022 3.3.0.27375 1.10.0  
 **FileName:** U_CAN_Ubuntu_18-04_LTS_STIG_V2R7_Manual-xccdf.xml  
 **Created:** 6/9/2022  
+**Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
+**Total Stig Rule Coverage:** **129** of **210** rules are automated; **61%**
+
+* **High (CAT I):** **8** of **17** rules are automated
+* **Medium (CAT II):** **106** of **168** rules are automated
+* **Low (CAT III):** **15** of **25** rules are automated
+
+## [U CAN Ubuntu 18-04 STIG, Version 2.8](https://github.com/Microsoft/PowerStig/wiki/Ubuntu-18.04-2.8)
+
+**Title:** Canonical Ubuntu 18.04 LTS Security Technical Implementation Guide  
+**Version:** 2  
+**Release:** Release: 8 Benchmark Date: 27 Jul 2022 3.3.0.27375 1.10.0  
+**FileName:** U_CAN_Ubuntu_18-04_LTS_STIG_V2R8_Manual-xccdf.xml  
+**Created:** 9/1/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **129** of **210** rules are automated; **61%**
 
@@ -755,7 +769,7 @@ following address: disa.stig_spt@mail.mil.
 **Version:** 2  
 **Release:** Release: 3 Benchmark Date: 01 Nov 2021 3.2.2.36079 1.10.0  
 **FileName:** U_MS_Windows_10_STIG_V2R3_Manual-xccdf.xml  
-**Created:** 11/23/2021  
+**Created:** 6/27/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **248** of **277** rules are automated; **90%**
 
@@ -769,7 +783,7 @@ following address: disa.stig_spt@mail.mil.
 **Version:** 2  
 **Release:** Release: 4 Benchmark Date: 31 May 2022 3.3.0.27375 1.10.0  
 **FileName:** U_MS_Windows_10_STIG_V2R4_Manual-xccdf.xml  
-**Created:** 6/14/2022  
+**Created:** 6/27/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **247** of **276** rules are automated; **89%**
 
@@ -867,7 +881,7 @@ following address: disa.stig_spt@mail.mil.
 **Version:** 3  
 **Release:** Release: 3 Benchmark Date: 01 Nov 2021 3.2.2.36079 1.10.0  
 **FileName:** U_MS_Windows_2012_and_2012_R2_DC_STIG_V3R3_Manual-xccdf.xml  
-**Created:** 11/23/2021  
+**Created:** 6/27/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **328** of **392** rules are automated; **84%**
 
@@ -881,7 +895,7 @@ following address: disa.stig_spt@mail.mil.
 **Version:** 3  
 **Release:** Release: 4 Benchmark Date: 31 May 2022 3.3.0.27375 1.10.0  
 **FileName:** U_MS_Windows_2012_and_2012_R2_DC_STIG_V3R4_Manual-xccdf.xml  
-**Created:** 6/6/2022  
+**Created:** 6/27/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **327** of **391** rules are automated; **84%**
 
@@ -895,7 +909,7 @@ following address: disa.stig_spt@mail.mil.
 **Version:** 3  
 **Release:** Release: 3 Benchmark Date: 01 Nov 2021 3.2.2.36079 1.10.0  
 **FileName:** U_MS_Windows_2012_and_2012_R2_MS_STIG_V3R3_Manual-xccdf.xml  
-**Created:** 11/23/2021  
+**Created:** 6/27/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **305** of **347** rules are automated; **88%**
 
@@ -909,7 +923,7 @@ following address: disa.stig_spt@mail.mil.
 **Version:** 3  
 **Release:** Release: 4 Benchmark Date: 31 May 2022 3.3.0.27375 1.10.0  
 **FileName:** U_MS_Windows_2012_and_2012_R2_MS_STIG_V3R4_Manual-xccdf.xml  
-**Created:** 6/6/2022  
+**Created:** 6/27/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **304** of **346** rules are automated; **88%**
 
@@ -923,7 +937,7 @@ following address: disa.stig_spt@mail.mil.
 **Version:** 2  
 **Release:** Release: 3 Benchmark Date: 01 Nov 2021 3.2.2.36079 1.10.0  
 **FileName:** U_MS_Windows_Server_2016_DC_STIG_V2R3_Manual-xccdf.xml  
-**Created:** 11/25/2021  
+**Created:** 6/27/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **215** of **269** rules are automated; **80%**
 
@@ -937,7 +951,7 @@ following address: disa.stig_spt@mail.mil.
 **Version:** 2  
 **Release:** Release: 4 Benchmark Date: 31 May 2022 3.3.0.27375 1.10.0  
 **FileName:** U_MS_Windows_Server_2016_DC_STIG_V2R4_Manual-xccdf.xml  
-**Created:** 6/7/2022  
+**Created:** 6/27/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **214** of **268** rules are automated; **80%**
 
@@ -951,7 +965,7 @@ following address: disa.stig_spt@mail.mil.
 **Version:** 2  
 **Release:** Release: 3 Benchmark Date: 01 Nov 2021 3.2.2.36079 1.10.0  
 **FileName:** U_MS_Windows_Server_2016_MS_STIG_V2R3_Manual-xccdf.xml  
-**Created:** 11/23/2021  
+**Created:** 6/27/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **206** of **240** rules are automated; **86%**
 
@@ -965,7 +979,7 @@ following address: disa.stig_spt@mail.mil.
 **Version:** 2  
 **Release:** Release: 4 Benchmark Date: 31 May 2022 3.3.0.27375 1.10.0  
 **FileName:** U_MS_Windows_Server_2016_MS_STIG_V2R4_Manual-xccdf.xml  
-**Created:** 6/7/2022  
+**Created:** 6/27/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **205** of **239** rules are automated; **86%**
 
@@ -979,7 +993,7 @@ following address: disa.stig_spt@mail.mil.
 **Version:** 2  
 **Release:** Release: 3 Benchmark Date: 01 Nov 2021 3.2.2.36079 1.10.0  
 **FileName:** U_MS_Windows_Server_2019_DC_STIG_V2R3_Manual-xccdf.xml  
-**Created:** 11/25/2021  
+**Created:** 6/27/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **220** of **272** rules are automated; **81%**
 
@@ -993,7 +1007,7 @@ following address: disa.stig_spt@mail.mil.
 **Version:** 2  
 **Release:** Release: 4 Benchmark Date: 31 May 2022 3.3.0.27375 1.10.0  
 **FileName:** U_MS_Windows_Server_2019_DC_STIG_V2R4_Manual-xccdf.xml  
-**Created:** 6/7/2022  
+**Created:** 6/27/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **219** of **271** rules are automated; **81%**
 
@@ -1007,7 +1021,7 @@ following address: disa.stig_spt@mail.mil.
 **Version:** 2  
 **Release:** Release: 3 Benchmark Date: 01 Nov 2021 3.2.2.36079 1.10.0  
 **FileName:** U_MS_Windows_Server_2019_MS_STIG_V2R3_Manual-xccdf.xml  
-**Created:** 11/23/2021  
+**Created:** 6/27/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **211** of **243** rules are automated; **87%**
 
@@ -1021,7 +1035,7 @@ following address: disa.stig_spt@mail.mil.
 **Version:** 2  
 **Release:** Release: 4 Benchmark Date: 31 May 2022 3.3.0.27375 1.10.0  
 **FileName:** U_MS_Windows_Server_2019_MS_STIG_V2R4_Manual-xccdf.xml  
-**Created:** 6/7/2022  
+**Created:** 6/27/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **210** of **242** rules are automated; **87%**
 

@@ -4,7 +4,7 @@
 **Version:** 2  
 **Release:** Release: 4 Benchmark Date: 31 May 2022 3.3.0.27375 1.10.0  
 **FileName:** U_MS_Windows_Server_2016_MS_STIG_V2R4_Manual-xccdf.xml  
-**Created:** 6/7/2022  
+**Created:** 6/27/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **205** of **239** rules are automated; **86%**
 

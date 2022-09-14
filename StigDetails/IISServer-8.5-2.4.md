@@ -1,10 +1,10 @@
-# [IIS 8-5 Server STIG, Version 2.2](https://github.com/Microsoft/PowerStig/wiki/IISServer-8.5-2.2)
+# [IIS 8-5 Server STIG, Version 2.4](https://github.com/Microsoft/PowerStig/wiki/IISServer-8.5-2.4)
 
 **Title:** Microsoft IIS 8.5 Server Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 2 Benchmark Date: 23 Apr 2021 3.2.2.36079 1.10.0  
-**FileName:** U_MS_IIS_8-5_Server_STIG_V2R2_Manual-xccdf.xml  
-**Created:** 8/23/2021  
+**Release:** Release: 4 Benchmark Date: 27 Jul 2022 3.3.0.27375 1.10.0  
+**FileName:** U_MS_IIS_8-5_Server_STIG_V2R4_Manual-xccdf.xml  
+**Created:** 8/24/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **30** of **59** rules are automated; **51%**
 

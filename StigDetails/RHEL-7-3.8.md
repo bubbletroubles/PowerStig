@@ -1,10 +1,10 @@
-# [RHEL 7 STIG, Version 3.6](https://github.com/Microsoft/PowerStig/wiki/RHEL-7-3.6)
+# [RHEL 7 STIG, Version 3.8](https://github.com/Microsoft/PowerStig/wiki/RHEL-7-3.8)
 
 **Title:** Red Hat Enterprise Linux 7 Security Technical Implementation Guide  
 **Version:** 3  
-**Release:** Release: 6 Benchmark Date: 27 Jan 2022 3.2.2.36079 1.10.0  
-**FileName:** U_RHEL_7_STIG_V3R6_Manual-xccdf.xml  
-**Created:** 5/6/2022  
+**Release:** Release: 8 Benchmark Date: 27 Jul 2022 3.3.0.27375 1.10.0  
+**FileName:** U_RHEL_7_STIG_V3R8_Manual-xccdf.xml  
+**Created:** 9/12/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **161** of **265** rules are automated; **61%**
 

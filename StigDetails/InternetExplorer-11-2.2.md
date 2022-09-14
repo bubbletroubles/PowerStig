@@ -1,14 +1,14 @@
-# [IE 11 STIG, Version 2.1](https://github.com/Microsoft/PowerStig/wiki/InternetExplorer-11-2.1)
+# [IE 11 STIG, Version 2.2](https://github.com/Microsoft/PowerStig/wiki/InternetExplorer-11-2.2)
 
 **Title:** Microsoft Internet Explorer 11 Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 1 Benchmark Date: 27 Oct 2021 3.2.2.36079 1.10.0  
-**FileName:** U_MS_IE11_STIG_V2R1_Manual-xccdf.xml  
-**Created:** 11/3/2021  
+**Release:** Release: 2 Benchmark Date: 27 Jul 2022 3.3.0.27375 1.10.0  
+**FileName:** U_MS_IE11_STIG_V2R2_Manual-xccdf.xml  
+**Created:** 8/24/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **139** of **139** rules are automated; **100%**
+**Total Stig Rule Coverage:** **139** of **140** rules are automated; **99%**
 
-* **High (CAT I):** **0** of **0** rules are automated
+* **High (CAT I):** **0** of **1** rules are automated
 * **Medium (CAT II):** **136** of **136** rules are automated
 * **Low (CAT III):** **3** of **3** rules are automated
 
@@ -155,3 +155,9 @@
 | V-223150 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-250540 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-250541 | Medium | RegistryRule | RegistryPolicyFile |  |
+
+## Document / Manual Rules (Not Automated)
+
+| StigRuleId | Severity | RuleType |
+| :---- | :---- | :---- |
+| V-252910 | High | ManualRule |
