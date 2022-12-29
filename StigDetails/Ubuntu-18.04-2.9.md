@@ -1,16 +1,16 @@
-# [U CAN Ubuntu 18-04 STIG, Version 2.7](https://github.com/Microsoft/PowerStig/wiki/Ubuntu-18.04-2.7)
+# [U CAN Ubuntu 18-04 STIG, Version 2.9](https://github.com/Microsoft/PowerStig/wiki/Ubuntu-18.04-2.9)
 
 **Title:** Canonical Ubuntu 18.04 LTS Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 7 Benchmark Date: 27 Apr 2022 3.3.0.27375 1.10.0  
-**FileName:** U_CAN_Ubuntu_18-04_LTS_STIG_V2R7_Manual-xccdf.xml  
-**Created:** 6/9/2022  
+**Release:** Release: 9 Benchmark Date: 27 Oct 2022 3.4.0.34222 1.10.0  
+**FileName:** U_CAN_Ubuntu_18-04_LTS_STIG_V2R9_Manual-xccdf.xml  
+**Created:** 12/19/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **129** of **210** rules are automated; **61%**
 
 * **High (CAT I):** **8** of **17** rules are automated
-* **Medium (CAT II):** **106** of **168** rules are automated
-* **Low (CAT III):** **15** of **25** rules are automated
+* **Medium (CAT II):** **105** of **168** rules are automated
+* **Low (CAT III):** **16** of **25** rules are automated
 
 ## Automated Rules
 
@@ -22,6 +22,7 @@
 | V-219153.c | Low | nxFileLineRule | nxFileLine |  |
 | V-219156.a | Medium | nxFileLineRule | nxFileLine |  |
 | V-219156.b | Medium | nxFileLineRule | nxFileLine |  |
+| V-219162 | Low | nxFileLineRule | None | V-219153.b |
 | V-219167.a | Medium | nxFileLineRule | nxFileLine |  |
 | V-219167.b | Medium | nxFileLineRule | nxFileLine |  |
 | V-219167.c | Medium | nxFileLineRule | nxFileLine |  |
@@ -126,7 +127,6 @@
 | V-219153.a | Low | nxPackageRule | nxPackage |  |
 | V-219157 | High | nxPackageRule | nxPackage |  |
 | V-219158 | High | nxPackageRule | nxPackage |  |
-| V-219159 | Medium | nxPackageRule | nxPackage |  |
 | V-219160.a | Medium | nxPackageRule | nxPackage |  |
 | V-219161 | Medium | nxPackageRule | nxPackage |  |
 | V-219177 | High | nxPackageRule | nxPackage |  |
@@ -173,7 +173,7 @@
 | V-219148 | High | ManualRule |
 | V-219149 | Medium | ManualRule |
 | V-219154 | Low | ManualRule |
-| V-219162 | Low | ManualRule |
+| V-219159 | Medium | ManualRule |
 | V-219163 | Low | ManualRule |
 | V-219168 | Medium | ManualRule |
 | V-219169 | High | ManualRule |

@@ -1,15 +1,15 @@
-# [Windows Server 2016 DC STIG, Version 2.3](https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2016-DC-2.3)
+# [Windows Server 2016 DC STIG, Version 2.5](https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2016-DC-2.5)
 
 **Title:** Microsoft Windows Server 2016 Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 3 Benchmark Date: 01 Nov 2021 3.2.2.36079 1.10.0  
-**FileName:** U_MS_Windows_Server_2016_DC_STIG_V2R3_Manual-xccdf.xml  
-**Created:** 6/27/2022  
+**Release:** Release: 5 Benchmark Date: 14 Nov 2022 3.4.0.34222 1.10.0  
+**FileName:** U_MS_Windows_Server_2016_DC_STIG_V2R5_Manual-xccdf.xml  
+**Created:** 11/30/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **215** of **269** rules are automated; **80%**
+**Total Stig Rule Coverage:** **214** of **268** rules are automated; **80%**
 
 * **High (CAT I):** **20** of **31** rules are automated
-* **Medium (CAT II):** **187** of **225** rules are automated
+* **Medium (CAT II):** **186** of **224** rules are automated
 * **Low (CAT III):** **8** of **13** rules are automated
 
 ## Automated Rules
@@ -184,7 +184,6 @@
 | V-225021.a | Medium | RootCertificateRule | CertificateDSC |  |
 | V-225021.b | Medium | RootCertificateRule | CertificateDSC |  |
 | V-225021.c | Medium | RootCertificateRule | CertificateDSC |  |
-| V-225021.d | Medium | RootCertificateRule | CertificateDSC |  |
 | V-225022.a | Medium | RootCertificateRule | CertificateDSC |  |
 | V-225022.b | Medium | RootCertificateRule | CertificateDSC |  |
 | V-225023 | Medium | RootCertificateRule | CertificateDSC |  |

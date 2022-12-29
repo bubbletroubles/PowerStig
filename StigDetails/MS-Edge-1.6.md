@@ -1,22 +1,22 @@
-# [MS Edge STIG, Version 1.4](https://github.com/Microsoft/PowerStig/wiki/MS-Edge-1.4)
+# [MS Edge STIG, Version 1.6](https://github.com/Microsoft/PowerStig/wiki/MS-Edge-1.6)
 
 **Title:** Microsoft Edge Security Technical Implementation Guide  
 **Version:** 1  
-**Release:** Release: 4 Benchmark Date: 27 Jan 2022 3.2.2.36079 1.10.0  
-**FileName:** U_MS_Edge_V1R4_STIG_Manual-xccdf.xml  
-**Created:** 3/2/2022  
+**Release:** Release: 6 Benchmark Date: 27 Oct 2022 3.4.0.34222 1.10.0  
+**FileName:** U_MS_Edge_V1R6_STIG_Manual-xccdf.xml  
+**Created:** 11/15/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **51** of **56** rules are automated; **91%**
 
 * **High (CAT I):** **1** of **2** rules are automated
-* **Medium (CAT II):** **45** of **48** rules are automated
-* **Low (CAT III):** **5** of **6** rules are automated
+* **Medium (CAT II):** **44** of **44** rules are automated
+* **Low (CAT III):** **6** of **10** rules are automated
 
 ## Automated Rules
 
 | StigRuleId | Severity | RuleType | DscResource | DuplicateOf |
 | :---- | :---- | :---- | :---- | :---- |
-| V-235719 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-235719 | Low | RegistryRule | RegistryPolicyFile |  |
 | V-235720 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-235721 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-235723 | Medium | RegistryRule | RegistryPolicyFile |  |
@@ -73,7 +73,7 @@
 | StigRuleId | Severity | RuleType |
 | :---- | :---- | :---- |
 | V-235722 | Low | DocumentRule |
-| V-235753 | Medium | DocumentRule |
-| V-235755 | Medium | DocumentRule |
+| V-235753 | Low | DocumentRule |
+| V-235755 | Low | DocumentRule |
 | V-235758 | High | ManualRule |
-| V-251694 | Medium | ManualRule |
+| V-251694 | Low | ManualRule |

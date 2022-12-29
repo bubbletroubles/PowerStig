@@ -4,7 +4,7 @@
 **Version:** 1  
 **Release:** Release: 7 Benchmark Date: 27 Apr 2018  
 **FileName:** U_MS_Excel_2013_STIG_V1R7_Manual-xccdf.xml  
-**Created:** 9/6/2019  
+**Created:** 10/11/2022  
 **Description:** The Microsoft Excel 2013 Security Technical Implementation Guide (STIG) is published as a tool to improve the security of Department of Defense (DoD) information systems. Comments or proposed revisions to this document should be sent via e-mail to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **48** of **48** rules are automated; **100%**
 

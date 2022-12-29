@@ -1,15 +1,15 @@
-# [IIS 10-0 Site STIG, Version 2.5](https://github.com/Microsoft/PowerStig/wiki/IISSite-10.0-2.5)
+# [IIS 10-0 Site STIG, Version 2.7](https://github.com/Microsoft/PowerStig/wiki/IISSite-10.0-2.7)
 
 **Title:** Microsoft IIS 10.0 Site Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 5 Benchmark Date: 27 Jan 2022 3.2.2.36079 1.10.0  
-**FileName:** U_MS_IIS_10-0_Site_STIG_V2R5_Manual-xccdf.xml  
-**Created:** 3/1/2022  
+**Release:** Release: 7 Benchmark Date: 27 Oct 2022 3.4.0.34222 1.10.0  
+**FileName:** U_MS_IIS_10-0_Site_STIG_V2R7_Manual-xccdf.xml  
+**Created:** 11/28/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **35** of **50** rules are automated; **70%**
+**Total Stig Rule Coverage:** **34** of **49** rules are automated; **69%**
 
 * **High (CAT I):** **0** of **1** rules are automated
-* **Medium (CAT II):** **35** of **49** rules are automated
+* **Medium (CAT II):** **34** of **48** rules are automated
 * **Low (CAT III):** **0** of **0** rules are automated
 
 ## Automated Rules
@@ -31,7 +31,6 @@
 | V-218762 | Medium | WebAppPoolRule | xWebAppPool |  |
 | V-218772 | Medium | WebAppPoolRule | xWebAppPool |  |
 | V-218775 | Medium | WebAppPoolRule | xWebAppPool |  |
-| V-218776 | Medium | WebAppPoolRule | xWebAppPool |  |
 | V-218777 | Medium | WebAppPoolRule | xWebAppPool |  |
 | V-218778 | Medium | WebAppPoolRule | xWebAppPool |  |
 | V-218735 | Medium | WebConfigurationPropertyRule | xWebConfigKeyValue |  |

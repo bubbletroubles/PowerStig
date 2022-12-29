@@ -1,15 +1,15 @@
-# [RHEL 7 STIG, Version 3.7](https://github.com/Microsoft/PowerStig/wiki/RHEL-7-3.7)
+# [RHEL 7 STIG, Version 3.9](https://github.com/Microsoft/PowerStig/wiki/RHEL-7-3.9)
 
 **Title:** Red Hat Enterprise Linux 7 Security Technical Implementation Guide  
 **Version:** 3  
-**Release:** Release: 7 Benchmark Date: 27 Apr 2022 3.3.0.27375 1.10.0  
-**FileName:** U_RHEL_7_STIG_V3R7_Manual-xccdf.xml  
-**Created:** 6/9/2022  
+**Release:** Release: 9 Benchmark Date: 27 Oct 2022 3.4.0.34222 1.10.0  
+**FileName:** U_RHEL_7_STIG_V3R9_Manual-xccdf.xml  
+**Created:** 12/19/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **161** of **265** rules are automated; **61%**
+**Total Stig Rule Coverage:** **163** of **268** rules are automated; **61%**
 
 * **High (CAT I):** **10** of **26** rules are automated
-* **Medium (CAT II):** **148** of **227** rules are automated
+* **Medium (CAT II):** **150** of **230** rules are automated
 * **Low (CAT III):** **3** of **12** rules are automated
 
 ## Automated Rules
@@ -118,6 +118,8 @@
 | V-204572.b | Medium | nxFileLineRule | nxFileLine |  |
 | V-204578 | Medium | nxFileLineRule | nxFileLine |  |
 | V-204579.b | Medium | nxFileLineRule | nxFileLine |  |
+| V-204579.c | Medium | nxFileLineRule | nxFileLine |  |
+| V-204579.d | Medium | nxFileLineRule | nxFileLine |  |
 | V-204580 | Medium | nxFileLineRule | nxFileLine |  |
 | V-204587 | Medium | nxFileLineRule | nxFileLine |  |
 | V-204588 | Medium | nxFileLineRule | nxFileLine |  |
@@ -286,3 +288,4 @@
 | V-251703 | Medium | ManualRule |
 | V-251704 | Medium | ManualRule |
 | V-251705 | Medium | ManualRule |
+| V-254523 | Medium | ManualRule |

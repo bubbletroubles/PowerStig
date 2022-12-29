@@ -1,10 +1,10 @@
-# [Google Chrome Current Windows, Version 2.5](https://github.com/Microsoft/PowerStig/wiki/Google-Chrome-2.5)
+# [Google Chrome Current Windows, Version 2.7](https://github.com/Microsoft/PowerStig/wiki/Google-Chrome-2.7)
 
 **Title:** Google Chrome Current Windows Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 5 Benchmark Date: 27 Jan 2022 3.2.2.36079 1.10.0  
-**FileName:** U_Google_Chrome_STIG_V2R5_Manual-xccdf.xml  
-**Created:** 3/3/2022  
+**Release:** Release: 7 Benchmark Date: 27 Oct 2022 3.4.0.34222 1.10.0  
+**FileName:** U_Google_Chrome_STIG_V2R7_Manual-xccdf.xml  
+**Created:** 12/1/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **42** of **43** rules are automated; **98%**
 

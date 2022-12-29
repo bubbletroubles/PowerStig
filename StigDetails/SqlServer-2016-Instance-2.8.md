@@ -1,43 +1,43 @@
-# [MS SQL Server 2016 Instance STIG, Version 2.6](https://github.com/Microsoft/PowerStig/wiki/SqlServer-2016-Instance-2.6)
+# [MS SQL Server 2016 Instance STIG, Version 2.8](https://github.com/Microsoft/PowerStig/wiki/SqlServer-2016-Instance-2.8)
 
 **Title:** MS SQL Server 2016 Instance Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 6 Benchmark Date: 27 Jan 2022 3.2.2.36079 1.10.0  
-**FileName:** U_MS_SQL_Server_2016_Instance_STIG_V2R6_Manual-xccdf.xml  
-**Created:** 3/18/2022  
+**Release:** Release: 8 Benchmark Date: 27 Oct 2022 3.4.0.34222 1.10.0  
+**FileName:** U_MS_SQL_Server_2016_Instance_STIG_V2R8_Manual-xccdf.xml  
+**Created:** 11/29/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
 **Total Stig Rule Coverage:** **77** of **136** rules are automated; **57%**
 
-* **High (CAT I):** **3** of **9** rules are automated
-* **Medium (CAT II):** **74** of **125** rules are automated
+* **High (CAT I):** **26** of **34** rules are automated
+* **Medium (CAT II):** **51** of **100** rules are automated
 * **Low (CAT III):** **0** of **2** rules are automated
 
 ## Automated Rules
 
 | StigRuleId | Severity | RuleType | DscResource | DuplicateOf |
 | :---- | :---- | :---- | :---- | :---- |
-| V-213967.a | Medium | RegistryRule | Registry |  |
-| V-213967.b | Medium | RegistryRule | Registry |  |
-| V-213967.c | Medium | RegistryRule | Registry |  |
-| V-213967.d | Medium | RegistryRule | Registry |  |
-| V-213967.e | Medium | RegistryRule | Registry |  |
-| V-213967.f | Medium | RegistryRule | Registry |  |
-| V-213967.g | Medium | RegistryRule | Registry |  |
-| V-213967.h | Medium | RegistryRule | Registry |  |
-| V-213967.i | Medium | RegistryRule | Registry |  |
-| V-213967.j | Medium | RegistryRule | Registry |  |
-| V-213967.k | Medium | RegistryRule | Registry |  |
-| V-213967.l | Medium | RegistryRule | Registry |  |
-| V-213967.m | Medium | RegistryRule | Registry |  |
-| V-213967.n | Medium | RegistryRule | Registry |  |
-| V-213967.o | Medium | RegistryRule | Registry |  |
-| V-213967.p | Medium | RegistryRule | Registry |  |
-| V-213967.q | Medium | RegistryRule | Registry |  |
-| V-213967.r | Medium | RegistryRule | Registry |  |
-| V-213967.s | Medium | RegistryRule | Registry |  |
-| V-213967.t | Medium | RegistryRule | Registry |  |
+| V-213967.a | High | RegistryRule | Registry |  |
+| V-213967.b | High | RegistryRule | Registry |  |
+| V-213967.c | High | RegistryRule | Registry |  |
+| V-213967.d | High | RegistryRule | Registry |  |
+| V-213967.e | High | RegistryRule | Registry |  |
+| V-213967.f | High | RegistryRule | Registry |  |
+| V-213967.g | High | RegistryRule | Registry |  |
+| V-213967.h | High | RegistryRule | Registry |  |
+| V-213967.i | High | RegistryRule | Registry |  |
+| V-213967.j | High | RegistryRule | Registry |  |
+| V-213967.k | High | RegistryRule | Registry |  |
+| V-213967.l | High | RegistryRule | Registry |  |
+| V-213967.m | High | RegistryRule | Registry |  |
+| V-213967.n | High | RegistryRule | Registry |  |
+| V-213967.o | High | RegistryRule | Registry |  |
+| V-213967.p | High | RegistryRule | Registry |  |
+| V-213967.q | High | RegistryRule | Registry |  |
+| V-213967.r | High | RegistryRule | Registry |  |
+| V-213967.s | High | RegistryRule | Registry |  |
+| V-213967.t | High | RegistryRule | Registry |  |
 | V-213968 | High | SecurityOptionRule | SecurityOption |  |
-| V-213969 | Medium | SecurityOptionRule | None | V-213968 |
+| V-213969 | High | SecurityOptionRule | None | V-213968 |
 | V-213971 | Medium | SecurityOptionRule | None | V-213968 |
 | V-214022 | High | SecurityOptionRule | None | V-213968 |
 | V-214023 | High | SecurityOptionRule | None | V-213968 |
@@ -46,7 +46,7 @@
 | V-213954.b | Medium | SqlDatabaseRule | SqlDatabase |  |
 | V-213954.c | Medium | SqlDatabaseRule | SqlDatabase |  |
 | V-213954.d | Medium | SqlDatabaseRule | SqlDatabase |  |
-| V-213964 | Medium | SqlLoginRule | SqlLogin |  |
+| V-213964 | High | SqlLoginRule | SqlLogin |  |
 | V-213961 | Medium | SqlProtocolRule | SqlProtocol |  |
 | V-213938 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
 | V-213939 | Medium | SqlScriptQueryRule | None | V-213938 |
@@ -79,7 +79,7 @@
 | V-214018 | Medium | SqlScriptQueryRule | None | V-214013 |
 | V-214019 | Medium | SqlScriptQueryRule | None | V-213938 |
 | V-214020 | Medium | SqlScriptQueryRule | None | V-213938 |
-| V-214028 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
+| V-214028 | High | SqlScriptQueryRule | SqlScriptQuery |  |
 | V-214029 | Medium | SqlScriptQueryRule | SqlScriptQuery |  |
 | V-213957 | Medium | SqlServerConfigurationRule | SqlServerConfiguration |  |
 | V-213958 | Medium | SqlServerConfigurationRule | SqlServerConfiguration |  |
@@ -99,7 +99,7 @@
 | StigRuleId | Severity | RuleType |
 | :---- | :---- | :---- |
 | V-213929 | Medium | DocumentRule |
-| V-213930 | Medium | DocumentRule |
+| V-213930 | High | DocumentRule |
 | V-213931 | Medium | DocumentRule |
 | V-213932 | High | DocumentRule |
 | V-213933 | Medium | DocumentRule |
@@ -111,7 +111,7 @@
 | V-213949 | Medium | DocumentRule |
 | V-213950 | Medium | DocumentRule |
 | V-213951 | Medium | DocumentRule |
-| V-213952 | Medium | DocumentRule |
+| V-213952 | High | DocumentRule |
 | V-213955 | Medium | DocumentRule |
 | V-213956 | Medium | DocumentRule |
 | V-213959 | Medium | DocumentRule |

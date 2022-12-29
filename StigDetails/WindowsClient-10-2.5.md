@@ -1,16 +1,16 @@
-# [Windows 10 STIG, Version 2.3](https://github.com/Microsoft/PowerStig/wiki/WindowsClient-10-2.3)
+# [MS Windows 10 STIG, Version 2.5](https://github.com/Microsoft/PowerStig/wiki/WindowsClient-10-2.5)
 
-**Title:** Windows 10 Security Technical Implementation Guide  
+**Title:** Microsoft Windows 10 Security Technical Implementation Guide  
 **Version:** 2  
-**Release:** Release: 3 Benchmark Date: 01 Nov 2021 3.2.2.36079 1.10.0  
-**FileName:** U_MS_Windows_10_STIG_V2R3_Manual-xccdf.xml  
-**Created:** 6/27/2022  
+**Release:** Release: 5 Benchmark Date: 14 Nov 2022 3.4.0.34222 1.10.0  
+**FileName:** U_MS_Windows_10_STIG_V2R5_Manual-xccdf.xml  
+**Created:** 11/15/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **248** of **277** rules are automated; **90%**
+**Total Stig Rule Coverage:** **247** of **276** rules are automated; **89%**
 
 * **High (CAT I):** **23** of **27** rules are automated
-* **Medium (CAT II):** **208** of **230** rules are automated
-* **Low (CAT III):** **17** of **20** rules are automated
+* **Medium (CAT II):** **206** of **228** rules are automated
+* **Low (CAT III):** **18** of **21** rules are automated
 
 ## Automated Rules
 
@@ -56,7 +56,6 @@
 | V-220776 | Medium | AuditPolicyRule | AuditPolicySubcategory |  |
 | V-220777 | Medium | AuditPolicyRule | AuditPolicySubcategory |  |
 | V-220778 | Medium | AuditPolicyRule | AuditPolicySubcategory |  |
-| V-220785 | Medium | AuditPolicyRule | AuditPolicySubcategory |  |
 | V-220786 | Medium | AuditPolicyRule | AuditPolicySubcategory |  |
 | V-220787 | Medium | AuditPolicyRule | AuditPolicySubcategory |  |
 | V-220788 | Medium | AuditPolicyRule | AuditPolicySubcategory |  |
@@ -211,13 +210,13 @@
 | V-220951 | Medium | RegistryRule | Registry |  |
 | V-220954 | Low | RegistryRule | RegistryPolicyFile |  |
 | V-220955 | Medium | RegistryRule | RegistryPolicyFile |  |
-| V-250318 | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-250319.a | Medium | RegistryRule | RegistryPolicyFile |  |
 | V-250319.b | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-252896 | Medium | RegistryRule | RegistryPolicyFile |  |
+| V-252903 | Low | RegistryRule | RegistryPolicyFile |  |
 | V-220903.a | Medium | RootCertificateRule | CertificateDSC |  |
 | V-220903.b | Medium | RootCertificateRule | CertificateDSC |  |
 | V-220903.c | Medium | RootCertificateRule | CertificateDSC |  |
-| V-220903.d | Medium | RootCertificateRule | CertificateDSC |  |
 | V-220905.a | Medium | RootCertificateRule | CertificateDSC |  |
 | V-220905.b | Medium | RootCertificateRule | CertificateDSC |  |
 | V-220906 | Medium | RootCertificateRule | CertificateDSC |  |

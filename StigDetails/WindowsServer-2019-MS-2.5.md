@@ -1,15 +1,15 @@
-# [Windows Server 2019 MS STIG, Version 2.3](https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2019-MS-2.3)
+# [Windows Server 2019 MS STIG, Version 2.3](https://github.com/Microsoft/PowerStig/wiki/WindowsServer-2019-MS-2.5)
 
 **Title:** Microsoft Windows Server 2019 Security Technical Implementation Guide  
 **Version:** 2  
 **Release:** Release: 3 Benchmark Date: 01 Nov 2021 3.2.2.36079 1.10.0  
 **FileName:** U_MS_Windows_Server_2019_MS_STIG_V2R3_Manual-xccdf.xml  
-**Created:** 6/27/2022  
+**Created:** 10/11/2022  
 **Description:** This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.  
-**Total Stig Rule Coverage:** **211** of **243** rules are automated; **87%**
+**Total Stig Rule Coverage:** **210** of **242** rules are automated; **87%**
 
 * **High (CAT I):** **21** of **24** rules are automated
-* **Medium (CAT II):** **181** of **206** rules are automated
+* **Medium (CAT II):** **180** of **205** rules are automated
 * **Low (CAT III):** **9** of **13** rules are automated
 
 ## Automated Rules
@@ -179,7 +179,6 @@
 | V-205648.a | Medium | RootCertificateRule | CertificateDSC |  |
 | V-205648.b | Medium | RootCertificateRule | CertificateDSC |  |
 | V-205648.c | Medium | RootCertificateRule | CertificateDSC |  |
-| V-205648.d | Medium | RootCertificateRule | CertificateDSC |  |
 | V-205649.a | Medium | RootCertificateRule | CertificateDSC |  |
 | V-205649.b | Medium | RootCertificateRule | CertificateDSC |  |
 | V-205650.a | Medium | RootCertificateRule | CertificateDSC |  |
