@@ -10,7 +10,7 @@ If you are interested in how to use PowerSTIG please go [here][GettingStarted].
 
 If you are interested in why you might want to use PowerSTIG, keep reading.
 
-Primarily PowerSTIG uses [PowerShell Desired State Configuration (DSC)](https://docs.microsoft.com/en-us/powershell/scripting/dsc/overview/overview?view=powershell-5.1) to audit and enforce individual STIG rules.
+Primarily PowerSTIG uses [PowerShell Desired State Configuration (DSC)](https://learn.microsoft.com/en-us/powershell/scripting/dsc/overview?view=powershell-5.1) to audit and enforce individual STIG rules.
 Beyond configuration item enforcement and auditing, we maintain the rule metadata i.e. Rule ID, Severity, etc.
 The compliance reporting in DSC combined the STIG rule metadata enables a server to self-report compliance.
 Additionally, we can use the DSC compliance results to automatically create pre-filled STIG viewer checklists.
