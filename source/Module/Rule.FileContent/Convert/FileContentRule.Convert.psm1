@@ -129,6 +129,9 @@ class FileContentRuleConvert : FileContentRule
                 (
                     $CheckContent -Match 'about:config' -and
                     $CheckContent -NotMatch 'Mozilla.cfg'
+                ) -or
+                (
+                    $CheckContent -Match 'about:policies'
                 )
             }
             {

@@ -42,12 +42,27 @@ ReplaceText BeginFileWithComment
 
 foreach ($rule in $rules)
 {
-    ReplaceText (Get-ResourceTitle -Rule $rule)
+    if($rule.RawString -match "about:policies")
     {
-        Path        = "$InstallDirectory\FireFox.cfg"
-        Search      = 'lockPref\("{0}", (.*)\);' -f $rule.Key
-        Type        = 'Text'
-        Text        = 'lockPref("{0}", {1});' -f $rule.Key, (Format-FireFoxPreference -Value $rule.Value)
-        AllowAppend = $true
+        ReplaceText (Get-ResourceTitle -Rule $rule)
+        {
+            Path        = "$InstallDirectory\distribution\policies.json"
+            Search      = '{0}' -f $rule.Key
+            Type        = 'Text'
+            Text        = '"{0}": {1}' -f $rule.Key, (Format-FireFoxPreference -Value $rule.Value)
+            AllowAppend = $true
+        }
+
+    }
+    else
+    {
+        ReplaceText (Get-ResourceTitle -Rule $rule)
+        {
+            Path        = "$InstallDirectory\FireFox.cfg"
+            Search      = 'lockPref\("{0}", (.*)\);' -f $rule.Key
+            Type        = 'Text'
+            Text        = 'lockPref("{0}", {1});' -f $rule.Key, (Format-FireFoxPreference -Value $rule.Value)
+            AllowAppend = $true
+        }
     }
 }

@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+* Update PowerSTIG to successfully parse/apply Mozilla Firefox STIG - Ver 6, Rel 5 : [#1256](https://github.com/microsoft/PowerStig/issues/1256)
+
 ## [4.17.0] - 2023-06-27
 
 * Update PowerSTIG to Parse/Apply Microsoft IIS 10.0 STIG Server V2R9 Site V2R8: [#1242](https://github.com/microsoft/PowerStig/issues/1242)
