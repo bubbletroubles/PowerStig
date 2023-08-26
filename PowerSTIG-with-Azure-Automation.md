@@ -21,7 +21,6 @@ PowerSTIG (3.3.0) has several modules dependenies that will need to be imported 
 * FileContentDsc RequiredVersion: 1.3.0.151
 * GPRegistryPolicyDsc RequiredVersion: 1.2.0
 * nx RequiredVersion: 1.0
-* PolicyFileEditor RequiredVersion: 3.0.1
 * PSDscResources RequiredVersion: 2.12.0.0
 * SecurityPolicyDsc RequiredVersion: 2.10.0.0
 * SqlServerDsc RequiredVersion: 15.1.1
