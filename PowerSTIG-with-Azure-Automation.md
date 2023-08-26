@@ -12,19 +12,23 @@ PowerSTIG (3.3.0) has several modules dependenies that will need to be imported 
 
 * UserVoice feedback and votes can be added here:  https://feedback.azure.com/forums/246290-automation/suggestions/38561443-powerstig-module-import-in-azure-automation 
 
-**Dependencies:** 
+**Dependencies for PowerSTIG 4.17.0:** 
+* AccessControlDsc RequiredVersion: 1.4.3
 * AuditPolicyDsc RequiredVersion: 1.4.0
-* AuditSystemDsc  RequiredVersion: 1.0.0
-* AccessControlDsc RequiredVersion: 1.4.0
-* ComputerManagementDsc RequiredVersion: 6.2.0
-* FileContentDsc RequiredVersion: 1.1.0.108
+* AuditSystemDsc  RequiredVersion: 1.1.0
+* CertificateDsc RequiredVersion: 5.0.0
+* ComputerManagementDsc RequiredVersion: 8.4.0
+* FileContentDsc RequiredVersion: 1.3.0.151
+* GPRegistryPolicyDsc RequiredVersion: 1.2.0
+* nx RequiredVersion: 1.0
 * PolicyFileEditor RequiredVersion: 3.0.1
-* PSDscResources RequiredVersion: 2.10.0.0
-* SecurityPolicyDsc RequiredVersion: 2.4.0.0
-* SqlServerDsc RequiredVersion: 12.1.0.0
-* WindowsDefenderDsc RequiredVersion: 1.0.0.0
-* xWebAdministration RequiredVersion: 2.5.0.0
-* xDnsServer RequiredVersion: 1.11.0.0
+* PSDscResources RequiredVersion: 2.12.0.0
+* SecurityPolicyDsc RequiredVersion: 2.10.0.0
+* SqlServerDsc RequiredVersion: 15.1.1
+* WindowsDefenderDsc RequiredVersion: 2.2.0
+* xDnsServer RequiredVersion: 1.16.0
+* xWebAdministration RequiredVersion: 3.2.0
+
 
 ## Example PowerShell that may be used to import PowerSTIG dependencies
 
