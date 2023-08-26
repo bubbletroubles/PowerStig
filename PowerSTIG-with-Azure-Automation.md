@@ -13,7 +13,7 @@ PowerSTIG (3.3.0) has several modules dependenies that will need to be imported 
 * UserVoice feedback and votes can be added here:  https://feedback.azure.com/forums/246290-automation/suggestions/38561443-powerstig-module-import-in-azure-automation 
 
 **Dependencies:** 
-* AuditPolicyDsc RequiredVersion: 1.2.0
+* AuditPolicyDsc RequiredVersion: 1.4.0
 * AuditSystemDsc  RequiredVersion: 1.0.0
 * AccessControlDsc RequiredVersion: 1.4.0
 * ComputerManagementDsc RequiredVersion: 6.2.0
